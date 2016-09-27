@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Salary</classname>
+  <code>Salary</code>
+  <name>Salary</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}H8zF1cqaWY0LMU17IQqTuw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getMonth()</serialno>
+      <method>getMonth</method>
+      <name>long getMonth()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getMonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getYear()</serialno>
+      <method>getYear</method>
+      <name>long getYear()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getYear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMonth(long month)</serialno>
+      <method>setMonth</method>
+      <name>void setMonth(long month)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setMonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setYear(long year)</serialno>
+      <method>setYear</method>
+      <name>void setYear(long year)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setYear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReason()</serialno>
+      <method>getReason</method>
+      <name>String getReason()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getReason()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgcode(String orgcode)</serialno>
+      <method>setOrgcode</method>
+      <name>void setOrgcode(String orgcode)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setOrgcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatecode(String createcode)</serialno>
+      <method>setCreatecode</method>
+      <name>void setCreatecode(String createcode)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setCreatecode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createcode</code>
+          <name>createcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgcode()</serialno>
+      <method>getOrgcode</method>
+      <name>String getOrgcode()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getOrgcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatecode()</serialno>
+      <method>getCreatecode</method>
+      <name>String getCreatecode()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getCreatecode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(String reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(String reason)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setReason(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPaymentsalaryid()</serialno>
+      <method>getPaymentsalaryid</method>
+      <name>long getPaymentsalaryid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getPaymentsalaryid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPaymentsalaryid(long paymentsalaryid)</serialno>
+      <method>setPaymentsalaryid</method>
+      <name>void setPaymentsalaryid(long paymentsalaryid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setPaymentsalaryid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>paymentsalaryid</code>
+          <name>paymentsalaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getSupplyWages2()</serialno>
+      <method>getSupplyWages2</method>
+      <name>float getSupplyWages2()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getSupplyWages2()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSupplyWages2(float supplyWages2)</serialno>
+      <method>setSupplyWages2</method>
+      <name>void setSupplyWages2(float supplyWages2)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setSupplyWages2(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>supplyWages2</code>
+          <name>supplyWages2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovaltime()</serialno>
+      <method>getApprovaltime</method>
+      <name>String getApprovaltime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getApprovaltime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovaltime(String approvaltime)</serialno>
+      <method>setApprovaltime</method>
+      <name>void setApprovaltime(String approvaltime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setApprovaltime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvaltime</code>
+          <name>approvaltime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalaryid()</serialno>
+      <method>getSalaryid</method>
+      <name>long getSalaryid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getSalaryid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalaryid(long salaryid)</serialno>
+      <method>setSalaryid</method>
+      <name>void setSalaryid(long salaryid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setSalaryid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salaryid</code>
+          <name>salaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensionwelfareadd()</serialno>
+      <method>getPensionwelfareadd</method>
+      <name>float getPensionwelfareadd()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getPensionwelfareadd()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionwelfareadd(float pensionwelfareadd)</serialno>
+      <method>setPensionwelfareadd</method>
+      <name>void setPensionwelfareadd(float pensionwelfareadd)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setPensionwelfareadd(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensionwelfareadd</code>
+          <name>pensionwelfareadd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensionwelfare()</serialno>
+      <method>getPensionwelfare</method>
+      <name>float getPensionwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getPensionwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionwelfare(float pensionwelfare)</serialno>
+      <method>setPensionwelfare</method>
+      <name>void setPensionwelfare(float pensionwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setPensionwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensionwelfare</code>
+          <name>pensionwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getOther1()</serialno>
+      <method>getOther1</method>
+      <name>float getOther1()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getOther1()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOther1(float other1)</serialno>
+      <method>setOther1</method>
+      <name>void setOther1(float other1)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setOther1(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>other1</code>
+          <name>other1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJobwelfaremonth()</serialno>
+      <method>getJobwelfaremonth</method>
+      <name>String getJobwelfaremonth()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getJobwelfaremonth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobwelfaremonth(String jobwelfaremonth)</serialno>
+      <method>setJobwelfaremonth</method>
+      <name>void setJobwelfaremonth(String jobwelfaremonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setJobwelfaremonth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jobwelfaremonth</code>
+          <name>jobwelfaremonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHousewelfareadd()</serialno>
+      <method>getHousewelfareadd</method>
+      <name>float getHousewelfareadd()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getHousewelfareadd()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHousewelfareadd(float housewelfareadd)</serialno>
+      <method>setHousewelfareadd</method>
+      <name>void setHousewelfareadd(float housewelfareadd)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setHousewelfareadd(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>housewelfareadd</code>
+          <name>housewelfareadd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getOther2()</serialno>
+      <method>getOther2</method>
+      <name>float getOther2()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getOther2()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOther2(float other2)</serialno>
+      <method>setOther2</method>
+      <name>void setOther2(float other2)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setOther2(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>other2</code>
+          <name>other2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getGarnishment()</serialno>
+      <method>getGarnishment</method>
+      <name>float getGarnishment()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getGarnishment()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGarnishment(float garnishment)</serialno>
+      <method>setGarnishment</method>
+      <name>void setGarnishment(float garnishment)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setGarnishment(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>garnishment</code>
+          <name>garnishment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMedicalwelfaremonth()</serialno>
+      <method>getMedicalwelfaremonth</method>
+      <name>String getMedicalwelfaremonth()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getMedicalwelfaremonth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalwelfaremonth(String medicalwelfaremonth)</serialno>
+      <method>setMedicalwelfaremonth</method>
+      <name>void setMedicalwelfaremonth(String medicalwelfaremonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setMedicalwelfaremonth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>medicalwelfaremonth</code>
+          <name>medicalwelfaremonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicalwelfare()</serialno>
+      <method>getMedicalwelfare</method>
+      <name>float getMedicalwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getMedicalwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalwelfare(float medicalwelfare)</serialno>
+      <method>setMedicalwelfare</method>
+      <name>void setMedicalwelfare(float medicalwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setMedicalwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicalwelfare</code>
+          <name>medicalwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getJobwelfareadd()</serialno>
+      <method>getJobwelfareadd</method>
+      <name>float getJobwelfareadd()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getJobwelfareadd()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobwelfareadd(float jobwelfareadd)</serialno>
+      <method>setJobwelfareadd</method>
+      <name>void setJobwelfareadd(float jobwelfareadd)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setJobwelfareadd(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>jobwelfareadd</code>
+          <name>jobwelfareadd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getJobwelfare()</serialno>
+      <method>getJobwelfare</method>
+      <name>float getJobwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getJobwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobwelfare(float jobwelfare)</serialno>
+      <method>setJobwelfare</method>
+      <name>void setJobwelfare(float jobwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setJobwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>jobwelfare</code>
+          <name>jobwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicalwelfareadd()</serialno>
+      <method>getMedicalwelfareadd</method>
+      <name>float getMedicalwelfareadd()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getMedicalwelfareadd()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalwelfareadd(float medicalwelfareadd)</serialno>
+      <method>setMedicalwelfareadd</method>
+      <name>void setMedicalwelfareadd(float medicalwelfareadd)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setMedicalwelfareadd(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicalwelfareadd</code>
+          <name>medicalwelfareadd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getTax()</serialno>
+      <method>getTax</method>
+      <name>float getTax()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getTax()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTax(float tax)</serialno>
+      <method>setTax</method>
+      <name>void setTax(float tax)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setTax(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>tax</code>
+          <name>tax</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHousewelfare()</serialno>
+      <method>getHousewelfare</method>
+      <name>float getHousewelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getHousewelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHousewelfare(float housewelfare)</serialno>
+      <method>setHousewelfare</method>
+      <name>void setHousewelfare(float housewelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setHousewelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>housewelfare</code>
+          <name>housewelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreattime()</serialno>
+      <method>getCreattime</method>
+      <name>String getCreattime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getCreattime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreattime(String creattime)</serialno>
+      <method>setCreattime</method>
+      <name>void setCreattime(String creattime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setCreattime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>creattime</code>
+          <name>creattime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPensionwelfaremonth()</serialno>
+      <method>getPensionwelfaremonth</method>
+      <name>String getPensionwelfaremonth()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getPensionwelfaremonth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionwelfaremonth(String pensionwelfaremonth)</serialno>
+      <method>setPensionwelfaremonth</method>
+      <name>void setPensionwelfaremonth(String pensionwelfaremonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setPensionwelfaremonth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pensionwelfaremonth</code>
+          <name>pensionwelfaremonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getReward()</serialno>
+      <method>getReward</method>
+      <name>float getReward()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getReward()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReward(float reward)</serialno>
+      <method>setReward</method>
+      <name>void setReward(float reward)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setReward(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>reward</code>
+          <name>reward</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getApproved()</serialno>
+      <method>getApproved</method>
+      <name>long getApproved()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salary.getApproved()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApproved(long approved)</serialno>
+      <method>setApproved</method>
+      <name>void setApproved(long approved)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setApproved(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>approved</code>
+          <name>approved</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHousingmonth()</serialno>
+      <method>getHousingmonth</method>
+      <name>String getHousingmonth()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salary.getHousingmonth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHousingmonth(String housingmonth)</serialno>
+      <method>setHousingmonth</method>
+      <name>void setHousingmonth(String housingmonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setHousingmonth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>housingmonth</code>
+          <name>housingmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getRealWages()</serialno>
+      <method>getRealWages</method>
+      <name>float getRealWages()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getRealWages()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRealWages(float realWages)</serialno>
+      <method>setRealWages</method>
+      <name>void setRealWages(float realWages)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setRealWages(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>realWages</code>
+          <name>realWages</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getBasicWages()</serialno>
+      <method>getBasicWages</method>
+      <name>float getBasicWages()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getBasicWages()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBasicWages(float basicWages)</serialno>
+      <method>setBasicWages</method>
+      <name>void setBasicWages(float basicWages)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setBasicWages(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>basicWages</code>
+          <name>basicWages</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getSupplyWages()</serialno>
+      <method>getSupplyWages</method>
+      <name>float getSupplyWages()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salary.getSupplyWages()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSupplyWages(float supplyWages)</serialno>
+      <method>setSupplyWages</method>
+      <name>void setSupplyWages(float supplyWages)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salary.setSupplyWages(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>supplyWages</code>
+          <name>supplyWages</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.bean.Param</classname>
+  <code>Param</code>
+  <name>Param</name>
+  <packages>com.tellhow.investment.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}yfF36nLGupJ/bO+NiBWZZA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String toString()</serialno>
+      <method>toString</method>
+      <name>String toString()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.Param.toString()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getCategory()</serialno>
+      <method>getCategory</method>
+      <name>long getCategory()</name>
+      <genericname>public long com.tellhow.investment.bean.Param.getCategory()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParamName()</serialno>
+      <method>getParamName</method>
+      <name>String getParamName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.Param.getParamName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParamName(String paramName)</serialno>
+      <method>setParamName</method>
+      <name>void setParamName(String paramName)</name>
+      <genericname>public void com.tellhow.investment.bean.Param.setParamName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paramName</code>
+          <name>paramName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(long category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(long category)</name>
+      <genericname>public void com.tellhow.investment.bean.Param.setCategory(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSortNumber()</serialno>
+      <method>getSortNumber</method>
+      <name>long getSortNumber()</name>
+      <genericname>public long com.tellhow.investment.bean.Param.getSortNumber()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSortNumber(long sortNumber)</serialno>
+      <method>setSortNumber</method>
+      <name>void setSortNumber(long sortNumber)</name>
+      <genericname>public void com.tellhow.investment.bean.Param.setSortNumber(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sortNumber</code>
+          <name>sortNumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIsHidden()</serialno>
+      <method>getIsHidden</method>
+      <name>long getIsHidden()</name>
+      <genericname>public long com.tellhow.investment.bean.Param.getIsHidden()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsHidden(long isHidden)</serialno>
+      <method>setIsHidden</method>
+      <name>void setIsHidden(long isHidden)</name>
+      <genericname>public void com.tellhow.investment.bean.Param.setIsHidden(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>isHidden</code>
+          <name>isHidden</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getParamID()</serialno>
+      <method>getParamID</method>
+      <name>long getParamID()</name>
+      <genericname>public long com.tellhow.investment.bean.Param.getParamID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParamID(long paramID)</serialno>
+      <method>setParamID</method>
+      <name>void setParamID(long paramID)</name>
+      <genericname>public void com.tellhow.investment.bean.Param.setParamID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>paramID</code>
+          <name>paramID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

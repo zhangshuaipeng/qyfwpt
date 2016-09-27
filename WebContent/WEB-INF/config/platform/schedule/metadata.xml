@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>ScheduleModel</code>
+    <name>定时服务</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model</catalog>
+    <item>ScheduleModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.dao.ILandProjectDao</classname>
+  <code>ILandProjectDao</code>
+  <name>ILandProjectDao</name>
+  <packages>com.tellhow.landpurchase.dao</packages>
+  <type>biz</type>
+  <crc>{MD5}91wIoNm7RbalTd+u7Q5hiw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+</model.biz.ClassModel>

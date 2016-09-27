@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>UserModel</code>
+    <name>帐号</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.project</catalog>
+    <item>UserModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

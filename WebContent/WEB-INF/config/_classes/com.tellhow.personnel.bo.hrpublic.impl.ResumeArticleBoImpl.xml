@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.hrpublic.impl.ResumeArticleBoImpl</classname>
+  <code>ResumeArticleBoImpl</code>
+  <name>ResumeArticleBoImpl</name>
+  <packages>com.tellhow.personnel.bo.hrpublic.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}nEouPgWs3XaOKIW8hTsKqA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Hrdresssize findArticleByResumeid(String resumeid,String articleid)</serialno>
+      <method>findArticleByResumeid</method>
+      <name>Hrdresssize findArticleByResumeid(String resumeid,String articleid)</name>
+      <genericname>public com.tellhow.personnel.bean.resume.Hrdresssize com.tellhow.personnel.bo.hrpublic.impl.ResumeArticleBoImpl.findArticleByResumeid(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Hrdresssize</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Hrdresssize findArticleByResumeid(String resumeid)</serialno>
+      <method>findArticleByResumeid</method>
+      <name>Hrdresssize findArticleByResumeid(String resumeid)</name>
+      <genericname>public com.tellhow.personnel.bean.resume.Hrdresssize com.tellhow.personnel.bo.hrpublic.impl.ResumeArticleBoImpl.findArticleByResumeid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Hrdresssize</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addArticle(Hrdresssize hrdresssize)</serialno>
+      <method>addArticle</method>
+      <name>void addArticle(Hrdresssize hrdresssize)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrpublic.impl.ResumeArticleBoImpl.addArticle(com.tellhow.personnel.bean.resume.Hrdresssize) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrdresssize</type>
+          <code>hrdresssize</code>
+          <name>hrdresssize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateArticle(Hrdresssize hrdresssize)</serialno>
+      <method>updateArticle</method>
+      <name>void updateArticle(Hrdresssize hrdresssize)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrpublic.impl.ResumeArticleBoImpl.updateArticle(com.tellhow.personnel.bean.resume.Hrdresssize) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrdresssize</type>
+          <code>hrdresssize</code>
+          <name>hrdresssize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

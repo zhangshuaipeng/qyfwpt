@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.dict.DictUtil</classname>
+  <code>DictUtil</code>
+  <name>DictUtil</name>
+  <packages>com.siqiansoft.framework.dict</packages>
+  <type>biz</type>
+  <crc>{MD5}0fwem0gdlZL2Az+2Qpmv6Q==</crc>
+  <modifytime>2013-01-08 17:37:34</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>loadProps(HttpServletResponse)</serialno>
+      <method>loadProps</method>
+      <name>loadProps(HttpServletResponse)</name>
+      <genericname>public void com.siqiansoft.framework.dict.DictUtil.loadProps(javax.servlet.http.HttpServletResponse)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletResponse</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

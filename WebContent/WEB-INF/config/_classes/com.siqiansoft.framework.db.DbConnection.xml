@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.DbConnection</classname>
+  <code>DbConnection</code>
+  <name>DbConnection</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}GXUkktoA5j0JyMnMQfUV4w==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void close()</serialno>
+      <method>close</method>
+      <name>void close()</name>
+      <genericname>public void com.siqiansoft.framework.db.DbConnection.close() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Connection getConnection()</serialno>
+      <method>getConnection</method>
+      <name>Connection getConnection()</name>
+      <genericname>public java.sql.Connection com.siqiansoft.framework.db.DbConnection.getConnection()</genericname>
+      <retclass>Connection</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void commit()</serialno>
+      <method>commit</method>
+      <name>void commit()</name>
+      <genericname>public void com.siqiansoft.framework.db.DbConnection.commit() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void rollback()</serialno>
+      <method>rollback</method>
+      <name>void rollback()</name>
+      <genericname>public void com.siqiansoft.framework.db.DbConnection.rollback() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAutoCommit(boolean bAutoCommit)</serialno>
+      <method>setAutoCommit</method>
+      <name>void setAutoCommit(boolean bAutoCommit)</name>
+      <genericname>public void com.siqiansoft.framework.db.DbConnection.setAutoCommit(boolean) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bAutoCommit</code>
+          <name>bAutoCommit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DsnModel getDSN()</serialno>
+      <method>getDSN</method>
+      <name>DsnModel getDSN()</name>
+      <genericname>public com.siqiansoft.framework.model.db.DsnModel com.siqiansoft.framework.db.DbConnection.getDSN()</genericname>
+      <retclass>DsnModel</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

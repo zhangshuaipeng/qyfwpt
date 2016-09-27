@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.BzsRptLookPrjVo</classname>
+  <code>BzsRptLookPrjVo</code>
+  <name>BzsRptLookPrjVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}L02J219JUUiUwse3mii8rQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getBaseURL()</serialno>
+      <method>getBaseURL</method>
+      <name>String getBaseURL()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsRptLookPrjVo.getBaseURL()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJqgridModel()</serialno>
+      <method>getJqgridModel</method>
+      <name>String getJqgridModel()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsRptLookPrjVo.getJqgridModel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJqgridModel(String jqgridModel)</serialno>
+      <method>setJqgridModel</method>
+      <name>void setJqgridModel(String jqgridModel)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setJqgridModel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jqgridModel</code>
+          <name>jqgridModel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartupDateFrom()</serialno>
+      <method>getStartupDateFrom</method>
+      <name>String getStartupDateFrom()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsRptLookPrjVo.getStartupDateFrom()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartupDateFrom(String startupDateFrom)</serialno>
+      <method>setStartupDateFrom</method>
+      <name>void setStartupDateFrom(String startupDateFrom)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setStartupDateFrom(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startupDateFrom</code>
+          <name>startupDateFrom</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartupDateTo()</serialno>
+      <method>getStartupDateTo</method>
+      <name>String getStartupDateTo()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsRptLookPrjVo.getStartupDateTo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartupDateTo(String startupDateTo)</serialno>
+      <method>setStartupDateTo</method>
+      <name>void setStartupDateTo(String startupDateTo)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setStartupDateTo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startupDateTo</code>
+          <name>startupDateTo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBaseURL(String baseURL)</serialno>
+      <method>setBaseURL</method>
+      <name>void setBaseURL(String baseURL)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setBaseURL(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>baseURL</code>
+          <name>baseURL</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getNodeLevel()</serialno>
+      <method>getNodeLevel</method>
+      <name>int getNodeLevel()</name>
+      <genericname>public int com.tellhow.investment.vo.BzsRptLookPrjVo.getNodeLevel()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeLevel(int nodeLevel)</serialno>
+      <method>setNodeLevel</method>
+      <name>void setNodeLevel(int nodeLevel)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setNodeLevel(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nodeLevel</code>
+          <name>nodeLevel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseNature()</serialno>
+      <method>getEnterpriseNature</method>
+      <name>long getEnterpriseNature()</name>
+      <genericname>public long com.tellhow.investment.vo.BzsRptLookPrjVo.getEnterpriseNature()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseNature(long enterpriseNature)</serialno>
+      <method>setEnterpriseNature</method>
+      <name>void setEnterpriseNature(long enterpriseNature)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setEnterpriseNature(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseNature</code>
+          <name>enterpriseNature</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIndustryType()</serialno>
+      <method>getIndustryType</method>
+      <name>long getIndustryType()</name>
+      <genericname>public long com.tellhow.investment.vo.BzsRptLookPrjVo.getIndustryType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndustryType(long industryType)</serialno>
+      <method>setIndustryType</method>
+      <name>void setIndustryType(long industryType)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setIndustryType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>industryType</code>
+          <name>industryType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProjectType()</serialno>
+      <method>getProjectType</method>
+      <name>int getProjectType()</name>
+      <genericname>public int com.tellhow.investment.vo.BzsRptLookPrjVo.getProjectType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectType(int projectType)</serialno>
+      <method>setProjectType</method>
+      <name>void setProjectType(int projectType)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsRptLookPrjVo.setProjectType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>projectType</code>
+          <name>projectType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

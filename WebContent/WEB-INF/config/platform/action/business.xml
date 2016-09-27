@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>addaction</code>
+    <name>新增</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>addAction</item>
+    <script>void addAction(String system,String module,String page,ActionModel action)</script>
+    <params>system,module,page,action</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>updateaction</code>
+    <name>修改</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>updateAction</item>
+    <script>void updateAction(String system,String module,String page,ActionModel action)</script>
+    <params>system,module,page,action</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>getaction</code>
+    <name>读取</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>getAction</item>
+    <script>ActionModel getAction(String system,String module,String page,String actionid)</script>
+    <params>system,module,page,actionid</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>deleteaction</code>
+    <name>删除</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>deleteActions</item>
+    <script>void deleteActions(String system,String module,String page,String[] selected)</script>
+    <params>system,module,page,selected</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>up</code>
+    <name>上移</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String page,String key)</script>
+    <params>system,module,page,key</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>down</code>
+    <name>下移</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String page,String key)</script>
+    <params>system,module,page,key</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>getallactions</code>
+    <name>取所有操作</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>getAllActions</item>
+    <script>ItemModel[] getAllActions(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>listactions</code>
+    <name>操作类表</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>listActions</item>
+    <script>ActionModel[] listActions(String system,String module,String page)</script>
+    <params>system,module,page</params>
+    <metadata>ActionModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.getDyncType</code>
+    <name>getDyncType</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ActionBo</catalog>
+    <item>getDyncType</item>
+    <script>ItemModel[] getDyncType(String system,String module,String type)</script>
+    <params>system,module,type</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

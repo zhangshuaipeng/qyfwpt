@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>system</code>
+    <name>平台导航树</name>
+    <imgpath>../images/platform</imgpath>
+    <target>TAB</target>
+    <nodes>
+      <business>SystemBo.getSystemListTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>apptree</code>
+    <name>应用入口导航树</name>
+    <async>N</async>
+    <imgpath></imgpath>
+    <nodes>
+      <business>SystemBo.getNavigator</business>
+      <params>LOGIN</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

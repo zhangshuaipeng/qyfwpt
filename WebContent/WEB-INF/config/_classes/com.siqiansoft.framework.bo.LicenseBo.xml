@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.LicenseBo</classname>
+  <code>LicenseBo</code>
+  <name>LicenseBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}QuSvKrgaEGgUZL+CZqqr6w==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void download(HttpServletResponse response)</serialno>
+      <method>download</method>
+      <name>void download(HttpServletResponse response)</name>
+      <genericname>public void com.siqiansoft.framework.bo.LicenseBo.download(javax.servlet.http.HttpServletResponse) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LicenseModel getLicense()</serialno>
+      <method>getLicense</method>
+      <name>LicenseModel getLicense()</name>
+      <genericname>public com.siqiansoft.framework.model.LicenseModel com.siqiansoft.framework.bo.LicenseBo.getLicense() throws java.lang.Exception</genericname>
+      <retclass>LicenseModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveLicense(LicenseModel license)</serialno>
+      <method>saveLicense</method>
+      <name>void saveLicense(LicenseModel license)</name>
+      <genericname>public void com.siqiansoft.framework.bo.LicenseBo.saveLicense(com.siqiansoft.framework.model.LicenseModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LicenseModel</type>
+          <code>license</code>
+          <name>license</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getHostIp()</serialno>
+      <method>getHostIp</method>
+      <name>String[] getHostIp()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.bo.LicenseBo.getHostIp() throws java.lang.Exception</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getHostMac()</serialno>
+      <method>getHostMac</method>
+      <name>String[] getHostMac()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.bo.LicenseBo.getHostMac() throws java.lang.Exception</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

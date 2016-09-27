@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.UserPosition</classname>
+  <code>UserPosition</code>
+  <name>UserPosition</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}7XLYRiURqQ2R3L2bUzaz/Q==</crc>
+  <modifytime>2013-04-07 22:36:53</modifytime>
+</model.biz.ClassModel>

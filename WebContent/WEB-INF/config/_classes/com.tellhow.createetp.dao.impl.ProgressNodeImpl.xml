@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.ProgressNodeImpl</classname>
+  <code>ProgressNodeImpl</code>
+  <name>ProgressNodeImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}SV5gzl+hvxhzZgxrTZF65w==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void upParentNode(String nodeid)</serialno>
+      <method>upParentNode</method>
+      <name>void upParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.ProgressNodeImpl.upParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downParentNode(String nodeid)</serialno>
+      <method>downParentNode</method>
+      <name>void downParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.ProgressNodeImpl.downParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void upChildNode(String nodeid)</serialno>
+      <method>upChildNode</method>
+      <name>void upChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.ProgressNodeImpl.upChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downChildNode(String nodeid)</serialno>
+      <method>downChildNode</method>
+      <name>void downChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.ProgressNodeImpl.downChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProgressEditVo fetchProgressEdit(long progressid,int progressType)</serialno>
+      <method>fetchProgressEdit</method>
+      <name>ProgressEditVo fetchProgressEdit(long progressid,int progressType)</name>
+      <genericname>public com.tellhow.landpurchase.vo.ProgressEditVo com.tellhow.createetp.dao.impl.ProgressNodeImpl.fetchProgressEdit(long,int) throws java.lang.Exception</genericname>
+      <retclass>ProgressEditVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String lastProgressStatus(String progressid,String projectid)</serialno>
+      <method>lastProgressStatus</method>
+      <name>String lastProgressStatus(String progressid,String projectid)</name>
+      <genericname>public java.lang.String com.tellhow.createetp.dao.impl.ProgressNodeImpl.lastProgressStatus(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String selectMinProgress(String projectid)</serialno>
+      <method>selectMinProgress</method>
+      <name>String selectMinProgress(String projectid)</name>
+      <genericname>public java.lang.String com.tellhow.createetp.dao.impl.ProgressNodeImpl.selectMinProgress(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

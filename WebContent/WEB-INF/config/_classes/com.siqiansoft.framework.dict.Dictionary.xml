@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.dict.Dictionary</classname>
+  <code>Dictionary</code>
+  <name>Dictionary</name>
+  <packages>com.siqiansoft.framework.dict</packages>
+  <type>biz</type>
+  <crc>{MD5}W290xHMJd1TyEZq3b4bN+Q==</crc>
+  <modifytime>2013-01-08 17:37:34</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>getItems(String,HashMap&lt;String, String&gt;)</serialno>
+      <method>getItems</method>
+      <name>getItems(String,HashMap&lt;String, String&gt;)</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.dict.Dictionary.getItems(java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>java.lang.Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.util.HashMap</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>getItemValue(String,HashMap&lt;String, String&gt;,String)</serialno>
+      <method>getItemValue</method>
+      <name>getItemValue(String,HashMap&lt;String, String&gt;,String)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.dict.Dictionary.getItemValue(java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;,java.lang.String)</genericname>
+      <retclass>java.lang.String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.util.HashMap</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

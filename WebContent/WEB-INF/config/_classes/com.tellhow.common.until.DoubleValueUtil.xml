@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.DoubleValueUtil</classname>
+  <code>DoubleValueUtil</code>
+  <name>DoubleValueUtil</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}UeUZOapaeZDVDGq5Wrn5tQ==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.tellhow.common.until.DoubleValueUtil.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double add(double v1,double v2,int scale)</serialno>
+      <method>add</method>
+      <name>double add(double v1,double v2,int scale)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.add(double,double,int)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>scale</code>
+          <name>scale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double add(double v1,double v2)</serialno>
+      <method>add</method>
+      <name>double add(double v1,double v2)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.add(double,double)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double round(double v,int scale)</serialno>
+      <method>round</method>
+      <name>double round(double v,int scale)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.round(double,int)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v</code>
+          <name>v</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>scale</code>
+          <name>scale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double sub(double v1,double v2)</serialno>
+      <method>sub</method>
+      <name>double sub(double v1,double v2)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.sub(double,double)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double sub(double v1,double v2,int scale)</serialno>
+      <method>sub</method>
+      <name>double sub(double v1,double v2,int scale)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.sub(double,double,int)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>scale</code>
+          <name>scale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double multiply(double v1,double v2,int scale)</serialno>
+      <method>multiply</method>
+      <name>double multiply(double v1,double v2,int scale)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.multiply(double,double,int)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>scale</code>
+          <name>scale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double multiply(double v1,double v2)</serialno>
+      <method>multiply</method>
+      <name>double multiply(double v1,double v2)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.multiply(double,double)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double div(double v1,double v2,int scale)</serialno>
+      <method>div</method>
+      <name>double div(double v1,double v2,int scale)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.div(double,double,int)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>scale</code>
+          <name>scale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double div(double v1,double v2)</serialno>
+      <method>div</method>
+      <name>double div(double v1,double v2)</name>
+      <genericname>public static double com.tellhow.common.until.DoubleValueUtil.div(double,double)</genericname>
+      <retclass>double</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v1</code>
+          <name>v1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>v2</code>
+          <name>v2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatPercent(Double percent)</serialno>
+      <method>formatPercent</method>
+      <name>String formatPercent(Double percent)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.DoubleValueUtil.formatPercent(java.lang.Double)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Double</type>
+          <code>percent</code>
+          <name>percent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

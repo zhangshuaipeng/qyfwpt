@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.getRecordsetView</code>
+    <name>getRecordsetView</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>getRecordsetView</item>
+    <script>RecordsetViewModel getRecordsetView(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.listRecordsetViews</code>
+    <name>listRecordsetViews</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>listRecordsetViews</item>
+    <script>RecordsetViewModel[] listRecordsetViews(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.saveRecordsetView</code>
+    <name>saveRecordsetView</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>saveRecordsetView</item>
+    <script>void saveRecordsetView(String system,String module,RecordsetViewModel rsv)</script>
+    <params>system,module,rsv</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.updateRecordsetView</code>
+    <name>updateRecordsetView</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>updateRecordsetView</item>
+    <script>void updateRecordsetView(String system,String module,RecordsetViewModel rsv)</script>
+    <params>system,module,rsv</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.deleteReocrdsetViews</code>
+    <name>deleteReocrdsetViews</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>deleteReocrdsetViews</item>
+    <script>void deleteReocrdsetViews(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.listQueryOpts</code>
+    <name>listQueryOpts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>listQueryOpts</item>
+    <script>QueryOptModel[] listQueryOpts(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

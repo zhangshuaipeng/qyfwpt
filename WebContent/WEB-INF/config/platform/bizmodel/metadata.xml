@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>ClassModel</code>
+    <name>类属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.biz</catalog>
+    <item>ClassModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>MethodModel</code>
+    <name>方法属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.biz</catalog>
+    <item>MethodModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ArgumentModel</code>
+    <name>参数属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.biz</catalog>
+    <item>ArgumentModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ColumnModel</code>
+    <name>域属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.db</catalog>
+    <item>ColumnModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

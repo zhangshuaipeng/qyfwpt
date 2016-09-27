@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>树</name>
+    <target>FRAME1</target>
+    <nodes>
+      <business>UserBo.getOrgTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

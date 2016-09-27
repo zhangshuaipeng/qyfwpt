@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>系统导航树</name>
+    <async>N</async>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <nodes>
+      <business>NavigatorBo.getNavigatorTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

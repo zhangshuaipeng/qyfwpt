@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.LayoutModel</classname>
+  <code>LayoutModel</code>
+  <name>LayoutModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}1NG0qhngq84j6s5dP8bImQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.LayoutModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.LayoutModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.LayoutModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.LayoutModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutItemModel[] getItems()</serialno>
+      <method>getItems</method>
+      <name>LayoutItemModel[] getItems()</name>
+      <genericname>public com.siqiansoft.framework.model.view.LayoutItemModel[] com.siqiansoft.framework.model.view.LayoutModel.getItems()</genericname>
+      <retclass>LayoutItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setItems(LayoutItemModel[] items)</serialno>
+      <method>setItems</method>
+      <name>void setItems(LayoutItemModel[] items)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.LayoutModel.setItems(com.siqiansoft.framework.model.view.LayoutItemModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LayoutItemModel[]</type>
+          <code>items</code>
+          <name>items</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyle()</serialno>
+      <method>getStyle</method>
+      <name>String getStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.LayoutModel.getStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyle(String style)</serialno>
+      <method>setStyle</method>
+      <name>void setStyle(String style)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.LayoutModel.setStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>style</code>
+          <name>style</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>style</code>
+      <name>style</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

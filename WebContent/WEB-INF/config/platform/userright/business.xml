@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>RightBo.getRight</code>
+    <name>getRight</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.RightBo</catalog>
+    <item>getRight</item>
+    <script>RightModel getRight(LoginModel login,String code)</script>
+    <params>login,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RightBo.listRights</code>
+    <name>listRights</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.RightBo</catalog>
+    <item>listRights</item>
+    <script>RightModel[] listRights(LoginModel login)</script>
+    <params>login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RightBo.updateRight</code>
+    <name>updateRight</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.RightBo</catalog>
+    <item>updateRight</item>
+    <script>void updateRight(LoginModel login,RightModel right)</script>
+    <params>login,right</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

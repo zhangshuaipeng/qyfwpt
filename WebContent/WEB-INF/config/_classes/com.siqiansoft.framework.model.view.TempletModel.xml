@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.TempletModel</classname>
+  <code>TempletModel</code>
+  <name>TempletModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}Eye81joEVbVethBtx001Lw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyle()</serialno>
+      <method>getStyle</method>
+      <name>String getStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyle(String style)</serialno>
+      <method>setStyle</method>
+      <name>void setStyle(String style)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>style</code>
+          <name>style</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPage()</serialno>
+      <method>getPage</method>
+      <name>String getPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPage(String page)</serialno>
+      <method>setPage</method>
+      <name>void setPage(String page)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTemplet()</serialno>
+      <method>getTemplet</method>
+      <name>String getTemplet()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getTemplet()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTemplet(String templet)</serialno>
+      <method>setTemplet</method>
+      <name>void setTemplet(String templet)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setTemplet(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTempletName(String templetname)</serialno>
+      <method>setTempletName</method>
+      <name>void setTempletName(String templetname)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setTempletName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templetname</code>
+          <name>templetname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTempletName()</serialno>
+      <method>getTempletName</method>
+      <name>String getTempletName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getTempletName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCols(String cols)</serialno>
+      <method>setCols</method>
+      <name>void setCols(String cols)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setCols(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cols</code>
+          <name>cols</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCols()</serialno>
+      <method>getCols</method>
+      <name>String getCols()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getCols()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJsFile(String jsfile)</serialno>
+      <method>setJsFile</method>
+      <name>void setJsFile(String jsfile)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setJsFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsfile</code>
+          <name>jsfile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsFile()</serialno>
+      <method>getJsFile</method>
+      <name>String getJsFile()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getJsFile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHtml5(String html5)</serialno>
+      <method>setHtml5</method>
+      <name>void setHtml5(String html5)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setHtml5(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>html5</code>
+          <name>html5</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHtml5()</serialno>
+      <method>getHtml5</method>
+      <name>String getHtml5()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getHtml5()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApp(String app)</serialno>
+      <method>setApp</method>
+      <name>void setApp(String app)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.TempletModel.setApp(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>app</code>
+          <name>app</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApp()</serialno>
+      <method>getApp</method>
+      <name>String getApp()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.TempletModel.getApp()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>templet</code>
+      <name>templet</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>templetname</code>
+      <name>templetname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>page</code>
+      <name>page</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cols</code>
+      <name>cols</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>style</code>
+      <name>style</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>height</code>
+      <name>height</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jsfile</code>
+      <name>jsfile</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>html5</code>
+      <name>html5</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>app</code>
+      <name>app</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

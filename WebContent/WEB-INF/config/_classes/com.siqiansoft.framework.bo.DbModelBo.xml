@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.DbModelBo</classname>
+  <code>DbModelBo</code>
+  <name>DbModelBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}esUucgFuym6mzrGH2WtieA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createTableLocks()</serialno>
+      <method>createTableLocks</method>
+      <name>void createTableLocks()</name>
+      <genericname>public static void com.siqiansoft.framework.bo.DbModelBo.createTableLocks() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createDbModel(String dsn)</serialno>
+      <method>createDbModel</method>
+      <name>void createDbModel(String dsn)</name>
+      <genericname>public void com.siqiansoft.framework.bo.DbModelBo.createDbModel(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createTableLock(String dsn)</serialno>
+      <method>createTableLock</method>
+      <name>void createTableLock(String dsn)</name>
+      <genericname>public static void com.siqiansoft.framework.bo.DbModelBo.createTableLock(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

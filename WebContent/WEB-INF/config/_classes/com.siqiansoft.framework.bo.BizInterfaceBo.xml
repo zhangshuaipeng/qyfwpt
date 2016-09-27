@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.BizInterfaceBo</classname>
+  <code>BizInterfaceBo</code>
+  <name>BizInterfaceBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}9iodQZPxCT1Z0vS/lRlIPA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getInterfaces()</serialno>
+      <method>getInterfaces</method>
+      <name>ItemModel[] getInterfaces()</name>
+      <genericname>public static com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.framework.bo.BizInterfaceBo.getInterfaces() throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getScript(String iCode)</serialno>
+      <method>getScript</method>
+      <name>String getScript(String iCode)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.bo.BizInterfaceBo.getScript(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>iCode</code>
+          <name>iCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveScript(String iCode,String script)</serialno>
+      <method>saveScript</method>
+      <name>void saveScript(String iCode,String script)</name>
+      <genericname>public static void com.siqiansoft.framework.bo.BizInterfaceBo.saveScript(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>iCode</code>
+          <name>iCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void clearScript(String iCode)</serialno>
+      <method>clearScript</method>
+      <name>void clearScript(String iCode)</name>
+      <genericname>public static void com.siqiansoft.framework.bo.BizInterfaceBo.clearScript(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>iCode</code>
+          <name>iCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

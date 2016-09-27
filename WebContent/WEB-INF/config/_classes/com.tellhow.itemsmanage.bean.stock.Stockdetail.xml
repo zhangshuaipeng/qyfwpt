@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bean.stock.Stockdetail</classname>
+  <code>Stockdetail</code>
+  <name>Stockdetail</name>
+  <packages>com.tellhow.itemsmanage.bean.stock</packages>
+  <type>biz</type>
+  <crc>{MD5}xxagU3ZJoXzI+oyF7cIJPA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getQuantity()</serialno>
+      <method>getQuantity</method>
+      <name>long getQuantity()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getQuantity()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQuantity(long quantity)</serialno>
+      <method>setQuantity</method>
+      <name>void setQuantity(long quantity)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setQuantity(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>quantity</code>
+          <name>quantity</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatortime()</serialno>
+      <method>getOperatortime</method>
+      <name>String getOperatortime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.stock.Stockdetail.getOperatortime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatortime(String operatortime)</serialno>
+      <method>setOperatortime</method>
+      <name>void setOperatortime(String operatortime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setOperatortime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatortime</code>
+          <name>operatortime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticlesizeid()</serialno>
+      <method>getArticlesizeid</method>
+      <name>long getArticlesizeid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getArticlesizeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesizeid(long articlesizeid)</serialno>
+      <method>setArticlesizeid</method>
+      <name>void setArticlesizeid(long articlesizeid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setArticlesizeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getChangestatus()</serialno>
+      <method>getChangestatus</method>
+      <name>long getChangestatus()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getChangestatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangestatus(long changestatus)</serialno>
+      <method>setChangestatus</method>
+      <name>void setChangestatus(long changestatus)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setChangestatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>changestatus</code>
+          <name>changestatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getStockdetailid()</serialno>
+      <method>getStockdetailid</method>
+      <name>long getStockdetailid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getStockdetailid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStockdetailid(long stockdetailid)</serialno>
+      <method>setStockdetailid</method>
+      <name>void setStockdetailid(long stockdetailid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setStockdetailid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>stockdetailid</code>
+          <name>stockdetailid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getChangequantity()</serialno>
+      <method>getChangequantity</method>
+      <name>long getChangequantity()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.stock.Stockdetail.getChangequantity()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangequantity(long changequantity)</serialno>
+      <method>setChangequantity</method>
+      <name>void setChangequantity(long changequantity)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.stock.Stockdetail.setChangequantity(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>changequantity</code>
+          <name>changequantity</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

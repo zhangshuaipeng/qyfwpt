@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>TempletBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTemplet</code>
+    <name>getTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>getTemplet</item>
+    <script>TempletModel getTemplet(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.listTemplets</code>
+    <name>listTemplets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>listTemplets</item>
+    <script>TempletModel[] listTemplets(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.addTemplet</code>
+    <name>addTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>addTemplet</item>
+    <script>void addTemplet(String system,String module,TempletModel templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.updateTemplet</code>
+    <name>updateTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>updateTemplet</item>
+    <script>void updateTemplet(String system,String module,TempletModel templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.deleteTemplets</code>
+    <name>deleteTemplets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>deleteTemplets</item>
+    <script>void deleteTemplets(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.readTemplet</code>
+    <name>readTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>readTemplet</item>
+    <script>String readTemplet(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.saveTemplet</code>
+    <name>saveTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>saveTemplet</item>
+    <script>void saveTemplet(String system,String module,String templet,String content)</script>
+    <params>system,module,templet,content</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.createDefaultTemplet</code>
+    <name>createDefaultTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>createDefaultTemplet</item>
+    <script>void createDefaultTemplet(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.saveHtml5Templet</code>
+    <name>saveHtml5Templet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>saveHtml5Templet</item>
+    <script>void saveHtml5Templet(String system,String module,String templet,String content)</script>
+    <params>system,module,templet,content</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.createHtml5Templet</code>
+    <name>createHtml5Templet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>createHtml5Templet</item>
+    <script>void createHtml5Templet(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.readHtml5Templet</code>
+    <name>readHtml5Templet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TempletBo</catalog>
+    <item>readHtml5Templet</item>
+    <script>String readHtml5Templet(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

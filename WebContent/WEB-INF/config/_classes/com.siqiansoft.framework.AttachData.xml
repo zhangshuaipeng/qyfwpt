@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.AttachData</classname>
+  <code>AttachData</code>
+  <name>AttachData</name>
+  <packages>com.siqiansoft.framework</packages>
+  <type>biz</type>
+  <crc>{MD5}oM1EGBy4s79zXY0E3w3A5w==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean AddFile(String fileId,String sessionId)</serialno>
+      <method>AddFile</method>
+      <name>boolean AddFile(String fileId,String sessionId)</name>
+      <genericname>public boolean com.siqiansoft.framework.AttachData.AddFile(java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileId</code>
+          <name>fileId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sessionId</code>
+          <name>sessionId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void clearFile(String fileId)</serialno>
+      <method>clearFile</method>
+      <name>void clearFile(String fileId)</name>
+      <genericname>public void com.siqiansoft.framework.AttachData.clearFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileId</code>
+          <name>fileId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

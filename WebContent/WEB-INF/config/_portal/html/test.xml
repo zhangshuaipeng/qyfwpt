@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.portal.SubPageModel>
+  <code>test</code>
+  <name>测试</name>
+  <type>htm</type>
+  <css>body {background:blue;}</css>
+  <html>非凡方法弹道导弹jjjjjjjjjjjjjjjjjj</html>
+  <onload>function ontestLoaded() {&#xd;
+   alert(&quot;已经载入!&quot;);&#xd;
+}</onload>
+</model.portal.SubPageModel>

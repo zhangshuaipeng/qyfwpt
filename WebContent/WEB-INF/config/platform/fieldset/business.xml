@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>FieldsetBo.getFieldset</code>
+    <name>getFieldset</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetBo</catalog>
+    <item>getFieldset</item>
+    <script>FieldSetModel getFieldset(String system,String module,String page,String fieldset)</script>
+    <params>system,module,page,fieldset</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetBo.listFieldsets</code>
+    <name>listFieldsets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetBo</catalog>
+    <item>listFieldsets</item>
+    <script>FieldSetModel[] listFieldsets(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetBo.addFieldset</code>
+    <name>addFieldset</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetBo</catalog>
+    <item>addFieldset</item>
+    <script>void addFieldset(String system,String module,String pageCode,FieldSetModel fs)</script>
+    <params>system,module,pageCode,fs</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetBo.updateFieldset</code>
+    <name>updateFieldset</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetBo</catalog>
+    <item>updateFieldset</item>
+    <script>void updateFieldset(String system,String module,String page,FieldSetModel f)</script>
+    <params>system,module,page,f</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetBo.deleteFieldsets</code>
+    <name>deleteFieldsets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetBo</catalog>
+    <item>deleteFieldsets</item>
+    <script>void deleteFieldsets(String system,String module,String page,String[] selected)</script>
+    <params>system,module,page,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

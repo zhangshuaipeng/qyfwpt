@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getFlowChart</code>
+    <name>getFlowChart</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getFlowChart</item>
+    <script>String getFlowChart(String orgCode,String flowCode,String debug)</script>
+    <params>orgCode,flowCode,debug</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowHandler.createInstance</code>
+    <name>createInstance</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.runtime.FlowHandler</catalog>
+    <item>createInstance</item>
+    <script>String createInstance(String flowCode,LoginModel login,String title,HashMap params,String msgType,String debug)</script>
+    <params>flowCode,login,title,params,msgType,debug</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StartupBo.getMyFlow</code>
+    <name>getMyFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StartupBo</catalog>
+    <item>getMyFlow</item>
+    <script>HashMap getMyFlow(LoginModel login)</script>
+    <params>login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StartupBo.beginFlow</code>
+    <name>beginFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StartupBo</catalog>
+    <item>beginFlow</item>
+    <script>HashMap beginFlow(LoginModel login,RequestModel req)</script>
+    <params>login,req</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AclUtil.getFlows</code>
+    <name>getFlows</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.util.AclUtil</catalog>
+    <item>getFlows</item>
+    <script>ArrayList getFlows(String type,LoginModel login,String flowType,String name,PagingModel page)</script>
+    <params>type,login,flowType,name,page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowHandler.getLastWork</code>
+    <name>getLastWork</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.runtime.FlowHandler</catalog>
+    <item>getLastWork</item>
+    <script>HashMap getLastWork(String instanceid)</script>
+    <params>instanceid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

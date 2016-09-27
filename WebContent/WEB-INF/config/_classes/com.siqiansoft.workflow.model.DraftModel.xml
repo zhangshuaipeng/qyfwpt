@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.DraftModel</classname>
+  <code>DraftModel</code>
+  <name>DraftModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}8uQkIs7XxfreNfxw15A8ww==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getContent()</serialno>
+      <method>getContent</method>
+      <name>String getContent()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getData()</serialno>
+      <method>getData</method>
+      <name>String getData()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getData()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartTime()</serialno>
+      <method>getStartTime</method>
+      <name>String getStartTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getStartTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeName()</serialno>
+      <method>getNodeName</method>
+      <name>String getNodeName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getNodeName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeType()</serialno>
+      <method>getNodeType</method>
+      <name>String getNodeType()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getNodeType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setData(String data)</serialno>
+      <method>setData</method>
+      <name>void setData(String data)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setData(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContent(String content)</serialno>
+      <method>setContent</method>
+      <name>void setContent(String content)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeType(String nodetype)</serialno>
+      <method>setNodeType</method>
+      <name>void setNodeType(String nodetype)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setNodeType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodetype</code>
+          <name>nodetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartTime(String starttime)</serialno>
+      <method>setStartTime</method>
+      <name>void setStartTime(String starttime)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setStartTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>starttime</code>
+          <name>starttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInstanceId(String instanceid)</serialno>
+      <method>setInstanceId</method>
+      <name>void setInstanceId(String instanceid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setInstanceId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceid</code>
+          <name>instanceid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInstanceId()</serialno>
+      <method>getInstanceId</method>
+      <name>String getInstanceId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getInstanceId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRights()</serialno>
+      <method>getRights</method>
+      <name>String getRights()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getRights()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeId()</serialno>
+      <method>getNodeId</method>
+      <name>String getNodeId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getNodeId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRights(String rights)</serialno>
+      <method>setRights</method>
+      <name>void setRights(String rights)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setRights(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCtrl(String ctrl)</serialno>
+      <method>setCtrl</method>
+      <name>void setCtrl(String ctrl)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setCtrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ctrl</code>
+          <name>ctrl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCtrl()</serialno>
+      <method>getCtrl</method>
+      <name>String getCtrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getCtrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPersonCode(String personcode)</serialno>
+      <method>setPersonCode</method>
+      <name>void setPersonCode(String personcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setPersonCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>personcode</code>
+          <name>personcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPersonCode()</serialno>
+      <method>getPersonCode</method>
+      <name>String getPersonCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getPersonCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptCode(String deptcode)</serialno>
+      <method>setDeptCode</method>
+      <name>void setDeptCode(String deptcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setDeptCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptcode</code>
+          <name>deptcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeptCode()</serialno>
+      <method>getDeptCode</method>
+      <name>String getDeptCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getDeptCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWid(String wid)</serialno>
+      <method>setWid</method>
+      <name>void setWid(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setWid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeId(String nodeid)</serialno>
+      <method>setNodeId</method>
+      <name>void setNodeId(String nodeid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setNodeId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWid()</serialno>
+      <method>getWid</method>
+      <name>String getWid()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getWid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getComments()</serialno>
+      <method>getComments</method>
+      <name>String getComments()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getComments()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActor(String actor)</serialno>
+      <method>setActor</method>
+      <name>void setActor(String actor)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setActor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actor</code>
+          <name>actor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActor()</serialno>
+      <method>getActor</method>
+      <name>String getActor()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getActor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActorName(String actorname)</serialno>
+      <method>setActorName</method>
+      <name>void setActorName(String actorname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setActorName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actorname</code>
+          <name>actorname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActorName()</serialno>
+      <method>getActorName</method>
+      <name>String getActorName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.DraftModel.getActorName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeName(String nodename)</serialno>
+      <method>setNodeName</method>
+      <name>void setNodeName(String nodename)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setNodeName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodename</code>
+          <name>nodename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setComments(String comments)</serialno>
+      <method>setComments</method>
+      <name>void setComments(String comments)</name>
+      <genericname>public void com.siqiansoft.workflow.model.DraftModel.setComments(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>comments</code>
+          <name>comments</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>wid</code>
+      <name>wid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>instanceid</code>
+      <name>instanceid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actor</code>
+      <name>actor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actorname</code>
+      <name>actorname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>personcode</code>
+      <name>personcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptcode</code>
+      <name>deptcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodeid</code>
+      <name>nodeid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodename</code>
+      <name>nodename</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodetype</code>
+      <name>nodetype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>starttime</code>
+      <name>starttime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>comments</code>
+      <name>comments</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>content</code>
+      <name>content</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>data</code>
+      <name>data</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rights</code>
+      <name>rights</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ctrl</code>
+      <name>ctrl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

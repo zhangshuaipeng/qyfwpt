@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Salarychange</classname>
+  <code>Salarychange</code>
+  <name>Salarychange</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}0CpT+0leQDcXzgqod3N8Tw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatecode(String createcode)</serialno>
+      <method>setCreatecode</method>
+      <name>void setCreatecode(String createcode)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setCreatecode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createcode</code>
+          <name>createcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatetime(String createtime)</serialno>
+      <method>setCreatetime</method>
+      <name>void setCreatetime(String createtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setCreatetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createtime</code>
+          <name>createtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatetime()</serialno>
+      <method>getCreatetime</method>
+      <name>String getCreatetime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychange.getCreatetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatecode()</serialno>
+      <method>getCreatecode</method>
+      <name>String getCreatecode()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychange.getCreatecode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPlanmonth()</serialno>
+      <method>getPlanmonth</method>
+      <name>long getPlanmonth()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getPlanmonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanmonth(long planmonth)</serialno>
+      <method>setPlanmonth</method>
+      <name>void setPlanmonth(long planmonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setPlanmonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>planmonth</code>
+          <name>planmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPlanyear()</serialno>
+      <method>getPlanyear</method>
+      <name>long getPlanyear()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getPlanyear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanyear(long planyear)</serialno>
+      <method>setPlanyear</method>
+      <name>void setPlanyear(long planyear)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setPlanyear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>planyear</code>
+          <name>planyear</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getTotalmoney()</serialno>
+      <method>getTotalmoney</method>
+      <name>float getTotalmoney()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarychange.getTotalmoney()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTotalmoney(float totalmoney)</serialno>
+      <method>setTotalmoney</method>
+      <name>void setTotalmoney(float totalmoney)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setTotalmoney(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>totalmoney</code>
+          <name>totalmoney</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovaltime()</serialno>
+      <method>getApprovaltime</method>
+      <name>String getApprovaltime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychange.getApprovaltime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovaltime(String approvaltime)</serialno>
+      <method>setApprovaltime</method>
+      <name>void setApprovaltime(String approvaltime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setApprovaltime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvaltime</code>
+          <name>approvaltime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalarychangeid()</serialno>
+      <method>getSalarychangeid</method>
+      <name>long getSalarychangeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getSalarychangeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalarychangeid(long salarychangeid)</serialno>
+      <method>setSalarychangeid</method>
+      <name>void setSalarychangeid(long salarychangeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setSalarychangeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salarychangeid</code>
+          <name>salarychangeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getActualmonth()</serialno>
+      <method>getActualmonth</method>
+      <name>long getActualmonth()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getActualmonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActualmonth(long actualmonth)</serialno>
+      <method>setActualmonth</method>
+      <name>void setActualmonth(long actualmonth)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setActualmonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>actualmonth</code>
+          <name>actualmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getApprovalmoney()</serialno>
+      <method>getApprovalmoney</method>
+      <name>float getApprovalmoney()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarychange.getApprovalmoney()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovalmoney(float approvalmoney)</serialno>
+      <method>setApprovalmoney</method>
+      <name>void setApprovalmoney(float approvalmoney)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setApprovalmoney(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>approvalmoney</code>
+          <name>approvalmoney</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSalaryfile()</serialno>
+      <method>getSalaryfile</method>
+      <name>String getSalaryfile()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychange.getSalaryfile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalaryfile(String salaryfile)</serialno>
+      <method>setSalaryfile</method>
+      <name>void setSalaryfile(String salaryfile)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setSalaryfile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>salaryfile</code>
+          <name>salaryfile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getActualyear()</serialno>
+      <method>getActualyear</method>
+      <name>long getActualyear()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychange.getActualyear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActualyear(long actualyear)</serialno>
+      <method>setActualyear</method>
+      <name>void setActualyear(long actualyear)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setActualyear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>actualyear</code>
+          <name>actualyear</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlannumber()</serialno>
+      <method>getPlannumber</method>
+      <name>String getPlannumber()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychange.getPlannumber()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlannumber(String plannumber)</serialno>
+      <method>setPlannumber</method>
+      <name>void setPlannumber(String plannumber)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychange.setPlannumber(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>plannumber</code>
+          <name>plannumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

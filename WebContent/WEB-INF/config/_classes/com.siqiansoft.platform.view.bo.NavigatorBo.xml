@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.NavigatorBo</classname>
+  <code>NavigatorBo</code>
+  <name>NavigatorBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}RgBdQ4ePvvIlGVoIFWvH1g==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel getModule(String system,String id)</serialno>
+      <method>getModule</method>
+      <name>AppItemModel getModule(String system,String id)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel com.siqiansoft.platform.view.bo.NavigatorBo.getModule(java.lang.String,java.lang.String)</genericname>
+      <retclass>AppItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel getSystem(String system)</serialno>
+      <method>getSystem</method>
+      <name>AppItemModel getSystem(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel com.siqiansoft.platform.view.bo.NavigatorBo.getSystem(java.lang.String)</genericname>
+      <retclass>AppItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel[] listModules(String system)</serialno>
+      <method>listModules</method>
+      <name>AppItemModel[] listModules(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel[] com.siqiansoft.platform.view.bo.NavigatorBo.listModules(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AppItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveModule(String system,AppItemModel item)</serialno>
+      <method>saveModule</method>
+      <name>void saveModule(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.saveModule(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateModule(String system,AppItemModel item)</serialno>
+      <method>updateModule</method>
+      <name>void updateModule(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.updateModule(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNavigatorTree()</serialno>
+      <method>getNavigatorTree</method>
+      <name>NodeModel getNavigatorTree()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.NavigatorBo.getNavigatorTree() throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel[] listSystems()</serialno>
+      <method>listSystems</method>
+      <name>AppItemModel[] listSystems()</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel[] com.siqiansoft.platform.view.bo.NavigatorBo.listSystems()</genericname>
+      <retclass>AppItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSystem(AppItemModel item)</serialno>
+      <method>updateSystem</method>
+      <name>void updateSystem(AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.updateSystem(com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void systemUp(String code)</serialno>
+      <method>systemUp</method>
+      <name>void systemUp(String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.systemUp(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void systemDown(String code)</serialno>
+      <method>systemDown</method>
+      <name>void systemDown(String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.systemDown(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel[] listSubSystem(String system)</serialno>
+      <method>listSubSystem</method>
+      <name>AppItemModel[] listSubSystem(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel[] com.siqiansoft.platform.view.bo.NavigatorBo.listSubSystem(java.lang.String)</genericname>
+      <retclass>AppItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void subUp(String system,String module,String sub)</serialno>
+      <method>subUp</method>
+      <name>void subUp(String system,String module,String sub)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.subUp(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sub</code>
+          <name>sub</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void subUp(String system,String code)</serialno>
+      <method>subUp</method>
+      <name>void subUp(String system,String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.subUp(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void subDown(String system,String code)</serialno>
+      <method>subDown</method>
+      <name>void subDown(String system,String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.subDown(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void subDown(String system,String module,String sub)</serialno>
+      <method>subDown</method>
+      <name>void subDown(String system,String module,String sub)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.subDown(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sub</code>
+          <name>sub</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveSub(String system,AppItemModel item)</serialno>
+      <method>saveSub</method>
+      <name>void saveSub(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.saveSub(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel getSub(String system,String sub)</serialno>
+      <method>getSub</method>
+      <name>AppItemModel getSub(String system,String sub)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel com.siqiansoft.platform.view.bo.NavigatorBo.getSub(java.lang.String,java.lang.String)</genericname>
+      <retclass>AppItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sub</code>
+          <name>sub</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSub(String system,AppItemModel item)</serialno>
+      <method>updateSub</method>
+      <name>void updateSub(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.updateSub(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteSub(String system,String[] selected)</serialno>
+      <method>deleteSub</method>
+      <name>void deleteSub(String system,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.deleteSub(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moduleUp(String system,String id)</serialno>
+      <method>moduleUp</method>
+      <name>void moduleUp(String system,String id)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.moduleUp(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moduleDown(String system,String id)</serialno>
+      <method>moduleDown</method>
+      <name>void moduleDown(String system,String id)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.moduleDown(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteModule(String system,String[] selected)</serialno>
+      <method>deleteModule</method>
+      <name>void deleteModule(String system,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.deleteModule(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel[] listSubModule(String system,String modid)</serialno>
+      <method>listSubModule</method>
+      <name>AppItemModel[] listSubModule(String system,String modid)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel[] com.siqiansoft.platform.view.bo.NavigatorBo.listSubModule(java.lang.String,java.lang.String)</genericname>
+      <retclass>AppItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modid</code>
+          <name>modid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveSubModule(String system,String modid,AppItemModel item)</serialno>
+      <method>saveSubModule</method>
+      <name>void saveSubModule(String system,String modid,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.saveSubModule(java.lang.String,java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modid</code>
+          <name>modid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AppItemModel getSubModule(String system,String modid,String submod)</serialno>
+      <method>getSubModule</method>
+      <name>AppItemModel getSubModule(String system,String modid,String submod)</name>
+      <genericname>public com.siqiansoft.framework.model.AppItemModel com.siqiansoft.platform.view.bo.NavigatorBo.getSubModule(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>AppItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modid</code>
+          <name>modid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>submod</code>
+          <name>submod</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSubModule(String system,String modid,AppItemModel item)</serialno>
+      <method>updateSubModule</method>
+      <name>void updateSubModule(String system,String modid,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.updateSubModule(java.lang.String,java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modid</code>
+          <name>modid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteSubMod(String system,String module,String[] selected)</serialno>
+      <method>deleteSubMod</method>
+      <name>void deleteSubMod(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.deleteSubMod(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveSysModule(String system,AppItemModel item)</serialno>
+      <method>saveSysModule</method>
+      <name>void saveSysModule(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.saveSysModule(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSysModule(String system,AppItemModel item)</serialno>
+      <method>updateSysModule</method>
+      <name>void updateSysModule(String system,AppItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.NavigatorBo.updateSysModule(java.lang.String,com.siqiansoft.framework.model.AppItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

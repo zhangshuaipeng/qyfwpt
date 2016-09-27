@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.biz.BizScript</classname>
+  <code>BizScript</code>
+  <name>BizScript</name>
+  <packages>com.siqiansoft.framework.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}hZPTfrp/+EMGOq0QpFMmRQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object runBusiness(BusinessModel biz,HashMap data)</serialno>
+      <method>runBusiness</method>
+      <name>Object runBusiness(BusinessModel biz,HashMap data)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.biz.BizScript.runBusiness(com.siqiansoft.framework.model.biz.BusinessModel,java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>biz</code>
+          <name>biz</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

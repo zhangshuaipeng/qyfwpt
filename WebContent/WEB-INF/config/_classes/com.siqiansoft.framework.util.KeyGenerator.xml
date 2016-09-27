@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.KeyGenerator</classname>
+  <code>KeyGenerator</code>
+  <name>KeyGenerator</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}ttVd0QtvwSuYewpiXfPtcw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getKey()</serialno>
+      <method>getKey</method>
+      <name>long getKey()</name>
+      <genericname>public static synchronized long com.siqiansoft.framework.util.KeyGenerator.getKey()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGlobalKey()</serialno>
+      <method>getGlobalKey</method>
+      <name>String getGlobalKey()</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.KeyGenerator.getGlobalKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

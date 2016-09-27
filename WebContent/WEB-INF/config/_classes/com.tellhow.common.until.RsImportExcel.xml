@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.RsImportExcel</classname>
+  <code>RsImportExcel</code>
+  <name>RsImportExcel</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}Uv669G6Vv+Vi/C8BK9hoAg==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ResumeExeclVo getExcel(String pathname)</serialno>
+      <method>getExcel</method>
+      <name>ResumeExeclVo getExcel(String pathname)</name>
+      <genericname>public com.tellhow.personnel.bean.vo.ResumeExeclVo com.tellhow.common.until.RsImportExcel.getExcel(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ResumeExeclVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pathname</code>
+          <name>pathname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String publicExcel(HSSFCell cell)</serialno>
+      <method>publicExcel</method>
+      <name>String publicExcel(HSSFCell cell)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.RsImportExcel.publicExcel(org.apache.poi.hssf.usermodel.HSSFCell)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HSSFCell</type>
+          <code>cell</code>
+          <name>cell</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMergedRegionValue(Sheet sheet,int row,int column)</serialno>
+      <method>getMergedRegionValue</method>
+      <name>String getMergedRegionValue(Sheet sheet,int row,int column)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.RsImportExcel.getMergedRegionValue(org.apache.poi.ss.usermodel.Sheet,int,int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Sheet</type>
+          <code>sheet</code>
+          <name>sheet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>row</code>
+          <name>row</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>column</code>
+          <name>column</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

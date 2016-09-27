@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.PositionBo</classname>
+  <code>PositionBo</code>
+  <name>PositionBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}1zW5e3Pta+IhJpYmjRtTFg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>PositionModel getPosition(String orgCode,String position)</serialno>
+      <method>getPosition</method>
+      <name>PositionModel getPosition(String orgCode,String position)</name>
+      <genericname>public com.siqiansoft.ou.model.PositionModel com.siqiansoft.ou.bo.PositionBo.getPosition(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PositionModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PositionModel[] getPositions(String orgCode)</serialno>
+      <method>getPositions</method>
+      <name>PositionModel[] getPositions(String orgCode)</name>
+      <genericname>public com.siqiansoft.ou.model.PositionModel[] com.siqiansoft.ou.bo.PositionBo.getPositions(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PositionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createPosition(PositionModel position)</serialno>
+      <method>createPosition</method>
+      <name>void createPosition(PositionModel position)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.createPosition(com.siqiansoft.ou.model.PositionModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PositionModel</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePosition(PositionModel position)</serialno>
+      <method>updatePosition</method>
+      <name>void updatePosition(PositionModel position)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.updatePosition(com.siqiansoft.ou.model.PositionModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PositionModel</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePosition(String orgCode,String position)</serialno>
+      <method>deletePosition</method>
+      <name>void deletePosition(String orgCode,String position)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.deletePosition(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePositions(String orgCode,String[] pks)</serialno>
+      <method>deletePositions</method>
+      <name>void deletePositions(String orgCode,String[] pks)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.deletePositions(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pks</code>
+          <name>pks</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUserToPosition(String orgCode,String user,String position)</serialno>
+      <method>addUserToPosition</method>
+      <name>void addUserToPosition(String orgCode,String user,String position)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.addUserToPosition(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>user</code>
+          <name>user</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeUserFromPosition(String orgCode,String user,String position)</serialno>
+      <method>removeUserFromPosition</method>
+      <name>void removeUserFromPosition(String orgCode,String user,String position)</name>
+      <genericname>public void com.siqiansoft.ou.bo.PositionBo.removeUserFromPosition(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>user</code>
+          <name>user</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PositionModel[] getNextPositions(String orgCode,String position)</serialno>
+      <method>getNextPositions</method>
+      <name>PositionModel[] getNextPositions(String orgCode,String position)</name>
+      <genericname>public com.siqiansoft.ou.model.PositionModel[] com.siqiansoft.ou.bo.PositionBo.getNextPositions(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PositionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PositionModel[] getPositionsByDepts(String orgCode,String dept)</serialno>
+      <method>getPositionsByDepts</method>
+      <name>PositionModel[] getPositionsByDepts(String orgCode,String dept)</name>
+      <genericname>public com.siqiansoft.ou.model.PositionModel[] com.siqiansoft.ou.bo.PositionBo.getPositionsByDepts(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PositionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

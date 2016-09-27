@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>TreeModel</code>
+    <name>树属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.tree</catalog>
+    <item>TreeModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ItemDefineModel</code>
+    <name>树节点属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.tree</catalog>
+    <item>ItemDefineModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

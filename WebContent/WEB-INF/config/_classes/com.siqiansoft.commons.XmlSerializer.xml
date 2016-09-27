@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.XmlSerializer</classname>
+  <code>XmlSerializer</code>
+  <name>XmlSerializer</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}y/gCXrfxrdtKXr5p9+i6ag==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.commons.XmlSerializer.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String toXML(Object obj)</serialno>
+      <method>toXML</method>
+      <name>String toXML(Object obj)</name>
+      <genericname>public java.lang.String com.siqiansoft.commons.XmlSerializer.toXML(java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object fromXMLFile(String strFile)</serialno>
+      <method>fromXMLFile</method>
+      <name>Object fromXMLFile(String strFile)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.XmlSerializer.fromXMLFile(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFile</code>
+          <name>strFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void toXMLFile(Object obj,String strFile)</serialno>
+      <method>toXMLFile</method>
+      <name>void toXMLFile(Object obj,String strFile)</name>
+      <genericname>public void com.siqiansoft.commons.XmlSerializer.toXMLFile(java.lang.Object,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFile</code>
+          <name>strFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object fromXML(String xml)</serialno>
+      <method>fromXML</method>
+      <name>Object fromXML(String xml)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.XmlSerializer.fromXML(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>xml</code>
+          <name>xml</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

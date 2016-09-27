@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.FlowViewUtil</classname>
+  <code>FlowViewUtil</code>
+  <name>FlowViewUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}djq5fY/twnX5u/uxWYWxDQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getFieldValue(HashMap data,String pageId,String fieldset,String fieldId)</serialno>
+      <method>getFieldValue</method>
+      <name>String getFieldValue(HashMap data,String pageId,String fieldset,String fieldId)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.FlowViewUtil.getFieldValue(java.util.HashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;&gt;,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pageId</code>
+          <name>pageId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldId</code>
+          <name>fieldId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFieldValue(HashMap data,String fieldId)</serialno>
+      <method>getFieldValue</method>
+      <name>String getFieldValue(HashMap data,String fieldId)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.FlowViewUtil.getFieldValue(java.util.HashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;&gt;,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldId</code>
+          <name>fieldId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GridModel getGrid(String systemId,String formId,String formVer,boolean bDebug,String gridId)</serialno>
+      <method>getGrid</method>
+      <name>GridModel getGrid(String systemId,String formId,String formVer,boolean bDebug,String gridId)</name>
+      <genericname>public static com.siqiansoft.framework.model.grid.GridModel com.siqiansoft.framework.util.FlowViewUtil.getGrid(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)</genericname>
+      <retclass>GridModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formId</code>
+          <name>formId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formVer</code>
+          <name>formVer</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bDebug</code>
+          <name>bDebug</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridId</code>
+          <name>gridId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveContent(RequestModel req,LoginModel login)</serialno>
+      <method>saveContent</method>
+      <name>void saveContent(RequestModel req,LoginModel login)</name>
+      <genericname>public static void com.siqiansoft.framework.util.FlowViewUtil.saveContent(com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void showPageView(HttpServletRequest request,HttpServletResponse response,RequestModel req)</serialno>
+      <method>showPageView</method>
+      <name>void showPageView(HttpServletRequest request,HttpServletResponse response,RequestModel req)</name>
+      <genericname>public static void com.siqiansoft.framework.util.FlowViewUtil.showPageView(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BusinessModel[] getBusiness(String systemId,String formId,String formVer,boolean bDebug)</serialno>
+      <method>getBusiness</method>
+      <name>BusinessModel[] getBusiness(String systemId,String formId,String formVer,boolean bDebug)</name>
+      <genericname>public static com.siqiansoft.framework.model.biz.BusinessModel[] com.siqiansoft.framework.util.FlowViewUtil.getBusiness(java.lang.String,java.lang.String,java.lang.String,boolean) throws java.lang.Exception</genericname>
+      <retclass>BusinessModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formId</code>
+          <name>formId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formVer</code>
+          <name>formVer</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bDebug</code>
+          <name>bDebug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlowData(String instanceId,String data)</serialno>
+      <method>setFlowData</method>
+      <name>void setFlowData(String instanceId,String data)</name>
+      <genericname>public static void com.siqiansoft.framework.util.FlowViewUtil.setFlowData(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkData(String wid,String data)</serialno>
+      <method>setWorkData</method>
+      <name>void setWorkData(String wid,String data)</name>
+      <genericname>public static void com.siqiansoft.framework.util.FlowViewUtil.setWorkData(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFieldRight(HashMap rights,String pageId,String fieldset,String fieldId)</serialno>
+      <method>getFieldRight</method>
+      <name>String getFieldRight(HashMap rights,String pageId,String fieldset,String fieldId)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.FlowViewUtil.getFieldRight(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt;,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pageId</code>
+          <name>pageId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldId</code>
+          <name>fieldId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isReader(LoginModel login,String flowId,String instanceId)</serialno>
+      <method>isReader</method>
+      <name>boolean isReader(LoginModel login,String flowId,String instanceId)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.FlowViewUtil.isReader(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowId</code>
+          <name>flowId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getFlowFormView(String systemId,String formId,String formVer,boolean bDebug)</serialno>
+      <method>getFlowFormView</method>
+      <name>ViewModel getFlowFormView(String systemId,String formId,String formVer,boolean bDebug)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.framework.util.FlowViewUtil.getFlowFormView(java.lang.String,java.lang.String,java.lang.String,boolean) throws java.lang.Exception</genericname>
+      <retclass>ViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formId</code>
+          <name>formId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formVer</code>
+          <name>formVer</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bDebug</code>
+          <name>bDebug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getFormViewProp(String systemId,String formId,String formVer)</serialno>
+      <method>getFormViewProp</method>
+      <name>ViewModel getFormViewProp(String systemId,String formId,String formVer)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.framework.util.FlowViewUtil.getFormViewProp(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formId</code>
+          <name>formId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formVer</code>
+          <name>formVer</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap createNullForm(LoginModel login,String wid,String systemId,String formId,String formVer,boolean bDebug)</serialno>
+      <method>createNullForm</method>
+      <name>HashMap createNullForm(LoginModel login,String wid,String systemId,String formId,String formVer,boolean bDebug)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;&gt; com.siqiansoft.framework.util.FlowViewUtil.createNullForm(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formId</code>
+          <name>formId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formVer</code>
+          <name>formVer</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bDebug</code>
+          <name>bDebug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean enableRedo(String doneWid)</serialno>
+      <method>enableRedo</method>
+      <name>boolean enableRedo(String doneWid)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.FlowViewUtil.enableRedo(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>doneWid</code>
+          <name>doneWid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

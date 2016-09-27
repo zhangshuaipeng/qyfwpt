@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.model.AttachModel</classname>
+  <code>AttachModel</code>
+  <name>AttachModel</name>
+  <packages>com.siqiansoft.model</packages>
+  <type>biz</type>
+  <crc>{MD5}pCMY2UjgGuarq1O0NO876A==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSourceFile()</serialno>
+      <method>getSourceFile</method>
+      <name>String getSourceFile()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getSourceFile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUpTime()</serialno>
+      <method>getUpTime</method>
+      <name>String getUpTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getUpTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSourceFile(String sourcefile)</serialno>
+      <method>setSourceFile</method>
+      <name>void setSourceFile(String sourcefile)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setSourceFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sourcefile</code>
+          <name>sourcefile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRights()</serialno>
+      <method>getRights</method>
+      <name>String getRights()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getRights()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getFileSize()</serialno>
+      <method>getFileSize</method>
+      <name>int getFileSize()</name>
+      <genericname>public int com.siqiansoft.model.AttachModel.getFileSize()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSavePath()</serialno>
+      <method>getSavePath</method>
+      <name>String getSavePath()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getSavePath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDsn()</serialno>
+      <method>getDsn</method>
+      <name>String getDsn()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getDsn()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDsn(String dsn)</serialno>
+      <method>setDsn</method>
+      <name>void setDsn(String dsn)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setDsn(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEncrypt()</serialno>
+      <method>getEncrypt</method>
+      <name>String getEncrypt()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getEncrypt()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEncrypt(String encrypt)</serialno>
+      <method>setEncrypt</method>
+      <name>void setEncrypt(String encrypt)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setEncrypt(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encrypt</code>
+          <name>encrypt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndexTag(String indextag)</serialno>
+      <method>setIndexTag</method>
+      <name>void setIndexTag(String indextag)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setIndexTag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>indextag</code>
+          <name>indextag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPtable(String ptable)</serialno>
+      <method>setPtable</method>
+      <name>void setPtable(String ptable)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setPtable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ptable</code>
+          <name>ptable</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReadNum(int readnum)</serialno>
+      <method>setReadNum</method>
+      <name>void setReadNum(int readnum)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setReadNum(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>readnum</code>
+          <name>readnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReadRight(String readright)</serialno>
+      <method>setReadRight</method>
+      <name>void setReadRight(String readright)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setReadRight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>readright</code>
+          <name>readright</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRights(String rights)</serialno>
+      <method>setRights</method>
+      <name>void setRights(String rights)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setRights(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUpTime(String uptime)</serialno>
+      <method>setUpTime</method>
+      <name>void setUpTime(String uptime)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setUpTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>uptime</code>
+          <name>uptime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUserCode()</serialno>
+      <method>getUserCode</method>
+      <name>String getUserCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getUserCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserCode(String usercode)</serialno>
+      <method>setUserCode</method>
+      <name>void setUserCode(String usercode)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setUserCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSavePath(String savepath)</serialno>
+      <method>setSavePath</method>
+      <name>void setSavePath(String savepath)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setSavePath(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savepath</code>
+          <name>savepath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSaveFile(String savefile)</serialno>
+      <method>setSaveFile</method>
+      <name>void setSaveFile(String savefile)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setSaveFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savefile</code>
+          <name>savefile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFileType(String filetype)</serialno>
+      <method>setFileType</method>
+      <name>void setFileType(String filetype)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setFileType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filetype</code>
+          <name>filetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFileSize(int filesize)</serialno>
+      <method>setFileSize</method>
+      <name>void setFileSize(int filesize)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setFileSize(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>filesize</code>
+          <name>filesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlagId(String flagid)</serialno>
+      <method>setFlagId</method>
+      <name>void setFlagId(String flagid)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setFlagId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flagid</code>
+          <name>flagid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParentPK(int parentpk)</serialno>
+      <method>setParentPK</method>
+      <name>void setParentPK(int parentpk)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setParentPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>parentpk</code>
+          <name>parentpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.model.AttachModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFileType()</serialno>
+      <method>getFileType</method>
+      <name>String getFileType()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getFileType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getReadNum()</serialno>
+      <method>getReadNum</method>
+      <name>int getReadNum()</name>
+      <genericname>public int com.siqiansoft.model.AttachModel.getReadNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlagId()</serialno>
+      <method>getFlagId</method>
+      <name>String getFlagId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getFlagId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPtable()</serialno>
+      <method>getPtable</method>
+      <name>String getPtable()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getPtable()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getParentPK()</serialno>
+      <method>getParentPK</method>
+      <name>int getParentPK()</name>
+      <genericname>public int com.siqiansoft.model.AttachModel.getParentPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSaveFile()</serialno>
+      <method>getSaveFile</method>
+      <name>String getSaveFile()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getSaveFile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIndexTag()</serialno>
+      <method>getIndexTag</method>
+      <name>String getIndexTag()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getIndexTag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReadRight()</serialno>
+      <method>getReadRight</method>
+      <name>String getReadRight()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AttachModel.getReadRight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachPK(int attachpk)</serialno>
+      <method>setAttachPK</method>
+      <name>void setAttachPK(int attachpk)</name>
+      <genericname>public void com.siqiansoft.model.AttachModel.setAttachPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>attachpk</code>
+          <name>attachpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getAttachPK()</serialno>
+      <method>getAttachPK</method>
+      <name>int getAttachPK()</name>
+      <genericname>public int com.siqiansoft.model.AttachModel.getAttachPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

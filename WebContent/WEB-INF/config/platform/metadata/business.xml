@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>MetaDataBo.getMetaData</code>
+    <name>getMetaData</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MetaDataBo</catalog>
+    <item>getMetaData</item>
+    <script>MetaDataModel[] getMetaData(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MetaDataBo.updateMetaData</code>
+    <name>updateMetaData</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MetaDataBo</catalog>
+    <item>updateMetaData</item>
+    <script>void updateMetaData(String system,String module,MetaDataModel data)</script>
+    <params>system,module,data</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MetaDataBo.listMetaDatas</code>
+    <name>listMetaDatas</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MetaDataBo</catalog>
+    <item>listMetaDatas</item>
+    <script>MetaDataModel[] listMetaDatas(String system,String module,String type)</script>
+    <params>system,module,type</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MetaDataBo.saveMetaData</code>
+    <name>saveMetaData</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MetaDataBo</catalog>
+    <item>saveMetaData</item>
+    <script>void saveMetaData(String system,String module,MetaDataModel data)</script>
+    <params>system,module,data</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MetaDataBo.deleteMetaDatas</code>
+    <name>deleteMetaDatas</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MetaDataBo</catalog>
+    <item>deleteMetaDatas</item>
+    <script>void deleteMetaDatas(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

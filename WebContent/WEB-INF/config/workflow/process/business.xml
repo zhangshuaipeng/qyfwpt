@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>log</code>
+    <name>查询流转日志</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+    <script>select WID,ACTORNAME,NODENAME,ASSIGNERNAME,SUBMITMODE,STARTTIME,ENDTIME,COMMENTS from eap_vw_work where actiontype!=&apos;W&apos;</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>comments</code>
+    <name>意见列表</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+    <script>select WID,ACTORNAME,NODENAME,ASSIGNERNAME,ASSIGNTYPE,ENDTIME,COMMENTS from eap_vw_work</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>update.eap_todo</code>
+    <name>修改</name>
+    <type>dboperand</type>
+    <operand>UPDATE</operand>
+    <catalog>system</catalog>
+    <item>EAP_TODO</item>
+    <metadata>EAP_TODO</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_todo</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_TODO</item>
+    <metadata>EAP_TODO</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.beginSubmit</code>
+    <name>beginSubmit</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>beginSubmit</item>
+    <script>HashMap beginSubmit(String wid,RequestModel req,LoginModel login)</script>
+    <params>wid,req,login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.submitRoute</code>
+    <name>submitRoute</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>submitRoute</item>
+    <script>HashMap submitRoute(String wid,String nextNodeId,RequestModel req)</script>
+    <params>wid,nextNodeId,req</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.submitActor</code>
+    <name>submitActor</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>submitActor</item>
+    <script>HashMap submitActor(String wid,String actors,String actorsname)</script>
+    <params>wid,actors,actorsname</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.submitWork</code>
+    <name>submitWork</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>submitWork</item>
+    <script>HashMap submitWork(String wid,String actors)</script>
+    <params>wid,actors</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.getThreadsWork</code>
+    <name>getThreadsWork</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>getThreadsWork</item>
+    <script>ArrayList getThreadsWork(String wid,LoginModel login)</script>
+    <params>wid,login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.addThreadWork</code>
+    <name>addThreadWork</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>addThreadWork</item>
+    <script>void addThreadWork(String wid,LoginModel login,String userCode)</script>
+    <params>wid,login,userCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProcessBo.deleteThreadsWork</code>
+    <name>deleteThreadsWork</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>deleteThreadsWork</item>
+    <script>void deleteThreadsWork(String wid,LoginModel login,String[] selected)</script>
+    <params>wid,login,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getFlowChart</code>
+    <name>getFlowChart</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getFlowChart</item>
+    <script>String getFlowChart(String instanceId)</script>
+    <params>instanceId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>getthreadswork</code>
+    <name>并发工作</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ProcessBo</catalog>
+    <item>getThreadsWork</item>
+    <script>ArrayList getThreadsWork(String wid,LoginModel login)</script>
+    <params>wid,login</params>
+    <metadata>EAP_TODO</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>instances</code>
+    <name>子流程实例</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

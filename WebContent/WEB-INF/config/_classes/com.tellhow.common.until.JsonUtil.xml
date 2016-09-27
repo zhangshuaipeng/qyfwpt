@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.JsonUtil</classname>
+  <code>JsonUtil</code>
+  <name>JsonUtil</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}c6eAlLSamtwymBZQVl4CVA==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.tellhow.common.until.JsonUtil.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getList4Json(String jsonString,Object pojoValue)</serialno>
+      <method>getList4Json</method>
+      <name>List getList4Json(String jsonString,Object pojoValue)</name>
+      <genericname>public static &lt;T&gt; java.util.List&lt;T&gt; com.tellhow.common.until.JsonUtil.getList4Json(java.lang.String,T)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>pojoValue</code>
+          <name>pojoValue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void printStr(HttpServletResponse response,String obj)</serialno>
+      <method>printStr</method>
+      <name>void printStr(HttpServletResponse response,String obj)</name>
+      <genericname>public static void com.tellhow.common.until.JsonUtil.printStr(javax.servlet.http.HttpServletResponse,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsonString4List(List list)</serialno>
+      <method>getJsonString4List</method>
+      <name>String getJsonString4List(List list)</name>
+      <genericname>public static &lt;T&gt; java.lang.String com.tellhow.common.until.JsonUtil.getJsonString4List(java.util.List&lt;T&gt;)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>list</code>
+          <name>list</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsonString4JavaPOJO(Object javaObj)</serialno>
+      <method>getJsonString4JavaPOJO</method>
+      <name>String getJsonString4JavaPOJO(Object javaObj)</name>
+      <genericname>public static &lt;T&gt; java.lang.String com.tellhow.common.until.JsonUtil.getJsonString4JavaPOJO(T)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>javaObj</code>
+          <name>javaObj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getObject4JsonString(String jsonString,Object pojoCalss)</serialno>
+      <method>getObject4JsonString</method>
+      <name>Object getObject4JsonString(String jsonString,Object pojoCalss)</name>
+      <genericname>public static &lt;T&gt; T com.tellhow.common.until.JsonUtil.getObject4JsonString(java.lang.String,T)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>pojoCalss</code>
+          <name>pojoCalss</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Map getMap4Json(String jsonString)</serialno>
+      <method>getMap4Json</method>
+      <name>Map getMap4Json(String jsonString)</name>
+      <genericname>public static &lt;K,V,E&gt; java.util.Map&lt;K, V&gt; com.tellhow.common.until.JsonUtil.getMap4Json(java.lang.String)</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object[] getObjectArray4Json(String jsonString)</serialno>
+      <method>getObjectArray4Json</method>
+      <name>Object[] getObjectArray4Json(String jsonString)</name>
+      <genericname>public static java.lang.Object[] com.tellhow.common.until.JsonUtil.getObjectArray4Json(java.lang.String)</genericname>
+      <retclass>Object[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getStringArray4Json(String jsonString)</serialno>
+      <method>getStringArray4Json</method>
+      <name>String[] getStringArray4Json(String jsonString)</name>
+      <genericname>public static java.lang.String[] com.tellhow.common.until.JsonUtil.getStringArray4Json(java.lang.String)</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Long[] getLongArray4Json(String jsonString)</serialno>
+      <method>getLongArray4Json</method>
+      <name>Long[] getLongArray4Json(String jsonString)</name>
+      <genericname>public static java.lang.Long[] com.tellhow.common.until.JsonUtil.getLongArray4Json(java.lang.String)</genericname>
+      <retclass>Long[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Integer[] getIntegerArray4Json(String jsonString)</serialno>
+      <method>getIntegerArray4Json</method>
+      <name>Integer[] getIntegerArray4Json(String jsonString)</name>
+      <genericname>public static java.lang.Integer[] com.tellhow.common.until.JsonUtil.getIntegerArray4Json(java.lang.String)</genericname>
+      <retclass>Integer[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Double[] getDoubleArray4Json(String jsonString)</serialno>
+      <method>getDoubleArray4Json</method>
+      <name>Double[] getDoubleArray4Json(String jsonString)</name>
+      <genericname>public static java.lang.Double[] com.tellhow.common.until.JsonUtil.getDoubleArray4Json(java.lang.String)</genericname>
+      <retclass>Double[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonString</code>
+          <name>jsonString</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void printMapJson(HttpServletResponse response,Map map)</serialno>
+      <method>printMapJson</method>
+      <name>void printMapJson(HttpServletResponse response,Map map)</name>
+      <genericname>public static void com.tellhow.common.until.JsonUtil.printMapJson(javax.servlet.http.HttpServletResponse,java.util.Map&lt;java.lang.String, java.lang.Object&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Map</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void printMapJson(HttpServletResponse response,Map map,String datePattern)</serialno>
+      <method>printMapJson</method>
+      <name>void printMapJson(HttpServletResponse response,Map map,String datePattern)</name>
+      <genericname>public static void com.tellhow.common.until.JsonUtil.printMapJson(javax.servlet.http.HttpServletResponse,java.util.Map&lt;java.lang.String, java.lang.Object&gt;,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Map</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>datePattern</code>
+          <name>datePattern</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

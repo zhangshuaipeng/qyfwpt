@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.ControllerBo</classname>
+  <code>ControllerBo</code>
+  <name>ControllerBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}Ov2YVjs1VoPI3K+s7tR4jA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>GridControlModel[] listControls(String system,String module,String gridid)</serialno>
+      <method>listControls</method>
+      <name>GridControlModel[] listControls(String system,String module,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.GridControlModel[] com.siqiansoft.platform.view.bo.grid.ControllerBo.listControls(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>GridControlModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveControl(String system,String module,String gridid,GridControlModel control)</serialno>
+      <method>saveControl</method>
+      <name>void saveControl(String system,String module,String gridid,GridControlModel control)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ControllerBo.saveControl(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridControlModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridControlModel</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateControl(String system,String module,String gridid,GridControlModel control)</serialno>
+      <method>updateControl</method>
+      <name>void updateControl(String system,String module,String gridid,GridControlModel control)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ControllerBo.updateControl(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridControlModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridControlModel</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteControls(String system,String module,String gridid,GridControlModel control)</serialno>
+      <method>deleteControls</method>
+      <name>void deleteControls(String system,String module,String gridid,GridControlModel control)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ControllerBo.deleteControls(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridControlModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridControlModel</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>数据源树</name>
+    <expvalue></expvalue>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <runurl>Y</runurl>
+    <expandall>Y</expandall>
+    <nodes>
+      <business>DbModelBo.getDbModelTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

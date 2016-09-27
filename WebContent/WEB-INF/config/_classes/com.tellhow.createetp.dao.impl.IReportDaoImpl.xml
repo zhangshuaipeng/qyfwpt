@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.IReportDaoImpl</classname>
+  <code>IReportDaoImpl</code>
+  <name>IReportDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}H+FdqfMOCWsdwR6MHAQtxQ==</crc>
+  <modifytime>2013-05-24 13:32:54</modifytime>
+</model.biz.ClassModel>

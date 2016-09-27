@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.model.PositionModel</classname>
+  <code>PositionModel</code>
+  <name>PositionModel</name>
+  <packages>com.siqiansoft.ou.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}DKiMxs7RR69S2ybsKbs4bw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.PositionModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModifyTime(String modifytime)</serialno>
+      <method>setModifyTime</method>
+      <name>void setModifyTime(String modifytime)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setModifyTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modifytime</code>
+          <name>modifytime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModifyTime()</serialno>
+      <method>getModifyTime</method>
+      <name>String getModifyTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getModifyTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeSlice(String timeslice)</serialno>
+      <method>setTimeSlice</method>
+      <name>void setTimeSlice(String timeslice)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setTimeSlice(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timeslice</code>
+          <name>timeslice</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTimeSlice()</serialno>
+      <method>getTimeSlice</method>
+      <name>String getTimeSlice()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getTimeSlice()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptCode(String deptcode)</serialno>
+      <method>setDeptCode</method>
+      <name>void setDeptCode(String deptcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setDeptCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptcode</code>
+          <name>deptcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeptCode()</serialno>
+      <method>getDeptCode</method>
+      <name>String getDeptCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getDeptCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNotes(String notes)</serialno>
+      <method>setNotes</method>
+      <name>void setNotes(String notes)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setNotes(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>notes</code>
+          <name>notes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNotes()</serialno>
+      <method>getNotes</method>
+      <name>String getNotes()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getNotes()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSN(int sn)</serialno>
+      <method>setSN</method>
+      <name>void setSN(int sn)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setSN(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>sn</code>
+          <name>sn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getSN()</serialno>
+      <method>getSN</method>
+      <name>int getSN()</name>
+      <genericname>public int com.siqiansoft.ou.model.PositionModel.getSN()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDescr(String descr)</serialno>
+      <method>setDescr</method>
+      <name>void setDescr(String descr)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setDescr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>descr</code>
+          <name>descr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDescr()</serialno>
+      <method>getDescr</method>
+      <name>String getDescr()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getDescr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParentCode()</serialno>
+      <method>getParentCode</method>
+      <name>String getParentCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getParentCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPersonNum()</serialno>
+      <method>getPersonNum</method>
+      <name>int getPersonNum()</name>
+      <genericname>public int com.siqiansoft.ou.model.PositionModel.getPersonNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJobCode()</serialno>
+      <method>getJobCode</method>
+      <name>String getJobCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getJobCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJobRank()</serialno>
+      <method>getJobRank</method>
+      <name>String getJobRank()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getJobRank()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJobGrade()</serialno>
+      <method>getJobGrade</method>
+      <name>String getJobGrade()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.PositionModel.getJobGrade()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParentCode(String parentcode)</serialno>
+      <method>setParentCode</method>
+      <name>void setParentCode(String parentcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setParentCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parentcode</code>
+          <name>parentcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPersonNum(int personnum)</serialno>
+      <method>setPersonNum</method>
+      <name>void setPersonNum(int personnum)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setPersonNum(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>personnum</code>
+          <name>personnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobCode(String jobcode)</serialno>
+      <method>setJobCode</method>
+      <name>void setJobCode(String jobcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setJobCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jobcode</code>
+          <name>jobcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobRank(String jobrank)</serialno>
+      <method>setJobRank</method>
+      <name>void setJobRank(String jobrank)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setJobRank(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jobrank</code>
+          <name>jobrank</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobGrade(String jobgrade)</serialno>
+      <method>setJobGrade</method>
+      <name>void setJobGrade(String jobgrade)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setJobGrade(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jobgrade</code>
+          <name>jobgrade</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptSeq(int deptseq)</serialno>
+      <method>setDeptSeq</method>
+      <name>void setDeptSeq(int deptseq)</name>
+      <genericname>public void com.siqiansoft.ou.model.PositionModel.setDeptSeq(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>deptseq</code>
+          <name>deptseq</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getDeptSeq()</serialno>
+      <method>getDeptSeq</method>
+      <name>int getDeptSeq()</name>
+      <genericname>public int com.siqiansoft.ou.model.PositionModel.getDeptSeq()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>pk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptcode</code>
+      <name>deptcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>parentcode</code>
+      <name>parentcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>personnum</code>
+      <name>personnum</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>timeslice</code>
+      <name>timeslice</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jobcode</code>
+      <name>jobcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jobrank</code>
+      <name>jobrank</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jobgrade</code>
+      <name>jobgrade</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sn</code>
+      <name>sn</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptseq</code>
+      <name>deptseq</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>notes</code>
+      <name>notes</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>descr</code>
+      <name>descr</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>modifytime</code>
+      <name>modifytime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

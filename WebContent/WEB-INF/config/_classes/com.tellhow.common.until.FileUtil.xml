@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.FileUtil</classname>
+  <code>FileUtil</code>
+  <name>FileUtil</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}//ya9gC4DlK0C6vGHUJXMw==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.tellhow.common.until.FileUtil.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFileName()</serialno>
+      <method>getFileName</method>
+      <name>String getFileName()</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.FileUtil.getFileName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeFile(FileOutputStream fos,String recordValue,String encoding)</serialno>
+      <method>writeFile</method>
+      <name>void writeFile(FileOutputStream fos,String recordValue,String encoding)</name>
+      <genericname>public void com.tellhow.common.until.FileUtil.writeFile(java.io.FileOutputStream,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FileOutputStream</type>
+          <code>fos</code>
+          <name>fos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>recordValue</code>
+          <name>recordValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encoding</code>
+          <name>encoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteFile(String filename)</serialno>
+      <method>deleteFile</method>
+      <name>void deleteFile(String filename)</name>
+      <genericname>public static void com.tellhow.common.until.FileUtil.deleteFile(java.lang.String) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filename</code>
+          <name>filename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String deleteFile(File file)</serialno>
+      <method>deleteFile</method>
+      <name>String deleteFile(File file)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.FileUtil.deleteFile(java.io.File)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFiles(String directory,String suffix)</serialno>
+      <method>getFiles</method>
+      <name>List getFiles(String directory,String suffix)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFiles(java.lang.String,java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>directory</code>
+          <name>directory</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>suffix</code>
+          <name>suffix</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moveFile(List srcFileList,String destDir)</serialno>
+      <method>moveFile</method>
+      <name>void moveFile(List srcFileList,String destDir)</name>
+      <genericname>public static void com.tellhow.common.until.FileUtil.moveFile(java.util.List&lt;java.io.File&gt;,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>srcFileList</code>
+          <name>srcFileList</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destDir</code>
+          <name>destDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moveFile(File srcFile,String destDir)</serialno>
+      <method>moveFile</method>
+      <name>void moveFile(File srcFile,String destDir)</name>
+      <genericname>public static void com.tellhow.common.until.FileUtil.moveFile(java.io.File,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>srcFile</code>
+          <name>srcFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destDir</code>
+          <name>destDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDir(File dir)</serialno>
+      <method>deleteDir</method>
+      <name>void deleteDir(File dir)</name>
+      <genericname>public static void com.tellhow.common.until.FileUtil.deleteDir(java.io.File) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>dir</code>
+          <name>dir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFileExtension(String fileName)</serialno>
+      <method>getFileExtension</method>
+      <name>String getFileExtension(String fileName)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.FileUtil.getFileExtension(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getAllFiles(String dir)</serialno>
+      <method>getAllFiles</method>
+      <name>List getAllFiles(String dir)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getAllFiles(java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dir</code>
+          <name>dir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeOnWindows(FileOutputStream fos,String recordValue,String encoding)</serialno>
+      <method>writeOnWindows</method>
+      <name>void writeOnWindows(FileOutputStream fos,String recordValue,String encoding)</name>
+      <genericname>public void com.tellhow.common.until.FileUtil.writeOnWindows(java.io.FileOutputStream,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FileOutputStream</type>
+          <code>fos</code>
+          <name>fos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>recordValue</code>
+          <name>recordValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encoding</code>
+          <name>encoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeOnUnix(FileOutputStream fos,String recordValue,String encoding)</serialno>
+      <method>writeOnUnix</method>
+      <name>void writeOnUnix(FileOutputStream fos,String recordValue,String encoding)</name>
+      <genericname>public void com.tellhow.common.until.FileUtil.writeOnUnix(java.io.FileOutputStream,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FileOutputStream</type>
+          <code>fos</code>
+          <name>fos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>recordValue</code>
+          <name>recordValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encoding</code>
+          <name>encoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>URL getJarUrlOfClass(Class clazz)</serialno>
+      <method>getJarUrlOfClass</method>
+      <name>URL getJarUrlOfClass(Class clazz)</name>
+      <genericname>public static java.net.URL com.tellhow.common.until.FileUtil.getJarUrlOfClass(java.lang.Class&lt;?&gt;)</genericname>
+      <retclass>URL</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Class</type>
+          <code>clazz</code>
+          <name>clazz</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFilesFromJarWithStar(Class clazz,String fileName)</serialno>
+      <method>getFilesFromJarWithStar</method>
+      <name>List getFilesFromJarWithStar(Class clazz,String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFilesFromJarWithStar(java.lang.Class&lt;?&gt;,java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Class</type>
+          <code>clazz</code>
+          <name>clazz</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFilesFromJarWithStar(File jarFile,String fileName)</serialno>
+      <method>getFilesFromJarWithStar</method>
+      <name>List getFilesFromJarWithStar(File jarFile,String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFilesFromJarWithStar(java.io.File,java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>jarFile</code>
+          <name>jarFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFilesFromJarWithStar(String fileName)</serialno>
+      <method>getFilesFromJarWithStar</method>
+      <name>List getFilesFromJarWithStar(String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFilesFromJarWithStar(java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getCurrentClassPath()</serialno>
+      <method>getCurrentClassPath</method>
+      <name>List getCurrentClassPath()</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getCurrentClassPath()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFileFromPathWithStar(File parentPath,String fileName)</serialno>
+      <method>getFileFromPathWithStar</method>
+      <name>List getFileFromPathWithStar(File parentPath,String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFileFromPathWithStar(java.io.File,java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>parentPath</code>
+          <name>parentPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFileFromClassPathWithStar(String fileName)</serialno>
+      <method>getFileFromClassPathWithStar</method>
+      <name>List getFileFromClassPathWithStar(String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFileFromClassPathWithStar(java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getFileFromCurrentProjectWithStar(Class clazz,String fileName)</serialno>
+      <method>getFileFromCurrentProjectWithStar</method>
+      <name>List getFileFromCurrentProjectWithStar(Class clazz,String fileName)</name>
+      <genericname>public static java.util.List&lt;java.io.File&gt; com.tellhow.common.until.FileUtil.getFileFromCurrentProjectWithStar(java.lang.Class&lt;?&gt;,java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Class</type>
+          <code>clazz</code>
+          <name>clazz</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String mkFile(File file)</serialno>
+      <method>mkFile</method>
+      <name>String mkFile(File file)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.FileUtil.mkFile(java.io.File)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

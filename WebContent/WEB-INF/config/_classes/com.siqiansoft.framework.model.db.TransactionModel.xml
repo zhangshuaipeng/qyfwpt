@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.db.TransactionModel</classname>
+  <code>TransactionModel</code>
+  <name>TransactionModel</name>
+  <packages>com.siqiansoft.framework.model.db</packages>
+  <type>pojo</type>
+  <crc>{MD5}mE9Z985kwi0JS4Q9R3sIYw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getConnections()</serialno>
+      <method>getConnections</method>
+      <name>HashMap getConnections()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.db.DbConnection&gt; com.siqiansoft.framework.model.db.TransactionModel.getConnections()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBegin(long begin)</serialno>
+      <method>setBegin</method>
+      <name>void setBegin(long begin)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.TransactionModel.setBegin(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>begin</code>
+          <name>begin</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getBegin()</serialno>
+      <method>getBegin</method>
+      <name>long getBegin()</name>
+      <genericname>public long com.siqiansoft.framework.model.db.TransactionModel.getBegin()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConnections(HashMap connections)</serialno>
+      <method>setConnections</method>
+      <name>void setConnections(HashMap connections)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.TransactionModel.setConnections(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.db.DbConnection&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>connections</code>
+          <name>connections</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>begin</code>
+      <name>begin</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

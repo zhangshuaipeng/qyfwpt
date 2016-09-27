@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>DomainBo.getScript</code>
+    <name>getScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>getScript</item>
+    <script>String getScript(String code,String action)</script>
+    <params>code,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.listDomains</code>
+    <name>listDomains</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>listDomains</item>
+    <script>DomainModel[] listDomains()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.saveDomain</code>
+    <name>saveDomain</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>saveDomain</item>
+    <script>void saveDomain(DomainModel domain)</script>
+    <params>domain</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.updateDomain</code>
+    <name>updateDomain</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>updateDomain</item>
+    <script>void updateDomain(DomainModel domain)</script>
+    <params>domain</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.updateScript</code>
+    <name>updateScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>updateScript</item>
+    <script>void updateScript(String code,String action,String script)</script>
+    <params>code,action,script</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.deleteDomains</code>
+    <name>deleteDomains</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>deleteDomains</item>
+    <script>void deleteDomains(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DomainBo.getDomain</code>
+    <name>getDomain</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DomainBo</catalog>
+    <item>getDomain</item>
+    <script>DomainModel getDomain(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

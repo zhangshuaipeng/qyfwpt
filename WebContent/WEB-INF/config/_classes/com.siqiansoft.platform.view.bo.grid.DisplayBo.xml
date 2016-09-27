@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.DisplayBo</classname>
+  <code>DisplayBo</code>
+  <name>DisplayBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}Liq0GlbEkuCydiLDi4OpOQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>DisplayModel getDisplay(String system,String module,String grid,String id)</serialno>
+      <method>getDisplay</method>
+      <name>DisplayModel getDisplay(String system,String module,String grid,String id)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DisplayModel com.siqiansoft.platform.view.bo.grid.DisplayBo.getDisplay(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>DisplayModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DisplayModel[] listDisplay(String system,String module,String grid)</serialno>
+      <method>listDisplay</method>
+      <name>DisplayModel[] listDisplay(String system,String module,String grid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DisplayModel[] com.siqiansoft.platform.view.bo.grid.DisplayBo.listDisplay(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>DisplayModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addDisplay(String system,String module,String grid,DisplayModel display)</serialno>
+      <method>addDisplay</method>
+      <name>void addDisplay(String system,String module,String grid,DisplayModel display)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.DisplayBo.addDisplay(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.DisplayModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>DisplayModel</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateDisplay(String system,String module,String grid,DisplayModel display)</serialno>
+      <method>updateDisplay</method>
+      <name>void updateDisplay(String system,String module,String grid,DisplayModel display)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.DisplayBo.updateDisplay(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.DisplayModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>DisplayModel</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDisplay(String system,String module,String grid,String[] selected)</serialno>
+      <method>deleteDisplay</method>
+      <name>void deleteDisplay(String system,String module,String grid,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.DisplayBo.deleteDisplay(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getFieldDictValues(LoginModel login,String system,String module,String grid,String col)</serialno>
+      <method>getFieldDictValues</method>
+      <name>ItemModel[] getFieldDictValues(LoginModel login,String system,String module,String grid,String col)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.platform.view.bo.grid.DisplayBo.getFieldDictValues(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

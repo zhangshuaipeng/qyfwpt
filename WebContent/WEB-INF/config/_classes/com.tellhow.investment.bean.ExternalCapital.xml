@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.bean.ExternalCapital</classname>
+  <code>ExternalCapital</code>
+  <name>ExternalCapital</name>
+  <packages>com.tellhow.investment.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}vXJ+GGlh/zILMVxNoGqKRw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getNodelevel()</serialno>
+      <method>getNodelevel</method>
+      <name>int getNodelevel()</name>
+      <genericname>public int com.tellhow.investment.bean.ExternalCapital.getNodelevel()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodelevel(int nodelevel)</serialno>
+      <method>setNodelevel</method>
+      <name>void setNodelevel(int nodelevel)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setNodelevel(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nodelevel</code>
+          <name>nodelevel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProjectcount()</serialno>
+      <method>getProjectcount</method>
+      <name>int getProjectcount()</name>
+      <genericname>public int com.tellhow.investment.bean.ExternalCapital.getProjectcount()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectcount(int projectcount)</serialno>
+      <method>setProjectcount</method>
+      <name>void setProjectcount(int projectcount)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setProjectcount(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>projectcount</code>
+          <name>projectcount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInvestmentDollar()</serialno>
+      <method>getInvestmentDollar</method>
+      <name>double getInvestmentDollar()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getInvestmentDollar()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvestmentDollar(double investmentDollar)</serialno>
+      <method>setInvestmentDollar</method>
+      <name>void setInvestmentDollar(double investmentDollar)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setInvestmentDollar(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>investmentDollar</code>
+          <name>investmentDollar</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInvestmentRmb()</serialno>
+      <method>getInvestmentRmb</method>
+      <name>double getInvestmentRmb()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getInvestmentRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvestmentRmb(double investmentRmb)</serialno>
+      <method>setInvestmentRmb</method>
+      <name>void setInvestmentRmb(double investmentRmb)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setInvestmentRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>investmentRmb</code>
+          <name>investmentRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getRegisteredcapitalDollar()</serialno>
+      <method>getRegisteredcapitalDollar</method>
+      <name>double getRegisteredcapitalDollar()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getRegisteredcapitalDollar()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredcapitalDollar(double registeredcapitalDollar)</serialno>
+      <method>setRegisteredcapitalDollar</method>
+      <name>void setRegisteredcapitalDollar(double registeredcapitalDollar)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setRegisteredcapitalDollar(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>registeredcapitalDollar</code>
+          <name>registeredcapitalDollar</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getRegisteredcapitalRmb()</serialno>
+      <method>getRegisteredcapitalRmb</method>
+      <name>double getRegisteredcapitalRmb()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getRegisteredcapitalRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredcapitalRmb(double registeredcapitalRmb)</serialno>
+      <method>setRegisteredcapitalRmb</method>
+      <name>void setRegisteredcapitalRmb(double registeredcapitalRmb)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setRegisteredcapitalRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>registeredcapitalRmb</code>
+          <name>registeredcapitalRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getForeigncontractRmb()</serialno>
+      <method>getForeigncontractRmb</method>
+      <name>double getForeigncontractRmb()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getForeigncontractRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setForeigncontractRmb(double foreigncontractRmb)</serialno>
+      <method>setForeigncontractRmb</method>
+      <name>void setForeigncontractRmb(double foreigncontractRmb)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setForeigncontractRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>foreigncontractRmb</code>
+          <name>foreigncontractRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getForeigncontractDollar()</serialno>
+      <method>getForeigncontractDollar</method>
+      <name>double getForeigncontractDollar()</name>
+      <genericname>public double com.tellhow.investment.bean.ExternalCapital.getForeigncontractDollar()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setForeigncontractDollar(double foreigncontractDollar)</serialno>
+      <method>setForeigncontractDollar</method>
+      <name>void setForeigncontractDollar(double foreigncontractDollar)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setForeigncontractDollar(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>foreigncontractDollar</code>
+          <name>foreigncontractDollar</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getNodename()</serialno>
+      <method>getNodename</method>
+      <name>int getNodename()</name>
+      <genericname>public int com.tellhow.investment.bean.ExternalCapital.getNodename()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodename(int nodename)</serialno>
+      <method>setNodename</method>
+      <name>void setNodename(int nodename)</name>
+      <genericname>public void com.tellhow.investment.bean.ExternalCapital.setNodename(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nodename</code>
+          <name>nodename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

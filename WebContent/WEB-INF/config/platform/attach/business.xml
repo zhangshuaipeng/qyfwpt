@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>getattach</code>
+    <name>读取</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.AttachBo</catalog>
+    <item>getAttach</item>
+    <script>AttachmentModel getAttach(String code)</script>
+    <params>code</params>
+    <metadata>AttachmentModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>addattach</code>
+    <name>保存</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.AttachBo</catalog>
+    <item>addAttach</item>
+    <script>void addAttach(AttachmentModel attach)</script>
+    <params>attach</params>
+    <metadata>AttachmentModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>delete</code>
+    <name>删除</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.AttachBo</catalog>
+    <item>deleteAttachs</item>
+    <script>void deleteAttachs(String[] selected)</script>
+    <params>selected</params>
+    <metadata>AttachmentModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>list</code>
+    <name>列表</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.AttachBo</catalog>
+    <item>listAttachs</item>
+    <script>AttachmentModel[] listAttachs()</script>
+    <metadata>AttachmentModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>update</code>
+    <name>修改</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.AttachBo</catalog>
+    <item>updateAttach</item>
+    <script>void updateAttach(AttachmentModel attach)</script>
+    <params>attach</params>
+    <metadata>AttachmentModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

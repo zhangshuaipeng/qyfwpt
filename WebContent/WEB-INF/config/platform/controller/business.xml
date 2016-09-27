@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.getController</code>
+    <name>getController</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>getController</item>
+    <script>ControllerModel getController(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.addController</code>
+    <name>addController</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>addController</item>
+    <script>void addController(String system,String module,ControllerModel ctl)</script>
+    <params>system,module,ctl</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.getOnSubmit</code>
+    <name>getOnSubmit</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>getOnSubmit</item>
+    <script>HandlerModel getOnSubmit(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.listControllers</code>
+    <name>listControllers</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>listControllers</item>
+    <script>ControllerModel[] listControllers(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.updateController</code>
+    <name>updateController</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>updateController</item>
+    <script>void updateController(String system,String module,ControllerModel ctl)</script>
+    <params>system,module,ctl</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.saveOnSubmit</code>
+    <name>saveOnSubmit</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>saveOnSubmit</item>
+    <script>void saveOnSubmit(String system,String module,String action,HandlerModel handler)</script>
+    <params>system,module,action,handler</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.clearOnSubmit</code>
+    <name>clearOnSubmit</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>clearOnSubmit</item>
+    <script>void clearOnSubmit(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.deleteControllers</code>
+    <name>deleteControllers</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>deleteControllers</item>
+    <script>void deleteControllers(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.getImpFieldset</code>
+    <name>getImpFieldset</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>getImpFieldset</item>
+    <script>FieldSetModel[] getImpFieldset(String system,String module,String cmd)</script>
+    <params>system,module,cmd</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.getExpFieldset</code>
+    <name>getExpFieldset</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>getExpFieldset</item>
+    <script>FieldSetModel[] getExpFieldset(String system,String module,String cmd)</script>
+    <params>system,module,cmd</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.loadRightTree</code>
+    <name>loadRightTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>loadRightTree</item>
+    <script>NodeModel loadRightTree(String system,String module,String action,String role)</script>
+    <params>system,module,action,role</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.saveRights</code>
+    <name>saveRights</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>saveRights</item>
+    <script>void saveRights(String system,String module,String action,String role,HashMap map)</script>
+    <params>system,module,action,role,map</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.getDisplayScript</code>
+    <name>getDisplayScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>getDisplayScript</item>
+    <script>String getDisplayScript(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.saveDisplayScript</code>
+    <name>saveDisplayScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>saveDisplayScript</item>
+    <script>void saveDisplayScript(String system,String module,String action,String script)</script>
+    <params>system,module,action,script</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.listPush</code>
+    <name>listPush</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>listPush</item>
+    <script>HandlerModel[] listPush(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.updatePush</code>
+    <name>updatePush</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>updatePush</item>
+    <script>void updatePush(String system,String module,String action,HandlerModel handler)</script>
+    <params>system,module,action,handler</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.listPull</code>
+    <name>listPull</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>listPull</item>
+    <script>HandlerModel[] listPull(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.updatePull</code>
+    <name>updatePull</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ControllerBo</catalog>
+    <item>updatePull</item>
+    <script>void updatePull(String system,String module,String action,HandlerModel handler)</script>
+    <params>system,module,action,handler</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

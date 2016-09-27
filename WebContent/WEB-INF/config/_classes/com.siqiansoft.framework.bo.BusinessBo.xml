@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.BusinessBo</classname>
+  <code>BusinessBo</code>
+  <name>BusinessBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}1MLPmISaLjFDBnV518W5cA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+</model.biz.ClassModel>

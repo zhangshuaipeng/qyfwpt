@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.hrpublic.SocialBaseBo</classname>
+  <code>SocialBaseBo</code>
+  <name>SocialBaseBo</name>
+  <packages>com.tellhow.personnel.bo.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}9DqA2cUtrTPiSQVH/ddtlw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+</model.biz.ClassModel>

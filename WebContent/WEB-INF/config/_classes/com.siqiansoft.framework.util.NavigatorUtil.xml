@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.NavigatorUtil</classname>
+  <code>NavigatorUtil</code>
+  <name>NavigatorUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}mvh7TdwDkkVDfO2TpN0Uow==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void refresh()</serialno>
+      <method>refresh</method>
+      <name>void refresh()</name>
+      <genericname>public static void com.siqiansoft.framework.util.NavigatorUtil.refresh() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getAction(String system,String module,String action)</serialno>
+      <method>getAction</method>
+      <name>HashMap getAction(String system,String module,String action)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.util.NavigatorUtil.getAction(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAction(HttpServletRequest request)</serialno>
+      <method>getAction</method>
+      <name>String getAction(HttpServletRequest request)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.NavigatorUtil.getAction(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void refreshModules(String system,NavigatorModel nav)</serialno>
+      <method>refreshModules</method>
+      <name>void refreshModules(String system,NavigatorModel nav)</name>
+      <genericname>public static void com.siqiansoft.framework.util.NavigatorUtil.refreshModules(java.lang.String,com.siqiansoft.framework.model.NavigatorModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>NavigatorModel</type>
+          <code>nav</code>
+          <name>nav</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void refreshModules(AppItemModel system,NavigatorModel nav)</serialno>
+      <method>refreshModules</method>
+      <name>void refreshModules(AppItemModel system,NavigatorModel nav)</name>
+      <genericname>public static void com.siqiansoft.framework.util.NavigatorUtil.refreshModules(com.siqiansoft.framework.model.AppItemModel,com.siqiansoft.framework.model.NavigatorModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>AppItemModel</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>NavigatorModel</type>
+          <code>nav</code>
+          <name>nav</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

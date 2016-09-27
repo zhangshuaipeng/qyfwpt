@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.hrpublic.ResumeArticleBo</classname>
+  <code>ResumeArticleBo</code>
+  <name>ResumeArticleBo</name>
+  <packages>com.tellhow.personnel.bo.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}BaSAgCYl9hNDfO/anG86lA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+</model.biz.ClassModel>

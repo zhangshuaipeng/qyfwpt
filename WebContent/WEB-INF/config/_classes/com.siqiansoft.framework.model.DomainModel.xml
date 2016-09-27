@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.DomainModel</classname>
+  <code>DomainModel</code>
+  <name>DomainModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}ZexwtiGYGxTlZzQz2YLhnA==</crc>
+  <modifytime>2013-06-16 23:41:07</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.DomainModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.DomainModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCallback()</serialno>
+      <method>getCallback</method>
+      <name>String getCallback()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.DomainModel.getCallback()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getScripts()</serialno>
+      <method>getScripts</method>
+      <name>HashMap getScripts()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.model.DomainModel.getScripts()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.DomainModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAddr()</serialno>
+      <method>getAddr</method>
+      <name>String getAddr()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.DomainModel.getAddr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCallback(String callback)</serialno>
+      <method>setCallback</method>
+      <name>void setCallback(String callback)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setCallback(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>callback</code>
+          <name>callback</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAddr(String addr)</serialno>
+      <method>setAddr</method>
+      <name>void setAddr(String addr)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setAddr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>addr</code>
+          <name>addr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setScripts(HashMap scripts)</serialno>
+      <method>setScripts</method>
+      <name>void setScripts(HashMap scripts)</name>
+      <genericname>public void com.siqiansoft.framework.model.DomainModel.setScripts(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>scripts</code>
+          <name>scripts</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>域号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>域名</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>绑定组织</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>addr</code>
+      <name>域地址</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>128</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>callback</code>
+      <name>callback</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

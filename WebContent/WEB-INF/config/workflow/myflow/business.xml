@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_instance</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+    <metadata>EAP_INSTANCE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

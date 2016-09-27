@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getContent</code>
+    <name>getContent</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getContent</item>
+    <script>ContentModel getContent(String orgCode,String templ,String cntcode)</script>
+    <params>orgCode,templ,cntcode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getContents</code>
+    <name>getContents</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getContents</item>
+    <script>ContentModel[] getContents(String orgCode,String templ)</script>
+    <params>orgCode,templ</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>down</item>
+    <script>void down(String orgCode,String templ,String cntcode,String code)</script>
+    <params>orgCode,templ,cntcode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>up</item>
+    <script>void up(String orgCode,String templ,String cntcode,String code)</script>
+    <params>orgCode,templ,cntcode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTemplet</code>
+    <name>getTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getTemplet</item>
+    <script>TempletModel getTemplet(String orgCode,String code)</script>
+    <params>orgCode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.saveContent</code>
+    <name>saveContent</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>saveContent</item>
+    <script>void saveContent(String orgCode,String code,String container,String content)</script>
+    <params>orgCode,code,container,content</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getPortlet</code>
+    <name>getPortlet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getPortlet</item>
+    <script>PortletModel getPortlet(String orgCode,String templ,String cntcode,String code)</script>
+    <params>orgCode,templ,cntcode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.updateContainer</code>
+    <name>updateContainer</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>updateContainer</item>
+    <script>void updateContainer(String orgCode,String templ,ContentModel content)</script>
+    <params>orgCode,templ,content</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.listTemplets</code>
+    <name>listTemplets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>listTemplets</item>
+    <script>TempletModel[] listTemplets(String orgCode)</script>
+    <params>orgCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.addTemplet</code>
+    <name>addTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>addTemplet</item>
+    <script>void addTemplet(String orgCode,TempletModel templet)</script>
+    <params>orgCode,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.updateTemplet</code>
+    <name>updateTemplet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>updateTemplet</item>
+    <script>void updateTemplet(String orgCode,TempletModel templet)</script>
+    <params>orgCode,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.deleteTemplets</code>
+    <name>deleteTemplets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>deleteTemplets</item>
+    <script>void deleteTemplets(String orgCode,String[] selected)</script>
+    <params>orgCode,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.updateContainerHtml</code>
+    <name>updateContainerHtml</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>updateContainerHtml</item>
+    <script>void updateContainerHtml(String orgCode,String templ,ContentModel content)</script>
+    <params>orgCode,templ,content</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.listPortlets</code>
+    <name>listPortlets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>listPortlets</item>
+    <script>PortletModel[] listPortlets(String orgCode,String templ,String cntcode)</script>
+    <params>orgCode,templ,cntcode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.addPortlet</code>
+    <name>addPortlet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>addPortlet</item>
+    <script>void addPortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</script>
+    <params>orgCode,templ,cntcode,portlet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.updatePortlet</code>
+    <name>updatePortlet</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>updatePortlet</item>
+    <script>void updatePortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</script>
+    <params>orgCode,templ,cntcode,portlet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.deletePortlets</code>
+    <name>deletePortlets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>deletePortlets</item>
+    <script>void deletePortlets(String orgCode,String templ,String cntcode,String[] selected)</script>
+    <params>orgCode,templ,cntcode,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTempletTree</code>
+    <name>getTempletTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getTempletTree</item>
+    <script>NodeModel getTempletTree(String orgCode,String templet)</script>
+    <params>orgCode,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTempletStyle</code>
+    <name>getTempletStyle</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getTempletStyle</item>
+    <script>String getTempletStyle(TempletModel templet)</script>
+    <params>templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTempletJavaScript</code>
+    <name>getTempletJavaScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getTempletJavaScript</item>
+    <script>String getTempletJavaScript(TempletModel templet)</script>
+    <params>templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getTempletBody</code>
+    <name>getTempletBody</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getTempletBody</item>
+    <script>String getTempletBody(TempletModel templet)</script>
+    <params>templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OuProvider.getRightRole</code>
+    <name>getRightRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.util.OuProvider</catalog>
+    <item>getRightRole</item>
+    <script>RoleModel[] getRightRole(String orgCode)</script>
+    <params>orgCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getSystemsList</code>
+    <name>getSystemsList</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getSystemsList</item>
+    <script>ItemModel[] getSystemsList()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getPortletModules</code>
+    <name>getPortletModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getPortletModules</item>
+    <script>ItemModel[] getPortletModules(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.getIcons</code>
+    <name>getIcons</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>getIcons</item>
+    <script>ItemModel[] getIcons()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.getPortletsTree</code>
+    <name>getPortletsTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>getPortletsTree</item>
+    <script>NodeModel getPortletsTree(LoginModel login,String templet)</script>
+    <params>login,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.saveConfig</code>
+    <name>saveConfig</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>saveConfig</item>
+    <script>void saveConfig(LoginModel login,String templet,String data)</script>
+    <params>login,templet,data</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TempletBo.initConfig</code>
+    <name>initConfig</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.TempletBo</catalog>
+    <item>initConfig</item>
+    <script>void initConfig(LoginModel login,String templet)</script>
+    <params>login,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

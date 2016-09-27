@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.GridModel</classname>
+  <code>GridModel</code>
+  <name>GridModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}8eJ3pG60tE4RiSojv4lpVA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.grid.GridModel.clone()</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ActionModel[] getActions()</serialno>
+      <method>getActions</method>
+      <name>ActionModel[] getActions()</name>
+      <genericname>public com.siqiansoft.framework.model.view.ActionModel[] com.siqiansoft.framework.model.grid.GridModel.getActions()</genericname>
+      <retclass>ActionModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getState()</serialno>
+      <method>getState</method>
+      <name>String getState()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getState()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getQuery()</serialno>
+      <method>getQuery</method>
+      <name>HandlerModel getQuery()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.grid.GridModel.getQuery()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setState(String state)</serialno>
+      <method>setState</method>
+      <name>void setState(String state)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setState(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>state</code>
+          <name>state</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIndex()</serialno>
+      <method>getIndex</method>
+      <name>String getIndex()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getIndex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMetaData()</serialno>
+      <method>getMetaData</method>
+      <name>String getMetaData()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getMetaData()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMetaData(String metadata)</serialno>
+      <method>setMetaData</method>
+      <name>void setMetaData(String metadata)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setMetaData(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>metadata</code>
+          <name>metadata</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndex(String index)</serialno>
+      <method>setIndex</method>
+      <name>void setIndex(String index)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setIndex(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAction()</serialno>
+      <method>getAction</method>
+      <name>String getAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getInit()</serialno>
+      <method>getInit</method>
+      <name>HandlerModel getInit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.grid.GridModel.getInit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModule()</serialno>
+      <method>getModule</method>
+      <name>String getModule()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getModule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAction(String action)</serialno>
+      <method>setAction</method>
+      <name>void setAction(String action)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInit(HandlerModel init)</serialno>
+      <method>setInit</method>
+      <name>void setInit(HandlerModel init)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setInit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>init</code>
+          <name>init</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel[] getColumns()</serialno>
+      <method>getColumns</method>
+      <name>ColumnModel[] getColumns()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.ColumnModel[] com.siqiansoft.framework.model.grid.GridModel.getColumns()</genericname>
+      <retclass>ColumnModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColumns(ColumnModel[] columns)</serialno>
+      <method>setColumns</method>
+      <name>void setColumns(ColumnModel[] columns)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setColumns(com.siqiansoft.framework.model.grid.ColumnModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ColumnModel[]</type>
+          <code>columns</code>
+          <name>columns</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModule(String module)</serialno>
+      <method>setModule</method>
+      <name>void setModule(String module)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setModule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLangs(String[] langs)</serialno>
+      <method>setLangs</method>
+      <name>void setLangs(String[] langs)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setLangs(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>langs</code>
+          <name>langs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getLangs()</serialno>
+      <method>getLangs</method>
+      <name>String[] getLangs()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.grid.GridModel.getLangs()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActions(ActionModel[] actions)</serialno>
+      <method>setActions</method>
+      <name>void setActions(ActionModel[] actions)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setActions(com.siqiansoft.framework.model.view.ActionModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ActionModel[]</type>
+          <code>actions</code>
+          <name>actions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowsPerPage(int rowsperpage)</serialno>
+      <method>setRowsPerPage</method>
+      <name>void setRowsPerPage(int rowsperpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setRowsPerPage(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>rowsperpage</code>
+          <name>rowsperpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRowsPerPage()</serialno>
+      <method>getRowsPerPage</method>
+      <name>int getRowsPerPage()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.GridModel.getRowsPerPage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBox(String box)</serialno>
+      <method>setBox</method>
+      <name>void setBox(String box)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setBox(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBox()</serialno>
+      <method>getBox</method>
+      <name>String getBox()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getBox()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageControl(String pagecontrol)</serialno>
+      <method>setPageControl</method>
+      <name>void setPageControl(String pagecontrol)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setPageControl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pagecontrol</code>
+          <name>pagecontrol</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPageControl()</serialno>
+      <method>getPageControl</method>
+      <name>String getPageControl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getPageControl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAloneOptArea(String aloneoptarea)</serialno>
+      <method>setAloneOptArea</method>
+      <name>void setAloneOptArea(String aloneoptarea)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setAloneOptArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>aloneoptarea</code>
+          <name>aloneoptarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAloneOptArea()</serialno>
+      <method>getAloneOptArea</method>
+      <name>String getAloneOptArea()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getAloneOptArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExportXls(String exportxls)</serialno>
+      <method>setExportXls</method>
+      <name>void setExportXls(String exportxls)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setExportXls(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>exportxls</code>
+          <name>exportxls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExportXls()</serialno>
+      <method>getExportXls</method>
+      <name>String getExportXls()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getExportXls()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnRowChange(String onrowchange)</serialno>
+      <method>setOnRowChange</method>
+      <name>void setOnRowChange(String onrowchange)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setOnRowChange(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onrowchange</code>
+          <name>onrowchange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnRowChange()</serialno>
+      <method>getOnRowChange</method>
+      <name>String getOnRowChange()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getOnRowChange()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnRowSelected(String onrowselected)</serialno>
+      <method>setOnRowSelected</method>
+      <name>void setOnRowSelected(String onrowselected)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setOnRowSelected(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onrowselected</code>
+          <name>onrowselected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnRowSelected()</serialno>
+      <method>getOnRowSelected</method>
+      <name>String getOnRowSelected()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.GridModel.getOnRowSelected()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOpts(QueryOptModel[] opts)</serialno>
+      <method>setOpts</method>
+      <name>void setOpts(QueryOptModel[] opts)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setOpts(com.siqiansoft.framework.model.grid.QueryOptModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>QueryOptModel[]</type>
+          <code>opts</code>
+          <name>opts</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>QueryOptModel[] getOpts()</serialno>
+      <method>getOpts</method>
+      <name>QueryOptModel[] getOpts()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.QueryOptModel[] com.siqiansoft.framework.model.grid.GridModel.getOpts()</genericname>
+      <retclass>QueryOptModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowDisplay(DisplayModel[] rowdisplay)</serialno>
+      <method>setRowDisplay</method>
+      <name>void setRowDisplay(DisplayModel[] rowdisplay)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setRowDisplay(com.siqiansoft.framework.model.grid.DisplayModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DisplayModel[]</type>
+          <code>rowdisplay</code>
+          <name>rowdisplay</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DisplayModel[] getRowDisplay()</serialno>
+      <method>getRowDisplay</method>
+      <name>DisplayModel[] getRowDisplay()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DisplayModel[] com.siqiansoft.framework.model.grid.GridModel.getRowDisplay()</genericname>
+      <retclass>DisplayModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQuery(HandlerModel query)</serialno>
+      <method>setQuery</method>
+      <name>void setQuery(HandlerModel query)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setQuery(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>query</code>
+          <name>query</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInsert(HandlerModel insert)</serialno>
+      <method>setInsert</method>
+      <name>void setInsert(HandlerModel insert)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setInsert(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>insert</code>
+          <name>insert</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getInsert()</serialno>
+      <method>getInsert</method>
+      <name>HandlerModel getInsert()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.grid.GridModel.getInsert()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUpdate(HandlerModel update)</serialno>
+      <method>setUpdate</method>
+      <name>void setUpdate(HandlerModel update)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setUpdate(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>update</code>
+          <name>update</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getUpdate()</serialno>
+      <method>getUpdate</method>
+      <name>HandlerModel getUpdate()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.grid.GridModel.getUpdate()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDelete(HandlerModel delete)</serialno>
+      <method>setDelete</method>
+      <name>void setDelete(HandlerModel delete)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setDelete(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>delete</code>
+          <name>delete</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getDelete()</serialno>
+      <method>getDelete</method>
+      <name>HandlerModel getDelete()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.grid.GridModel.getDelete()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setControls(GridControlModel[] controls)</serialno>
+      <method>setControls</method>
+      <name>void setControls(GridControlModel[] controls)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.GridModel.setControls(com.siqiansoft.framework.model.grid.GridControlModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GridControlModel[]</type>
+          <code>controls</code>
+          <name>controls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GridControlModel[] getControls()</serialno>
+      <method>getControls</method>
+      <name>GridControlModel[] getControls()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.GridControlModel[] com.siqiansoft.framework.model.grid.GridModel.getControls()</genericname>
+      <retclass>GridControlModel[]</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>module</code>
+      <name>module</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>action</code>
+      <name>action</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>metadata</code>
+      <name>metadata</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowsperpage</code>
+      <name>rowsperpage</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>box</code>
+      <name>box</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>index</code>
+      <name>index</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pagecontrol</code>
+      <name>pagecontrol</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>aloneoptarea</code>
+      <name>aloneoptarea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>state</code>
+      <name>state</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>exportxls</code>
+      <name>exportxls</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onrowchange</code>
+      <name>onrowchange</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onrowselected</code>
+      <name>onrowselected</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

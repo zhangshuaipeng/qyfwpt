@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrpublic.Dispatchunit</classname>
+  <code>Dispatchunit</code>
+  <name>Dispatchunit</name>
+  <packages>com.tellhow.personnel.bean.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}R0AESijMaoQeFdOb6l6Xcw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrpublic.Dispatchunit.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Dispatchunit.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnitcoding()</serialno>
+      <method>getUnitcoding</method>
+      <name>String getUnitcoding()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrpublic.Dispatchunit.getUnitcoding()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnitcoding(String unitcoding)</serialno>
+      <method>setUnitcoding</method>
+      <name>void setUnitcoding(String unitcoding)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Dispatchunit.setUnitcoding(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unitcoding</code>
+          <name>unitcoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIsdetele()</serialno>
+      <method>getIsdetele</method>
+      <name>long getIsdetele()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Dispatchunit.getIsdetele()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsdetele(long isdetele)</serialno>
+      <method>setIsdetele</method>
+      <name>void setIsdetele(long isdetele)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Dispatchunit.setIsdetele(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>isdetele</code>
+          <name>isdetele</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDispatchunitid()</serialno>
+      <method>getDispatchunitid</method>
+      <name>long getDispatchunitid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Dispatchunit.getDispatchunitid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDispatchunitid(long dispatchunitid)</serialno>
+      <method>setDispatchunitid</method>
+      <name>void setDispatchunitid(long dispatchunitid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Dispatchunit.setDispatchunitid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dispatchunitid</code>
+          <name>dispatchunitid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.vo.ChangeLogVo</classname>
+  <code>ChangeLogVo</code>
+  <name>ChangeLogVo</name>
+  <packages>com.tellhow.createetp.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}ANX03yOPEcl0APjxS5oKfw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getCategory()</serialno>
+      <method>getCategory</method>
+      <name>int getCategory()</name>
+      <genericname>public int com.tellhow.createetp.vo.ChangeLogVo.getCategory()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValid(int valid)</serialno>
+      <method>setValid</method>
+      <name>void setValid(int valid)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setValid(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>valid</code>
+          <name>valid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getChagelogid()</serialno>
+      <method>getChagelogid</method>
+      <name>long getChagelogid()</name>
+      <genericname>public long com.tellhow.createetp.vo.ChangeLogVo.getChagelogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChagelogid(long chagelogid)</serialno>
+      <method>setChagelogid</method>
+      <name>void setChagelogid(long chagelogid)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setChagelogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>chagelogid</code>
+          <name>chagelogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseid()</serialno>
+      <method>getEnterpriseid</method>
+      <name>long getEnterpriseid()</name>
+      <genericname>public long com.tellhow.createetp.vo.ChangeLogVo.getEnterpriseid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseid(long enterpriseid)</serialno>
+      <method>setEnterpriseid</method>
+      <name>void setEnterpriseid(long enterpriseid)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setEnterpriseid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseid</code>
+          <name>enterpriseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getChengaetype()</serialno>
+      <method>getChengaetype</method>
+      <name>int getChengaetype()</name>
+      <genericname>public int com.tellhow.createetp.vo.ChangeLogVo.getChengaetype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangedate()</serialno>
+      <method>getChangedate</method>
+      <name>String getChangedate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getChangedate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangedate(String changedate)</serialno>
+      <method>setChangedate</method>
+      <name>void setChangedate(String changedate)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setChangedate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changedate</code>
+          <name>changedate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChengaetype(int chengaetype)</serialno>
+      <method>setChengaetype</method>
+      <name>void setChengaetype(int chengaetype)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setChengaetype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>chengaetype</code>
+          <name>chengaetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangecontent()</serialno>
+      <method>getChangecontent</method>
+      <name>String getChangecontent()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getChangecontent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangecontent(String changecontent)</serialno>
+      <method>setChangecontent</method>
+      <name>void setChangecontent(String changecontent)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setChangecontent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changecontent</code>
+          <name>changecontent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorcode()</serialno>
+      <method>getOperatorcode</method>
+      <name>String getOperatorcode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getOperatorcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorcode(String operatorcode)</serialno>
+      <method>setOperatorcode</method>
+      <name>void setOperatorcode(String operatorcode)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setOperatorcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorcode</code>
+          <name>operatorcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectid()</serialno>
+      <method>getProjectid</method>
+      <name>long getProjectid()</name>
+      <genericname>public long com.tellhow.createetp.vo.ChangeLogVo.getProjectid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectid(long projectid)</serialno>
+      <method>setProjectid</method>
+      <name>void setProjectid(long projectid)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setProjectid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getValid()</serialno>
+      <method>getValid</method>
+      <name>int getValid()</name>
+      <genericname>public int com.tellhow.createetp.vo.ChangeLogVo.getValid()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(int category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(int category)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setCategory(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRegiontype()</serialno>
+      <method>getRegiontype</method>
+      <name>int getRegiontype()</name>
+      <genericname>public int com.tellhow.createetp.vo.ChangeLogVo.getRegiontype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegiontype(int regiontype)</serialno>
+      <method>setRegiontype</method>
+      <name>void setRegiontype(int regiontype)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setRegiontype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>regiontype</code>
+          <name>regiontype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedFileURLs(String approvedFileURLs)</serialno>
+      <method>setApprovedFileURLs</method>
+      <name>void setApprovedFileURLs(String approvedFileURLs)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setApprovedFileURLs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedFileURLs</code>
+          <name>approvedFileURLs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBaseurl4OA()</serialno>
+      <method>getBaseurl4OA</method>
+      <name>String getBaseurl4OA()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getBaseurl4OA()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBaseurl4OA(String baseurl4oa)</serialno>
+      <method>setBaseurl4OA</method>
+      <name>void setBaseurl4OA(String baseurl4oa)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setBaseurl4OA(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>baseurl4oa</code>
+          <name>baseurl4oa</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedFileURLs()</serialno>
+      <method>getApprovedFileURLs</method>
+      <name>String getApprovedFileURLs()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getApprovedFileURLs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnterprisename()</serialno>
+      <method>getEnterprisename</method>
+      <name>String getEnterprisename()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.ChangeLogVo.getEnterprisename()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterprisename(String enterprisename)</serialno>
+      <method>setEnterprisename</method>
+      <name>void setEnterprisename(String enterprisename)</name>
+      <genericname>public void com.tellhow.createetp.vo.ChangeLogVo.setEnterprisename(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enterprisename</code>
+          <name>enterprisename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>chagelogid</code>
+      <name>chagelogid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enterpriseid</code>
+      <name>enterpriseid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enterprisename</code>
+      <name>enterprisename</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>changedate</code>
+      <name>changedate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>changecontent</code>
+      <name>changecontent</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>chengaetype</code>
+      <name>chengaetype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatorcode</code>
+      <name>operatorcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>valid</code>
+      <name>valid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>regiontype</code>
+      <name>regiontype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>category</code>
+      <name>category</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>approvedfileurls</code>
+      <name>approvedFileURLs</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>baseurl4oa</code>
+      <name>baseurl4OA</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

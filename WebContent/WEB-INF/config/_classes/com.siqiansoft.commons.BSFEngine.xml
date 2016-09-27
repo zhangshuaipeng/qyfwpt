@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.BSFEngine</classname>
+  <code>BSFEngine</code>
+  <name>BSFEngine</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}8YVjCd4dZIwSmkm2cw+bJw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.commons.BSFEngine.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void exec(String script)</serialno>
+      <method>exec</method>
+      <name>void exec(String script)</name>
+      <genericname>public void com.siqiansoft.commons.BSFEngine.exec(java.lang.String) throws java.lang.RuntimeException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void registerObject(String name,Object obj)</serialno>
+      <method>registerObject</method>
+      <name>void registerObject(String name,Object obj)</name>
+      <genericname>public void com.siqiansoft.commons.BSFEngine.registerObject(java.lang.String,java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getRetValue()</serialno>
+      <method>getRetValue</method>
+      <name>Object getRetValue()</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFEngine.getRetValue()</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

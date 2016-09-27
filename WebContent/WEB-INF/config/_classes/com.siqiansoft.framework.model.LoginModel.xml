@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.LoginModel</classname>
+  <code>LoginModel</code>
+  <name>LoginModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}LzVOY1yDWu5CVGMH6ShwcQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getLanguage()</serialno>
+      <method>getLanguage</method>
+      <name>String getLanguage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getLanguage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getGroups()</serialno>
+      <method>getGroups</method>
+      <name>String[] getGroups()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.LoginModel.getGroups()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRank()</serialno>
+      <method>getRank</method>
+      <name>String getRank()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getRank()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUserName()</serialno>
+      <method>getUserName</method>
+      <name>String getUserName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getUserName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getRoles()</serialno>
+      <method>getRoles</method>
+      <name>String[] getRoles()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.LoginModel.getRoles()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserName(String username)</serialno>
+      <method>setUserName</method>
+      <name>void setUserName(String username)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setUserName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>username</code>
+          <name>username</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getAppData()</serialno>
+      <method>getAppData</method>
+      <name>HashMap getAppData()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.model.LoginModel.getAppData()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAppData(HashMap appdata)</serialno>
+      <method>setAppData</method>
+      <name>void setAppData(HashMap appdata)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setAppData(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>appdata</code>
+          <name>appdata</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLanguage(String language)</serialno>
+      <method>setLanguage</method>
+      <name>void setLanguage(String language)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setLanguage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>language</code>
+          <name>language</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoles(String[] roles)</serialno>
+      <method>setRoles</method>
+      <name>void setRoles(String[] roles)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setRoles(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>roles</code>
+          <name>roles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSkin()</serialno>
+      <method>getSkin</method>
+      <name>String getSkin()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getSkin()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSkin(String skin)</serialno>
+      <method>setSkin</method>
+      <name>void setSkin(String skin)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setSkin(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>skin</code>
+          <name>skin</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUserCode()</serialno>
+      <method>getUserCode</method>
+      <name>String getUserCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getUserCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserCode(String usercode)</serialno>
+      <method>setUserCode</method>
+      <name>void setUserCode(String usercode)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setUserCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIp(String ip)</serialno>
+      <method>setIp</method>
+      <name>void setIp(String ip)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setIp(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ip</code>
+          <name>ip</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIp()</serialno>
+      <method>getIp</method>
+      <name>String getIp()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getIp()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeSlice(String timeslice)</serialno>
+      <method>setTimeSlice</method>
+      <name>void setTimeSlice(String timeslice)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setTimeSlice(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timeslice</code>
+          <name>timeslice</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTimeSlice()</serialno>
+      <method>getTimeSlice</method>
+      <name>String getTimeSlice()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getTimeSlice()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNickName(String nickname)</serialno>
+      <method>setNickName</method>
+      <name>void setNickName(String nickname)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setNickName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nickname</code>
+          <name>nickname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNickName()</serialno>
+      <method>getNickName</method>
+      <name>String getNickName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getNickName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPersonCode(String personcode)</serialno>
+      <method>setPersonCode</method>
+      <name>void setPersonCode(String personcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setPersonCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>personcode</code>
+          <name>personcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPersonCode()</serialno>
+      <method>getPersonCode</method>
+      <name>String getPersonCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getPersonCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptCode(String deptcode)</serialno>
+      <method>setDeptCode</method>
+      <name>void setDeptCode(String deptcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setDeptCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptcode</code>
+          <name>deptcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeptCode()</serialno>
+      <method>getDeptCode</method>
+      <name>String getDeptCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getDeptCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptName(String deptname)</serialno>
+      <method>setDeptName</method>
+      <name>void setDeptName(String deptname)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setDeptName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptname</code>
+          <name>deptname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeptName()</serialno>
+      <method>getDeptName</method>
+      <name>String getDeptName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getDeptName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRank(String rank)</serialno>
+      <method>setRank</method>
+      <name>void setRank(String rank)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setRank(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rank</code>
+          <name>rank</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAccounts(String[] accounts)</serialno>
+      <method>setAccounts</method>
+      <name>void setAccounts(String[] accounts)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setAccounts(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>accounts</code>
+          <name>accounts</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getAccounts()</serialno>
+      <method>getAccounts</method>
+      <name>String[] getAccounts()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.LoginModel.getAccounts()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDepts(String[] depts)</serialno>
+      <method>setDepts</method>
+      <name>void setDepts(String[] depts)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setDepts(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>depts</code>
+          <name>depts</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getDepts()</serialno>
+      <method>getDepts</method>
+      <name>String[] getDepts()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.LoginModel.getDepts()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPositions(String[] positions)</serialno>
+      <method>setPositions</method>
+      <name>void setPositions(String[] positions)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setPositions(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>positions</code>
+          <name>positions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getPositions()</serialno>
+      <method>getPositions</method>
+      <name>String[] getPositions()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.LoginModel.getPositions()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroups(String[] groups)</serialno>
+      <method>setGroups</method>
+      <name>void setGroups(String[] groups)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setGroups(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>groups</code>
+          <name>groups</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvalidTime(long invalidtime)</serialno>
+      <method>setInvalidTime</method>
+      <name>void setInvalidTime(long invalidtime)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setInvalidTime(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>invalidtime</code>
+          <name>invalidtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getInvalidTime()</serialno>
+      <method>getInvalidTime</method>
+      <name>long getInvalidTime()</name>
+      <genericname>public long com.siqiansoft.framework.model.LoginModel.getInvalidTime()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHomePage(String homepage)</serialno>
+      <method>setHomePage</method>
+      <name>void setHomePage(String homepage)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setHomePage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>homepage</code>
+          <name>homepage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHomePage()</serialno>
+      <method>getHomePage</method>
+      <name>String getHomePage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getHomePage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLastSignIn(String lastsignin)</serialno>
+      <method>setLastSignIn</method>
+      <name>void setLastSignIn(String lastsignin)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setLastSignIn(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>lastsignin</code>
+          <name>lastsignin</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLastSignIn()</serialno>
+      <method>getLastSignIn</method>
+      <name>String getLastSignIn()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getLastSignIn()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLastIp(String lastip)</serialno>
+      <method>setLastIp</method>
+      <name>void setLastIp(String lastip)</name>
+      <genericname>public void com.siqiansoft.framework.model.LoginModel.setLastIp(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>lastip</code>
+          <name>lastip</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLastIp()</serialno>
+      <method>getLastIp</method>
+      <name>String getLastIp()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LoginModel.getLastIp()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>timeslice</code>
+      <name>timeslice</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>usercode</code>
+      <name>usercode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>username</code>
+      <name>username</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nickname</code>
+      <name>nickname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>personcode</code>
+      <name>personcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptcode</code>
+      <name>deptcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptname</code>
+      <name>deptname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rank</code>
+      <name>rank</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>invalidtime</code>
+      <name>invalidtime</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>homepage</code>
+      <name>homepage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>language</code>
+      <name>language</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>skin</code>
+      <name>skin</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ip</code>
+      <name>ip</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>lastsignin</code>
+      <name>lastsignin</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>lastip</code>
+      <name>lastip</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

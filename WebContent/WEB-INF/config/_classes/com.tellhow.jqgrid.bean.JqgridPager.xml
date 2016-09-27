@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.bean.JqgridPager</classname>
+  <code>JqgridPager</code>
+  <name>JqgridPager</name>
+  <packages>com.tellhow.jqgrid.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}4i86gHrCrB7hU3/VpSZsYg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getTotal()</serialno>
+      <method>getTotal</method>
+      <name>int getTotal()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getTotal()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getFrom()</serialno>
+      <method>getFrom</method>
+      <name>int getFrom()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getFrom()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrom(int from)</serialno>
+      <method>setFrom</method>
+      <name>void setFrom(int from)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.JqgridPager.setFrom(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>from</code>
+          <name>from</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTo()</serialno>
+      <method>getTo</method>
+      <name>int getTo()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getTo()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTo(int to)</serialno>
+      <method>setTo</method>
+      <name>void setTo(int to)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.JqgridPager.setTo(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>to</code>
+          <name>to</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPage()</serialno>
+      <method>getPage</method>
+      <name>int getPage()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getPage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRows()</serialno>
+      <method>getRows</method>
+      <name>int getRows()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getRows()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTotalpage()</serialno>
+      <method>getTotalpage</method>
+      <name>int getTotalpage()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.JqgridPager.getTotalpage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTotal(Object oTotal)</serialno>
+      <method>setTotal</method>
+      <name>void setTotal(Object oTotal)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.JqgridPager.setTotal(java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>oTotal</code>
+          <name>oTotal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrderby()</serialno>
+      <method>getOrderby</method>
+      <name>String getOrderby()</name>
+      <genericname>public java.lang.String com.tellhow.jqgrid.bean.JqgridPager.getOrderby()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

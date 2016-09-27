@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.EtpInfoDaoImpl</classname>
+  <code>EtpInfoDaoImpl</code>
+  <name>EtpInfoDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}sHUva6bfAoRh8FsT/bE31w==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List retriveEtpTrackProgressByPage(JqgridPager pager,long etpId)</serialno>
+      <method>retriveEtpTrackProgressByPage</method>
+      <name>List retriveEtpTrackProgressByPage(JqgridPager pager,long etpId)</name>
+      <genericname>public java.util.List&lt;com.tellhow.createetp.vo.EtpTrackProgressVo&gt; com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.retriveEtpTrackProgressByPage(com.tellhow.jqgrid.bean.JqgridPager,long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>etpId</code>
+          <name>etpId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEptInfoCollect(EptInfoCollectVo ev)</serialno>
+      <method>updateEptInfoCollect</method>
+      <name>void updateEptInfoCollect(EptInfoCollectVo ev)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.updateEptInfoCollect(com.tellhow.createetp.vo.EptInfoCollectVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptInfoCollectVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEpt(EptInfoCollectVo ev)</serialno>
+      <method>updateEpt</method>
+      <name>void updateEpt(EptInfoCollectVo ev)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.updateEpt(com.tellhow.createetp.vo.EptInfoCollectVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptInfoCollectVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EptInfoCollectVo fetchEptInfoCollect(long enterpriseid)</serialno>
+      <method>fetchEptInfoCollect</method>
+      <name>EptInfoCollectVo fetchEptInfoCollect(long enterpriseid)</name>
+      <genericname>public com.tellhow.createetp.vo.EptInfoCollectVo com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.fetchEptInfoCollect(long) throws java.lang.Exception</genericname>
+      <retclass>EptInfoCollectVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseid</code>
+          <name>enterpriseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EtpInfoTrackVo fetchEtpInfoTrack(long etpId)</serialno>
+      <method>fetchEtpInfoTrack</method>
+      <name>EtpInfoTrackVo fetchEtpInfoTrack(long etpId)</name>
+      <genericname>public com.tellhow.createetp.vo.EtpInfoTrackVo com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.fetchEtpInfoTrack(long) throws java.lang.Exception</genericname>
+      <retclass>EtpInfoTrackVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>etpId</code>
+          <name>etpId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEtpInfoTrack(EtpInfoTrackVo ev)</serialno>
+      <method>updateEtpInfoTrack</method>
+      <name>void updateEtpInfoTrack(EtpInfoTrackVo ev)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.updateEtpInfoTrack(com.tellhow.createetp.vo.EtpInfoTrackVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EtpInfoTrackVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void eptVerifySingle(EptInfoCollectVo ev)</serialno>
+      <method>eptVerifySingle</method>
+      <name>void eptVerifySingle(EptInfoCollectVo ev)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.eptVerifySingle(com.tellhow.createetp.vo.EptInfoCollectVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptInfoCollectVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void etpVerifyBatch(String[] selected)</serialno>
+      <method>etpVerifyBatch</method>
+      <name>void etpVerifyBatch(String[] selected)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.etpVerifyBatch(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEptRegisterInfo(EptRegisteredInfo registerinfo)</serialno>
+      <method>updateEptRegisterInfo</method>
+      <name>void updateEptRegisterInfo(EptRegisteredInfo registerinfo)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.updateEptRegisterInfo(com.tellhow.createetp.bean.EptRegisteredInfo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptRegisteredInfo</type>
+          <code>registerinfo</code>
+          <name>registerinfo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EptRegisteredInfo selectEptInfoById(long enterpriseid)</serialno>
+      <method>selectEptInfoById</method>
+      <name>EptRegisteredInfo selectEptInfoById(long enterpriseid)</name>
+      <genericname>public com.tellhow.createetp.bean.EptRegisteredInfo com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.selectEptInfoById(long) throws java.lang.Exception</genericname>
+      <retclass>EptRegisteredInfo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseid</code>
+          <name>enterpriseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addProjectprogress(long projectid)</serialno>
+      <method>addProjectprogress</method>
+      <name>void addProjectprogress(long projectid)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpInfoDaoImpl.addProjectprogress(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

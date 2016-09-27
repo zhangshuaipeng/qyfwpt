@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.service.ItemsServlet</classname>
+  <code>ItemsServlet</code>
+  <name>ItemsServlet</name>
+  <packages>com.tellhow.itemsmanage.service</packages>
+  <type>biz</type>
+  <crc>{MD5}WjtJzhjKnYk0lKslwvQfqQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void doGet(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doGet</method>
+      <name>void doGet(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.itemsmanage.service.ItemsServlet.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void doPost(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doPost</method>
+      <name>void doPost(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.itemsmanage.service.ItemsServlet.doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

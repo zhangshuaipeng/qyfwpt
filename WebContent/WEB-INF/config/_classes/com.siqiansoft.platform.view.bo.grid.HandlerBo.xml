@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.HandlerBo</classname>
+  <code>HandlerBo</code>
+  <name>HandlerBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}ipDjvNt71ISJ8oxj4xfCjw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getHandler(String system,String module,String gridid,String type)</serialno>
+      <method>getHandler</method>
+      <name>HandlerModel getHandler(String system,String module,String gridid,String type)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.platform.view.bo.grid.HandlerBo.getHandler(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listHandler(String system,String module,String gridid)</serialno>
+      <method>listHandler</method>
+      <name>HandlerModel[] listHandler(String system,String module,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.platform.view.bo.grid.HandlerBo.listHandler(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateHandler(String system,String module,String gridid,HandlerModel handler)</serialno>
+      <method>updateHandler</method>
+      <name>void updateHandler(String system,String module,String gridid,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.HandlerBo.updateHandler(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateHandler(String system,String module,String gridid,String type,HandlerModel handler)</serialno>
+      <method>updateHandler</method>
+      <name>void updateHandler(String system,String module,String gridid,String type,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.HandlerBo.updateHandler(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

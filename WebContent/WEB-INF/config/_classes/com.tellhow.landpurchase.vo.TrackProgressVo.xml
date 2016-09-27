@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.vo.TrackProgressVo</classname>
+  <code>TrackProgressVo</code>
+  <name>TrackProgressVo</name>
+  <packages>com.tellhow.landpurchase.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}ztHx6ylp2k09U+4ubqn2jg==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.TrackProgressVo.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.TrackProgressVo.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.landpurchase.vo.TrackProgressVo.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.TrackProgressVo.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.landpurchase.vo.TrackProgressVo.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.TrackProgressVo.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

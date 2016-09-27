@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.bean.JqgridModel</classname>
+  <code>JqgridModel</code>
+  <name>JqgridModel</name>
+  <packages>com.tellhow.investment.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}rg/8UHN47iia3v4aJMcTsA==</crc>
+  <modifytime>2013-05-24 13:48:50</modifytime>
+</model.biz.ClassModel>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.ButtonTag</classname>
+  <code>ButtonTag</code>
+  <name>ButtonTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}BcbeI4kJwOACxrlZKRgGAw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIcon()</serialno>
+      <method>getIcon</method>
+      <name>String getIcon()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getIcon()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTarget(String target)</serialno>
+      <method>setTarget</method>
+      <name>void setTarget(String target)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setTarget(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>target</code>
+          <name>target</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTarget()</serialno>
+      <method>getTarget</method>
+      <name>String getTarget()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getTarget()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArgs()</serialno>
+      <method>getArgs</method>
+      <name>String getArgs()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getArgs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHref(String href)</serialno>
+      <method>setHref</method>
+      <name>void setHref(String href)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setHref(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>href</code>
+          <name>href</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArgs(String args)</serialno>
+      <method>setArgs</method>
+      <name>void setArgs(String args)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setArgs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUrl(String url)</serialno>
+      <method>setUrl</method>
+      <name>void setUrl(String url)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUrl()</serialno>
+      <method>getUrl</method>
+      <name>String getUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHref()</serialno>
+      <method>getHref</method>
+      <name>String getHref()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getHref()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCallback()</serialno>
+      <method>getCallback</method>
+      <name>String getCallback()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getCallback()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIcon(String icon)</serialno>
+      <method>setIcon</method>
+      <name>void setIcon(String icon)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setIcon(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>icon</code>
+          <name>icon</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRets(String rets)</serialno>
+      <method>setRets</method>
+      <name>void setRets(String rets)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setRets(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rets</code>
+          <name>rets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRets()</serialno>
+      <method>getRets</method>
+      <name>String getRets()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getRets()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDisplay(String display)</serialno>
+      <method>setDisplay</method>
+      <name>void setDisplay(String display)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setDisplay(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDisplay()</serialno>
+      <method>getDisplay</method>
+      <name>String getDisplay()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getDisplay()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConfirm(String confirm)</serialno>
+      <method>setConfirm</method>
+      <name>void setConfirm(String confirm)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setConfirm(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>confirm</code>
+          <name>confirm</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConfirm()</serialno>
+      <method>getConfirm</method>
+      <name>String getConfirm()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getConfirm()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRefs(String refs)</serialno>
+      <method>setRefs</method>
+      <name>void setRefs(String refs)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setRefs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>refs</code>
+          <name>refs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRefs()</serialno>
+      <method>getRefs</method>
+      <name>String getRefs()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getRefs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCallback(String callback)</serialno>
+      <method>setCallback</method>
+      <name>void setCallback(String callback)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setCallback(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>callback</code>
+          <name>callback</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.ButtonTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShowtype(String showtype)</serialno>
+      <method>setShowtype</method>
+      <name>void setShowtype(String showtype)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setShowtype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showtype</code>
+          <name>showtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShowtype()</serialno>
+      <method>getShowtype</method>
+      <name>String getShowtype()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getShowtype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUncheck(String uncheck)</serialno>
+      <method>setUncheck</method>
+      <name>void setUncheck(String uncheck)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setUncheck(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>uncheck</code>
+          <name>uncheck</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUncheck()</serialno>
+      <method>getUncheck</method>
+      <name>String getUncheck()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getUncheck()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMulti(String multi)</serialno>
+      <method>setMulti</method>
+      <name>void setMulti(String multi)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setMulti(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>multi</code>
+          <name>multi</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMulti()</serialno>
+      <method>getMulti</method>
+      <name>String getMulti()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getMulti()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAjax(String ajax)</serialno>
+      <method>setAjax</method>
+      <name>void setAjax(String ajax)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ButtonTag.setAjax(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ajax</code>
+          <name>ajax</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAjax()</serialno>
+      <method>getAjax</method>
+      <name>String getAjax()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ButtonTag.getAjax()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

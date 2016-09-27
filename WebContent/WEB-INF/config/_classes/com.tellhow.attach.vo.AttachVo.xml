@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.attach.vo.AttachVo</classname>
+  <code>AttachVo</code>
+  <name>AttachVo</name>
+  <packages>com.tellhow.attach.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}OtGadogprIRJnuh3biPbNQ==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String toString()</serialno>
+      <method>toString</method>
+      <name>String toString()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.toString()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUptime()</serialno>
+      <method>getUptime</method>
+      <name>String getUptime()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getUptime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRights()</serialno>
+      <method>getRights</method>
+      <name>String getRights()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getRights()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDsn()</serialno>
+      <method>getDsn</method>
+      <name>String getDsn()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getDsn()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDsn(String dsn)</serialno>
+      <method>setDsn</method>
+      <name>void setDsn(String dsn)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setDsn(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEncrypt()</serialno>
+      <method>getEncrypt</method>
+      <name>String getEncrypt()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getEncrypt()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEncrypt(String encrypt)</serialno>
+      <method>setEncrypt</method>
+      <name>void setEncrypt(String encrypt)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setEncrypt(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encrypt</code>
+          <name>encrypt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPtable(String ptable)</serialno>
+      <method>setPtable</method>
+      <name>void setPtable(String ptable)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setPtable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ptable</code>
+          <name>ptable</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRights(String rights)</serialno>
+      <method>setRights</method>
+      <name>void setRights(String rights)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setRights(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgcode(String orgcode)</serialno>
+      <method>setOrgcode</method>
+      <name>void setOrgcode(String orgcode)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setOrgcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgcode()</serialno>
+      <method>getOrgcode</method>
+      <name>String getOrgcode()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getOrgcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getReadnum()</serialno>
+      <method>getReadnum</method>
+      <name>long getReadnum()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getReadnum()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReadnum(long readnum)</serialno>
+      <method>setReadnum</method>
+      <name>void setReadnum(long readnum)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setReadnum(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>readnum</code>
+          <name>readnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlagid()</serialno>
+      <method>getFlagid</method>
+      <name>String getFlagid()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getFlagid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlagid(String flagid)</serialno>
+      <method>setFlagid</method>
+      <name>void setFlagid(String flagid)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setFlagid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flagid</code>
+          <name>flagid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getFilesize()</serialno>
+      <method>getFilesize</method>
+      <name>long getFilesize()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getFilesize()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFilesize(long filesize)</serialno>
+      <method>setFilesize</method>
+      <name>void setFilesize(long filesize)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setFilesize(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>filesize</code>
+          <name>filesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReadright()</serialno>
+      <method>getReadright</method>
+      <name>String getReadright()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getReadright()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReadright(String readright)</serialno>
+      <method>setReadright</method>
+      <name>void setReadright(String readright)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setReadright(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>readright</code>
+          <name>readright</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPtable()</serialno>
+      <method>getPtable</method>
+      <name>String getPtable()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getPtable()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFiletype()</serialno>
+      <method>getFiletype</method>
+      <name>String getFiletype()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getFiletype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFiletype(String filetype)</serialno>
+      <method>setFiletype</method>
+      <name>void setFiletype(String filetype)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setFiletype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filetype</code>
+          <name>filetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUsercode()</serialno>
+      <method>getUsercode</method>
+      <name>String getUsercode()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getUsercode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUsercode(String usercode)</serialno>
+      <method>setUsercode</method>
+      <name>void setUsercode(String usercode)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setUsercode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSavepath()</serialno>
+      <method>getSavepath</method>
+      <name>String getSavepath()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getSavepath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSavepath(String savepath)</serialno>
+      <method>setSavepath</method>
+      <name>void setSavepath(String savepath)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setSavepath(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savepath</code>
+          <name>savepath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getParentpk()</serialno>
+      <method>getParentpk</method>
+      <name>long getParentpk()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getParentpk()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParentpk(long parentpk)</serialno>
+      <method>setParentpk</method>
+      <name>void setParentpk(long parentpk)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setParentpk(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>parentpk</code>
+          <name>parentpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUptime(String uptime)</serialno>
+      <method>setUptime</method>
+      <name>void setUptime(String uptime)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setUptime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>uptime</code>
+          <name>uptime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIndextag()</serialno>
+      <method>getIndextag</method>
+      <name>String getIndextag()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getIndextag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndextag(String indextag)</serialno>
+      <method>setIndextag</method>
+      <name>void setIndextag(String indextag)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setIndextag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>indextag</code>
+          <name>indextag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getAttchpk()</serialno>
+      <method>getAttchpk</method>
+      <name>long getAttchpk()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getAttchpk()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttchpk(long attchpk)</serialno>
+      <method>setAttchpk</method>
+      <name>void setAttchpk(long attchpk)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setAttchpk(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>attchpk</code>
+          <name>attchpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSourcefile()</serialno>
+      <method>getSourcefile</method>
+      <name>String getSourcefile()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getSourcefile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSourcefile(String sourcefile)</serialno>
+      <method>setSourcefile</method>
+      <name>void setSourcefile(String sourcefile)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setSourcefile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sourcefile</code>
+          <name>sourcefile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSavefile()</serialno>
+      <method>getSavefile</method>
+      <name>String getSavefile()</name>
+      <genericname>public java.lang.String com.tellhow.attach.vo.AttachVo.getSavefile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSavefile(String savefile)</serialno>
+      <method>setSavefile</method>
+      <name>void setSavefile(String savefile)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setSavefile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savefile</code>
+          <name>savefile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPk()</serialno>
+      <method>getPk</method>
+      <name>long getPk()</name>
+      <genericname>public long com.tellhow.attach.vo.AttachVo.getPk()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPk(long pk)</serialno>
+      <method>setPk</method>
+      <name>void setPk(long pk)</name>
+      <genericname>public void com.tellhow.attach.vo.AttachVo.setPk(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

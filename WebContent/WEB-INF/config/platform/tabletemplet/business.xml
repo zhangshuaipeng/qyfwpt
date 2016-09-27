@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>TableBo.addTable</code>
+    <name>addTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TableBo</catalog>
+    <item>addTable</item>
+    <script>void addTable(TableModel table)</script>
+    <params>table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TableBo.getTable</code>
+    <name>getTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TableBo</catalog>
+    <item>getTable</item>
+    <script>TableModel getTable(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TableBo.updateTable</code>
+    <name>updateTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TableBo</catalog>
+    <item>updateTable</item>
+    <script>void updateTable(TableModel table)</script>
+    <params>table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TableBo.listTables</code>
+    <name>listTables</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TableBo</catalog>
+    <item>listTables</item>
+    <script>TableModel[] listTables()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TableBo.deleteTables</code>
+    <name>deleteTables</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TableBo</catalog>
+    <item>deleteTables</item>
+    <script>void deleteTables(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.FindJqgridServlet</classname>
+  <code>FindJqgridServlet</code>
+  <name>FindJqgridServlet</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}eP9HGl2mBp95LexImP3HUg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void doGet(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doGet</method>
+      <name>void doGet(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.detail.service.FindJqgridServlet.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void doPost(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doPost</method>
+      <name>void doPost(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.detail.service.FindJqgridServlet.doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap findDistribute(String sid)</serialno>
+      <method>findDistribute</method>
+      <name>HashMap findDistribute(String sid)</name>
+      <genericname>public java.util.HashMap com.tellhow.detail.service.FindJqgridServlet.findDistribute(java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void findArticle(String sid,String dispatchdept,HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>findArticle</method>
+      <name>void findArticle(String sid,String dispatchdept,HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.detail.service.FindJqgridServlet.findArticle(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void findArticle(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>findArticle</method>
+      <name>void findArticle(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.detail.service.FindJqgridServlet.findArticle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void findDetail(String articleid,String articlesizeid,HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>findDetail</method>
+      <name>void findDetail(String articleid,String articlesizeid,HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.detail.service.FindJqgridServlet.findDetail(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

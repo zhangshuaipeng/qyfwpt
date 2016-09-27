@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>FlowBo.getFlowTree</code>
+    <name>getFlowTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>getFlowTree</item>
+    <script>NodeModel getFlowTree(LoginModel login)</script>
+    <params>login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowBo.addFlow</code>
+    <name>addFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>addFlow</item>
+    <script>void addFlow(HashMap map)</script>
+    <params>map</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowBo.updateFlow</code>
+    <name>updateFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>updateFlow</item>
+    <script>void updateFlow(HashMap map)</script>
+    <params>map</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowBo.deleteFlow</code>
+    <name>deleteFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>deleteFlow</item>
+    <script>void deleteFlow(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowBo.releaseFlow</code>
+    <name>releaseFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>releaseFlow</item>
+    <script>void releaseFlow(String flowPK)</script>
+    <params>flowPK</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_flow</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_FLOW</item>
+    <metadata>EAP_FLOW</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_flow</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_FLOW</item>
+    <metadata>EAP_FLOW</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getNode</code>
+    <name>getNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getNode</item>
+    <script>NodeModel getNode(String flowPK,String nodeId,String nodeType)</script>
+    <params>flowPK,nodeId,nodeType</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getRoute</code>
+    <name>getRoute</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getRoute</item>
+    <script>RouteModel getRoute(String flowPK,String routeId)</script>
+    <params>flowPK,routeId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.updateNode</code>
+    <name>updateNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>updateNode</item>
+    <script>void updateNode(String flowPK,NodeModel node)</script>
+    <params>flowPK,node</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.updateRoute</code>
+    <name>updateRoute</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>updateRoute</item>
+    <script>void updateRoute(String flowPK,RouteModel route)</script>
+    <params>flowPK,route</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.loadFlow</code>
+    <name>loadFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>loadFlow</item>
+    <script>HashMap loadFlow(String flowPK)</script>
+    <params>flowPK</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getCanvas</code>
+    <name>getCanvas</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getCanvas</item>
+    <script>String getCanvas(String flowPK)</script>
+    <params>flowPK</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.saveFlow</code>
+    <name>saveFlow</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>saveFlow</item>
+    <script>void saveFlow(String flowPK,String xml)</script>
+    <params>flowPK,xml</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.loadRightTree</code>
+    <name>loadRightTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>loadRightTree</item>
+    <script>NodeModel loadRightTree(String flowPK,String nodeId)</script>
+    <params>flowPK,nodeId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.saveRights</code>
+    <name>saveRights</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>saveRights</item>
+    <script>void saveRights(String flowPK,String nodeId,HashMap map)</script>
+    <params>flowPK,nodeId,map</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getSystemsList</code>
+    <name>getSystemsList</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getSystemsList</item>
+    <script>ItemModel[] getSystemsList()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FlowBo.getIcons</code>
+    <name>getIcons</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.FlowBo</catalog>
+    <item>getIcons</item>
+    <script>ItemModel[] getIcons()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.listFlowEvents</code>
+    <name>listFlowEvents</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>listFlowEvents</item>
+    <script>HandlerModel[] listFlowEvents(String flowPK)</script>
+    <params>flowPK</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.listNodeEvents</code>
+    <name>listNodeEvents</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>listNodeEvents</item>
+    <script>HandlerModel[] listNodeEvents(String flowPK,String nodeId)</script>
+    <params>flowPK,nodeId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.listRouteEvents</code>
+    <name>listRouteEvents</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>listRouteEvents</item>
+    <script>HandlerModel[] listRouteEvents(String flowPK,String routeId)</script>
+    <params>flowPK,routeId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.listBizs</code>
+    <name>listBizs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>listBizs</item>
+    <script>BusinessModel[] listBizs(String system,String module,String type)</script>
+    <params>system,module,type</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.saveFlowHandler</code>
+    <name>saveFlowHandler</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>saveFlowHandler</item>
+    <script>void saveFlowHandler(String flowPK,HandlerModel event)</script>
+    <params>flowPK,event</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.saveNodeHandler</code>
+    <name>saveNodeHandler</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>saveNodeHandler</item>
+    <script>void saveNodeHandler(String flowPK,String nodeId,HandlerModel event)</script>
+    <params>flowPK,nodeId,event</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>EventBo.saveRouteHandler</code>
+    <name>saveRouteHandler</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.EventBo</catalog>
+    <item>saveRouteHandler</item>
+    <script>void saveRouteHandler(String flowPK,String routeId,HandlerModel event)</script>
+    <params>flowPK,routeId,event</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getFlowModules</code>
+    <name>getFlowModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getFlowModules</item>
+    <script>ItemModel[] getFlowModules(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.getRoutePolicy</code>
+    <name>getRoutePolicy</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>getRoutePolicy</item>
+    <script>PolicyModel[] getRoutePolicy(String flowPK,String nodeId)</script>
+    <params>flowPK,nodeId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.addRoutePolicy</code>
+    <name>addRoutePolicy</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>addRoutePolicy</item>
+    <script>void addRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</script>
+    <params>flowPK,nodeId,policy</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.updateRoutePolicy</code>
+    <name>updateRoutePolicy</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>updateRoutePolicy</item>
+    <script>void updateRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</script>
+    <params>flowPK,nodeId,policy</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioCache.deleteRoutePolicy</code>
+    <name>deleteRoutePolicy</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioCache</catalog>
+    <item>deleteRoutePolicy</item>
+    <script>void deleteRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</script>
+    <params>flowPK,nodeId,policy</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.getPolicyObject</code>
+    <name>getPolicyObject</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>getPolicyObject</item>
+    <script>ItemModel[] getPolicyObject(String type,String system,String form)</script>
+    <params>type,system,form</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.getPolicyContent</code>
+    <name>getPolicyContent</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>getPolicyContent</item>
+    <script>ItemModel[] getPolicyContent(String type,String system,String form,String orgCode)</script>
+    <params>type,system,form,orgCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.getNodes</code>
+    <name>getNodes</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>getNodes</item>
+    <script>NodeModel[] getNodes(String flowPK)</script>
+    <params>flowPK</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StudioBo.getAllNodes</code>
+    <name>getAllNodes</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StudioBo</catalog>
+    <item>getAllNodes</item>
+    <script>String getAllNodes(String flowPK,String exclude)</script>
+    <params>flowPK,exclude</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>listflow</code>
+    <name>流程列表</name>
+    <type>dboperand</type>
+    <operand>QUERY</operand>
+    <catalog>system</catalog>
+    <item>EAP_FLOW</item>
+    <script>select FLOWCODE,FLOWNAME from eap_flow where orgcode=? order by sn</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

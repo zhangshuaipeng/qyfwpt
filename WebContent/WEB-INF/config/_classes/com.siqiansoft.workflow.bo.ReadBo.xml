@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.ReadBo</classname>
+  <code>ReadBo</code>
+  <name>ReadBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}1BefTRAa8GPlSnC5BjQmhQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getToreadWorks(LoginModel login,ConditionModel[] con,PagingModel page)</serialno>
+      <method>getToreadWorks</method>
+      <name>ArrayList getToreadWorks(LoginModel login,ConditionModel[] con,PagingModel page)</name>
+      <genericname>public static java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.workflow.bo.ReadBo.getToreadWorks(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>con</code>
+          <name>con</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.service.ReporterService</classname>
+  <code>ReporterService</code>
+  <name>ReporterService</name>
+  <packages>com.tellhow.investment.service</packages>
+  <type>biz</type>
+  <crc>{MD5}XlLEQz8KVrrhhxCHlpantQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List fetchRptLookProjectData(HttpServletRequest request,JqgridPager pager,boolean byPage)</serialno>
+      <method>fetchRptLookProjectData</method>
+      <name>List fetchRptLookProjectData(HttpServletRequest request,JqgridPager pager,boolean byPage)</name>
+      <genericname>public java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.investment.service.ReporterService.fetchRptLookProjectData(javax.servlet.http.HttpServletRequest,com.tellhow.jqgrid.bean.JqgridPager,boolean) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>byPage</code>
+          <name>byPage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModel fetchRptBzsLookProjectModelForXls()</serialno>
+      <method>fetchRptBzsLookProjectModelForXls</method>
+      <name>JqgridModel fetchRptBzsLookProjectModelForXls()</name>
+      <genericname>public com.tellhow.jqgrid.bean.JqgridModel com.tellhow.investment.service.ReporterService.fetchRptBzsLookProjectModelForXls() throws java.lang.Exception</genericname>
+      <retclass>JqgridModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BzsRptLookPrjVo fetchRptBzsLookProjectModel()</serialno>
+      <method>fetchRptBzsLookProjectModel</method>
+      <name>BzsRptLookPrjVo fetchRptBzsLookProjectModel()</name>
+      <genericname>public com.tellhow.investment.vo.BzsRptLookPrjVo com.tellhow.investment.service.ReporterService.fetchRptBzsLookProjectModel() throws java.lang.Exception</genericname>
+      <retclass>BzsRptLookPrjVo</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getEconomicIndicators(RequestModel req)</serialno>
+      <method>getEconomicIndicators</method>
+      <name>List getEconomicIndicators(RequestModel req)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.EconomicIndicatorsVo&gt; com.tellhow.investment.service.ReporterService.getEconomicIndicators(com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

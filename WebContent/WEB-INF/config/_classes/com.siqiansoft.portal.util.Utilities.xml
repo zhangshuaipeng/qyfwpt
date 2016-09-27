@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.portal.util.Utilities</classname>
+  <code>Utilities</code>
+  <name>Utilities</name>
+  <packages>com.siqiansoft.portal.util</packages>
+  <type>biz</type>
+  <crc>{MD5}rBS4fo1DTOuRD+GKVHSPFg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel getLayout(String code)</serialno>
+      <method>getLayout</method>
+      <name>LayoutModel getLayout(String code)</name>
+      <genericname>public static com.siqiansoft.framework.model.portal.LayoutModel com.siqiansoft.portal.util.Utilities.getLayout(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel getTemplet(String orgCode,String code)</serialno>
+      <method>getTemplet</method>
+      <name>TempletModel getTemplet(String orgCode,String code)</name>
+      <genericname>public static com.siqiansoft.framework.model.portal.TempletModel com.siqiansoft.portal.util.Utilities.getTemplet(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TempletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existLayout(String code)</serialno>
+      <method>existLayout</method>
+      <name>boolean existLayout(String code)</name>
+      <genericname>public static boolean com.siqiansoft.portal.util.Utilities.existLayout(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeLayout(LayoutModel layout)</serialno>
+      <method>writeLayout</method>
+      <name>void writeLayout(LayoutModel layout)</name>
+      <genericname>public static void com.siqiansoft.portal.util.Utilities.writeLayout(com.siqiansoft.framework.model.portal.LayoutModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existTemplet(String orgCode,String code)</serialno>
+      <method>existTemplet</method>
+      <name>boolean existTemplet(String orgCode,String code)</name>
+      <genericname>public static boolean com.siqiansoft.portal.util.Utilities.existTemplet(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeTemplet(String orgCode,TempletModel templet)</serialno>
+      <method>writeTemplet</method>
+      <name>void writeTemplet(String orgCode,TempletModel templet)</name>
+      <genericname>public static void com.siqiansoft.portal.util.Utilities.writeTemplet(java.lang.String,com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean enableEdit(HttpServletRequest request)</serialno>
+      <method>enableEdit</method>
+      <name>boolean enableEdit(HttpServletRequest request)</name>
+      <genericname>public static boolean com.siqiansoft.portal.util.Utilities.enableEdit(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

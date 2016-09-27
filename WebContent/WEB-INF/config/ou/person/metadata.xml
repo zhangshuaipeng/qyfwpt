@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_PERSON</code>
+    <name>人员</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>EAP_ACCOUNT</code>
+    <name>帐号表</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

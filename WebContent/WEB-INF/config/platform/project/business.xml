@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.listProjects</code>
+    <name>listProjects</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>listProjects</item>
+    <script>ProjectModel[] listProjects()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.saveProject</code>
+    <name>saveProject</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>saveProject</item>
+    <script>void saveProject(ProjectModel project)</script>
+    <params>project</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getProject</code>
+    <name>getProject</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getProject</item>
+    <script>ProjectModel getProject(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.updateProject</code>
+    <name>updateProject</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>updateProject</item>
+    <script>void updateProject(ProjectModel project)</script>
+    <params>project</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.deleteProject</code>
+    <name>deleteProject</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>deleteProject</item>
+    <script>void deleteProject(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getRootNode</code>
+    <name>getRootNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getRootNode</item>
+    <script>NodeModel getRootNode()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getSubNode</code>
+    <name>getSubNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getSubNode</item>
+    <script>NodeModel[] getSubNode(String path)</script>
+    <params>path</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getOrganizeNode</code>
+    <name>getOrganizeNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getOrganizeNode</item>
+    <script>NodeModel getOrganizeNode(String box)</script>
+    <params>box</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getUsersNode</code>
+    <name>getUsersNode</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getUsersNode</item>
+    <script>NodeModel[] getUsersNode(String org,String box)</script>
+    <params>org,box</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.getUsersInOrg</code>
+    <name>getUsersInOrg</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>getUsersInOrg</item>
+    <script>UserModel[] getUsersInOrg(String orgId)</script>
+    <params>orgId</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ProjectBo.getApps</code>
+    <name>getApps</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.ProjectBo</catalog>
+    <item>getApps</item>
+    <script>ProjectModel[] getApps(LoginModel login)</script>
+    <params>login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

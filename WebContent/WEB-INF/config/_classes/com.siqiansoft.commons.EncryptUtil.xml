@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.EncryptUtil</classname>
+  <code>EncryptUtil</code>
+  <name>EncryptUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}Uc7zjz4rdj0BAmpqGhUtFQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.commons.EncryptUtil.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String toHex(byte[] block)</serialno>
+      <method>toHex</method>
+      <name>String toHex(byte[] block)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.toHex(byte[])</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>block</code>
+          <name>block</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>byte[] fromHex(String s)</serialno>
+      <method>fromHex</method>
+      <name>byte[] fromHex(String s)</name>
+      <genericname>public static byte[] com.siqiansoft.commons.EncryptUtil.fromHex(java.lang.String)</genericname>
+      <retclass>byte[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String encodeBASE64(String src)</serialno>
+      <method>encodeBASE64</method>
+      <name>String encodeBASE64(String src)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.encodeBASE64(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String encodeSHA1(String src)</serialno>
+      <method>encodeSHA1</method>
+      <name>String encodeSHA1(String src)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.encodeSHA1(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String encodeSHA256(String src)</serialno>
+      <method>encodeSHA256</method>
+      <name>String encodeSHA256(String src)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.encodeSHA256(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String encodeMD5(String src)</serialno>
+      <method>encodeMD5</method>
+      <name>String encodeMD5(String src)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.encodeMD5(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String generateDigest(byte[] bytes,String alg,boolean bSalt)</serialno>
+      <method>generateDigest</method>
+      <name>String generateDigest(byte[] bytes,String alg,boolean bSalt)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.generateDigest(byte[],java.lang.String,boolean)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>bytes</code>
+          <name>bytes</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alg</code>
+          <name>alg</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bSalt</code>
+          <name>bSalt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String generateDigest(String password,String alg,boolean bSalt)</serialno>
+      <method>generateDigest</method>
+      <name>String generateDigest(String password,String alg,boolean bSalt)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.generateDigest(java.lang.String,java.lang.String,boolean)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>password</code>
+          <name>password</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alg</code>
+          <name>alg</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bSalt</code>
+          <name>bSalt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean verifyPassword(String digest,String password)</serialno>
+      <method>verifyPassword</method>
+      <name>boolean verifyPassword(String digest,String password)</name>
+      <genericname>public static boolean com.siqiansoft.commons.EncryptUtil.verifyPassword(java.lang.String,java.lang.String) throws java.io.IOException</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>digest</code>
+          <name>digest</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>password</code>
+          <name>password</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String decodeBASE64(String src)</serialno>
+      <method>decodeBASE64</method>
+      <name>String decodeBASE64(String src)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.EncryptUtil.decodeBASE64(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

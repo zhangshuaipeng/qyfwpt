@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.ResumeService</classname>
+  <code>ResumeService</code>
+  <name>ResumeService</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}+qPYiDlmgeTvu8mKSTXZkA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void updateEducation(String resumeid)</serialno>
+      <method>updateEducation</method>
+      <name>void updateEducation(String resumeid)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.updateEducation(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void resumebulkimport(String resumeids,String date,String remark)</serialno>
+      <method>resumebulkimport</method>
+      <name>void resumebulkimport(String resumeids,String date,String remark)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.resumebulkimport(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeids</code>
+          <name>resumeids</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void ResumeImport(String id,LoginModel login,RequestModel req)</serialno>
+      <method>ResumeImport</method>
+      <name>void ResumeImport(String id,LoginModel login,RequestModel req)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.ResumeImport(java.lang.String,com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void UpdateEntryManage(EntryManageVo entryManage,RequestModel req,LoginModel login)</serialno>
+      <method>UpdateEntryManage</method>
+      <name>void UpdateEntryManage(EntryManageVo entryManage,RequestModel req,LoginModel login)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.UpdateEntryManage(com.tellhow.personnel.bean.vo.EntryManageVo,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EntryManageVo</type>
+          <code>entryManage</code>
+          <name>entryManage</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void UpdateEntryManagepeople(EntryManageVo entryManage,RequestModel req)</serialno>
+      <method>UpdateEntryManagepeople</method>
+      <name>void UpdateEntryManagepeople(EntryManageVo entryManage,RequestModel req)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.UpdateEntryManagepeople(com.tellhow.personnel.bean.vo.EntryManageVo,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EntryManageVo</type>
+          <code>entryManage</code>
+          <name>entryManage</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EntryManageVo findEntryManage(String resumeid)</serialno>
+      <method>findEntryManage</method>
+      <name>EntryManageVo findEntryManage(String resumeid)</name>
+      <genericname>public com.tellhow.personnel.bean.vo.EntryManageVo com.tellhow.personnel.service.ResumeService.findEntryManage(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>EntryManageVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addchangsalary(Salarychangedlog salarychangedlog)</serialno>
+      <method>addchangsalary</method>
+      <name>void addchangsalary(Salarychangedlog salarychangedlog)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.addchangsalary(com.tellhow.personnel.bean.hrdocument.Salarychangedlog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salarychangedlog</type>
+          <code>salarychangedlog</code>
+          <name>salarychangedlog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void savechangesalary(String salarychangeid)</serialno>
+      <method>savechangesalary</method>
+      <name>void savechangesalary(String salarychangeid)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeService.savechangesalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>salarychangeid</code>
+          <name>salarychangeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

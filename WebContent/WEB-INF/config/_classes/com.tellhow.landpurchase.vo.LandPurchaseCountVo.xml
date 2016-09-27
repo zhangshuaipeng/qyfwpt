@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.vo.LandPurchaseCountVo</classname>
+  <code>LandPurchaseCountVo</code>
+  <name>LandPurchaseCountVo</name>
+  <packages>com.tellhow.landpurchase.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}v4s0U6LKIRJtYAnUvli+sg==</crc>
+  <modifytime>2013-05-29 14:11:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCategory()</serialno>
+      <method>getCategory</method>
+      <name>int getCategory()</name>
+      <genericname>public int com.tellhow.landpurchase.vo.LandPurchaseCountVo.getCategory()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartdate()</serialno>
+      <method>getStartdate</method>
+      <name>String getStartdate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getStartdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartdate(String startdate)</serialno>
+      <method>setStartdate</method>
+      <name>void setStartdate(String startdate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setStartdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startdate</code>
+          <name>startdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnddate()</serialno>
+      <method>getEnddate</method>
+      <name>String getEnddate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getEnddate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnddate(String enddate)</serialno>
+      <method>setEnddate</method>
+      <name>void setEnddate(String enddate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setEnddate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enddate</code>
+          <name>enddate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectid()</serialno>
+      <method>getProjectid</method>
+      <name>long getProjectid()</name>
+      <genericname>public long com.tellhow.landpurchase.vo.LandPurchaseCountVo.getProjectid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectid(long projectid)</serialno>
+      <method>setProjectid</method>
+      <name>void setProjectid(long projectid)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setProjectid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(int category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(int category)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setCategory(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkman()</serialno>
+      <method>getLinkman</method>
+      <name>String getLinkman()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getLinkman()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkman(String linkman)</serialno>
+      <method>setLinkman</method>
+      <name>void setLinkman(String linkman)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setLinkman(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkman</code>
+          <name>linkman</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInvestment()</serialno>
+      <method>getInvestment</method>
+      <name>double getInvestment()</name>
+      <genericname>public double com.tellhow.landpurchase.vo.LandPurchaseCountVo.getInvestment()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvestment(double investment)</serialno>
+      <method>setInvestment</method>
+      <name>void setInvestment(double investment)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setInvestment(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>investment</code>
+          <name>investment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getLandarea()</serialno>
+      <method>getLandarea</method>
+      <name>double getLandarea()</name>
+      <genericname>public double com.tellhow.landpurchase.vo.LandPurchaseCountVo.getLandarea()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLandarea(double landarea)</serialno>
+      <method>setLandarea</method>
+      <name>void setLandarea(double landarea)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setLandarea(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>landarea</code>
+          <name>landarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkmantel()</serialno>
+      <method>getLinkmantel</method>
+      <name>String getLinkmantel()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getLinkmantel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkmantel(String linkmantel)</serialno>
+      <method>setLinkmantel</method>
+      <name>void setLinkmantel(String linkmantel)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setLinkmantel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkmantel</code>
+          <name>linkmantel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedbuildingscale()</serialno>
+      <method>getPlanedbuildingscale</method>
+      <name>String getPlanedbuildingscale()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getPlanedbuildingscale()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedbuildingscale(String planedbuildingscale)</serialno>
+      <method>setPlanedbuildingscale</method>
+      <name>void setPlanedbuildingscale(String planedbuildingscale)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setPlanedbuildingscale(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedbuildingscale</code>
+          <name>planedbuildingscale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedstartdate()</serialno>
+      <method>getPlanedstartdate</method>
+      <name>String getPlanedstartdate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getPlanedstartdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedstartdate(String planedstartdate)</serialno>
+      <method>setPlanedstartdate</method>
+      <name>void setPlanedstartdate(String planedstartdate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setPlanedstartdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedstartdate</code>
+          <name>planedstartdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedenddate()</serialno>
+      <method>getPlanedenddate</method>
+      <name>String getPlanedenddate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getPlanedenddate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedenddate(String planedenddate)</serialno>
+      <method>setPlanedenddate</method>
+      <name>void setPlanedenddate(String planedenddate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setPlanedenddate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedenddate</code>
+          <name>planedenddate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getPlanedlandarea()</serialno>
+      <method>getPlanedlandarea</method>
+      <name>double getPlanedlandarea()</name>
+      <genericname>public double com.tellhow.landpurchase.vo.LandPurchaseCountVo.getPlanedlandarea()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedlandarea(double planedlandarea)</serialno>
+      <method>setPlanedlandarea</method>
+      <name>void setPlanedlandarea(double planedlandarea)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setPlanedlandarea(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>planedlandarea</code>
+          <name>planedlandarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBuildingscale()</serialno>
+      <method>getBuildingscale</method>
+      <name>String getBuildingscale()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getBuildingscale()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBuildingscale(String buildingscale)</serialno>
+      <method>setBuildingscale</method>
+      <name>void setBuildingscale(String buildingscale)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setBuildingscale(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>buildingscale</code>
+          <name>buildingscale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPnodename()</serialno>
+      <method>getPnodename</method>
+      <name>String getPnodename()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getPnodename()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPnodename(String pnodename)</serialno>
+      <method>setPnodename</method>
+      <name>void setPnodename(String pnodename)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setPnodename(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pnodename</code>
+          <name>pnodename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodename()</serialno>
+      <method>getNodename</method>
+      <name>String getNodename()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getNodename()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodename(String nodename)</serialno>
+      <method>setNodename</method>
+      <name>void setNodename(String nodename)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setNodename(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodename</code>
+          <name>nodename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCategoryname()</serialno>
+      <method>getCategoryname</method>
+      <name>String getCategoryname()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandPurchaseCountVo.getCategoryname()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategoryname(String categoryname)</serialno>
+      <method>setCategoryname</method>
+      <name>void setCategoryname(String categoryname)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandPurchaseCountVo.setCategoryname(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>categoryname</code>
+          <name>categoryname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>investment</code>
+      <name>investment</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkman</code>
+      <name>linkman</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkmantel</code>
+      <name>linkmantel</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedlandarea</code>
+      <name>planedlandarea</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedbuildingscale</code>
+      <name>planedbuildingscale</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedstartdate</code>
+      <name>planedstartdate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedenddate</code>
+      <name>planedenddate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>buildingscale</code>
+      <name>buildingscale</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>landarea</code>
+      <name>landarea</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>startdate</code>
+      <name>startdate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enddate</code>
+      <name>enddate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pnodename</code>
+      <name>pnodename</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodename</code>
+      <name>nodename</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>category</code>
+      <name>category</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>categoryname</code>
+      <name>categoryname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

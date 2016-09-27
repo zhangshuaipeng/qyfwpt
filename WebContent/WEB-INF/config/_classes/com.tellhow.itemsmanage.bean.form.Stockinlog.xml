@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bean.form.Stockinlog</classname>
+  <code>Stockinlog</code>
+  <name>Stockinlog</name>
+  <packages>com.tellhow.itemsmanage.bean.form</packages>
+  <type>biz</type>
+  <crc>{MD5}kUmQUb4bFOb5nBMtSxeHqA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Stockinlog.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperator()</serialno>
+      <method>getOperator</method>
+      <name>String getOperator()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getOperator()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperator(String operator)</serialno>
+      <method>setOperator</method>
+      <name>void setOperator(String operator)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setOperator(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operator</code>
+          <name>operator</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatortime()</serialno>
+      <method>getOperatortime</method>
+      <name>String getOperatortime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getOperatortime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatortime(String operatortime)</serialno>
+      <method>setOperatortime</method>
+      <name>void setOperatortime(String operatortime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setOperatortime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatortime</code>
+          <name>operatortime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPhone()</serialno>
+      <method>getPhone</method>
+      <name>String getPhone()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getPhone()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPhone(String phone)</serialno>
+      <method>setPhone</method>
+      <name>void setPhone(String phone)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setPhone(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>phone</code>
+          <name>phone</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getVendorperson()</serialno>
+      <method>getVendorperson</method>
+      <name>String getVendorperson()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getVendorperson()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setVendorperson(String vendorperson)</serialno>
+      <method>setVendorperson</method>
+      <name>void setVendorperson(String vendorperson)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setVendorperson(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>vendorperson</code>
+          <name>vendorperson</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArrivaldate()</serialno>
+      <method>getArrivaldate</method>
+      <name>String getArrivaldate()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getArrivaldate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArrivaldate(String arrivaldate)</serialno>
+      <method>setArrivaldate</method>
+      <name>void setArrivaldate(String arrivaldate)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setArrivaldate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>arrivaldate</code>
+          <name>arrivaldate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getVendor()</serialno>
+      <method>getVendor</method>
+      <name>String getVendor()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getVendor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setVendor(String vendor)</serialno>
+      <method>setVendor</method>
+      <name>void setVendor(String vendor)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setVendor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>vendor</code>
+          <name>vendor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getStockinid()</serialno>
+      <method>getStockinid</method>
+      <name>long getStockinid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Stockinlog.getStockinid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStockinid(long stockinid)</serialno>
+      <method>setStockinid</method>
+      <name>void setStockinid(long stockinid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setStockinid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>stockinid</code>
+          <name>stockinid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStockinno()</serialno>
+      <method>getStockinno</method>
+      <name>String getStockinno()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Stockinlog.getStockinno()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStockinno(String stockinno)</serialno>
+      <method>setStockinno</method>
+      <name>void setStockinno(String stockinno)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Stockinlog.setStockinno(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>stockinno</code>
+          <name>stockinno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

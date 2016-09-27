@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.RuleBo</classname>
+  <code>RuleBo</code>
+  <name>RuleBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}IKYBT0pxpOW6b1dq8mce6Q==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void addRule(RuleModel rule)</serialno>
+      <method>addRule</method>
+      <name>void addRule(RuleModel rule)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.RuleBo.addRule(com.siqiansoft.framework.model.RuleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RuleModel</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RuleModel getRule(String code)</serialno>
+      <method>getRule</method>
+      <name>RuleModel getRule(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.RuleModel com.siqiansoft.workflow.bo.RuleBo.getRule(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RuleModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RuleModel[] listRules()</serialno>
+      <method>listRules</method>
+      <name>RuleModel[] listRules()</name>
+      <genericname>public com.siqiansoft.framework.model.RuleModel[] com.siqiansoft.workflow.bo.RuleBo.listRules() throws java.lang.Exception</genericname>
+      <retclass>RuleModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRule(RuleModel rule)</serialno>
+      <method>updateRule</method>
+      <name>void updateRule(RuleModel rule)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.RuleBo.updateRule(com.siqiansoft.framework.model.RuleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RuleModel</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRules(String[] selected)</serialno>
+      <method>deleteRules</method>
+      <name>void deleteRules(String[] selected)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.RuleBo.deleteRules(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

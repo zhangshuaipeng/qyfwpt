@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.ViewModel</classname>
+  <code>ViewModel</code>
+  <name>ViewModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}wS5N/rhQPVnbPgqK88+xYA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel[] getControl()</serialno>
+      <method>getControl</method>
+      <name>ControllerModel[] getControl()</name>
+      <genericname>public com.siqiansoft.framework.model.view.ControllerModel[] com.siqiansoft.framework.model.view.ViewModel.getControl()</genericname>
+      <retclass>ControllerModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLayout(LayoutModel[] layout)</serialno>
+      <method>setLayout</method>
+      <name>void setLayout(LayoutModel[] layout)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setLayout(com.siqiansoft.framework.model.view.LayoutModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel[]</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel[] getLayout()</serialno>
+      <method>getLayout</method>
+      <name>LayoutModel[] getLayout()</name>
+      <genericname>public com.siqiansoft.framework.model.view.LayoutModel[] com.siqiansoft.framework.model.view.ViewModel.getLayout()</genericname>
+      <retclass>LayoutModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setVisible(String visible)</serialno>
+      <method>setVisible</method>
+      <name>void setVisible(String visible)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setVisible(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>visible</code>
+          <name>visible</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInterval()</serialno>
+      <method>getInterval</method>
+      <name>String getInterval()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getInterval()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInterval(String interval)</serialno>
+      <method>setInterval</method>
+      <name>void setInterval(String interval)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setInterval(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setControl(ControllerModel[] control)</serialno>
+      <method>setControl</method>
+      <name>void setControl(ControllerModel[] control)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setControl(com.siqiansoft.framework.model.view.ControllerModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel[]</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlow()</serialno>
+      <method>getFlow</method>
+      <name>String getFlow()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getFlow()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PageModel[] getPages()</serialno>
+      <method>getPages</method>
+      <name>PageModel[] getPages()</name>
+      <genericname>public com.siqiansoft.framework.model.view.PageModel[] com.siqiansoft.framework.model.view.ViewModel.getPages()</genericname>
+      <retclass>PageModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel[] getTemplets()</serialno>
+      <method>getTemplets</method>
+      <name>TempletModel[] getTemplets()</name>
+      <genericname>public com.siqiansoft.framework.model.view.TempletModel[] com.siqiansoft.framework.model.view.ViewModel.getTemplets()</genericname>
+      <retclass>TempletModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PortletViewModel getPortlet()</serialno>
+      <method>getPortlet</method>
+      <name>PortletViewModel getPortlet()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.PortletViewModel com.siqiansoft.framework.model.view.ViewModel.getPortlet()</genericname>
+      <retclass>PortletViewModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlow(String flow)</serialno>
+      <method>setFlow</method>
+      <name>void setFlow(String flow)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setFlow(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flow</code>
+          <name>flow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWelcomeUrl(String welcomeurl)</serialno>
+      <method>setWelcomeUrl</method>
+      <name>void setWelcomeUrl(String welcomeurl)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setWelcomeUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>welcomeurl</code>
+          <name>welcomeurl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWelcomeUrl()</serialno>
+      <method>getWelcomeUrl</method>
+      <name>String getWelcomeUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getWelcomeUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getVisible()</serialno>
+      <method>getVisible</method>
+      <name>String getVisible()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getVisible()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWordText(String wordtext)</serialno>
+      <method>setWordText</method>
+      <name>void setWordText(String wordtext)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setWordText(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wordtext</code>
+          <name>wordtext</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWordText()</serialno>
+      <method>getWordText</method>
+      <name>String getWordText()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ViewModel.getWordText()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPages(PageModel[] pages)</serialno>
+      <method>setPages</method>
+      <name>void setPages(PageModel[] pages)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setPages(com.siqiansoft.framework.model.view.PageModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageModel[]</type>
+          <code>pages</code>
+          <name>pages</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTemplets(TempletModel[] templets)</serialno>
+      <method>setTemplets</method>
+      <name>void setTemplets(TempletModel[] templets)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setTemplets(com.siqiansoft.framework.model.view.TempletModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TempletModel[]</type>
+          <code>templets</code>
+          <name>templets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPortlet(PortletViewModel portlet)</serialno>
+      <method>setPortlet</method>
+      <name>void setPortlet(PortletViewModel portlet)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ViewModel.setPortlet(com.siqiansoft.framework.model.portal.PortletViewModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PortletViewModel</type>
+          <code>portlet</code>
+          <name>portlet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>flow</code>
+      <name>flow</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>welcomeurl</code>
+      <name>welcomeurl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>visible</code>
+      <name>visible</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>wordtext</code>
+      <name>wordtext</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>interval</code>
+      <name>interval</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

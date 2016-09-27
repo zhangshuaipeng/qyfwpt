@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.HandlerModel</classname>
+  <code>HandlerModel</code>
+  <name>HandlerModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}rTrOzH5p1xmXjZWr+D4NEA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.view.HandlerModel.clone()</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.HandlerModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.HandlerModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.HandlerModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.HandlerModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFieldSet()</serialno>
+      <method>getFieldSet</method>
+      <name>String getFieldSet()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.HandlerModel.getFieldSet()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusiness()</serialno>
+      <method>getBusiness</method>
+      <name>String getBusiness()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.HandlerModel.getBusiness()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFieldSet(String fieldset)</serialno>
+      <method>setFieldSet</method>
+      <name>void setFieldSet(String fieldset)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.HandlerModel.setFieldSet(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusiness(String business)</serialno>
+      <method>setBusiness</method>
+      <name>void setBusiness(String business)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.HandlerModel.setBusiness(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>business</code>
+          <name>business</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRetField(String retfield)</serialno>
+      <method>setRetField</method>
+      <name>void setRetField(String retfield)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.HandlerModel.setRetField(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>retfield</code>
+          <name>retfield</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRetField()</serialno>
+      <method>getRetField</method>
+      <name>String getRetField()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.HandlerModel.getRetField()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>fieldset</code>
+      <name>处理号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>处理名</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>business</code>
+      <name>业务处理项</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>参数</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>128</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>retfield</code>
+      <name>返回域</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

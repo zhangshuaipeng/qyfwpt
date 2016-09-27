@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.biz.MethodModel</classname>
+  <code>MethodModel</code>
+  <name>MethodModel</name>
+  <packages>com.siqiansoft.framework.model.biz</packages>
+  <type>pojo</type>
+  <crc>{MD5}H1uXsWnAhzIWynFZaiuZTg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMethod()</serialno>
+      <method>getMethod</method>
+      <name>String getMethod()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getMethod()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMethod(String method)</serialno>
+      <method>setMethod</method>
+      <name>void setMethod(String method)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setMethod(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>method</code>
+          <name>method</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArguments(ArgumentModel[] arguments)</serialno>
+      <method>setArguments</method>
+      <name>void setArguments(ArgumentModel[] arguments)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setArguments(com.siqiansoft.framework.model.biz.ArgumentModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ArgumentModel[]</type>
+          <code>arguments</code>
+          <name>arguments</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArgumentModel[] getArguments()</serialno>
+      <method>getArguments</method>
+      <name>ArgumentModel[] getArguments()</name>
+      <genericname>public com.siqiansoft.framework.model.biz.ArgumentModel[] com.siqiansoft.framework.model.biz.MethodModel.getArguments()</genericname>
+      <retclass>ArgumentModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSerialNo()</serialno>
+      <method>getSerialNo</method>
+      <name>String getSerialNo()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getSerialNo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSerialNo(String serialno)</serialno>
+      <method>setSerialNo</method>
+      <name>void setSerialNo(String serialno)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setSerialNo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>serialno</code>
+          <name>serialno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRetRemark()</serialno>
+      <method>getRetRemark</method>
+      <name>String getRetRemark()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getRetRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRetRemark(String retremark)</serialno>
+      <method>setRetRemark</method>
+      <name>void setRetRemark(String retremark)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setRetRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>retremark</code>
+          <name>retremark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGenericName(String genericname)</serialno>
+      <method>setGenericName</method>
+      <name>void setGenericName(String genericname)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setGenericName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>genericname</code>
+          <name>genericname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRetClass(String retclass)</serialno>
+      <method>setRetClass</method>
+      <name>void setRetClass(String retclass)</name>
+      <genericname>public void com.siqiansoft.framework.model.biz.MethodModel.setRetClass(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>retclass</code>
+          <name>retclass</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGenericName()</serialno>
+      <method>getGenericName</method>
+      <name>String getGenericName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getGenericName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRetClass()</serialno>
+      <method>getRetClass</method>
+      <name>String getRetClass()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.biz.MethodModel.getRetClass()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>serialno</code>
+      <name>serialno</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>method</code>
+      <name>method</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>genericname</code>
+      <name>genericname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>remark</code>
+      <name>remark</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>retclass</code>
+      <name>retclass</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>retremark</code>
+      <name>retremark</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

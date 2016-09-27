@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.EptChangeLog</classname>
+  <code>EptChangeLog</code>
+  <name>EptChangeLog</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}KDh8O6ghpNhQ21gc3qgKQg==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getChagelogid()</serialno>
+      <method>getChagelogid</method>
+      <name>long getChagelogid()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptChangeLog.getChagelogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChagelogid(long chagelogid)</serialno>
+      <method>setChagelogid</method>
+      <name>void setChagelogid(long chagelogid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setChagelogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>chagelogid</code>
+          <name>chagelogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseid()</serialno>
+      <method>getEnterpriseid</method>
+      <name>long getEnterpriseid()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptChangeLog.getEnterpriseid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseid(long enterpriseid)</serialno>
+      <method>setEnterpriseid</method>
+      <name>void setEnterpriseid(long enterpriseid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setEnterpriseid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseid</code>
+          <name>enterpriseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChengaetype()</serialno>
+      <method>getChengaetype</method>
+      <name>String getChengaetype()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getChengaetype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangedate()</serialno>
+      <method>getChangedate</method>
+      <name>String getChangedate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getChangedate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangedate(String changedate)</serialno>
+      <method>setChangedate</method>
+      <name>void setChangedate(String changedate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setChangedate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changedate</code>
+          <name>changedate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChengaetype(String chengaetype)</serialno>
+      <method>setChengaetype</method>
+      <name>void setChengaetype(String chengaetype)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setChengaetype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>chengaetype</code>
+          <name>chengaetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangecontent()</serialno>
+      <method>getChangecontent</method>
+      <name>String getChangecontent()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getChangecontent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangecontent(String changecontent)</serialno>
+      <method>setChangecontent</method>
+      <name>void setChangecontent(String changecontent)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setChangecontent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changecontent</code>
+          <name>changecontent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getAttachid()</serialno>
+      <method>getAttachid</method>
+      <name>int getAttachid()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptChangeLog.getAttachid()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachid(int attachid)</serialno>
+      <method>setAttachid</method>
+      <name>void setAttachid(int attachid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setAttachid(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>attachid</code>
+          <name>attachid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getApprovestate()</serialno>
+      <method>getApprovestate</method>
+      <name>int getApprovestate()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptChangeLog.getApprovestate()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovestate(int approvestate)</serialno>
+      <method>setApprovestate</method>
+      <name>void setApprovestate(int approvestate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setApprovestate(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>approvestate</code>
+          <name>approvestate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedate()</serialno>
+      <method>getApprovedate</method>
+      <name>String getApprovedate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getApprovedate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedate(String approvedate)</serialno>
+      <method>setApprovedate</method>
+      <name>void setApprovedate(String approvedate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setApprovedate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedate</code>
+          <name>approvedate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAskfordate()</serialno>
+      <method>getAskfordate</method>
+      <name>String getAskfordate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getAskfordate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAskfordate(String askfordate)</serialno>
+      <method>setAskfordate</method>
+      <name>void setAskfordate(String askfordate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setAskfordate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>askfordate</code>
+          <name>askfordate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAskforcode()</serialno>
+      <method>getAskforcode</method>
+      <name>String getAskforcode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptChangeLog.getAskforcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAskforcode(String askforcode)</serialno>
+      <method>setAskforcode</method>
+      <name>void setAskforcode(String askforcode)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptChangeLog.setAskforcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>askforcode</code>
+          <name>askforcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

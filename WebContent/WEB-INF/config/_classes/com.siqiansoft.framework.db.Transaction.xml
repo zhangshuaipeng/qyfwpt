@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.Transaction</classname>
+  <code>Transaction</code>
+  <name>Transaction</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}yv8DcNpRZmDa1/iiY6NyeQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>UserTransaction getUserTransaction()</serialno>
+      <method>getUserTransaction</method>
+      <name>UserTransaction getUserTransaction()</name>
+      <genericname>public static javax.transaction.UserTransaction com.siqiansoft.framework.db.Transaction.getUserTransaction() throws java.lang.Exception</genericname>
+      <retclass>UserTransaction</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

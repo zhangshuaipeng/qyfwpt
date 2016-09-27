@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.exception.ViewDefineException</classname>
+  <code>ViewDefineException</code>
+  <name>ViewDefineException</name>
+  <packages>com.siqiansoft.framework.exception</packages>
+  <type>biz</type>
+  <crc>{MD5}taIJrWywKOeXWWtr5KYaSg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+</model.biz.ClassModel>

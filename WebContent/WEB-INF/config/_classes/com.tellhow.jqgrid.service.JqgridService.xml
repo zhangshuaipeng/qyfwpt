@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.service.JqgridService</classname>
+  <code>JqgridService</code>
+  <name>JqgridService</name>
+  <packages>com.tellhow.jqgrid.service</packages>
+  <type>biz</type>
+  <crc>{MD5}D6vdsrfsmmiBz3OegaaMgg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HSSFWorkbook exportXls(JqgridModel jqgridModel,List jqgridData)</serialno>
+      <method>exportXls</method>
+      <name>HSSFWorkbook exportXls(JqgridModel jqgridModel,List jqgridData)</name>
+      <genericname>public org.apache.poi.hssf.usermodel.HSSFWorkbook com.tellhow.jqgrid.service.JqgridService.exportXls(com.tellhow.jqgrid.bean.JqgridModel,java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;) throws java.lang.Exception</genericname>
+      <retclass>HSSFWorkbook</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>JqgridModel</type>
+          <code>jqgridModel</code>
+          <name>jqgridModel</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>jqgridData</code>
+          <name>jqgridData</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModelVo fetchJqgridModel()</serialno>
+      <method>fetchJqgridModel</method>
+      <name>JqgridModelVo fetchJqgridModel()</name>
+      <genericname>public com.tellhow.jqgrid.vo.JqgridModelVo com.tellhow.jqgrid.service.JqgridService.fetchJqgridModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModelVo</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>AppItemModel</code>
+    <name>模块条目属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model</catalog>
+    <item>AppItemModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

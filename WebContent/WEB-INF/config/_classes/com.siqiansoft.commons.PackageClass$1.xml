@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.PackageClass$1</classname>
+  <code>PackageClass$1</code>
+  <name>PackageClass$1</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}0yZOGU32Wwj0xrkY9sNd1w==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean accept(File file)</serialno>
+      <method>accept</method>
+      <name>boolean accept(File file)</name>
+      <genericname>public boolean com.siqiansoft.commons.PackageClass$1.accept(java.io.File)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

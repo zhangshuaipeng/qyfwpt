@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.portal.TempletModel</classname>
+  <code>TempletModel</code>
+  <name>TempletModel</name>
+  <packages>com.siqiansoft.framework.model.portal</packages>
+  <type>pojo</type>
+  <crc>{MD5}33b3LBW5N6aERDv3ngKulA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLayout(String layout)</serialno>
+      <method>setLayout</method>
+      <name>void setLayout(String layout)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setLayout(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLayout()</serialno>
+      <method>getLayout</method>
+      <name>String getLayout()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getLayout()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeader()</serialno>
+      <method>getHeader</method>
+      <name>String getHeader()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getHeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ContentModel[] getContents()</serialno>
+      <method>getContents</method>
+      <name>ContentModel[] getContents()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.ContentModel[] com.siqiansoft.framework.model.portal.TempletModel.getContents()</genericname>
+      <retclass>ContentModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContents(ContentModel[] contents)</serialno>
+      <method>setContents</method>
+      <name>void setContents(ContentModel[] contents)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setContents(com.siqiansoft.framework.model.portal.ContentModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ContentModel[]</type>
+          <code>contents</code>
+          <name>contents</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRoles()</serialno>
+      <method>getRoles</method>
+      <name>String getRoles()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getRoles()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoles(String roles)</serialno>
+      <method>setRoles</method>
+      <name>void setRoles(String roles)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setRoles(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roles</code>
+          <name>roles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeader(String header)</serialno>
+      <method>setHeader</method>
+      <name>void setHeader(String header)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setHeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>header</code>
+          <name>header</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrame(String frame)</serialno>
+      <method>setFrame</method>
+      <name>void setFrame(String frame)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setFrame(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>frame</code>
+          <name>frame</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFrame()</serialno>
+      <method>getFrame</method>
+      <name>String getFrame()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getFrame()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrames(String frames)</serialno>
+      <method>setFrames</method>
+      <name>void setFrames(String frames)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setFrames(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>frames</code>
+          <name>frames</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFrames()</serialno>
+      <method>getFrames</method>
+      <name>String getFrames()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getFrames()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEditable(String editable)</serialno>
+      <method>setEditable</method>
+      <name>void setEditable(String editable)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.TempletModel.setEditable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>editable</code>
+          <name>editable</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEditable()</serialno>
+      <method>getEditable</method>
+      <name>String getEditable()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.TempletModel.getEditable()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>layout</code>
+      <name>layout</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>frame</code>
+      <name>frame</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>frames</code>
+      <name>frames</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>roles</code>
+      <name>roles</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>title</code>
+      <name>title</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>header</code>
+      <name>header</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>params</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>editable</code>
+      <name>editable</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>TempletModel</code>
+    <name>数据集显示模板属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>TempletModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>StyleModel</code>
+    <name>行元素属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>StyleModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ItemModel</code>
+    <name>条数属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.dict</catalog>
+    <item>ItemModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ColumnModel</code>
+    <name>列属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>ColumnModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

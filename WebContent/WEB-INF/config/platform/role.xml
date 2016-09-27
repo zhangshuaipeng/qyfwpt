@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ItemModel-array>
+  <model.ItemModel>
+    <name>developer</name>
+    <value>开发人员</value>
+  </model.ItemModel>
+  <model.ItemModel>
+    <name>system</name>
+    <value>系统管理员</value>
+  </model.ItemModel>
+  <model.ItemModel>
+    <name>manager</name>
+    <value>项目经理</value>
+  </model.ItemModel>
+</model.ItemModel-array>

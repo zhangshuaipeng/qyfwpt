@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.ResumeLogic</classname>
+  <code>ResumeLogic</code>
+  <name>ResumeLogic</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}K0PD1o6q4TFCdaQ56dgz2A==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void ResumeSave(ResumeExeclVo resumeExeclVo,LoginModel login)</serialno>
+      <method>ResumeSave</method>
+      <name>void ResumeSave(ResumeExeclVo resumeExeclVo,LoginModel login)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeLogic.ResumeSave(com.tellhow.personnel.bean.vo.ResumeExeclVo,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ResumeExeclVo</type>
+          <code>resumeExeclVo</code>
+          <name>resumeExeclVo</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Resume VoToResume(ResumeExeclVo resumeExeclVo)</serialno>
+      <method>VoToResume</method>
+      <name>Resume VoToResume(ResumeExeclVo resumeExeclVo)</name>
+      <genericname>public com.tellhow.personnel.bean.resume.Resume com.tellhow.personnel.service.ResumeLogic.VoToResume(com.tellhow.personnel.bean.vo.ResumeExeclVo)</genericname>
+      <retclass>Resume</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ResumeExeclVo</type>
+          <code>resumeExeclVo</code>
+          <name>resumeExeclVo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Resume HrvoToResume(EntryManageVo resumeExeclVo)</serialno>
+      <method>HrvoToResume</method>
+      <name>Resume HrvoToResume(EntryManageVo resumeExeclVo)</name>
+      <genericname>public com.tellhow.personnel.bean.resume.Resume com.tellhow.personnel.service.ResumeLogic.HrvoToResume(com.tellhow.personnel.bean.vo.EntryManageVo)</genericname>
+      <retclass>Resume</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EntryManageVo</type>
+          <code>resumeExeclVo</code>
+          <name>resumeExeclVo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.Stockdetail</classname>
+  <code>Stockdetail</code>
+  <name>Stockdetail</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}gGaZ1aQaBbDLrcS+fsGwKw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int findDetail(String articleid,String articlesizeid,String granttime,String num)</serialno>
+      <method>findDetail</method>
+      <name>int findDetail(String articleid,String articlesizeid,String granttime,String num)</name>
+      <genericname>public int com.tellhow.detail.service.Stockdetail.findDetail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>granttime</code>
+          <name>granttime</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>num</code>
+          <name>num</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String findStockdate(String articleid,String articlesizeid)</serialno>
+      <method>findStockdate</method>
+      <name>String findStockdate(String articleid,String articlesizeid)</name>
+      <genericname>public java.lang.String com.tellhow.detail.service.Stockdetail.findStockdate(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateStockDetail()</serialno>
+      <method>updateStockDetail</method>
+      <name>void updateStockDetail()</name>
+      <genericname>public void com.tellhow.detail.service.Stockdetail.updateStockDetail() throws java.text.ParseException</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int findDetailQuantity(String articleid,String articlesizeid,String granttime)</serialno>
+      <method>findDetailQuantity</method>
+      <name>int findDetailQuantity(String articleid,String articlesizeid,String granttime)</name>
+      <genericname>public int com.tellhow.detail.service.Stockdetail.findDetailQuantity(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>granttime</code>
+          <name>granttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap findStockDetail(String articleid,String articlesizeid)</serialno>
+      <method>findStockDetail</method>
+      <name>HashMap findStockDetail(String articleid,String articlesizeid)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.tellhow.detail.service.Stockdetail.findStockDetail(java.lang.String,java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

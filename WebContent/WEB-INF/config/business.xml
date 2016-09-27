@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>tedt</code>
+    <name>DDD</name>
+    <type>class</type>
+    <catalog>DD</catalog>
+    <item>DD</item>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

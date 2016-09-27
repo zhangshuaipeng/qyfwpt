@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.vo.LandReportVo</classname>
+  <code>LandReportVo</code>
+  <name>LandReportVo</name>
+  <packages>com.tellhow.landpurchase.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}DHfroYckCqkSsJoN2EusOw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setJqgridList(String jqgridList)</serialno>
+      <method>setJqgridList</method>
+      <name>void setJqgridList(String jqgridList)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.LandReportVo.setJqgridList(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jqgridList</code>
+          <name>jqgridList</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJqgridList()</serialno>
+      <method>getJqgridList</method>
+      <name>String getJqgridList()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.LandReportVo.getJqgridList()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>jqgridlist</code>
+      <name>jqgridList</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.siqiansoft.workflow.model.FlowModel>
+  <flowcode>fw001</flowcode>
+  <flowname>发文演示</flowname>
+  <system>document</system>
+  <formid>pupdocument</formid>
+</com.siqiansoft.workflow.model.FlowModel>

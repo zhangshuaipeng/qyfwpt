@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.DatabaseAccess</classname>
+  <code>DatabaseAccess</code>
+  <name>DatabaseAccess</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}+51IgLNzndY5HeuYxHDIrA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void close()</serialno>
+      <method>close</method>
+      <name>void close()</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.close() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String insert(Object obj,String tablename)</serialno>
+      <method>insert</method>
+      <name>String insert(Object obj,String tablename)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.db.DatabaseAccess.insert(java.lang.Object,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList query(String SQL)</serialno>
+      <method>query</method>
+      <name>ArrayList query(String SQL)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.query(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList query(String tablename,ConditionModel[] cond,PagingModel page,String fields)</serialno>
+      <method>query</method>
+      <name>ArrayList query(String tablename,ConditionModel[] cond,PagingModel page,String fields)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.query(java.lang.String,com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fields</code>
+          <name>fields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void update(Object obj,String tablename)</serialno>
+      <method>update</method>
+      <name>void update(Object obj,String tablename)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.update(java.lang.Object,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void commit()</serialno>
+      <method>commit</method>
+      <name>void commit()</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.commit() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void rollback()</serialno>
+      <method>rollback</method>
+      <name>void rollback()</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.rollback() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void prepareCall(String SQL,String[] v)</serialno>
+      <method>prepareCall</method>
+      <name>void prepareCall(String SQL,String[] v)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.prepareCall(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>v</code>
+          <name>v</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void readBinary(String table,String pkField,String pkValue,String binField,OutputStream out)</serialno>
+      <method>readBinary</method>
+      <name>void readBinary(String table,String pkField,String pkValue,String binField,OutputStream out)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.readBinary(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.io.OutputStream) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkField</code>
+          <name>pkField</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkValue</code>
+          <name>pkValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>binField</code>
+          <name>binField</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>OutputStream</type>
+          <code>out</code>
+          <name>out</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRow(String pk,String tablename)</serialno>
+      <method>deleteRow</method>
+      <name>void deleteRow(String pk,String tablename)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.deleteRow(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateBinary(String tableName,String pkField,String pkValue,String binField,InputStream ins)</serialno>
+      <method>updateBinary</method>
+      <name>void updateBinary(String tableName,String pkField,String pkValue,String binField,InputStream ins)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.updateBinary(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.io.InputStream) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tableName</code>
+          <name>tableName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkField</code>
+          <name>pkField</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkValue</code>
+          <name>pkValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>binField</code>
+          <name>binField</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>InputStream</type>
+          <code>ins</code>
+          <name>ins</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void prepareUpdate(String SQL,String[] v)</serialno>
+      <method>prepareUpdate</method>
+      <name>void prepareUpdate(String SQL,String[] v)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.prepareUpdate(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>v</code>
+          <name>v</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList prepareQuery(String SQL,String[] params,int fromRow,int toRow)</serialno>
+      <method>prepareQuery</method>
+      <name>ArrayList prepareQuery(String SQL,String[] params,int fromRow,int toRow)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.prepareQuery(java.lang.String,java.lang.String[],int,int) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>fromRow</code>
+          <name>fromRow</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>toRow</code>
+          <name>toRow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList prepareQuery(String SQL,String[] params,PagingModel page)</serialno>
+      <method>prepareQuery</method>
+      <name>ArrayList prepareQuery(String SQL,String[] params,PagingModel page)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.prepareQuery(java.lang.String,java.lang.String[],com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList prepareQuery(String SQL,String[] params)</serialno>
+      <method>prepareQuery</method>
+      <name>ArrayList prepareQuery(String SQL,String[] params)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.prepareQuery(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList prepareQuery(String SQL,String[] params,int nRecordNum)</serialno>
+      <method>prepareQuery</method>
+      <name>ArrayList prepareQuery(String SQL,String[] params,int nRecordNum)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.DatabaseAccess.prepareQuery(java.lang.String,java.lang.String[],int) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nRecordNum</code>
+          <name>nRecordNum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void prepareDelete(String SQL,String[] selected)</serialno>
+      <method>prepareDelete</method>
+      <name>void prepareDelete(String SQL,String[] selected)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.prepareDelete(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRows(String[] pk,String tablename)</serialno>
+      <method>deleteRows</method>
+      <name>void deleteRows(String[] pk,String tablename)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.deleteRows(java.lang.String[],java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRowByPK(String pk,String tablename,String fields)</serialno>
+      <method>getRowByPK</method>
+      <name>HashMap getRowByPK(String pk,String tablename,String fields)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.db.DatabaseAccess.getRowByPK(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tablename</code>
+          <name>tablename</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fields</code>
+          <name>fields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextKey(TableModel table)</serialno>
+      <method>getNextKey</method>
+      <name>String getNextKey(TableModel table)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.db.DatabaseAccess.getNextKey(com.siqiansoft.framework.model.db.TableModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TableModel</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextKey(String type,String table,String field)</serialno>
+      <method>getNextKey</method>
+      <name>String getNextKey(String type,String table,String field)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.db.DatabaseAccess.getNextKey(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyBinaryData(String srcTable,String srcPK,String srcPKValue,String srcBin,String destTable,String destPK,String destPKValue,String destBin)</serialno>
+      <method>copyBinaryData</method>
+      <name>void copyBinaryData(String srcTable,String srcPK,String srcPKValue,String srcBin,String destTable,String destPK,String destPKValue,String destBin)</name>
+      <genericname>public void com.siqiansoft.framework.db.DatabaseAccess.copyBinaryData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>srcTable</code>
+          <name>srcTable</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>srcPK</code>
+          <name>srcPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>srcPKValue</code>
+          <name>srcPKValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>srcBin</code>
+          <name>srcBin</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destTable</code>
+          <name>destTable</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destPK</code>
+          <name>destPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destPKValue</code>
+          <name>destPKValue</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destBin</code>
+          <name>destBin</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>done</code>
+    <name>已办工作</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_DONE</item>
+    <script>select * from eap_vw_done where actiontype!=&apos;W&apos;</script>
+    <metadata>EAP_VW_DONE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

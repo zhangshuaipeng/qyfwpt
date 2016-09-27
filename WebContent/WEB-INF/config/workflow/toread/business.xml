@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ReadBo.getToreadWorks</code>
+    <name>getToreadWorks</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.ReadBo</catalog>
+    <item>getToreadWorks</item>
+    <script>ArrayList getToreadWorks(LoginModel login,ConditionModel[] con,PagingModel page)</script>
+    <params>login,con,page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>SubPageBo.listSubPages</code>
+    <name>listSubPages</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.SubPageBo</catalog>
+    <item>listSubPages</item>
+    <script>SubPageModel[] listSubPages()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SubPageBo.addSubPage</code>
+    <name>addSubPage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.SubPageBo</catalog>
+    <item>addSubPage</item>
+    <script>void addSubPage(SubPageModel page)</script>
+    <params>page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SubPageBo.getSubPage</code>
+    <name>getSubPage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.SubPageBo</catalog>
+    <item>getSubPage</item>
+    <script>SubPageModel getSubPage(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SubPageBo.updateSubPage</code>
+    <name>updateSubPage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.SubPageBo</catalog>
+    <item>updateSubPage</item>
+    <script>void updateSubPage(SubPageModel page)</script>
+    <params>page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SubPageBo.deleteSubPages</code>
+    <name>deleteSubPages</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.SubPageBo</catalog>
+    <item>deleteSubPages</item>
+    <script>void deleteSubPages(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

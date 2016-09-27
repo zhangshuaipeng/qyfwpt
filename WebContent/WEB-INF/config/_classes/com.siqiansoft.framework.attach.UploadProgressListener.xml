@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.attach.UploadProgressListener</classname>
+  <code>UploadProgressListener</code>
+  <name>UploadProgressListener</name>
+  <packages>com.siqiansoft.framework.attach</packages>
+  <type>biz</type>
+  <crc>{MD5}gNPntE6Py94l68VsbeLNJg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>BufferedInputStream getInputStream()</serialno>
+      <method>getInputStream</method>
+      <name>BufferedInputStream getInputStream()</name>
+      <genericname>public java.io.BufferedInputStream com.siqiansoft.framework.attach.UploadProgressListener.getInputStream()</genericname>
+      <retclass>BufferedInputStream</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void update(long aBytesRead,long aContentLength,int anItem)</serialno>
+      <method>update</method>
+      <name>void update(long aBytesRead,long aContentLength,int anItem)</name>
+      <genericname>public void com.siqiansoft.framework.attach.UploadProgressListener.update(long,long,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>aBytesRead</code>
+          <name>aBytesRead</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>aContentLength</code>
+          <name>aContentLength</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>anItem</code>
+          <name>anItem</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getBytesRead()</serialno>
+      <method>getBytesRead</method>
+      <name>long getBytesRead()</name>
+      <genericname>public long com.siqiansoft.framework.attach.UploadProgressListener.getBytesRead()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getContentLength()</serialno>
+      <method>getContentLength</method>
+      <name>long getContentLength()</name>
+      <genericname>public long com.siqiansoft.framework.attach.UploadProgressListener.getContentLength()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BufferedOutputStream getOutputStream()</serialno>
+      <method>getOutputStream</method>
+      <name>BufferedOutputStream getOutputStream()</name>
+      <genericname>public java.io.BufferedOutputStream com.siqiansoft.framework.attach.UploadProgressListener.getOutputStream()</genericname>
+      <retclass>BufferedOutputStream</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInputStream(BufferedInputStream ins)</serialno>
+      <method>setInputStream</method>
+      <name>void setInputStream(BufferedInputStream ins)</name>
+      <genericname>public void com.siqiansoft.framework.attach.UploadProgressListener.setInputStream(java.io.BufferedInputStream)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BufferedInputStream</type>
+          <code>ins</code>
+          <name>ins</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOutputStream(BufferedOutputStream outs)</serialno>
+      <method>setOutputStream</method>
+      <name>void setOutputStream(BufferedOutputStream outs)</name>
+      <genericname>public void com.siqiansoft.framework.attach.UploadProgressListener.setOutputStream(java.io.BufferedOutputStream)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BufferedOutputStream</type>
+          <code>outs</code>
+          <name>outs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFileName(String fileName)</serialno>
+      <method>setFileName</method>
+      <name>void setFileName(String fileName)</name>
+      <genericname>public void com.siqiansoft.framework.attach.UploadProgressListener.setFileName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileName</code>
+          <name>fileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

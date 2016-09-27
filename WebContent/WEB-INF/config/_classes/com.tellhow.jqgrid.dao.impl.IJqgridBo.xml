@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.dao.impl.IJqgridBo</classname>
+  <code>IJqgridBo</code>
+  <name>IJqgridBo</name>
+  <packages>com.tellhow.jqgrid.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}2ZiQVB6wiYlPVuTNKJOnug==</crc>
+  <modifytime>2013-05-29 14:11:59</modifytime>
+</model.biz.ClassModel>

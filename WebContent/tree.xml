@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree>
+  <tree id="1" text="国电集团" action="" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif">
+    <tree id="2" text="西北分公司" action="aa.jsp" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="3" text="华北分公司" action="http://www.baidu.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="4" text="华东分公司" action="license.jsp" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="5" text="云南分公司" action="http://www.google.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="6" text="陕西分公司" action="http://www.sina.com.cn" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="7" text="山西分公司" action="http://www.163.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+  </tree>
+  
+  <tree id="8" text="国电电力" action="http://www.google.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="leaf.gif">
+    <tree id="9" text="西北分公司" action="http://www.baidu.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="open.gif"/>
+    <tree id="10" text="华北分公司" action="http://www.bing.com" src="" target="" icon="images/leaf.gif" openIcon="open.gif"/>
+  </tree>
+  <tree id="11" text="子系统" action="http://www.baidu.com" src="" target="mainFrame" icon="images/leaf.gif" openIcon="leaf.gif"/>
+
+</tree>

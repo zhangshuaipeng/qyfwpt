@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.AttachmentModel</classname>
+  <code>AttachmentModel</code>
+  <name>AttachmentModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}6rsMP4tkyBpwkDwSPAKbhw==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTable(String table)</serialno>
+      <method>setTable</method>
+      <name>void setTable(String table)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setTable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIndex()</serialno>
+      <method>getIndex</method>
+      <name>String getIndex()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getIndex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTable()</serialno>
+      <method>getTable</method>
+      <name>String getTable()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getTable()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndex(String index)</serialno>
+      <method>setIndex</method>
+      <name>void setIndex(String index)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setIndex(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getMaxSize()</serialno>
+      <method>getMaxSize</method>
+      <name>int getMaxSize()</name>
+      <genericname>public int com.siqiansoft.framework.model.AttachmentModel.getMaxSize()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMaxSize(int maxsize)</serialno>
+      <method>setMaxSize</method>
+      <name>void setMaxSize(int maxsize)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setMaxSize(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>maxsize</code>
+          <name>maxsize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRights()</serialno>
+      <method>getRights</method>
+      <name>String getRights()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getRights()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSavePath()</serialno>
+      <method>getSavePath</method>
+      <name>String getSavePath()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getSavePath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDsn()</serialno>
+      <method>getDsn</method>
+      <name>String getDsn()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getDsn()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDsn(String dsn)</serialno>
+      <method>setDsn</method>
+      <name>void setDsn(String dsn)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setDsn(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEncrypt()</serialno>
+      <method>getEncrypt</method>
+      <name>String getEncrypt()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getEncrypt()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEncrypt(String encrypt)</serialno>
+      <method>setEncrypt</method>
+      <name>void setEncrypt(String encrypt)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setEncrypt(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encrypt</code>
+          <name>encrypt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReadNum(String readnum)</serialno>
+      <method>setReadNum</method>
+      <name>void setReadNum(String readnum)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setReadNum(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>readnum</code>
+          <name>readnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRightType()</serialno>
+      <method>getRightType</method>
+      <name>String getRightType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getRightType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRights(String rights)</serialno>
+      <method>setRights</method>
+      <name>void setRights(String rights)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setRights(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachType()</serialno>
+      <method>getAttachType</method>
+      <name>String getAttachType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getAttachType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSavePath(String savepath)</serialno>
+      <method>setSavePath</method>
+      <name>void setSavePath(String savepath)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setSavePath(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savepath</code>
+          <name>savepath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFileType(String filetype)</serialno>
+      <method>setFileType</method>
+      <name>void setFileType(String filetype)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setFileType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filetype</code>
+          <name>filetype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachType(String attachtype)</serialno>
+      <method>setAttachType</method>
+      <name>void setAttachType(String attachtype)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setAttachType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>attachtype</code>
+          <name>attachtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsImage(String isimage)</serialno>
+      <method>setIsImage</method>
+      <name>void setIsImage(String isimage)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setIsImage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>isimage</code>
+          <name>isimage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIsImage()</serialno>
+      <method>getIsImage</method>
+      <name>String getIsImage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getIsImage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMaxCount(int maxcount)</serialno>
+      <method>setMaxCount</method>
+      <name>void setMaxCount(int maxcount)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setMaxCount(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>maxcount</code>
+          <name>maxcount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getMaxCount()</serialno>
+      <method>getMaxCount</method>
+      <name>int getMaxCount()</name>
+      <genericname>public int com.siqiansoft.framework.model.AttachmentModel.getMaxCount()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFileType()</serialno>
+      <method>getFileType</method>
+      <name>String getFileType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getFileType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRightType(String righttype)</serialno>
+      <method>setRightType</method>
+      <name>void setRightType(String righttype)</name>
+      <genericname>public void com.siqiansoft.framework.model.AttachmentModel.setRightType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>righttype</code>
+          <name>righttype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReadNum()</serialno>
+      <method>getReadNum</method>
+      <name>String getReadNum()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.AttachmentModel.getReadNum()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>attachtype</code>
+      <name>attachtype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>isimage</code>
+      <name>isimage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>maxsize</code>
+      <name>maxsize</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>maxcount</code>
+      <name>maxcount</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>index</code>
+      <name>index</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>savepath</code>
+      <name>savepath</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>encrypt</code>
+      <name>encrypt</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>filetype</code>
+      <name>filetype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>righttype</code>
+      <name>righttype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rights</code>
+      <name>rights</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>readnum</code>
+      <name>readnum</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dsn</code>
+      <name>dsn</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>table</code>
+      <name>table</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

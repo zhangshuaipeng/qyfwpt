@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Job</classname>
+  <code>Job</code>
+  <name>Job</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}8BjJRESz9YRKSnE37osU3w==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+</model.biz.ClassModel>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.portal.LayoutModel>
+  <code>layout2r3c</code>
+  <name>两行三列布局</name>
+  <style>*{&#xd;
+ margin:0; &#xd;
+ padding:0;&#xd;
+ }&#xd;
+body{margin:0;padding:5;border:0 none;height: 100%;font-size:12px;font-family:Arial, Helvetica, sans-serif;}&#xd;
+ul,li,dl,dt,dd,form,span,label,p{margin:0px; padding:0px;}&#xd;
+ul,li{ list-style:none;}&#xd;
+img{border:0; margin:0; padding:0;}&#xd;
+div{margin:0 auto;font-size:14px;}&#xd;
+a{text-decoration:none;color:#000; margin:0; padding:0;}&#xd;
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal; margin:0;padding:0;}&#xd;
+&#xd;
+&#xd;
+#neirong{background:#fff; padding:5px;}&#xd;
+#top{height: 115px;margin-bottom: 5px;}&#xd;
+#bodys{margin-bottom: 5px;}&#xd;
+#bottom{margin-bottom:5px;}</style>
+  <body>&lt;div id=&quot;neirong&quot;&gt;&#xd;
+   &lt;div&gt;&#xd;
+      &lt;div id=&quot;A1&quot;&gt;{A1}&lt;/div&gt;    &#xd;
+      &lt;div id=&quot;A2&quot;&gt;{A2}&lt;/div&gt;         &#xd;
+      &lt;div id=&quot;A3&quot;&gt;{A3}&lt;/div&gt;&#xd;
+   &lt;/div&gt;&#xd;
+&lt;div&gt;&#xd;
+   &lt;div id=&quot;A4&quot;&gt;&#xd;
+     &lt;div id=&quot;A41&quot;&gt;{A41}&lt;/div&gt;&#xd;
+     &lt;div id=&quot;A51&quot;&gt;{A51}&lt;/div&gt;&#xd;
+   &lt;/div&gt;&#xd;
+   &lt;div id=&quot;A5&quot;&gt;&#xd;
+     &lt;div id=&quot;A42&quot;&gt;{A42}&lt;/div&gt;&#xd;
+     &lt;div id=&quot;A52&quot;&gt;{A52}&lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;/div&gt;</body>
+  <containers>
+    <model.portal.ContainerModel>
+      <code>A1</code>
+      <name>待办工作</name>
+      <style>width: 20%;background: url(&quot;77.gif&quot;);float:left</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A2</code>
+      <name>图标</name>
+      <style>width:48%;background: url(&quot;77.gif&quot;);padding-left:0.8%;padding-right:0.8%;float:left</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A3</code>
+      <name>值班</name>
+      <style>width:30%;background: url(&quot;77.gif&quot;);float:left;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A41</code>
+      <name>左侧上</name>
+      <style>background: url(&quot;dd.gif&quot;);margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A42</code>
+      <name>左侧下</name>
+      <style>background: url(&quot;dd.gif&quot;);margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A51</code>
+      <name>右侧上</name>
+      <style>background: url(&quot;dd.gif&quot;);margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A52</code>
+      <name>右侧下</name>
+      <style>background: url(&quot;dd.gif&quot;);margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A4</code>
+      <name>左侧</name>
+      <style>width:49%;float:left;padding:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A5</code>
+      <name>右侧</name>
+      <style>width:49%;float:left;padding:5px;padding-left:5px;</style>
+    </model.portal.ContainerModel>
+  </containers>
+</model.portal.LayoutModel>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getModule</code>
+    <name>getModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getModule</item>
+    <script>AppItemModel getModule(String system,String id)</script>
+    <params>system,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getSystem</code>
+    <name>getSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getSystem</item>
+    <script>AppItemModel getSystem(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSystem</code>
+    <name>updateSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSystem</item>
+    <script>void updateSystem(AppItemModel item)</script>
+    <params>item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listModules</code>
+    <name>listModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listModules</item>
+    <script>AppItemModel[] listModules(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.saveModule</code>
+    <name>saveModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>saveModule</item>
+    <script>void saveModule(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateModule</code>
+    <name>updateModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateModule</item>
+    <script>void updateModule(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getNavigatorTree</code>
+    <name>getNavigatorTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getNavigatorTree</item>
+    <script>NodeModel getNavigatorTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listSystems</code>
+    <name>listSystems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listSystems</item>
+    <script>AppItemModel[] listSystems()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.systemUp</code>
+    <name>systemUp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>systemUp</item>
+    <script>void systemUp(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.systemDown</code>
+    <name>systemDown</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>systemDown</item>
+    <script>void systemDown(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listSubSystem</code>
+    <name>listSubSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listSubSystem</item>
+    <script>AppItemModel[] listSubSystem(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.subUp</code>
+    <name>subUp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>subUp</item>
+    <script>void subUp(String system,String module,String sub)</script>
+    <params>system,module,sub</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.subDown</code>
+    <name>subDown</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>subDown</item>
+    <script>void subDown(String system,String module,String sub)</script>
+    <params>system,module,sub</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.saveSub</code>
+    <name>saveSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>saveSub</item>
+    <script>void saveSub(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getSub</code>
+    <name>getSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getSub</item>
+    <script>AppItemModel getSub(String system,String sub)</script>
+    <params>system,sub</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSub</code>
+    <name>updateSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSub</item>
+    <script>void updateSub(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.deleteSub</code>
+    <name>deleteSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>deleteSub</item>
+    <script>void deleteSub(String system,String[] selected)</script>
+    <params>system,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.moduleUp</code>
+    <name>moduleUp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>moduleUp</item>
+    <script>void moduleUp(String system,String id)</script>
+    <params>system,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.moduleDown</code>
+    <name>moduleDown</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>moduleDown</item>
+    <script>void moduleDown(String system,String id)</script>
+    <params>system,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.deleteModule</code>
+    <name>deleteModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>deleteModule</item>
+    <script>void deleteModule(String system,String[] selected)</script>
+    <params>system,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listSubModule</code>
+    <name>listSubModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listSubModule</item>
+    <script>AppItemModel[] listSubModule(String system,String modid)</script>
+    <params>system,modid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.saveSubModule</code>
+    <name>saveSubModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>saveSubModule</item>
+    <script>void saveSubModule(String system,String modid,AppItemModel item)</script>
+    <params>system,modid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getSubModule</code>
+    <name>getSubModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getSubModule</item>
+    <script>AppItemModel getSubModule(String system,String modid,String submod)</script>
+    <params>system,modid,submod</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSubModule</code>
+    <name>updateSubModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSubModule</item>
+    <script>void updateSubModule(String system,String modid,AppItemModel item)</script>
+    <params>system,modid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.deleteSubMod</code>
+    <name>deleteSubMod</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>deleteSubMod</item>
+    <script>void deleteSubMod(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.saveSysModule</code>
+    <name>saveSysModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>saveSysModule</item>
+    <script>void saveSysModule(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSysModule</code>
+    <name>updateSysModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSysModule</item>
+    <script>void updateSysModule(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

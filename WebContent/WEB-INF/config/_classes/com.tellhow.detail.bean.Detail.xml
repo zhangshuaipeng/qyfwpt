@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.bean.Detail</classname>
+  <code>Detail</code>
+  <name>Detail</name>
+  <packages>com.tellhow.detail.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}+nW1xuFPF1jNfnJB+izj+A==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setColor(String color)</serialno>
+      <method>setColor</method>
+      <name>void setColor(String color)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>color</code>
+          <name>color</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getColor()</serialno>
+      <method>getColor</method>
+      <name>String getColor()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnit()</serialno>
+      <method>getUnit</method>
+      <name>String getUnit()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getUnit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnit(String unit)</serialno>
+      <method>setUnit</method>
+      <name>void setUnit(String unit)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setUnit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unit</code>
+          <name>unit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReceived()</serialno>
+      <method>getReceived</method>
+      <name>String getReceived()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getReceived()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(String articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(String articleid)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setArticleid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(String resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(String resumeid)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setResumeid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSex()</serialno>
+      <method>getSex</method>
+      <name>String getSex()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getSex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>String getArticleid()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getArticleid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlename()</serialno>
+      <method>getArticlename</method>
+      <name>String getArticlename()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getArticlename()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlename(String articlename)</serialno>
+      <method>setArticlename</method>
+      <name>void setArticlename(String articlename)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setArticlename(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlename</code>
+          <name>articlename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSex(String sex)</serialno>
+      <method>setSex</method>
+      <name>void setSex(String sex)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setSex(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sex</code>
+          <name>sex</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesize(String articlesize)</serialno>
+      <method>setArticlesize</method>
+      <name>void setArticlesize(String articlesize)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setArticlesize(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>String getResumeid()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getResumeid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getQuantity()</serialno>
+      <method>getQuantity</method>
+      <name>String getQuantity()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getQuantity()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQuantity(String quantity)</serialno>
+      <method>setQuantity</method>
+      <name>void setQuantity(String quantity)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setQuantity(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>quantity</code>
+          <name>quantity</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSid()</serialno>
+      <method>getSid</method>
+      <name>String getSid()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getSid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getZhuozhuangxinghao()</serialno>
+      <method>getZhuozhuangxinghao</method>
+      <name>String getZhuozhuangxinghao()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getZhuozhuangxinghao()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setZhuozhuangxinghao(String zhuozhuangxinghao)</serialno>
+      <method>setZhuozhuangxinghao</method>
+      <name>void setZhuozhuangxinghao(String zhuozhuangxinghao)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setZhuozhuangxinghao(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>zhuozhuangxinghao</code>
+          <name>zhuozhuangxinghao</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShangcipaifariqi()</serialno>
+      <method>getShangcipaifariqi</method>
+      <name>String getShangcipaifariqi()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getShangcipaifariqi()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShangcipaifariqi(String shangcipaifariqi)</serialno>
+      <method>setShangcipaifariqi</method>
+      <name>void setShangcipaifariqi(String shangcipaifariqi)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setShangcipaifariqi(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>shangcipaifariqi</code>
+          <name>shangcipaifariqi</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShangcipaifashuliang()</serialno>
+      <method>getShangcipaifashuliang</method>
+      <name>String getShangcipaifashuliang()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getShangcipaifashuliang()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShangcipaifashuliang(String shangcipaifashuliang)</serialno>
+      <method>setShangcipaifashuliang</method>
+      <name>void setShangcipaifashuliang(String shangcipaifashuliang)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setShangcipaifashuliang(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>shangcipaifashuliang</code>
+          <name>shangcipaifashuliang</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSid(String sid)</serialno>
+      <method>setSid</method>
+      <name>void setSid(String sid)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setSid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlesizeid()</serialno>
+      <method>getArticlesizeid</method>
+      <name>String getArticlesizeid()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getArticlesizeid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesizeid(String articlesizeid)</serialno>
+      <method>setArticlesizeid</method>
+      <name>void setArticlesizeid(String articlesizeid)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setArticlesizeid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinesstype()</serialno>
+      <method>getBusinesstype</method>
+      <name>String getBusinesstype()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getBusinesstype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinesstype(String businesstype)</serialno>
+      <method>setBusinesstype</method>
+      <name>void setBusinesstype(String businesstype)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setBusinesstype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businesstype</code>
+          <name>businesstype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReceived(String received)</serialno>
+      <method>setReceived</method>
+      <name>void setReceived(String received)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setReceived(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>received</code>
+          <name>received</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGranttime()</serialno>
+      <method>getGranttime</method>
+      <name>String getGranttime()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getGranttime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGranttime(String granttime)</serialno>
+      <method>setGranttime</method>
+      <name>void setGranttime(String granttime)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setGranttime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>granttime</code>
+          <name>granttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlesize()</serialno>
+      <method>getArticlesize</method>
+      <name>String getArticlesize()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getArticlesize()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangingmodels()</serialno>
+      <method>getChangingmodels</method>
+      <name>String getChangingmodels()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.Detail.getChangingmodels()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangingmodels(String changingmodels)</serialno>
+      <method>setChangingmodels</method>
+      <name>void setChangingmodels(String changingmodels)</name>
+      <genericname>public void com.tellhow.detail.bean.Detail.setChangingmodels(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changingmodels</code>
+          <name>changingmodels</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

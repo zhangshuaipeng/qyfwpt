@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>RoleBo.getRoles</code>
+    <name>getRoles</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>getRoles</item>
+    <script>ItemModel[] getRoles(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.addRole</code>
+    <name>addRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>addRole</item>
+    <script>void addRole(String system,ItemModel role)</script>
+    <params>system,role</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.getRole</code>
+    <name>getRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>getRole</item>
+    <script>ItemModel getRole(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.updateRole</code>
+    <name>updateRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>updateRole</item>
+    <script>void updateRole(String system,ItemModel role)</script>
+    <params>system,role</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.listRoles</code>
+    <name>listRoles</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>listRoles</item>
+    <script>ItemModel[] listRoles(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.getRightRoles</code>
+    <name>getRightRoles</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>getRightRoles</item>
+    <script>ItemModel[] getRightRoles(String system,String module,String action)</script>
+    <params>system,module,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.deleteRole</code>
+    <name>deleteRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RoleBo</catalog>
+    <item>deleteRole</item>
+    <script>void deleteRole(String system,String[] roles)</script>
+    <params>system,roles</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

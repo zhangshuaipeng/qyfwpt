@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.model.WorkDayModel</classname>
+  <code>WorkDayModel</code>
+  <name>WorkDayModel</name>
+  <packages>com.siqiansoft.model</packages>
+  <type>biz</type>
+  <crc>{MD5}eMGfvoDyUl0XVgDAmRIetQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.WorkDayModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.model.WorkDayModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgId(String orgid)</serialno>
+      <method>setOrgId</method>
+      <name>void setOrgId(String orgid)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setOrgId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgid</code>
+          <name>orgid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgId()</serialno>
+      <method>getOrgId</method>
+      <name>String getOrgId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.WorkDayModel.getOrgId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkDay(String workday)</serialno>
+      <method>setWorkDay</method>
+      <name>void setWorkDay(String workday)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setWorkDay(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workday</code>
+          <name>workday</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkDay()</serialno>
+      <method>getWorkDay</method>
+      <name>String getWorkDay()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.WorkDayModel.getWorkDay()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValidType(String validtype)</serialno>
+      <method>setValidType</method>
+      <name>void setValidType(String validtype)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setValidType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>validtype</code>
+          <name>validtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValidType()</serialno>
+      <method>getValidType</method>
+      <name>String getValidType()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.WorkDayModel.getValidType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDescr(String descr)</serialno>
+      <method>setDescr</method>
+      <name>void setDescr(String descr)</name>
+      <genericname>public void com.siqiansoft.model.WorkDayModel.setDescr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>descr</code>
+          <name>descr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDescr()</serialno>
+      <method>getDescr</method>
+      <name>String getDescr()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.WorkDayModel.getDescr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

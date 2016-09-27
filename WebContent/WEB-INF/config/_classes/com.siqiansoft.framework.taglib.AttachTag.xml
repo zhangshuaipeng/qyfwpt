@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.AttachTag</classname>
+  <code>AttachTag</code>
+  <name>AttachTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}DJKFyT5tx+sZM6ij2H2h0g==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequired(String required)</serialno>
+      <method>setRequired</method>
+      <name>void setRequired(String required)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setRequired(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>required</code>
+          <name>required</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRequired()</serialno>
+      <method>getRequired</method>
+      <name>String getRequired()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getRequired()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLink()</serialno>
+      <method>getLink</method>
+      <name>String getLink()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getLink()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLink(String link)</serialno>
+      <method>setLink</method>
+      <name>void setLink(String link)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setLink(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>link</code>
+          <name>link</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyle()</serialno>
+      <method>getStyle</method>
+      <name>String getStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyle(String style)</serialno>
+      <method>setStyle</method>
+      <name>void setStyle(String style)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>style</code>
+          <name>style</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnchange()</serialno>
+      <method>getOnchange</method>
+      <name>String getOnchange()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getOnchange()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnchange(String onchange)</serialno>
+      <method>setOnchange</method>
+      <name>void setOnchange(String onchange)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setOnchange(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onchange</code>
+          <name>onchange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnbitted(String unbitted)</serialno>
+      <method>setUnbitted</method>
+      <name>void setUnbitted(String unbitted)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setUnbitted(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnbitted()</serialno>
+      <method>getUnbitted</method>
+      <name>String getUnbitted()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getUnbitted()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.AttachTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaultv(String defaultv)</serialno>
+      <method>setDefaultv</method>
+      <name>void setDefaultv(String defaultv)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setDefaultv(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultv()</serialno>
+      <method>getDefaultv</method>
+      <name>String getDefaultv()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getDefaultv()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDictid(String dictid)</serialno>
+      <method>setDictid</method>
+      <name>void setDictid(String dictid)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.AttachTag.setDictid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDictid()</serialno>
+      <method>getDictid</method>
+      <name>String getDictid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.AttachTag.getDictid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

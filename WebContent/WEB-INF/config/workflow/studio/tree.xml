@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>流程树</name>
+    <rooturl>studio.cmd?$ACTION=list</rooturl>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <nodes>
+      <business>FlowBo.getFlowTree</business>
+      <params>LOGIN</params>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>right</code>
+    <name>节点权限树</name>
+    <imgpath></imgpath>
+    <nodes>
+      <business>StudioBo.loadRightTree</business>
+      <querystring>pk,nodeid</querystring>
+      <params>pk,nodeid</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

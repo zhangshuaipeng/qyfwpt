@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.RightUtil</classname>
+  <code>RightUtil</code>
+  <name>RightUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}pqF8KsU0lPHDqZcZNg/BlQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RightModel createInitPageRight(String system,String module,PageModel page)</serialno>
+      <method>createInitPageRight</method>
+      <name>RightModel createInitPageRight(String system,String module,PageModel page)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.RightModel com.siqiansoft.framework.util.RightUtil.createInitPageRight(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.PageModel)</genericname>
+      <retclass>RightModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void getPageRight(RightModel right,RightModel authority)</serialno>
+      <method>getPageRight</method>
+      <name>void getPageRight(RightModel right,RightModel authority)</name>
+      <genericname>public static void com.siqiansoft.framework.util.RightUtil.getPageRight(com.siqiansoft.framework.model.view.RightModel,com.siqiansoft.framework.model.view.RightModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RightModel</type>
+          <code>right</code>
+          <name>right</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RightModel</type>
+          <code>authority</code>
+          <name>authority</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

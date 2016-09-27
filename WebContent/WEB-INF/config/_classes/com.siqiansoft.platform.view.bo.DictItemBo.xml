@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.DictItemBo</classname>
+  <code>DictItemBo</code>
+  <name>DictItemBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}6NW88tsUk+oxuJ6yItx/cw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ItemModel getItem(String system,String caid,String key)</serialno>
+      <method>getItem</method>
+      <name>ItemModel getItem(String system,String caid,String key)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel com.siqiansoft.platform.view.bo.DictItemBo.getItem(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>caid</code>
+          <name>caid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addItem(String system,String caid,ItemModel item)</serialno>
+      <method>addItem</method>
+      <name>void addItem(String system,String caid,ItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictItemBo.addItem(java.lang.String,java.lang.String,com.siqiansoft.framework.model.dict.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>caid</code>
+          <name>caid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] listItems(String system,String caid)</serialno>
+      <method>listItems</method>
+      <name>ItemModel[] listItems(String system,String caid)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.platform.view.bo.DictItemBo.listItems(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>caid</code>
+          <name>caid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateItem(String system,String caid,ItemModel item)</serialno>
+      <method>updateItem</method>
+      <name>void updateItem(String system,String caid,ItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictItemBo.updateItem(java.lang.String,java.lang.String,com.siqiansoft.framework.model.dict.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>caid</code>
+          <name>caid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteItems(String system,String caid,String[] selected)</serialno>
+      <method>deleteItems</method>
+      <name>void deleteItems(String system,String caid,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictItemBo.deleteItems(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>caid</code>
+          <name>caid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

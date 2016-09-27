@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.db.ColumnModel</classname>
+  <code>ColumnModel</code>
+  <name>ColumnModel</name>
+  <packages>com.siqiansoft.framework.model.db</packages>
+  <type>pojo</type>
+  <crc>{MD5}TQrpqrs+86HdeLD2IcqJoA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getLength()</serialno>
+      <method>getLength</method>
+      <name>int getLength()</name>
+      <genericname>public int com.siqiansoft.framework.model.db.ColumnModel.getLength()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTypeName()</serialno>
+      <method>getTypeName</method>
+      <name>String getTypeName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getTypeName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultValue()</serialno>
+      <method>getDefaultValue</method>
+      <name>String getDefaultValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getDefaultValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLength(int length)</serialno>
+      <method>setLength</method>
+      <name>void setLength(int length)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setLength(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>length</code>
+          <name>length</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaultValue(String defaultvalue)</serialno>
+      <method>setDefaultValue</method>
+      <name>void setDefaultValue(String defaultvalue)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setDefaultValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultvalue</code>
+          <name>defaultvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMandatory(String mandatory)</serialno>
+      <method>setMandatory</method>
+      <name>void setMandatory(String mandatory)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setMandatory(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mandatory</code>
+          <name>mandatory</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLink()</serialno>
+      <method>getLink</method>
+      <name>String getLink()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getLink()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getDataType()</serialno>
+      <method>getDataType</method>
+      <name>int getDataType()</name>
+      <genericname>public int com.siqiansoft.framework.model.db.ColumnModel.getDataType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDataType(int datatype)</serialno>
+      <method>setDataType</method>
+      <name>void setDataType(int datatype)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setDataType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>datatype</code>
+          <name>datatype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLink(String link)</serialno>
+      <method>setLink</method>
+      <name>void setLink(String link)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setLink(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>link</code>
+          <name>link</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEvent()</serialno>
+      <method>getEvent</method>
+      <name>String getEvent()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getEvent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEvent(String event)</serialno>
+      <method>setEvent</method>
+      <name>void setEvent(String event)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setEvent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>event</code>
+          <name>event</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParents()</serialno>
+      <method>getParents</method>
+      <name>String getParents()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getParents()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPrecision()</serialno>
+      <method>getPrecision</method>
+      <name>int getPrecision()</name>
+      <genericname>public int com.siqiansoft.framework.model.db.ColumnModel.getPrecision()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRule()</serialno>
+      <method>getRule</method>
+      <name>String getRule()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getRule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTypeName(String typename)</serialno>
+      <method>setTypeName</method>
+      <name>void setTypeName(String typename)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setTypeName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>typename</code>
+          <name>typename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsPkey(String ispkey)</serialno>
+      <method>setIsPkey</method>
+      <name>void setIsPkey(String ispkey)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setIsPkey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ispkey</code>
+          <name>ispkey</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIsPkey()</serialno>
+      <method>getIsPkey</method>
+      <name>String getIsPkey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getIsPkey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPrecision(int precision)</serialno>
+      <method>setPrecision</method>
+      <name>void setPrecision(int precision)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setPrecision(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>precision</code>
+          <name>precision</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMandatory()</serialno>
+      <method>getMandatory</method>
+      <name>String getMandatory()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getMandatory()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDictId(String dictid)</serialno>
+      <method>setDictId</method>
+      <name>void setDictId(String dictid)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setDictId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDictId()</serialno>
+      <method>getDictId</method>
+      <name>String getDictId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.db.ColumnModel.getDictId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParents(String parents)</serialno>
+      <method>setParents</method>
+      <name>void setParents(String parents)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setParents(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parents</code>
+          <name>parents</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRule(String rule)</serialno>
+      <method>setRule</method>
+      <name>void setRule(String rule)</name>
+      <genericname>public void com.siqiansoft.framework.model.db.ColumnModel.setRule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ispkey</code>
+      <name>ispkey</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>datatype</code>
+      <name>datatype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>typename</code>
+      <name>typename</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>length</code>
+      <name>length</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>precision</code>
+      <name>precision</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>mandatory</code>
+      <name>mandatory</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>defaultvalue</code>
+      <name>defaultvalue</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dictid</code>
+      <name>dictid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>parents</code>
+      <name>parents</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rule</code>
+      <name>rule</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>event</code>
+      <name>event</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>link</code>
+      <name>link</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

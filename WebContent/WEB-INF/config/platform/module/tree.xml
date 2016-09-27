@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>build</code>
+    <name>模块构建</name>
+    <expvalue></expvalue>
+    <imgpath>../images/platform</imgpath>
+    <target>FRAME1</target>
+    <runurl>Y</runurl>
+    <expandall>Y</expandall>
+    <nodes>
+      <business>ModuleBo.getBuildTree</business>
+      <params>system,module</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.service.DistributeService</classname>
+  <code>DistributeService</code>
+  <name>DistributeService</name>
+  <packages>com.tellhow.itemsmanage.service</packages>
+  <type>biz</type>
+  <crc>{MD5}r7XhbdxknpVeQU0V/4JJ7Q==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Distributeplan addreturnfind()</serialno>
+      <method>addreturnfind</method>
+      <name>Distributeplan addreturnfind()</name>
+      <genericname>public com.tellhow.itemsmanage.bean.form.Distributeplan com.tellhow.itemsmanage.service.DistributeService.addreturnfind() throws java.lang.Exception</genericname>
+      <retclass>Distributeplan</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findActicle(String mainid)</serialno>
+      <method>findActicle</method>
+      <name>List findActicle(String mainid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.DistributeVo&gt; com.tellhow.itemsmanage.service.DistributeService.findActicle(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mainid</code>
+          <name>mainid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List finddetailarticle(ConditionModel[] cs,PagingModel pageCtl,String articleid,String company,String mainid)</serialno>
+      <method>finddetailarticle</method>
+      <name>List finddetailarticle(ConditionModel[] cs,PagingModel pageCtl,String articleid,String company,String mainid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.DetailInVo&gt; com.tellhow.itemsmanage.service.DistributeService.finddetailarticle(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>company</code>
+          <name>company</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mainid</code>
+          <name>mainid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

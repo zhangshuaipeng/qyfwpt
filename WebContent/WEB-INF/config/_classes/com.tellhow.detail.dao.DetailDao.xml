@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.dao.DetailDao</classname>
+  <code>DetailDao</code>
+  <name>DetailDao</name>
+  <packages>com.tellhow.detail.dao</packages>
+  <type>biz</type>
+  <crc>{MD5}/1XnD6OKZ9W2QVbQG26GuA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+</model.biz.ClassModel>

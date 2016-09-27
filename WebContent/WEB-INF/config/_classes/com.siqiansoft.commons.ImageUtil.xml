@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.ImageUtil</classname>
+  <code>ImageUtil</code>
+  <name>ImageUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}Qd63JHxQYGurH63r79S1lA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+</model.biz.ClassModel>

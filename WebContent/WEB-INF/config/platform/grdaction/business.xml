@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ActionBo.getAction</code>
+    <name>getAction</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>getAction</item>
+    <script>ActionModel getAction(String system,String module,String gridid,String actionid)</script>
+    <params>system,module,gridid,actionid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String gridid,String actionid)</script>
+    <params>system,module,gridid,actionid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String gridid,String actionid)</script>
+    <params>system,module,gridid,actionid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.updateAction</code>
+    <name>updateAction</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>updateAction</item>
+    <script>void updateAction(String system,String module,String gridid,ActionModel action)</script>
+    <params>system,module,gridid,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.listActions</code>
+    <name>listActions</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>listActions</item>
+    <script>ActionModel[] listActions(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.addAction</code>
+    <name>addAction</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>addAction</item>
+    <script>void addAction(String system,String module,String gridid,ActionModel action)</script>
+    <params>system,module,gridid,action</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.deleteActions</code>
+    <name>deleteActions</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>deleteActions</item>
+    <script>void deleteActions(String system,String module,String gridid,String[] selected)</script>
+    <params>system,module,gridid,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ActionBo.listRowActions</code>
+    <name>listRowActions</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ActionBo</catalog>
+    <item>listRowActions</item>
+    <script>ActionModel[] listRowActions(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

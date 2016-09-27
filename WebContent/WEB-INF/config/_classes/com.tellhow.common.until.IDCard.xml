@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.IDCard</classname>
+  <code>IDCard</code>
+  <name>IDCard</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}2lx/IVME1vPtAL1ZH4O7FQ==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.tellhow.common.until.IDCard.main(java.lang.String[]) throws java.text.ParseException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String IDCardValidate(String IDStr)</serialno>
+      <method>IDCardValidate</method>
+      <name>String IDCardValidate(String IDStr)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.IDCard.IDCardValidate(java.lang.String) throws java.text.ParseException</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>IDStr</code>
+          <name>IDStr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isDate(String strDate)</serialno>
+      <method>isDate</method>
+      <name>boolean isDate(String strDate)</name>
+      <genericname>public static boolean com.tellhow.common.until.IDCard.isDate(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDate</code>
+          <name>strDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String GetArea(String idCard)</serialno>
+      <method>GetArea</method>
+      <name>String GetArea(String idCard)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.IDCard.GetArea(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>idCard</code>
+          <name>idCard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String GetSex(String idCard)</serialno>
+      <method>GetSex</method>
+      <name>String GetSex(String idCard)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.IDCard.GetSex(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>idCard</code>
+          <name>idCard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String GetBirthday(String idCard)</serialno>
+      <method>GetBirthday</method>
+      <name>String GetBirthday(String idCard)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.IDCard.GetBirthday(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>idCard</code>
+          <name>idCard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

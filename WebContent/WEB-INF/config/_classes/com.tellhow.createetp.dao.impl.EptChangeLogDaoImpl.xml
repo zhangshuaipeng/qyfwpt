@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.EptChangeLogDaoImpl</classname>
+  <code>EptChangeLogDaoImpl</code>
+  <name>EptChangeLogDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}fyo4pzLANLXSC3ELFkUMHA==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List getAttachFile(long chagelogid)</serialno>
+      <method>getAttachFile</method>
+      <name>List getAttachFile(long chagelogid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.createetp.vo.ApproveFileVo&gt; com.tellhow.createetp.dao.impl.EptChangeLogDaoImpl.getAttachFile(long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>chagelogid</code>
+          <name>chagelogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveEptChangeLog(EptChangeLog changelog)</serialno>
+      <method>saveEptChangeLog</method>
+      <name>void saveEptChangeLog(EptChangeLog changelog)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptChangeLogDaoImpl.saveEptChangeLog(com.tellhow.createetp.bean.EptChangeLog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptChangeLog</type>
+          <code>changelog</code>
+          <name>changelog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateChangeLog(EptChangeLog eptChangeLog)</serialno>
+      <method>updateChangeLog</method>
+      <name>void updateChangeLog(EptChangeLog eptChangeLog)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptChangeLogDaoImpl.updateChangeLog(com.tellhow.createetp.bean.EptChangeLog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptChangeLog</type>
+          <code>eptChangeLog</code>
+          <name>eptChangeLog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EptChangeLog selectChangeLogById(long changlogid)</serialno>
+      <method>selectChangeLogById</method>
+      <name>EptChangeLog selectChangeLogById(long changlogid)</name>
+      <genericname>public com.tellhow.createetp.bean.EptChangeLog com.tellhow.createetp.dao.impl.EptChangeLogDaoImpl.selectChangeLogById(long) throws java.lang.Exception</genericname>
+      <retclass>EptChangeLog</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>changlogid</code>
+          <name>changlogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

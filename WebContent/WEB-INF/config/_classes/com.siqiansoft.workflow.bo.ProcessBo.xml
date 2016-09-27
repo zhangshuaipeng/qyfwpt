@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.ProcessBo</classname>
+  <code>ProcessBo</code>
+  <name>ProcessBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}untwmjZMneg+6emmiZrG6Q==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap beginSubmit(String wid,RequestModel req,LoginModel login)</serialno>
+      <method>beginSubmit</method>
+      <name>HashMap beginSubmit(String wid,RequestModel req,LoginModel login)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.Object&gt; com.siqiansoft.workflow.bo.ProcessBo.beginSubmit(java.lang.String,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap submitRoute(String wid,String nextNodeId,RequestModel req)</serialno>
+      <method>submitRoute</method>
+      <name>HashMap submitRoute(String wid,String nextNodeId,RequestModel req)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.Object&gt; com.siqiansoft.workflow.bo.ProcessBo.submitRoute(java.lang.String,java.lang.String,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextNodeId</code>
+          <name>nextNodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap submitActor(String wid,String actors,String actorsname)</serialno>
+      <method>submitActor</method>
+      <name>HashMap submitActor(String wid,String actors,String actorsname)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.Object&gt; com.siqiansoft.workflow.bo.ProcessBo.submitActor(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actorsname</code>
+          <name>actorsname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap submitWork(String wid,String actors)</serialno>
+      <method>submitWork</method>
+      <name>HashMap submitWork(String wid,String actors)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.ProcessBo.submitWork(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap submitWork(ProcessModel process)</serialno>
+      <method>submitWork</method>
+      <name>HashMap submitWork(ProcessModel process)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.ProcessBo.submitWork(com.siqiansoft.workflow.model.ProcessModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProcessModel</type>
+          <code>process</code>
+          <name>process</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap submitWork(String wid,String actors,String comment)</serialno>
+      <method>submitWork</method>
+      <name>HashMap submitWork(String wid,String actors,String comment)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.ProcessBo.submitWork(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>comment</code>
+          <name>comment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap commitWork(ProcessModel process)</serialno>
+      <method>commitWork</method>
+      <name>HashMap commitWork(ProcessModel process)</name>
+      <genericname>public static synchronized java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.ProcessBo.commitWork(com.siqiansoft.workflow.model.ProcessModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProcessModel</type>
+          <code>process</code>
+          <name>process</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getThreadsWork(String wid,LoginModel login)</serialno>
+      <method>getThreadsWork</method>
+      <name>ArrayList getThreadsWork(String wid,LoginModel login)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.workflow.bo.ProcessBo.getThreadsWork(java.lang.String,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addThreadWork(String wid,LoginModel login,String userCode)</serialno>
+      <method>addThreadWork</method>
+      <name>void addThreadWork(String wid,LoginModel login,String userCode)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.ProcessBo.addThreadWork(java.lang.String,com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteThreadsWork(String wid,LoginModel login,String[] selected)</serialno>
+      <method>deleteThreadsWork</method>
+      <name>void deleteThreadsWork(String wid,LoginModel login,String[] selected)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.ProcessBo.deleteThreadsWork(java.lang.String,com.siqiansoft.framework.model.LoginModel,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

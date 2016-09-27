@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrpublic.Socialinsurancebase</classname>
+  <code>Socialinsurancebase</code>
+  <name>Socialinsurancebase</name>
+  <packages>com.tellhow.personnel.bean.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}crvc4++l26hMOegSRqn/3Q==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getMonth()</serialno>
+      <method>getMonth</method>
+      <name>long getMonth()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getMonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getYear()</serialno>
+      <method>getYear</method>
+      <name>long getYear()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getYear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMonth(long month)</serialno>
+      <method>setMonth</method>
+      <name>void setMonth(long month)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setMonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setYear(long year)</serialno>
+      <method>setYear</method>
+      <name>void setYear(long year)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setYear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicalratio()</serialno>
+      <method>getMedicalratio</method>
+      <name>float getMedicalratio()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getMedicalratio()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalratio(float medicalratio)</serialno>
+      <method>setMedicalratio</method>
+      <name>void setMedicalratio(float medicalratio)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setMedicalratio(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicalratio</code>
+          <name>medicalratio</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getUnemployeddown()</serialno>
+      <method>getUnemployeddown</method>
+      <name>float getUnemployeddown()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getUnemployeddown()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnemployeddown(float unemployeddown)</serialno>
+      <method>setUnemployeddown</method>
+      <name>void setUnemployeddown(float unemployeddown)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setUnemployeddown(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>unemployeddown</code>
+          <name>unemployeddown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensionup()</serialno>
+      <method>getPensionup</method>
+      <name>float getPensionup()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getPensionup()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionup(float pensionup)</serialno>
+      <method>setPensionup</method>
+      <name>void setPensionup(float pensionup)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setPensionup(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensionup</code>
+          <name>pensionup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicalup()</serialno>
+      <method>getMedicalup</method>
+      <name>float getMedicalup()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getMedicalup()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalup(float medicalup)</serialno>
+      <method>setMedicalup</method>
+      <name>void setMedicalup(float medicalup)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setMedicalup(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicalup</code>
+          <name>medicalup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getUnemployedratio()</serialno>
+      <method>getUnemployedratio</method>
+      <name>float getUnemployedratio()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getUnemployedratio()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnemployedratio(float unemployedratio)</serialno>
+      <method>setUnemployedratio</method>
+      <name>void setUnemployedratio(float unemployedratio)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setUnemployedratio(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>unemployedratio</code>
+          <name>unemployedratio</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensionratio()</serialno>
+      <method>getPensionratio</method>
+      <name>float getPensionratio()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getPensionratio()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionratio(float pensionratio)</serialno>
+      <method>setPensionratio</method>
+      <name>void setPensionratio(float pensionratio)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setPensionratio(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensionratio</code>
+          <name>pensionratio</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensiondown()</serialno>
+      <method>getPensiondown</method>
+      <name>float getPensiondown()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getPensiondown()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensiondown(float pensiondown)</serialno>
+      <method>setPensiondown</method>
+      <name>void setPensiondown(float pensiondown)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setPensiondown(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensiondown</code>
+          <name>pensiondown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicaldown()</serialno>
+      <method>getMedicaldown</method>
+      <name>float getMedicaldown()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getMedicaldown()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicaldown(float medicaldown)</serialno>
+      <method>setMedicaldown</method>
+      <name>void setMedicaldown(float medicaldown)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setMedicaldown(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicaldown</code>
+          <name>medicaldown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getUnemployedup()</serialno>
+      <method>getUnemployedup</method>
+      <name>float getUnemployedup()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getUnemployedup()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnemployedup(float unemployedup)</serialno>
+      <method>setUnemployedup</method>
+      <name>void setUnemployedup(float unemployedup)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setUnemployedup(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>unemployedup</code>
+          <name>unemployedup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getInsurancebaseid()</serialno>
+      <method>getInsurancebaseid</method>
+      <name>long getInsurancebaseid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getInsurancebaseid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInsurancebaseid(long insurancebaseid)</serialno>
+      <method>setInsurancebaseid</method>
+      <name>void setInsurancebaseid(long insurancebaseid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setInsurancebaseid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>insurancebaseid</code>
+          <name>insurancebaseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getExtranumber()</serialno>
+      <method>getExtranumber</method>
+      <name>float getExtranumber()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.getExtranumber()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExtranumber(float extranumber)</serialno>
+      <method>setExtranumber</method>
+      <name>void setExtranumber(float extranumber)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Socialinsurancebase.setExtranumber(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>extranumber</code>
+          <name>extranumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

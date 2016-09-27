@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl</classname>
+  <code>LandProgressDaoImpl</code>
+  <name>LandProgressDaoImpl</name>
+  <packages>com.tellhow.landpurchase.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}TXYWm+xYEwArF2Lbg05Uvw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List retrieveLandProgressByPage(JqgridPager pager,long projectid)</serialno>
+      <method>retrieveLandProgressByPage</method>
+      <name>List retrieveLandProgressByPage(JqgridPager pager,long projectid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.landpurchase.vo.JqgridProgressVo&gt; com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.retrieveLandProgressByPage(com.tellhow.jqgrid.bean.JqgridPager,long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProgressEditVo fetchProgressEdit(long progressid,int progressType)</serialno>
+      <method>fetchProgressEdit</method>
+      <name>ProgressEditVo fetchProgressEdit(long progressid,int progressType)</name>
+      <genericname>public com.tellhow.landpurchase.vo.ProgressEditVo com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.fetchProgressEdit(long,int) throws java.lang.Exception</genericname>
+      <retclass>ProgressEditVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String lastProgressStatus(String progressid,String projectid,String progressType)</serialno>
+      <method>lastProgressStatus</method>
+      <name>String lastProgressStatus(String progressid,String projectid,String progressType)</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.lastProgressStatus(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String selectMinProgress(String projectid,String progressType)</serialno>
+      <method>selectMinProgress</method>
+      <name>String selectMinProgress(String projectid,String progressType)</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.selectMinProgress(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateProgress(ProgressEditVo ev,int progressType)</serialno>
+      <method>updateProgress</method>
+      <name>void updateProgress(ProgressEditVo ev,int progressType)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.updateProgress(com.tellhow.landpurchase.vo.ProgressEditVo,int) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProgressEditVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TrackProgressVo trackProgress(long projectid)</serialno>
+      <method>trackProgress</method>
+      <name>TrackProgressVo trackProgress(long projectid)</name>
+      <genericname>public com.tellhow.landpurchase.vo.TrackProgressVo com.tellhow.landpurchase.dao.impl.LandProgressDaoImpl.trackProgress(long) throws java.lang.Exception</genericname>
+      <retclass>TrackProgressVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

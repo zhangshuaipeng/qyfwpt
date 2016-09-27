@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+    <service name="bizService" provider="java:RPC">
+        <parameter name="className" value="com.siqiansoft.framework.soa.WSProvider"/>
+        <parameter name="allowedMethods" value="*"/>
+
+        <typeMapping qname="eapNS:DataHandler" xmlns:eapNS="urn:Parameter" languageSpecificType="java:javax.activation.DataHandler"
+          serializer="org.apache.axis.encoding.ser.JAFDataHandlerSerializerFactory" deserializer="org.apache.axis.encoding.ser.JAFDataHandlerDeserializerFactory"
+          encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+
+	<beanMapping qname="eapNS:LoginModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.framework.model.LoginModel"/>
+	<beanMapping qname="eapNS:PagingModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.framework.model.PagingModel"/>
+	<beanMapping qname="eapNS:ConditionModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.framework.model.db.ConditionModel"/>
+
+	<beanMapping qname="eapNS:OUAccountModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.AccountModel"/>
+	<beanMapping qname="eapNS:OUDepartmentModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.DepartmentModel"/>
+	<beanMapping qname="eapNS:OUGroupModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.GroupModel"/>
+	<beanMapping qname="eapNS:OUJobModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.JobModel"/>
+	<beanMapping qname="eapNS:OUOrganizeModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.OrganizeModel"/>
+	<beanMapping qname="eapNS:OUPersonModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.PersonModel"/>
+	<beanMapping qname="eapNS:OUPositionModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.PositionModel"/>
+	<beanMapping qname="eapNS:OURoleModel"  xmlns:eapNS="urn:Parameter" languageSpecificType="java:com.siqiansoft.ou.model.RoleModel"/>
+
+    </service>
+</deployment>

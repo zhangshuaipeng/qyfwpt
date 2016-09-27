@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.AttachmentUtil</classname>
+  <code>AttachmentUtil</code>
+  <name>AttachmentUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}T6OrHrDqBkreRyTr/AWe9A==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>AttachModel getAttachById(String pk)</serialno>
+      <method>getAttachById</method>
+      <name>AttachModel getAttachById(String pk)</name>
+      <genericname>public com.siqiansoft.model.AttachModel com.siqiansoft.framework.util.AttachmentUtil.getAttachById(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AttachModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteAttachs(String pk)</serialno>
+      <method>deleteAttachs</method>
+      <name>void deleteAttachs(String pk)</name>
+      <genericname>public void com.siqiansoft.framework.util.AttachmentUtil.deleteAttachs(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String addOfficeAttach(LoginModel login,String wid,FieldModel field,String pageCode)</serialno>
+      <method>addOfficeAttach</method>
+      <name>String addOfficeAttach(LoginModel login,String wid,FieldModel field,String pageCode)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.AttachmentUtil.addOfficeAttach(com.siqiansoft.framework.model.LoginModel,java.lang.String,com.siqiansoft.framework.model.view.FieldModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pageCode</code>
+          <name>pageCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

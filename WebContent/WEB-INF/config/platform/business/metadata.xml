@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>BusinessModel</code>
+    <name>业务属性描述</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.biz</catalog>
+    <item>BusinessModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

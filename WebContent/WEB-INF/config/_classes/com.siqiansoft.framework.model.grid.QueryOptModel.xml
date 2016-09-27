@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.QueryOptModel</classname>
+  <code>QueryOptModel</code>
+  <name>QueryOptModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}VXGGs5xkiyu1xa5KECZlBQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>QueryOptModel clone()</serialno>
+      <method>clone</method>
+      <name>QueryOptModel clone()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.QueryOptModel com.siqiansoft.framework.model.grid.QueryOptModel.clone()</genericname>
+      <retclass>QueryOptModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.grid.QueryOptModel.clone() throws java.lang.CloneNotSupportedException</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getField()</serialno>
+      <method>getField</method>
+      <name>String getField()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getField()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setField(String field)</serialno>
+      <method>setField</method>
+      <name>void setField(String field)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setField(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlias()</serialno>
+      <method>getAlias</method>
+      <name>String getAlias()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getAlias()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequired(String required)</serialno>
+      <method>setRequired</method>
+      <name>void setRequired(String required)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setRequired(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>required</code>
+          <name>required</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlias(String alias)</serialno>
+      <method>setAlias</method>
+      <name>void setAlias(String alias)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setAlias(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alias</code>
+          <name>alias</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRequired()</serialno>
+      <method>getRequired</method>
+      <name>String getRequired()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getRequired()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOption(String option)</serialno>
+      <method>setOption</method>
+      <name>void setOption(String option)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setOption(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>option</code>
+          <name>option</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOption()</serialno>
+      <method>getOption</method>
+      <name>String getOption()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getOption()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUrl(String url)</serialno>
+      <method>setUrl</method>
+      <name>void setUrl(String url)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUrl()</serialno>
+      <method>getUrl</method>
+      <name>String getUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParents()</serialno>
+      <method>getParents</method>
+      <name>String getParents()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getParents()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDictId(String dictid)</serialno>
+      <method>setDictId</method>
+      <name>void setDictId(String dictid)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setDictId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDictId()</serialno>
+      <method>getDictId</method>
+      <name>String getDictId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getDictId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParents(String parents)</serialno>
+      <method>setParents</method>
+      <name>void setParents(String parents)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setParents(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parents</code>
+          <name>parents</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDisplay(String display)</serialno>
+      <method>setDisplay</method>
+      <name>void setDisplay(String display)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setDisplay(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDisplay()</serialno>
+      <method>getDisplay</method>
+      <name>String getDisplay()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getDisplay()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsql(String isql)</serialno>
+      <method>setIsql</method>
+      <name>void setIsql(String isql)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setIsql(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>isql</code>
+          <name>isql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIsql()</serialno>
+      <method>getIsql</method>
+      <name>String getIsql()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getIsql()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHideField(String hidefield)</serialno>
+      <method>setHideField</method>
+      <name>void setHideField(String hidefield)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setHideField(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>hidefield</code>
+          <name>hidefield</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHideField()</serialno>
+      <method>getHideField</method>
+      <name>String getHideField()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getHideField()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRefreshs(String refreshs)</serialno>
+      <method>setRefreshs</method>
+      <name>void setRefreshs(String refreshs)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.QueryOptModel.setRefreshs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>refreshs</code>
+          <name>refreshs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRefreshs()</serialno>
+      <method>getRefreshs</method>
+      <name>String getRefreshs()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.QueryOptModel.getRefreshs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>id</code>
+      <name>id</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>title</code>
+      <name>title</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>field</code>
+      <name>field</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>alias</code>
+      <name>alias</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>option</code>
+      <name>option</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>isql</code>
+      <name>isql</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>required</code>
+      <name>required</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>value</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>display</code>
+      <name>display</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dictid</code>
+      <name>dictid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>parents</code>
+      <name>parents</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>url</code>
+      <name>url</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>hidefield</code>
+      <name>hidefield</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>refreshs</code>
+      <name>refreshs</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

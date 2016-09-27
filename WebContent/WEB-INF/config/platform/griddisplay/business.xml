@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.getDisplay</code>
+    <name>getDisplay</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>getDisplay</item>
+    <script>DisplayModel getDisplay(String system,String module,String grid,String id)</script>
+    <params>system,module,grid,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.listDisplay</code>
+    <name>listDisplay</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>listDisplay</item>
+    <script>DisplayModel[] listDisplay(String system,String module,String grid)</script>
+    <params>system,module,grid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.addDisplay</code>
+    <name>addDisplay</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>addDisplay</item>
+    <script>void addDisplay(String system,String module,String grid,DisplayModel display)</script>
+    <params>system,module,grid,display</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.updateDisplay</code>
+    <name>updateDisplay</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>updateDisplay</item>
+    <script>void updateDisplay(String system,String module,String grid,DisplayModel display)</script>
+    <params>system,module,grid,display</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.deleteDisplay</code>
+    <name>deleteDisplay</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>deleteDisplay</item>
+    <script>void deleteDisplay(String system,String module,String grid,String[] selected)</script>
+    <params>system,module,grid,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DisplayBo.getFieldDictValues</code>
+    <name>getFieldDictValues</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.DisplayBo</catalog>
+    <item>getFieldDictValues</item>
+    <script>ItemModel[] getFieldDictValues(LoginModel login,String system,String module,String grid,String col)</script>
+    <params>login,system,module,grid,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

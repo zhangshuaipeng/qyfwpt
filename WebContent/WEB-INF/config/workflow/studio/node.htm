@@ -1,0 +1,108 @@
+<input id="actors" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="actors" value="[办理人号]" /> <input id="cc" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="cc" value="[抄送人号]" /> <input id="routes" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="routes" value="[路由]" /> <input id="pk" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="pk" value="[流程流水号]" /> <input id="system" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="system" value="[系统号]" /> <input id="module" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="module" value="[表单号]" />
+<table class="datatable" border="1" cellspacing="0" cellpadding="0" width="100%" align="center">
+    <tbody>
+        <tr>
+            <td class="caption" style="width: 150px"><input id="$$nodeid" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$nodeid" value="节点号:" /></td>
+            <td><input id="nodeid" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="nodeid" value="[节点号]" /></td>
+            <td class="caption" style="width: 150px"><input id="$$name" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$name" value="节点名:" /></td>
+            <td><input id="name" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="name" value="[节点名]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$type" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$type" value="节点类型:" /></td>
+            <td><input id="type" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="type" value="[节点类型]" /></td>
+            <td class="caption"><input id="$$multitype" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$multitype" value="多人办理模式:" /></td>
+            <td><input id="multitype" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="multitype" value="[多人办理模式]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$vote" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$vote" value="投票率:" /></td>
+            <td><input id="vote" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="vote" value="[投票率]" /></td>
+            <td class="caption"><input id="$$multiadm" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$multiadm" value="并发管理员:" /></td>
+            <td><input id="multiadm" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="multiadm" value="[并发管理员]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$reader" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$reader" value="工作读者类型:" /></td>
+            <td><input id="reader" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="reader" value="[工作读者类型]" /></td>
+            <td class="caption"><input id="$$enableaid" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableaid" value="允许协助:" /></td>
+            <td><input id="enableaid" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableaid" value="[允许协助]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enablefree" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enablefree" value="允许自由流:" /></td>
+            <td><input id="enablefree" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enablefree" value="[允许自由流]" /></td>
+            <td class="caption"><input id="$$enableagent" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableagent" value="允许代办:" /></td>
+            <td><input id="enableagent" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableagent" value="[允许代办]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enableredo" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableredo" value="允许重办:" /></td>
+            <td><input id="enableredo" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableredo" value="[允许重办]" /></td>
+            <td class="caption"><input id="$$enablechange" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enablechange" value="允许转送:" /></td>
+            <td><input id="enablechange" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enablechange" value="[允许转送]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enableuntread" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableuntread" value="允许驳回:" /></td>
+            <td><input id="enableuntread" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableuntread" value="[允许驳回]" /></td>
+            <td class="caption"><input id="$$enableurge" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableurge" value="允许催办:" /></td>
+            <td><input id="enableurge" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableurge" value="[允许催办]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enableabort" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableabort" value="允许终止:" /></td>
+            <td><input id="enableabort" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableabort" value="[允许终止]" /></td>
+            <td class="caption"><input id="$$enablegoto" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enablegoto" value="允许跳转:" /></td>
+            <td><input id="enablegoto" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enablegoto" value="[允许跳转]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enableaddactor" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableaddactor" value="允许加办:" /></td>
+            <td><input id="enableaddactor" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableaddactor" value="[允许加办]" /></td>
+            <td class="caption"><input id="$$enablecomment" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enablecomment" value="意见项:" /></td>
+            <td><input id="enablecomment" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enablecomment" value="[意见项]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$enableasync" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enableasync" value="允许异步提交:" /></td>
+            <td><input id="enableasync" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enableasync" value="[允许异步提交]" /></td>
+            <td class="caption"><input id="$$enablesupply" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$enablesupply" value="允许补办:" /></td>
+            <td><input id="enablesupply" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="enablesupply" value="[允许补办]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$timelimit" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$timelimit" value="办理时限:" /></td>
+            <td><input id="timelimit" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="timelimit" value="[办理时限]" /></td>
+            <td class="caption"><input id="$$weight" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$weight" value="考核系数:" /></td>
+            <td><input id="weight" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="weight" value="[考核系数]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$notify" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$notify" value="消息通知:" /></td>
+            <td><input id="notify" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="notify" value="[消息通知]" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$msgformat" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$msgformat" value="提示信息:" /></td>
+            <td colspan="3"><input id="msgformat" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="msgformat" value="[提示信息]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$actorrule" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$actorrule" value="办理人规则:" /></td>
+            <td><input id="actorrule" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="actorrule" value="[办理人规则]" /></td>
+            <td class="caption"><input id="$$orgcode" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$orgcode" value="绑定组织号:" /></td>
+            <td><input id="orgcode" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="orgcode" value="[绑定组织号]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$actorsname" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$actorsname" value="办理人:" /></td>
+            <td><input id="actorsname" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="actorsname" value="[办理人]" /> <input id="$action-selectactors" type="button" ctrltype="action" name="$action-selectactors" value="选择" /></td>
+            <td class="caption"><input id="$$selectall" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$selectall" value="多办理人选择:" /></td>
+            <td><input id="selectall" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="selectall" value="[多办理人选择]" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$noself" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$noself" value="办理人过滤本人:" /></td>
+            <td><input id="noself" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="noself" value="[办理人过滤本人]" /></td>
+            <td class="caption"><input id="$$ccname" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$ccname" value="抄送人:" /></td>
+            <td><input id="ccname" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="ccname" value="[抄送人]" /> <input id="$action-selectcc" type="button" ctrltype="action" name="$action-selectcc" value="选择" /></td>
+        </tr>
+        <tr>
+            <td class="caption"><input id="$$map" type="button" ctrltype="title" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" name="$$map" value="是否执行推处理:" /></td>
+            <td><input id="map" type="button" ctrltype="field" style="border-bottom: 0px; border-left: 0px; background: blue; color: white; border-top: 0px; border-right: 0px" name="map" value="[是否执行推处理]" /></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><input id="$action-right" type="button" ctrltype="action" name="$action-right" value="表单权限" /> <input id="$action-event" type="button" ctrltype="action" name="$action-event" value="事件处理" /> <input id="$action-policy" type="button" ctrltype="action" name="$action-policy" value="路由策略" /> <input id="$action-savenode" type="button" ctrltype="action" name="$action-savenode" value="确定" /> <input id="$action-exit" type="button" ctrltype="action" name="$action-exit" value="返回" /></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.vo.EptCheckLogVo</classname>
+  <code>EptCheckLogVo</code>
+  <name>EptCheckLogVo</name>
+  <packages>com.tellhow.createetp.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}ksRDnznOSHVJ2Kv/dOpwBg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getChecklogid()</serialno>
+      <method>getChecklogid</method>
+      <name>long getChecklogid()</name>
+      <genericname>public long com.tellhow.createetp.vo.EptCheckLogVo.getChecklogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChecklogid(long checklogid)</serialno>
+      <method>setChecklogid</method>
+      <name>void setChecklogid(long checklogid)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setChecklogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>checklogid</code>
+          <name>checklogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getChecktype()</serialno>
+      <method>getChecktype</method>
+      <name>int getChecktype()</name>
+      <genericname>public int com.tellhow.createetp.vo.EptCheckLogVo.getChecktype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChecktype(int checktype)</serialno>
+      <method>setChecktype</method>
+      <name>void setChecktype(int checktype)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setChecktype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>checktype</code>
+          <name>checktype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCheckdate()</serialno>
+      <method>getCheckdate</method>
+      <name>String getCheckdate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptCheckLogVo.getCheckdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCheckdate(String checkdate)</serialno>
+      <method>setCheckdate</method>
+      <name>void setCheckdate(String checkdate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setCheckdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>checkdate</code>
+          <name>checkdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorcode()</serialno>
+      <method>getOperatorcode</method>
+      <name>String getOperatorcode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptCheckLogVo.getOperatorcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorcode(String operatorcode)</serialno>
+      <method>setOperatorcode</method>
+      <name>void setOperatorcode(String operatorcode)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setOperatorcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorcode</code>
+          <name>operatorcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatetime()</serialno>
+      <method>getOperatetime</method>
+      <name>String getOperatetime()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptCheckLogVo.getOperatetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatetime(String operatetime)</serialno>
+      <method>setOperatetime</method>
+      <name>void setOperatetime(String operatetime)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setOperatetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatetime</code>
+          <name>operatetime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnterpriseids()</serialno>
+      <method>getEnterpriseids</method>
+      <name>String getEnterpriseids()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptCheckLogVo.getEnterpriseids()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseids(String enterpriseids)</serialno>
+      <method>setEnterpriseids</method>
+      <name>void setEnterpriseids(String enterpriseids)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptCheckLogVo.setEnterpriseids(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enterpriseids</code>
+          <name>enterpriseids</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>enterpriseids</code>
+      <name>enterpriseids</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>checklogid</code>
+      <name>checklogid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>checktype</code>
+      <name>checktype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>checkdate</code>
+      <name>checkdate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatorcode</code>
+      <name>operatorcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatetime</code>
+      <name>operatetime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

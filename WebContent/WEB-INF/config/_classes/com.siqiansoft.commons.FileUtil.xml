@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.FileUtil</classname>
+  <code>FileUtil</code>
+  <name>FileUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}WubU9BEC+dTVZ4B5TM/tHg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createFile(String filePathAndName,String fileContent)</serialno>
+      <method>createFile</method>
+      <name>void createFile(String filePathAndName,String fileContent)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.createFile(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileContent</code>
+          <name>fileContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createFile(String filePathAndName,String fileContent,String encoding)</serialno>
+      <method>createFile</method>
+      <name>void createFile(String filePathAndName,String fileContent,String encoding)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.createFile(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileContent</code>
+          <name>fileContent</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encoding</code>
+          <name>encoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyFile(String oldPathFile,String newPathFile,String filename)</serialno>
+      <method>copyFile</method>
+      <name>void copyFile(String oldPathFile,String newPathFile,String filename)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.copyFile(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPathFile</code>
+          <name>oldPathFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPathFile</code>
+          <name>newPathFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filename</code>
+          <name>filename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyFile(String oldPathFile,String newPathFile)</serialno>
+      <method>copyFile</method>
+      <name>void copyFile(String oldPathFile,String newPathFile)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.copyFile(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPathFile</code>
+          <name>oldPathFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPathFile</code>
+          <name>newPathFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean delFile(String filePathAndName)</serialno>
+      <method>delFile</method>
+      <name>boolean delFile(String filePathAndName)</name>
+      <genericname>public static boolean com.siqiansoft.commons.FileUtil.delFile(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delFolder(String folderPath)</serialno>
+      <method>delFolder</method>
+      <name>void delFolder(String folderPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.delFolder(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>folderPath</code>
+          <name>folderPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean delAllFile(String path)</serialno>
+      <method>delAllFile</method>
+      <name>boolean delAllFile(String path)</name>
+      <genericname>public static boolean com.siqiansoft.commons.FileUtil.delAllFile(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>path</code>
+          <name>path</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyFolder(String oldPath,String newPath)</serialno>
+      <method>copyFolder</method>
+      <name>void copyFolder(String oldPath,String newPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.copyFolder(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPath</code>
+          <name>oldPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPath</code>
+          <name>newPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moveFile(String oldPath,String newPath)</serialno>
+      <method>moveFile</method>
+      <name>void moveFile(String oldPath,String newPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.moveFile(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPath</code>
+          <name>oldPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPath</code>
+          <name>newPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readTxt(String filePathAndName,String encoding)</serialno>
+      <method>readTxt</method>
+      <name>String readTxt(String filePathAndName,String encoding)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileUtil.readTxt(java.lang.String,java.lang.String) throws java.io.IOException</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encoding</code>
+          <name>encoding</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createFolder(String folderPath)</serialno>
+      <method>createFolder</method>
+      <name>String createFolder(String folderPath)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileUtil.createFolder(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>folderPath</code>
+          <name>folderPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createFolders(String folderPath,String paths)</serialno>
+      <method>createFolders</method>
+      <name>String createFolders(String folderPath,String paths)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileUtil.createFolders(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>folderPath</code>
+          <name>folderPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paths</code>
+          <name>paths</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moveFolder(String oldPath,String newPath)</serialno>
+      <method>moveFolder</method>
+      <name>void moveFolder(String oldPath,String newPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileUtil.moveFolder(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPath</code>
+          <name>oldPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPath</code>
+          <name>newPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

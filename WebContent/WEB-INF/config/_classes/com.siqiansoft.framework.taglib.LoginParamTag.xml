@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.LoginParamTag</classname>
+  <code>LoginParamTag</code>
+  <name>LoginParamTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}o1Uq65RqlBuZS2I7p1TI1A==</crc>
+  <modifytime>2013-06-16 23:41:08</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.LoginParamTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

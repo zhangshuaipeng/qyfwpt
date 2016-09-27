@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.DictionaryBo</classname>
+  <code>DictionaryBo</code>
+  <name>DictionaryBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}zOb/LTHhcrHt07DBED28NA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>CatalogModel getCatalog(String system,String id)</serialno>
+      <method>getCatalog</method>
+      <name>CatalogModel getCatalog(String system,String id)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.CatalogModel com.siqiansoft.platform.view.bo.DictionaryBo.getCatalog(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>CatalogModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getSystemDictTree()</serialno>
+      <method>getSystemDictTree</method>
+      <name>NodeModel getSystemDictTree()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.DictionaryBo.getSystemDictTree() throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>CatalogModel[] listCatalogs(String system)</serialno>
+      <method>listCatalogs</method>
+      <name>CatalogModel[] listCatalogs(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.CatalogModel[] com.siqiansoft.platform.view.bo.DictionaryBo.listCatalogs(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>CatalogModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addCatalog(String system,CatalogModel catalog)</serialno>
+      <method>addCatalog</method>
+      <name>void addCatalog(String system,CatalogModel catalog)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictionaryBo.addCatalog(java.lang.String,com.siqiansoft.framework.model.dict.CatalogModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>CatalogModel</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateCatalog(String system,CatalogModel catalog)</serialno>
+      <method>updateCatalog</method>
+      <name>void updateCatalog(String system,CatalogModel catalog)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictionaryBo.updateCatalog(java.lang.String,com.siqiansoft.framework.model.dict.CatalogModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>CatalogModel</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteCatalog(String system,String[] selected)</serialno>
+      <method>deleteCatalog</method>
+      <name>void deleteCatalog(String system,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.DictionaryBo.deleteCatalog(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

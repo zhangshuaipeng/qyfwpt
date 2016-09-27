@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.Utilities</classname>
+  <code>Utilities</code>
+  <name>Utilities</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}3GCZWWHllEuD1XU26bMPhA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Utilities.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>byte[] getBytes(String src)</serialno>
+      <method>getBytes</method>
+      <name>byte[] getBytes(String src)</name>
+      <genericname>public static byte[] com.siqiansoft.framework.util.Utilities.getBytes(java.lang.String)</genericname>
+      <retclass>byte[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel getController(ControllerModel[] controls,String action)</serialno>
+      <method>getController</method>
+      <name>ControllerModel getController(ControllerModel[] controls,String action)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ControllerModel com.siqiansoft.framework.util.Utilities.getController(com.siqiansoft.framework.model.view.ControllerModel[],java.lang.String)</genericname>
+      <retclass>ControllerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel[]</type>
+          <code>controls</code>
+          <name>controls</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel getController(ViewModel view,String actionId)</serialno>
+      <method>getController</method>
+      <name>ControllerModel getController(ViewModel view,String actionId)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ControllerModel com.siqiansoft.framework.util.Utilities.getController(com.siqiansoft.framework.model.view.ViewModel,java.lang.String)</genericname>
+      <retclass>ControllerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actionId</code>
+          <name>actionId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel getLayout(String system,String module,String code)</serialno>
+      <method>getLayout</method>
+      <name>LayoutModel getLayout(String system,String module,String code)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.LayoutModel com.siqiansoft.framework.util.Utilities.getLayout(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ActionModel getAction(PageModel page,String actionId)</serialno>
+      <method>getAction</method>
+      <name>ActionModel getAction(PageModel page,String actionId)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ActionModel com.siqiansoft.framework.util.Utilities.getAction(com.siqiansoft.framework.model.view.PageModel,java.lang.String)</genericname>
+      <retclass>ActionModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actionId</code>
+          <name>actionId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRight(ViewModel view,String action)</serialno>
+      <method>getRight</method>
+      <name>HashMap getRight(ViewModel view,String action)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt; com.siqiansoft.framework.util.Utilities.getRight(com.siqiansoft.framework.model.view.ViewModel,java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPropValue(LoginModel login,String str)</serialno>
+      <method>getPropValue</method>
+      <name>String getPropValue(LoginModel login,String str)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.Utilities.getPropValue(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getConverter(String source)</serialno>
+      <method>getConverter</method>
+      <name>HashMap getConverter(String source)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.util.Utilities.getConverter(java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>source</code>
+          <name>source</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PageModel getPage(ViewModel view,String pageId)</serialno>
+      <method>getPage</method>
+      <name>PageModel getPage(ViewModel view,String pageId)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.PageModel com.siqiansoft.framework.util.Utilities.getPage(com.siqiansoft.framework.model.view.ViewModel,java.lang.String)</genericname>
+      <retclass>PageModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pageId</code>
+          <name>pageId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isAuthorized(LoginModel login,ControllerModel ctl)</serialno>
+      <method>isAuthorized</method>
+      <name>boolean isAuthorized(LoginModel login,ControllerModel ctl)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.Utilities.isAuthorized(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.view.ControllerModel)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>ctl</code>
+          <name>ctl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isAuthorized(LoginModel login,String system,String module,String action)</serialno>
+      <method>isAuthorized</method>
+      <name>boolean isAuthorized(LoginModel login,String system,String module,String action)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.Utilities.isAuthorized(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveView(ViewModel view,String system,String module)</serialno>
+      <method>saveView</method>
+      <name>void saveView(ViewModel view,String system,String module)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Utilities.saveView(com.siqiansoft.framework.model.view.ViewModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldSetModel getFieldSet(PageModel page,String fs)</serialno>
+      <method>getFieldSet</method>
+      <name>FieldSetModel getFieldSet(PageModel page,String fs)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.FieldSetModel com.siqiansoft.framework.util.Utilities.getFieldSet(com.siqiansoft.framework.model.view.PageModel,java.lang.String)</genericname>
+      <retclass>FieldSetModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fs</code>
+          <name>fs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void invokeInterface(String interfaceName,HashMap params)</serialno>
+      <method>invokeInterface</method>
+      <name>void invokeInterface(String interfaceName,HashMap params)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Utilities.invokeInterface(java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>interfaceName</code>
+          <name>interfaceName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getConvertTable(String source)</serialno>
+      <method>getConvertTable</method>
+      <name>String[][] getConvertTable(String source)</name>
+      <genericname>public static java.lang.String[][] com.siqiansoft.framework.util.Utilities.getConvertTable(java.lang.String)</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>source</code>
+          <name>source</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getAllFields(String system,String module)</serialno>
+      <method>getAllFields</method>
+      <name>ItemModel[] getAllFields(String system,String module)</name>
+      <genericname>public static com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.framework.util.Utilities.getAllFields(java.lang.String,java.lang.String)</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel getDefaultControl(ViewModel view)</serialno>
+      <method>getDefaultControl</method>
+      <name>ControllerModel getDefaultControl(ViewModel view)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.ControllerModel com.siqiansoft.framework.util.Utilities.getDefaultControl(com.siqiansoft.framework.model.view.ViewModel)</genericname>
+      <retclass>ControllerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PageModel getPageByAction(ViewModel view,String action)</serialno>
+      <method>getPageByAction</method>
+      <name>PageModel getPageByAction(ViewModel view,String action)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.PageModel com.siqiansoft.framework.util.Utilities.getPageByAction(com.siqiansoft.framework.model.view.ViewModel,java.lang.String)</genericname>
+      <retclass>PageModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldModel[] getGridFields(PageModel page)</serialno>
+      <method>getGridFields</method>
+      <name>FieldModel[] getGridFields(PageModel page)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.FieldModel[] com.siqiansoft.framework.util.Utilities.getGridFields(com.siqiansoft.framework.model.view.PageModel)</genericname>
+      <retclass>FieldModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatCode(String code)</serialno>
+      <method>formatCode</method>
+      <name>String formatCode(String code)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.Utilities.formatCode(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String byte2hex(byte[] b)</serialno>
+      <method>byte2hex</method>
+      <name>String byte2hex(byte[] b)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.Utilities.byte2hex(byte[])</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>b</code>
+          <name>b</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

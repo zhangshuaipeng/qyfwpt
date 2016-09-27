@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>DbModelBo.saveDsn</code>
+    <name>saveDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbModelBo</catalog>
+    <item>saveDsn</item>
+    <script>void saveDsn(DsnModel dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbModelBo.updateDsn</code>
+    <name>updateDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbModelBo</catalog>
+    <item>updateDsn</item>
+    <script>void updateDsn(DsnModel dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbModelBo.deleteDsn</code>
+    <name>deleteDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbModelBo</catalog>
+    <item>deleteDsn</item>
+    <script>void deleteDsn(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbModelBo.getDbModelTree</code>
+    <name>getDbModelTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbModelBo</catalog>
+    <item>getDbModelTree</item>
+    <script>NodeModel getDbModelTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbTableBo.getTable</code>
+    <name>getTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbTableBo</catalog>
+    <item>getTable</item>
+    <script>TableModel getTable(String dsn,String table)</script>
+    <params>dsn,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbTableBo.updateTable</code>
+    <name>updateTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbTableBo</catalog>
+    <item>updateTable</item>
+    <script>void updateTable(String dsn,TableModel table)</script>
+    <params>dsn,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbTableBo.listTables</code>
+    <name>listTables</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbTableBo</catalog>
+    <item>listTables</item>
+    <script>TableModel[] listTables(String dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbTableBo.deleteTables</code>
+    <name>deleteTables</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbTableBo</catalog>
+    <item>deleteTables</item>
+    <script>void deleteTables(String dsn,String[] selected)</script>
+    <params>dsn,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbTableBo.saveTable</code>
+    <name>saveTable</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbTableBo</catalog>
+    <item>saveTable</item>
+    <script>void saveTable(String dsn,TableModel table)</script>
+    <params>dsn,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbViewBo.updateView</code>
+    <name>updateView</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbViewBo</catalog>
+    <item>updateView</item>
+    <script>void updateView(String dsn,TableModel view)</script>
+    <params>dsn,view</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbViewBo.listViews</code>
+    <name>listViews</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.DbViewBo</catalog>
+    <item>listViews</item>
+    <script>TableModel[] listViews(String dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.listColumns</code>
+    <name>listColumns</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.ColumnBo</catalog>
+    <item>listColumns</item>
+    <script>ColumnModel[] listColumns(String dsn,String table)</script>
+    <params>dsn,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.saveColumn</code>
+    <name>saveColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.ColumnBo</catalog>
+    <item>saveColumn</item>
+    <script>void saveColumn(String dsn,String table,ColumnModel column)</script>
+    <params>dsn,table,column</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.updateColumn</code>
+    <name>updateColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.ColumnBo</catalog>
+    <item>updateColumn</item>
+    <script>void updateColumn(String dsn,String table,ColumnModel column)</script>
+    <params>dsn,table,column</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.deleteColumn</code>
+    <name>deleteColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.db.ColumnBo</catalog>
+    <item>deleteColumn</item>
+    <script>void deleteColumn(String dsn,String table,ColumnModel column)</script>
+    <params>dsn,table,column</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getDsn</code>
+    <name>getDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getDsn</item>
+    <script>DsnModel getDsn(String name)</script>
+    <params>name</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getTableProp</code>
+    <name>getTableProp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getTableProp</item>
+    <script>TableModel getTableProp(String dsName,String table)</script>
+    <params>dsName,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbModelBo.createDbModel</code>
+    <name>createDbModel</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.DbModelBo</catalog>
+    <item>createDbModel</item>
+    <script>void createDbModel(String dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getAllDsn</code>
+    <name>getAllDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getAllDsn</item>
+    <script>DsnModel[] getAllDsn()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbUtil.getTableViewByDsn</code>
+    <name>getTableViewByDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.db.DbUtil</catalog>
+    <item>getTableViewByDsn</item>
+    <script>TableModel[] getTableViewByDsn(String dsn,String type)</script>
+    <params>dsn,type</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DbUtil.getTableViewsByDsn</code>
+    <name>getTableViewsByDsn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.db.DbUtil</catalog>
+    <item>getTableViewsByDsn</item>
+    <script>TableModel[] getTableViewsByDsn(String dsn)</script>
+    <params>dsn</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

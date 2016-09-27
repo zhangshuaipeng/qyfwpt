@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>PageBo.getPage</code>
+    <name>getPage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.PageBo</catalog>
+    <item>getPage</item>
+    <script>PageModel getPage(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PageBo.listPages</code>
+    <name>listPages</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.PageBo</catalog>
+    <item>listPages</item>
+    <script>PageModel[] listPages(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PageBo.addPage</code>
+    <name>addPage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.PageBo</catalog>
+    <item>addPage</item>
+    <script>void addPage(String system,String module,PageModel page)</script>
+    <params>system,module,page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PageBo.updatePage</code>
+    <name>updatePage</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.PageBo</catalog>
+    <item>updatePage</item>
+    <script>void updatePage(String system,String module,PageModel page)</script>
+    <params>system,module,page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PageBo.deletePages</code>
+    <name>deletePages</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.PageBo</catalog>
+    <item>deletePages</item>
+    <script>void deletePages(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

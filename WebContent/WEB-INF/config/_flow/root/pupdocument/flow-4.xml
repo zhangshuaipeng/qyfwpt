@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.siqiansoft.workflow.model.FlowModel>
+  <flowcode>pupdocument</flowcode>
+  <flowname>发文办理</flowname>
+  <system>document</system>
+  <formid>pupdocument</formid>
+  <oninit>
+    <fieldset>onInit</fieldset>
+    <name>流程初始化</name>
+    <business>initializationprocess</business>
+  </oninit>
+</com.siqiansoft.workflow.model.FlowModel>

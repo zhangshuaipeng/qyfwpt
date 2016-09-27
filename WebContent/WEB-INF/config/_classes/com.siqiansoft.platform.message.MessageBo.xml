@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.message.MessageBo</classname>
+  <code>MessageBo</code>
+  <name>MessageBo</name>
+  <packages>com.siqiansoft.platform.message</packages>
+  <type>biz</type>
+  <crc>{MD5}TUm7N3S/hGFazlMydW48XA==</crc>
+  <modifytime>2013-04-11 13:05:21</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void saveSmsScript(String script)</serialno>
+      <method>saveSmsScript</method>
+      <name>void saveSmsScript(String script)</name>
+      <genericname>public void com.siqiansoft.platform.message.MessageBo.saveSmsScript(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveImScript(String script)</serialno>
+      <method>saveImScript</method>
+      <name>void saveImScript(String script)</name>
+      <genericname>public void com.siqiansoft.platform.message.MessageBo.saveImScript(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

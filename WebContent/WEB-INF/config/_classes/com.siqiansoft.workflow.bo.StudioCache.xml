@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.StudioCache</classname>
+  <code>StudioCache</code>
+  <name>StudioCache</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}ehKnrzhTh7whfvJXd33r5A==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNode(String flowPK,String nodeId)</serialno>
+      <method>getNode</method>
+      <name>NodeModel getNode(String flowPK,String nodeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel com.siqiansoft.workflow.bo.StudioCache.getNode(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNode(String flowPK,String nodeId,String nodeType)</serialno>
+      <method>getNode</method>
+      <name>NodeModel getNode(String flowPK,String nodeId,String nodeType)</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel com.siqiansoft.workflow.bo.StudioCache.getNode(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeType</code>
+          <name>nodeType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FlowDataModel getFlow(String flowPK)</serialno>
+      <method>getFlow</method>
+      <name>FlowDataModel getFlow(String flowPK)</name>
+      <genericname>public com.siqiansoft.workflow.model.FlowDataModel com.siqiansoft.workflow.bo.StudioCache.getFlow(java.lang.String)</genericname>
+      <retclass>FlowDataModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel getRoute(String flowPK,String routeId)</serialno>
+      <method>getRoute</method>
+      <name>RouteModel getRoute(String flowPK,String routeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel com.siqiansoft.workflow.bo.StudioCache.getRoute(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RouteModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getNodeRight(String flowPK,String nodeId)</serialno>
+      <method>getNodeRight</method>
+      <name>HashMap getNodeRight(String flowPK,String nodeId)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt; com.siqiansoft.workflow.bo.StudioCache.getNodeRight(java.lang.String,java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeRights(String flowPK,String nodeId,HashMap rights)</serialno>
+      <method>setNodeRights</method>
+      <name>void setNodeRights(String flowPK,String nodeId,HashMap rights)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.setNodeRights(java.lang.String,java.lang.String,java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap loadFlow(String flowPK)</serialno>
+      <method>loadFlow</method>
+      <name>HashMap loadFlow(String flowPK)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.StudioCache.loadFlow(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateNode(String flowPK,NodeModel node)</serialno>
+      <method>updateNode</method>
+      <name>void updateNode(String flowPK,NodeModel node)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.updateNode(java.lang.String,com.siqiansoft.workflow.model.NodeModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>NodeModel</type>
+          <code>node</code>
+          <name>node</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel createRoute(String flowPK,String routeId)</serialno>
+      <method>createRoute</method>
+      <name>RouteModel createRoute(String flowPK,String routeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel com.siqiansoft.workflow.bo.StudioCache.createRoute(java.lang.String,java.lang.String)</genericname>
+      <retclass>RouteModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRoute(String flowPK,RouteModel route)</serialno>
+      <method>updateRoute</method>
+      <name>void updateRoute(String flowPK,RouteModel route)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.updateRoute(java.lang.String,com.siqiansoft.workflow.model.RouteModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RouteModel</type>
+          <code>route</code>
+          <name>route</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveFlow(String flowPK,String xml)</serialno>
+      <method>saveFlow</method>
+      <name>void saveFlow(String flowPK,String xml)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.saveFlow(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>xml</code>
+          <name>xml</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCanvas(String flowPK)</serialno>
+      <method>getCanvas</method>
+      <name>String getCanvas(String flowPK)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.bo.StudioCache.getCanvas(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowChart(String orgCode,String flowCode,String debug)</serialno>
+      <method>getFlowChart</method>
+      <name>String getFlowChart(String orgCode,String flowCode,String debug)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.bo.StudioCache.getFlowChart(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>debug</code>
+          <name>debug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowChart(String instanceId)</serialno>
+      <method>getFlowChart</method>
+      <name>String getFlowChart(String instanceId)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.bo.StudioCache.getFlowChart(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PolicyModel[] getRoutePolicy(String flowPK,String nodeId)</serialno>
+      <method>getRoutePolicy</method>
+      <name>PolicyModel[] getRoutePolicy(String flowPK,String nodeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.PolicyModel[] com.siqiansoft.workflow.bo.StudioCache.getRoutePolicy(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PolicyModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</serialno>
+      <method>addRoutePolicy</method>
+      <name>void addRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.addRoutePolicy(java.lang.String,java.lang.String,com.siqiansoft.workflow.model.PolicyModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PolicyModel</type>
+          <code>policy</code>
+          <name>policy</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</serialno>
+      <method>updateRoutePolicy</method>
+      <name>void updateRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.updateRoutePolicy(java.lang.String,java.lang.String,com.siqiansoft.workflow.model.PolicyModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PolicyModel</type>
+          <code>policy</code>
+          <name>policy</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</serialno>
+      <method>deleteRoutePolicy</method>
+      <name>void deleteRoutePolicy(String flowPK,String nodeId,PolicyModel policy)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StudioCache.deleteRoutePolicy(java.lang.String,java.lang.String,com.siqiansoft.workflow.model.PolicyModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PolicyModel</type>
+          <code>policy</code>
+          <name>policy</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

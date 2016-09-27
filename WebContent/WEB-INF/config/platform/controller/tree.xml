@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>权限树</name>
+    <imgpath></imgpath>
+    <nodes>
+      <business>ControllerBo.loadRightTree</business>
+      <params>system,module,action,role</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

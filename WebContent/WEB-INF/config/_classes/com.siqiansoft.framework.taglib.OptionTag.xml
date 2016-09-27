@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.OptionTag</classname>
+  <code>OptionTag</code>
+  <name>OptionTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}P43mWzE9B6NwOTTQ0hMU0g==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.OptionTag.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.OptionTag.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.OptionTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doEndTag()</serialno>
+      <method>doEndTag</method>
+      <name>int doEndTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.OptionTag.doEndTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

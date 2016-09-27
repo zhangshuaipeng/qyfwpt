@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.RequestParam</classname>
+  <code>RequestParam</code>
+  <name>RequestParam</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}xG8gLoxjT/gMsduk74A6hw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Map getParameterMap(HttpServletRequest request)</serialno>
+      <method>getParameterMap</method>
+      <name>Map getParameterMap(HttpServletRequest request)</name>
+      <genericname>public static java.util.Map com.siqiansoft.framework.util.RequestParam.getParameterMap(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RequestModel getRequestInfo(HttpServletRequest request)</serialno>
+      <method>getRequestInfo</method>
+      <name>RequestModel getRequestInfo(HttpServletRequest request)</name>
+      <genericname>public static com.siqiansoft.framework.model.RequestModel com.siqiansoft.framework.util.RequestParam.getRequestInfo(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>RequestModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loadViewData(RequestModel req,PageModel page)</serialno>
+      <method>loadViewData</method>
+      <name>void loadViewData(RequestModel req,PageModel page)</name>
+      <genericname>public static void com.siqiansoft.framework.util.RequestParam.loadViewData(com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.view.PageModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

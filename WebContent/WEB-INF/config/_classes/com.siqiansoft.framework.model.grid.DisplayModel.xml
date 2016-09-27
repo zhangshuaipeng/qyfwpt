@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.DisplayModel</classname>
+  <code>DisplayModel</code>
+  <name>DisplayModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}95Zklz4rsYbZiwHtAgwEcw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>DisplayModel clone()</serialno>
+      <method>clone</method>
+      <name>DisplayModel clone()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DisplayModel com.siqiansoft.framework.model.grid.DisplayModel.clone()</genericname>
+      <retclass>DisplayModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.grid.DisplayModel.clone() throws java.lang.CloneNotSupportedException</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUrl(String url)</serialno>
+      <method>setUrl</method>
+      <name>void setUrl(String url)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUrl()</serialno>
+      <method>getUrl</method>
+      <name>String getUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCol(String col)</serialno>
+      <method>setCol</method>
+      <name>void setCol(String col)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setCol(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCol()</serialno>
+      <method>getCol</method>
+      <name>String getCol()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getCol()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHideCols(String hidecols)</serialno>
+      <method>setHideCols</method>
+      <name>void setHideCols(String hidecols)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setHideCols(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>hidecols</code>
+          <name>hidecols</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHideCols()</serialno>
+      <method>getHideCols</method>
+      <name>String getHideCols()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getHideCols()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCell(String cell)</serialno>
+      <method>setCell</method>
+      <name>void setCell(String cell)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setCell(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cell</code>
+          <name>cell</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCell()</serialno>
+      <method>getCell</method>
+      <name>String getCell()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getCell()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCellColor(String cellcolor)</serialno>
+      <method>setCellColor</method>
+      <name>void setCellColor(String cellcolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setCellColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cellcolor</code>
+          <name>cellcolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCellColor()</serialno>
+      <method>getCellColor</method>
+      <name>String getCellColor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getCellColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCellBgcolor(String cellbgcolor)</serialno>
+      <method>setCellBgcolor</method>
+      <name>void setCellBgcolor(String cellbgcolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setCellBgcolor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cellbgcolor</code>
+          <name>cellbgcolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCellBgcolor()</serialno>
+      <method>getCellBgcolor</method>
+      <name>String getCellBgcolor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getCellBgcolor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowColor(String rowcolor)</serialno>
+      <method>setRowColor</method>
+      <name>void setRowColor(String rowcolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setRowColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowcolor</code>
+          <name>rowcolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowColor()</serialno>
+      <method>getRowColor</method>
+      <name>String getRowColor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getRowColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowBgcolor(String rowbgcolor)</serialno>
+      <method>setRowBgcolor</method>
+      <name>void setRowBgcolor(String rowbgcolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setRowBgcolor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowbgcolor</code>
+          <name>rowbgcolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowBgcolor()</serialno>
+      <method>getRowBgcolor</method>
+      <name>String getRowBgcolor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getRowBgcolor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowBold(String rowbold)</serialno>
+      <method>setRowBold</method>
+      <name>void setRowBold(String rowbold)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setRowBold(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowbold</code>
+          <name>rowbold</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowBold()</serialno>
+      <method>getRowBold</method>
+      <name>String getRowBold()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getRowBold()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDisableBox(String disablebox)</serialno>
+      <method>setDisableBox</method>
+      <name>void setDisableBox(String disablebox)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DisplayModel.setDisableBox(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>disablebox</code>
+          <name>disablebox</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDisableBox()</serialno>
+      <method>getDisableBox</method>
+      <name>String getDisableBox()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DisplayModel.getDisableBox()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>id</code>
+      <name>id</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>col</code>
+      <name>col</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>value</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>hidecols</code>
+      <name>hidecols</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cell</code>
+      <name>cell</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cellcolor</code>
+      <name>cellcolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cellbgcolor</code>
+      <name>cellbgcolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowcolor</code>
+      <name>rowcolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowbgcolor</code>
+      <name>rowbgcolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowbold</code>
+      <name>rowbold</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>url</code>
+      <name>url</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>disablebox</code>
+      <name>disablebox</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

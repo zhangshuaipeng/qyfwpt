@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.TempletBo</classname>
+  <code>TempletBo</code>
+  <name>TempletBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}+H9ZvZQtuOHcXtzAruIr3A==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void down(String system,String module,String templet)</serialno>
+      <method>down</method>
+      <name>void down(String system,String module,String templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.down(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String system,String module,String templet)</serialno>
+      <method>up</method>
+      <name>void up(String system,String module,String templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.up(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel getTemplet(String system,String module,String templet)</serialno>
+      <method>getTemplet</method>
+      <name>TempletModel getTemplet(String system,String module,String templet)</name>
+      <genericname>public com.siqiansoft.framework.model.view.TempletModel com.siqiansoft.platform.view.bo.TempletBo.getTemplet(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TempletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel[] listTemplets(String system,String module)</serialno>
+      <method>listTemplets</method>
+      <name>TempletModel[] listTemplets(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.view.TempletModel[] com.siqiansoft.platform.view.bo.TempletBo.listTemplets(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TempletModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addTemplet(String system,String module,TempletModel templet)</serialno>
+      <method>addTemplet</method>
+      <name>void addTemplet(String system,String module,TempletModel templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.addTemplet(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateTemplet(String system,String module,TempletModel templet)</serialno>
+      <method>updateTemplet</method>
+      <name>void updateTemplet(String system,String module,TempletModel templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.updateTemplet(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteTemplets(String system,String module,String[] selected)</serialno>
+      <method>deleteTemplets</method>
+      <name>void deleteTemplets(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.deleteTemplets(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readTemplet(String system,String module,String templet)</serialno>
+      <method>readTemplet</method>
+      <name>String readTemplet(String system,String module,String templet)</name>
+      <genericname>public java.lang.String com.siqiansoft.platform.view.bo.TempletBo.readTemplet(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readHtml5Templet(String system,String module,String templet)</serialno>
+      <method>readHtml5Templet</method>
+      <name>String readHtml5Templet(String system,String module,String templet)</name>
+      <genericname>public java.lang.String com.siqiansoft.platform.view.bo.TempletBo.readHtml5Templet(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveTemplet(String system,String module,String templet,String content)</serialno>
+      <method>saveTemplet</method>
+      <name>void saveTemplet(String system,String module,String templet,String content)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.saveTemplet(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveHtml5Templet(String system,String module,String templet,String content)</serialno>
+      <method>saveHtml5Templet</method>
+      <name>void saveHtml5Templet(String system,String module,String templet,String content)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.saveHtml5Templet(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createDefaultTemplet(String system,String module,String templet)</serialno>
+      <method>createDefaultTemplet</method>
+      <name>void createDefaultTemplet(String system,String module,String templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.createDefaultTemplet(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createHtml5Templet(String system,String module,String templet)</serialno>
+      <method>createHtml5Templet</method>
+      <name>void createHtml5Templet(String system,String module,String templet)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TempletBo.createHtml5Templet(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

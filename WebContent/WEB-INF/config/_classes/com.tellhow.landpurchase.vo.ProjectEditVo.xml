@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.vo.ProjectEditVo</classname>
+  <code>ProjectEditVo</code>
+  <name>ProjectEditVo</name>
+  <packages>com.tellhow.landpurchase.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}LtqI8gtWynoBfC4J30ObOw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getStartDate()</serialno>
+      <method>getStartDate</method>
+      <name>String getStartDate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getStartDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.landpurchase.vo.ProjectEditVo.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.landpurchase.vo.ProjectEditVo.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCanComplete()</serialno>
+      <method>getCanComplete</method>
+      <name>int getCanComplete()</name>
+      <genericname>public int com.tellhow.landpurchase.vo.ProjectEditVo.getCanComplete()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCanComplete(int canComplete)</serialno>
+      <method>setCanComplete</method>
+      <name>void setCanComplete(int canComplete)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setCanComplete(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>canComplete</code>
+          <name>canComplete</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEndDate()</serialno>
+      <method>getEndDate</method>
+      <name>String getEndDate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getEndDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEndDate(String endDate)</serialno>
+      <method>setEndDate</method>
+      <name>void setEndDate(String endDate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setEndDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endDate</code>
+          <name>endDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedLandArea()</serialno>
+      <method>getPlanedLandArea</method>
+      <name>String getPlanedLandArea()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedLandArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedLandArea(String planedLandArea)</serialno>
+      <method>setPlanedLandArea</method>
+      <name>void setPlanedLandArea(String planedLandArea)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedLandArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedLandArea</code>
+          <name>planedLandArea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBzsprjID(long bzsprjID)</serialno>
+      <method>setBzsprjID</method>
+      <name>void setBzsprjID(long bzsprjID)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setBzsprjID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>bzsprjID</code>
+          <name>bzsprjID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsHandover4Land(int isHandover4Land)</serialno>
+      <method>setIsHandover4Land</method>
+      <name>void setIsHandover4Land(int isHandover4Land)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setIsHandover4Land(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>isHandover4Land</code>
+          <name>isHandover4Land</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getBzsprjID()</serialno>
+      <method>getBzsprjID</method>
+      <name>long getBzsprjID()</name>
+      <genericname>public long com.tellhow.landpurchase.vo.ProjectEditVo.getBzsprjID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBuildingScale()</serialno>
+      <method>getBuildingScale</method>
+      <name>String getBuildingScale()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getBuildingScale()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBuildingScale(String buildingScale)</serialno>
+      <method>setBuildingScale</method>
+      <name>void setBuildingScale(String buildingScale)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setBuildingScale(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>buildingScale</code>
+          <name>buildingScale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedBuildingScale()</serialno>
+      <method>getPlanedBuildingScale</method>
+      <name>String getPlanedBuildingScale()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedBuildingScale()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedBuildingScale(String planedBuildingScale)</serialno>
+      <method>setPlanedBuildingScale</method>
+      <name>void setPlanedBuildingScale(String planedBuildingScale)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedBuildingScale(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedBuildingScale</code>
+          <name>planedBuildingScale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartDate(String startDate)</serialno>
+      <method>setStartDate</method>
+      <name>void setStartDate(String startDate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setStartDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startDate</code>
+          <name>startDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedStartDate()</serialno>
+      <method>getPlanedStartDate</method>
+      <name>String getPlanedStartDate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedStartDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedStartDate(String planedStartDate)</serialno>
+      <method>setPlanedStartDate</method>
+      <name>void setPlanedStartDate(String planedStartDate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedStartDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedStartDate</code>
+          <name>planedStartDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedEndDate()</serialno>
+      <method>getPlanedEndDate</method>
+      <name>String getPlanedEndDate()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedEndDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedEndDate(String planedEndDate)</serialno>
+      <method>setPlanedEndDate</method>
+      <name>void setPlanedEndDate(String planedEndDate)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedEndDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedEndDate</code>
+          <name>planedEndDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConstructionUnit()</serialno>
+      <method>getConstructionUnit</method>
+      <name>String getConstructionUnit()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getConstructionUnit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConstructionUnit(String constructionUnit)</serialno>
+      <method>setConstructionUnit</method>
+      <name>void setConstructionUnit(String constructionUnit)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setConstructionUnit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>constructionUnit</code>
+          <name>constructionUnit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkman4Build()</serialno>
+      <method>getLinkman4Build</method>
+      <name>String getLinkman4Build()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getLinkman4Build()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkman4Build(String linkman4Build)</serialno>
+      <method>setLinkman4Build</method>
+      <name>void setLinkman4Build(String linkman4Build)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setLinkman4Build(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkman4Build</code>
+          <name>linkman4Build</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTelephone4Build()</serialno>
+      <method>getTelephone4Build</method>
+      <name>String getTelephone4Build()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getTelephone4Build()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTelephone4Build(String telephone4Build)</serialno>
+      <method>setTelephone4Build</method>
+      <name>void setTelephone4Build(String telephone4Build)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setTelephone4Build(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>telephone4Build</code>
+          <name>telephone4Build</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBuildContent()</serialno>
+      <method>getBuildContent</method>
+      <name>String getBuildContent()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getBuildContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBuildContent(String buildContent)</serialno>
+      <method>setBuildContent</method>
+      <name>void setBuildContent(String buildContent)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setBuildContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>buildContent</code>
+          <name>buildContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedBuildContent()</serialno>
+      <method>getPlanedBuildContent</method>
+      <name>String getPlanedBuildContent()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedBuildContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedBuildContent(String planedBuildContent)</serialno>
+      <method>setPlanedBuildContent</method>
+      <name>void setPlanedBuildContent(String planedBuildContent)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedBuildContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedBuildContent</code>
+          <name>planedBuildContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanedDuration()</serialno>
+      <method>getPlanedDuration</method>
+      <name>String getPlanedDuration()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getPlanedDuration()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedDuration(String planedDuration)</serialno>
+      <method>setPlanedDuration</method>
+      <name>void setPlanedDuration(String planedDuration)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setPlanedDuration(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planedDuration</code>
+          <name>planedDuration</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getIsHandover4Land()</serialno>
+      <method>getIsHandover4Land</method>
+      <name>int getIsHandover4Land()</name>
+      <genericname>public int com.tellhow.landpurchase.vo.ProjectEditVo.getIsHandover4Land()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLandArea()</serialno>
+      <method>getLandArea</method>
+      <name>String getLandArea()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.vo.ProjectEditVo.getLandArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLandArea(String landArea)</serialno>
+      <method>setLandArea</method>
+      <name>void setLandArea(String landArea)</name>
+      <genericname>public void com.tellhow.landpurchase.vo.ProjectEditVo.setLandArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>landArea</code>
+          <name>landArea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>bzsprjid</code>
+      <name>bzsprjID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedlandarea</code>
+      <name>planedLandArea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>buildingscale</code>
+      <name>buildingScale</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedbuildingscale</code>
+      <name>planedBuildingScale</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>startdate</code>
+      <name>startDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedstartdate</code>
+      <name>planedStartDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enddate</code>
+      <name>endDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedenddate</code>
+      <name>planedEndDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>buildcontent</code>
+      <name>buildContent</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedbuildcontent</code>
+      <name>planedBuildContent</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planedduration</code>
+      <name>planedDuration</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>constructionunit</code>
+      <name>constructionUnit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkman4build</code>
+      <name>linkman4Build</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>telephone4build</code>
+      <name>telephone4Build</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>landarea</code>
+      <name>landArea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>remark</code>
+      <name>remark</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ishandover4land</code>
+      <name>isHandover4Land</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cancomplete</code>
+      <name>canComplete</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatorcode</code>
+      <name>operatorCode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

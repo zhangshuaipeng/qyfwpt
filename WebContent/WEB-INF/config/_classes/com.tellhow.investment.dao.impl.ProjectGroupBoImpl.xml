@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.impl.ProjectGroupBoImpl</classname>
+  <code>ProjectGroupBoImpl</code>
+  <name>ProjectGroupBoImpl</name>
+  <packages>com.tellhow.investment.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}cGKroa7swuW6IUMPrNUR8g==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Boolean deleteGroupType(long grouptypeid)</serialno>
+      <method>deleteGroupType</method>
+      <name>Boolean deleteGroupType(long grouptypeid)</name>
+      <genericname>public java.lang.Boolean com.tellhow.investment.dao.impl.ProjectGroupBoImpl.deleteGroupType(long) throws java.lang.Exception</genericname>
+      <retclass>Boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>grouptypeid</code>
+          <name>grouptypeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

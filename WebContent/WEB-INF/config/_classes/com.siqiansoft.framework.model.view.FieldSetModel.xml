@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.FieldSetModel</classname>
+  <code>FieldSetModel</code>
+  <name>FieldSetModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}cI6YlfDW9K0qAUtKp8n3jg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldSetModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldModel[] getFields()</serialno>
+      <method>getFields</method>
+      <name>FieldModel[] getFields()</name>
+      <genericname>public com.siqiansoft.framework.model.view.FieldModel[] com.siqiansoft.framework.model.view.FieldSetModel.getFields()</genericname>
+      <retclass>FieldModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ActionModel[] getActions()</serialno>
+      <method>getActions</method>
+      <name>ActionModel[] getActions()</name>
+      <genericname>public com.siqiansoft.framework.model.view.ActionModel[] com.siqiansoft.framework.model.view.FieldSetModel.getActions()</genericname>
+      <retclass>ActionModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldSetModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMetaData()</serialno>
+      <method>getMetaData</method>
+      <name>String getMetaData()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldSetModel.getMetaData()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMetaData(String metadata)</serialno>
+      <method>setMetaData</method>
+      <name>void setMetaData(String metadata)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldSetModel.setMetaData(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>metadata</code>
+          <name>metadata</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFields(FieldModel[] fields)</serialno>
+      <method>setFields</method>
+      <name>void setFields(FieldModel[] fields)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldSetModel.setFields(com.siqiansoft.framework.model.view.FieldModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FieldModel[]</type>
+          <code>fields</code>
+          <name>fields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldSetModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldSetModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActions(ActionModel[] actions)</serialno>
+      <method>setActions</method>
+      <name>void setActions(ActionModel[] actions)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldSetModel.setActions(com.siqiansoft.framework.model.view.ActionModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ActionModel[]</type>
+          <code>actions</code>
+          <name>actions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>metadata</code>
+      <name>metadata</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

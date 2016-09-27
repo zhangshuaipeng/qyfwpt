@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.jqgrid.impl.IJqgridDaoImpl</classname>
+  <code>IJqgridDaoImpl</code>
+  <name>IJqgridDaoImpl</name>
+  <packages>com.tellhow.detail.jqgrid.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}UaIxbIkNe29wXy94RW3LMA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>JqgridModelVo getJqgridModel(String sid)</serialno>
+      <method>getJqgridModel</method>
+      <name>JqgridModelVo getJqgridModel(String sid)</name>
+      <genericname>public com.tellhow.detail.vo.JqgridModelVo com.tellhow.detail.jqgrid.impl.IJqgridDaoImpl.getJqgridModel(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>JqgridModelVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModel getJqgridModel()</serialno>
+      <method>getJqgridModel</method>
+      <name>JqgridModel getJqgridModel()</name>
+      <genericname>public com.tellhow.detail.bean.JqgridModel com.tellhow.detail.jqgrid.impl.IJqgridDaoImpl.getJqgridModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findPlan(String sid)</serialno>
+      <method>findPlan</method>
+      <name>List findPlan(String sid)</name>
+      <genericname>public java.util.List com.tellhow.detail.jqgrid.impl.IJqgridDaoImpl.findPlan(java.lang.String)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

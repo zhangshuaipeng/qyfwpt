@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>GridModel</code>
+    <name>子表属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>GridModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>GridControlModel</code>
+    <name>控制层</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>GridControlModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>HandlerModel</code>
+    <name>处理器</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.view</catalog>
+    <item>HandlerModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

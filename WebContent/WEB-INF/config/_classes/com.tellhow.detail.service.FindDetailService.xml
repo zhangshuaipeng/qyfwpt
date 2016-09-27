@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.FindDetailService</classname>
+  <code>FindDetailService</code>
+  <name>FindDetailService</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}E+jWhY0fMPe+7GAMIu61AQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Map addDetail(String resumename,String resumeid)</serialno>
+      <method>addDetail</method>
+      <name>Map addDetail(String resumename,String resumeid)</name>
+      <genericname>public java.util.Map&lt;java.lang.String, java.lang.String&gt; com.tellhow.detail.service.FindDetailService.addDetail(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumename</code>
+          <name>resumename</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList findArticle(String sid,String dispatchdept)</serialno>
+      <method>findArticle</method>
+      <name>ArrayList findArticle(String sid,String dispatchdept)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.service.FindDetailService.findArticle(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Map addQuantity(String articleid,String articlesizeid)</serialno>
+      <method>addQuantity</method>
+      <name>Map addQuantity(String articleid,String articlesizeid)</name>
+      <genericname>public java.util.Map&lt;java.lang.String, java.lang.String&gt; com.tellhow.detail.service.FindDetailService.addQuantity(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList InsertDetail(String sid,String businesstype)</serialno>
+      <method>InsertDetail</method>
+      <name>ArrayList InsertDetail(String sid,String businesstype)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.service.FindDetailService.InsertDetail(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businesstype</code>
+          <name>businesstype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

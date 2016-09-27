@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.resume.Workexperience</classname>
+  <code>Workexperience</code>
+  <name>Workexperience</name>
+  <packages>com.tellhow.personnel.bean.resume</packages>
+  <type>biz</type>
+  <crc>{MD5}m0dlUGrnjyE2TKGzdZDbaA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getUnit()</serialno>
+      <method>getUnit</method>
+      <name>String getUnit()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Workexperience.getUnit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnit(String unit)</serialno>
+      <method>setUnit</method>
+      <name>void setUnit(String unit)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setUnit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unit</code>
+          <name>unit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Workexperience.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPost()</serialno>
+      <method>getPost</method>
+      <name>String getPost()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Workexperience.getPost()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnddate(String enddate)</serialno>
+      <method>setEnddate</method>
+      <name>void setEnddate(String enddate)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setEnddate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enddate</code>
+          <name>enddate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartdate()</serialno>
+      <method>getStartdate</method>
+      <name>String getStartdate()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Workexperience.getStartdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartdate(String startdate)</serialno>
+      <method>setStartdate</method>
+      <name>void setStartdate(String startdate)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setStartdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startdate</code>
+          <name>startdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnddate()</serialno>
+      <method>getEnddate</method>
+      <name>String getEnddate()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Workexperience.getEnddate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDept(String dept)</serialno>
+      <method>setDept</method>
+      <name>void setDept(String dept)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setDept(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPost(String post)</serialno>
+      <method>setPost</method>
+      <name>void setPost(String post)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setPost(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>post</code>
+          <name>post</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDept()</serialno>
+      <method>getDept</method>
+      <name>String getDept()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Workexperience.getDept()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getExperienceid()</serialno>
+      <method>getExperienceid</method>
+      <name>long getExperienceid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Workexperience.getExperienceid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExperienceid(long experienceid)</serialno>
+      <method>setExperienceid</method>
+      <name>void setExperienceid(long experienceid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Workexperience.setExperienceid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>experienceid</code>
+          <name>experienceid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

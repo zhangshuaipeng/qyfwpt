@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <item id="config-file" name="配置文件">
+    <property name="ou" value="ou-config.xml" comment="组织用户系统配置"/>
+  </item>
+  <item id="global-page" name="全局页面">
+    <property name="login" value="/../login.jsp" comment="登陆页"/>
+    <property name="result" value="/result.jsp" comment="运行结果页面"/>
+    <property name="homepage" value="/index.jsp" comment="欢迎页面"/>
+  </item>
+  <item id="config" name="全局配置">
+    <property name="root-organize" value="root" comment="默认的根组织名"/>
+    <property name="cluster-node" value="" comment="集群的配置节点号"/>
+    <property name="application-path" value="$SYSTEMPATH$/WEB-INF/config" comment="应用存放目录"/>
+    <property name="server-node" value="A" comment="应用服务器节点号"/>
+    <property name="decode" value="true" comment="是否将GET请求中的域内容进行转码"/>
+    <property name="default-language" value="zh-cn" comment="默认语种"/>
+    <property name="session-duration" value="480" comment="会话时长"/>
+  </item>
+
+  <item id="security" name="系统安全">
+    <property name="password-encrype" value="MD5" comment="密码加密方式，支持的值包括：BASE64/MD5/SHA-1/SHA-256"/>
+    <property name="init-password" value="123456" comment="系统默认初始密码"/>
+  </item>
+
+  <item id="license" name="授权信息">
+    <property name="system-name" value="协同办公系统" comment=""/>
+    <property name="organize-name" value="组织名称" comment=""/>
+  </item>
+  <item id="language" name="语言设置">
+    <property name="zh-cn" value="中文" comment=""/>
+    <property name="en" value="English" comment=""/>
+  </item>
+  <item id="attachment" name="附件设置">
+    <property name="attach-path" value="" comment="附件存放目录"/>
+  </item>
+  <item id="ws-client" name="WebService客户端">
+    <property name="192.168.0.100" value="mis Server" comment="mis服务请求"/>
+  </item>
+
+  <item id="workflow" name="工作流设置">
+    <property name="enable-comment-button" value="false" comment="是否在工具栏显示意见按钮"/>
+  </item>
+
+  <item id="message" name="消息系统设置">
+    <property name="enable-message-service" value="true" comment="是否开启消息服务,如果未开启,则后续设置将不起作用"/>
+    <property name="enable-sms" value="true" comment="是否开启短信服务"/>
+    <property name="enable-im" value="true" comment="是否开启即时消息服务"/>
+    <property name="enable-email" value="true" comment="是否开启电子邮件服务"/>
+    <property name="enable-openfire" value="true" comment="是否使用openfire作为即时消息服务器"/>
+    <property name="sms-begin-time" value="09:00:00" comment="每天发送短信的开始时间"/>
+    <property name="sms-end-time" value="17:59:59" comment="每天发送短信的结束时间"/>
+  </item>
+
+  <item id="openfire" name="openfire即时消息服务">
+    <property name="servicename" value="192.168.1.10" comment="openfire服务器IP"/>
+    <property name="port" value="5222" comment="openfire服务器端口"/>
+    <property name="account" value="admin" comment="系统即时消息的发送帐号"/>
+    <property name="password" value="1" comment="系统即时消息的发送帐号的密码"/>
+  </item>
+
+  <item id="email" name="email服务">
+    <property name="smtp" value="smtp.163.com" comment="邮件服务器域"/>
+    <property name="account" value="system@163.com" comment="系统即时消息的发送帐号"/>
+    <property name="password" value="123" comment="系统即时消息的发送帐号的密码"/>
+  </item>
+
+  <item id="packages" name="业务类包路径">
+    
+  </item>
+
+  <item id="db-table-list" name="数据源表列表SQL">
+    <property name="oracle" value="select TABLE_NAME as EAP_TABLE_NAME,COMMENTS as EAP_COMMENTS,TABLE_TYPE as EAP_TABLE_TYPE from user_tab_comments where table_name in (select table_name from user_tables) order by TABLE_NAME" comment=""/>
+    <property name="mysql" value="SELECT TABLE_NAME as EAP_TABLE_NAME,TABLE_COMMENT as EAP_COMMENTS,TABLE_TYPE as EAP_TABLE_TYPE FROM INFORMATION_SCHEMA.tables WHERE table_schema='%SCHEMA%'" comment=""/>
+    <property name="mssql" value="SELECT A.name AS EAP_TABLE_NAME, A.xtype AS EAP_TABLE_TYPE, CONVERT(char, B.[value]) AS EAP_COMMENTS FROM sysobjects A , sysproperties B where A.id = B.id AND B.smallid=0 UNION SELECT name AS EAP_TABLE_NAME, xtype AS EAP_TABLE_TYPE, name AS EAP_COMMENTS FROM sysobjects WHERE id NOT IN (SELECT id FROM sysproperties WHERE smallid=0) AND xtype IN ('U', 'V')" comment=""/>
+    <property name="db2" value="select tabname as EAP_TABLE_NAME, type as EAP_TABLE_TYPE from syscat.tables where tabschema='%USER%'" comment=""/>
+  </item>
+  <item id="table-field-list" name="表字段列表SQL">
+    <property name="oracle" value="select TABLE_NAME As EAP_TABLE_NAME,COLUMN_NAME,COMMENTS from user_col_comments" comment=""/>
+    <property name="mysql" value="SELECT DB_TABLE_NAME as EAP_TABLE_NAME,COLUMN_NAME,COLUMN_COMMENT AS COMMENTS FROM INFORMATION_SCHEMA.COLUMNS WHERE table_schema='%SCHEMA%'" comment=""/>
+    <property name="mssql" value="SELECT a.name AS EAP_TABLE_NAME, b.name AS COLUMN_NAME, CONVERT(varchar, c.[value]) AS COMMENTS FROM dbo.sysobjects a INNER JOIN dbo.syscolumns b ON a.id = b.id INNER JOIN dbo.sysproperties c ON b.id = c.id AND b.colid = c.smallid" comment=""/>
+    <property name="db2" value="select tabname as EAP_TABLE_NAME,colname as COLUMN_NAME,remarks as COMMENTS from syscat.columns  where tabschema = '%USER%'" comment=""/>
+  </item>
+</config>

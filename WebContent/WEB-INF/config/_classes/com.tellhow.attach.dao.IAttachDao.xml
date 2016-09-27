@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.attach.dao.IAttachDao</classname>
+  <code>IAttachDao</code>
+  <name>IAttachDao</name>
+  <packages>com.tellhow.attach.dao</packages>
+  <type>biz</type>
+  <crc>{MD5}vytRxBi0Xd1ZO/2jULOsiQ==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+</model.biz.ClassModel>

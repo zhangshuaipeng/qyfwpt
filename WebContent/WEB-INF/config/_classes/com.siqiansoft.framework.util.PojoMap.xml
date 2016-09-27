@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.PojoMap</classname>
+  <code>PojoMap</code>
+  <name>PojoMap</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}tyjBguUjfkIa8eobxwwmcg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PojoMap.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean containsKey(Object obj,String key)</serialno>
+      <method>containsKey</method>
+      <name>boolean containsKey(Object obj,String key)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.PojoMap.containsKey(java.lang.Object,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFieldValue(Object bean,String key,Object value)</serialno>
+      <method>setFieldValue</method>
+      <name>void setFieldValue(Object bean,String key,Object value)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PojoMap.setFieldValue(java.lang.Object,java.lang.String,java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>bean</code>
+          <name>bean</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getMapByPOJO(Object obj)</serialno>
+      <method>getMapByPOJO</method>
+      <name>HashMap getMapByPOJO(Object obj)</name>
+      <genericname>public static java.util.HashMap com.siqiansoft.framework.util.PojoMap.getMapByPOJO(java.lang.Object)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void putObjectValue(Object bean,HashMap map)</serialno>
+      <method>putObjectValue</method>
+      <name>void putObjectValue(Object bean,HashMap map)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PojoMap.putObjectValue(java.lang.Object,java.util.HashMap) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>bean</code>
+          <name>bean</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getMapValueByKey(HashMap map,String key)</serialno>
+      <method>getMapValueByKey</method>
+      <name>Object getMapValueByKey(HashMap map,String key)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.PojoMap.getMapValueByKey(java.util.HashMap,java.lang.String)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getPOJOByMap(HashMap map,String className)</serialno>
+      <method>getPOJOByMap</method>
+      <name>Object getPOJOByMap(HashMap map,String className)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.PojoMap.getPOJOByMap(java.util.HashMap,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap ObjectToHashMap(Object obj)</serialno>
+      <method>ObjectToHashMap</method>
+      <name>HashMap ObjectToHashMap(Object obj)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.Object&gt; com.siqiansoft.framework.util.PojoMap.ObjectToHashMap(java.lang.Object) throws java.lang.IllegalArgumentException,java.lang.IllegalAccessException</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBeanProp(Object bean,String key)</serialno>
+      <method>getBeanProp</method>
+      <name>String getBeanProp(Object bean,String key)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.PojoMap.getBeanProp(java.lang.Object,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>bean</code>
+          <name>bean</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel[] getClassFields(String className)</serialno>
+      <method>getClassFields</method>
+      <name>ColumnModel[] getClassFields(String className)</name>
+      <genericname>public static com.siqiansoft.framework.model.db.ColumnModel[] com.siqiansoft.framework.util.PojoMap.getClassFields(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ColumnModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getLowercaseMap(HashMap map)</serialno>
+      <method>getLowercaseMap</method>
+      <name>HashMap getLowercaseMap(HashMap map)</name>
+      <genericname>public static java.util.HashMap com.siqiansoft.framework.util.PojoMap.getLowercaseMap(java.util.HashMap)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getRecordSet(Object obj)</serialno>
+      <method>getRecordSet</method>
+      <name>List getRecordSet(Object obj)</name>
+      <genericname>public static java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.util.PojoMap.getRecordSet(java.lang.Object)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

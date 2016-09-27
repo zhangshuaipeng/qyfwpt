@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.attach.AttachUtil</classname>
+  <code>AttachUtil</code>
+  <name>AttachUtil</name>
+  <packages>com.siqiansoft.framework.attach</packages>
+  <type>biz</type>
+  <crc>{MD5}4xIzEBDQwiilA/ufdvo0Hg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getFileName(String file)</serialno>
+      <method>getFileName</method>
+      <name>String getFileName(String file)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.attach.AttachUtil.getFileName(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void download(HttpServletResponse response,String strSource,String strDest,boolean bOpen)</serialno>
+      <method>download</method>
+      <name>void download(HttpServletResponse response,String strSource,String strDest,boolean bOpen)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.download(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strSource</code>
+          <name>strSource</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDest</code>
+          <name>strDest</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bOpen</code>
+          <name>bOpen</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downAttach(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>downAttach</method>
+      <name>void downAttach(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.downAttach(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void showImage(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>showImage</method>
+      <name>void showImage(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.showImage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loadSignImage(HttpServletResponse response,String wid)</serialno>
+      <method>loadSignImage</method>
+      <name>void loadSignImage(HttpServletResponse response,String wid)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.loadSignImage(javax.servlet.http.HttpServletResponse,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void cancelUpload(HttpServletRequest request,PrintWriter out)</serialno>
+      <method>cancelUpload</method>
+      <name>void cancelUpload(HttpServletRequest request,PrintWriter out)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.cancelUpload(javax.servlet.http.HttpServletRequest,java.io.PrintWriter) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PrintWriter</type>
+          <code>out</code>
+          <name>out</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void getPropress(HttpServletRequest request,PrintWriter out)</serialno>
+      <method>getPropress</method>
+      <name>void getPropress(HttpServletRequest request,PrintWriter out)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.getPropress(javax.servlet.http.HttpServletRequest,java.io.PrintWriter) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PrintWriter</type>
+          <code>out</code>
+          <name>out</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteAttach(HttpServletRequest request)</serialno>
+      <method>deleteAttach</method>
+      <name>void deleteAttach(HttpServletRequest request)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.deleteAttach(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void readAttachs(HttpServletRequest request,PrintWriter out)</serialno>
+      <method>readAttachs</method>
+      <name>void readAttachs(HttpServletRequest request,PrintWriter out)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.readAttachs(javax.servlet.http.HttpServletRequest,java.io.PrintWriter)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PrintWriter</type>
+          <code>out</code>
+          <name>out</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachEdited(HttpServletRequest request)</serialno>
+      <method>setAttachEdited</method>
+      <name>void setAttachEdited(HttpServletRequest request)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.setAttachEdited(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addAttachCache(HttpServletRequest request,PrintWriter out)</serialno>
+      <method>addAttachCache</method>
+      <name>void addAttachCache(HttpServletRequest request,PrintWriter out)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.addAttachCache(javax.servlet.http.HttpServletRequest,java.io.PrintWriter)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PrintWriter</type>
+          <code>out</code>
+          <name>out</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void exitOffice(HttpServletRequest request)</serialno>
+      <method>exitOffice</method>
+      <name>void exitOffice(HttpServletRequest request)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.exitOffice(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveAttach(AttachModel attach)</serialno>
+      <method>saveAttach</method>
+      <name>void saveAttach(AttachModel attach)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.saveAttach(com.siqiansoft.model.AttachModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>AttachModel</type>
+          <code>attach</code>
+          <name>attach</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void DownloadRemoteFile(String fileurl,String savepath)</serialno>
+      <method>DownloadRemoteFile</method>
+      <name>void DownloadRemoteFile(String fileurl,String savepath)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.DownloadRemoteFile(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileurl</code>
+          <name>fileurl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savepath</code>
+          <name>savepath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getAttach(HttpServletRequest request)</serialno>
+      <method>getAttach</method>
+      <name>HashMap getAttach(HttpServletRequest request)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.attach.AttachUtil.getAttach(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getWordTextAttach(HttpServletRequest request)</serialno>
+      <method>getWordTextAttach</method>
+      <name>HashMap getWordTextAttach(HttpServletRequest request)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.attach.AttachUtil.getWordTextAttach(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOfficeOcxState(HttpServletRequest request)</serialno>
+      <method>getOfficeOcxState</method>
+      <name>String getOfficeOcxState(HttpServletRequest request)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.attach.AttachUtil.getOfficeOcxState(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getBookTagContent(HttpServletRequest request,String phase,String tags)</serialno>
+      <method>getBookTagContent</method>
+      <name>HashMap getBookTagContent(HttpServletRequest request,String phase,String tags)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.attach.AttachUtil.getBookTagContent(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>phase</code>
+          <name>phase</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tags</code>
+          <name>tags</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormFields(HttpServletRequest request,String phase,String tags)</serialno>
+      <method>getFormFields</method>
+      <name>String getFormFields(HttpServletRequest request,String phase,String tags)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.attach.AttachUtil.getFormFields(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>phase</code>
+          <name>phase</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tags</code>
+          <name>tags</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeImageStream(HttpServletResponse response,String saveFile)</serialno>
+      <method>writeImageStream</method>
+      <name>void writeImageStream(HttpServletResponse response,String saveFile)</name>
+      <genericname>public static void com.siqiansoft.framework.attach.AttachUtil.writeImageStream(javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>saveFile</code>
+          <name>saveFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

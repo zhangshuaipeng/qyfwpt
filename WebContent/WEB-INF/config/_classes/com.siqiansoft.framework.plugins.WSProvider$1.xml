@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.plugins.WSProvider$1</classname>
+  <code>WSProvider$1</code>
+  <name>WSProvider$1</name>
+  <packages>com.siqiansoft.framework.plugins</packages>
+  <type>biz</type>
+  <crc>{MD5}qNevIRlUB11V+diqZrbwAw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getContentType()</serialno>
+      <method>getContentType</method>
+      <name>String getContentType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.plugins.WSProvider$1.getContentType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

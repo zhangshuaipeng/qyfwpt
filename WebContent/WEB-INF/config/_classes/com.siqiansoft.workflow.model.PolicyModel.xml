@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.PolicyModel</classname>
+  <code>PolicyModel</code>
+  <name>PolicyModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}q3GvDNyHYO9C/hHdcAJhbA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getObject()</serialno>
+      <method>getObject</method>
+      <name>String getObject()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getObject()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setObject(String object)</serialno>
+      <method>setObject</method>
+      <name>void setObject(String object)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setObject(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>object</code>
+          <name>object</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperand()</serialno>
+      <method>getOperand</method>
+      <name>String getOperand()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getOperand()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperand(String operand)</serialno>
+      <method>setOperand</method>
+      <name>void setOperand(String operand)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setOperand(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operand</code>
+          <name>operand</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodes(String nodes)</serialno>
+      <method>setNodes</method>
+      <name>void setNodes(String nodes)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setNodes(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodes</code>
+          <name>nodes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodes()</serialno>
+      <method>getNodes</method>
+      <name>String getNodes()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getNodes()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActors(String actors)</serialno>
+      <method>setActors</method>
+      <name>void setActors(String actors)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setActors(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActors()</serialno>
+      <method>getActors</method>
+      <name>String getActors()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getActors()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActorsName(String actorsname)</serialno>
+      <method>setActorsName</method>
+      <name>void setActorsName(String actorsname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setActorsName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actorsname</code>
+          <name>actorsname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActorsName()</serialno>
+      <method>getActorsName</method>
+      <name>String getActorsName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getActorsName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodesName(String nodesname)</serialno>
+      <method>setNodesName</method>
+      <name>void setNodesName(String nodesname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.PolicyModel.setNodesName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodesname</code>
+          <name>nodesname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodesName()</serialno>
+      <method>getNodesName</method>
+      <name>String getNodesName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.PolicyModel.getNodesName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>策略号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>类型</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>object</code>
+      <name>目标</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operand</code>
+      <name>操作</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>值</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodes</code>
+      <name>节点号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodesname</code>
+      <name>节点</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actors</code>
+      <name>办理人员号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actorsname</code>
+      <name>办理人</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

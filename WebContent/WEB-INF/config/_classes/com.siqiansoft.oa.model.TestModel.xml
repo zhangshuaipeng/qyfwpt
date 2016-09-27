@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.oa.model.TestModel</classname>
+  <code>TestModel</code>
+  <name>TestModel</name>
+  <packages>com.siqiansoft.oa.model</packages>
+  <type>biz</type>
+  <crc>{MD5}reYfCwrwwjvTKRNE0s3BDQ==</crc>
+  <modifytime>2013-06-16 23:41:10</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.oa.model.TestModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.oa.model.TestModel.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.oa.model.TestModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.oa.model.TestModel.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

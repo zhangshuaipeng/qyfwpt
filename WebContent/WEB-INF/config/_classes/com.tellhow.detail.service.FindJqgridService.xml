@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.FindJqgridService</classname>
+  <code>FindJqgridService</code>
+  <name>FindJqgridService</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}a7b4Il+leGYDB+eBgfCSvg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List fetchReportData(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>fetchReportData</method>
+      <name>List fetchReportData(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.service.FindJqgridService.fetchReportData(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModelVo getJqgridModel(String sid)</serialno>
+      <method>getJqgridModel</method>
+      <name>JqgridModelVo getJqgridModel(String sid)</name>
+      <genericname>public com.tellhow.detail.vo.JqgridModelVo com.tellhow.detail.service.FindJqgridService.getJqgridModel(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>JqgridModelVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModel getJqgridModel()</serialno>
+      <method>getJqgridModel</method>
+      <name>JqgridModel getJqgridModel()</name>
+      <genericname>public com.tellhow.detail.bean.JqgridModel com.tellhow.detail.service.FindJqgridService.getJqgridModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModel</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

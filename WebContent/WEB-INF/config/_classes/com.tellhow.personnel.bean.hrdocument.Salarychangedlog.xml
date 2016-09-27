@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Salarychangedlog</classname>
+  <code>Salarychangedlog</code>
+  <name>Salarychangedlog</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}VCvYDrCx9c2Ep1fP45DDIg==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalarystatus()</serialno>
+      <method>getSalarystatus</method>
+      <name>long getSalarystatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getSalarystatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalarystatus(long salarystatus)</serialno>
+      <method>setSalarystatus</method>
+      <name>void setSalarystatus(long salarystatus)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setSalarystatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salarystatus</code>
+          <name>salarystatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalarychangeid()</serialno>
+      <method>getSalarychangeid</method>
+      <name>long getSalarychangeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getSalarychangeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalarychangeid(long salarychangeid)</serialno>
+      <method>setSalarychangeid</method>
+      <name>void setSalarychangeid(long salarychangeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setSalarychangeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salarychangeid</code>
+          <name>salarychangeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getChangedlogid()</serialno>
+      <method>getChangedlogid</method>
+      <name>long getChangedlogid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getChangedlogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangedlogid(long changedlogid)</serialno>
+      <method>setChangedlogid</method>
+      <name>void setChangedlogid(long changedlogid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setChangedlogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>changedlogid</code>
+          <name>changedlogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCardid()</serialno>
+      <method>getCardid</method>
+      <name>String getCardid()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getCardid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCardid(String cardid)</serialno>
+      <method>setCardid</method>
+      <name>void setCardid(String cardid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setCardid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cardid</code>
+          <name>cardid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getInsurancebase()</serialno>
+      <method>getInsurancebase</method>
+      <name>float getInsurancebase()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getInsurancebase()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInsurancebase(float insurancebase)</serialno>
+      <method>setInsurancebase</method>
+      <name>void setInsurancebase(float insurancebase)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setInsurancebase(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>insurancebase</code>
+          <name>insurancebase</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getStandard()</serialno>
+      <method>getStandard</method>
+      <name>float getStandard()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getStandard()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStandard(float standard)</serialno>
+      <method>setStandard</method>
+      <name>void setStandard(float standard)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setStandard(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>standard</code>
+          <name>standard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangedtime()</serialno>
+      <method>getChangedtime</method>
+      <name>String getChangedtime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarychangedlog.getChangedtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangedtime(String changedtime)</serialno>
+      <method>setChangedtime</method>
+      <name>void setChangedtime(String changedtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarychangedlog.setChangedtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changedtime</code>
+          <name>changedtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

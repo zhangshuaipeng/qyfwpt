@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.JsonUtil</classname>
+  <code>JsonUtil</code>
+  <name>JsonUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}TeZTpC7PV87AyGaFTKn1rg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String toJson(Object obj)</serialno>
+      <method>toJson</method>
+      <name>String toJson(Object obj)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.JsonUtil.toJson(java.lang.Object)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String toJsonLowerCaseKey(Object obj)</serialno>
+      <method>toJsonLowerCaseKey</method>
+      <name>String toJsonLowerCaseKey(Object obj)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.JsonUtil.toJsonLowerCaseKey(java.lang.Object)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

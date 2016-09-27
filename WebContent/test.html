@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<head>
+	<title>Header/Footer</title>
+	<link rel="stylesheet" type="text/css" href="css/dhtmlxlayout.css">
+	<link rel="stylesheet" type="text/css" href="css/skins/dhtmlxlayout_dhx_skyblue.css">
+	<link rel="stylesheet" type="text/css" href="css/skins/dhtmlxaccordion_dhx_skyblue.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			font-size:12px;
+		}
+
+
+
+.menus {
+	margin-top:5px;
+	-moz-user-select:none;
+}
+
+.menu {
+	font-size:12px;
+	height:26px;
+	line-height:26px;
+	margin-left:4px;
+	padding-top:6px;
+	-moz-user-select:none;
+}
+
+.menu .text {
+	line-height:20px;
+	margin-left:4px;
+}
+
+.menu a img,span {
+	border:0px;
+}
+
+.menu a,a:link,a.visited,a:hover,a:active {
+	text-decoration: none;
+	color:black;
+}
+
+.menu img {
+	vertical-align:middle;
+}
+
+.menus .selected {
+	background-color:#D9E8FB;
+}
+
+.menus .over {
+	background-color:#eeeeee;
+}
+
+
+
+.tabheader {
+	height:25px;
+	border-bottom:1px solid #cccccc;
+}
+.tabcontainer {
+	overflow:hidden;
+	float:left;
+	position: relative;
+	height:25px;
+}
+.tabcontainer ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabcontainer li span {
+	margin-left:2px;
+	margin-right:6px;
+}
+
+.tabcontainer li.selected {
+    background: url("images/tab_selected_left.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-right: 3px;
+	padding: 0px;
+	position:relative;
+  }
+
+.tabcontainer li.selected a {
+    background: url("images/tab_selected_right.gif") no-repeat scroll right 0 transparent;
+    display: block;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 4px;
+}
+
+.tabcontainer li {
+    background: url("images/tab_left.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-right: 3px;
+	padding: 0px;
+	position:relative;
+  }
+
+.tabcontainer li a {
+    background: url("images/tab_right.gif") no-repeat scroll right 0 transparent;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 4px;
+}
+
+.tabcontainer .close {
+    background: url("images/tab-close.gif") no-repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 11px;
+    line-height: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: -6px;
+    text-indent: -999px;
+    top: 3px;
+    width: 11px;
+}
+
+.tab-toleft {
+    background: url("images/tab_leftarrow.png") no-repeat scroll 1px 2px transparent;
+    border: 1px solid #8DB2E3;
+    cursor: pointer;
+    display: block;
+    font-size: 1px;
+    height: 20px !important;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 18px;
+}
+
+.tab-toright {
+    background: url("images/tab_rightarrow.png") no-repeat scroll 2px 2px transparent;
+    border: 1px solid #8DB2E3;
+    cursor: pointer;
+    display: block;
+    font-size: 1px;
+    height: 20px !important;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 18px;
+}
+	
+	</style>
+</head>
+
+<script src="js/common.js"></script>
+<script src="js/dialog.js"></script>
+<script src="js/tabber.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/dhtmlxcommon.js"></script>
+<script src="js/dhtmlxlayout.js"></script>
+<script src="js/dhtmlxaccordion.js"></script>
+<script src="js/dhtmlxcontainer.js"></script>
+<script>
+var dhxLayout;
+var statusBar;
+var selected;
+var tab = new Tabber();
+
+
+
+function doOnLoad() {
+	dhxLayout = new dhtmlXLayoutObject(document.body, "2U");
+	dhxLayout.attachHeader("my_logo");
+	dhxLayout.attachFooter("my_copy");
+	dhxLayout.cells("a").setWidth("200");
+	dhxLayout.cells("a").setText("<img src='css/imgs/dhxlayout_dhx_skyblue/dhxlayout_cpanel_btn_dock.gif'>导航树");
+	//dhxLayout.cells("b").setWidth("200");
+	dhxLayout.cells("a").attachObject("outlook");
+	dhxLayout.cells("a").attachURL("platform/TreeAction.cmd?$ACTION=init&$TREEID=application");
+
+	dhxLayout.cells("b").attachObject("EAP_CONTENT");
+	//dhxLayout.cells("a").hideHeader();
+	dhxLayout.cells("b").hideHeader();
+	//statusBar = dhxLayout.attachStatusBar();
+	//statusBar.setText("Simple Status Bar");
+
+	tab.Init("EAP_TABBER");
+
+}
+
+
+</script>
+
+
+<body onload="doOnLoad();" style="background-color:#eeeeee;#DFE8F6;">
+<div id="my_logo" style="height: 54px;">
+	<div style="clear:both;">
+	应用开发平台
+	</div>
+</div>
+
+<div id="outlook" style="width:100%;height:100%;overflow:hidden;margin-top:3px;" >
+
+</div>
+
+<div style="width:100%;height:100%;" id="EAP_CONTENT">
+	<div id="EAP_TABBER">
+	</div>
+</div>
+
+<div id="my_copy" style="height: 20px;line-height:16px;position:absolute;top:6px;">Hi! I'm copyright &copy;!</div>
+</body>
+</html>

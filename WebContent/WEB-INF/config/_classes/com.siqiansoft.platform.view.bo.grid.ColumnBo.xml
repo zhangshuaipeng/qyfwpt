@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.ColumnBo</classname>
+  <code>ColumnBo</code>
+  <name>ColumnBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}8nB3lsTon4vCB2z5uDqWIw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void down(String system,String module,String gridid,String col)</serialno>
+      <method>down</method>
+      <name>void down(String system,String module,String gridid,String col)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.down(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel getColumn(String system,String module,String gridid,String code)</serialno>
+      <method>getColumn</method>
+      <name>ColumnModel getColumn(String system,String module,String gridid,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.ColumnModel com.siqiansoft.platform.view.bo.grid.ColumnBo.getColumn(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ColumnModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addColumn(String system,String module,String gridid,ColumnModel col)</serialno>
+      <method>addColumn</method>
+      <name>void addColumn(String system,String module,String gridid,ColumnModel col)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.addColumn(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.ColumnModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ColumnModel</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String system,String module,String gridid,String col)</serialno>
+      <method>up</method>
+      <name>void up(String system,String module,String gridid,String col)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.up(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void impMetaColumns(GridModel grid,MetaDataModel meta)</serialno>
+      <method>impMetaColumns</method>
+      <name>void impMetaColumns(GridModel grid,MetaDataModel meta)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.impMetaColumns(com.siqiansoft.framework.model.grid.GridModel,com.siqiansoft.framework.model.biz.MetaDataModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>MetaDataModel</type>
+          <code>meta</code>
+          <name>meta</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel[] listColumns(String system,String module,String gridid)</serialno>
+      <method>listColumns</method>
+      <name>ColumnModel[] listColumns(String system,String module,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.ColumnModel[] com.siqiansoft.platform.view.bo.grid.ColumnBo.listColumns(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ColumnModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateColumn(String system,String module,String gridid,ColumnModel col)</serialno>
+      <method>updateColumn</method>
+      <name>void updateColumn(String system,String module,String gridid,ColumnModel col)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.updateColumn(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.ColumnModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ColumnModel</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteColumn(String system,String module,String gridid,String code)</serialno>
+      <method>deleteColumn</method>
+      <name>void deleteColumn(String system,String module,String gridid,String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.deleteColumn(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteColumns(String system,String module,String gridid,String[] selected)</serialno>
+      <method>deleteColumns</method>
+      <name>void deleteColumns(String system,String module,String gridid,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.deleteColumns(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getFieldSets(String system,String module)</serialno>
+      <method>getFieldSets</method>
+      <name>ItemModel[] getFieldSets(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.platform.view.bo.grid.ColumnBo.getFieldSets(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void impColumns(String system,String module,String gridid,HashMap map)</serialno>
+      <method>impColumns</method>
+      <name>void impColumns(String system,String module,String gridid,HashMap map)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.ColumnBo.impColumns(java.lang.String,java.lang.String,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>CatalogModel[] getDictByColType(String system,String showtype)</serialno>
+      <method>getDictByColType</method>
+      <name>CatalogModel[] getDictByColType(String system,String showtype)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.CatalogModel[] com.siqiansoft.platform.view.bo.grid.ColumnBo.getDictByColType(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>CatalogModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showtype</code>
+          <name>showtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

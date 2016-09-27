@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.DateTime</classname>
+  <code>DateTime</code>
+  <name>DateTime</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}UBtmEUf082rAXw4dQhmGgQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.commons.DateTime.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMonth()</serialno>
+      <method>getMonth</method>
+      <name>String getMonth()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getMonth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getYear()</serialno>
+      <method>getYear</method>
+      <name>String getYear()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getYear()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getFirstDayOfWeek(int year,int week)</serialno>
+      <method>getFirstDayOfWeek</method>
+      <name>Date getFirstDayOfWeek(int year,int week)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.getFirstDayOfWeek(int,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>week</code>
+          <name>week</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getFirstDayOfWeek(Date date)</serialno>
+      <method>getFirstDayOfWeek</method>
+      <name>Date getFirstDayOfWeek(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.getFirstDayOfWeek(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isLeapYear(String ddate)</serialno>
+      <method>isLeapYear</method>
+      <name>boolean isLeapYear(String ddate)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateTime.isLeapYear(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ddate</code>
+          <name>ddate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDay()</serialno>
+      <method>getDay</method>
+      <name>String getDay()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getDay()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getToday()</serialno>
+      <method>getToday</method>
+      <name>String getToday()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getToday()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNow()</serialno>
+      <method>getNow</method>
+      <name>String getNow()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getNow()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date strToDate(String strDate)</serialno>
+      <method>strToDate</method>
+      <name>Date strToDate(String strDate)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.strToDate(java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDate</code>
+          <name>strDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextDay(String nowdate,String delay)</serialno>
+      <method>getNextDay</method>
+      <name>String getNextDay(String nowdate,String delay)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getNextDay(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nowdate</code>
+          <name>nowdate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>delay</code>
+          <name>delay</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date strToDatetime(String strDate)</serialno>
+      <method>strToDatetime</method>
+      <name>Date strToDatetime(String strDate)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.strToDatetime(java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDate</code>
+          <name>strDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEndDateOfMonth(String dat)</serialno>
+      <method>getEndDateOfMonth</method>
+      <name>String getEndDateOfMonth(String dat)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getEndDateOfMonth(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dat</code>
+          <name>dat</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWeek(String sdate)</serialno>
+      <method>getWeek</method>
+      <name>String getWeek(String sdate)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getWeek(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sdate</code>
+          <name>sdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWeekStr(String sdate)</serialno>
+      <method>getWeekStr</method>
+      <name>String getWeekStr(String sdate)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getWeekStr(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sdate</code>
+          <name>sdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWeekIndex()</serialno>
+      <method>getWeekIndex</method>
+      <name>String getWeekIndex()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getWeekIndex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextWeekIndex()</serialno>
+      <method>getNextWeekIndex</method>
+      <name>String getNextWeekIndex()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getNextWeekIndex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextMonday()</serialno>
+      <method>getNextMonday</method>
+      <name>String getNextMonday()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getNextMonday()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNowMonth(String sdate)</serialno>
+      <method>getNowMonth</method>
+      <name>String getNowMonth(String sdate)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getNowMonth(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sdate</code>
+          <name>sdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMonthDate(String sdate)</serialno>
+      <method>getMonthDate</method>
+      <name>String getMonthDate(String sdate)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getMonthDate(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sdate</code>
+          <name>sdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getDayByWeek(int year,int week,boolean flag)</serialno>
+      <method>getDayByWeek</method>
+      <name>Date getDayByWeek(int year,int week,boolean flag)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.getDayByWeek(int,int,boolean)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>week</code>
+          <name>week</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>flag</code>
+          <name>flag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getWeekOfYear(Date date)</serialno>
+      <method>getWeekOfYear</method>
+      <name>int getWeekOfYear(Date date)</name>
+      <genericname>public static int com.siqiansoft.commons.DateTime.getWeekOfYear(java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getMaxWeekNumOfYear(int year)</serialno>
+      <method>getMaxWeekNumOfYear</method>
+      <name>int getMaxWeekNumOfYear(int year)</name>
+      <genericname>public static int com.siqiansoft.commons.DateTime.getMaxWeekNumOfYear(int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getLastDayOfWeek(Date date)</serialno>
+      <method>getLastDayOfWeek</method>
+      <name>Date getLastDayOfWeek(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.getLastDayOfWeek(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getLastDayOfWeek(int year,int week)</serialno>
+      <method>getLastDayOfWeek</method>
+      <name>Date getLastDayOfWeek(int year,int week)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateTime.getLastDayOfWeek(int,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>week</code>
+          <name>week</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getQuarter()</serialno>
+      <method>getQuarter</method>
+      <name>String getQuarter()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getQuarter()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMondayOFWeek()</serialno>
+      <method>getMondayOFWeek</method>
+      <name>String getMondayOFWeek()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateTime.getMondayOFWeek()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

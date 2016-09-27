@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>create.eap_person</code>
+    <name>增加</name>
+    <type>dboperand</type>
+    <operand>CREATE</operand>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+    <metadata>EAP_PERSON</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_person</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+    <metadata>EAP_PERSON</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>update.eap_person</code>
+    <name>修改</name>
+    <type>dboperand</type>
+    <operand>UPDATE</operand>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+    <metadata>EAP_PERSON</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_person</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+    <metadata>EAP_PERSON</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PersonBo.deletePerson</code>
+    <name>deletePerson</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.PersonBo</catalog>
+    <item>deletePerson</item>
+    <script>void deletePerson(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>accounts</code>
+    <name>关联帐号</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <script>select * from eap_account where status=&apos;A&apos;</script>
+    <params>personcode,timeslice</params>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>deptdict</code>
+    <name>部门字典转换</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+    <script>select CODE AS EAPKEY,NAME AS EAPVALUE from eap_department</script>
+    <params>orgcode,timeslice,code</params>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

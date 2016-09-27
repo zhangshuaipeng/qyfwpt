@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.TreeTag</classname>
+  <code>TreeTag</code>
+  <name>TreeTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}1rmdFu9cdI0J7c3kUl2ebw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParents()</serialno>
+      <method>getParents</method>
+      <name>String getParents()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getParents()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParents(String parents)</serialno>
+      <method>setParents</method>
+      <name>void setParents(String parents)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setParents(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parents</code>
+          <name>parents</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnbitted(String unbitted)</serialno>
+      <method>setUnbitted</method>
+      <name>void setUnbitted(String unbitted)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setUnbitted(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnbitted()</serialno>
+      <method>getUnbitted</method>
+      <name>String getUnbitted()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getUnbitted()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.TreeTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDictid(String dictid)</serialno>
+      <method>setDictid</method>
+      <name>void setDictid(String dictid)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.TreeTag.setDictid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDictid()</serialno>
+      <method>getDictid</method>
+      <name>String getDictid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.TreeTag.getDictid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

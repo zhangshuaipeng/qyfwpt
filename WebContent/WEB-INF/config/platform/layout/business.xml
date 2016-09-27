@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.getLayout</code>
+    <name>getLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>getLayout</item>
+    <script>LayoutModel getLayout(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.addItem</code>
+    <name>addItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>addItem</item>
+    <script>void addItem(String system,String module,String code,LayoutItemModel item)</script>
+    <params>system,module,code,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.getItems</code>
+    <name>getItems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>getItems</item>
+    <script>LayoutItemModel[] getItems(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.listLayouts</code>
+    <name>listLayouts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>listLayouts</item>
+    <script>LayoutModel[] listLayouts(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.updateLayout</code>
+    <name>updateLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>updateLayout</item>
+    <script>void updateLayout(String system,String module,LayoutModel layout)</script>
+    <params>system,module,layout</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.updateItem</code>
+    <name>updateItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>updateItem</item>
+    <script>void updateItem(String system,String module,String code,LayoutItemModel item)</script>
+    <params>system,module,code,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.addLayout</code>
+    <name>addLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>addLayout</item>
+    <script>void addLayout(String system,String module,LayoutModel layout)</script>
+    <params>system,module,layout</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.deleteLayout</code>
+    <name>deleteLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>deleteLayout</item>
+    <script>void deleteLayout(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.deleteItem</code>
+    <name>deleteItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.LayoutBo</catalog>
+    <item>deleteItem</item>
+    <script>void deleteItem(String system,String module,String code,LayoutItemModel item)</script>
+    <params>system,module,code,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_ORGANIZE</code>
+    <name>组织</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_ORGANIZE</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String gridid,String col)</script>
+    <params>system,module,gridid,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.getColumn</code>
+    <name>getColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>getColumn</item>
+    <script>ColumnModel getColumn(String system,String module,String gridid,String code)</script>
+    <params>system,module,gridid,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.addColumn</code>
+    <name>addColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>addColumn</item>
+    <script>void addColumn(String system,String module,String gridid,ColumnModel col)</script>
+    <params>system,module,gridid,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String gridid,String col)</script>
+    <params>system,module,gridid,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.impColumns</code>
+    <name>impColumns</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>impColumns</item>
+    <script>void impColumns(String system,String module,String gridid,HashMap map)</script>
+    <params>system,module,gridid,map</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.listColumns</code>
+    <name>listColumns</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>listColumns</item>
+    <script>ColumnModel[] listColumns(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.updateColumn</code>
+    <name>updateColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>updateColumn</item>
+    <script>void updateColumn(String system,String module,String gridid,ColumnModel col)</script>
+    <params>system,module,gridid,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.deleteColumns</code>
+    <name>deleteColumns</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>deleteColumns</item>
+    <script>void deleteColumns(String system,String module,String gridid,String[] selected)</script>
+    <params>system,module,gridid,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.getFieldSets</code>
+    <name>getFieldSets</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>getFieldSets</item>
+    <script>ItemModel[] getFieldSets(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.getDictByColType</code>
+    <name>getDictByColType</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>getDictByColType</item>
+    <script>CatalogModel[] getDictByColType(String system,String showtype)</script>
+    <params>system,showtype</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ColumnBo.deleteColumn</code>
+    <name>deleteColumn</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ColumnBo</catalog>
+    <item>deleteColumn</item>
+    <script>void deleteColumn(String system,String module,String gridid,String code)</script>
+    <params>system,module,gridid,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

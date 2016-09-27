@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.message.OpenFire</classname>
+  <code>OpenFire</code>
+  <name>OpenFire</name>
+  <packages>com.siqiansoft.framework.message</packages>
+  <type>biz</type>
+  <crc>{MD5}LExyeYNnGnI+8L87RjnQ+Q==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void sendXmppMessage(String userid,String content)</serialno>
+      <method>sendXmppMessage</method>
+      <name>void sendXmppMessage(String userid,String content)</name>
+      <genericname>public static void com.siqiansoft.framework.message.OpenFire.sendXmppMessage(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userid</code>
+          <name>userid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

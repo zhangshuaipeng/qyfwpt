@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.WriteTag</classname>
+  <code>WriteTag</code>
+  <name>WriteTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}gjQRJgT15SlBJSrTLk+dCg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setProperty(String property)</serialno>
+      <method>setProperty</method>
+      <name>void setProperty(String property)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.WriteTag.setProperty(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>property</code>
+          <name>property</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getProperty()</serialno>
+      <method>getProperty</method>
+      <name>String getProperty()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.WriteTag.getProperty()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.WriteTag.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.WriteTag.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormat()</serialno>
+      <method>getFormat</method>
+      <name>String getFormat()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.WriteTag.getFormat()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFormat(String format)</serialno>
+      <method>setFormat</method>
+      <name>void setFormat(String format)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.WriteTag.setFormat(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>format</code>
+          <name>format</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.WriteTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaultv(String defaultv)</serialno>
+      <method>setDefaultv</method>
+      <name>void setDefaultv(String defaultv)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.WriteTag.setDefaultv(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultv()</serialno>
+      <method>getDefaultv</method>
+      <name>String getDefaultv()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.WriteTag.getDefaultv()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

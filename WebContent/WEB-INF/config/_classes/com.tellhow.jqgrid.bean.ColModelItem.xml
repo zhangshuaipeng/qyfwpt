@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.bean.ColModelItem</classname>
+  <code>ColModelItem</code>
+  <name>ColModelItem</name>
+  <packages>com.tellhow.jqgrid.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}XKKGXQmVI2INFUCMlNDIqg==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.jqgrid.bean.ColModelItem.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.ColModelItem.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isHidden()</serialno>
+      <method>isHidden</method>
+      <name>boolean isHidden()</name>
+      <genericname>public boolean com.tellhow.jqgrid.bean.ColModelItem.isHidden()</genericname>
+      <retclass>boolean</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIndex()</serialno>
+      <method>getIndex</method>
+      <name>String getIndex()</name>
+      <genericname>public java.lang.String com.tellhow.jqgrid.bean.ColModelItem.getIndex()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHidden(boolean hidden)</serialno>
+      <method>setHidden</method>
+      <name>void setHidden(boolean hidden)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.ColModelItem.setHidden(boolean)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>hidden</code>
+          <name>hidden</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndex(String index)</serialno>
+      <method>setIndex</method>
+      <name>void setIndex(String index)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.ColModelItem.setIndex(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getWidth()</serialno>
+      <method>getWidth</method>
+      <name>int getWidth()</name>
+      <genericname>public int com.tellhow.jqgrid.bean.ColModelItem.getWidth()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(int width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(int width)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.ColModelItem.setWidth(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isSortable()</serialno>
+      <method>isSortable</method>
+      <name>boolean isSortable()</name>
+      <genericname>public boolean com.tellhow.jqgrid.bean.ColModelItem.isSortable()</genericname>
+      <retclass>boolean</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSortable(boolean sortable)</serialno>
+      <method>setSortable</method>
+      <name>void setSortable(boolean sortable)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.ColModelItem.setSortable(boolean)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>sortable</code>
+          <name>sortable</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

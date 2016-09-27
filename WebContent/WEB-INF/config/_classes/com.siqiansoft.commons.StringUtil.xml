@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.StringUtil</classname>
+  <code>StringUtil</code>
+  <name>StringUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}EkgCT2QJHwBnnj7zy66yrw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean isEmpty(String str)</serialno>
+      <method>isEmpty</method>
+      <name>boolean isEmpty(String str)</name>
+      <genericname>public static boolean com.siqiansoft.commons.StringUtil.isEmpty(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isInteger(String s)</serialno>
+      <method>isInteger</method>
+      <name>boolean isInteger(String s)</name>
+      <genericname>public static boolean com.siqiansoft.commons.StringUtil.isInteger(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isNotEmpty(String str)</serialno>
+      <method>isNotEmpty</method>
+      <name>boolean isNotEmpty(String str)</name>
+      <genericname>public static boolean com.siqiansoft.commons.StringUtil.isNotEmpty(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String substringBefore(String str,String expr)</serialno>
+      <method>substringBefore</method>
+      <name>String substringBefore(String str,String expr)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.StringUtil.substringBefore(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expr</code>
+          <name>expr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String substringAfter(String str,String expr)</serialno>
+      <method>substringAfter</method>
+      <name>String substringAfter(String str,String expr)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.StringUtil.substringAfter(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expr</code>
+          <name>expr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String substringBeforeLast(String str,String expr)</serialno>
+      <method>substringBeforeLast</method>
+      <name>String substringBeforeLast(String str,String expr)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.StringUtil.substringBeforeLast(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expr</code>
+          <name>expr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String substringAfterLast(String str,String expr)</serialno>
+      <method>substringAfterLast</method>
+      <name>String substringAfterLast(String str,String expr)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.StringUtil.substringAfterLast(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expr</code>
+          <name>expr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] stringToArray(String string,String expr)</serialno>
+      <method>stringToArray</method>
+      <name>String[] stringToArray(String string,String expr)</name>
+      <genericname>public static java.lang.String[] com.siqiansoft.commons.StringUtil.stringToArray(java.lang.String,java.lang.String)</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>string</code>
+          <name>string</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expr</code>
+          <name>expr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String noSpace(String str)</serialno>
+      <method>noSpace</method>
+      <name>String noSpace(String str)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.StringUtil.noSpace(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isDouble(String s)</serialno>
+      <method>isDouble</method>
+      <name>boolean isDouble(String s)</name>
+      <genericname>public static boolean com.siqiansoft.commons.StringUtil.isDouble(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

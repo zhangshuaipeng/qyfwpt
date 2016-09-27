@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.EtpProgressNode</classname>
+  <code>EtpProgressNode</code>
+  <name>EtpProgressNode</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}lZ9ohziFV4SBwJmQ0yA2EA==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getCategory()</serialno>
+      <method>getCategory</method>
+      <name>long getCategory()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getCategory()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeName()</serialno>
+      <method>getNodeName</method>
+      <name>String getNodeName()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EtpProgressNode.getNodeName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getParentId()</serialno>
+      <method>getParentId</method>
+      <name>long getParentId()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getParentId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getNodeId()</serialno>
+      <method>getNodeId</method>
+      <name>long getNodeId()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getNodeId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeId(long nodeId)</serialno>
+      <method>setNodeId</method>
+      <name>void setNodeId(long nodeId)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setNodeId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(long category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(long category)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setCategory(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeName(String nodeName)</serialno>
+      <method>setNodeName</method>
+      <name>void setNodeName(String nodeName)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setNodeName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeName</code>
+          <name>nodeName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSortNumber()</serialno>
+      <method>getSortNumber</method>
+      <name>long getSortNumber()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getSortNumber()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSortNumber(long sortNumber)</serialno>
+      <method>setSortNumber</method>
+      <name>void setSortNumber(long sortNumber)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setSortNumber(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sortNumber</code>
+          <name>sortNumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParentId(long parentId)</serialno>
+      <method>setParentId</method>
+      <name>void setParentId(long parentId)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setParentId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>parentId</code>
+          <name>parentId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getBusinessType()</serialno>
+      <method>getBusinessType</method>
+      <name>long getBusinessType()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getBusinessType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessType(long businessType)</serialno>
+      <method>setBusinessType</method>
+      <name>void setBusinessType(long businessType)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setBusinessType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>businessType</code>
+          <name>businessType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIsHidden()</serialno>
+      <method>getIsHidden</method>
+      <name>long getIsHidden()</name>
+      <genericname>public long com.tellhow.createetp.bean.EtpProgressNode.getIsHidden()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsHidden(long isHidden)</serialno>
+      <method>setIsHidden</method>
+      <name>void setIsHidden(long isHidden)</name>
+      <genericname>public void com.tellhow.createetp.bean.EtpProgressNode.setIsHidden(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>isHidden</code>
+          <name>isHidden</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

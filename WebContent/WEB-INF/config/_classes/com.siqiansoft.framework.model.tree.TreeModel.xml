@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.tree.TreeModel</classname>
+  <code>TreeModel</code>
+  <name>TreeModel</name>
+  <packages>com.siqiansoft.framework.model.tree</packages>
+  <type>pojo</type>
+  <crc>{MD5}TXGAVxL/ZJHkz6xP2AQg8w==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTarget(String target)</serialno>
+      <method>setTarget</method>
+      <name>void setTarget(String target)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setTarget(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>target</code>
+          <name>target</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTarget()</serialno>
+      <method>getTarget</method>
+      <name>String getTarget()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getTarget()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAsync()</serialno>
+      <method>getAsync</method>
+      <name>String getAsync()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getAsync()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAsync(String async)</serialno>
+      <method>setAsync</method>
+      <name>void setAsync(String async)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setAsync(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>async</code>
+          <name>async</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemDefineModel getNextNode()</serialno>
+      <method>getNextNode</method>
+      <name>ItemDefineModel getNextNode()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.ItemDefineModel com.siqiansoft.framework.model.tree.TreeModel.getNextNode()</genericname>
+      <retclass>ItemDefineModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getImgPath()</serialno>
+      <method>getImgPath</method>
+      <name>String getImgPath()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getImgPath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setImgPath(String imgpath)</serialno>
+      <method>setImgPath</method>
+      <name>void setImgPath(String imgpath)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setImgPath(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>imgpath</code>
+          <name>imgpath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBox(String box)</serialno>
+      <method>setBox</method>
+      <name>void setBox(String box)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setBox(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBox()</serialno>
+      <method>getBox</method>
+      <name>String getBox()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getBox()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExpValue(String expvalue)</serialno>
+      <method>setExpValue</method>
+      <name>void setExpValue(String expvalue)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setExpValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expvalue</code>
+          <name>expvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExpValue()</serialno>
+      <method>getExpValue</method>
+      <name>String getExpValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getExpValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRunUrl(String runurl)</serialno>
+      <method>setRunUrl</method>
+      <name>void setRunUrl(String runurl)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setRunUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>runurl</code>
+          <name>runurl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRunUrl()</serialno>
+      <method>getRunUrl</method>
+      <name>String getRunUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getRunUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExpandAll(String expandall)</serialno>
+      <method>setExpandAll</method>
+      <name>void setExpandAll(String expandall)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setExpandAll(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expandall</code>
+          <name>expandall</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExpandAll()</serialno>
+      <method>getExpandAll</method>
+      <name>String getExpandAll()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getExpandAll()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRootUrl(String rooturl)</serialno>
+      <method>setRootUrl</method>
+      <name>void setRootUrl(String rooturl)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setRootUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rooturl</code>
+          <name>rooturl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRootUrl()</serialno>
+      <method>getRootUrl</method>
+      <name>String getRootUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.TreeModel.getRootUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodes(ItemDefineModel nodes)</serialno>
+      <method>setNodes</method>
+      <name>void setNodes(ItemDefineModel nodes)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setNodes(com.siqiansoft.framework.model.tree.ItemDefineModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemDefineModel</type>
+          <code>nodes</code>
+          <name>nodes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemDefineModel getNodes()</serialno>
+      <method>getNodes</method>
+      <name>ItemDefineModel getNodes()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.ItemDefineModel com.siqiansoft.framework.model.tree.TreeModel.getNodes()</genericname>
+      <retclass>ItemDefineModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNextNode(ItemDefineModel nextnode)</serialno>
+      <method>setNextNode</method>
+      <name>void setNextNode(ItemDefineModel nextnode)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.TreeModel.setNextNode(com.siqiansoft.framework.model.tree.ItemDefineModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemDefineModel</type>
+          <code>nextnode</code>
+          <name>nextnode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>box</code>
+      <name>box</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>expvalue</code>
+      <name>expvalue</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rooturl</code>
+      <name>rooturl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>async</code>
+      <name>async</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>imgpath</code>
+      <name>imgpath</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>target</code>
+      <name>target</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>runurl</code>
+      <name>runurl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>expandall</code>
+      <name>expandall</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

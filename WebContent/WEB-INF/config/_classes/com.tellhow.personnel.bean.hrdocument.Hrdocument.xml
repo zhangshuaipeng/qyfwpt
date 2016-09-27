@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Hrdocument</classname>
+  <code>Hrdocument</code>
+  <name>Hrdocument</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}zykO4a3g4nsN+H5XaYqw8w==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getArchives()</serialno>
+      <method>getArchives</method>
+      <name>String getArchives()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getArchives()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArchives(String archives)</serialno>
+      <method>setArchives</method>
+      <name>void setArchives(String archives)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setArchives(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>archives</code>
+          <name>archives</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEmployeenumber()</serialno>
+      <method>getEmployeenumber</method>
+      <name>String getEmployeenumber()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getEmployeenumber()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPost()</serialno>
+      <method>getPost</method>
+      <name>String getPost()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getPost()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContractstart()</serialno>
+      <method>getContractstart</method>
+      <name>String getContractstart()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getContractstart()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCompany(long company)</serialno>
+      <method>setCompany</method>
+      <name>void setCompany(long company)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setCompany(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>company</code>
+          <name>company</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getCompany()</serialno>
+      <method>getCompany</method>
+      <name>long getCompany()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getCompany()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDept(long dept)</serialno>
+      <method>setDept</method>
+      <name>void setDept(long dept)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setDept(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPost(String post)</serialno>
+      <method>setPost</method>
+      <name>void setPost(String post)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setPost(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>post</code>
+          <name>post</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEmployeenumber(String employeenumber)</serialno>
+      <method>setEmployeenumber</method>
+      <name>void setEmployeenumber(String employeenumber)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setEmployeenumber(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>employeenumber</code>
+          <name>employeenumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInjobtime()</serialno>
+      <method>getInjobtime</method>
+      <name>String getInjobtime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getInjobtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInjobtime(String injobtime)</serialno>
+      <method>setInjobtime</method>
+      <name>void setInjobtime(String injobtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setInjobtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>injobtime</code>
+          <name>injobtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDept()</serialno>
+      <method>getDept</method>
+      <name>long getDept()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getDept()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDresssizestatus()</serialno>
+      <method>getDresssizestatus</method>
+      <name>long getDresssizestatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getDresssizestatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDresssizestatus(long dresssizestatus)</serialno>
+      <method>setDresssizestatus</method>
+      <name>void setDresssizestatus(long dresssizestatus)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setDresssizestatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dresssizestatus</code>
+          <name>dresssizestatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalarystatus()</serialno>
+      <method>getSalarystatus</method>
+      <name>long getSalarystatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getSalarystatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalarystatus(long salarystatus)</serialno>
+      <method>setSalarystatus</method>
+      <name>void setSalarystatus(long salarystatus)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setSalarystatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salarystatus</code>
+          <name>salarystatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHealthchecktime()</serialno>
+      <method>getHealthchecktime</method>
+      <name>String getHealthchecktime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getHealthchecktime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHealthchecktime(String healthchecktime)</serialno>
+      <method>setHealthchecktime</method>
+      <name>void setHealthchecktime(String healthchecktime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setHealthchecktime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>healthchecktime</code>
+          <name>healthchecktime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getHealthstatus()</serialno>
+      <method>getHealthstatus</method>
+      <name>long getHealthstatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getHealthstatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHealthstatus(long healthstatus)</serialno>
+      <method>setHealthstatus</method>
+      <name>void setHealthstatus(long healthstatus)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setHealthstatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>healthstatus</code>
+          <name>healthstatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getContracttime()</serialno>
+      <method>getContracttime</method>
+      <name>long getContracttime()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getContracttime()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContracttime(long contracttime)</serialno>
+      <method>setContracttime</method>
+      <name>void setContracttime(long contracttime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setContracttime(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>contracttime</code>
+          <name>contracttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getHrid()</serialno>
+      <method>getHrid</method>
+      <name>long getHrid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getHrid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHrid(long hrid)</serialno>
+      <method>setHrid</method>
+      <name>void setHrid(long hrid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setHrid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>hrid</code>
+          <name>hrid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getRenewalnum()</serialno>
+      <method>getRenewalnum</method>
+      <name>long getRenewalnum()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getRenewalnum()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRenewalnum(long renewalnum)</serialno>
+      <method>setRenewalnum</method>
+      <name>void setRenewalnum(long renewalnum)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setRenewalnum(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>renewalnum</code>
+          <name>renewalnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContractend()</serialno>
+      <method>getContractend</method>
+      <name>String getContractend()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getContractend()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContractend(String contractend)</serialno>
+      <method>setContractend</method>
+      <name>void setContractend(String contractend)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setContractend(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>contractend</code>
+          <name>contractend</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCimissionform()</serialno>
+      <method>getCimissionform</method>
+      <name>String getCimissionform()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getCimissionform()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCimissionform(String cimissionform)</serialno>
+      <method>setCimissionform</method>
+      <name>void setCimissionform(String cimissionform)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setCimissionform(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cimissionform</code>
+          <name>cimissionform</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContractstart(String contractstart)</serialno>
+      <method>setContractstart</method>
+      <name>void setContractstart(String contractstart)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setContractstart(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>contractstart</code>
+          <name>contractstart</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDimissionreason()</serialno>
+      <method>getDimissionreason</method>
+      <name>long getDimissionreason()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getDimissionreason()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDimissionreason(long dimissionreason)</serialno>
+      <method>setDimissionreason</method>
+      <name>void setDimissionreason(long dimissionreason)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setDimissionreason(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dimissionreason</code>
+          <name>dimissionreason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getRenewaled()</serialno>
+      <method>getRenewaled</method>
+      <name>long getRenewaled()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrdocument.getRenewaled()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRenewaled(long renewaled)</serialno>
+      <method>setRenewaled</method>
+      <name>void setRenewaled(long renewaled)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setRenewaled(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>renewaled</code>
+          <name>renewaled</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDimissiontime()</serialno>
+      <method>getDimissiontime</method>
+      <name>String getDimissiontime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getDimissiontime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDimissiontime(String dimissiontime)</serialno>
+      <method>setDimissiontime</method>
+      <name>void setDimissiontime(String dimissiontime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setDimissiontime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dimissiontime</code>
+          <name>dimissiontime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLeaveremark()</serialno>
+      <method>getLeaveremark</method>
+      <name>String getLeaveremark()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getLeaveremark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLeaveremark(String leaveremark)</serialno>
+      <method>setLeaveremark</method>
+      <name>void setLeaveremark(String leaveremark)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setLeaveremark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>leaveremark</code>
+          <name>leaveremark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkcond()</serialno>
+      <method>getWorkcond</method>
+      <name>String getWorkcond()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getWorkcond()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkcond(String workcond)</serialno>
+      <method>setWorkcond</method>
+      <name>void setWorkcond(String workcond)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setWorkcond(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workcond</code>
+          <name>workcond</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIdentitY()</serialno>
+      <method>getIdentitY</method>
+      <name>String getIdentitY()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getIdentitY()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIdentitY(String identitY)</serialno>
+      <method>setIdentitY</method>
+      <name>void setIdentitY(String identitY)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setIdentitY(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>identitY</code>
+          <name>identitY</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGraduationtime()</serialno>
+      <method>getGraduationtime</method>
+      <name>String getGraduationtime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrdocument.getGraduationtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGraduationtime(String graduationtime)</serialno>
+      <method>setGraduationtime</method>
+      <name>void setGraduationtime(String graduationtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrdocument.setGraduationtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>graduationtime</code>
+          <name>graduationtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

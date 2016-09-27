@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.plugins.FullTextRetrieval</classname>
+  <code>FullTextRetrieval</code>
+  <name>FullTextRetrieval</name>
+  <packages>com.siqiansoft.framework.plugins</packages>
+  <type>biz</type>
+  <crc>{MD5}EkHxZBh5kGooRHg8ykMeRQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+</model.biz.ClassModel>

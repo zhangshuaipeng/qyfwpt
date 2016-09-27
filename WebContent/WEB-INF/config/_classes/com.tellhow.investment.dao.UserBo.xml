@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.UserBo</classname>
+  <code>UserBo</code>
+  <name>UserBo</name>
+  <packages>com.tellhow.investment.dao</packages>
+  <type>biz</type>
+  <crc>{MD5}18DqcPLZ8okf+5o0wzQmGg==</crc>
+  <modifytime>2013-04-26 10:19:34</modifytime>
+</model.biz.ClassModel>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getSystem</code>
+    <name>getSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getSystem</item>
+    <script>AppItemModel getSystem(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSystem</code>
+    <name>updateSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSystem</item>
+    <script>void updateSystem(AppItemModel item)</script>
+    <params>item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listSystems</code>
+    <name>listSystems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listSystems</item>
+    <script>AppItemModel[] listSystems()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.systemUp</code>
+    <name>systemUp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>systemUp</item>
+    <script>void systemUp(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.systemDown</code>
+    <name>systemDown</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>systemDown</item>
+    <script>void systemDown(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.listSubSystem</code>
+    <name>listSubSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>listSubSystem</item>
+    <script>AppItemModel[] listSubSystem(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.subUp</code>
+    <name>subUp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>subUp</item>
+    <script>void subUp(String system,String code)</script>
+    <params>system,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.subDown</code>
+    <name>subDown</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>subDown</item>
+    <script>void subDown(String system,String module,String sub)</script>
+    <params>system,module,sub</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.saveSub</code>
+    <name>saveSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>saveSub</item>
+    <script>void saveSub(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getSub</code>
+    <name>getSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getSub</item>
+    <script>AppItemModel getSub(String system,String sub)</script>
+    <params>system,sub</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.updateSub</code>
+    <name>updateSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>updateSub</item>
+    <script>void updateSub(String system,AppItemModel item)</script>
+    <params>system,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.deleteSub</code>
+    <name>deleteSub</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>deleteSub</item>
+    <script>void deleteSub(String system,String[] selected)</script>
+    <params>system,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>NavigatorBo.getNavigatorTree</code>
+    <name>getNavigatorTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.NavigatorBo</catalog>
+    <item>getNavigatorTree</item>
+    <script>NodeModel getNavigatorTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrpublic.Articlesize</classname>
+  <code>Articlesize</code>
+  <name>Articlesize</name>
+  <packages>com.tellhow.personnel.bean.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}7uboo/PbwZ6NJN7TEYMWWQ==</crc>
+  <modifytime>2013-06-29 13:56:20</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Articlesize.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Articlesize.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesize(String articlesize)</serialno>
+      <method>setArticlesize</method>
+      <name>void setArticlesize(String articlesize)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Articlesize.setArticlesize(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticlesizeid()</serialno>
+      <method>getArticlesizeid</method>
+      <name>long getArticlesizeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Articlesize.getArticlesizeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesizeid(long articlesizeid)</serialno>
+      <method>setArticlesizeid</method>
+      <name>void setArticlesizeid(long articlesizeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Articlesize.setArticlesizeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlesize()</serialno>
+      <method>getArticlesize</method>
+      <name>String getArticlesize()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrpublic.Articlesize.getArticlesize()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

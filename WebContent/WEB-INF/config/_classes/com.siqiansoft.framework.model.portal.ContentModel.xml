@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.portal.ContentModel</classname>
+  <code>ContentModel</code>
+  <name>ContentModel</name>
+  <packages>com.siqiansoft.framework.model.portal</packages>
+  <type>pojo</type>
+  <crc>{MD5}gribqPWQK2Y3Y7GuN/6ThQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCntCode(String cntcode)</serialno>
+      <method>setCntCode</method>
+      <name>void setCntCode(String cntcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setCntCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCntCode()</serialno>
+      <method>getCntCode</method>
+      <name>String getCntCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getCntCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCntName(String cntname)</serialno>
+      <method>setCntName</method>
+      <name>void setCntName(String cntname)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setCntName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntname</code>
+          <name>cntname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCntName()</serialno>
+      <method>getCntName</method>
+      <name>String getCntName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getCntName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHtml(String html)</serialno>
+      <method>setHtml</method>
+      <name>void setHtml(String html)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setHtml(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>html</code>
+          <name>html</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHtml()</serialno>
+      <method>getHtml</method>
+      <name>String getHtml()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getHtml()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnload(String onload)</serialno>
+      <method>setOnload</method>
+      <name>void setOnload(String onload)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setOnload(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onload</code>
+          <name>onload</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnload()</serialno>
+      <method>getOnload</method>
+      <name>String getOnload()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getOnload()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCss(String css)</serialno>
+      <method>setCss</method>
+      <name>void setCss(String css)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setCss(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>css</code>
+          <name>css</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCss()</serialno>
+      <method>getCss</method>
+      <name>String getCss()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.ContentModel.getCss()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPortlets(PortletModel[] portlets)</serialno>
+      <method>setPortlets</method>
+      <name>void setPortlets(PortletModel[] portlets)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.ContentModel.setPortlets(com.siqiansoft.framework.model.portal.PortletModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PortletModel[]</type>
+          <code>portlets</code>
+          <name>portlets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PortletModel[] getPortlets()</serialno>
+      <method>getPortlets</method>
+      <name>PortletModel[] getPortlets()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.PortletModel[] com.siqiansoft.framework.model.portal.ContentModel.getPortlets()</genericname>
+      <retclass>PortletModel[]</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>cntcode</code>
+      <name>cntcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cntname</code>
+      <name>cntname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>html</code>
+      <name>html</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onload</code>
+      <name>onload</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>css</code>
+      <name>css</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

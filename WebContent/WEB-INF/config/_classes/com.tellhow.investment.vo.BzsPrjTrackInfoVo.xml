@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.BzsPrjTrackInfoVo</classname>
+  <code>BzsPrjTrackInfoVo</code>
+  <name>BzsPrjTrackInfoVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}vuiPxwT6q3k3wlC2YUBJaA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.investment.vo.BzsPrjTrackInfoVo.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectid()</serialno>
+      <method>getProjectid</method>
+      <name>long getProjectid()</name>
+      <genericname>public long com.tellhow.investment.vo.BzsPrjTrackInfoVo.getProjectid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectid(long projectid)</serialno>
+      <method>setProjectid</method>
+      <name>void setProjectid(long projectid)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setProjectid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLatestProgress()</serialno>
+      <method>getLatestProgress</method>
+      <name>int getLatestProgress()</name>
+      <genericname>public int com.tellhow.investment.vo.BzsPrjTrackInfoVo.getLatestProgress()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLatestProgress(int latestProgress)</serialno>
+      <method>setLatestProgress</method>
+      <name>void setLatestProgress(int latestProgress)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setLatestProgress(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>latestProgress</code>
+          <name>latestProgress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachID()</serialno>
+      <method>getAttachID</method>
+      <name>String getAttachID()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsPrjTrackInfoVo.getAttachID()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachID(String attachID)</serialno>
+      <method>setAttachID</method>
+      <name>void setAttachID(String attachID)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setAttachID(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>attachID</code>
+          <name>attachID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedFileURLs(String approvedFileURLs)</serialno>
+      <method>setApprovedFileURLs</method>
+      <name>void setApprovedFileURLs(String approvedFileURLs)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setApprovedFileURLs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedFileURLs</code>
+          <name>approvedFileURLs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBaseurl4OA()</serialno>
+      <method>getBaseurl4OA</method>
+      <name>String getBaseurl4OA()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsPrjTrackInfoVo.getBaseurl4OA()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBaseurl4OA(String baseurl4oa)</serialno>
+      <method>setBaseurl4OA</method>
+      <name>void setBaseurl4OA(String baseurl4oa)</name>
+      <genericname>public void com.tellhow.investment.vo.BzsPrjTrackInfoVo.setBaseurl4OA(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>baseurl4oa</code>
+          <name>baseurl4oa</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedFileURLs()</serialno>
+      <method>getApprovedFileURLs</method>
+      <name>String getApprovedFileURLs()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.BzsPrjTrackInfoVo.getApprovedFileURLs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>latestprogress</code>
+      <name>latestProgress</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>attachid</code>
+      <name>attachID</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>approvedfileurls</code>
+      <name>approvedFileURLs</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>baseurl4oa</code>
+      <name>baseurl4OA</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

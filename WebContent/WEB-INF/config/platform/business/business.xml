@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.getBusiness</code>
+    <name>getBusiness</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>getBusiness</item>
+    <script>BusinessModel[] getBusiness(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.listBizs</code>
+    <name>listBizs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>listBizs</item>
+    <script>BusinessModel[] listBizs(String system,String module,String type)</script>
+    <params>system,module,type</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.saveBiz</code>
+    <name>saveBiz</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>saveBiz</item>
+    <script>void saveBiz(String system,String module,BusinessModel biz)</script>
+    <params>system,module,biz</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.getBiz</code>
+    <name>getBiz</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>getBiz</item>
+    <script>BusinessModel[] getBusiness(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.updateBiz</code>
+    <name>updateBiz</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>updateBiz</item>
+    <script>void updateBiz(String system,String module,BusinessModel biz)</script>
+    <params>system,module,biz</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.deleteBiz</code>
+    <name>deleteBiz</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>deleteBiz</item>
+    <script>void deleteBiz(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.batchAddDbOperands</code>
+    <name>batchAddDbOperands</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>batchAddDbOperands</item>
+    <script>void batchAddDbOperands(String system,String module,String dsn,String table,String operand)</script>
+    <params>system,module,dsn,table,operand</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BusinessBo.batchAddMethod</code>
+    <name>batchAddMethod</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.BusinessBo</catalog>
+    <item>batchAddMethod</item>
+    <script>void batchAddMethod(String system,String module,String className,String method)</script>
+    <params>system,module,className,method</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.getAllClasses</code>
+    <name>getAllClasses</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>getAllClasses</item>
+    <script>String[] getAllClasses()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MethodBo.listMethods</code>
+    <name>listMethods</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MethodBo</catalog>
+    <item>listMethods</item>
+    <script>MethodModel[] listMethods(String className)</script>
+    <params>className</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.listPojoClasses</code>
+    <name>listPojoClasses</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>listPojoClasses</item>
+    <script>ClassModel[] listPojoClasses(String packageName)</script>
+    <params>packageName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.listClasses</code>
+    <name>listClasses</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>listClasses</item>
+    <script>ClassModel[] listClasses(String packageName)</script>
+    <params>packageName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PackageBo.getAllPackages</code>
+    <name>getAllPackages</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.PackageBo</catalog>
+    <item>getAllPackages</item>
+    <script>ItemModel[] getAllPackages()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PackageBo.getPackageList</code>
+    <name>getPackageList</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.PackageBo</catalog>
+    <item>getPackageList</item>
+    <script>ItemModel[] getPackageList()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

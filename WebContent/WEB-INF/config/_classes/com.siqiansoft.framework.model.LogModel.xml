@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.LogModel</classname>
+  <code>LogModel</code>
+  <name>LogModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}I9rNkGDbfLG1pV/Ppito/g==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLog()</serialno>
+      <method>getLog</method>
+      <name>String getLog()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getLog()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystemId()</serialno>
+      <method>getSystemId</method>
+      <name>String getSystemId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getSystemId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystemId(String systemid)</serialno>
+      <method>setSystemId</method>
+      <name>void setSystemId(String systemid)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setSystemId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemid</code>
+          <name>systemid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUserName()</serialno>
+      <method>getUserName</method>
+      <name>String getUserName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getUserName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLog(String log)</serialno>
+      <method>setLog</method>
+      <name>void setLog(String log)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setLog(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>log</code>
+          <name>log</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserName(String username)</serialno>
+      <method>setUserName</method>
+      <name>void setUserName(String username)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setUserName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>username</code>
+          <name>username</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.framework.model.LogModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActionId(String actionid)</serialno>
+      <method>setActionId</method>
+      <name>void setActionId(String actionid)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setActionId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actionid</code>
+          <name>actionid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActionId()</serialno>
+      <method>getActionId</method>
+      <name>String getActionId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getActionId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCatalogId(String catalogid)</serialno>
+      <method>setCatalogId</method>
+      <name>void setCatalogId(String catalogid)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setCatalogId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalogid</code>
+          <name>catalogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCatalogId()</serialno>
+      <method>getCatalogId</method>
+      <name>String getCatalogId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getCatalogId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModuleId(String moduleid)</serialno>
+      <method>setModuleId</method>
+      <name>void setModuleId(String moduleid)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setModuleId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>moduleid</code>
+          <name>moduleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModuleId()</serialno>
+      <method>getModuleId</method>
+      <name>String getModuleId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getModuleId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequestUrl(String requesturl)</serialno>
+      <method>setRequestUrl</method>
+      <name>void setRequestUrl(String requesturl)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setRequestUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>requesturl</code>
+          <name>requesturl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRequestUrl()</serialno>
+      <method>getRequestUrl</method>
+      <name>String getRequestUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getRequestUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActionTime(String actiontime)</serialno>
+      <method>setActionTime</method>
+      <name>void setActionTime(String actiontime)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setActionTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actiontime</code>
+          <name>actiontime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActionTime()</serialno>
+      <method>getActionTime</method>
+      <name>String getActionTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getActionTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResults(String results)</serialno>
+      <method>setResults</method>
+      <name>void setResults(String results)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setResults(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>results</code>
+          <name>results</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getResults()</serialno>
+      <method>getResults</method>
+      <name>String getResults()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getResults()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIpAddr(String ipaddr)</serialno>
+      <method>setIpAddr</method>
+      <name>void setIpAddr(String ipaddr)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setIpAddr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ipaddr</code>
+          <name>ipaddr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIpAddr()</serialno>
+      <method>getIpAddr</method>
+      <name>String getIpAddr()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LogModel.getIpAddr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserPK(int userpk)</serialno>
+      <method>setUserPK</method>
+      <name>void setUserPK(int userpk)</name>
+      <genericname>public void com.siqiansoft.framework.model.LogModel.setUserPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>userpk</code>
+          <name>userpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getUserPK()</serialno>
+      <method>getUserPK</method>
+      <name>int getUserPK()</name>
+      <genericname>public int com.siqiansoft.framework.model.LogModel.getUserPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>pk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>catalogid</code>
+      <name>catalogid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>systemid</code>
+      <name>systemid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>moduleid</code>
+      <name>moduleid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actionid</code>
+      <name>actionid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>requesturl</code>
+      <name>requesturl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actiontime</code>
+      <name>actiontime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>params</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>results</code>
+      <name>results</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ipaddr</code>
+      <name>ipaddr</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>userpk</code>
+      <name>userpk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>username</code>
+      <name>username</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>log</code>
+      <name>log</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

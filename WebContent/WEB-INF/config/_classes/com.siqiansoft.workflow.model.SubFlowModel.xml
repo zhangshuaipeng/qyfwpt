@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.SubFlowModel</classname>
+  <code>SubFlowModel</code>
+  <name>SubFlowModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>biz</type>
+  <crc>{MD5}i28hYOwjoyGXG5WH1k/0TA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getParams()</serialno>
+      <method>getParams</method>
+      <name>HashMap getParams()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.model.SubFlowModel.getParams()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(HashMap params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(HashMap params)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setParams(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextNode()</serialno>
+      <method>getNextNode</method>
+      <name>String getNextNode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getNextNode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNextNode(String nextnode)</serialno>
+      <method>setNextNode</method>
+      <name>void setNextNode(String nextnode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setNextNode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextnode</code>
+          <name>nextnode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMsgType(String msgtype)</serialno>
+      <method>setMsgType</method>
+      <name>void setMsgType(String msgtype)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setMsgType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>msgtype</code>
+          <name>msgtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMsgType()</serialno>
+      <method>getMsgType</method>
+      <name>String getMsgType()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getMsgType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActor(String actor)</serialno>
+      <method>setActor</method>
+      <name>void setActor(String actor)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setActor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actor</code>
+          <name>actor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActor()</serialno>
+      <method>getActor</method>
+      <name>String getActor()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getActor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlowCode(String flowcode)</serialno>
+      <method>setFlowCode</method>
+      <name>void setFlowCode(String flowcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setFlowCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowcode</code>
+          <name>flowcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowCode()</serialno>
+      <method>getFlowCode</method>
+      <name>String getFlowCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getFlowCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSponsor(String sponsor)</serialno>
+      <method>setSponsor</method>
+      <name>void setSponsor(String sponsor)</name>
+      <genericname>public void com.siqiansoft.workflow.model.SubFlowModel.setSponsor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sponsor</code>
+          <name>sponsor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSponsor()</serialno>
+      <method>getSponsor</method>
+      <name>String getSponsor()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.SubFlowModel.getSponsor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

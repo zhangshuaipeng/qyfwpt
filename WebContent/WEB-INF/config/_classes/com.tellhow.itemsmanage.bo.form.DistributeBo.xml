@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bo.form.DistributeBo</classname>
+  <code>DistributeBo</code>
+  <name>DistributeBo</name>
+  <packages>com.tellhow.itemsmanage.bo.form</packages>
+  <type>biz</type>
+  <crc>{MD5}Eh9vq0g3w2YIK3TrsFnW7g==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+</model.biz.ClassModel>

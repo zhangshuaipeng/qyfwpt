@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.FieldModel</classname>
+  <code>FieldModel</code>
+  <name>FieldModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}OevSNJkSes039SFb9LY2cw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getLength()</serialno>
+      <method>getLength</method>
+      <name>String getLength()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getLength()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLength(String length)</serialno>
+      <method>setLength</method>
+      <name>void setLength(String length)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setLength(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>length</code>
+          <name>length</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormat()</serialno>
+      <method>getFormat</method>
+      <name>String getFormat()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getFormat()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFormat(String format)</serialno>
+      <method>setFormat</method>
+      <name>void setFormat(String format)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setFormat(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>format</code>
+          <name>format</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlias()</serialno>
+      <method>getAlias</method>
+      <name>String getAlias()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getAlias()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequired(String required)</serialno>
+      <method>setRequired</method>
+      <name>void setRequired(String required)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setRequired(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>required</code>
+          <name>required</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlias(String alias)</serialno>
+      <method>setAlias</method>
+      <name>void setAlias(String alias)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setAlias(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alias</code>
+          <name>alias</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRequired()</serialno>
+      <method>getRequired</method>
+      <name>String getRequired()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getRequired()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaults(String defaults)</serialno>
+      <method>setDefaults</method>
+      <name>void setDefaults(String defaults)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setDefaults(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaults</code>
+          <name>defaults</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDataType()</serialno>
+      <method>getDataType</method>
+      <name>String getDataType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getDataType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDataType(String datatype)</serialno>
+      <method>setDataType</method>
+      <name>void setDataType(String datatype)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setDataType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>datatype</code>
+          <name>datatype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMaxValue()</serialno>
+      <method>getMaxValue</method>
+      <name>String getMaxValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getMaxValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMinValue()</serialno>
+      <method>getMinValue</method>
+      <name>String getMinValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getMinValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPrecision()</serialno>
+      <method>getPrecision</method>
+      <name>String getPrecision()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getPrecision()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnclick()</serialno>
+      <method>getOnclick</method>
+      <name>String getOnclick()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnclick()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnclick(String onclick)</serialno>
+      <method>setOnclick</method>
+      <name>void setOnclick(String onclick)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnclick(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onclick</code>
+          <name>onclick</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOndblclick()</serialno>
+      <method>getOndblclick</method>
+      <name>String getOndblclick()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOndblclick()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOndblclick(String ondblclick)</serialno>
+      <method>setOndblclick</method>
+      <name>void setOndblclick(String ondblclick)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOndblclick(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ondblclick</code>
+          <name>ondblclick</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnkeydown()</serialno>
+      <method>getOnkeydown</method>
+      <name>String getOnkeydown()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnkeydown()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnkeydown(String onkeydown)</serialno>
+      <method>setOnkeydown</method>
+      <name>void setOnkeydown(String onkeydown)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnkeydown(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onkeydown</code>
+          <name>onkeydown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnkeypress()</serialno>
+      <method>getOnkeypress</method>
+      <name>String getOnkeypress()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnkeypress()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnkeypress(String onkeypress)</serialno>
+      <method>setOnkeypress</method>
+      <name>void setOnkeypress(String onkeypress)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnkeypress(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onkeypress</code>
+          <name>onkeypress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnkeyup()</serialno>
+      <method>getOnkeyup</method>
+      <name>String getOnkeyup()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnkeyup()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnkeyup(String onkeyup)</serialno>
+      <method>setOnkeyup</method>
+      <name>void setOnkeyup(String onkeyup)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnkeyup(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onkeyup</code>
+          <name>onkeyup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnmousedown()</serialno>
+      <method>getOnmousedown</method>
+      <name>String getOnmousedown()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnmousedown()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnmousedown(String onmousedown)</serialno>
+      <method>setOnmousedown</method>
+      <name>void setOnmousedown(String onmousedown)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnmousedown(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onmousedown</code>
+          <name>onmousedown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnmousemove()</serialno>
+      <method>getOnmousemove</method>
+      <name>String getOnmousemove()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnmousemove()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnmousemove(String onmousemove)</serialno>
+      <method>setOnmousemove</method>
+      <name>void setOnmousemove(String onmousemove)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnmousemove(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onmousemove</code>
+          <name>onmousemove</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnmouseout()</serialno>
+      <method>getOnmouseout</method>
+      <name>String getOnmouseout()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnmouseout()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnmouseout(String onmouseout)</serialno>
+      <method>setOnmouseout</method>
+      <name>void setOnmouseout(String onmouseout)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnmouseout(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onmouseout</code>
+          <name>onmouseout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnmouseover()</serialno>
+      <method>getOnmouseover</method>
+      <name>String getOnmouseover()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnmouseover()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnmouseover(String onmouseover)</serialno>
+      <method>setOnmouseover</method>
+      <name>void setOnmouseover(String onmouseover)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnmouseover(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onmouseover</code>
+          <name>onmouseover</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnmouseup()</serialno>
+      <method>getOnmouseup</method>
+      <name>String getOnmouseup()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnmouseup()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnmouseup(String onmouseup)</serialno>
+      <method>setOnmouseup</method>
+      <name>void setOnmouseup(String onmouseup)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnmouseup(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onmouseup</code>
+          <name>onmouseup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMaxValue(String maxvalue)</serialno>
+      <method>setMaxValue</method>
+      <name>void setMaxValue(String maxvalue)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setMaxValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>maxvalue</code>
+          <name>maxvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMinValue(String minvalue)</serialno>
+      <method>setMinValue</method>
+      <name>void setMinValue(String minvalue)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setMinValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>minvalue</code>
+          <name>minvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaults()</serialno>
+      <method>getDefaults</method>
+      <name>String getDefaults()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getDefaults()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnchange()</serialno>
+      <method>getOnchange</method>
+      <name>String getOnchange()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnchange()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnchange(String onchange)</serialno>
+      <method>setOnchange</method>
+      <name>void setOnchange(String onchange)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnchange(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onchange</code>
+          <name>onchange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnblur()</serialno>
+      <method>getOnblur</method>
+      <name>String getOnblur()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnblur()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnblur(String onblur)</serialno>
+      <method>setOnblur</method>
+      <name>void setOnblur(String onblur)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnblur(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onblur</code>
+          <name>onblur</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnfocus()</serialno>
+      <method>getOnfocus</method>
+      <name>String getOnfocus()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getOnfocus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnfocus(String onfocus)</serialno>
+      <method>setOnfocus</method>
+      <name>void setOnfocus(String onfocus)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setOnfocus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onfocus</code>
+          <name>onfocus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCtrlType()</serialno>
+      <method>getCtrlType</method>
+      <name>String getCtrlType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getCtrlType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPrecision(String precision)</serialno>
+      <method>setPrecision</method>
+      <name>void setPrecision(String precision)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setPrecision(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>precision</code>
+          <name>precision</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLangs(String[] langs)</serialno>
+      <method>setLangs</method>
+      <name>void setLangs(String[] langs)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setLangs(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>langs</code>
+          <name>langs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getLangs()</serialno>
+      <method>getLangs</method>
+      <name>String[] getLangs()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.view.FieldModel.getLangs()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShowSpec(String showspec)</serialno>
+      <method>setShowSpec</method>
+      <name>void setShowSpec(String showspec)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setShowSpec(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showspec</code>
+          <name>showspec</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShowSpec()</serialno>
+      <method>getShowSpec</method>
+      <name>String getShowSpec()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getShowSpec()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCtrlType(String ctrltype)</serialno>
+      <method>setCtrlType</method>
+      <name>void setCtrlType(String ctrltype)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setCtrlType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ctrltype</code>
+          <name>ctrltype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDict(String dict)</serialno>
+      <method>setDict</method>
+      <name>void setDict(String dict)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setDict(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dict</code>
+          <name>dict</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDict()</serialno>
+      <method>getDict</method>
+      <name>String getDict()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getDict()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExpKey(String expkey)</serialno>
+      <method>setExpKey</method>
+      <name>void setExpKey(String expkey)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setExpKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>expkey</code>
+          <name>expkey</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExpKey()</serialno>
+      <method>getExpKey</method>
+      <name>String getExpKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getExpKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkSet(String linkset)</serialno>
+      <method>setLinkSet</method>
+      <name>void setLinkSet(String linkset)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setLinkSet(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkset</code>
+          <name>linkset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkSet()</serialno>
+      <method>getLinkSet</method>
+      <name>String getLinkSet()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getLinkSet()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkField(String linkfield)</serialno>
+      <method>setLinkField</method>
+      <name>void setLinkField(String linkfield)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setLinkField(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkfield</code>
+          <name>linkfield</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkField()</serialno>
+      <method>getLinkField</method>
+      <name>String getLinkField()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getLinkField()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInherit(String inherit)</serialno>
+      <method>setInherit</method>
+      <name>void setInherit(String inherit)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setInherit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inherit</code>
+          <name>inherit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInherit()</serialno>
+      <method>getInherit</method>
+      <name>String getInherit()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getInherit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoStyle(String rostyle)</serialno>
+      <method>setRoStyle</method>
+      <name>void setRoStyle(String rostyle)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setRoStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rostyle</code>
+          <name>rostyle</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRoStyle()</serialno>
+      <method>getRoStyle</method>
+      <name>String getRoStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getRoStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnbitted(String unbitted)</serialno>
+      <method>setUnbitted</method>
+      <name>void setUnbitted(String unbitted)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setUnbitted(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnbitted()</serialno>
+      <method>getUnbitted</method>
+      <name>String getUnbitted()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getUnbitted()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBandAction(String bandaction)</serialno>
+      <method>setBandAction</method>
+      <name>void setBandAction(String bandaction)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.FieldModel.setBandAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>bandaction</code>
+          <name>bandaction</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBandAction()</serialno>
+      <method>getBandAction</method>
+      <name>String getBandAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.FieldModel.getBandAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>datatype</code>
+      <name>datatype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>format</code>
+      <name>format</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>showspec</code>
+      <name>showspec</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>required</code>
+      <name>required</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>alias</code>
+      <name>alias</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ctrltype</code>
+      <name>ctrltype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>length</code>
+      <name>length</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>height</code>
+      <name>height</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>precision</code>
+      <name>precision</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>defaults</code>
+      <name>defaults</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>maxvalue</code>
+      <name>maxvalue</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>minvalue</code>
+      <name>minvalue</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dict</code>
+      <name>dict</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>params</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>expkey</code>
+      <name>expkey</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkset</code>
+      <name>linkset</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkfield</code>
+      <name>linkfield</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>inherit</code>
+      <name>inherit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rostyle</code>
+      <name>rostyle</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>unbitted</code>
+      <name>unbitted</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>bandaction</code>
+      <name>bandaction</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onblur</code>
+      <name>onblur</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onchange</code>
+      <name>onchange</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onclick</code>
+      <name>onclick</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ondblclick</code>
+      <name>ondblclick</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onfocus</code>
+      <name>onfocus</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onkeydown</code>
+      <name>onkeydown</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onkeypress</code>
+      <name>onkeypress</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onkeyup</code>
+      <name>onkeyup</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onmousedown</code>
+      <name>onmousedown</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onmousemove</code>
+      <name>onmousemove</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onmouseout</code>
+      <name>onmouseout</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onmouseover</code>
+      <name>onmouseover</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onmouseup</code>
+      <name>onmouseup</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

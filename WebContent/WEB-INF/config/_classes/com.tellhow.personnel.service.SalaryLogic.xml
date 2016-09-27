@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.SalaryLogic</classname>
+  <code>SalaryLogic</code>
+  <name>SalaryLogic</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}1+Sezp2quk4rwDyKTsFJfw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean JudgeWelfareNewHr(String resumeid,String year,String month)</serialno>
+      <method>JudgeWelfareNewHr</method>
+      <name>boolean JudgeWelfareNewHr(String resumeid,String year,String month)</name>
+      <genericname>public boolean com.tellhow.personnel.service.SalaryLogic.JudgeWelfareNewHr(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean JudgeHourseNewHr(String resumeid,String year,String month)</serialno>
+      <method>JudgeHourseNewHr</method>
+      <name>boolean JudgeHourseNewHr(String resumeid,String year,String month)</name>
+      <genericname>public boolean com.tellhow.personnel.service.SalaryLogic.JudgeHourseNewHr(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List JudgeHourselimit(Float money,String year,String month)</serialno>
+      <method>JudgeHourselimit</method>
+      <name>List JudgeHourselimit(Float money,String year,String month)</name>
+      <genericname>public java.util.List&lt;java.lang.Float&gt; com.tellhow.personnel.service.SalaryLogic.JudgeHourselimit(java.lang.Float,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Float</type>
+          <code>money</code>
+          <name>money</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Map JudgeWelfareLimit(Float money,String year,String month)</serialno>
+      <method>JudgeWelfareLimit</method>
+      <name>Map JudgeWelfareLimit(Float money,String year,String month)</name>
+      <genericname>public java.util.Map&lt;java.lang.String, java.lang.Float&gt; com.tellhow.personnel.service.SalaryLogic.JudgeWelfareLimit(java.lang.Float,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Float</type>
+          <code>money</code>
+          <name>money</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Long CountWage(String resumeid,String year,String month)</serialno>
+      <method>CountWage</method>
+      <name>Long CountWage(String resumeid,String year,String month)</name>
+      <genericname>public java.lang.Long com.tellhow.personnel.service.SalaryLogic.CountWage(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Long</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void countapproval(String year,String month)</serialno>
+      <method>countapproval</method>
+      <name>void countapproval(String year,String month)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryLogic.countapproval(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

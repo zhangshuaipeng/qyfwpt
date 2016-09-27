@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.EventBo</classname>
+  <code>EventBo</code>
+  <name>EventBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}fU74F8Y8w64fLzRfMo5WAA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listFlowEvents(String flowPK)</serialno>
+      <method>listFlowEvents</method>
+      <name>HandlerModel[] listFlowEvents(String flowPK)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.workflow.bo.EventBo.listFlowEvents(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getFlowHandler(String flowPK,String eventId)</serialno>
+      <method>getFlowHandler</method>
+      <name>HandlerModel getFlowHandler(String flowPK,String eventId)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.bo.EventBo.getFlowHandler(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eventId</code>
+          <name>eventId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listNodeEvents(String flowPK,String nodeId)</serialno>
+      <method>listNodeEvents</method>
+      <name>HandlerModel[] listNodeEvents(String flowPK,String nodeId)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.workflow.bo.EventBo.listNodeEvents(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getNodeHandler(String flowPK,String nodeId,String eventId)</serialno>
+      <method>getNodeHandler</method>
+      <name>HandlerModel getNodeHandler(String flowPK,String nodeId,String eventId)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.bo.EventBo.getNodeHandler(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eventId</code>
+          <name>eventId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listRouteEvents(String flowPK,String routeId)</serialno>
+      <method>listRouteEvents</method>
+      <name>HandlerModel[] listRouteEvents(String flowPK,String routeId)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.workflow.bo.EventBo.listRouteEvents(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getRouteHandler(String flowPK,String routeId,String eventId)</serialno>
+      <method>getRouteHandler</method>
+      <name>HandlerModel getRouteHandler(String flowPK,String routeId,String eventId)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.bo.EventBo.getRouteHandler(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eventId</code>
+          <name>eventId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveFlowHandler(String flowPK,HandlerModel event)</serialno>
+      <method>saveFlowHandler</method>
+      <name>void saveFlowHandler(String flowPK,HandlerModel event)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.EventBo.saveFlowHandler(java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>event</code>
+          <name>event</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveNodeHandler(String flowPK,String nodeId,HandlerModel event)</serialno>
+      <method>saveNodeHandler</method>
+      <name>void saveNodeHandler(String flowPK,String nodeId,HandlerModel event)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.EventBo.saveNodeHandler(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>event</code>
+          <name>event</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRouteHandler(String flowPK,String routeId,HandlerModel event)</serialno>
+      <method>saveRouteHandler</method>
+      <name>void saveRouteHandler(String flowPK,String routeId,HandlerModel event)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.EventBo.saveRouteHandler(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>event</code>
+          <name>event</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

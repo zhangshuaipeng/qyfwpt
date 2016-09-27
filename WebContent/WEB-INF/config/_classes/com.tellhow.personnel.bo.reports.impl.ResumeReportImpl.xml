@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.reports.impl.ResumeReportImpl</classname>
+  <code>ResumeReportImpl</code>
+  <name>ResumeReportImpl</name>
+  <packages>com.tellhow.personnel.bo.reports.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}bksBkSCI0JNhWX6lmk0p0Q==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List findresumereport(String inda,String endda)</serialno>
+      <method>findresumereport</method>
+      <name>List findresumereport(String inda,String endda)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.vo.ResumeReports&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findresumereport(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inda</code>
+          <name>inda</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endda</code>
+          <name>endda</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findDispatchunit()</serialno>
+      <method>findDispatchunit</method>
+      <name>List findDispatchunit()</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.hrpublic.Dispatchunit&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findDispatchunit() throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findDispatchdept()</serialno>
+      <method>findDispatchdept</method>
+      <name>List findDispatchdept()</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.hrpublic.Dispatchdept&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findDispatchdept() throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findNotDispatchdept()</serialno>
+      <method>findNotDispatchdept</method>
+      <name>List findNotDispatchdept()</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.hrpublic.Dispatchdept&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findNotDispatchdept() throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findNotDispatchunit()</serialno>
+      <method>findNotDispatchunit</method>
+      <name>List findNotDispatchunit()</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.hrpublic.Dispatchunit&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findNotDispatchunit() throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findrpbycompany(String inda,String endda)</serialno>
+      <method>findrpbycompany</method>
+      <name>List findrpbycompany(String inda,String endda)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.vo.ResumeReports&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findrpbycompany(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inda</code>
+          <name>inda</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endda</code>
+          <name>endda</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findrpbytotal(String inda,String endda)</serialno>
+      <method>findrpbytotal</method>
+      <name>List findrpbytotal(String inda,String endda)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.vo.ResumeReports&gt; com.tellhow.personnel.bo.reports.impl.ResumeReportImpl.findrpbytotal(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inda</code>
+          <name>inda</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endda</code>
+          <name>endda</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.TempletModel</classname>
+  <code>TempletModel</code>
+  <name>TempletModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}AdDe+J4N7RRPFB9G+4/hOA==</crc>
+  <modifytime>2013-06-16 23:41:08</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActions()</serialno>
+      <method>getActions</method>
+      <name>String getActions()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getActions()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getWidth()</serialno>
+      <method>getWidth</method>
+      <name>int getWidth()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.TempletModel.getWidth()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getHeight()</serialno>
+      <method>getHeight</method>
+      <name>int getHeight()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.TempletModel.getHeight()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyle()</serialno>
+      <method>getStyle</method>
+      <name>String getStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyle(String style)</serialno>
+      <method>setStyle</method>
+      <name>void setStyle(String style)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>style</code>
+          <name>style</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMaxRows(int maxrows)</serialno>
+      <method>setMaxRows</method>
+      <name>void setMaxRows(int maxrows)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setMaxRows(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>maxrows</code>
+          <name>maxrows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getMaxRows()</serialno>
+      <method>getMaxRows</method>
+      <name>int getMaxRows()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.TempletModel.getMaxRows()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getColumns()</serialno>
+      <method>getColumns</method>
+      <name>String getColumns()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getColumns()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(int height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(int height)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setHeight(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(int width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(int width)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setWidth(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>StyleModel[] getStyles()</serialno>
+      <method>getStyles</method>
+      <name>StyleModel[] getStyles()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.StyleModel[] com.siqiansoft.framework.model.grid.TempletModel.getStyles()</genericname>
+      <retclass>StyleModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColumns(String columns)</serialno>
+      <method>setColumns</method>
+      <name>void setColumns(String columns)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setColumns(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>columns</code>
+          <name>columns</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActions(String actions)</serialno>
+      <method>setActions</method>
+      <name>void setActions(String actions)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setActions(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actions</code>
+          <name>actions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageRows(int pagerows)</serialno>
+      <method>setPageRows</method>
+      <name>void setPageRows(int pagerows)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setPageRows(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pagerows</code>
+          <name>pagerows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPageRows()</serialno>
+      <method>getPageRows</method>
+      <name>int getPageRows()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.TempletModel.getPageRows()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageCtrl(String pagectrl)</serialno>
+      <method>setPageCtrl</method>
+      <name>void setPageCtrl(String pagectrl)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setPageCtrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pagectrl</code>
+          <name>pagectrl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPageCtrl()</serialno>
+      <method>getPageCtrl</method>
+      <name>String getPageCtrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getPageCtrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColsNum(int colsnum)</serialno>
+      <method>setColsNum</method>
+      <name>void setColsNum(int colsnum)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setColsNum(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>colsnum</code>
+          <name>colsnum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getColsNum()</serialno>
+      <method>getColsNum</method>
+      <name>int getColsNum()</name>
+      <genericname>public int com.siqiansoft.framework.model.grid.TempletModel.getColsNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShowTitle(String showtitle)</serialno>
+      <method>setShowTitle</method>
+      <name>void setShowTitle(String showtitle)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setShowTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showtitle</code>
+          <name>showtitle</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShowTitle()</serialno>
+      <method>getShowTitle</method>
+      <name>String getShowTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getShowTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitleArea(String titlearea)</serialno>
+      <method>setTitleArea</method>
+      <name>void setTitleArea(String titlearea)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setTitleArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>titlearea</code>
+          <name>titlearea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitleArea()</serialno>
+      <method>getTitleArea</method>
+      <name>String getTitleArea()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getTitleArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShowQuery(String showquery)</serialno>
+      <method>setShowQuery</method>
+      <name>void setShowQuery(String showquery)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setShowQuery(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showquery</code>
+          <name>showquery</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShowQuery()</serialno>
+      <method>getShowQuery</method>
+      <name>String getShowQuery()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getShowQuery()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQueryOpts(String queryopts)</serialno>
+      <method>setQueryOpts</method>
+      <name>void setQueryOpts(String queryopts)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setQueryOpts(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>queryopts</code>
+          <name>queryopts</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getQueryOpts()</serialno>
+      <method>getQueryOpts</method>
+      <name>String getQueryOpts()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getQueryOpts()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQueryArea(String queryarea)</serialno>
+      <method>setQueryArea</method>
+      <name>void setQueryArea(String queryarea)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setQueryArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>queryarea</code>
+          <name>queryarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getQueryArea()</serialno>
+      <method>getQueryArea</method>
+      <name>String getQueryArea()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getQueryArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setShowAction(String showaction)</serialno>
+      <method>setShowAction</method>
+      <name>void setShowAction(String showaction)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setShowAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>showaction</code>
+          <name>showaction</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getShowAction()</serialno>
+      <method>getShowAction</method>
+      <name>String getShowAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getShowAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActionArea(String actionarea)</serialno>
+      <method>setActionArea</method>
+      <name>void setActionArea(String actionarea)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setActionArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actionarea</code>
+          <name>actionarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActionArea()</serialno>
+      <method>getActionArea</method>
+      <name>String getActionArea()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getActionArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachTitle(String attachtitle)</serialno>
+      <method>setAttachTitle</method>
+      <name>void setAttachTitle(String attachtitle)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setAttachTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>attachtitle</code>
+          <name>attachtitle</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachTitle()</serialno>
+      <method>getAttachTitle</method>
+      <name>String getAttachTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getAttachTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowArea(String rowarea)</serialno>
+      <method>setRowArea</method>
+      <name>void setRowArea(String rowarea)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setRowArea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowarea</code>
+          <name>rowarea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowArea()</serialno>
+      <method>getRowArea</method>
+      <name>String getRowArea()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.TempletModel.getRowArea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHtml(HashMap html)</serialno>
+      <method>setHtml</method>
+      <name>void setHtml(HashMap html)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setHtml(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>html</code>
+          <name>html</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getHtml()</serialno>
+      <method>getHtml</method>
+      <name>HashMap getHtml()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.model.grid.TempletModel.getHtml()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyles(StyleModel[] styles)</serialno>
+      <method>setStyles</method>
+      <name>void setStyles(StyleModel[] styles)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.TempletModel.setStyles(com.siqiansoft.framework.model.grid.StyleModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>StyleModel[]</type>
+          <code>styles</code>
+          <name>styles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>style</code>
+      <name>style</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>height</code>
+      <name>height</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>maxrows</code>
+      <name>maxrows</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pagerows</code>
+      <name>pagerows</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pagectrl</code>
+      <name>pagectrl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>colsnum</code>
+      <name>colsnum</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>columns</code>
+      <name>columns</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>showtitle</code>
+      <name>showtitle</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>titlearea</code>
+      <name>titlearea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>showquery</code>
+      <name>showquery</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>queryopts</code>
+      <name>queryopts</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>queryarea</code>
+      <name>queryarea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>showaction</code>
+      <name>showaction</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actions</code>
+      <name>actions</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actionarea</code>
+      <name>actionarea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>attachtitle</code>
+      <name>attachtitle</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowarea</code>
+      <name>rowarea</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

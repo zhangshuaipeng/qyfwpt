@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.DomainBo</classname>
+  <code>DomainBo</code>
+  <name>DomainBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}Exu+VbcBgW8VUmgVwniiqA==</crc>
+  <modifytime>2013-06-16 23:41:11</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>DomainModel getDomain(String code)</serialno>
+      <method>getDomain</method>
+      <name>DomainModel getDomain(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.DomainModel com.siqiansoft.ou.bo.DomainBo.getDomain(java.lang.String)</genericname>
+      <retclass>DomainModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getScript(String code,String action)</serialno>
+      <method>getScript</method>
+      <name>String getScript(String code,String action)</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.bo.DomainBo.getScript(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DomainModel[] listDomains()</serialno>
+      <method>listDomains</method>
+      <name>DomainModel[] listDomains()</name>
+      <genericname>public com.siqiansoft.framework.model.DomainModel[] com.siqiansoft.ou.bo.DomainBo.listDomains()</genericname>
+      <retclass>DomainModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveDomain(DomainModel domain)</serialno>
+      <method>saveDomain</method>
+      <name>void saveDomain(DomainModel domain)</name>
+      <genericname>public void com.siqiansoft.ou.bo.DomainBo.saveDomain(com.siqiansoft.framework.model.DomainModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DomainModel</type>
+          <code>domain</code>
+          <name>domain</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateDomain(DomainModel domain)</serialno>
+      <method>updateDomain</method>
+      <name>void updateDomain(DomainModel domain)</name>
+      <genericname>public void com.siqiansoft.ou.bo.DomainBo.updateDomain(com.siqiansoft.framework.model.DomainModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DomainModel</type>
+          <code>domain</code>
+          <name>domain</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateScript(String code,String action,String script)</serialno>
+      <method>updateScript</method>
+      <name>void updateScript(String code,String action,String script)</name>
+      <genericname>public void com.siqiansoft.ou.bo.DomainBo.updateScript(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDomains(String[] selected)</serialno>
+      <method>deleteDomains</method>
+      <name>void deleteDomains(String[] selected)</name>
+      <genericname>public void com.siqiansoft.ou.bo.DomainBo.deleteDomains(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

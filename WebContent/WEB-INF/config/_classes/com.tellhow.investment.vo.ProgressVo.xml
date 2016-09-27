@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.ProgressVo</classname>
+  <code>ProgressVo</code>
+  <name>ProgressVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}9LKzTtc2b8kRzZUGlzib/w==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setReadOnly(int readOnly)</serialno>
+      <method>setReadOnly</method>
+      <name>void setReadOnly(int readOnly)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setReadOnly(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>readOnly</code>
+          <name>readOnly</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDescription()</serialno>
+      <method>getDescription</method>
+      <name>String getDescription()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getDescription()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDescription(String description)</serialno>
+      <method>setDescription</method>
+      <name>void setDescription(String description)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setDescription(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>description</code>
+          <name>description</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeName()</serialno>
+      <method>getNodeName</method>
+      <name>String getNodeName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getNodeName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getReadOnly()</serialno>
+      <method>getReadOnly</method>
+      <name>int getReadOnly()</name>
+      <genericname>public int com.tellhow.investment.vo.ProgressVo.getReadOnly()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProgressID()</serialno>
+      <method>getProgressID</method>
+      <name>long getProgressID()</name>
+      <genericname>public long com.tellhow.investment.vo.ProgressVo.getProgressID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProgressID(long progressID)</serialno>
+      <method>setProgressID</method>
+      <name>void setProgressID(long progressID)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setProgressID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>progressID</code>
+          <name>progressID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.investment.vo.ProgressVo.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperateDate()</serialno>
+      <method>getOperateDate</method>
+      <name>String getOperateDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getOperateDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperateDate(String operateDate)</serialno>
+      <method>setOperateDate</method>
+      <name>void setOperateDate(String operateDate)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setOperateDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operateDate</code>
+          <name>operateDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachID()</serialno>
+      <method>getAttachID</method>
+      <name>String getAttachID()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getAttachID()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachID(String attachID)</serialno>
+      <method>setAttachID</method>
+      <name>void setAttachID(String attachID)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setAttachID(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>attachID</code>
+          <name>attachID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeName(String nodeName)</serialno>
+      <method>setNodeName</method>
+      <name>void setNodeName(String nodeName)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setNodeName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeName</code>
+          <name>nodeName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getAmounttype()</serialno>
+      <method>getAmounttype</method>
+      <name>int getAmounttype()</name>
+      <genericname>public int com.tellhow.investment.vo.ProgressVo.getAmounttype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAmounttype(int amounttype)</serialno>
+      <method>setAmounttype</method>
+      <name>void setAmounttype(int amounttype)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setAmounttype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>amounttype</code>
+          <name>amounttype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getNodeLevel()</serialno>
+      <method>getNodeLevel</method>
+      <name>int getNodeLevel()</name>
+      <genericname>public int com.tellhow.investment.vo.ProgressVo.getNodeLevel()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeLevel(int nodeLevel)</serialno>
+      <method>setNodeLevel</method>
+      <name>void setNodeLevel(int nodeLevel)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setNodeLevel(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nodeLevel</code>
+          <name>nodeLevel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEndDate()</serialno>
+      <method>getEndDate</method>
+      <name>String getEndDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProgressVo.getEndDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEndDate(String endDate)</serialno>
+      <method>setEndDate</method>
+      <name>void setEndDate(String endDate)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setEndDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endDate</code>
+          <name>endDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCanDelete(int canDelete)</serialno>
+      <method>setCanDelete</method>
+      <name>void setCanDelete(int canDelete)</name>
+      <genericname>public void com.tellhow.investment.vo.ProgressVo.setCanDelete(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>canDelete</code>
+          <name>canDelete</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCanDelete()</serialno>
+      <method>getCanDelete</method>
+      <name>int getCanDelete()</name>
+      <genericname>public int com.tellhow.investment.vo.ProgressVo.getCanDelete()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>progressid</code>
+      <name>progressID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodelevel</code>
+      <name>nodeLevel</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodename</code>
+      <name>nodeName</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>description</code>
+      <name>description</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>attachid</code>
+      <name>attachID</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enddate</code>
+      <name>endDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatorcode</code>
+      <name>operatorCode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatedate</code>
+      <name>operateDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>candelete</code>
+      <name>canDelete</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>readonly</code>
+      <name>readOnly</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>amounttype</code>
+      <name>amounttype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.DateJsonValueProcessor</classname>
+  <code>DateJsonValueProcessor</code>
+  <name>DateJsonValueProcessor</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}Vn9SgToX8VYTzx1rCY61nQ==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object processArrayValue(Object arg0,JsonConfig arg1)</serialno>
+      <method>processArrayValue</method>
+      <name>Object processArrayValue(Object arg0,JsonConfig arg1)</name>
+      <genericname>public java.lang.Object com.tellhow.common.until.DateJsonValueProcessor.processArrayValue(java.lang.Object,net.sf.json.JsonConfig)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>arg0</code>
+          <name>arg0</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>JsonConfig</type>
+          <code>arg1</code>
+          <name>arg1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object processObjectValue(String arg0,Object arg1,JsonConfig arg2)</serialno>
+      <method>processObjectValue</method>
+      <name>Object processObjectValue(String arg0,Object arg1,JsonConfig arg2)</name>
+      <genericname>public java.lang.Object com.tellhow.common.until.DateJsonValueProcessor.processObjectValue(java.lang.String,java.lang.Object,net.sf.json.JsonConfig)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>arg0</code>
+          <name>arg0</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>arg1</code>
+          <name>arg1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>JsonConfig</type>
+          <code>arg2</code>
+          <name>arg2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

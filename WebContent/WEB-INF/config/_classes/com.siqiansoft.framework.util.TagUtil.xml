@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.TagUtil</classname>
+  <code>TagUtil</code>
+  <name>TagUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}iVxp29lBHZHa873xhtj8/g==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.TagUtil.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultValue(LoginModel login,String defaultv)</serialno>
+      <method>getDefaultValue</method>
+      <name>String getDefaultValue(LoginModel login,String defaultv)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getDefaultValue(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultValue(HttpServletRequest request,String key,String defaultv)</serialno>
+      <method>getDefaultValue</method>
+      <name>String getDefaultValue(HttpServletRequest request,String key,String defaultv)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getDefaultValue(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String convertValue(String value)</serialno>
+      <method>convertValue</method>
+      <name>String convertValue(String value)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.convertValue(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getFieldValue(HttpServletRequest request,String fieldid)</serialno>
+      <method>getFieldValue</method>
+      <name>Object getFieldValue(HttpServletRequest request,String fieldid)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.TagUtil.getFieldValue(javax.servlet.http.HttpServletRequest,java.lang.String)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPropValue(TagSupport tag,String key)</serialno>
+      <method>getPropValue</method>
+      <name>String getPropValue(TagSupport tag,String key)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getPropValue(javax.servlet.jsp.tagext.TagSupport,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TagSupport</type>
+          <code>tag</code>
+          <name>tag</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTagRight(HttpServletRequest request,String id,String type)</serialno>
+      <method>getTagRight</method>
+      <name>String getTagRight(HttpServletRequest request,String id,String type)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getTagRight(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTagValue(HttpServletRequest request,String name,String value,String defaultv,String right)</serialno>
+      <method>getTagValue</method>
+      <name>String getTagValue(HttpServletRequest request,String name,String value,String defaultv,String right)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getTagValue(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>right</code>
+          <name>right</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTagProperty(TagSupport tag)</serialno>
+      <method>getTagProperty</method>
+      <name>String getTagProperty(TagSupport tag)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getTagProperty(javax.servlet.jsp.tagext.TagSupport)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TagSupport</type>
+          <code>tag</code>
+          <name>tag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void printOut(PageContext pageContext,String content)</serialno>
+      <method>printOut</method>
+      <name>void printOut(PageContext pageContext,String content)</name>
+      <genericname>public static void com.siqiansoft.framework.util.TagUtil.printOut(javax.servlet.jsp.PageContext,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageContext</type>
+          <code>pageContext</code>
+          <name>pageContext</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int drawTag(PageContext pageContext,String right,String name,String v,String unbitted,String height)</serialno>
+      <method>drawTag</method>
+      <name>int drawTag(PageContext pageContext,String right,String name,String v,String unbitted,String height)</name>
+      <genericname>public static int com.siqiansoft.framework.util.TagUtil.drawTag(javax.servlet.jsp.PageContext,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageContext</type>
+          <code>pageContext</code>
+          <name>pageContext</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>right</code>
+          <name>right</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>v</code>
+          <name>v</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int drawDictTag(PageContext pageContext,String right,String name,String dictid,String parents,String v,String unbitted)</serialno>
+      <method>drawDictTag</method>
+      <name>int drawDictTag(PageContext pageContext,String right,String name,String dictid,String parents,String v,String unbitted)</name>
+      <genericname>public static int com.siqiansoft.framework.util.TagUtil.drawDictTag(javax.servlet.jsp.PageContext,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageContext</type>
+          <code>pageContext</code>
+          <name>pageContext</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>right</code>
+          <name>right</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parents</code>
+          <name>parents</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>v</code>
+          <name>v</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getDictItems(HttpServletRequest request,String dictid,String params)</serialno>
+      <method>getDictItems</method>
+      <name>ItemModel[] getDictItems(HttpServletRequest request,String dictid,String params)</name>
+      <genericname>public static com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.framework.util.TagUtil.getDictItems(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getTagProps(String tagId)</serialno>
+      <method>getTagProps</method>
+      <name>HashMap getTagProps(String tagId)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.util.TagUtil.getTagProps(java.lang.String)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tagId</code>
+          <name>tagId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createBox(StringBuffer sb,TagSupport tag,ItemModel[] dicts,String box,String value)</serialno>
+      <method>createBox</method>
+      <name>void createBox(StringBuffer sb,TagSupport tag,ItemModel[] dicts,String box,String value)</name>
+      <genericname>public static void com.siqiansoft.framework.util.TagUtil.createBox(java.lang.StringBuffer,javax.servlet.jsp.tagext.TagSupport,com.siqiansoft.framework.model.dict.ItemModel[],java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>StringBuffer</type>
+          <code>sb</code>
+          <name>sb</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TagSupport</type>
+          <code>tag</code>
+          <name>tag</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemModel[]</type>
+          <code>dicts</code>
+          <name>dicts</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldModel getFieldProp(HttpServletRequest request,String fieldid)</serialno>
+      <method>getFieldProp</method>
+      <name>FieldModel getFieldProp(HttpServletRequest request,String fieldid)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.FieldModel com.siqiansoft.framework.util.TagUtil.getFieldProp(javax.servlet.http.HttpServletRequest,java.lang.String)</genericname>
+      <retclass>FieldModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDictItemValue(HttpServletRequest request,String dictid,String params,String keyvalue)</serialno>
+      <method>getDictItemValue</method>
+      <name>String getDictItemValue(HttpServletRequest request,String dictid,String params,String keyvalue)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.TagUtil.getDictItemValue(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dictid</code>
+          <name>dictid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>keyvalue</code>
+          <name>keyvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

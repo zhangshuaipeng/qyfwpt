@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.Reflect</classname>
+  <code>Reflect</code>
+  <name>Reflect</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}yyrs9ktJszr7/1ao6EvXzw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Reflect.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getField(Object obj,String fieldName)</serialno>
+      <method>getField</method>
+      <name>Object getField(Object obj,String fieldName)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.getField(java.lang.Object,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldName</code>
+          <name>fieldName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Method getMethod(String className,String methodName)</serialno>
+      <method>getMethod</method>
+      <name>Method getMethod(String className,String methodName)</name>
+      <genericname>public static java.lang.reflect.Method com.siqiansoft.framework.util.Reflect.getMethod(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Method</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object newInstance(String className,Object[] args)</serialno>
+      <method>newInstance</method>
+      <name>Object newInstance(String className,Object[] args)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.newInstance(java.lang.String,java.lang.Object[]) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object createArray(String className,int length)</serialno>
+      <method>createArray</method>
+      <name>Object createArray(String className,int length)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.createArray(java.lang.String,int) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>length</code>
+          <name>length</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isInstanceOf(Object obj,Class cls)</serialno>
+      <method>isInstanceOf</method>
+      <name>boolean isInstanceOf(Object obj,Class cls)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.Reflect.isInstanceOf(java.lang.Object,java.lang.Class&lt;?&gt;)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Class</type>
+          <code>cls</code>
+          <name>cls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object executeMethod(String className,String methodName,Object[] args)</serialno>
+      <method>executeMethod</method>
+      <name>Object executeMethod(String className,String methodName,Object[] args)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.executeMethod(java.lang.String,java.lang.String,java.lang.Object[]) throws java.lang.RuntimeException</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object executeMethod(Object obj,String methodName,Object[] args)</serialno>
+      <method>executeMethod</method>
+      <name>Object executeMethod(Object obj,String methodName,Object[] args)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.executeMethod(java.lang.Object,java.lang.String,java.lang.Object[]) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getArrayByIndex(Object array,int index)</serialno>
+      <method>getArrayByIndex</method>
+      <name>Object getArrayByIndex(Object array,int index)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.getArrayByIndex(java.lang.Object,int)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>array</code>
+          <name>array</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArrayAt(Object array,int index,Object obj)</serialno>
+      <method>setArrayAt</method>
+      <name>void setArrayAt(Object array,int index,Object obj)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Reflect.setArrayAt(java.lang.Object,int,java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>array</code>
+          <name>array</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object createArrays(String className,int[] dimensions)</serialno>
+      <method>createArrays</method>
+      <name>Object createArrays(String className,int[] dimensions)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.createArrays(java.lang.String,int[]) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int[]</type>
+          <code>dimensions</code>
+          <name>dimensions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object convertObjectType(String newType,Object value)</serialno>
+      <method>convertObjectType</method>
+      <name>Object convertObjectType(String newType,Object value)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.convertObjectType(java.lang.String,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newType</code>
+          <name>newType</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isWrapClass(Object obj)</serialno>
+      <method>isWrapClass</method>
+      <name>boolean isWrapClass(Object obj)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.Reflect.isWrapClass(java.lang.Object)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getStaticProperty(String className,String fieldName)</serialno>
+      <method>getStaticProperty</method>
+      <name>Object getStaticProperty(String className,String fieldName)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.getStaticProperty(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldName</code>
+          <name>fieldName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void checkParamsByMethod(String className,String method,Object[] args)</serialno>
+      <method>checkParamsByMethod</method>
+      <name>void checkParamsByMethod(String className,String method,Object[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.Reflect.checkParamsByMethod(java.lang.String,java.lang.String,java.lang.Object[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>method</code>
+          <name>method</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object executeStaticMethod(String className,String methodName,Object[] args)</serialno>
+      <method>executeStaticMethod</method>
+      <name>Object executeStaticMethod(String className,String methodName,Object[] args)</name>
+      <genericname>public static java.lang.Object com.siqiansoft.framework.util.Reflect.executeStaticMethod(java.lang.String,java.lang.String,java.lang.Object[]) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existMethod(String className,String methodName,Class[] cls)</serialno>
+      <method>existMethod</method>
+      <name>boolean existMethod(String className,String methodName,Class[] cls)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.Reflect.existMethod(java.lang.String,java.lang.String,java.lang.Class&lt;?&gt;[])</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Class[]</type>
+          <code>cls</code>
+          <name>cls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

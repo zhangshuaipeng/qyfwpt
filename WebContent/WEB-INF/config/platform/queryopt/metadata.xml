@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>QueryOptModel</code>
+    <name>查询条件</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>QueryOptModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

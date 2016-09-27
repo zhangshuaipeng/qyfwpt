@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>WebMessageBo.readWelcomeTips</code>
+    <name>readWelcomeTips</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.WebMessageBo</catalog>
+	<item>readWelcomeTips</item>
+    <script>readWelcomeTips()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>WebMessageBo.saveWelcomeTips</code>
+    <name>saveWelcomeTips</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.WebMessageBo</catalog>
+	<item>saveWelcomeTips</item>
+    <script>saveWelcomeTips(String)</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>WebMessageBo.readPollTips</code>
+    <name>readPollTips</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.WebMessageBo</catalog>
+	<item>readPollTips</item>
+    <script>readPollTips()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>WebMessageBo.savePollTips</code>
+    <name>savePollTips</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.WebMessageBo</catalog>
+	<item>savePollTips</item>
+    <script>savePollTips(String)</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

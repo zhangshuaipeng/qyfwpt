@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.FindUserService</classname>
+  <code>FindUserService</code>
+  <name>FindUserService</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}tquhfdyWjbBmeEZOTeW6IA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getpeople(String dispatchuntitid,String box)</serialno>
+      <method>getpeople</method>
+      <name>NodeModel getpeople(String dispatchuntitid,String box)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.tellhow.detail.service.FindUserService.getpeople(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchuntitid</code>
+          <name>dispatchuntitid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

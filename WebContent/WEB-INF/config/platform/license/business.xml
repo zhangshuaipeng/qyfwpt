@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>LicenseBo.download</code>
+    <name>download</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.LicenseBo</catalog>
+    <item>download</item>
+    <script>void download(HttpServletResponse response)</script>
+    <params>response</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LicenseBo.getLicense</code>
+    <name>getLicense</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.LicenseBo</catalog>
+    <item>getLicense</item>
+    <script>LicenseModel getLicense()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LicenseBo.saveLicense</code>
+    <name>saveLicense</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.LicenseBo</catalog>
+    <item>saveLicense</item>
+    <script>void saveLicense(LicenseModel license)</script>
+    <params>license</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LicenseBo.getHostIp</code>
+    <name>getHostIp</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.LicenseBo</catalog>
+    <item>getHostIp</item>
+    <script>String[] getHostIp()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LicenseBo.getHostMac</code>
+    <name>getHostMac</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.LicenseBo</catalog>
+    <item>getHostMac</item>
+    <script>String[] getHostMac()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

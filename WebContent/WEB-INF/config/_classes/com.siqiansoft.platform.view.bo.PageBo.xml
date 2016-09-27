@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.PageBo</classname>
+  <code>PageBo</code>
+  <name>PageBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}MrH57SoyeGXAVc+Kx1gyiA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>PageModel getPage(String system,String module,String code)</serialno>
+      <method>getPage</method>
+      <name>PageModel getPage(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.view.PageModel com.siqiansoft.platform.view.bo.PageBo.getPage(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PageModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PageModel[] listPages(String system,String module)</serialno>
+      <method>listPages</method>
+      <name>PageModel[] listPages(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.view.PageModel[] com.siqiansoft.platform.view.bo.PageBo.listPages(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PageModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addPage(String system,String module,PageModel page)</serialno>
+      <method>addPage</method>
+      <name>void addPage(String system,String module,PageModel page)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PageBo.addPage(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.PageModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePage(String system,String module,PageModel page)</serialno>
+      <method>updatePage</method>
+      <name>void updatePage(String system,String module,PageModel page)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PageBo.updatePage(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.PageModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePages(String system,String module,String[] selected)</serialno>
+      <method>deletePages</method>
+      <name>void deletePages(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PageBo.deletePages(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.EnterpriseCheckParam</classname>
+  <code>EnterpriseCheckParam</code>
+  <name>EnterpriseCheckParam</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>pojo</type>
+  <crc>{MD5}t+m85jDBL2A8/XqUpfku3w==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getCheckid()</serialno>
+      <method>getCheckid</method>
+      <name>int getCheckid()</name>
+      <genericname>public int com.tellhow.createetp.bean.EnterpriseCheckParam.getCheckid()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCheckid(int checkid)</serialno>
+      <method>setCheckid</method>
+      <name>void setCheckid(int checkid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EnterpriseCheckParam.setCheckid(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>checkid</code>
+          <name>checkid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getStartmonth()</serialno>
+      <method>getStartmonth</method>
+      <name>int getStartmonth()</name>
+      <genericname>public int com.tellhow.createetp.bean.EnterpriseCheckParam.getStartmonth()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartmonth(int startmonth)</serialno>
+      <method>setStartmonth</method>
+      <name>void setStartmonth(int startmonth)</name>
+      <genericname>public void com.tellhow.createetp.bean.EnterpriseCheckParam.setStartmonth(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>startmonth</code>
+          <name>startmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getEndmonth()</serialno>
+      <method>getEndmonth</method>
+      <name>int getEndmonth()</name>
+      <genericname>public int com.tellhow.createetp.bean.EnterpriseCheckParam.getEndmonth()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEndmonth(int endmonth)</serialno>
+      <method>setEndmonth</method>
+      <name>void setEndmonth(int endmonth)</name>
+      <genericname>public void com.tellhow.createetp.bean.EnterpriseCheckParam.setEndmonth(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>endmonth</code>
+          <name>endmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getFrequent()</serialno>
+      <method>getFrequent</method>
+      <name>int getFrequent()</name>
+      <genericname>public int com.tellhow.createetp.bean.EnterpriseCheckParam.getFrequent()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrequent(int frequent)</serialno>
+      <method>setFrequent</method>
+      <name>void setFrequent(int frequent)</name>
+      <genericname>public void com.tellhow.createetp.bean.EnterpriseCheckParam.setFrequent(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>frequent</code>
+          <name>frequent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>checkid</code>
+      <name>checkid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>startmonth</code>
+      <name>startmonth</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>endmonth</code>
+      <name>endmonth</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>frequent</code>
+      <name>frequent</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_role</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ROLE</item>
+    <metadata>EAP_ROLE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_role</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_ROLE</item>
+    <metadata>EAP_ROLE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>queryuser</code>
+    <name>角色下的用户</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_USERROLE</item>
+    <script>select eap_userrole.*,eap_account.NAME from eap_userrole,eap_account where eap_userrole.orgcode=eap_account.orgcode and eap_userrole.usercode=eap_account.code</script>
+    <metadata>EAP_USERROLE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>dict</code>
+    <name>角色字典转换</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ROLE</item>
+    <script>select CODE AS EAPKEY,NAME AS EAPVALUE from eap_role</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.updateRole</code>
+    <name>updateRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.RoleBo</catalog>
+    <item>updateRole</item>
+    <script>void updateRole(RoleModel role)</script>
+    <params>role</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.deleteRoles</code>
+    <name>deleteRoles</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.RoleBo</catalog>
+    <item>deleteRoles</item>
+    <script>void deleteRoles(String orgCode,String[] pks)</script>
+    <params>orgCode,pks</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.createRole</code>
+    <name>createRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.RoleBo</catalog>
+    <item>createRole</item>
+    <script>void createRole(RoleModel role)</script>
+    <params>role</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.addUsersToRole</code>
+    <name>addUsersToRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.RoleBo</catalog>
+    <item>addUsersToRole</item>
+    <script>void addUsersToRole(String orgCode,String role,String users)</script>
+    <params>orgCode,role,users</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RoleBo.removeUsersFromRole</code>
+    <name>removeUsersFromRole</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.RoleBo</catalog>
+    <item>removeUsersFromRole</item>
+    <script>void removeUsersFromRole(String orgCode,String role,String[] pkUsers)</script>
+    <params>orgCode,role,pkUsers</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

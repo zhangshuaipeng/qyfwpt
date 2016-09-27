@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl</classname>
+  <code>SalaryBoImpl</code>
+  <name>SalaryBoImpl</name>
+  <packages>com.tellhow.personnel.bo.hrdocument.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}a7IU2IARmbCNOWusrbKZXQ==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void updateselectsalary(String sql)</serialno>
+      <method>updateselectsalary</method>
+      <name>void updateselectsalary(String sql)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.updateselectsalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addSalarychangelog(Salarychangedlog salarychangedlog)</serialno>
+      <method>addSalarychangelog</method>
+      <name>void addSalarychangelog(Salarychangedlog salarychangedlog)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.addSalarychangelog(com.tellhow.personnel.bean.hrdocument.Salarychangedlog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salarychangedlog</type>
+          <code>salarychangedlog</code>
+          <name>salarychangedlog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSalarychange(Salarychange salarychange)</serialno>
+      <method>updateSalarychange</method>
+      <name>void updateSalarychange(Salarychange salarychange)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.updateSalarychange(com.tellhow.personnel.bean.hrdocument.Salarychange) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salarychange</type>
+          <code>salarychange</code>
+          <name>salarychange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Salarychange findSalarychange(String id)</serialno>
+      <method>findSalarychange</method>
+      <name>Salarychange findSalarychange(String id)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Salarychange com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findSalarychange(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Salarychange</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveSalarychange(Salarychange salarychange)</serialno>
+      <method>saveSalarychange</method>
+      <name>void saveSalarychange(Salarychange salarychange)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.saveSalarychange(com.tellhow.personnel.bean.hrdocument.Salarychange) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salarychange</type>
+          <code>salarychange</code>
+          <name>salarychange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Salarychangedlog findSalarylog(String id)</serialno>
+      <method>findSalarylog</method>
+      <name>Salarychangedlog findSalarylog(String id)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Salarychangedlog com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findSalarylog(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Salarychangedlog</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findallSalarylog(String changeid)</serialno>
+      <method>findallSalarylog</method>
+      <name>List findallSalarylog(String changeid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.hrdocument.Salarychangedlog&gt; com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findallSalarylog(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changeid</code>
+          <name>changeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findallLastSalary(String allresumeid)</serialno>
+      <method>findallLastSalary</method>
+      <name>float findallLastSalary(String allresumeid)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findallLastSalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>allresumeid</code>
+          <name>allresumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findallSalary(String allresumeid)</serialno>
+      <method>findallSalary</method>
+      <name>float findallSalary(String allresumeid)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findallSalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>allresumeid</code>
+          <name>allresumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findallSalary1(String allresumeid)</serialno>
+      <method>findallSalary1</method>
+      <name>float findallSalary1(String allresumeid)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findallSalary1(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>allresumeid</code>
+          <name>allresumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Salarychangedlog findLastSalary(String resumeid)</serialno>
+      <method>findLastSalary</method>
+      <name>Salarychangedlog findLastSalary(String resumeid)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Salarychangedlog com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findLastSalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Salarychangedlog</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addSalary(Salary salary)</serialno>
+      <method>addSalary</method>
+      <name>void addSalary(Salary salary)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.addSalary(com.tellhow.personnel.bean.hrdocument.Salary) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salary</type>
+          <code>salary</code>
+          <name>salary</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSalary(Salary salary)</serialno>
+      <method>updateSalary</method>
+      <name>void updateSalary(Salary salary)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.updateSalary(com.tellhow.personnel.bean.hrdocument.Salary) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salary</type>
+          <code>salary</code>
+          <name>salary</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Salary findSalaryByid(String salaryid)</serialno>
+      <method>findSalaryByid</method>
+      <name>Salary findSalaryByid(String salaryid)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Salary com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findSalaryByid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Salary</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>salaryid</code>
+          <name>salaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Salary findSalaryBypym(String resumeid,String year,String month)</serialno>
+      <method>findSalaryBypym</method>
+      <name>Salary findSalaryBypym(String resumeid,String year,String month)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Salary com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findSalaryBypym(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Salary</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findFirstSalaryById(String resumeid)</serialno>
+      <method>findFirstSalaryById</method>
+      <name>float findFirstSalaryById(String resumeid)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findFirstSalaryById(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findOldMonthSalary(String resumeid,String year)</serialno>
+      <method>findOldMonthSalary</method>
+      <name>float findOldMonthSalary(String resumeid,String year)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findOldMonthSalary(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean findSalaryByrid(String resumeid)</serialno>
+      <method>findSalaryByrid</method>
+      <name>boolean findSalaryByrid(String resumeid)</name>
+      <genericname>public boolean com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findSalaryByrid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Paymentsalary findsalarybyyear(String year,String month)</serialno>
+      <method>findsalarybyyear</method>
+      <name>Paymentsalary findsalarybyyear(String year,String month)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Paymentsalary com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findsalarybyyear(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Paymentsalary</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findmonthsalary(String sql)</serialno>
+      <method>findmonthsalary</method>
+      <name>List findmonthsalary(String sql)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.vo.ResumeSalaryVo&gt; com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findmonthsalary(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float findtotalwages(String paymentsalaryid)</serialno>
+      <method>findtotalwages</method>
+      <name>float findtotalwages(String paymentsalaryid)</name>
+      <genericname>public float com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findtotalwages(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>float</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paymentsalaryid</code>
+          <name>paymentsalaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long findnotpass(String paymentsalaryid)</serialno>
+      <method>findnotpass</method>
+      <name>long findnotpass(String paymentsalaryid)</name>
+      <genericname>public long com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findnotpass(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>long</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paymentsalaryid</code>
+          <name>paymentsalaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long findpass(String paymentsalaryid)</serialno>
+      <method>findpass</method>
+      <name>long findpass(String paymentsalaryid)</name>
+      <genericname>public long com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findpass(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>long</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paymentsalaryid</code>
+          <name>paymentsalaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatepaymentsalary(Paymentsalary paymentsalary)</serialno>
+      <method>updatepaymentsalary</method>
+      <name>void updatepaymentsalary(Paymentsalary paymentsalary)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.updatepaymentsalary(com.tellhow.personnel.bean.hrdocument.Paymentsalary) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Paymentsalary</type>
+          <code>paymentsalary</code>
+          <name>paymentsalary</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addpaymentsalary(Paymentsalary paymentsalary)</serialno>
+      <method>addpaymentsalary</method>
+      <name>void addpaymentsalary(Paymentsalary paymentsalary)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.addpaymentsalary(com.tellhow.personnel.bean.hrdocument.Paymentsalary) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Paymentsalary</type>
+          <code>paymentsalary</code>
+          <name>paymentsalary</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList findEducation(String sql)</serialno>
+      <method>findEducation</method>
+      <name>ArrayList findEducation(String sql)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.findEducation(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEducation(String sql)</serialno>
+      <method>updateEducation</method>
+      <name>void updateEducation(String sql)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.SalaryBoImpl.updateEducation(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

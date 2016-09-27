@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_VW_TODO</code>
+    <name>待办工作</name>
+    <type>view</type>
+    <catalog>system</catalog>
+    <item>EAP_VW_TODO</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

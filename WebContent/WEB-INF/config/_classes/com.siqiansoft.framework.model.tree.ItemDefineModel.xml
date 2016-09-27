@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.tree.ItemDefineModel</classname>
+  <code>ItemDefineModel</code>
+  <name>ItemDefineModel</name>
+  <packages>com.siqiansoft.framework.model.tree</packages>
+  <type>pojo</type>
+  <crc>{MD5}KDFg80CkoA8gTZxqTlbxmQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.ItemDefineModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.ItemDefineModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getQueryString()</serialno>
+      <method>getQueryString</method>
+      <name>String getQueryString()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.ItemDefineModel.getQueryString()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQueryString(String querystring)</serialno>
+      <method>setQueryString</method>
+      <name>void setQueryString(String querystring)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.ItemDefineModel.setQueryString(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>querystring</code>
+          <name>querystring</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUrl(String url)</serialno>
+      <method>setUrl</method>
+      <name>void setUrl(String url)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.ItemDefineModel.setUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUrl()</serialno>
+      <method>getUrl</method>
+      <name>String getUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.ItemDefineModel.getUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusiness()</serialno>
+      <method>getBusiness</method>
+      <name>String getBusiness()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.ItemDefineModel.getBusiness()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusiness(String business)</serialno>
+      <method>setBusiness</method>
+      <name>void setBusiness(String business)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.ItemDefineModel.setBusiness(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>business</code>
+          <name>business</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>business</code>
+      <name>business</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>querystring</code>
+      <name>querystring</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>params</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>url</code>
+      <name>url</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

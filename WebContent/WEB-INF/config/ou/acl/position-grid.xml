@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.grid.GridModel>
+  <system>ou</system>
+  <module>acl</module>
+  <code>position</code>
+  <name>岗位</name>
+  <rowsperpage>0</rowsperpage>
+  <state>readonly</state>
+  <query>
+    <business>listposition</business>
+  </query>
+</model.grid.GridModel>

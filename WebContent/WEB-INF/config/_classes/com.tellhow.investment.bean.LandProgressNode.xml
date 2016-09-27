@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.bean.LandProgressNode</classname>
+  <code>LandProgressNode</code>
+  <name>LandProgressNode</name>
+  <packages>com.tellhow.investment.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}LgoXT7De30oOL7MDrhVxLA==</crc>
+  <modifytime>2013-04-26 10:19:33</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getCategory()</serialno>
+      <method>getCategory</method>
+      <name>int getCategory()</name>
+      <genericname>public int com.tellhow.investment.bean.LandProgressNode.getCategory()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeName()</serialno>
+      <method>getNodeName</method>
+      <name>String getNodeName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgressNode.getNodeName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgressNode.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getNodeID()</serialno>
+      <method>getNodeID</method>
+      <name>long getNodeID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgressNode.getNodeID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeID(long nodeID)</serialno>
+      <method>setNodeID</method>
+      <name>void setNodeID(long nodeID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setNodeID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>nodeID</code>
+          <name>nodeID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeName(String nodeName)</serialno>
+      <method>setNodeName</method>
+      <name>void setNodeName(String nodeName)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setNodeName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeName</code>
+          <name>nodeName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSortNumber()</serialno>
+      <method>getSortNumber</method>
+      <name>long getSortNumber()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgressNode.getSortNumber()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSortNumber(long sortNumber)</serialno>
+      <method>setSortNumber</method>
+      <name>void setSortNumber(long sortNumber)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setSortNumber(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sortNumber</code>
+          <name>sortNumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getParentID()</serialno>
+      <method>getParentID</method>
+      <name>long getParentID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgressNode.getParentID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParentID(long parentID)</serialno>
+      <method>setParentID</method>
+      <name>void setParentID(long parentID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setParentID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>parentID</code>
+          <name>parentID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(int category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(int category)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setCategory(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getBusinessType()</serialno>
+      <method>getBusinessType</method>
+      <name>int getBusinessType()</name>
+      <genericname>public int com.tellhow.investment.bean.LandProgressNode.getBusinessType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessType(int businessType)</serialno>
+      <method>setBusinessType</method>
+      <name>void setBusinessType(int businessType)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setBusinessType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>businessType</code>
+          <name>businessType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getIsHidden()</serialno>
+      <method>getIsHidden</method>
+      <name>int getIsHidden()</name>
+      <genericname>public int com.tellhow.investment.bean.LandProgressNode.getIsHidden()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsHidden(int isHidden)</serialno>
+      <method>setIsHidden</method>
+      <name>void setIsHidden(int isHidden)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgressNode.setIsHidden(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>isHidden</code>
+          <name>isHidden</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

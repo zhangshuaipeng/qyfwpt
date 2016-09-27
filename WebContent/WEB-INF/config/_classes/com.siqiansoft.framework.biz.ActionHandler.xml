@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.biz.ActionHandler</classname>
+  <code>ActionHandler</code>
+  <name>ActionHandler</name>
+  <packages>com.siqiansoft.framework.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}F+ESVfJPB+b0WryKsgJh5Q==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RightModel getRights(LoginModel lg,String system,String module,PageModel page,ControllerModel ctrl)</serialno>
+      <method>getRights</method>
+      <name>RightModel getRights(LoginModel lg,String system,String module,PageModel page,ControllerModel ctrl)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.RightModel com.siqiansoft.framework.biz.ActionHandler.getRights(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.PageModel,com.siqiansoft.framework.model.view.ControllerModel)</genericname>
+      <retclass>RightModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>lg</code>
+          <name>lg</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>ctrl</code>
+          <name>ctrl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void savePortalConf()</serialno>
+      <method>savePortalConf</method>
+      <name>void savePortalConf()</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.savePortalConf() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void resetPortalConf()</serialno>
+      <method>resetPortalConf</method>
+      <name>void resetPortalConf()</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.resetPortalConf() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void runOnSubmitHandler(HandlerModel handler)</serialno>
+      <method>runOnSubmitHandler</method>
+      <name>void runOnSubmitHandler(HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.runOnSubmitHandler(com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.RuntimeException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void runPushHandler(PageModel page,HandlerModel[] handler)</serialno>
+      <method>runPushHandler</method>
+      <name>void runPushHandler(PageModel page,HandlerModel[] handler)</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.runPushHandler(com.siqiansoft.framework.model.view.PageModel,com.siqiansoft.framework.model.view.HandlerModel[]) throws java.lang.RuntimeException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel[]</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void runPullHandler(HandlerModel[] handler,PageModel page,String mode)</serialno>
+      <method>runPullHandler</method>
+      <name>void runPullHandler(HandlerModel[] handler,PageModel page,String mode)</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.runPullHandler(com.siqiansoft.framework.model.view.HandlerModel[],com.siqiansoft.framework.model.view.PageModel,java.lang.String) throws java.lang.RuntimeException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel[]</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mode</code>
+          <name>mode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void exceptionHandle(HttpServletRequest request,HttpServletResponse response,ControllerModel control,String message)</serialno>
+      <method>exceptionHandle</method>
+      <name>void exceptionHandle(HttpServletRequest request,HttpServletResponse response,ControllerModel control,String message)</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.exceptionHandle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.view.ControllerModel,java.lang.String) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>message</code>
+          <name>message</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void forwardHandler(HttpServletRequest request,HttpServletResponse response,ControllerModel control,ViewModel view,PageModel page)</serialno>
+      <method>forwardHandler</method>
+      <name>void forwardHandler(HttpServletRequest request,HttpServletResponse response,ControllerModel control,ViewModel view,PageModel page)</name>
+      <genericname>public void com.siqiansoft.framework.biz.ActionHandler.forwardHandler(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.view.ControllerModel,com.siqiansoft.framework.model.view.ViewModel,com.siqiansoft.framework.model.view.PageModel) throws java.io.IOException,javax.servlet.ServletException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>control</code>
+          <name>control</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

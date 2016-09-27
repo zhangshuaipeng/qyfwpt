@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.siqiansoft.workflow.model.FlowModel>
+  <flowcode>demo</flowcode>
+  <flowname>演示流程</flowname>
+  <system>demo</system>
+  <formid>flowdemo</formid>
+  <oninit>
+    <fieldset>onInit</fieldset>
+    <name>流程初始化</name>
+    <business>TempletBo.getContents</business>
+  </oninit>
+</com.siqiansoft.workflow.model.FlowModel>

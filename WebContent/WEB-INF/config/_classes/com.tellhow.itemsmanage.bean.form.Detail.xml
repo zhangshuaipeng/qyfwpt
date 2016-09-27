@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bean.form.Detail</classname>
+  <code>Detail</code>
+  <name>Detail</name>
+  <packages>com.tellhow.itemsmanage.bean.form</packages>
+  <type>biz</type>
+  <crc>{MD5}gYRb82o8bOcQ9aoIYLYWSA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getReceived()</serialno>
+      <method>getReceived</method>
+      <name>long getReceived()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getReceived()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesize(String articlesize)</serialno>
+      <method>setArticlesize</method>
+      <name>void setArticlesize(String articlesize)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setArticlesize(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getQuantity()</serialno>
+      <method>getQuantity</method>
+      <name>long getQuantity()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getQuantity()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQuantity(long quantity)</serialno>
+      <method>setQuantity</method>
+      <name>void setQuantity(long quantity)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setQuantity(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>quantity</code>
+          <name>quantity</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticlesizeid()</serialno>
+      <method>getArticlesizeid</method>
+      <name>long getArticlesizeid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getArticlesizeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesizeid(long articlesizeid)</serialno>
+      <method>setArticlesizeid</method>
+      <name>void setArticlesizeid(long articlesizeid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setArticlesizeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReceived(long received)</serialno>
+      <method>setReceived</method>
+      <name>void setReceived(long received)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setReceived(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>received</code>
+          <name>received</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGranttime()</serialno>
+      <method>getGranttime</method>
+      <name>String getGranttime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Detail.getGranttime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGranttime(String granttime)</serialno>
+      <method>setGranttime</method>
+      <name>void setGranttime(String granttime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setGranttime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>granttime</code>
+          <name>granttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlesize()</serialno>
+      <method>getArticlesize</method>
+      <name>String getArticlesize()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Detail.getArticlesize()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDetailid()</serialno>
+      <method>getDetailid</method>
+      <name>long getDetailid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getDetailid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDetailid(long detailid)</serialno>
+      <method>setDetailid</method>
+      <name>void setDetailid(long detailid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setDetailid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>detailid</code>
+          <name>detailid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getMainid()</serialno>
+      <method>getMainid</method>
+      <name>long getMainid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Detail.getMainid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMainid(long mainid)</serialno>
+      <method>setMainid</method>
+      <name>void setMainid(long mainid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Detail.setMainid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>mainid</code>
+          <name>mainid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

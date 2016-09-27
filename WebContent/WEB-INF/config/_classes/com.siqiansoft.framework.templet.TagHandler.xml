@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.templet.TagHandler</classname>
+  <code>TagHandler</code>
+  <name>TagHandler</name>
+  <packages>com.siqiansoft.framework.templet</packages>
+  <type>biz</type>
+  <crc>{MD5}CKsG93BR1PhBZdilPSUpaw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String createFieldTag(String systemId,FieldModel field,String fieldset)</serialno>
+      <method>createFieldTag</method>
+      <name>String createFieldTag(String systemId,FieldModel field,String fieldset)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.templet.TagHandler.createFieldTag(java.lang.String,com.siqiansoft.framework.model.view.FieldModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createTitleTag(FieldModel field,String fieldset)</serialno>
+      <method>createTitleTag</method>
+      <name>String createTitleTag(FieldModel field,String fieldset)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.templet.TagHandler.createTitleTag(com.siqiansoft.framework.model.view.FieldModel,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createActionTag(ActionModel action,ControllerModel[] controls)</serialno>
+      <method>createActionTag</method>
+      <name>String createActionTag(ActionModel action,ControllerModel[] controls)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.templet.TagHandler.createActionTag(com.siqiansoft.framework.model.view.ActionModel,com.siqiansoft.framework.model.view.ControllerModel[])</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ActionModel</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel[]</type>
+          <code>controls</code>
+          <name>controls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

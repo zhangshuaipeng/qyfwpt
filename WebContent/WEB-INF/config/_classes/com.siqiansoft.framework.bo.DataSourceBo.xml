@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.DataSourceBo</classname>
+  <code>DataSourceBo</code>
+  <name>DataSourceBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}2r3lO8Xk913kjSldcWlvGg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.bo.DataSourceBo.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delete(BusinessModel db,String[] ids)</serialno>
+      <method>delete</method>
+      <name>void delete(BusinessModel db,String[] ids)</name>
+      <genericname>public void com.siqiansoft.framework.bo.DataSourceBo.delete(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>ids</code>
+          <name>ids</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delete(BusinessModel db,String id)</serialno>
+      <method>delete</method>
+      <name>void delete(BusinessModel db,String id)</name>
+      <genericname>public void com.siqiansoft.framework.bo.DataSourceBo.delete(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String insert(BusinessModel db,Object data)</serialno>
+      <method>insert</method>
+      <name>String insert(BusinessModel db,Object data)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.bo.DataSourceBo.insert(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList query(BusinessModel db,ConditionModel[] cond,PagingModel page)</serialno>
+      <method>query</method>
+      <name>ArrayList query(BusinessModel db,ConditionModel[] cond,PagingModel page)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.bo.DataSourceBo.query(com.siqiansoft.framework.model.biz.BusinessModel,com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void update(BusinessModel db,Object data)</serialno>
+      <method>update</method>
+      <name>void update(BusinessModel db,Object data)</name>
+      <genericname>public void com.siqiansoft.framework.bo.DataSourceBo.update(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void prepareUpdate(BusinessModel db,Object data)</serialno>
+      <method>prepareUpdate</method>
+      <name>void prepareUpdate(BusinessModel db,Object data)</name>
+      <genericname>public void com.siqiansoft.framework.bo.DataSourceBo.prepareUpdate(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList prepareQuery(BusinessModel db,Object data)</serialno>
+      <method>prepareQuery</method>
+      <name>ArrayList prepareQuery(BusinessModel db,Object data)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.bo.DataSourceBo.prepareQuery(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRowByPK(BusinessModel db,String pk)</serialno>
+      <method>getRowByPK</method>
+      <name>HashMap getRowByPK(BusinessModel db,String pk)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.bo.DataSourceBo.getRowByPK(com.siqiansoft.framework.model.biz.BusinessModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>BusinessModel</type>
+          <code>db</code>
+          <name>db</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

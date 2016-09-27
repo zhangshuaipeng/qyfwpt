@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.grid.GridDispatcher</classname>
+  <code>GridDispatcher</code>
+  <name>GridDispatcher</name>
+  <packages>com.siqiansoft.framework.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}OiG2MkbP23yL7B9UzufPOQ==</crc>
+  <modifytime>2013-01-08 17:37:34</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>query(HttpServletRequest,HttpServletResponse,RequestModel)</serialno>
+      <method>query</method>
+      <name>query(HttpServletRequest,HttpServletResponse,RequestModel)</name>
+      <genericname>public static void com.siqiansoft.framework.grid.GridDispatcher.query(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.RequestModel) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletRequest</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletResponse</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.RequestModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>export(HttpServletRequest,HttpServletResponse,RequestModel)</serialno>
+      <method>export</method>
+      <name>export(HttpServletRequest,HttpServletResponse,RequestModel)</name>
+      <genericname>public static void com.siqiansoft.framework.grid.GridDispatcher.export(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.RequestModel) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletRequest</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletResponse</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.RequestModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>checkRecordSet(Object,PagingModel,LoginModel,String,GridModel)</serialno>
+      <method>checkRecordSet</method>
+      <name>checkRecordSet(Object,PagingModel,LoginModel,String,GridModel)</name>
+      <genericname>public static void com.siqiansoft.framework.grid.GridDispatcher.checkRecordSet(java.lang.Object,com.siqiansoft.framework.model.PagingModel,com.siqiansoft.framework.model.LoginModel,java.lang.String,com.siqiansoft.framework.model.grid.GridModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.Object</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.PagingModel</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.LoginModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p4</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.grid.GridModel</type>
+          <name>p5</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

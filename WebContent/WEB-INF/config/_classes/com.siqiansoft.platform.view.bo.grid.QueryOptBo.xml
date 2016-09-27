@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.QueryOptBo</classname>
+  <code>QueryOptBo</code>
+  <name>QueryOptBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}0pvE8ErFbXDTOFlO0fAxGg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void down(String system,String module,String gridid,String id)</serialno>
+      <method>down</method>
+      <name>void down(String system,String module,String gridid,String id)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.QueryOptBo.down(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String system,String module,String gridid,String id)</serialno>
+      <method>up</method>
+      <name>void up(String system,String module,String gridid,String id)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.QueryOptBo.up(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getDict(String system,String module,String type,String display)</serialno>
+      <method>getDict</method>
+      <name>ItemModel[] getDict(String system,String module,String type,String display)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.platform.view.bo.grid.QueryOptBo.getDict(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>QueryOptModel[] listQueryOpts(String system,String module,String gridid)</serialno>
+      <method>listQueryOpts</method>
+      <name>QueryOptModel[] listQueryOpts(String system,String module,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.QueryOptModel[] com.siqiansoft.platform.view.bo.grid.QueryOptBo.listQueryOpts(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>QueryOptModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addQueryOpt(String system,String module,String gridid,QueryOptModel opt)</serialno>
+      <method>addQueryOpt</method>
+      <name>void addQueryOpt(String system,String module,String gridid,QueryOptModel opt)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.QueryOptBo.addQueryOpt(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.QueryOptModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>QueryOptModel</type>
+          <code>opt</code>
+          <name>opt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>QueryOptModel getQueryOpt(String system,String module,String gridid,String id)</serialno>
+      <method>getQueryOpt</method>
+      <name>QueryOptModel getQueryOpt(String system,String module,String gridid,String id)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.QueryOptModel com.siqiansoft.platform.view.bo.grid.QueryOptBo.getQueryOpt(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>QueryOptModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateQueryOpt(String system,String module,String gridid,QueryOptModel opt)</serialno>
+      <method>updateQueryOpt</method>
+      <name>void updateQueryOpt(String system,String module,String gridid,QueryOptModel opt)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.QueryOptBo.updateQueryOpt(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.QueryOptModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>QueryOptModel</type>
+          <code>opt</code>
+          <name>opt</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteQueryOpts(String system,String module,String gridid,String[] selected)</serialno>
+      <method>deleteQueryOpts</method>
+      <name>void deleteQueryOpts(String system,String module,String gridid,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.QueryOptBo.deleteQueryOpts(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

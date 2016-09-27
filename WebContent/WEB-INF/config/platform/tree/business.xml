@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>TreeBo.getTree</code>
+    <name>getTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>getTree</item>
+    <script>TreeModel getTree(String system,String module,String treeid)</script>
+    <params>system,module,treeid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.listTrees</code>
+    <name>listTrees</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>listTrees</item>
+    <script>TreeModel[] listTrees(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.addTree</code>
+    <name>addTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>addTree</item>
+    <script>void addTree(String system,String module,TreeModel tree)</script>
+    <params>system,module,tree</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.updateTree</code>
+    <name>updateTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>updateTree</item>
+    <script>void updateTree(String system,String module,TreeModel tree)</script>
+    <params>system,module,tree</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.deleteTrees</code>
+    <name>deleteTrees</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>deleteTrees</item>
+    <script>void deleteTrees(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.getNodesDefine</code>
+    <name>getNodesDefine</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>getNodesDefine</item>
+    <script>ItemDefineModel getNodesDefine(String system,String module,String treeid)</script>
+    <params>system,module,treeid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.updateNodesDefine</code>
+    <name>updateNodesDefine</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>updateNodesDefine</item>
+    <script>void updateNodesDefine(String system,String module,String treeid,ItemDefineModel item)</script>
+    <params>system,module,treeid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.getNextNodeDefine</code>
+    <name>getNextNodeDefine</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>getNextNodeDefine</item>
+    <script>ItemDefineModel getNextNodeDefine(String system,String module,String treeid)</script>
+    <params>system,module,treeid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>TreeBo.updateNextNodeDefine</code>
+    <name>updateNextNodeDefine</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.TreeBo</catalog>
+    <item>updateNextNodeDefine</item>
+    <script>void updateNextNodeDefine(String system,String module,String treeid,ItemDefineModel item)</script>
+    <params>system,module,treeid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

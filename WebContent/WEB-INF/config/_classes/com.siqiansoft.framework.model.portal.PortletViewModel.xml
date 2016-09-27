@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.portal.PortletViewModel</classname>
+  <code>PortletViewModel</code>
+  <name>PortletViewModel</name>
+  <packages>com.siqiansoft.framework.model.portal</packages>
+  <type>pojo</type>
+  <crc>{MD5}fdW0Wv04XPJnpwjoy/Dh/g==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>OptionsModel[] getOptions()</serialno>
+      <method>getOptions</method>
+      <name>OptionsModel[] getOptions()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.OptionsModel[] com.siqiansoft.framework.model.portal.PortletViewModel.getOptions()</genericname>
+      <retclass>OptionsModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUrl(String url)</serialno>
+      <method>setUrl</method>
+      <name>void setUrl(String url)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUrl()</serialno>
+      <method>getUrl</method>
+      <name>String getUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeight()</serialno>
+      <method>getHeight</method>
+      <name>String getHeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getHeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOptions(OptionsModel[] options)</serialno>
+      <method>setOptions</method>
+      <name>void setOptions(OptionsModel[] options)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setOptions(com.siqiansoft.framework.model.portal.OptionsModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>OptionsModel[]</type>
+          <code>options</code>
+          <name>options</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCatalog()</serialno>
+      <method>getCatalog</method>
+      <name>String getCatalog()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getCatalog()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCatalog(String catalog)</serialno>
+      <method>setCatalog</method>
+      <name>void setCatalog(String catalog)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setCatalog(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeight(String height)</serialno>
+      <method>setHeight</method>
+      <name>void setHeight(String height)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setHeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>height</code>
+          <name>height</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableClose(String enableclose)</serialno>
+      <method>setEnableClose</method>
+      <name>void setEnableClose(String enableclose)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setEnableClose(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableclose</code>
+          <name>enableclose</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableClose()</serialno>
+      <method>getEnableClose</method>
+      <name>String getEnableClose()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getEnableClose()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableEdit(String enableedit)</serialno>
+      <method>setEnableEdit</method>
+      <name>void setEnableEdit(String enableedit)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setEnableEdit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableedit</code>
+          <name>enableedit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableEdit()</serialno>
+      <method>getEnableEdit</method>
+      <name>String getEnableEdit()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getEnableEdit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableReduce(String enablereduce)</serialno>
+      <method>setEnableReduce</method>
+      <name>void setEnableReduce(String enablereduce)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setEnableReduce(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablereduce</code>
+          <name>enablereduce</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableReduce()</serialno>
+      <method>getEnableReduce</method>
+      <name>String getEnableReduce()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getEnableReduce()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableRefresh(String enablerefresh)</serialno>
+      <method>setEnableRefresh</method>
+      <name>void setEnableRefresh(String enablerefresh)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setEnableRefresh(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablerefresh</code>
+          <name>enablerefresh</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableRefresh()</serialno>
+      <method>getEnableRefresh</method>
+      <name>String getEnableRefresh()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getEnableRefresh()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableLock(String enablelock)</serialno>
+      <method>setEnableLock</method>
+      <name>void setEnableLock(String enablelock)</name>
+      <genericname>public void com.siqiansoft.framework.model.portal.PortletViewModel.setEnableLock(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablelock</code>
+          <name>enablelock</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableLock()</serialno>
+      <method>getEnableLock</method>
+      <name>String getEnableLock()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.portal.PortletViewModel.getEnableLock()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>catalog</code>
+      <name>catalog</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>url</code>
+      <name>url</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableclose</code>
+      <name>enableclose</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableedit</code>
+      <name>enableedit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablereduce</code>
+      <name>enablereduce</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablerefresh</code>
+      <name>enablerefresh</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablelock</code>
+      <name>enablelock</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>height</code>
+      <name>height</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

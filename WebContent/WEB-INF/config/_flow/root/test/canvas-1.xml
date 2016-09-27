@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas max="24">
+  <item id="1" name="开始" type="node" nodetype="S" x="108.5" y="61.5"/>
+  <item id="17" name="结束" type="node" nodetype="E" x="110.5" y="250.5"/>
+  <item id="22" name="活动" type="node" nodetype="A" x="90" y="159"/>
+  <item id="23" name="路由" type="route" from="1" to="22"/>
+  <item id="24" name="路由" type="route" from="22" to="17"/>
+</canvas>

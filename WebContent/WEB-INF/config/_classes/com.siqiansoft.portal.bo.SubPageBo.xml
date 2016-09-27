@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.portal.bo.SubPageBo</classname>
+  <code>SubPageBo</code>
+  <name>SubPageBo</name>
+  <packages>com.siqiansoft.portal.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}usXO/f9WmEDwq6BVX5dNBQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>SubPageModel[] listSubPages()</serialno>
+      <method>listSubPages</method>
+      <name>SubPageModel[] listSubPages()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.SubPageModel[] com.siqiansoft.portal.bo.SubPageBo.listSubPages() throws java.lang.Exception</genericname>
+      <retclass>SubPageModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addSubPage(SubPageModel page)</serialno>
+      <method>addSubPage</method>
+      <name>void addSubPage(SubPageModel page)</name>
+      <genericname>public void com.siqiansoft.portal.bo.SubPageBo.addSubPage(com.siqiansoft.framework.model.portal.SubPageModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>SubPageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>SubPageModel getSubPage(String code)</serialno>
+      <method>getSubPage</method>
+      <name>SubPageModel getSubPage(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.SubPageModel com.siqiansoft.portal.bo.SubPageBo.getSubPage(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>SubPageModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSubPage(SubPageModel page)</serialno>
+      <method>updateSubPage</method>
+      <name>void updateSubPage(SubPageModel page)</name>
+      <genericname>public void com.siqiansoft.portal.bo.SubPageBo.updateSubPage(com.siqiansoft.framework.model.portal.SubPageModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>SubPageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteSubPages(String[] selected)</serialno>
+      <method>deleteSubPages</method>
+      <name>void deleteSubPages(String[] selected)</name>
+      <genericname>public void com.siqiansoft.portal.bo.SubPageBo.deleteSubPages(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

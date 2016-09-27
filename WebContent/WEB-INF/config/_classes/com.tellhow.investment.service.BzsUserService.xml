@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.service.BzsUserService</classname>
+  <code>BzsUserService</code>
+  <name>BzsUserService</name>
+  <packages>com.tellhow.investment.service</packages>
+  <type>biz</type>
+  <crc>{MD5}PYpuycT19uN/ZzytQv+6Gw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel retriveGroupMember(LoginModel login,String box)</serialno>
+      <method>retriveGroupMember</method>
+      <name>NodeModel retriveGroupMember(LoginModel login,String box)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.tellhow.investment.service.BzsUserService.retriveGroupMember(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

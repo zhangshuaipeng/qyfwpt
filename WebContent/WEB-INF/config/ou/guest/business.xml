@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_account</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <script>select * from eap_account where deptcode=&apos;GUEST&apos;</script>
+    <metadata>EAP_ACCOUNT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_account</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <metadata>EAP_ACCOUNT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.createAccount</code>
+    <name>createAccount</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>createAccount</item>
+    <script>void createAccount(AccountModel account)</script>
+    <params>account</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.updateAccount</code>
+    <name>updateAccount</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>updateAccount</item>
+    <script>void updateAccount(AccountModel act)</script>
+    <params>act</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.deleteAccounts</code>
+    <name>deleteAccounts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>deleteAccounts</item>
+    <script>void deleteAccounts(String[] pks)</script>
+    <params>pks</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

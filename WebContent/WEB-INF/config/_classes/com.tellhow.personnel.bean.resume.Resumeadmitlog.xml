@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.resume.Resumeadmitlog</classname>
+  <code>Resumeadmitlog</code>
+  <name>Resumeadmitlog</name>
+  <packages>com.tellhow.personnel.bean.resume</packages>
+  <type>biz</type>
+  <crc>{MD5}Z7G3tn7KPiOdMNTTsqCDow==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getReason()</serialno>
+      <method>getReason</method>
+      <name>long getReason()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Resumeadmitlog.getReason()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Resumeadmitlog.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Resumeadmitlog.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Resumeadmitlog.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatecode(String createcode)</serialno>
+      <method>setCreatecode</method>
+      <name>void setCreatecode(String createcode)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setCreatecode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createcode</code>
+          <name>createcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatetime(String createtime)</serialno>
+      <method>setCreatetime</method>
+      <name>void setCreatetime(String createtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setCreatetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createtime</code>
+          <name>createtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatetime()</serialno>
+      <method>getCreatetime</method>
+      <name>String getCreatetime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Resumeadmitlog.getCreatetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatecode()</serialno>
+      <method>getCreatecode</method>
+      <name>String getCreatecode()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Resumeadmitlog.getCreatecode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(long reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(long reason)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setReason(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeadmitlogid()</serialno>
+      <method>getResumeadmitlogid</method>
+      <name>long getResumeadmitlogid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Resumeadmitlog.getResumeadmitlogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeadmitlogid(long resumeadmitlogid)</serialno>
+      <method>setResumeadmitlogid</method>
+      <name>void setResumeadmitlogid(long resumeadmitlogid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Resumeadmitlog.setResumeadmitlogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeadmitlogid</code>
+          <name>resumeadmitlogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

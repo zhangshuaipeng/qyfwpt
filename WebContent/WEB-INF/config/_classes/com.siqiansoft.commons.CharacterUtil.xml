@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.CharacterUtil</classname>
+  <code>CharacterUtil</code>
+  <name>CharacterUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}qjJ5AfISfXxeajW7hwgjNw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String unescape(String s)</serialno>
+      <method>unescape</method>
+      <name>String unescape(String s)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.unescape(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String ISO2UTF8(String sSrc)</serialno>
+      <method>ISO2UTF8</method>
+      <name>String ISO2UTF8(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.ISO2UTF8(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String byte2Hex(byte[] b)</serialno>
+      <method>byte2Hex</method>
+      <name>String byte2Hex(byte[] b)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.byte2Hex(byte[])</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>b</code>
+          <name>b</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String ISO2GB(String sSrc)</serialno>
+      <method>ISO2GB</method>
+      <name>String ISO2GB(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.ISO2GB(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String UTF2ISO(String sSrc)</serialno>
+      <method>UTF2ISO</method>
+      <name>String UTF2ISO(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.UTF2ISO(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String UTF2GB(String sSrc)</serialno>
+      <method>UTF2GB</method>
+      <name>String UTF2GB(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.UTF2GB(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String GB2ISO(String sSrc)</serialno>
+      <method>GB2ISO</method>
+      <name>String GB2ISO(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.GB2ISO(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String GB2UTF8(String sSrc)</serialno>
+      <method>GB2UTF8</method>
+      <name>String GB2UTF8(String sSrc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.GB2UTF8(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sSrc</code>
+          <name>sSrc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String UTF8toGBK(String strUTF8)</serialno>
+      <method>UTF8toGBK</method>
+      <name>String UTF8toGBK(String strUTF8)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.UTF8toGBK(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strUTF8</code>
+          <name>strUTF8</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String toUtf8String(String str)</serialno>
+      <method>toUtf8String</method>
+      <name>String toUtf8String(String str)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.CharacterUtil.toUtf8String(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

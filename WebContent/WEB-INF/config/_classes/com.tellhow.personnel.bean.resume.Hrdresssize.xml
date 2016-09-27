@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.resume.Hrdresssize</classname>
+  <code>Hrdresssize</code>
+  <name>Hrdresssize</name>
+  <packages>com.tellhow.personnel.bean.resume</packages>
+  <type>biz</type>
+  <crc>{MD5}QB+x1oT4ch1gvp/T96q0tA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setDresssize(long dresssize)</serialno>
+      <method>setDresssize</method>
+      <name>void setDresssize(long dresssize)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Hrdresssize.setDresssize(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dresssize</code>
+          <name>dresssize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Hrdresssize.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Hrdresssize.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Hrdresssize.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDresssize()</serialno>
+      <method>getDresssize</method>
+      <name>long getDresssize()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Hrdresssize.getDresssize()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Hrdresssize.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDresssizeid()</serialno>
+      <method>getDresssizeid</method>
+      <name>long getDresssizeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Hrdresssize.getDresssizeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDresssizeid(long dresssizeid)</serialno>
+      <method>setDresssizeid</method>
+      <name>void setDresssizeid(long dresssizeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Hrdresssize.setDresssizeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dresssizeid</code>
+          <name>dresssizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

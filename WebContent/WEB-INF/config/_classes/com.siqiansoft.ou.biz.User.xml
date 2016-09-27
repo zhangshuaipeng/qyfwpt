@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.User</classname>
+  <code>User</code>
+  <name>User</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}O94d2BdiRFTaHpcEsmjE/Q==</crc>
+  <modifytime>2013-04-09 01:25:14</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRights(String orgCode,String userCode)</serialno>
+      <method>getRights</method>
+      <name>HashMap getRights(String orgCode,String userCode)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.ou.biz.User.getRights(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRights(String orgCode,String userCode,String selected)</serialno>
+      <method>saveRights</method>
+      <name>void saveRights(String orgCode,String userCode,String selected)</name>
+      <genericname>public void com.siqiansoft.ou.biz.User.saveRights(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel[] getUserRole(String orgCode,String userCode)</serialno>
+      <method>getUserRole</method>
+      <name>RoleModel[] getUserRole(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel[] com.siqiansoft.ou.biz.User.getUserRole(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel[] getUnselectedRole(String orgCode,String userCode)</serialno>
+      <method>getUnselectedRole</method>
+      <name>RoleModel[] getUnselectedRole(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel[] com.siqiansoft.ou.biz.User.getUnselectedRole(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateAccount(AccountModel account)</serialno>
+      <method>updateAccount</method>
+      <name>void updateAccount(AccountModel account)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.User.updateAccount(com.siqiansoft.ou.model.AccountModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>AccountModel</type>
+          <code>account</code>
+          <name>account</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteAccount(String pk)</serialno>
+      <method>deleteAccount</method>
+      <name>void deleteAccount(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.User.deleteAccount(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteAccounts(String[] pk)</serialno>
+      <method>deleteAccounts</method>
+      <name>void deleteAccounts(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.User.deleteAccounts(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getAccountByPK(String pk)</serialno>
+      <method>getAccountByPK</method>
+      <name>AccountModel getAccountByPK(String pk)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.biz.User.getAccountByPK(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getAccountList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getAccountList</method>
+      <name>AccountModel[] getAccountList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.biz.User.getAccountList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getDeptUserTree(LoginModel login,String box)</serialno>
+      <method>getDeptUserTree</method>
+      <name>NodeModel getDeptUserTree(LoginModel login,String box)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.ou.biz.User.getDeptUserTree(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

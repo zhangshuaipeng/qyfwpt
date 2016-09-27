@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.service.EtpReportService</classname>
+  <code>EtpReportService</code>
+  <name>EtpReportService</name>
+  <packages>com.tellhow.createetp.service</packages>
+  <type>biz</type>
+  <crc>{MD5}CMLJPSnb1lIxbMnUkfrWng==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List fetchRptNormalGatherData(HttpServletRequest request,JqgridPager pager,boolean byPage)</serialno>
+      <method>fetchRptNormalGatherData</method>
+      <name>List fetchRptNormalGatherData(HttpServletRequest request,JqgridPager pager,boolean byPage)</name>
+      <genericname>public java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.createetp.service.EtpReportService.fetchRptNormalGatherData(javax.servlet.http.HttpServletRequest,com.tellhow.jqgrid.bean.JqgridPager,boolean) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>byPage</code>
+          <name>byPage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModel fetchRptNormalGatherModelForXls()</serialno>
+      <method>fetchRptNormalGatherModelForXls</method>
+      <name>JqgridModel fetchRptNormalGatherModelForXls()</name>
+      <genericname>public com.tellhow.jqgrid.bean.JqgridModel com.tellhow.createetp.service.EtpReportService.fetchRptNormalGatherModelForXls() throws java.lang.Exception</genericname>
+      <retclass>JqgridModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModelVo fetchRptNormalGatherModel()</serialno>
+      <method>fetchRptNormalGatherModel</method>
+      <name>JqgridModelVo fetchRptNormalGatherModel()</name>
+      <genericname>public com.tellhow.jqgrid.vo.JqgridModelVo com.tellhow.createetp.service.EtpReportService.fetchRptNormalGatherModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModelVo</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.LoginUtil</classname>
+  <code>LoginUtil</code>
+  <name>LoginUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}t+SsHWaYR+ph6VUWFW+epg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean isRole(LoginModel login,String role)</serialno>
+      <method>isRole</method>
+      <name>boolean isRole(LoginModel login,String role)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.isRole(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LoginModel getLoginObject(HttpServletRequest request)</serialno>
+      <method>getLoginObject</method>
+      <name>LoginModel getLoginObject(HttpServletRequest request)</name>
+      <genericname>public static com.siqiansoft.framework.model.LoginModel com.siqiansoft.framework.util.LoginUtil.getLoginObject(javax.servlet.http.HttpServletRequest)</genericname>
+      <retclass>LoginModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loginCheck(HttpServletRequest request,HttpServletResponse response,RequestModel req)</serialno>
+      <method>loginCheck</method>
+      <name>void loginCheck(HttpServletRequest request,HttpServletResponse response,RequestModel req)</name>
+      <genericname>public static void com.siqiansoft.framework.util.LoginUtil.loginCheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void switchAccount(HttpServletRequest request)</serialno>
+      <method>switchAccount</method>
+      <name>void switchAccount(HttpServletRequest request)</name>
+      <genericname>public static void com.siqiansoft.framework.util.LoginUtil.switchAccount(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePwd(HttpServletRequest request,RequestModel req)</serialno>
+      <method>updatePwd</method>
+      <name>void updatePwd(HttpServletRequest request,RequestModel req)</name>
+      <genericname>public static void com.siqiansoft.framework.util.LoginUtil.updatePwd(javax.servlet.http.HttpServletRequest,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePwd(String personCode,String password)</serialno>
+      <method>updatePwd</method>
+      <name>void updatePwd(String personCode,String password)</name>
+      <genericname>public static void com.siqiansoft.framework.util.LoginUtil.updatePwd(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>personCode</code>
+          <name>personCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>password</code>
+          <name>password</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void checkAuthority(HttpServletRequest request,HttpServletResponse response,String authority,String roles)</serialno>
+      <method>checkAuthority</method>
+      <name>void checkAuthority(HttpServletRequest request,HttpServletResponse response,String authority,String roles)</name>
+      <genericname>public static void com.siqiansoft.framework.util.LoginUtil.checkAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>authority</code>
+          <name>authority</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roles</code>
+          <name>roles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existRelatedAccount(HttpServletRequest request)</serialno>
+      <method>existRelatedAccount</method>
+      <name>boolean existRelatedAccount(HttpServletRequest request)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.existRelatedAccount(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getRelatedAccount(LoginModel login)</serialno>
+      <method>getRelatedAccount</method>
+      <name>ArrayList getRelatedAccount(LoginModel login)</name>
+      <genericname>public static java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.util.LoginUtil.getRelatedAccount(com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getRelatedAccount(HttpServletRequest request)</serialno>
+      <method>getRelatedAccount</method>
+      <name>ArrayList getRelatedAccount(HttpServletRequest request)</name>
+      <genericname>public static java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.util.LoginUtil.getRelatedAccount(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LoginModel getLoginByUserCode(String userCode)</serialno>
+      <method>getLoginByUserCode</method>
+      <name>LoginModel getLoginByUserCode(String userCode)</name>
+      <genericname>public static com.siqiansoft.framework.model.LoginModel com.siqiansoft.framework.util.LoginUtil.getLoginByUserCode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LoginModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LoginModel getLoginByUserCode(String orgCode,String userCode)</serialno>
+      <method>getLoginByUserCode</method>
+      <name>LoginModel getLoginByUserCode(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.framework.model.LoginModel com.siqiansoft.framework.util.LoginUtil.getLoginByUserCode(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LoginModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEncryptPwd(String password)</serialno>
+      <method>getEncryptPwd</method>
+      <name>String getEncryptPwd(String password)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.LoginUtil.getEncryptPwd(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>password</code>
+          <name>password</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isPosition(LoginModel login,String position)</serialno>
+      <method>isPosition</method>
+      <name>boolean isPosition(LoginModel login,String position)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.isPosition(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isGroup(LoginModel login,String group)</serialno>
+      <method>isGroup</method>
+      <name>boolean isGroup(LoginModel login,String group)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.isGroup(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isDept(LoginModel login,String dept)</serialno>
+      <method>isDept</method>
+      <name>boolean isDept(LoginModel login,String dept)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.isDept(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isUser(LoginModel login,String user)</serialno>
+      <method>isUser</method>
+      <name>boolean isUser(LoginModel login,String user)</name>
+      <genericname>public static boolean com.siqiansoft.framework.util.LoginUtil.isUser(com.siqiansoft.framework.model.LoginModel,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>user</code>
+          <name>user</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

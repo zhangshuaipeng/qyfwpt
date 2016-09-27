@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.RequestModel</classname>
+  <code>RequestModel</code>
+  <name>RequestModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}aGK1GsmG6qdKonL5HksEOQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getKey()</serialno>
+      <method>getKey</method>
+      <name>String getKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMessage()</serialno>
+      <method>getMessage</method>
+      <name>String getMessage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getMessage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTable(String table)</serialno>
+      <method>setTable</method>
+      <name>void setTable(String table)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setTable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getData()</serialno>
+      <method>getData</method>
+      <name>HashMap getData()</name>
+      <genericname>public java.util.HashMap com.siqiansoft.framework.model.RequestModel.getData()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTable()</serialno>
+      <method>getTable</method>
+      <name>String getTable()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getTable()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getResult()</serialno>
+      <method>getResult</method>
+      <name>String getResult()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getResult()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAction()</serialno>
+      <method>getAction</method>
+      <name>String getAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setKey(String key)</serialno>
+      <method>setKey</method>
+      <name>void setKey(String key)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMessage(String message)</serialno>
+      <method>setMessage</method>
+      <name>void setMessage(String message)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setMessage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>message</code>
+          <name>message</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModule()</serialno>
+      <method>getModule</method>
+      <name>String getModule()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getModule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setData(HashMap data)</serialno>
+      <method>setData</method>
+      <name>void setData(HashMap data)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setData(java.util.HashMap)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAction(String action)</serialno>
+      <method>setAction</method>
+      <name>void setAction(String action)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResult(String result)</serialno>
+      <method>setResult</method>
+      <name>void setResult(String result)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setResult(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>result</code>
+          <name>result</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCallback()</serialno>
+      <method>getCallback</method>
+      <name>String getCallback()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getCallback()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInstanceId(String instanceid)</serialno>
+      <method>setInstanceId</method>
+      <name>void setInstanceId(String instanceid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setInstanceId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceid</code>
+          <name>instanceid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInstanceId()</serialno>
+      <method>getInstanceId</method>
+      <name>String getInstanceId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getInstanceId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowId(String rowid)</serialno>
+      <method>setRowId</method>
+      <name>void setRowId(String rowid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setRowId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowid</code>
+          <name>rowid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowId()</serialno>
+      <method>getRowId</method>
+      <name>String getRowId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getRowId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeId()</serialno>
+      <method>getNodeId</method>
+      <name>String getNodeId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getNodeId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSelected(String[] selected)</serialno>
+      <method>setSelected</method>
+      <name>void setSelected(String[] selected)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setSelected(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModule(String module)</serialno>
+      <method>setModule</method>
+      <name>void setModule(String module)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setModule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPortletId(String portlet)</serialno>
+      <method>setPortletId</method>
+      <name>void setPortletId(String portlet)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setPortletId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>portlet</code>
+          <name>portlet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFieldSet()</serialno>
+      <method>getFieldSet</method>
+      <name>String getFieldSet()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getFieldSet()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPageId()</serialno>
+      <method>getPageId</method>
+      <name>String getPageId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getPageId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPid(String pid)</serialno>
+      <method>setPid</method>
+      <name>void setPid(String pid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setPid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pid</code>
+          <name>pid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPid()</serialno>
+      <method>getPid</method>
+      <name>String getPid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getPid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWordText(String wordtext)</serialno>
+      <method>setWordText</method>
+      <name>void setWordText(String wordtext)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setWordText(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wordtext</code>
+          <name>wordtext</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWordText()</serialno>
+      <method>getWordText</method>
+      <name>String getWordText()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getWordText()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFieldSet(String fieldset)</serialno>
+      <method>setFieldSet</method>
+      <name>void setFieldSet(String fieldset)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setFieldSet(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRets(String rets)</serialno>
+      <method>setRets</method>
+      <name>void setRets(String rets)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setRets(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rets</code>
+          <name>rets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRets()</serialno>
+      <method>getRets</method>
+      <name>String getRets()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getRets()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJsOnSubmit(String jsonsubmit)</serialno>
+      <method>setJsOnSubmit</method>
+      <name>void setJsOnSubmit(String jsonsubmit)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setJsOnSubmit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonsubmit</code>
+          <name>jsonsubmit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsOnSubmit()</serialno>
+      <method>getJsOnSubmit</method>
+      <name>String getJsOnSubmit()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getJsOnSubmit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJsOnload(String jsonload)</serialno>
+      <method>setJsOnload</method>
+      <name>void setJsOnload(String jsonload)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setJsOnload(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonload</code>
+          <name>jsonload</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsOnload()</serialno>
+      <method>getJsOnload</method>
+      <name>String getJsOnload()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getJsOnload()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCallback(String callback)</serialno>
+      <method>setCallback</method>
+      <name>void setCallback(String callback)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setCallback(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>callback</code>
+          <name>callback</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowsPerPage(String rowsperpage)</serialno>
+      <method>setRowsPerPage</method>
+      <name>void setRowsPerPage(String rowsperpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setRowsPerPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rowsperpage</code>
+          <name>rowsperpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRowsPerPage()</serialno>
+      <method>getRowsPerPage</method>
+      <name>String getRowsPerPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getRowsPerPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBox(String box)</serialno>
+      <method>setBox</method>
+      <name>void setBox(String box)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setBox(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBox()</serialno>
+      <method>getBox</method>
+      <name>String getBox()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getBox()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActionId(String actionid)</serialno>
+      <method>setActionId</method>
+      <name>void setActionId(String actionid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setActionId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actionid</code>
+          <name>actionid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActionId()</serialno>
+      <method>getActionId</method>
+      <name>String getActionId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getActionId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWid(String wid)</serialno>
+      <method>setWid</method>
+      <name>void setWid(String wid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setWid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageId(String pageid)</serialno>
+      <method>setPageId</method>
+      <name>void setPageId(String pageid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setPageId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pageid</code>
+          <name>pageid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeId(String nodeid)</serialno>
+      <method>setNodeId</method>
+      <name>void setNodeId(String nodeid)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setNodeId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNextNodes(String nextnodes)</serialno>
+      <method>setNextNodes</method>
+      <name>void setNextNodes(String nextnodes)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setNextNodes(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextnodes</code>
+          <name>nextnodes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNextActors(String nextactors)</serialno>
+      <method>setNextActors</method>
+      <name>void setNextActors(String nextactors)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setNextActors(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextactors</code>
+          <name>nextactors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlowData(String flowdata)</serialno>
+      <method>setFlowData</method>
+      <name>void setFlowData(String flowdata)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setFlowData(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowdata</code>
+          <name>flowdata</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkData(String workdata)</serialno>
+      <method>setWorkData</method>
+      <name>void setWorkData(String workdata)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setWorkData(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workdata</code>
+          <name>workdata</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCC(String cc)</serialno>
+      <method>setCC</method>
+      <name>void setCC(String cc)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setCC(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cc</code>
+          <name>cc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeAdm(String nodeadm)</serialno>
+      <method>setNodeAdm</method>
+      <name>void setNodeAdm(String nodeadm)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setNodeAdm(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeadm</code>
+          <name>nodeadm</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSubActors(String subactors)</serialno>
+      <method>setSubActors</method>
+      <name>void setSubActors(String subactors)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setSubActors(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>subactors</code>
+          <name>subactors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getSelected()</serialno>
+      <method>getSelected</method>
+      <name>String[] getSelected()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.RequestModel.getSelected()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCurPage(String curpage)</serialno>
+      <method>setCurPage</method>
+      <name>void setCurPage(String curpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setCurPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>curpage</code>
+          <name>curpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCurPage()</serialno>
+      <method>getCurPage</method>
+      <name>String getCurPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getCurPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWid()</serialno>
+      <method>getWid</method>
+      <name>String getWid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getWid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextNodes()</serialno>
+      <method>getNextNodes</method>
+      <name>String getNextNodes()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getNextNodes()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextActors()</serialno>
+      <method>getNextActors</method>
+      <name>String getNextActors()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getNextActors()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowData()</serialno>
+      <method>getFlowData</method>
+      <name>String getFlowData()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getFlowData()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkData()</serialno>
+      <method>getWorkData</method>
+      <name>String getWorkData()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getWorkData()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCC()</serialno>
+      <method>getCC</method>
+      <name>String getCC()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getCC()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeAdm()</serialno>
+      <method>getNodeAdm</method>
+      <name>String getNodeAdm()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getNodeAdm()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSubActors()</serialno>
+      <method>getSubActors</method>
+      <name>String getSubActors()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getSubActors()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setForward(String forward)</serialno>
+      <method>setForward</method>
+      <name>void setForward(String forward)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.setForward(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>forward</code>
+          <name>forward</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getForward()</serialno>
+      <method>getForward</method>
+      <name>String getForward()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getForward()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPortletId()</serialno>
+      <method>getPortletId</method>
+      <name>String getPortletId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.RequestModel.getPortletId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void appendOnLoadJS(String script)</serialno>
+      <method>appendOnLoadJS</method>
+      <name>void appendOnLoadJS(String script)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.appendOnLoadJS(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void appendOnSubmitJS(String script)</serialno>
+      <method>appendOnSubmitJS</method>
+      <name>void appendOnSubmitJS(String script)</name>
+      <genericname>public void com.siqiansoft.framework.model.RequestModel.appendOnSubmitJS(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pid</code>
+      <name>pid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>module</code>
+      <name>module</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>action</code>
+      <name>action</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>table</code>
+      <name>table</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>message</code>
+      <name>message</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>fieldset</code>
+      <name>fieldset</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowsperpage</code>
+      <name>rowsperpage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>curpage</code>
+      <name>curpage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>key</code>
+      <name>key</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>box</code>
+      <name>box</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>wid</code>
+      <name>wid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>instanceid</code>
+      <name>instanceid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodeid</code>
+      <name>nodeid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nextnodes</code>
+      <name>nextnodes</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nextactors</code>
+      <name>nextactors</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>flowdata</code>
+      <name>flowdata</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>workdata</code>
+      <name>workdata</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cc</code>
+      <name>cc</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nodeadm</code>
+      <name>nodeadm</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>subactors</code>
+      <name>subactors</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pageid</code>
+      <name>pageid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actionid</code>
+      <name>actionid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>wordtext</code>
+      <name>wordtext</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowid</code>
+      <name>rowid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rets</code>
+      <name>rets</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>callback</code>
+      <name>callback</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>result</code>
+      <name>result</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jsonload</code>
+      <name>jsonload</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jsonsubmit</code>
+      <name>jsonsubmit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>forward</code>
+      <name>forward</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>portletid</code>
+      <name>portletid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

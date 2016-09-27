@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.ReadonlyTag</classname>
+  <code>ReadonlyTag</code>
+  <name>ReadonlyTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}pdnv9YYaxYfTxfqHyO7zbQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequired(String required)</serialno>
+      <method>setRequired</method>
+      <name>void setRequired(String required)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setRequired(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>required</code>
+          <name>required</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRequired()</serialno>
+      <method>getRequired</method>
+      <name>String getRequired()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getRequired()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLink()</serialno>
+      <method>getLink</method>
+      <name>String getLink()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getLink()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLink(String link)</serialno>
+      <method>setLink</method>
+      <name>void setLink(String link)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setLink(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>link</code>
+          <name>link</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyle()</serialno>
+      <method>getStyle</method>
+      <name>String getStyle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getStyle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyle(String style)</serialno>
+      <method>setStyle</method>
+      <name>void setStyle(String style)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setStyle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>style</code>
+          <name>style</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnbitted(String unbitted)</serialno>
+      <method>setUnbitted</method>
+      <name>void setUnbitted(String unbitted)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setUnbitted(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unbitted</code>
+          <name>unbitted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnbitted()</serialno>
+      <method>getUnbitted</method>
+      <name>String getUnbitted()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getUnbitted()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.ReadonlyTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaultv(String defaultv)</serialno>
+      <method>setDefaultv</method>
+      <name>void setDefaultv(String defaultv)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setDefaultv(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultv()</serialno>
+      <method>getDefaultv</method>
+      <name>String getDefaultv()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getDefaultv()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDatatype(String datatype)</serialno>
+      <method>setDatatype</method>
+      <name>void setDatatype(String datatype)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setDatatype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>datatype</code>
+          <name>datatype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDatatype()</serialno>
+      <method>getDatatype</method>
+      <name>String getDatatype()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getDatatype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMaxlength(int maxlength)</serialno>
+      <method>setMaxlength</method>
+      <name>void setMaxlength(int maxlength)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setMaxlength(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>maxlength</code>
+          <name>maxlength</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getMaxlength()</serialno>
+      <method>getMaxlength</method>
+      <name>int getMaxlength()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.ReadonlyTag.getMaxlength()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStyleclass(String styleclass)</serialno>
+      <method>setStyleclass</method>
+      <name>void setStyleclass(String styleclass)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.ReadonlyTag.setStyleclass(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>styleclass</code>
+          <name>styleclass</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStyleclass()</serialno>
+      <method>getStyleclass</method>
+      <name>String getStyleclass()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.ReadonlyTag.getStyleclass()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

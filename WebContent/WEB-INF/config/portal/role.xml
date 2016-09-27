@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ItemModel-array>
+  <model.ItemModel>
+    <name>portal</name>
+    <value>门户管理员</value>
+  </model.ItemModel>
+</model.ItemModel-array>

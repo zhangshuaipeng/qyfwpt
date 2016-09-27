@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.bean.LandProgress</classname>
+  <code>LandProgress</code>
+  <name>LandProgress</name>
+  <packages>com.tellhow.investment.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}fOmQ1Seja9I0WT0zZefemQ==</crc>
+  <modifytime>2013-04-26 10:19:33</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.investment.bean.LandProgress.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgress.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgress.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgress.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProgressID()</serialno>
+      <method>getProgressID</method>
+      <name>long getProgressID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgress.getProgressID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProgressID(long progressID)</serialno>
+      <method>setProgressID</method>
+      <name>void setProgressID(long progressID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setProgressID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>progressID</code>
+          <name>progressID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getNodeID()</serialno>
+      <method>getNodeID</method>
+      <name>long getNodeID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgress.getNodeID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeID(long nodeID)</serialno>
+      <method>setNodeID</method>
+      <name>void setNodeID(long nodeID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setNodeID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>nodeID</code>
+          <name>nodeID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProgressType()</serialno>
+      <method>getProgressType</method>
+      <name>int getProgressType()</name>
+      <genericname>public int com.tellhow.investment.bean.LandProgress.getProgressType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProgressType(int progressType)</serialno>
+      <method>setProgressType</method>
+      <name>void setProgressType(int progressType)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setProgressType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>progressType</code>
+          <name>progressType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTransactionDate()</serialno>
+      <method>getTransactionDate</method>
+      <name>String getTransactionDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgress.getTransactionDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTransactionDate(String transactionDate)</serialno>
+      <method>setTransactionDate</method>
+      <name>void setTransactionDate(String transactionDate)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setTransactionDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>transactionDate</code>
+          <name>transactionDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorName()</serialno>
+      <method>getOperatorName</method>
+      <name>String getOperatorName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgress.getOperatorName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorName(String operatorName)</serialno>
+      <method>setOperatorName</method>
+      <name>void setOperatorName(String operatorName)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setOperatorName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorName</code>
+          <name>operatorName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperateDate()</serialno>
+      <method>getOperateDate</method>
+      <name>String getOperateDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.bean.LandProgress.getOperateDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperateDate(String operateDate)</serialno>
+      <method>setOperateDate</method>
+      <name>void setOperateDate(String operateDate)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setOperateDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operateDate</code>
+          <name>operateDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getAttachID()</serialno>
+      <method>getAttachID</method>
+      <name>long getAttachID()</name>
+      <genericname>public long com.tellhow.investment.bean.LandProgress.getAttachID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachID(long attachID)</serialno>
+      <method>setAttachID</method>
+      <name>void setAttachID(long attachID)</name>
+      <genericname>public void com.tellhow.investment.bean.LandProgress.setAttachID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>attachID</code>
+          <name>attachID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>todo</code>
+    <name>待办列表</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_TODO</item>
+    <script>select * from eap_vw_todo where actiontype!=&apos;W&apos;</script>
+    <metadata>EAP_VW_TODO</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

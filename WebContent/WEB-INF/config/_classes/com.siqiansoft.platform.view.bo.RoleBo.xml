@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.RoleBo</classname>
+  <code>RoleBo</code>
+  <name>RoleBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}5i7AIVmP8KRKu0nIi8SqNg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getRoles(String system)</serialno>
+      <method>getRoles</method>
+      <name>ItemModel[] getRoles(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.platform.view.bo.RoleBo.getRoles(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addRole(String system,ItemModel role)</serialno>
+      <method>addRole</method>
+      <name>void addRole(String system,ItemModel role)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RoleBo.addRole(java.lang.String,com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel getRole(String code)</serialno>
+      <method>getRole</method>
+      <name>ItemModel getRole(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel com.siqiansoft.platform.view.bo.RoleBo.getRole(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRole(String system,ItemModel role)</serialno>
+      <method>updateRole</method>
+      <name>void updateRole(String system,ItemModel role)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RoleBo.updateRole(java.lang.String,com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] listRoles(String system)</serialno>
+      <method>listRoles</method>
+      <name>ItemModel[] listRoles(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.platform.view.bo.RoleBo.listRoles(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getRightRoles(String system,String module,String action)</serialno>
+      <method>getRightRoles</method>
+      <name>ItemModel[] getRightRoles(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.platform.view.bo.RoleBo.getRightRoles(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRole(String system,String[] roles)</serialno>
+      <method>deleteRole</method>
+      <name>void deleteRole(String system,String[] roles)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RoleBo.deleteRole(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>roles</code>
+          <name>roles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

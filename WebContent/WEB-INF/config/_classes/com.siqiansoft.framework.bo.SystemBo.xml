@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.bo.SystemBo</classname>
+  <code>SystemBo</code>
+  <name>SystemBo</name>
+  <packages>com.siqiansoft.framework.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}N7EFsFMMNaEUh0jT9mn3jw==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNavigator(LoginModel login)</serialno>
+      <method>getNavigator</method>
+      <name>NodeModel getNavigator(LoginModel login)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.framework.bo.SystemBo.getNavigator(com.siqiansoft.framework.model.LoginModel)</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

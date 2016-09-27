@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.model.DictionaryModel</classname>
+  <code>DictionaryModel</code>
+  <name>DictionaryModel</name>
+  <packages>com.siqiansoft.model</packages>
+  <type>biz</type>
+  <crc>{MD5}Jh19iXqOYCluWChv1GBCMQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getSystemId()</serialno>
+      <method>getSystemId</method>
+      <name>String getSystemId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getSystemId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystemId(String systemid)</serialno>
+      <method>setSystemId</method>
+      <name>void setSystemId(String systemid)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setSystemId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemid</code>
+          <name>systemid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getKeyName()</serialno>
+      <method>getKeyName</method>
+      <name>String getKeyName()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getKeyName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setKeyName(String keyname)</serialno>
+      <method>setKeyName</method>
+      <name>void setKeyName(String keyname)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setKeyName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>keyname</code>
+          <name>keyname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.model.DictionaryModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAccessKey(String accesskey)</serialno>
+      <method>setAccessKey</method>
+      <name>void setAccessKey(String accesskey)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setAccessKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>accesskey</code>
+          <name>accesskey</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAccessKey()</serialno>
+      <method>getAccessKey</method>
+      <name>String getAccessKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getAccessKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeprecated(String deprecated)</serialno>
+      <method>setDeprecated</method>
+      <name>void setDeprecated(String deprecated)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setDeprecated(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deprecated</code>
+          <name>deprecated</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeprecated()</serialno>
+      <method>getDeprecated</method>
+      <name>String getDeprecated()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getDeprecated()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCatalogId(String catalogid)</serialno>
+      <method>setCatalogId</method>
+      <name>void setCatalogId(String catalogid)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setCatalogId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalogid</code>
+          <name>catalogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCatalogId()</serialno>
+      <method>getCatalogId</method>
+      <name>String getCatalogId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getCatalogId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setKeyValue(String keyvalue)</serialno>
+      <method>setKeyValue</method>
+      <name>void setKeyValue(String keyvalue)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setKeyValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>keyvalue</code>
+          <name>keyvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getKeyValue()</serialno>
+      <method>getKeyValue</method>
+      <name>String getKeyValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.DictionaryModel.getKeyValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSN(int sn)</serialno>
+      <method>setSN</method>
+      <name>void setSN(int sn)</name>
+      <genericname>public void com.siqiansoft.model.DictionaryModel.setSN(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>sn</code>
+          <name>sn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getSN()</serialno>
+      <method>getSN</method>
+      <name>int getSN()</name>
+      <genericname>public int com.siqiansoft.model.DictionaryModel.getSN()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>业务类包</name>
+    <target>FRAME1</target>
+    <expandall>Y</expandall>
+    <nodes>
+      <business>PackageBo.getBizTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>packagetree</code>
+    <name>类包树</name>
+    <imgpath></imgpath>
+    <nodes>
+      <business>getbiztreepackage</business>
+      <params>package</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

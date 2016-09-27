@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_TIMESLICE</code>
+    <name>时间段</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_TIMESLICE</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

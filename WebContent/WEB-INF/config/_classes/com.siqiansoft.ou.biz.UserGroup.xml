@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.UserGroup</classname>
+  <code>UserGroup</code>
+  <name>UserGroup</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}FSyupDB8lx+CPG59mRWU3A==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void addUsersToGroup(String orgCode,String groupCode,String users)</serialno>
+      <method>addUsersToGroup</method>
+      <name>void addUsersToGroup(String orgCode,String groupCode,String users)</name>
+      <genericname>public void com.siqiansoft.ou.biz.UserGroup.addUsersToGroup(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>groupCode</code>
+          <name>groupCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>users</code>
+          <name>users</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

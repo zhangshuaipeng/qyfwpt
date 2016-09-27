@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.model.UserPositionModel</classname>
+  <code>UserPositionModel</code>
+  <name>UserPositionModel</name>
+  <packages>com.siqiansoft.ou.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}26dfUQS+MI7bgXuWV1920g==</crc>
+  <modifytime>2013-04-11 13:05:22</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getUserName()</serialno>
+      <method>getUserName</method>
+      <name>String getUserName()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserPositionModel.getUserName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserName(String username)</serialno>
+      <method>setUserName</method>
+      <name>void setUserName(String username)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setUserName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>username</code>
+          <name>username</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserPositionModel.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUserCode()</serialno>
+      <method>getUserCode</method>
+      <name>String getUserCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserPositionModel.getUserCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserCode(String usercode)</serialno>
+      <method>setUserCode</method>
+      <name>void setUserCode(String usercode)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setUserCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserPositionModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModifyTime(String modifytime)</serialno>
+      <method>setModifyTime</method>
+      <name>void setModifyTime(String modifytime)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setModifyTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modifytime</code>
+          <name>modifytime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModifyTime()</serialno>
+      <method>getModifyTime</method>
+      <name>String getModifyTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserPositionModel.getModifyTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserPK(int userpk)</serialno>
+      <method>setUserPK</method>
+      <name>void setUserPK(int userpk)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setUserPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>userpk</code>
+          <name>userpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getUserPK()</serialno>
+      <method>getUserPK</method>
+      <name>int getUserPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserPositionModel.getUserPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSN(int sn)</serialno>
+      <method>setSN</method>
+      <name>void setSN(int sn)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setSN(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>sn</code>
+          <name>sn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getSN()</serialno>
+      <method>getSN</method>
+      <name>int getSN()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserPositionModel.getSN()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPostPK(int postpk)</serialno>
+      <method>setPostPK</method>
+      <name>void setPostPK(int postpk)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setPostPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>postpk</code>
+          <name>postpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPostPK()</serialno>
+      <method>getPostPK</method>
+      <name>int getPostPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserPositionModel.getPostPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPersonPK(int personpk)</serialno>
+      <method>setPersonPK</method>
+      <name>void setPersonPK(int personpk)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserPositionModel.setPersonPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>personpk</code>
+          <name>personpk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPersonPK()</serialno>
+      <method>getPersonPK</method>
+      <name>int getPersonPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserPositionModel.getPersonPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>pk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>postpk</code>
+      <name>postpk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>userpk</code>
+      <name>userpk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>usercode</code>
+      <name>usercode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>username</code>
+      <name>username</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>personpk</code>
+      <name>personpk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sn</code>
+      <name>sn</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>modifytime</code>
+      <name>modifytime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

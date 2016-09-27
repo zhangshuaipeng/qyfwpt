@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.ModuleBo</classname>
+  <code>ModuleBo</code>
+  <name>ModuleBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}L3ah76AxmXDMfn31TYP6Mw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getModule(ConditionModel[] cs,String name)</serialno>
+      <method>getModule</method>
+      <name>ViewModel getModule(ConditionModel[] cs,String name)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.platform.view.bo.ModuleBo.getModule(com.siqiansoft.framework.model.db.ConditionModel[],java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeModule(String system,String module)</serialno>
+      <method>removeModule</method>
+      <name>void removeModule(String system,String module)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ModuleBo.removeModule(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addModule(String system,ViewModel view)</serialno>
+      <method>addModule</method>
+      <name>void addModule(String system,ViewModel view)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ModuleBo.addModule(java.lang.String,com.siqiansoft.framework.model.view.ViewModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeView(String system,String module)</serialno>
+      <method>writeView</method>
+      <name>void writeView(String system,String module)</name>
+      <genericname>public static void com.siqiansoft.platform.view.bo.ModuleBo.writeView(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getBuildTree(String system,String module)</serialno>
+      <method>getBuildTree</method>
+      <name>NodeModel getBuildTree(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.ModuleBo.getBuildTree(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList listModules(ConditionModel[] cs,PagingModel pageCtl)</serialno>
+      <method>listModules</method>
+      <name>ArrayList listModules(ConditionModel[] cs,PagingModel pageCtl)</name>
+      <genericname>public java.util.ArrayList&lt;com.siqiansoft.framework.model.view.ViewModel&gt; com.siqiansoft.platform.view.bo.ModuleBo.listModules(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModuleName(String system,String module)</serialno>
+      <method>getModuleName</method>
+      <name>String getModuleName(String system,String module)</name>
+      <genericname>public java.lang.String com.siqiansoft.platform.view.bo.ModuleBo.getModuleName(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveModule(ConditionModel[] cs,ViewModel view)</serialno>
+      <method>saveModule</method>
+      <name>void saveModule(ConditionModel[] cs,ViewModel view)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ModuleBo.saveModule(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.view.ViewModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteModules(ConditionModel[] cs,String[] selected)</serialno>
+      <method>deleteModules</method>
+      <name>void deleteModules(ConditionModel[] cs,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ModuleBo.deleteModules(com.siqiansoft.framework.model.db.ConditionModel[],java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateModule(ConditionModel[] cs,ViewModel view)</serialno>
+      <method>updateModule</method>
+      <name>void updateModule(ConditionModel[] cs,ViewModel view)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ModuleBo.updateModule(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.view.ViewModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ViewModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

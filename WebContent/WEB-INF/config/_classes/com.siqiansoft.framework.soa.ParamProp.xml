@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.soa.ParamProp</classname>
+  <code>ParamProp</code>
+  <name>ParamProp</name>
+  <packages>com.siqiansoft.framework.soa</packages>
+  <type>biz</type>
+  <crc>{MD5}HpZngHKyvjpexu0YM8rhMA==</crc>
+  <modifytime>2013-06-16 23:41:08</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getQName()</serialno>
+      <method>getQName</method>
+      <name>String getQName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.soa.ParamProp.getQName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQName(String qname)</serialno>
+      <method>setQName</method>
+      <name>void setQName(String qname)</name>
+      <genericname>public void com.siqiansoft.framework.soa.ParamProp.setQName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>qname</code>
+          <name>qname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCl(Class cl)</serialno>
+      <method>setCl</method>
+      <name>void setCl(Class cl)</name>
+      <genericname>public void com.siqiansoft.framework.soa.ParamProp.setCl(java.lang.Class&lt;?&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Class</type>
+          <code>cl</code>
+          <name>cl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Class getCl()</serialno>
+      <method>getCl</method>
+      <name>Class getCl()</name>
+      <genericname>public java.lang.Class&lt;?&gt; com.siqiansoft.framework.soa.ParamProp.getCl()</genericname>
+      <retclass>Class</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNameSpaceURI(String namespaceuri)</serialno>
+      <method>setNameSpaceURI</method>
+      <name>void setNameSpaceURI(String namespaceuri)</name>
+      <genericname>public void com.siqiansoft.framework.soa.ParamProp.setNameSpaceURI(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>namespaceuri</code>
+          <name>namespaceuri</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNameSpaceURI()</serialno>
+      <method>getNameSpaceURI</method>
+      <name>String getNameSpaceURI()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.soa.ParamProp.getNameSpaceURI()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

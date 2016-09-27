@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>RuleBo.addRule</code>
+    <name>addRule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.RuleBo</catalog>
+    <item>addRule</item>
+    <script>void addRule(RuleModel rule)</script>
+    <params>rule</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RuleBo.getRule</code>
+    <name>getRule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.RuleBo</catalog>
+    <item>getRule</item>
+    <script>RuleModel getRule(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RuleBo.listRules</code>
+    <name>listRules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.RuleBo</catalog>
+    <item>listRules</item>
+    <script>RuleModel[] listRules()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RuleBo.updateRule</code>
+    <name>updateRule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.RuleBo</catalog>
+    <item>updateRule</item>
+    <script>void updateRule(RuleModel rule)</script>
+    <params>rule</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RuleBo.deleteRules</code>
+    <name>deleteRules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.RuleBo</catalog>
+    <item>deleteRules</item>
+    <script>void deleteRules(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

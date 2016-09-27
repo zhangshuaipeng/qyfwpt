@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.ZipIO</classname>
+  <code>ZipIO</code>
+  <name>ZipIO</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}4DJV5rHAffyg3sVKYGDlVw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void addFiletoZip(ZipOutputStream zos,String file,String savePath)</serialno>
+      <method>addFiletoZip</method>
+      <name>void addFiletoZip(ZipOutputStream zos,String file,String savePath)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.addFiletoZip(java.util.zip.ZipOutputStream,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ZipOutputStream</type>
+          <code>zos</code>
+          <name>zos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savePath</code>
+          <name>savePath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addFileIntoZip(ZipOutputStream zos,String file,String saveFile)</serialno>
+      <method>addFileIntoZip</method>
+      <name>void addFileIntoZip(ZipOutputStream zos,String file,String saveFile)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.addFileIntoZip(java.util.zip.ZipOutputStream,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ZipOutputStream</type>
+          <code>zos</code>
+          <name>zos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>file</code>
+          <name>file</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>saveFile</code>
+          <name>saveFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addDirtoZip(ZipOutputStream zos,String basePath,String savePath)</serialno>
+      <method>addDirtoZip</method>
+      <name>void addDirtoZip(ZipOutputStream zos,String basePath,String savePath)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.addDirtoZip(java.util.zip.ZipOutputStream,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ZipOutputStream</type>
+          <code>zos</code>
+          <name>zos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>basePath</code>
+          <name>basePath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savePath</code>
+          <name>savePath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addFilestoZip(ZipOutputStream zos,ArrayList fileList,String basePath,String savePath)</serialno>
+      <method>addFilestoZip</method>
+      <name>void addFilestoZip(ZipOutputStream zos,ArrayList fileList,String basePath,String savePath)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.addFilestoZip(java.util.zip.ZipOutputStream,java.util.ArrayList,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ZipOutputStream</type>
+          <code>zos</code>
+          <name>zos</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ArrayList</type>
+          <code>fileList</code>
+          <name>fileList</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>basePath</code>
+          <name>basePath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>savePath</code>
+          <name>savePath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void unzipFile(String zipFileName,String fSource,String fDest)</serialno>
+      <method>unzipFile</method>
+      <name>void unzipFile(String zipFileName,String fSource,String fDest)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.unzipFile(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>zipFileName</code>
+          <name>zipFileName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fSource</code>
+          <name>fSource</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fDest</code>
+          <name>fDest</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void unzipDir(String zipFileName,String sourceDir,String destDir)</serialno>
+      <method>unzipDir</method>
+      <name>void unzipDir(String zipFileName,String sourceDir,String destDir)</name>
+      <genericname>public static void com.siqiansoft.commons.ZipIO.unzipDir(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>zipFileName</code>
+          <name>zipFileName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sourceDir</code>
+          <name>sourceDir</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destDir</code>
+          <name>destDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

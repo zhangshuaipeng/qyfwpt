@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrpublic.Housingfundbase</classname>
+  <code>Housingfundbase</code>
+  <name>Housingfundbase</name>
+  <packages>com.tellhow.personnel.bean.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}buZIfByg71UyIPsSzvKZVg==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getMonth()</serialno>
+      <method>getMonth</method>
+      <name>long getMonth()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Housingfundbase.getMonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getYear()</serialno>
+      <method>getYear</method>
+      <name>long getYear()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Housingfundbase.getYear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMonth(long month)</serialno>
+      <method>setMonth</method>
+      <name>void setMonth(long month)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setMonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setYear(long year)</serialno>
+      <method>setYear</method>
+      <name>void setYear(long year)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setYear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHousingratio()</serialno>
+      <method>getHousingratio</method>
+      <name>float getHousingratio()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Housingfundbase.getHousingratio()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHousingratio(float housingratio)</serialno>
+      <method>setHousingratio</method>
+      <name>void setHousingratio(float housingratio)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setHousingratio(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>housingratio</code>
+          <name>housingratio</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getFundbaseid()</serialno>
+      <method>getFundbaseid</method>
+      <name>long getFundbaseid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Housingfundbase.getFundbaseid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFundbaseid(long fundbaseid)</serialno>
+      <method>setFundbaseid</method>
+      <name>void setFundbaseid(long fundbaseid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setFundbaseid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>fundbaseid</code>
+          <name>fundbaseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHoursedown()</serialno>
+      <method>getHoursedown</method>
+      <name>float getHoursedown()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Housingfundbase.getHoursedown()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHoursedown(float hoursedown)</serialno>
+      <method>setHoursedown</method>
+      <name>void setHoursedown(float hoursedown)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setHoursedown(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>hoursedown</code>
+          <name>hoursedown</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHourseup()</serialno>
+      <method>getHourseup</method>
+      <name>float getHourseup()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Housingfundbase.getHourseup()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHourseup(float hourseup)</serialno>
+      <method>setHourseup</method>
+      <name>void setHourseup(float hourseup)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Housingfundbase.setHourseup(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>hourseup</code>
+          <name>hourseup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

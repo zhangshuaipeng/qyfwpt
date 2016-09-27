@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.Chooseuser</classname>
+  <code>Chooseuser</code>
+  <name>Chooseuser</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}y5NVAzq752+4zppp+XfYUQ==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getpeople(LoginModel login,String box)</serialno>
+      <method>getpeople</method>
+      <name>NodeModel getpeople(LoginModel login,String box)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.tellhow.personnel.service.Chooseuser.getpeople(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

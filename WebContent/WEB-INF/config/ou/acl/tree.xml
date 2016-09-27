@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>user</code>
+    <name>用户树</name>
+    <expvalue>Y</expvalue>
+    <async>Y</async>
+    <imgpath></imgpath>
+    <nodes>
+      <business>dept1</business>
+      <params>ORGCODE</params>
+    </nodes>
+    <nextnode>
+      <business>RightDialogBo.getNextDeptUsers</business>
+      <params>ORGCODE,parentid</params>
+    </nextnode>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>dept</code>
+    <name>部门树</name>
+    <box>radio</box>
+    <expvalue>Y</expvalue>
+    <async>N</async>
+    <imgpath></imgpath>
+    <nodes>
+      <business>depttree</business>
+      <params>ORGCODE</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

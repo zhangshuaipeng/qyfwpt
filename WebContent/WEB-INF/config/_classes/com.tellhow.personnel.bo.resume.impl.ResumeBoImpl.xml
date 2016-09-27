@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.resume.impl.ResumeBoImpl</classname>
+  <code>ResumeBoImpl</code>
+  <name>ResumeBoImpl</name>
+  <packages>com.tellhow.personnel.bo.resume.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}PXs3dcVXCrW7QttfFRlhNA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Resume findByResumeId(String resumeid)</serialno>
+      <method>findByResumeId</method>
+      <name>Resume findByResumeId(String resumeid)</name>
+      <genericname>public com.tellhow.personnel.bean.resume.Resume com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.findByResumeId(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Resume</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean idcardverify(String idcard)</serialno>
+      <method>idcardverify</method>
+      <name>boolean idcardverify(String idcard)</name>
+      <genericname>public boolean com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.idcardverify(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>idcard</code>
+          <name>idcard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addReasumeAdmitLog(Resumeadmitlog resumeadmitlog)</serialno>
+      <method>addReasumeAdmitLog</method>
+      <name>void addReasumeAdmitLog(Resumeadmitlog resumeadmitlog)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addReasumeAdmitLog(com.tellhow.personnel.bean.resume.Resumeadmitlog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Resumeadmitlog</type>
+          <code>resumeadmitlog</code>
+          <name>resumeadmitlog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addResume(Resume resume)</serialno>
+      <method>addResume</method>
+      <name>void addResume(Resume resume)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addResume(com.tellhow.personnel.bean.resume.Resume) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Resume</type>
+          <code>resume</code>
+          <name>resume</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateResume(Resume resume)</serialno>
+      <method>updateResume</method>
+      <name>void updateResume(Resume resume)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.updateResume(com.tellhow.personnel.bean.resume.Resume) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Resume</type>
+          <code>resume</code>
+          <name>resume</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addWorkexperience(Workexperience workexperience)</serialno>
+      <method>addWorkexperience</method>
+      <name>void addWorkexperience(Workexperience workexperience)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addWorkexperience(com.tellhow.personnel.bean.resume.Workexperience) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Workexperience</type>
+          <code>workexperience</code>
+          <name>workexperience</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addEducationexperience(Educationexperience educationexperience)</serialno>
+      <method>addEducationexperience</method>
+      <name>void addEducationexperience(Educationexperience educationexperience)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addEducationexperience(com.tellhow.personnel.bean.resume.Educationexperience) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Educationexperience</type>
+          <code>educationexperience</code>
+          <name>educationexperience</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addFamily(Family family)</serialno>
+      <method>addFamily</method>
+      <name>void addFamily(Family family)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addFamily(com.tellhow.personnel.bean.resume.Family) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Family</type>
+          <code>family</code>
+          <name>family</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addSocialrelation(Socialrelation socialrelation)</serialno>
+      <method>addSocialrelation</method>
+      <name>void addSocialrelation(Socialrelation socialrelation)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addSocialrelation(com.tellhow.personnel.bean.resume.Socialrelation) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Socialrelation</type>
+          <code>socialrelation</code>
+          <name>socialrelation</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addPunishments(Punishments punishments)</serialno>
+      <method>addPunishments</method>
+      <name>void addPunishments(Punishments punishments)</name>
+      <genericname>public void com.tellhow.personnel.bo.resume.impl.ResumeBoImpl.addPunishments(com.tellhow.personnel.bean.resume.Punishments) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Punishments</type>
+          <code>punishments</code>
+          <name>punishments</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

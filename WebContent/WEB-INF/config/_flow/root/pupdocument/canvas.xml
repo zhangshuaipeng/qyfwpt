@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas max="131">
+  <item id="128" name="子流程" type="node" nodetype="P" x="472" y="91"/>
+  <item id="65" name="开始" type="node" nodetype="S" x="189.5" y="93"/>
+  <item id="66" name="活动" type="node" nodetype="A" x="83" y="142"/>
+  <item id="99" name="结束" type="node" nodetype="E" x="228.5" y="347"/>
+  <item id="70" name="活动" type="node" nodetype="A" x="88" y="292"/>
+  <item id="72" name="多人办理" type="node" nodetype="M" x="359" y="354"/>
+  <item id="73" name="多人办理" type="node" nodetype="M" x="66" y="354"/>
+  <item id="74" name="活动" type="node" nodetype="A" x="174" y="213"/>
+  <item id="105" name="多人办理" type="node" nodetype="M" x="359" y="194"/>
+  <item id="117" name="多人办理" type="node" nodetype="M" x="160" y="460"/>
+  <item id="126" name="活动" type="node" nodetype="A" x="362" y="125"/>
+  <item id="127" name="多人办理" type="node" nodetype="M" x="517" y="183"/>
+  <item id="129" name="路由" type="route" from="128" to="105"/>
+  <item id="130" name="路由" type="route" from="127" to="105"/>
+  <item id="131" name="路由" type="route" from="126" to="105"/>
+  <item id="102" name="路由" type="route" from="73" to="99"/>
+  <item id="103" name="路由" type="route" from="72" to="99"/>
+  <item id="104" name="路由" type="route" from="66" to="70"/>
+  <item id="107" name="路由" type="route" from="65" to="105"/>
+  <item id="108" name="路由" type="route" from="105" to="74"/>
+  <item id="81" name="路由" type="route" from="66" to="74"/>
+  <item id="76" name="路由" type="route" from="65" to="66"/>
+  <item id="116" name="路由" type="route" from="105" to="72"/>
+  <item id="118" name="路由" type="route" from="117" to="99"/>
+  <item id="120" name="路由" type="route" from="74" to="105"/>
+  <item id="89" name="路由" type="route" from="74" to="70"/>
+  <item id="90" name="路由" type="route" from="73" to="70"/>
+  <item id="125" name="路由" type="route" from="65" to="74"/>
+</canvas>

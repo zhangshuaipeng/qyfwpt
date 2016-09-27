@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.impl.Dict</classname>
+  <code>Dict</code>
+  <name>Dict</name>
+  <packages>com.tellhow.investment.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}RAEbZfUDczJqCl4OQQ7guA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getValue(DatabaseBo dbo,int key,String tableName)</serialno>
+      <method>getValue</method>
+      <name>String getValue(DatabaseBo dbo,int key,String tableName)</name>
+      <genericname>public static java.lang.String com.tellhow.investment.dao.impl.Dict.getValue(com.siqiansoft.framework.bo.DatabaseBo,int,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DatabaseBo</type>
+          <code>dbo</code>
+          <name>dbo</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tableName</code>
+          <name>tableName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

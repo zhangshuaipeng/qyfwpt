@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.biz.ArgumentBo</classname>
+  <code>ArgumentBo</code>
+  <name>ArgumentBo</name>
+  <packages>com.siqiansoft.platform.view.bo.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}2k2MRxNSAgjVadU+Pr0dDQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ArgumentModel[] listArgs(String className,String methodName)</serialno>
+      <method>listArgs</method>
+      <name>ArgumentModel[] listArgs(String className,String methodName)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.ArgumentModel[] com.siqiansoft.platform.view.bo.biz.ArgumentBo.listArgs(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArgumentModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateArgument(String className,String methodName,ArgumentModel arg)</serialno>
+      <method>updateArgument</method>
+      <name>void updateArgument(String className,String methodName,ArgumentModel arg)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.ArgumentBo.updateArgument(java.lang.String,java.lang.String,com.siqiansoft.framework.model.biz.ArgumentModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>methodName</code>
+          <name>methodName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ArgumentModel</type>
+          <code>arg</code>
+          <name>arg</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

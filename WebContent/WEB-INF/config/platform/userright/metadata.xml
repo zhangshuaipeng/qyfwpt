@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>RightModel</code>
+    <name>帐号权限</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.project</catalog>
+    <item>RightModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

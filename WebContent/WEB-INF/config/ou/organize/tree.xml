@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>orgtree</code>
+    <name>组织树</name>
+    <rooturl>organize.cmd?$ACTION=list</rooturl>
+    <async>N</async>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <nodes>
+      <business>tree</business>
+      <url>organize.cmd?$ACTION=list&amp;pcode=[NODEID]</url>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

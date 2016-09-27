@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.DataHandler</classname>
+  <code>DataHandler</code>
+  <name>DataHandler</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}xP5Y6Ip0J8oEEliZafd91A==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>InstanceModel getInstance(String instanceId)</serialno>
+      <method>getInstance</method>
+      <name>InstanceModel getInstance(String instanceId)</name>
+      <genericname>public static com.siqiansoft.workflow.model.InstanceModel com.siqiansoft.workflow.runtime.DataHandler.getInstance(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>InstanceModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>WorkModel getWork(String wid)</serialno>
+      <method>getWork</method>
+      <name>WorkModel getWork(String wid)</name>
+      <genericname>public static com.siqiansoft.workflow.model.WorkModel com.siqiansoft.workflow.runtime.DataHandler.getWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>WorkModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DraftModel getDraft(String wid)</serialno>
+      <method>getDraft</method>
+      <name>DraftModel getDraft(String wid)</name>
+      <genericname>public static com.siqiansoft.workflow.model.DraftModel com.siqiansoft.workflow.runtime.DataHandler.getDraft(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>DraftModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getFlowInfo(String orgCode,String flowCode)</serialno>
+      <method>getFlowInfo</method>
+      <name>HashMap getFlowInfo(String orgCode,String flowCode)</name>
+      <genericname>public static java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.runtime.DataHandler.getFlowInfo(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>WorkModel getDraftWork(String wid)</serialno>
+      <method>getDraftWork</method>
+      <name>WorkModel getDraftWork(String wid)</name>
+      <genericname>public static com.siqiansoft.workflow.model.WorkModel com.siqiansoft.workflow.runtime.DataHandler.getDraftWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>WorkModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateInstance(InstanceModel instance)</serialno>
+      <method>updateInstance</method>
+      <name>void updateInstance(InstanceModel instance)</name>
+      <genericname>public static void com.siqiansoft.workflow.runtime.DataHandler.updateInstance(com.siqiansoft.workflow.model.InstanceModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>InstanceModel</type>
+          <code>instance</code>
+          <name>instance</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkDone(WorkModel work,NodeModel node,String cc)</serialno>
+      <method>setWorkDone</method>
+      <name>void setWorkDone(WorkModel work,NodeModel node,String cc)</name>
+      <genericname>public static void com.siqiansoft.workflow.runtime.DataHandler.setWorkDone(com.siqiansoft.workflow.model.WorkModel,com.siqiansoft.workflow.model.NodeModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>NodeModel</type>
+          <code>node</code>
+          <name>node</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cc</code>
+          <name>cc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCCWork(WorkModel work,String cc)</serialno>
+      <method>setCCWork</method>
+      <name>void setCCWork(WorkModel work,String cc)</name>
+      <genericname>public static void com.siqiansoft.workflow.runtime.DataHandler.setCCWork(com.siqiansoft.workflow.model.WorkModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cc</code>
+          <name>cc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getSignWork(String instanceId,String nodeId)</serialno>
+      <method>getSignWork</method>
+      <name>String[] getSignWork(String instanceId,String nodeId)</name>
+      <genericname>public static java.lang.String[] com.siqiansoft.workflow.runtime.DataHandler.getSignWork(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

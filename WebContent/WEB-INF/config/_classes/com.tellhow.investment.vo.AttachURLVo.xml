@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.AttachURLVo</classname>
+  <code>AttachURLVo</code>
+  <name>AttachURLVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}uEct9+2Uy+iZX82sxZRtKQ==</crc>
+  <modifytime>2013-06-20 16:59:17</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedFileURLs()</serialno>
+      <method>getApprovedFileURLs</method>
+      <name>String getApprovedFileURLs()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.AttachURLVo.getApprovedFileURLs()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedFileURLs(String approvedFileURLs)</serialno>
+      <method>setApprovedFileURLs</method>
+      <name>void setApprovedFileURLs(String approvedFileURLs)</name>
+      <genericname>public void com.tellhow.investment.vo.AttachURLVo.setApprovedFileURLs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedFileURLs</code>
+          <name>approvedFileURLs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBaseurl4Business()</serialno>
+      <method>getBaseurl4Business</method>
+      <name>String getBaseurl4Business()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.AttachURLVo.getBaseurl4Business()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBaseurl4Business(String baseurl4Business)</serialno>
+      <method>setBaseurl4Business</method>
+      <name>void setBaseurl4Business(String baseurl4Business)</name>
+      <genericname>public void com.tellhow.investment.vo.AttachURLVo.setBaseurl4Business(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>baseurl4Business</code>
+          <name>baseurl4Business</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>baseurl4business</code>
+      <name>baseurl4Business</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>approvedfileurls</code>
+      <name>approvedFileURLs</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

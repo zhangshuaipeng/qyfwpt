@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Salaryoperatelog</classname>
+  <code>Salaryoperatelog</code>
+  <name>Salaryoperatelog</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}BnwXmbO6kauSSEWI+9rLIg==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperator()</serialno>
+      <method>getOperator</method>
+      <name>String getOperator()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.getOperator()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperator(String operator)</serialno>
+      <method>setOperator</method>
+      <name>void setOperator(String operator)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.setOperator(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operator</code>
+          <name>operator</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatetime()</serialno>
+      <method>getOperatetime</method>
+      <name>String getOperatetime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.getOperatetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatetime(String operatetime)</serialno>
+      <method>setOperatetime</method>
+      <name>void setOperatetime(String operatetime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.setOperatetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatetime</code>
+          <name>operatetime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalaryid()</serialno>
+      <method>getSalaryid</method>
+      <name>long getSalaryid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.getSalaryid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalaryid(long salaryid)</serialno>
+      <method>setSalaryid</method>
+      <name>void setSalaryid(long salaryid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.setSalaryid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salaryid</code>
+          <name>salaryid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSalarylogid()</serialno>
+      <method>getSalarylogid</method>
+      <name>long getSalarylogid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.getSalarylogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSalarylogid(long salarylogid)</serialno>
+      <method>setSalarylogid</method>
+      <name>void setSalarylogid(long salarylogid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salaryoperatelog.setSalarylogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>salarylogid</code>
+          <name>salarylogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

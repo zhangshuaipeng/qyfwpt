@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl</classname>
+  <code>EptRegisteredDaoImpl</code>
+  <name>EptRegisteredDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}5giKuJ7crAtPoOa20FJoRA==</crc>
+  <modifytime>2013-05-24 13:32:54</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void saveEptChangeLog(EptChangeLog changelog)</serialno>
+      <method>saveEptChangeLog</method>
+      <name>void saveEptChangeLog(EptChangeLog changelog)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.saveEptChangeLog(com.tellhow.createetp.bean.EptChangeLog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptChangeLog</type>
+          <code>changelog</code>
+          <name>changelog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateEptRegister(EptRegisteredInfo registerinfo)</serialno>
+      <method>updateEptRegister</method>
+      <name>void updateEptRegister(EptRegisteredInfo registerinfo)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.updateEptRegister(com.tellhow.createetp.bean.EptRegisteredInfo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptRegisteredInfo</type>
+          <code>registerinfo</code>
+          <name>registerinfo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EptRegisteredInfo selectEptInfoById(long enterpriseid)</serialno>
+      <method>selectEptInfoById</method>
+      <name>EptRegisteredInfo selectEptInfoById(long enterpriseid)</name>
+      <genericname>public com.tellhow.createetp.bean.EptRegisteredInfo com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.selectEptInfoById(long) throws java.lang.Exception</genericname>
+      <retclass>EptRegisteredInfo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseid</code>
+          <name>enterpriseid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Project selectProjectById(long projectId)</serialno>
+      <method>selectProjectById</method>
+      <name>Project selectProjectById(long projectId)</name>
+      <genericname>public com.tellhow.createetp.bean.Project com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.selectProjectById(long) throws java.lang.Exception</genericname>
+      <retclass>Project</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectId</code>
+          <name>projectId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateProject(Project project)</serialno>
+      <method>updateProject</method>
+      <name>void updateProject(Project project)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.updateProject(com.tellhow.createetp.bean.Project) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Project</type>
+          <code>project</code>
+          <name>project</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void insertCheckLog(EptCheckLog checkLog)</serialno>
+      <method>insertCheckLog</method>
+      <name>void insertCheckLog(EptCheckLog checkLog)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EptRegisteredDaoImpl.insertCheckLog(com.tellhow.createetp.bean.EptCheckLog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptCheckLog</type>
+          <code>checkLog</code>
+          <name>checkLog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_TODO</code>
+    <name>待办工作</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_TODO</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>EAP_INSTANCE</code>
+    <name>instance</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

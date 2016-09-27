@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.getModule</code>
+    <name>getModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>getModule</item>
+    <script>ViewModel getModule(ConditionModel[] cs,String name)</script>
+    <params>cs,name</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.removeModule</code>
+    <name>removeModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>removeModule</item>
+    <script>void removeModule(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.addModule</code>
+    <name>addModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>addModule</item>
+    <script>void addModule(String system,ViewModel view)</script>
+    <params>system,view</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.writeView</code>
+    <name>writeView</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>writeView</item>
+    <script>void writeView(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.getBuildTree</code>
+    <name>getBuildTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>getBuildTree</item>
+    <script>NodeModel getBuildTree(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.listModules</code>
+    <name>listModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>listModules</item>
+    <script>ArrayList listModules(ConditionModel[] cs,PagingModel pageCtl)</script>
+    <params>cs,pageCtl</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.getModuleName</code>
+    <name>getModuleName</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>getModuleName</item>
+    <script>String getModuleName(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.saveModule</code>
+    <name>saveModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>saveModule</item>
+    <script>void saveModule(ConditionModel[] cs,ViewModel view)</script>
+    <params>cs,view</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.deleteModules</code>
+    <name>deleteModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>deleteModules</item>
+    <script>void deleteModules(ConditionModel[] cs,String[] selected)</script>
+    <params>cs,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ModuleBo.updateModule</code>
+    <name>updateModule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.ModuleBo</catalog>
+    <item>updateModule</item>
+    <script>void updateModule(ConditionModel[] cs,ViewModel view)</script>
+    <params>cs,view</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getModules</code>
+    <name>getModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getModules</item>
+    <script>ItemModel[] getModules(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

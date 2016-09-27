@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_DEPARTMENT</code>
+    <name>部门</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>DepartmentModel</code>
+    <name>部门属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.ou.model</catalog>
+    <item>DepartmentModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

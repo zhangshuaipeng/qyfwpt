@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ScheduleModel>
+  <code>ffd</code>
+  <name>ddddd</name>
+  <cycle>year</cycle>
+  <status>disable</status>
+  <script>importClass(Packages.com.siqiansoft.platform.view.bo.biz.PackageBo);&#xd;
+&#xd;
+println(&quot;这个是测试的信息!&quot;);&#xd;
+println(&quot;这个是测试的信息!&quot;);&#xd;
+println(&quot;真的吗?&quot;);&#xd;
+var bo = new PackageBo();&#xd;
+var str = bo.main(null);&#xd;
+println(com.siqiansoft.commons.PackageClass.getPackages(&quot;com.siqiansoft&quot;));</script>
+  <starttime>2012-09-04 00:00:00</starttime>
+</model.ScheduleModel>

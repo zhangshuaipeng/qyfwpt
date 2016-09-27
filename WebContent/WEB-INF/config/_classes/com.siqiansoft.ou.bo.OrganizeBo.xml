@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.OrganizeBo</classname>
+  <code>OrganizeBo</code>
+  <name>OrganizeBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}t8o39jsVr+1anXHbDTZcEw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void initOrganize(String orgcode,String deptcode,String deptname,String usercode,String username,String pwd,String timeslice)</serialno>
+      <method>initOrganize</method>
+      <name>void initOrganize(String orgcode,String deptcode,String deptname,String usercode,String username,String pwd,String timeslice)</name>
+      <genericname>public void com.siqiansoft.ou.bo.OrganizeBo.initOrganize(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptcode</code>
+          <name>deptcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptname</code>
+          <name>deptname</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>username</code>
+          <name>username</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pwd</code>
+          <name>pwd</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timeslice</code>
+          <name>timeslice</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.util.FlowProp</classname>
+  <code>FlowProp</code>
+  <name>FlowProp</name>
+  <packages>com.siqiansoft.workflow.util</packages>
+  <type>biz</type>
+  <crc>{MD5}0wte5HeB+ZZmFfq6KTuThQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.workflow.util.FlowProp.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void load(InstanceModel instance)</serialno>
+      <method>load</method>
+      <name>void load(InstanceModel instance)</name>
+      <genericname>public void com.siqiansoft.workflow.util.FlowProp.load(com.siqiansoft.workflow.model.InstanceModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>InstanceModel</type>
+          <code>instance</code>
+          <name>instance</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void load(String orgCode,String flowCode,String debug)</serialno>
+      <method>load</method>
+      <name>void load(String orgCode,String flowCode,String debug)</name>
+      <genericname>public void com.siqiansoft.workflow.util.FlowProp.load(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>debug</code>
+          <name>debug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystemId()</serialno>
+      <method>getSystemId</method>
+      <name>String getSystemId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.util.FlowProp.getSystemId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNode(String nodeId)</serialno>
+      <method>getNode</method>
+      <name>NodeModel getNode(String nodeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel com.siqiansoft.workflow.util.FlowProp.getNode(java.lang.String)</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeId</code>
+          <name>nodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getNextNode()</serialno>
+      <method>getNextNode</method>
+      <name>NodeModel getNextNode()</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel com.siqiansoft.workflow.util.FlowProp.getNextNode()</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getStartNode()</serialno>
+      <method>getStartNode</method>
+      <name>NodeModel getStartNode()</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel com.siqiansoft.workflow.util.FlowProp.getStartNode()</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getView()</serialno>
+      <method>getView</method>
+      <name>ViewModel getView()</name>
+      <genericname>public com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.workflow.util.FlowProp.getView()</genericname>
+      <retclass>ViewModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormId()</serialno>
+      <method>getFormId</method>
+      <name>String getFormId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.util.FlowProp.getFormId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FlowModel getFlow()</serialno>
+      <method>getFlow</method>
+      <name>FlowModel getFlow()</name>
+      <genericname>public com.siqiansoft.workflow.model.FlowModel com.siqiansoft.workflow.util.FlowProp.getFlow()</genericname>
+      <retclass>FlowModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BusinessModel getBusiness(String biz)</serialno>
+      <method>getBusiness</method>
+      <name>BusinessModel getBusiness(String biz)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.BusinessModel com.siqiansoft.workflow.util.FlowProp.getBusiness(java.lang.String)</genericname>
+      <retclass>BusinessModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>biz</code>
+          <name>biz</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FlowDataModel getFlowData()</serialno>
+      <method>getFlowData</method>
+      <name>FlowDataModel getFlowData()</name>
+      <genericname>public com.siqiansoft.workflow.model.FlowDataModel com.siqiansoft.workflow.util.FlowProp.getFlowData()</genericname>
+      <retclass>FlowDataModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel getRoute(String routeId)</serialno>
+      <method>getRoute</method>
+      <name>RouteModel getRoute(String routeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel com.siqiansoft.workflow.util.FlowProp.getRoute(java.lang.String)</genericname>
+      <retclass>RouteModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routeId</code>
+          <name>routeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void verifyFlowData(FlowDataModel data)</serialno>
+      <method>verifyFlowData</method>
+      <name>void verifyFlowData(FlowDataModel data)</name>
+      <genericname>public static void com.siqiansoft.workflow.util.FlowProp.verifyFlowData(com.siqiansoft.workflow.model.FlowDataModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FlowDataModel</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormVer()</serialno>
+      <method>getFormVer</method>
+      <name>String getFormVer()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.util.FlowProp.getFormVer()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel getRouteToNode(String from,String to)</serialno>
+      <method>getRouteToNode</method>
+      <name>RouteModel getRouteToNode(String from,String to)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel com.siqiansoft.workflow.util.FlowProp.getRouteToNode(java.lang.String,java.lang.String)</genericname>
+      <retclass>RouteModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>from</code>
+          <name>from</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>to</code>
+          <name>to</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap verifyRight(HashMap nodeRight)</serialno>
+      <method>verifyRight</method>
+      <name>HashMap verifyRight(HashMap nodeRight)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt; com.siqiansoft.workflow.util.FlowProp.verifyRight(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt;)</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>nodeRight</code>
+          <name>nodeRight</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

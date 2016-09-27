@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.EconomicIndicatorsVo</classname>
+  <code>EconomicIndicatorsVo</code>
+  <name>EconomicIndicatorsVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}u0tNWbpCaRnbm6XyF2+37w==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getNodelevel()</serialno>
+      <method>getNodelevel</method>
+      <name>int getNodelevel()</name>
+      <genericname>public int com.tellhow.investment.vo.EconomicIndicatorsVo.getNodelevel()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodelevel(int nodelevel)</serialno>
+      <method>setNodelevel</method>
+      <name>void setNodelevel(int nodelevel)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setNodelevel(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nodelevel</code>
+          <name>nodelevel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProjectcount()</serialno>
+      <method>getProjectcount</method>
+      <name>int getProjectcount()</name>
+      <genericname>public int com.tellhow.investment.vo.EconomicIndicatorsVo.getProjectcount()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectcount(int projectcount)</serialno>
+      <method>setProjectcount</method>
+      <name>void setProjectcount(int projectcount)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setProjectcount(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>projectcount</code>
+          <name>projectcount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInteriorTotal(double interiorTotal)</serialno>
+      <method>setInteriorTotal</method>
+      <name>void setInteriorTotal(double interiorTotal)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setInteriorTotal(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>interiorTotal</code>
+          <name>interiorTotal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInteriorDollor(double interiorDollor)</serialno>
+      <method>setInteriorDollor</method>
+      <name>void setInteriorDollor(double interiorDollor)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setInteriorDollor(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>interiorDollor</code>
+          <name>interiorDollor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInteriorRegistered(double interiorRegistered)</serialno>
+      <method>setInteriorRegistered</method>
+      <name>void setInteriorRegistered(double interiorRegistered)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setInteriorRegistered(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>interiorRegistered</code>
+          <name>interiorRegistered</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInteriorForDollor(double interiorForDollor)</serialno>
+      <method>setInteriorForDollor</method>
+      <name>void setInteriorForDollor(double interiorForDollor)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setInteriorForDollor(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>interiorForDollor</code>
+          <name>interiorForDollor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExternalTotal(double externalTotal)</serialno>
+      <method>setExternalTotal</method>
+      <name>void setExternalTotal(double externalTotal)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setExternalTotal(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>externalTotal</code>
+          <name>externalTotal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExternalRmb(double externalRmb)</serialno>
+      <method>setExternalRmb</method>
+      <name>void setExternalRmb(double externalRmb)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setExternalRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>externalRmb</code>
+          <name>externalRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExternalRegistered(double externalRegistered)</serialno>
+      <method>setExternalRegistered</method>
+      <name>void setExternalRegistered(double externalRegistered)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setExternalRegistered(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>externalRegistered</code>
+          <name>externalRegistered</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExternalForRmb(double externalForRmb)</serialno>
+      <method>setExternalForRmb</method>
+      <name>void setExternalForRmb(double externalForRmb)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setExternalForRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>externalForRmb</code>
+          <name>externalForRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContractRmb(double contractRmb)</serialno>
+      <method>setContractRmb</method>
+      <name>void setContractRmb(double contractRmb)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setContractRmb(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>contractRmb</code>
+          <name>contractRmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContractDollor(double contractDollor)</serialno>
+      <method>setContractDollor</method>
+      <name>void setContractDollor(double contractDollor)</name>
+      <genericname>public void com.tellhow.investment.vo.EconomicIndicatorsVo.setContractDollor(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>contractDollor</code>
+          <name>contractDollor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInteriorTotal()</serialno>
+      <method>getInteriorTotal</method>
+      <name>double getInteriorTotal()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getInteriorTotal()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInteriorDollor()</serialno>
+      <method>getInteriorDollor</method>
+      <name>double getInteriorDollor()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getInteriorDollor()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInteriorRegistered()</serialno>
+      <method>getInteriorRegistered</method>
+      <name>double getInteriorRegistered()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getInteriorRegistered()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getInteriorForDollor()</serialno>
+      <method>getInteriorForDollor</method>
+      <name>double getInteriorForDollor()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getInteriorForDollor()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getExternalTotal()</serialno>
+      <method>getExternalTotal</method>
+      <name>double getExternalTotal()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getExternalTotal()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getExternalRmb()</serialno>
+      <method>getExternalRmb</method>
+      <name>double getExternalRmb()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getExternalRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getExternalRegistered()</serialno>
+      <method>getExternalRegistered</method>
+      <name>double getExternalRegistered()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getExternalRegistered()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getExternalForRmb()</serialno>
+      <method>getExternalForRmb</method>
+      <name>double getExternalForRmb()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getExternalForRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getContractRmb()</serialno>
+      <method>getContractRmb</method>
+      <name>double getContractRmb()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getContractRmb()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getContractDollor()</serialno>
+      <method>getContractDollor</method>
+      <name>double getContractDollor()</name>
+      <genericname>public double com.tellhow.investment.vo.EconomicIndicatorsVo.getContractDollor()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>nodelevel</code>
+      <name>nodelevel</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projectcount</code>
+      <name>projectcount</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>interiortotal</code>
+      <name>interiorTotal</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>interiordollor</code>
+      <name>interiorDollor</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>interiorregistered</code>
+      <name>interiorRegistered</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>interiorfordollor</code>
+      <name>interiorForDollor</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>externaltotal</code>
+      <name>externalTotal</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>externalrmb</code>
+      <name>externalRmb</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>externalregistered</code>
+      <name>externalRegistered</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>externalforrmb</code>
+      <name>externalForRmb</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>contractrmb</code>
+      <name>contractRmb</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>contractdollor</code>
+      <name>contractDollor</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

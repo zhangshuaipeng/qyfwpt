@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_GROUP</code>
+    <name>群组</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_GROUP</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>EAP_USERGROUP</code>
+    <name>群组下的用户</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_USERGROUP</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>GroupModel</code>
+    <name>群组属性描述类</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.ou.model</catalog>
+    <item>GroupModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

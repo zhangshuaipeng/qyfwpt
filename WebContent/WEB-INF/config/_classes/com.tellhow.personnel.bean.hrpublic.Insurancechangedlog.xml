@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrpublic.Insurancechangedlog</classname>
+  <code>Insurancechangedlog</code>
+  <name>Insurancechangedlog</name>
+  <packages>com.tellhow.personnel.bean.hrpublic</packages>
+  <type>biz</type>
+  <crc>{MD5}8CRWHimG/+LbKwxpTJZiKw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getReason()</serialno>
+      <method>getReason</method>
+      <name>long getReason()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getReason()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(long reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(long reason)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setReason(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPensionwelfare()</serialno>
+      <method>getPensionwelfare</method>
+      <name>float getPensionwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getPensionwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPensionwelfare(float pensionwelfare)</serialno>
+      <method>setPensionwelfare</method>
+      <name>void setPensionwelfare(float pensionwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setPensionwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>pensionwelfare</code>
+          <name>pensionwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getMedicalwelfare()</serialno>
+      <method>getMedicalwelfare</method>
+      <name>float getMedicalwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getMedicalwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMedicalwelfare(float medicalwelfare)</serialno>
+      <method>setMedicalwelfare</method>
+      <name>void setMedicalwelfare(float medicalwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setMedicalwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>medicalwelfare</code>
+          <name>medicalwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getJobwelfare()</serialno>
+      <method>getJobwelfare</method>
+      <name>float getJobwelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getJobwelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJobwelfare(float jobwelfare)</serialno>
+      <method>setJobwelfare</method>
+      <name>void setJobwelfare(float jobwelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setJobwelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>jobwelfare</code>
+          <name>jobwelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getHousewelfare()</serialno>
+      <method>getHousewelfare</method>
+      <name>float getHousewelfare()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getHousewelfare()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHousewelfare(float housewelfare)</serialno>
+      <method>setHousewelfare</method>
+      <name>void setHousewelfare(float housewelfare)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setHousewelfare(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>housewelfare</code>
+          <name>housewelfare</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangedtime()</serialno>
+      <method>getChangedtime</method>
+      <name>String getChangedtime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getChangedtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangedtime(String changedtime)</serialno>
+      <method>setChangedtime</method>
+      <name>void setChangedtime(String changedtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setChangedtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changedtime</code>
+          <name>changedtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getInsurancechangedlogid()</serialno>
+      <method>getInsurancechangedlogid</method>
+      <name>long getInsurancechangedlogid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.getInsurancechangedlogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInsurancechangedlogid(long insurancechangedlogid)</serialno>
+      <method>setInsurancechangedlogid</method>
+      <name>void setInsurancechangedlogid(long insurancechangedlogid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrpublic.Insurancechangedlog.setInsurancechangedlogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>insurancechangedlogid</code>
+          <name>insurancechangedlogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

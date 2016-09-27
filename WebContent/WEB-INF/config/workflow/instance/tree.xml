@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>可管理的流程</name>
+    <async>N</async>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <runurl>Y</runurl>
+    <nodes>
+      <business>instancetree</business>
+      <params>LOGIN</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

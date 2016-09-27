@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bean.form.Distributeplan</classname>
+  <code>Distributeplan</code>
+  <name>Distributeplan</name>
+  <packages>com.tellhow.itemsmanage.bean.form</packages>
+  <type>biz</type>
+  <crc>{MD5}Yd7M9BCaXROAKj/xSnuuvw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getType()</serialno>
+      <method>getType</method>
+      <name>long getType()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(long type)</serialno>
+      <method>setType</method>
+      <name>void setType(long type)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReason()</serialno>
+      <method>getReason</method>
+      <name>String getReason()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Distributeplan.getReason()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getStatus()</serialno>
+      <method>getStatus</method>
+      <name>long getStatus()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getStatus()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(long status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(long status)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setStatus(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperator()</serialno>
+      <method>getOperator</method>
+      <name>String getOperator()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Distributeplan.getOperator()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperator(String operator)</serialno>
+      <method>setOperator</method>
+      <name>void setOperator(String operator)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setOperator(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operator</code>
+          <name>operator</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDispatchdept()</serialno>
+      <method>getDispatchdept</method>
+      <name>long getDispatchdept()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getDispatchdept()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatortime()</serialno>
+      <method>getOperatortime</method>
+      <name>String getOperatortime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Distributeplan.getOperatortime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatortime(String operatortime)</serialno>
+      <method>setOperatortime</method>
+      <name>void setOperatortime(String operatortime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setOperatortime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatortime</code>
+          <name>operatortime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgreetime()</serialno>
+      <method>getAgreetime</method>
+      <name>String getAgreetime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Distributeplan.getAgreetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgreetime(String agreetime)</serialno>
+      <method>setAgreetime</method>
+      <name>void setAgreetime(String agreetime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setAgreetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agreetime</code>
+          <name>agreetime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDispatchdept(long dispatchdept)</serialno>
+      <method>setDispatchdept</method>
+      <name>void setDispatchdept(long dispatchdept)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setDispatchdept(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanno()</serialno>
+      <method>getPlanno</method>
+      <name>String getPlanno()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Distributeplan.getPlanno()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanno(String planno)</serialno>
+      <method>setPlanno</method>
+      <name>void setPlanno(String planno)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setPlanno(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planno</code>
+          <name>planno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(String reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(String reason)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setReason(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDistributeplanid()</serialno>
+      <method>getDistributeplanid</method>
+      <name>long getDistributeplanid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getDistributeplanid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDistributeplanid(long distributeplanid)</serialno>
+      <method>setDistributeplanid</method>
+      <name>void setDistributeplanid(long distributeplanid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setDistributeplanid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>distributeplanid</code>
+          <name>distributeplanid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getAgreed()</serialno>
+      <method>getAgreed</method>
+      <name>long getAgreed()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getAgreed()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgreed(long agreed)</serialno>
+      <method>setAgreed</method>
+      <name>void setAgreed(long agreed)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setAgreed(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>agreed</code>
+          <name>agreed</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPlanmonth()</serialno>
+      <method>getPlanmonth</method>
+      <name>long getPlanmonth()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getPlanmonth()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanmonth(long planmonth)</serialno>
+      <method>setPlanmonth</method>
+      <name>void setPlanmonth(long planmonth)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setPlanmonth(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>planmonth</code>
+          <name>planmonth</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPlanyear()</serialno>
+      <method>getPlanyear</method>
+      <name>long getPlanyear()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Distributeplan.getPlanyear()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanyear(long planyear)</serialno>
+      <method>setPlanyear</method>
+      <name>void setPlanyear(long planyear)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Distributeplan.setPlanyear(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>planyear</code>
+          <name>planyear</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

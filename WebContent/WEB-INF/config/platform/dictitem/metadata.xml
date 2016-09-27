@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>ItemModel</code>
+    <name>字典条目</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.dict</catalog>
+    <item>ItemModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

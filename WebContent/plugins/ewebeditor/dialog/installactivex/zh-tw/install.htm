@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>安裝/升級：eWebEditor 控件</title>
+
+<style type="text/css">
+body,p,li,ol,div,input {font-size:12px;line-height:1.5;}
+.title {font-size:16px;font-weight:bold;}
+.red {color:red}
+</style>
+
+<script type="text/javascript">
+function InitDocument() {
+	checkInstalled();
+}
+
+function checkInstalled(){
+	if (!CheckActiveXInstall()){
+		window.setTimeout("checkInstalled()", 1000);
+	}else{
+		document.getElementById("div_install").style.display = "none";
+		document.getElementById("div_ok").style.display = "";
+	}
+}
+
+
+function CheckActiveXInstall(){
+	try{
+		var eWebEditorActiveX = new ActiveXObject("eWebSoft.eWebEditor3");
+		var s_Version = eWebEditorActiveX.Version;
+		if (parseFloat(s_Version.replace(/[^0123456789]+/gi, ""))>=3300){
+			eWebEditorActiveX = null;
+			document.getElementById("div_ActiveX").innerHTML = "";
+			delete eWebEditorActiveX;
+			//window.setTimeout(CollectGarbage, 1);
+			window.setInterval(CollectGarbage, 100);
+			return true;
+		}
+	}catch(e){}
+
+	return false;
+}
+
+
+</script>
+
+
+</head>
+
+<body onload="InitDocument()">
+
+<div id=div_install>
+<img src="../../images/loading.gif" border=0 align=absmiddle> <span class=title>開始安裝 eWebEditor 控件...</span><br>
+安裝過程已在進行中，現在您的瀏覽器或安全防護軟體可能暫時阻止了控件的安裝。請依以下提示完成安裝過程：
+<ol>
+<li>在頁面頂部是否出現了如下圖所示的資訊欄：<br>
+<img src="1.gif" border=0>
+
+<li>如果已顯示資訊欄，請右鍵按一下資訊欄，然後選擇“安裝 ActiveX 控件”：<br>
+<img src="2.gif" border=0>
+
+<li>在“Internet Explorer 安全警告”對話方塊中，按一下“安裝”：<br>
+<img src="3.gif" border=0>
+
+<li>完成安裝！<br>
+<img src="4.gif" border=0>
+
+</ol>
+
+
+<br>
+<b>如果您的瀏覽器沒有出現資訊欄，或者透過以上步驟無法正確安裝控件，請嘗試：</b><br>
+下載一個安裝程式到您的電腦，運行這個程式進行安裝。<br>
+<img src="../../images/down.gif" border=0 align=absmiddle> <a href="../../eWebEditor3Install.exe">下載安裝程式</a><br>
+
+</div>
+
+<div id=div_ok style="display:none">
+<span class="title red">已成功安裝 eWebEditor 控件！</span><br>
+<input type=button value="關閉視窗" onclick="window.close()">
+</div>
+
+<br><br>
+
+<div id="div_ActiveX" style="display:none"><OBJECT CLASSID="CLSID:EFF7D2B9-EC9A-44EA-8CF2-61F48F02F3C6" width=0 height=0 CODEBASE="../../eWebEditor3.CAB#version=3,4,0,0"></OBJECT></div>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.vo.ArticleVo</classname>
+  <code>ArticleVo</code>
+  <name>ArticleVo</name>
+  <packages>com.tellhow.itemsmanage.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}9eVc++YyFuqGmdgfJMwhLQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setColor(String color)</serialno>
+      <method>setColor</method>
+      <name>void setColor(String color)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>color</code>
+          <name>color</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getColor()</serialno>
+      <method>getColor</method>
+      <name>String getColor()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.vo.ArticleVo.getColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getUnit()</serialno>
+      <method>getUnit</method>
+      <name>String getUnit()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.vo.ArticleVo.getUnit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUnit(String unit)</serialno>
+      <method>setUnit</method>
+      <name>void setUnit(String unit)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setUnit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>unit</code>
+          <name>unit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSex()</serialno>
+      <method>getSex</method>
+      <name>long getSex()</name>
+      <genericname>public long com.tellhow.itemsmanage.vo.ArticleVo.getSex()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.itemsmanage.vo.ArticleVo.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setXhsize(long xhsize)</serialno>
+      <method>setXhsize</method>
+      <name>void setXhsize(long xhsize)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setXhsize(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>xhsize</code>
+          <name>xhsize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getArticlename()</serialno>
+      <method>getArticlename</method>
+      <name>String getArticlename()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.vo.ArticleVo.getArticlename()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlename(String articlename)</serialno>
+      <method>setArticlename</method>
+      <name>void setArticlename(String articlename)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setArticlename(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlename</code>
+          <name>articlename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getLimited()</serialno>
+      <method>getLimited</method>
+      <name>long getLimited()</name>
+      <genericname>public long com.tellhow.itemsmanage.vo.ArticleVo.getLimited()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLimited(long limited)</serialno>
+      <method>setLimited</method>
+      <name>void setLimited(long limited)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setLimited(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>limited</code>
+          <name>limited</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSex(long sex)</serialno>
+      <method>setSex</method>
+      <name>void setSex(long sex)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setSex(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sex</code>
+          <name>sex</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticlesize(List articlesize)</serialno>
+      <method>setArticlesize</method>
+      <name>void setArticlesize(List articlesize)</name>
+      <genericname>public void com.tellhow.itemsmanage.vo.ArticleVo.setArticlesize(java.util.List&lt;com.tellhow.itemsmanage.bean.items.Articlesize&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getArticlesize()</serialno>
+      <method>getArticlesize</method>
+      <name>List getArticlesize()</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.bean.items.Articlesize&gt; com.tellhow.itemsmanage.vo.ArticleVo.getArticlesize()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getXhsize()</serialno>
+      <method>getXhsize</method>
+      <name>long getXhsize()</name>
+      <genericname>public long com.tellhow.itemsmanage.vo.ArticleVo.getXhsize()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

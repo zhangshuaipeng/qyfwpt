@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.service.AttachLoadService</classname>
+  <code>AttachLoadService</code>
+  <name>AttachLoadService</name>
+  <packages>com.tellhow.investment.service</packages>
+  <type>biz</type>
+  <crc>{MD5}Zexn5MhF9EuXDahtnyDKEA==</crc>
+  <modifytime>2013-06-20 16:59:17</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>AttachURLVo getAttach(String progressid)</serialno>
+      <method>getAttach</method>
+      <name>AttachURLVo getAttach(String progressid)</name>
+      <genericname>public com.tellhow.investment.vo.AttachURLVo com.tellhow.investment.service.AttachLoadService.getAttach(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AttachURLVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

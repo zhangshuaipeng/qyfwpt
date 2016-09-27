@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_draft</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_DRAFT</item>
+    <script>select * from eap_vw_draft where status=&apos;S&apos;</script>
+    <metadata>EAP_DRAFT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>delete.eap_draft</code>
+    <name>删除</name>
+    <type>dboperand</type>
+    <operand>DELETE</operand>
+    <catalog>system</catalog>
+    <item>EAP_DRAFT</item>
+    <metadata>EAP_DRAFT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>StartupBo.deleteDraft</code>
+    <name>deleteDraft</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.StartupBo</catalog>
+    <item>deleteDraft</item>
+    <script>void deleteDraft(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

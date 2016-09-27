@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.ProjectBcVo</classname>
+  <code>ProjectBcVo</code>
+  <name>ProjectBcVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}VosP8wLQ4z+PIoAccg6hPQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.investment.vo.ProjectBcVo.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getProjectLeader()</serialno>
+      <method>getProjectLeader</method>
+      <name>String getProjectLeader()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getProjectLeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectLeader(String projectLeader)</serialno>
+      <method>setProjectLeader</method>
+      <name>void setProjectLeader(String projectLeader)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setProjectLeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectLeader</code>
+          <name>projectLeader</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.investment.vo.ProjectBcVo.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperateDate()</serialno>
+      <method>getOperateDate</method>
+      <name>String getOperateDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getOperateDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperateDate(String operateDate)</serialno>
+      <method>setOperateDate</method>
+      <name>void setOperateDate(String operateDate)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setOperateDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operateDate</code>
+          <name>operateDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getAmounttype()</serialno>
+      <method>getAmounttype</method>
+      <name>long getAmounttype()</name>
+      <genericname>public long com.tellhow.investment.vo.ProjectBcVo.getAmounttype()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAmounttype(long amounttype)</serialno>
+      <method>setAmounttype</method>
+      <name>void setAmounttype(long amounttype)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setAmounttype(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>amounttype</code>
+          <name>amounttype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInvestment()</serialno>
+      <method>getInvestment</method>
+      <name>String getInvestment()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getInvestment()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvestment(String investment)</serialno>
+      <method>setInvestment</method>
+      <name>void setInvestment(String investment)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setInvestment(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>investment</code>
+          <name>investment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredCapital()</serialno>
+      <method>getRegisteredCapital</method>
+      <name>String getRegisteredCapital()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getRegisteredCapital()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredCapital(String registeredCapital)</serialno>
+      <method>setRegisteredCapital</method>
+      <name>void setRegisteredCapital(String registeredCapital)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setRegisteredCapital(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredCapital</code>
+          <name>registeredCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseNature()</serialno>
+      <method>getEnterpriseNature</method>
+      <name>long getEnterpriseNature()</name>
+      <genericname>public long com.tellhow.investment.vo.ProjectBcVo.getEnterpriseNature()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseNature(long enterpriseNature)</serialno>
+      <method>setEnterpriseNature</method>
+      <name>void setEnterpriseNature(long enterpriseNature)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setEnterpriseNature(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseNature</code>
+          <name>enterpriseNature</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIndustryType()</serialno>
+      <method>getIndustryType</method>
+      <name>long getIndustryType()</name>
+      <genericname>public long com.tellhow.investment.vo.ProjectBcVo.getIndustryType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndustryType(long industryType)</serialno>
+      <method>setIndustryType</method>
+      <name>void setIndustryType(long industryType)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setIndustryType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>industryType</code>
+          <name>industryType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProjectType()</serialno>
+      <method>getProjectType</method>
+      <name>int getProjectType()</name>
+      <genericname>public int com.tellhow.investment.vo.ProjectBcVo.getProjectType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectType(int projectType)</serialno>
+      <method>setProjectType</method>
+      <name>void setProjectType(int projectType)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setProjectType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>projectType</code>
+          <name>projectType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedDate()</serialno>
+      <method>getApprovedDate</method>
+      <name>String getApprovedDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ProjectBcVo.getApprovedDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedDate(String approvedDate)</serialno>
+      <method>setApprovedDate</method>
+      <name>void setApprovedDate(String approvedDate)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setApprovedDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedDate</code>
+          <name>approvedDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getGroupTypeID()</serialno>
+      <method>getGroupTypeID</method>
+      <name>long getGroupTypeID()</name>
+      <genericname>public long com.tellhow.investment.vo.ProjectBcVo.getGroupTypeID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupTypeID(long groupTypeID)</serialno>
+      <method>setGroupTypeID</method>
+      <name>void setGroupTypeID(long groupTypeID)</name>
+      <genericname>public void com.tellhow.investment.vo.ProjectBcVo.setGroupTypeID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>groupTypeID</code>
+          <name>groupTypeID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projecttype</code>
+      <name>projectType</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enterprisenature</code>
+      <name>enterpriseNature</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>industrytype</code>
+      <name>industryType</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>registeredcapital</code>
+      <name>registeredCapital</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>investment</code>
+      <name>investment</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>approveddate</code>
+      <name>approvedDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatedate</code>
+      <name>operateDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>status</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projectleader</code>
+      <name>projectLeader</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>grouptypeid</code>
+      <name>groupTypeID</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>amounttype</code>
+      <name>amounttype</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

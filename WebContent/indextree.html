@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+	<title>Header/Footer</title>
+	<link rel="stylesheet" type="text/css" href="css/dhtmlxlayout.css">
+	<link rel="stylesheet" type="text/css" href="css/skins/dhtmlxlayout_dhx_skyblue.css">
+	<link rel="stylesheet" type="text/css" href="css/skins/dhtmlxaccordion_dhx_skyblue.css">
+
+<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			font-size:12px;
+		}
+
+.x-tree dt,dl,dd {
+	line-height:20px;
+	cursor:pointer;
+	font-size:12px;
+	margin-top:0px;
+	-moz-user-select:none;
+}
+
+.x-tree dt {
+	margin-left:0px;
+}
+
+.x-tree dl dd {
+	margin-left:32px;
+}
+
+.x-tree dl dl {
+	margin-left:32px;
+}
+
+.x-tree img {
+	vertical-align:middle;
+	margin-right:2px;
+}
+
+.x-tree a img,span {
+	border:0px;
+}
+
+.x-tree a,a:link,a.visited,a:hover,a:active {
+	text-decoration: none;
+	color:black;
+}
+
+.x-tree .open {
+	vertical-align:middle;
+	line-height:16px;
+}
+
+.x-tree .open .arrow {
+    background: url("images/arrows.gif") no-repeat scroll -16px 0 transparent;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+}
+
+.x-tree .open .folder {
+	background: url("images/openfolder.gif") repeat scroll 0 0 transparent;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+	margin-right:2px;
+}
+
+.x-tree .close .arrow {
+    background: url("images/arrows.gif") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+}
+
+.x-tree .close .folder {
+	background: url("images/folder.gif") repeat scroll 0 0 transparent;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+	margin-right:2px;
+}
+
+.x-tree .selected {
+	background-color:#D9E8FB;
+}
+
+.x-tree .over {
+	background-color:#eeeeee;
+}
+
+
+.menus {
+	margin-top:5px;
+	-moz-user-select:none;
+}
+
+.menu {
+	font-size:12px;
+	height:26px;
+	line-height:26px;
+	margin-left:4px;
+	padding-top:6px;
+	-moz-user-select:none;
+}
+
+.menu .text {
+	line-height:20px;
+	margin-left:4px;
+}
+
+.menu a img,span {
+	border:0px;
+}
+
+.menu a,a:link,a.visited,a:hover,a:active {
+	text-decoration: none;
+	color:black;
+}
+
+.menu img {
+	vertical-align:middle;
+}
+
+.menus .selected {
+	background-color:#D9E8FB;
+}
+
+.menus .over {
+	background-color:#eeeeee;
+}
+
+
+
+.tabheader {
+	height:25px;
+	border-bottom:1px solid #cccccc;
+}
+.tabcontainer {
+	overflow:hidden;
+	float:left;
+	position: relative;
+	height:25px;
+}
+.tabcontainer ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabcontainer li span {
+	margin-left:2px;
+	margin-right:6px;
+}
+
+.tabcontainer li.selected {
+    background: url("images/tab_selected_left.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-right: 3px;
+	padding: 0px;
+	position:relative;
+  }
+
+.tabcontainer li.selected a {
+    background: url("images/tab_selected_right.gif") no-repeat scroll right 0 transparent;
+    display: block;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 4px;
+}
+
+.tabcontainer li {
+    background: url("images/tab_left.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-right: 3px;
+	padding: 0px;
+	position:relative;
+  }
+
+.tabcontainer li a {
+    background: url("images/tab_right.gif") no-repeat scroll right 0 transparent;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 4px;
+}
+
+.tabcontainer .close {
+    background: url("images/tab-close.gif") no-repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 11px;
+    line-height: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: -6px;
+    text-indent: -999px;
+    top: 3px;
+    width: 11px;
+}
+
+.tab-toleft {
+    background: url("images/tab_leftarrow.png") no-repeat scroll 1px 2px transparent;
+    border: 1px solid #8DB2E3;
+    cursor: pointer;
+    display: block;
+    font-size: 1px;
+    height: 20px !important;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 18px;
+}
+
+.tab-toright {
+    background: url("images/tab_rightarrow.png") no-repeat scroll 2px 2px transparent;
+    border: 1px solid #8DB2E3;
+    cursor: pointer;
+    display: block;
+    font-size: 1px;
+    height: 20px !important;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 18px;
+}
+	
+	</style>
+</head>
+
+<script src="js/common.js"></script>
+<script src="js/tabber.js"></script>
+<script src="js/navtree.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/dhtmlxcommon.js"></script>
+<script src="js/dhtmlxlayout.js"></script>
+<script src="js/dhtmlxaccordion.js"></script>
+<script src="js/dhtmlxcontainer.js"></script>
+<script>
+var dhxLayout;
+var statusBar;
+var dhxAccord;
+var selected;
+var tab = new Tabber();
+var objTree = new dxTree();
+
+function showTree(ajaxObj){
+	var root = ajaxObj.responseXML.documentElement; 
+	createTreeNodes(root,null);
+}
+
+
+
+// 取下一个子节点
+function createTreeNodes(node,tree) {
+	var nodes = node.childNodes;
+	var item;
+	var treeNode;
+	var subNode;
+
+	if (!tree) {
+		treeNode = objTree.getTree();
+	} else
+		treeNode = tree;
+
+	for (var i=0;i<nodes.length;i++) {
+		if (nodes[i].nodeType==1) {   // 表示真实的子节点
+			item = nodes[i];
+			// 是否是文件夹
+			if (item.childNodes.length>0) {
+				subNode = objTree.createFolder(treeNode,item);
+				createTreeNodes(item,subNode);
+			} else
+				objTree.createNode(treeNode,item);
+		}
+	}
+}
+
+
+function doOnLoad() {
+	dhxLayout = new dhtmlXLayoutObject(document.body, "2U");
+	dhxLayout.attachHeader("my_logo");
+	dhxLayout.attachFooter("my_copy");
+	dhxLayout.cells("a").setWidth("200");
+	dhxLayout.cells("a").setText("<img src='css/imgs/dhxlayout_dhx_skyblue/dhxlayout_cpanel_btn_dock.gif'>导航树");
+	//dhxLayout.cells("b").setWidth("200");
+	dhxLayout.cells("a").attachObject("outlook");
+
+	dhxLayout.cells("b").attachObject("EAP_CONTENT");
+	//dhxLayout.cells("a").hideHeader();
+	dhxLayout.cells("b").hideHeader();
+	//statusBar = dhxLayout.attachStatusBar();
+	//statusBar.setText("Simple Status Bar");
+
+	tab.Init("EAP_TABBER");
+
+	DHTMLSuite.ajax.sendRequest('tree.xml','','showTree');
+	objTree.init("outlook");
+}
+
+
+</script>
+
+
+<body onload="doOnLoad();" style="background-color:#eeeeee;#DFE8F6;">
+<div id="my_logo" style="height: 74px;">
+	<div style="clear:both;">
+	<input type="text" id="title">
+	<input type="text" id="url">
+	<input type="button" value="add" onclick="tab.addTab(1,document.getElementById('title').value,document.getElementById('url').value,false);">
+	<input type="button" value="add" onclick="tab.addTab(2,document.getElementById('title').value,document.getElementById('url').value,true);">
+	<input type="button" value="add" onclick="tab.addTab(null,document.getElementById('title').value,document.getElementById('url').value,true);">
+	</div>
+</div>
+
+<div id="outlook" style="width:100%;height:100%;overflow:hidden;margin-top:3px;" >
+
+</div>
+
+<div style="width:100%;height:100%;" id="EAP_CONTENT">
+	<div id="EAP_TABBER">
+	</div>
+</div>
+
+<div id="my_copy" style="height: 20px;line-height:16px;position:absolute;top:6px;">Hi! I'm copyright &copy;!</div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.PageControl</classname>
+  <code>PageControl</code>
+  <name>PageControl</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}cGZC8Ywd77B80ShvitWuUw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void calcPage(PagingModel pageCtl,int rowsNum,int lastIndex)</serialno>
+      <method>calcPage</method>
+      <name>void calcPage(PagingModel pageCtl,int rowsNum,int lastIndex)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.calcPage(com.siqiansoft.framework.model.PagingModel,int,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>rowsNum</code>
+          <name>rowsNum</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>lastIndex</code>
+          <name>lastIndex</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void reCalcPage(PagingModel pageCtl,int totalRows,int fetchRows)</serialno>
+      <method>reCalcPage</method>
+      <name>void reCalcPage(PagingModel pageCtl,int totalRows,int fetchRows)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.reCalcPage(com.siqiansoft.framework.model.PagingModel,int,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>totalRows</code>
+          <name>totalRows</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>fetchRows</code>
+          <name>fetchRows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCurPage(int totalRows,int curPage,int rowsPerPage)</serialno>
+      <method>getCurPage</method>
+      <name>int getCurPage(int totalRows,int curPage,int rowsPerPage)</name>
+      <genericname>public static int com.siqiansoft.framework.util.PageControl.getCurPage(int,int,int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>totalRows</code>
+          <name>totalRows</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>curPage</code>
+          <name>curPage</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>rowsPerPage</code>
+          <name>rowsPerPage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void initPageControl(PagingModel pageCtl,String fieldid,HashMap mapData)</serialno>
+      <method>initPageControl</method>
+      <name>void initPageControl(PagingModel pageCtl,String fieldid,HashMap mapData)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.initPageControl(com.siqiansoft.framework.model.PagingModel,java.lang.String,java.util.HashMap)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>mapData</code>
+          <name>mapData</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PagingModel createPageCtrl(String fieldset,HashMap mapData)</serialno>
+      <method>createPageCtrl</method>
+      <name>PagingModel createPageCtrl(String fieldset,HashMap mapData)</name>
+      <genericname>public static com.siqiansoft.framework.model.PagingModel com.siqiansoft.framework.util.PageControl.createPageCtrl(java.lang.String,java.util.HashMap)</genericname>
+      <retclass>PagingModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>mapData</code>
+          <name>mapData</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void calcPageByCurPage(PagingModel pageCtl,int totalRows,int curPageRows)</serialno>
+      <method>calcPageByCurPage</method>
+      <name>void calcPageByCurPage(PagingModel pageCtl,int totalRows,int curPageRows)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.calcPageByCurPage(com.siqiansoft.framework.model.PagingModel,int,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>totalRows</code>
+          <name>totalRows</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>curPageRows</code>
+          <name>curPageRows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNoPageBreak(PagingModel pageCtl,int rowsNum)</serialno>
+      <method>setNoPageBreak</method>
+      <name>void setNoPageBreak(PagingModel pageCtl,int rowsNum)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.setNoPageBreak(com.siqiansoft.framework.model.PagingModel,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>rowsNum</code>
+          <name>rowsNum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageProp(int curPage,int pageRows)</serialno>
+      <method>setPageProp</method>
+      <name>void setPageProp(int curPage,int pageRows)</name>
+      <genericname>public static void com.siqiansoft.framework.util.PageControl.setPageProp(int,int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>curPage</code>
+          <name>curPage</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pageRows</code>
+          <name>pageRows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

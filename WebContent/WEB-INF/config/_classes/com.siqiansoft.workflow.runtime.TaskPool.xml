@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.TaskPool</classname>
+  <code>TaskPool</code>
+  <name>TaskPool</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}FMWzdcGnV7nUvPy8ZC9uJA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ProcessModel getProcess(String wid)</serialno>
+      <method>getProcess</method>
+      <name>ProcessModel getProcess(String wid)</name>
+      <genericname>public com.siqiansoft.workflow.model.ProcessModel com.siqiansoft.workflow.runtime.TaskPool.getProcess(java.lang.String)</genericname>
+      <retclass>ProcessModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addTask(String wid,ProcessModel process)</serialno>
+      <method>addTask</method>
+      <name>void addTask(String wid,ProcessModel process)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.TaskPool.addTask(java.lang.String,com.siqiansoft.workflow.model.ProcessModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ProcessModel</type>
+          <code>process</code>
+          <name>process</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteTask(String wid)</serialno>
+      <method>deleteTask</method>
+      <name>void deleteTask(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.TaskPool.deleteTask(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void clearTask(String userCode)</serialno>
+      <method>clearTask</method>
+      <name>void clearTask(String userCode)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.TaskPool.clearTask(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

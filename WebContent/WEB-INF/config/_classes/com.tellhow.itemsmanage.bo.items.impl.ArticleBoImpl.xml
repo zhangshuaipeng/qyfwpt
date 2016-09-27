@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bo.items.impl.ArticleBoImpl</classname>
+  <code>ArticleBoImpl</code>
+  <name>ArticleBoImpl</name>
+  <packages>com.tellhow.itemsmanage.bo.items.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}wIjKIbJciqPuq0Aa6RhxRw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List findarticle(long sex)</serialno>
+      <method>findarticle</method>
+      <name>List findarticle(long sex)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.bean.items.Article&gt; com.tellhow.itemsmanage.bo.items.impl.ArticleBoImpl.findarticle(long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sex</code>
+          <name>sex</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Article findarticleByid(String id)</serialno>
+      <method>findarticleByid</method>
+      <name>Article findarticleByid(String id)</name>
+      <genericname>public com.tellhow.itemsmanage.bean.items.Article com.tellhow.itemsmanage.bo.items.impl.ArticleBoImpl.findarticleByid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Article</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

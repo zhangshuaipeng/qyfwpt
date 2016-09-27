@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.InstanceBo</classname>
+  <code>InstanceBo</code>
+  <name>InstanceBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}Rt6NZ3KCzHXDMay3zfp42Q==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getInstanceTree(LoginModel login)</serialno>
+      <method>getInstanceTree</method>
+      <name>NodeModel getInstanceTree(LoginModel login)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.workflow.bo.InstanceBo.getInstanceTree(com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

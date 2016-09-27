@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.RuleHandler</classname>
+  <code>RuleHandler</code>
+  <name>RuleHandler</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}leRRP06eFVSeNoK3b5Teng==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object exec(String rule)</serialno>
+      <method>exec</method>
+      <name>Object exec(String rule)</name>
+      <genericname>public java.lang.Object com.siqiansoft.workflow.runtime.RuleHandler.exec(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object[] getParamsObject(String params)</serialno>
+      <method>getParamsObject</method>
+      <name>Object[] getParamsObject(String params)</name>
+      <genericname>public java.lang.Object[] com.siqiansoft.workflow.runtime.RuleHandler.getParamsObject(java.lang.String)</genericname>
+      <retclass>Object[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void execPolicy(PolicyModel[] policy,ProcessModel process)</serialno>
+      <method>execPolicy</method>
+      <name>void execPolicy(PolicyModel[] policy,ProcessModel process)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.RuleHandler.execPolicy(com.siqiansoft.workflow.model.PolicyModel[],com.siqiansoft.workflow.model.ProcessModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PolicyModel[]</type>
+          <code>policy</code>
+          <name>policy</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ProcessModel</type>
+          <code>process</code>
+          <name>process</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

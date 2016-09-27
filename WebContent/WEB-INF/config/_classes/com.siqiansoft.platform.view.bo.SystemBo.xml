@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.SystemBo</classname>
+  <code>SystemBo</code>
+  <name>SystemBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}DJvtP9G0fw0Crq0WYhvVCA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ItemModel getSystem(String name)</serialno>
+      <method>getSystem</method>
+      <name>ItemModel getSystem(String name)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel com.siqiansoft.platform.view.bo.SystemBo.getSystem(java.lang.String)</genericname>
+      <retclass>ItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getIcons()</serialno>
+      <method>getIcons</method>
+      <name>ItemModel[] getIcons()</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.platform.view.bo.SystemBo.getIcons() throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateSystem(ItemModel item)</serialno>
+      <method>updateSystem</method>
+      <name>void updateSystem(ItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.SystemBo.updateSystem(com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getSystemListTree()</serialno>
+      <method>getSystemListTree</method>
+      <name>NodeModel getSystemListTree()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.SystemBo.getSystemListTree() throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList listSystem(ConditionModel[] cs,PagingModel pageCtl)</serialno>
+      <method>listSystem</method>
+      <name>ArrayList listSystem(ConditionModel[] cs,PagingModel pageCtl)</name>
+      <genericname>public java.util.ArrayList&lt;com.siqiansoft.framework.model.ItemModel&gt; com.siqiansoft.platform.view.bo.SystemBo.listSystem(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveSystem(ItemModel item)</serialno>
+      <method>saveSystem</method>
+      <name>void saveSystem(ItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.SystemBo.saveSystem(com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteSystems(String[] selected)</serialno>
+      <method>deleteSystems</method>
+      <name>void deleteSystems(String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.SystemBo.deleteSystems(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

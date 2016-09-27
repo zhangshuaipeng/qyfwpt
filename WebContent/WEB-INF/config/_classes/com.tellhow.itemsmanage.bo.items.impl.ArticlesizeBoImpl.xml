@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bo.items.impl.ArticlesizeBoImpl</classname>
+  <code>ArticlesizeBoImpl</code>
+  <name>ArticlesizeBoImpl</name>
+  <packages>com.tellhow.itemsmanage.bo.items.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}xbIWrIdYfzSLoomvQ5wd2Q==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List findarticle(String articleid)</serialno>
+      <method>findarticle</method>
+      <name>List findarticle(String articleid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.bean.items.Articlesize&gt; com.tellhow.itemsmanage.bo.items.impl.ArticlesizeBoImpl.findarticle(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

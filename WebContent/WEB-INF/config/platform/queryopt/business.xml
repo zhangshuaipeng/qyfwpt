@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String gridid,String id)</script>
+    <params>system,module,gridid,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String gridid,String id)</script>
+    <params>system,module,gridid,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.getDict</code>
+    <name>getDict</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>getDict</item>
+    <script>ItemModel[] getDict(String system,String module,String type,String display)</script>
+    <params>system,module,type,display</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.listQueryOpts</code>
+    <name>listQueryOpts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>listQueryOpts</item>
+    <script>QueryOptModel[] listQueryOpts(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.addQueryOpt</code>
+    <name>addQueryOpt</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>addQueryOpt</item>
+    <script>void addQueryOpt(String system,String module,String gridid,QueryOptModel opt)</script>
+    <params>system,module,gridid,opt</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.getQueryOpt</code>
+    <name>getQueryOpt</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>getQueryOpt</item>
+    <script>QueryOptModel getQueryOpt(String system,String module,String gridid,String id)</script>
+    <params>system,module,gridid,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.updateQueryOpt</code>
+    <name>updateQueryOpt</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>updateQueryOpt</item>
+    <script>void updateQueryOpt(String system,String module,String gridid,QueryOptModel opt)</script>
+    <params>system,module,gridid,opt</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>QueryOptBo.deleteQueryOpts</code>
+    <name>deleteQueryOpts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.QueryOptBo</catalog>
+    <item>deleteQueryOpts</item>
+    <script>void deleteQueryOpts(String system,String module,String gridid,String[] selected)</script>
+    <params>system,module,gridid,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

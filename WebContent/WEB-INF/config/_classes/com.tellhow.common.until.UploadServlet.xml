@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.UploadServlet</classname>
+  <code>UploadServlet</code>
+  <name>UploadServlet</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}JVqEWM0q/zVvCouoXoxmUA==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void service(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>service</method>
+      <name>void service(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.common.until.UploadServlet.service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void printInfro(HttpServletResponse response,String err,String newFileName)</serialno>
+      <method>printInfro</method>
+      <name>void printInfro(HttpServletResponse response,String err,String newFileName)</name>
+      <genericname>public void com.tellhow.common.until.UploadServlet.printInfro(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>err</code>
+          <name>err</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newFileName</code>
+          <name>newFileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSaveFilePath(String sFileName,HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>getSaveFilePath</method>
+      <name>String getSaveFilePath(String sFileName,HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public java.lang.String com.tellhow.common.until.UploadServlet.getSaveFilePath(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sFileName</code>
+          <name>sFileName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

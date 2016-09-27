@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.db.DsnModel-array>
+ <model.db.DsnModel>
+    <name>system</name>
+    <description>系统数据源</description>
+    <type>oracle</type>
+    <jdbcdriver>oracle.jdbc.driver.OracleDriver</jdbcdriver>
+    <url>jdbc:oracle:thin:@localhost:1521:ORCL</url>
+    <user>qyfwpt</user>
+    <password>qyfwpt</password>
+  </model.db.DsnModel>
+</model.db.DsnModel-array>

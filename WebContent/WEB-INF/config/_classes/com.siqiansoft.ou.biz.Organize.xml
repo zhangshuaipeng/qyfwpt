@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Organize</classname>
+  <code>Organize</code>
+  <name>Organize</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}FjeLnhddptGKsS1mX8P9kQ==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createOrganize(OrganizeModel org)</serialno>
+      <method>createOrganize</method>
+      <name>void createOrganize(OrganizeModel org)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Organize.createOrganize(com.siqiansoft.ou.model.OrganizeModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>OrganizeModel</type>
+          <code>org</code>
+          <name>org</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateOrganize(OrganizeModel org)</serialno>
+      <method>updateOrganize</method>
+      <name>void updateOrganize(OrganizeModel org)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Organize.updateOrganize(com.siqiansoft.ou.model.OrganizeModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>OrganizeModel</type>
+          <code>org</code>
+          <name>org</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteOrganize(String pk)</serialno>
+      <method>deleteOrganize</method>
+      <name>void deleteOrganize(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Organize.deleteOrganize(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteOrganizes(String[] pk)</serialno>
+      <method>deleteOrganizes</method>
+      <name>void deleteOrganizes(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Organize.deleteOrganizes(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>OrganizeModel[] getOrganizeList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getOrganizeList</method>
+      <name>OrganizeModel[] getOrganizeList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.OrganizeModel[] com.siqiansoft.ou.biz.Organize.getOrganizeList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>OrganizeModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>OrganizeModel[] getSubOrganize(String orgcode)</serialno>
+      <method>getSubOrganize</method>
+      <name>OrganizeModel[] getSubOrganize(String orgcode)</name>
+      <genericname>public static com.siqiansoft.ou.model.OrganizeModel[] com.siqiansoft.ou.biz.Organize.getSubOrganize(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>OrganizeModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

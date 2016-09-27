@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.PullHandlerBo</classname>
+  <code>PullHandlerBo</code>
+  <name>PullHandlerBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}DO7X58Ct89fwqTghrOH9nQ==</crc>
+  <modifytime>2013-01-25 21:22:20</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getHandler(String system,String module,String action,String fieldset)</serialno>
+      <method>getHandler</method>
+      <name>HandlerModel getHandler(String system,String module,String action,String fieldset)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.platform.view.bo.PullHandlerBo.getHandler(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addHandler(String system,String module,String action,HandlerModel handler)</serialno>
+      <method>addHandler</method>
+      <name>void addHandler(String system,String module,String action,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PullHandlerBo.addHandler(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateHandler(String system,String module,String action,HandlerModel handler)</serialno>
+      <method>updateHandler</method>
+      <name>void updateHandler(String system,String module,String action,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PullHandlerBo.updateHandler(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listHandlers(String system,String module,String action)</serialno>
+      <method>listHandlers</method>
+      <name>HandlerModel[] listHandlers(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.platform.view.bo.PullHandlerBo.listHandlers(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteHandlers(String system,String module,String action,String[] selected)</serialno>
+      <method>deleteHandlers</method>
+      <name>void deleteHandlers(String system,String module,String action,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.PullHandlerBo.deleteHandlers(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

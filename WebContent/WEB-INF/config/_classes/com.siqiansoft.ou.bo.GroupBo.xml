@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.GroupBo</classname>
+  <code>GroupBo</code>
+  <name>GroupBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}EUEhQ6UYvi92DlIwjMQS0w==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createGroup(GroupModel group)</serialno>
+      <method>createGroup</method>
+      <name>void createGroup(GroupModel group)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.createGroup(com.siqiansoft.ou.model.GroupModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GroupModel</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateGroup(GroupModel group)</serialno>
+      <method>updateGroup</method>
+      <name>void updateGroup(GroupModel group)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.updateGroup(com.siqiansoft.ou.model.GroupModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GroupModel</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteGroup(String orgCode,String group)</serialno>
+      <method>deleteGroup</method>
+      <name>void deleteGroup(String orgCode,String group)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.deleteGroup(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteGroups(String orgCode,String[] pks)</serialno>
+      <method>deleteGroups</method>
+      <name>void deleteGroups(String orgCode,String[] pks)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.deleteGroups(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pks</code>
+          <name>pks</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getAccountsInGroup(String orgCode,String group)</serialno>
+      <method>getAccountsInGroup</method>
+      <name>AccountModel[] getAccountsInGroup(String orgCode,String group)</name>
+      <genericname>public com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.bo.GroupBo.getAccountsInGroup(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUsersToGroup(String orgCode,String group,String users)</serialno>
+      <method>addUsersToGroup</method>
+      <name>void addUsersToGroup(String orgCode,String group,String users)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.addUsersToGroup(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>users</code>
+          <name>users</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUserToGroup(String orgCode,String account,String group)</serialno>
+      <method>addUserToGroup</method>
+      <name>void addUserToGroup(String orgCode,String account,String group)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.addUserToGroup(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>account</code>
+          <name>account</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeUsersFromGroup(String orgCode,String group,String[] pks)</serialno>
+      <method>removeUsersFromGroup</method>
+      <name>void removeUsersFromGroup(String orgCode,String group,String[] pks)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.removeUsersFromGroup(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pks</code>
+          <name>pks</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeUserFromGroup(String orgCode,String account,String group)</serialno>
+      <method>removeUserFromGroup</method>
+      <name>void removeUserFromGroup(String orgCode,String account,String group)</name>
+      <genericname>public void com.siqiansoft.ou.bo.GroupBo.removeUserFromGroup(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>account</code>
+          <name>account</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

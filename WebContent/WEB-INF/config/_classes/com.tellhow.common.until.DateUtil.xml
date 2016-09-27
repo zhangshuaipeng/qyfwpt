@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.DateUtil</classname>
+  <code>DateUtil</code>
+  <name>DateUtil</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}L4V0qzEO5l73JggV9y+7nA==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.tellhow.common.until.DateUtil.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isLeapYear(int year)</serialno>
+      <method>isLeapYear</method>
+      <name>boolean isLeapYear(int year)</name>
+      <genericname>public static boolean com.tellhow.common.until.DateUtil.isLeapYear(int)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isLeapYear()</serialno>
+      <method>isLeapYear</method>
+      <name>boolean isLeapYear()</name>
+      <genericname>public static boolean com.tellhow.common.until.DateUtil.isLeapYear()</genericname>
+      <retclass>boolean</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDate(String value)</serialno>
+      <method>formatDate</method>
+      <name>String formatDate(String value)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.formatDate(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatCurrentTime(String pattern)</serialno>
+      <method>formatCurrentTime</method>
+      <name>String formatCurrentTime(String pattern)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.formatCurrentTime(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pattern</code>
+          <name>pattern</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String addonemonth(String selectstatetime)</serialno>
+      <method>addonemonth</method>
+      <name>String addonemonth(String selectstatetime)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.addonemonth(java.lang.String) throws java.text.ParseException</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>selectstatetime</code>
+          <name>selectstatetime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCurrentMonday()</serialno>
+      <method>getCurrentMonday</method>
+      <name>String getCurrentMonday()</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.getCurrentMonday()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String addStringDays(String curDate,int addDaysNum)</serialno>
+      <method>addStringDays</method>
+      <name>String addStringDays(String curDate,int addDaysNum)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.DateUtil.addStringDays(java.lang.String,int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>curDate</code>
+          <name>curDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>addDaysNum</code>
+          <name>addDaysNum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String transferDateToString(Date formatDate,String pattern)</serialno>
+      <method>transferDateToString</method>
+      <name>String transferDateToString(Date formatDate,String pattern)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.transferDateToString(java.util.Date,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>formatDate</code>
+          <name>formatDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pattern</code>
+          <name>pattern</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String transferDateToString(Date formatDate)</serialno>
+      <method>transferDateToString</method>
+      <name>String transferDateToString(Date formatDate)</name>
+      <genericname>public static final java.lang.String com.tellhow.common.until.DateUtil.transferDateToString(java.util.Date)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>formatDate</code>
+          <name>formatDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date transferStringToDate(String strDate)</serialno>
+      <method>transferStringToDate</method>
+      <name>Date transferStringToDate(String strDate)</name>
+      <genericname>public static final java.util.Date com.tellhow.common.until.DateUtil.transferStringToDate(java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDate</code>
+          <name>strDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date transferStringToDate(String strDate,String pattern)</serialno>
+      <method>transferStringToDate</method>
+      <name>Date transferStringToDate(String strDate,String pattern)</name>
+      <genericname>public static final java.util.Date com.tellhow.common.until.DateUtil.transferStringToDate(java.lang.String,java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDate</code>
+          <name>strDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pattern</code>
+          <name>pattern</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTimeField(Calendar cal,int field)</serialno>
+      <method>getTimeField</method>
+      <name>int getTimeField(Calendar cal,int field)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getTimeField(java.util.Calendar,int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Calendar</type>
+          <code>cal</code>
+          <name>cal</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTimeField(Date date,int field)</serialno>
+      <method>getTimeField</method>
+      <name>int getTimeField(Date date,int field)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getTimeField(java.util.Date,int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLastDayOfMonth(int month)</serialno>
+      <method>getLastDayOfMonth</method>
+      <name>int getLastDayOfMonth(int month)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getLastDayOfMonth(int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLastDayOfMonth(Date date)</serialno>
+      <method>getLastDayOfMonth</method>
+      <name>int getLastDayOfMonth(Date date)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getLastDayOfMonth(java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLastDayOfMonth(int year,int month)</serialno>
+      <method>getLastDayOfMonth</method>
+      <name>int getLastDayOfMonth(int year,int month)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getLastDayOfMonth(int,int)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLastDayOfMonth(Calendar cal)</serialno>
+      <method>getLastDayOfMonth</method>
+      <name>int getLastDayOfMonth(Calendar cal)</name>
+      <genericname>public static int com.tellhow.common.until.DateUtil.getLastDayOfMonth(java.util.Calendar)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Calendar</type>
+          <code>cal</code>
+          <name>cal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date backYears(Date curDate,int backYearNum)</serialno>
+      <method>backYears</method>
+      <name>Date backYears(Date curDate,int backYearNum)</name>
+      <genericname>public static java.util.Date com.tellhow.common.until.DateUtil.backYears(java.util.Date,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>curDate</code>
+          <name>curDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>backYearNum</code>
+          <name>backYearNum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date addDays(Date curDate,int addDaysNum)</serialno>
+      <method>addDays</method>
+      <name>Date addDays(Date curDate,int addDaysNum)</name>
+      <genericname>public static java.util.Date com.tellhow.common.until.DateUtil.addDays(java.util.Date,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>curDate</code>
+          <name>curDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>addDaysNum</code>
+          <name>addDaysNum</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getWeeks(int year,int month)</serialno>
+      <method>getWeeks</method>
+      <name>List getWeeks(int year,int month)</name>
+      <genericname>public static java.util.List&lt;java.lang.String&gt; com.tellhow.common.until.DateUtil.getWeeks(int,int)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

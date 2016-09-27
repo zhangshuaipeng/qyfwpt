@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.vo.JqgridModelVo</classname>
+  <code>JqgridModelVo</code>
+  <name>JqgridModelVo</name>
+  <packages>com.tellhow.jqgrid.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}uaCWPB9U7BSL2ffBImKwyQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getJqgridModel()</serialno>
+      <method>getJqgridModel</method>
+      <name>String getJqgridModel()</name>
+      <genericname>public java.lang.String com.tellhow.jqgrid.vo.JqgridModelVo.getJqgridModel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJqgridModel(String jqgridModel)</serialno>
+      <method>setJqgridModel</method>
+      <name>void setJqgridModel(String jqgridModel)</name>
+      <genericname>public void com.tellhow.jqgrid.vo.JqgridModelVo.setJqgridModel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jqgridModel</code>
+          <name>jqgridModel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>jqgridmodel</code>
+      <name>jqgridModel</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

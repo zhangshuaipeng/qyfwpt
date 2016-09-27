@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Department</classname>
+  <code>Department</code>
+  <name>Department</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}NM2pojS0vmvenBVPoxANTA==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void down(String orgCode,String parent,String deptCode)</serialno>
+      <method>down</method>
+      <name>void down(String orgCode,String parent,String deptCode)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.down(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parent</code>
+          <name>parent</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String orgCode,String parent,String deptCode)</serialno>
+      <method>up</method>
+      <name>void up(String orgCode,String parent,String deptCode)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.up(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parent</code>
+          <name>parent</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createDept(DepartmentModel dept)</serialno>
+      <method>createDept</method>
+      <name>void createDept(DepartmentModel dept)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.createDept(com.siqiansoft.ou.model.DepartmentModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DepartmentModel</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateDept(DepartmentModel dept)</serialno>
+      <method>updateDept</method>
+      <name>void updateDept(DepartmentModel dept)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.updateDept(com.siqiansoft.ou.model.DepartmentModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DepartmentModel</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDept(String pk)</serialno>
+      <method>deleteDept</method>
+      <name>void deleteDept(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.deleteDept(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDepts(String[] pk)</serialno>
+      <method>deleteDepts</method>
+      <name>void deleteDepts(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Department.deleteDepts(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DepartmentModel getDeptByPK(String pk)</serialno>
+      <method>getDeptByPK</method>
+      <name>DepartmentModel getDeptByPK(String pk)</name>
+      <genericname>public static com.siqiansoft.ou.model.DepartmentModel com.siqiansoft.ou.biz.Department.getDeptByPK(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>DepartmentModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DepartmentModel[] getDeptList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getDeptList</method>
+      <name>DepartmentModel[] getDeptList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.DepartmentModel[] com.siqiansoft.ou.biz.Department.getDeptList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>DepartmentModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getDeptTree(LoginModel login,String box)</serialno>
+      <method>getDeptTree</method>
+      <name>NodeModel getDeptTree(LoginModel login,String box)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.ou.biz.Department.getDeptTree(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

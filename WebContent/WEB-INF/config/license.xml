@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.LicenseModel>
+  <serverinfo>E9546-E35D8-5BBEC-5BCA0-565A6-3CFA8</serverinfo>
+  <organize>北京开发有限公司</organize>
+  <alias>开发公司</alias>
+  <system>协同办公系统</system>
+  <version>platform</version>
+  <ip>192.168.0.70</ip>
+  <mac>f0:de:f1:f2:14:60</mac>
+  <start>2013-05-01</start>
+  <overdue>0000-00-00</overdue>
+  <onlines>0</onlines>
+  <report>N</report>
+  <mobile>N</mobile>
+</model.LicenseModel>

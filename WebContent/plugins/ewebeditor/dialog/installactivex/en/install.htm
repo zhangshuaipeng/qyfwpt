@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Installing eWebEditor ActiveX</title>
+
+<style type="text/css">
+body,p,li,ol,div,input {font-size:12px;line-height:1.5;}
+.title {font-size:15px;font-weight:bold;}
+.red {color:red}
+</style>
+
+<script type="text/javascript">
+function InitDocument() {
+	checkInstalled();
+}
+
+function checkInstalled(){
+	if (!CheckActiveXInstall()){
+		window.setTimeout("checkInstalled()", 1000);
+	}else{
+		document.getElementById("div_install").style.display = "none";
+		document.getElementById("div_ok").style.display = "";
+	}
+}
+
+
+function CheckActiveXInstall(){
+	try{
+		var eWebEditorActiveX = new ActiveXObject("eWebSoft.eWebEditor3");
+		var s_Version = eWebEditorActiveX.Version;
+		if (parseFloat(s_Version.replace(/[^0123456789]+/gi, ""))>=3300){
+			eWebEditorActiveX = null;
+			document.getElementById("div_ActiveX").innerHTML = "";
+			delete eWebEditorActiveX;
+			//window.setTimeout(CollectGarbage, 1);
+			window.setInterval(CollectGarbage, 100);
+			return true;
+		}
+	}catch(e){}
+
+	return false;
+}
+
+
+</script>
+
+
+</head>
+
+<body onload="InitDocument()">
+
+<div id=div_install>
+<img src="../../images/loading.gif" border=0 align=absmiddle> <span class=title>Installing eWebEditor ActiveX...</span><br>
+Depending on your security settings, you may see a warning at the top of your browser prompting you to allow the download of eWebEditor ActiveX.
+<ol>
+<li>Did you notice the Information Bar?<br>
+<img src="1.gif" border=0>
+
+<li>If this happens, select the &quot;Click here&quot; link and choose &quot;Install ActiveX control&quot;. <br>
+<img src="2.gif" border=0>
+
+<li>If a browser security warning dialog box appears, click &quot;Install&quot;. <br>
+<img src="3.gif" border=0>
+
+<li>Installation Success!<br>
+<img src="4.gif" border=0>
+
+</ol>
+
+
+<br>
+<b>If you cannot get eWebEditor ActiveX installed or working through the steps above, Please try:</b><br>
+To install a downloaded program, what a user needs to do is to click the downloaded file and installation process starts.<br>
+<img src="../../images/down.gif" border=0 align=absmiddle> <a href="../../eWebEditor3Install.exe">Download Install Program</a><br>
+
+</div>
+
+<div id=div_ok style="display:none">
+<span class="title red">eWebEditor ActiveX Install Success!</span><br>
+<input type=button value="Close Window" onclick="window.close()">
+</div>
+
+<br><br>
+
+<div id="div_ActiveX" style="display:none"><OBJECT CLASSID="CLSID:EFF7D2B9-EC9A-44EA-8CF2-61F48F02F3C6" width=0 height=0 CODEBASE="../../eWebEditor3.CAB#version=3,4,0,0"></OBJECT></div>
+
+</body>
+</html>

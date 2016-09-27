@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.grid.DataGridHandler</classname>
+  <code>DataGridHandler</code>
+  <name>DataGridHandler</name>
+  <packages>com.siqiansoft.framework.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}MqoIcRKxwH9ExZJk4cPu9g==</crc>
+  <modifytime>2013-01-08 17:37:34</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>getInstance()</serialno>
+      <method>getInstance</method>
+      <name>getInstance()</name>
+      <genericname>public static synchronized com.siqiansoft.framework.grid.DataGridHandler com.siqiansoft.framework.grid.DataGridHandler.getInstance()</genericname>
+      <retclass>com.siqiansoft.framework.grid.DataGridHandler</retclass>
+      <arguments/>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>clearCache(String)</serialno>
+      <method>clearCache</method>
+      <name>clearCache(String)</name>
+      <genericname>public void com.siqiansoft.framework.grid.DataGridHandler.clearCache(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>saveTableData(RequestModel,PageModel)</serialno>
+      <method>saveTableData</method>
+      <name>saveTableData(RequestModel,PageModel)</name>
+      <genericname>public void com.siqiansoft.framework.grid.DataGridHandler.saveTableData(com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.view.PageModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.RequestModel</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.view.PageModel</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>saveRowData(String,String,HashMap&lt;String, String&gt;)</serialno>
+      <method>saveRowData</method>
+      <name>saveRowData(String,String,HashMap&lt;String, String&gt;)</name>
+      <genericname>public void com.siqiansoft.framework.grid.DataGridHandler.saveRowData(java.lang.String,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.util.HashMap</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>removeTable(String)</serialno>
+      <method>removeTable</method>
+      <name>removeTable(String)</name>
+      <genericname>public void com.siqiansoft.framework.grid.DataGridHandler.removeTable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>addRecordSet(String,String,List&lt;HashMap&lt;String, String&gt;&gt;)</serialno>
+      <method>addRecordSet</method>
+      <name>addRecordSet(String,String,List&lt;HashMap&lt;String, String&gt;&gt;)</name>
+      <genericname>public void com.siqiansoft.framework.grid.DataGridHandler.addRecordSet(java.lang.String,java.lang.String,java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.util.List</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>getTableData(String)</serialno>
+      <method>getTableData</method>
+      <name>getTableData(String)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DataGridModel com.siqiansoft.framework.grid.DataGridHandler.getTableData(java.lang.String)</genericname>
+      <retclass>com.siqiansoft.framework.model.grid.DataGridModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>getSubtableData(String,String,ArrayList&lt;HashMap&lt;String, String&gt;&gt;)</serialno>
+      <method>getSubtableData</method>
+      <name>getSubtableData(String,String,ArrayList&lt;HashMap&lt;String, String&gt;&gt;)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.grid.DataGridHandler.getSubtableData(java.lang.String,java.lang.String,java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;)</genericname>
+      <retclass>java.util.ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.util.ArrayList</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

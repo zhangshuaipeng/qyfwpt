@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.ParamVo</classname>
+  <code>ParamVo</code>
+  <name>ParamVo</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}BITQ97c3cVaJcoMpoWsxeQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String toString()</serialno>
+      <method>toString</method>
+      <name>String toString()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ParamVo.toString()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParamName()</serialno>
+      <method>getParamName</method>
+      <name>String getParamName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.ParamVo.getParamName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParamName(String paramName)</serialno>
+      <method>setParamName</method>
+      <name>void setParamName(String paramName)</name>
+      <genericname>public void com.tellhow.investment.vo.ParamVo.setParamName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paramName</code>
+          <name>paramName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSortNumber()</serialno>
+      <method>getSortNumber</method>
+      <name>long getSortNumber()</name>
+      <genericname>public long com.tellhow.investment.vo.ParamVo.getSortNumber()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSortNumber(long sortNumber)</serialno>
+      <method>setSortNumber</method>
+      <name>void setSortNumber(long sortNumber)</name>
+      <genericname>public void com.tellhow.investment.vo.ParamVo.setSortNumber(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>sortNumber</code>
+          <name>sortNumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getGategory()</serialno>
+      <method>getGategory</method>
+      <name>long getGategory()</name>
+      <genericname>public long com.tellhow.investment.vo.ParamVo.getGategory()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGategory(long gategory)</serialno>
+      <method>setGategory</method>
+      <name>void setGategory(long gategory)</name>
+      <genericname>public void com.tellhow.investment.vo.ParamVo.setGategory(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>gategory</code>
+          <name>gategory</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

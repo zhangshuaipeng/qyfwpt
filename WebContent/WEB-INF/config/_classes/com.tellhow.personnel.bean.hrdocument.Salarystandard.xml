@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Salarystandard</classname>
+  <code>Salarystandard</code>
+  <name>Salarystandard</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}BPJyC5oWLhRq9LcLq5O2HA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarystandard.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Salarystandard.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCardid()</serialno>
+      <method>getCardid</method>
+      <name>String getCardid()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Salarystandard.getCardid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCardid(String cardid)</serialno>
+      <method>setCardid</method>
+      <name>void setCardid(String cardid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarystandard.setCardid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cardid</code>
+          <name>cardid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getInsurancebase()</serialno>
+      <method>getInsurancebase</method>
+      <name>float getInsurancebase()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarystandard.getInsurancebase()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInsurancebase(float insurancebase)</serialno>
+      <method>setInsurancebase</method>
+      <name>void setInsurancebase(float insurancebase)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarystandard.setInsurancebase(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>insurancebase</code>
+          <name>insurancebase</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getStandard()</serialno>
+      <method>getStandard</method>
+      <name>float getStandard()</name>
+      <genericname>public float com.tellhow.personnel.bean.hrdocument.Salarystandard.getStandard()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStandard(float standard)</serialno>
+      <method>setStandard</method>
+      <name>void setStandard(float standard)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Salarystandard.setStandard(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>standard</code>
+          <name>standard</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

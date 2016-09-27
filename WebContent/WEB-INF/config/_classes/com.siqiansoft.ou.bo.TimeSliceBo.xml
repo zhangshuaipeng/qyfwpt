@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.TimeSliceBo</classname>
+  <code>TimeSliceBo</code>
+  <name>TimeSliceBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}kwqxOFUNa8DdzCVXRZe3QQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void deleteTimeSlice(String timeslice)</serialno>
+      <method>deleteTimeSlice</method>
+      <name>void deleteTimeSlice(String timeslice)</name>
+      <genericname>public void com.siqiansoft.ou.bo.TimeSliceBo.deleteTimeSlice(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timeslice</code>
+          <name>timeslice</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.Table</classname>
+  <code>Table</code>
+  <name>Table</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}BN35RV1+1c331J2PeNvSpg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Field[] getFieldsByView(String view)</serialno>
+      <method>getFieldsByView</method>
+      <name>Field[] getFieldsByView(String view)</name>
+      <genericname>public com.siqiansoft.framework.db.Field[] com.siqiansoft.framework.db.Table.getFieldsByView(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Field[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Field[] getFieldsByTable(String table)</serialno>
+      <method>getFieldsByTable</method>
+      <name>Field[] getFieldsByTable(String table)</name>
+      <genericname>public com.siqiansoft.framework.db.Field[] com.siqiansoft.framework.db.Table.getFieldsByTable(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Field[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Field[] getFieldsBySQL(String SQL)</serialno>
+      <method>getFieldsBySQL</method>
+      <name>Field[] getFieldsBySQL(String SQL)</name>
+      <genericname>public com.siqiansoft.framework.db.Field[] com.siqiansoft.framework.db.Table.getFieldsBySQL(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Field[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>SQL</code>
+          <name>SQL</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

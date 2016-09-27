@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.FileIO</classname>
+  <code>FileIO</code>
+  <name>FileIO</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}BVYNXiWqlBW5cZlD50VhFA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean writeFile(String strDir,String strFileName,String strContent)</serialno>
+      <method>writeFile</method>
+      <name>boolean writeFile(String strDir,String strFileName,String strContent)</name>
+      <genericname>public static boolean com.siqiansoft.commons.FileIO.writeFile(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDir</code>
+          <name>strDir</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFileName</code>
+          <name>strFileName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strContent</code>
+          <name>strContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void newFile(String filePathAndName,String fileContent)</serialno>
+      <method>newFile</method>
+      <name>void newFile(String filePathAndName,String fileContent)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.newFile(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fileContent</code>
+          <name>fileContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getFilesByEnds(String dir,String ends)</serialno>
+      <method>getFilesByEnds</method>
+      <name>String[] getFilesByEnds(String dir,String ends)</name>
+      <genericname>public static java.lang.String[] com.siqiansoft.commons.FileIO.getFilesByEnds(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dir</code>
+          <name>dir</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ends</code>
+          <name>ends</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readUTF8File(String strFileName)</serialno>
+      <method>readUTF8File</method>
+      <name>String readUTF8File(String strFileName)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileIO.readUTF8File(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFileName</code>
+          <name>strFileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getSubDirs(String sDir)</serialno>
+      <method>getSubDirs</method>
+      <name>String[] getSubDirs(String sDir)</name>
+      <genericname>public static java.lang.String[] com.siqiansoft.commons.FileIO.getSubDirs(java.lang.String)</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sDir</code>
+          <name>sDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getFilesBySuffix(String path,String suffix)</serialno>
+      <method>getFilesBySuffix</method>
+      <name>String[] getFilesBySuffix(String path,String suffix)</name>
+      <genericname>public static java.lang.String[] com.siqiansoft.commons.FileIO.getFilesBySuffix(java.lang.String,java.lang.String)</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>path</code>
+          <name>path</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>suffix</code>
+          <name>suffix</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void mkDirs(String strDir)</serialno>
+      <method>mkDirs</method>
+      <name>void mkDirs(String strDir)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.mkDirs(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDir</code>
+          <name>strDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existFile(String strDir)</serialno>
+      <method>existFile</method>
+      <name>boolean existFile(String strDir)</name>
+      <genericname>public static boolean com.siqiansoft.commons.FileIO.existFile(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDir</code>
+          <name>strDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeUTF8File(String strDir,String strFileName,String strContent)</serialno>
+      <method>writeUTF8File</method>
+      <name>void writeUTF8File(String strDir,String strFileName,String strContent)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.writeUTF8File(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strDir</code>
+          <name>strDir</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFileName</code>
+          <name>strFileName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strContent</code>
+          <name>strContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readTextFile(String strFileName)</serialno>
+      <method>readTextFile</method>
+      <name>String readTextFile(String strFileName)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileIO.readTextFile(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strFileName</code>
+          <name>strFileName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDir(File dir)</serialno>
+      <method>deleteDir</method>
+      <name>void deleteDir(File dir)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.deleteDir(java.io.File)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>File</type>
+          <code>dir</code>
+          <name>dir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyDirectoryfile(String fromDir,String toDir)</serialno>
+      <method>copyDirectoryfile</method>
+      <name>void copyDirectoryfile(String fromDir,String toDir)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.copyDirectoryfile(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fromDir</code>
+          <name>fromDir</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>toDir</code>
+          <name>toDir</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyFile(String srcFile,String destFile)</serialno>
+      <method>copyFile</method>
+      <name>void copyFile(String srcFile,String destFile)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.copyFile(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>srcFile</code>
+          <name>srcFile</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>destFile</code>
+          <name>destFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String readInputStream(InputStream is)</serialno>
+      <method>readInputStream</method>
+      <name>String readInputStream(InputStream is)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.FileIO.readInputStream(java.io.InputStream) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>InputStream</type>
+          <code>is</code>
+          <name>is</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void newFolder(String folderPath)</serialno>
+      <method>newFolder</method>
+      <name>void newFolder(String folderPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.newFolder(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>folderPath</code>
+          <name>folderPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delFile(String filePathAndName)</serialno>
+      <method>delFile</method>
+      <name>void delFile(String filePathAndName)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.delFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filePathAndName</code>
+          <name>filePathAndName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delFolder(String folderPath)</serialno>
+      <method>delFolder</method>
+      <name>void delFolder(String folderPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.delFolder(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>folderPath</code>
+          <name>folderPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delAllFile(String path)</serialno>
+      <method>delAllFile</method>
+      <name>void delAllFile(String path)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.delAllFile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>path</code>
+          <name>path</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void copyFolder(String oldPath,String newPath)</serialno>
+      <method>copyFolder</method>
+      <name>void copyFolder(String oldPath,String newPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.copyFolder(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPath</code>
+          <name>oldPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPath</code>
+          <name>newPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void moveFile(String oldPath,String newPath)</serialno>
+      <method>moveFile</method>
+      <name>void moveFile(String oldPath,String newPath)</name>
+      <genericname>public static void com.siqiansoft.commons.FileIO.moveFile(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oldPath</code>
+          <name>oldPath</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newPath</code>
+          <name>newPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

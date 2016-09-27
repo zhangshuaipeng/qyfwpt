@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.siqiansoft.workflow.model.FlowModel>
+  <flowcode>test</flowcode>
+  <flowname>测试流程</flowname>
+  <formid>flowdemo</formid>
+</com.siqiansoft.workflow.model.FlowModel>

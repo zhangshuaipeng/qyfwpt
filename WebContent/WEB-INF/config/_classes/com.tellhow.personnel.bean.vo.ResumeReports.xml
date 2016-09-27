@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.vo.ResumeReports</classname>
+  <code>ResumeReports</code>
+  <name>ResumeReports</name>
+  <packages>com.tellhow.personnel.bean.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}uhJWht0c/JnNd4jLhPIxNA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setCompany(String company)</serialno>
+      <method>setCompany</method>
+      <name>void setCompany(String company)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setCompany(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>company</code>
+          <name>company</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCompany()</serialno>
+      <method>getCompany</method>
+      <name>String getCompany()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getCompany()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDept(String dept)</serialno>
+      <method>setDept</method>
+      <name>void setDept(String dept)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setDept(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDept()</serialno>
+      <method>getDept</method>
+      <name>String getDept()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getDept()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContotal()</serialno>
+      <method>getContotal</method>
+      <name>String getContotal()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getContotal()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContotal(String contotal)</serialno>
+      <method>setContotal</method>
+      <name>void setContotal(String contotal)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setContotal(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>contotal</code>
+          <name>contotal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConleave()</serialno>
+      <method>getConleave</method>
+      <name>String getConleave()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getConleave()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConleave(String conleave)</serialno>
+      <method>setConleave</method>
+      <name>void setConleave(String conleave)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setConleave(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>conleave</code>
+          <name>conleave</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConnow()</serialno>
+      <method>getConnow</method>
+      <name>String getConnow()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getConnow()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConnow(String connow)</serialno>
+      <method>setConnow</method>
+      <name>void setConnow(String connow)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setConnow(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>connow</code>
+          <name>connow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSexboy()</serialno>
+      <method>getSexboy</method>
+      <name>String getSexboy()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getSexboy()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSexboy(String sexboy)</serialno>
+      <method>setSexboy</method>
+      <name>void setSexboy(String sexboy)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setSexboy(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sexboy</code>
+          <name>sexboy</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSexgirl()</serialno>
+      <method>getSexgirl</method>
+      <name>String getSexgirl()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getSexgirl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSexgirl(String sexgirl)</serialno>
+      <method>setSexgirl</method>
+      <name>void setSexgirl(String sexgirl)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setSexgirl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sexgirl</code>
+          <name>sexgirl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInbjsy()</serialno>
+      <method>getInbjsy</method>
+      <name>String getInbjsy()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getInbjsy()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInbjsy(String inbjsy)</serialno>
+      <method>setInbjsy</method>
+      <name>void setInbjsy(String inbjsy)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setInbjsy(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inbjsy</code>
+          <name>inbjsy</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getInbj()</serialno>
+      <method>getInbj</method>
+      <name>String getInbj()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getInbj()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInbj(String inbj)</serialno>
+      <method>setInbj</method>
+      <name>void setInbj(String inbj)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setInbj(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>inbj</code>
+          <name>inbj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNotbj()</serialno>
+      <method>getNotbj</method>
+      <name>String getNotbj()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getNotbj()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNotbj(String notbj)</serialno>
+      <method>setNotbj</method>
+      <name>void setNotbj(String notbj)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setNotbj(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>notbj</code>
+          <name>notbj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgroaccount()</serialno>
+      <method>getAgroaccount</method>
+      <name>String getAgroaccount()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getAgroaccount()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgroaccount(String agroaccount)</serialno>
+      <method>setAgroaccount</method>
+      <name>void setAgroaccount(String agroaccount)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setAgroaccount(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agroaccount</code>
+          <name>agroaccount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNoagroaccount()</serialno>
+      <method>getNoagroaccount</method>
+      <name>String getNoagroaccount()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getNoagroaccount()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNoagroaccount(String noagroaccount)</serialno>
+      <method>setNoagroaccount</method>
+      <name>void setNoagroaccount(String noagroaccount)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setNoagroaccount(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>noagroaccount</code>
+          <name>noagroaccount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEducationb()</serialno>
+      <method>getEducationb</method>
+      <name>String getEducationb()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getEducationb()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEducationb(String educationb)</serialno>
+      <method>setEducationb</method>
+      <name>void setEducationb(String educationb)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setEducationb(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>educationb</code>
+          <name>educationb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEducationc()</serialno>
+      <method>getEducationc</method>
+      <name>String getEducationc()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getEducationc()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEducationc(String educationc)</serialno>
+      <method>setEducationc</method>
+      <name>void setEducationc(String educationc)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setEducationc(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>educationc</code>
+          <name>educationc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEducationd()</serialno>
+      <method>getEducationd</method>
+      <name>String getEducationd()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getEducationd()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEducationd(String educationd)</serialno>
+      <method>setEducationd</method>
+      <name>void setEducationd(String educationd)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setEducationd(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>educationd</code>
+          <name>educationd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEducatione()</serialno>
+      <method>getEducatione</method>
+      <name>String getEducatione()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getEducatione()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEducatione(String educatione)</serialno>
+      <method>setEducatione</method>
+      <name>void setEducatione(String educatione)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setEducatione(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>educatione</code>
+          <name>educatione</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPoliticala()</serialno>
+      <method>getPoliticala</method>
+      <name>String getPoliticala()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getPoliticala()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPoliticala(String politicala)</serialno>
+      <method>setPoliticala</method>
+      <name>void setPoliticala(String politicala)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setPoliticala(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>politicala</code>
+          <name>politicala</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPoliticalb()</serialno>
+      <method>getPoliticalb</method>
+      <name>String getPoliticalb()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getPoliticalb()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPoliticalb(String politicalb)</serialno>
+      <method>setPoliticalb</method>
+      <name>void setPoliticalb(String politicalb)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setPoliticalb(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>politicalb</code>
+          <name>politicalb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPoliticalc()</serialno>
+      <method>getPoliticalc</method>
+      <name>String getPoliticalc()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getPoliticalc()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPoliticalc(String politicalc)</serialno>
+      <method>setPoliticalc</method>
+      <name>void setPoliticalc(String politicalc)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setPoliticalc(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>politicalc</code>
+          <name>politicalc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPoliticald()</serialno>
+      <method>getPoliticald</method>
+      <name>String getPoliticald()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getPoliticald()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPoliticald(String politicald)</serialno>
+      <method>setPoliticald</method>
+      <name>void setPoliticald(String politicald)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setPoliticald(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>politicald</code>
+          <name>politicald</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPoliticale()</serialno>
+      <method>getPoliticale</method>
+      <name>String getPoliticale()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getPoliticale()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPoliticale(String politicale)</serialno>
+      <method>setPoliticale</method>
+      <name>void setPoliticale(String politicale)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setPoliticale(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>politicale</code>
+          <name>politicale</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgea()</serialno>
+      <method>getAgea</method>
+      <name>String getAgea()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getAgea()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgea(String agea)</serialno>
+      <method>setAgea</method>
+      <name>void setAgea(String agea)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setAgea(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agea</code>
+          <name>agea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgeb()</serialno>
+      <method>getAgeb</method>
+      <name>String getAgeb()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getAgeb()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgeb(String ageb)</serialno>
+      <method>setAgeb</method>
+      <name>void setAgeb(String ageb)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setAgeb(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ageb</code>
+          <name>ageb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgec()</serialno>
+      <method>getAgec</method>
+      <name>String getAgec()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getAgec()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgec(String agec)</serialno>
+      <method>setAgec</method>
+      <name>void setAgec(String agec)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setAgec(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agec</code>
+          <name>agec</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAged()</serialno>
+      <method>getAged</method>
+      <name>String getAged()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getAged()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAged(String aged)</serialno>
+      <method>setAged</method>
+      <name>void setAged(String aged)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setAged(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>aged</code>
+          <name>aged</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkconda()</serialno>
+      <method>getWorkconda</method>
+      <name>String getWorkconda()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getWorkconda()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkconda(String workconda)</serialno>
+      <method>setWorkconda</method>
+      <name>void setWorkconda(String workconda)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setWorkconda(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workconda</code>
+          <name>workconda</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkcondb()</serialno>
+      <method>getWorkcondb</method>
+      <name>String getWorkcondb()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getWorkcondb()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkcondb(String workcondb)</serialno>
+      <method>setWorkcondb</method>
+      <name>void setWorkcondb(String workcondb)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setWorkcondb(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workcondb</code>
+          <name>workcondb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkcondc()</serialno>
+      <method>getWorkcondc</method>
+      <name>String getWorkcondc()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getWorkcondc()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkcondc(String workcondc)</serialno>
+      <method>setWorkcondc</method>
+      <name>void setWorkcondc(String workcondc)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setWorkcondc(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workcondc</code>
+          <name>workcondc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWorkcondd()</serialno>
+      <method>getWorkcondd</method>
+      <name>String getWorkcondd()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getWorkcondd()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWorkcondd(String workcondd)</serialno>
+      <method>setWorkcondd</method>
+      <name>void setWorkcondd(String workcondd)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setWorkcondd(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>workcondd</code>
+          <name>workcondd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConnov()</serialno>
+      <method>getConnov</method>
+      <name>String getConnov()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getConnov()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConnov(String connov)</serialno>
+      <method>setConnov</method>
+      <name>void setConnov(String connov)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setConnov(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>connov</code>
+          <name>connov</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConnon()</serialno>
+      <method>getConnon</method>
+      <name>String getConnon()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getConnon()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConnon(String connon)</serialno>
+      <method>setConnon</method>
+      <name>void setConnon(String connon)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setConnon(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>connon</code>
+          <name>connon</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConnom()</serialno>
+      <method>getConnom</method>
+      <name>String getConnom()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.vo.ResumeReports.getConnom()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setConnom(String connom)</serialno>
+      <method>setConnom</method>
+      <name>void setConnom(String connom)</name>
+      <genericname>public void com.tellhow.personnel.bean.vo.ResumeReports.setConnom(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>connom</code>
+          <name>connom</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

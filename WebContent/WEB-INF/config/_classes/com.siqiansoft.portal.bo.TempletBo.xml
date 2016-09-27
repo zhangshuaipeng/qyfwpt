@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.portal.bo.TempletBo</classname>
+  <code>TempletBo</code>
+  <name>TempletBo</name>
+  <packages>com.siqiansoft.portal.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}UQu7UdNQmPZfVDLoZhusJQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ContentModel getContent(String orgCode,String templ,String cntcode)</serialno>
+      <method>getContent</method>
+      <name>ContentModel getContent(String orgCode,String templ,String cntcode)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.ContentModel com.siqiansoft.portal.bo.TempletBo.getContent(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ContentModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ContentModel[] getContents(String orgCode,String templ)</serialno>
+      <method>getContents</method>
+      <name>ContentModel[] getContents(String orgCode,String templ)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.ContentModel[] com.siqiansoft.portal.bo.TempletBo.getContents(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ContentModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void down(String orgCode,String templ,String cntcode,String code)</serialno>
+      <method>down</method>
+      <name>void down(String orgCode,String templ,String cntcode,String code)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.down(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String orgCode,String templ,String cntcode,String code)</serialno>
+      <method>up</method>
+      <name>void up(String orgCode,String templ,String cntcode,String code)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.up(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveConfig(LoginModel login,String templet,String data)</serialno>
+      <method>saveConfig</method>
+      <name>void saveConfig(LoginModel login,String templet,String data)</name>
+      <genericname>public static void com.siqiansoft.portal.bo.TempletBo.saveConfig(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel getTemplet(HttpServletRequest request)</serialno>
+      <method>getTemplet</method>
+      <name>TempletModel getTemplet(HttpServletRequest request)</name>
+      <genericname>public static com.siqiansoft.framework.model.portal.TempletModel com.siqiansoft.portal.bo.TempletBo.getTemplet(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</genericname>
+      <retclass>TempletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel getTemplet(String orgCode,String code)</serialno>
+      <method>getTemplet</method>
+      <name>TempletModel getTemplet(String orgCode,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.TempletModel com.siqiansoft.portal.bo.TempletBo.getTemplet(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TempletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveContent(String orgCode,String code,String container,String content)</serialno>
+      <method>saveContent</method>
+      <name>void saveContent(String orgCode,String code,String container,String content)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.saveContent(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>container</code>
+          <name>container</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PortletModel getPortlet(String orgCode,String templ,String cntcode,String code)</serialno>
+      <method>getPortlet</method>
+      <name>PortletModel getPortlet(String orgCode,String templ,String cntcode,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.PortletModel com.siqiansoft.portal.bo.TempletBo.getPortlet(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PortletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateContainer(String orgCode,String templ,ContentModel content)</serialno>
+      <method>updateContainer</method>
+      <name>void updateContainer(String orgCode,String templ,ContentModel content)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.updateContainer(java.lang.String,java.lang.String,com.siqiansoft.framework.model.portal.ContentModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ContentModel</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel[] listTemplets(String orgCode)</serialno>
+      <method>listTemplets</method>
+      <name>TempletModel[] listTemplets(String orgCode)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.TempletModel[] com.siqiansoft.portal.bo.TempletBo.listTemplets(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TempletModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addTemplet(String orgCode,TempletModel templet)</serialno>
+      <method>addTemplet</method>
+      <name>void addTemplet(String orgCode,TempletModel templet)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.addTemplet(java.lang.String,com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateTemplet(String orgCode,TempletModel templet)</serialno>
+      <method>updateTemplet</method>
+      <name>void updateTemplet(String orgCode,TempletModel templet)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.updateTemplet(java.lang.String,com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteTemplets(String orgCode,String[] selected)</serialno>
+      <method>deleteTemplets</method>
+      <name>void deleteTemplets(String orgCode,String[] selected)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.deleteTemplets(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateContainerHtml(String orgCode,String templ,ContentModel content)</serialno>
+      <method>updateContainerHtml</method>
+      <name>void updateContainerHtml(String orgCode,String templ,ContentModel content)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.updateContainerHtml(java.lang.String,java.lang.String,com.siqiansoft.framework.model.portal.ContentModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ContentModel</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PortletModel[] listPortlets(String orgCode,String templ,String cntcode)</serialno>
+      <method>listPortlets</method>
+      <name>PortletModel[] listPortlets(String orgCode,String templ,String cntcode)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.PortletModel[] com.siqiansoft.portal.bo.TempletBo.listPortlets(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PortletModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addPortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</serialno>
+      <method>addPortlet</method>
+      <name>void addPortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.addPortlet(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.portal.PortletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PortletModel</type>
+          <code>portlet</code>
+          <name>portlet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</serialno>
+      <method>updatePortlet</method>
+      <name>void updatePortlet(String orgCode,String templ,String cntcode,PortletModel portlet)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.updatePortlet(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.portal.PortletModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PortletModel</type>
+          <code>portlet</code>
+          <name>portlet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePortlets(String orgCode,String templ,String cntcode,String[] selected)</serialno>
+      <method>deletePortlets</method>
+      <name>void deletePortlets(String orgCode,String templ,String cntcode,String[] selected)</name>
+      <genericname>public void com.siqiansoft.portal.bo.TempletBo.deletePortlets(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templ</code>
+          <name>templ</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntcode</code>
+          <name>cntcode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getTempletTree(String orgCode,String templet)</serialno>
+      <method>getTempletTree</method>
+      <name>NodeModel getTempletTree(String orgCode,String templet)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.portal.bo.TempletBo.getTempletTree(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTempletStyle(TempletModel templet)</serialno>
+      <method>getTempletStyle</method>
+      <name>String getTempletStyle(TempletModel templet)</name>
+      <genericname>public static java.lang.String com.siqiansoft.portal.bo.TempletBo.getTempletStyle(com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getPortletsTree(LoginModel login,String templet)</serialno>
+      <method>getPortletsTree</method>
+      <name>NodeModel getPortletsTree(LoginModel login,String templet)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.portal.bo.TempletBo.getPortletsTree(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTempletJavaScript(TempletModel templet)</serialno>
+      <method>getTempletJavaScript</method>
+      <name>String getTempletJavaScript(TempletModel templet)</name>
+      <genericname>public static java.lang.String com.siqiansoft.portal.bo.TempletBo.getTempletJavaScript(com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTempletBody(TempletModel templet)</serialno>
+      <method>getTempletBody</method>
+      <name>String getTempletBody(TempletModel templet)</name>
+      <genericname>public static java.lang.String com.siqiansoft.portal.bo.TempletBo.getTempletBody(com.siqiansoft.framework.model.portal.TempletModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void initConfig(LoginModel login,String templet)</serialno>
+      <method>initConfig</method>
+      <name>void initConfig(LoginModel login,String templet)</name>
+      <genericname>public static void com.siqiansoft.portal.bo.TempletBo.initConfig(com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

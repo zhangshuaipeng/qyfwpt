@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Employeenumber</classname>
+  <code>Employeenumber</code>
+  <name>Employeenumber</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}UJpPS9+UZb9Yuy6Tfge9PQ==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Employeenumber.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Employeenumber.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEmployeenumber()</serialno>
+      <method>getEmployeenumber</method>
+      <name>String getEmployeenumber()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Employeenumber.getEmployeenumber()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEmployeenumber(String employeenumber)</serialno>
+      <method>setEmployeenumber</method>
+      <name>void setEmployeenumber(String employeenumber)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Employeenumber.setEmployeenumber(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>employeenumber</code>
+          <name>employeenumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEmpnumid()</serialno>
+      <method>getEmpnumid</method>
+      <name>long getEmpnumid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Employeenumber.getEmpnumid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEmpnumid(long empnumid)</serialno>
+      <method>setEmpnumid</method>
+      <name>void setEmpnumid(long empnumid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Employeenumber.setEmpnumid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>empnumid</code>
+          <name>empnumid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

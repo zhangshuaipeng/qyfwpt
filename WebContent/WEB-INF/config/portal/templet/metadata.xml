@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>ContentModel</code>
+    <name>内容属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.portal</catalog>
+    <item>ContentModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>TempletModel</code>
+    <name>模板属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.portal</catalog>
+    <item>TempletModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>PortletModel</code>
+    <name>portlet</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.portal</catalog>
+    <item>PortletModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

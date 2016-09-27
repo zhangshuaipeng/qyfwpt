@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.util.OuProvider</classname>
+  <code>OuProvider</code>
+  <name>OuProvider</name>
+  <packages>com.siqiansoft.ou.util</packages>
+  <type>biz</type>
+  <crc>{MD5}XTNI3w+7Py8/MjpTLiEOBA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RoleModel[] getRightRole(String orgCode)</serialno>
+      <method>getRightRole</method>
+      <name>RoleModel[] getRightRole(String orgCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel[] com.siqiansoft.ou.util.OuProvider.getRightRole(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getUser(String userCode)</serialno>
+      <method>getUser</method>
+      <name>AccountModel getUser(String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getUser(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsers(String orgCode,String users)</serialno>
+      <method>getUsers</method>
+      <name>AccountModel[] getUsers(String orgCode,String users)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsers(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>users</code>
+          <name>users</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isRole(String orgCode,String userCode,String role)</serialno>
+      <method>isRole</method>
+      <name>boolean isRole(String orgCode,String userCode,String role)</name>
+      <genericname>public static boolean com.siqiansoft.ou.util.OuProvider.isRole(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getRightUsers(String orgCode,String rights)</serialno>
+      <method>getRightUsers</method>
+      <name>AccountModel[] getRightUsers(String orgCode,String rights)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getRightUsers(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getDirector(String orgCode)</serialno>
+      <method>getDirector</method>
+      <name>AccountModel getDirector(String orgCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getDirector(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getDirector(String orgCode,String deptCode)</serialno>
+      <method>getDirector</method>
+      <name>AccountModel getDirector(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getDirector(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInDept(String orgCode,String dept)</serialno>
+      <method>getUsersInDept</method>
+      <name>AccountModel[] getUsersInDept(String orgCode,String dept)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInRole(String orgCode,String role)</serialno>
+      <method>getUsersInRole</method>
+      <name>AccountModel[] getUsersInRole(String orgCode,String role)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInRole(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInGroup(String orgCode,String group)</serialno>
+      <method>getUsersInGroup</method>
+      <name>AccountModel[] getUsersInGroup(String orgCode,String group)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInGroup(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInPosition(String orgCode,String position)</serialno>
+      <method>getUsersInPosition</method>
+      <name>AccountModel[] getUsersInPosition(String orgCode,String position)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInPosition(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getEmployeeInDept(String orgCode,String dept)</serialno>
+      <method>getEmployeeInDept</method>
+      <name>AccountModel[] getEmployeeInDept(String orgCode,String dept)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getEmployeeInDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getDirectorsInOrg(String orgCode)</serialno>
+      <method>getDirectorsInOrg</method>
+      <name>AccountModel[] getDirectorsInOrg(String orgCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getDirectorsInOrg(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getDeputyLeadersInOrg(String orgCode)</serialno>
+      <method>getDeputyLeadersInOrg</method>
+      <name>AccountModel[] getDeputyLeadersInOrg(String orgCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getDeputyLeadersInOrg(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getLeadersInOrg(String orgCode)</serialno>
+      <method>getLeadersInOrg</method>
+      <name>AccountModel[] getLeadersInOrg(String orgCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getLeadersInOrg(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getLeaders(String orgCode,String deptCode)</serialno>
+      <method>getLeaders</method>
+      <name>AccountModel[] getLeaders(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getLeaders(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getDeputyLeader(String orgCode,String deptCode)</serialno>
+      <method>getDeputyLeader</method>
+      <name>AccountModel[] getDeputyLeader(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getDeputyLeader(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInParentDept(String orgCode,String deptCode)</serialno>
+      <method>getUsersInParentDept</method>
+      <name>AccountModel[] getUsersInParentDept(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInParentDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getLeadersInParentDept(String orgCode,String deptCode)</serialno>
+      <method>getLeadersInParentDept</method>
+      <name>AccountModel[] getLeadersInParentDept(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getLeadersInParentDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getDirectorInParentDept(String orgCode,String deptCode)</serialno>
+      <method>getDirectorInParentDept</method>
+      <name>AccountModel getDirectorInParentDept(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getDirectorInParentDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getBusinessDirector(String orgCode,String userCode)</serialno>
+      <method>getBusinessDirector</method>
+      <name>AccountModel getBusinessDirector(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getBusinessDirector(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getUsersInManageDept(String orgCode,String userCode)</serialno>
+      <method>getUsersInManageDept</method>
+      <name>AccountModel[] getUsersInManageDept(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getUsersInManageDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getLeadersInManageDept(String orgCode,String userCode)</serialno>
+      <method>getLeadersInManageDept</method>
+      <name>AccountModel[] getLeadersInManageDept(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getLeadersInManageDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel getDirectorInManageDept(String orgCode,String userCode)</serialno>
+      <method>getDirectorInManageDept</method>
+      <name>AccountModel getDirectorInManageDept(String orgCode,String userCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel com.siqiansoft.ou.util.OuProvider.getDirectorInManageDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getLeadersInChildDept(String orgCode,String deptCode)</serialno>
+      <method>getLeadersInChildDept</method>
+      <name>AccountModel[] getLeadersInChildDept(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getLeadersInChildDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AccountModel[] getDirectorInChildDept(String orgCode,String deptCode)</serialno>
+      <method>getDirectorInChildDept</method>
+      <name>AccountModel[] getDirectorInChildDept(String orgCode,String deptCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.AccountModel[] com.siqiansoft.ou.util.OuProvider.getDirectorInChildDept(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>AccountModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptCode</code>
+          <name>deptCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

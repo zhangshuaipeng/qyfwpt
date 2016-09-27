@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.Dispatcher</classname>
+  <code>Dispatcher</code>
+  <name>Dispatcher</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}NqYzY1kyTgHisxJtMpk2Qg==</crc>
+  <modifytime>2013-01-25 21:25:19</modifytime>
+</model.biz.ClassModel>

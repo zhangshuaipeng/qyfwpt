@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.model.UserGroupModel</classname>
+  <code>UserGroupModel</code>
+  <name>UserGroupModel</name>
+  <packages>com.siqiansoft.ou.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}P+StaaPfnghKhhZbNVqp8A==</crc>
+  <modifytime>2013-04-11 13:05:22</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getUserCode()</serialno>
+      <method>getUserCode</method>
+      <name>String getUserCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserGroupModel.getUserCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setUserCode(String usercode)</serialno>
+      <method>setUserCode</method>
+      <name>void setUserCode(String usercode)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserGroupModel.setUserCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>usercode</code>
+          <name>usercode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.UserGroupModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModifyTime(String modifytime)</serialno>
+      <method>setModifyTime</method>
+      <name>void setModifyTime(String modifytime)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserGroupModel.setModifyTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modifytime</code>
+          <name>modifytime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModifyTime()</serialno>
+      <method>getModifyTime</method>
+      <name>String getModifyTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserGroupModel.getModifyTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserGroupModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgId(String orgid)</serialno>
+      <method>setOrgId</method>
+      <name>void setOrgId(String orgid)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserGroupModel.setOrgId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgid</code>
+          <name>orgid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgId()</serialno>
+      <method>getOrgId</method>
+      <name>String getOrgId()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserGroupModel.getOrgId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupCode(String groupcode)</serialno>
+      <method>setGroupCode</method>
+      <name>void setGroupCode(String groupcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.UserGroupModel.setGroupCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>groupcode</code>
+          <name>groupcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGroupCode()</serialno>
+      <method>getGroupCode</method>
+      <name>String getGroupCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.UserGroupModel.getGroupCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>pk</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgid</code>
+      <name>orgid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>usercode</code>
+      <name>usercode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>groupcode</code>
+      <name>groupcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>modifytime</code>
+      <name>modifytime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

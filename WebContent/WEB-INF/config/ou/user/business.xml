@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>tree</code>
+    <name>部门树</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <script>select code as EAPID,pcode as EAPPID,name as EAPTITLE from eap_department order by sn</script>
+    <metadata>EAP_ACCOUNT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_account</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <metadata>EAP_ACCOUNT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_account</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <metadata>EAP_ACCOUNT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LoginUtil.updatePwd</code>
+    <name>updatePwd</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.util.LoginUtil</catalog>
+    <item>updatePwd</item>
+    <script>void updatePwd(String personCode,String password)</script>
+    <params>personCode,password</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>userdict</code>
+    <name>用户帐号转换</name>
+    <type>dboperand</type>
+    <operand>QUERY</operand>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+    <script>select CODE AS EAPKEY,NAME AS EAPVALUE from eap_account</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>person</code>
+    <name>人员号转换</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_PERSON</item>
+    <script>select CODE AS EAPKEY,NAME AS EAPVALUE from eap_person</script>
+    <params>code</params>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>down</item>
+    <script>void down(String orgCode,String deptCode,String code)</script>
+    <params>orgCode,deptCode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>up</item>
+    <script>void up(String orgCode,String deptCode,String code)</script>
+    <params>orgCode,deptCode,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.updateAccount</code>
+    <name>updateAccount</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>updateAccount</item>
+    <script>void updateAccount(AccountModel act)</script>
+    <params>act</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.deleteAccounts</code>
+    <name>deleteAccounts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>deleteAccounts</item>
+    <script>void deleteAccounts(String[] pks)</script>
+    <params>pks</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.createAccount</code>
+    <name>createAccount</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>createAccount</item>
+    <script>void createAccount(AccountModel account)</script>
+    <params>account</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.getRights</code>
+    <name>getRights</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>getRights</item>
+    <script>HashMap getRights(String orgCode,String userCode)</script>
+    <params>orgCode,userCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.saveRights</code>
+    <name>saveRights</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>saveRights</item>
+    <script>void saveRights(String orgCode,String userCode,String selected)</script>
+    <params>orgCode,userCode,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AccountBo.getDeptUserTree</code>
+    <name>getDeptUserTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.AccountBo</catalog>
+    <item>getDeptUserTree</item>
+    <script>NodeModel getDeptUserTree(LoginModel login,String box)</script>
+    <params>login,box</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.getOrganizeTree</code>
+    <name>getOrganizeTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>getOrganizeTree</item>
+    <script>NodeModel getOrganizeTree(String orgCode,String timeslice,String url)</script>
+    <params>orgCode,timeslice,url</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

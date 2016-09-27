@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ItemModel-array>
+  <model.ItemModel>
+    <name>organizeadm</name>
+    <value>组织管理员</value>
+  </model.ItemModel>
+  <model.ItemModel>
+    <name>adm</name>
+    <value>系统管理员</value>
+  </model.ItemModel>
+</model.ItemModel-array>

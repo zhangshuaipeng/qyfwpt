@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.LicenseModel</classname>
+  <code>LicenseModel</code>
+  <name>LicenseModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}6muL1xQlyvwMX2pPtcMAzA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getVersion()</serialno>
+      <method>getVersion</method>
+      <name>String getVersion()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getVersion()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStart()</serialno>
+      <method>getStart</method>
+      <name>String getStart()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getStart()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlias()</serialno>
+      <method>getAlias</method>
+      <name>String getAlias()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getAlias()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStart(String start)</serialno>
+      <method>setStart</method>
+      <name>void setStart(String start)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setStart(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>start</code>
+          <name>start</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setVersion(String version)</serialno>
+      <method>setVersion</method>
+      <name>void setVersion(String version)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setVersion(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>version</code>
+          <name>version</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlias(String alias)</serialno>
+      <method>setAlias</method>
+      <name>void setAlias(String alias)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setAlias(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alias</code>
+          <name>alias</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getServerInfo()</serialno>
+      <method>getServerInfo</method>
+      <name>String getServerInfo()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getServerInfo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setServerInfo(String serverinfo)</serialno>
+      <method>setServerInfo</method>
+      <name>void setServerInfo(String serverinfo)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setServerInfo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>serverinfo</code>
+          <name>serverinfo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOnlines()</serialno>
+      <method>getOnlines</method>
+      <name>String getOnlines()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getOnlines()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSerialNo()</serialno>
+      <method>getSerialNo</method>
+      <name>String getSerialNo()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getSerialNo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSerialNo(String serialno)</serialno>
+      <method>setSerialNo</method>
+      <name>void setSerialNo(String serialno)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setSerialNo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>serialno</code>
+          <name>serialno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrganize(String organize)</serialno>
+      <method>setOrganize</method>
+      <name>void setOrganize(String organize)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setOrganize(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>organize</code>
+          <name>organize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrganize()</serialno>
+      <method>getOrganize</method>
+      <name>String getOrganize()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getOrganize()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIp(String ip)</serialno>
+      <method>setIp</method>
+      <name>void setIp(String ip)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setIp(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ip</code>
+          <name>ip</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIp()</serialno>
+      <method>getIp</method>
+      <name>String getIp()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getIp()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMac(String mac)</serialno>
+      <method>setMac</method>
+      <name>void setMac(String mac)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setMac(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mac</code>
+          <name>mac</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMac()</serialno>
+      <method>getMac</method>
+      <name>String getMac()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getMac()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBackupIp(String backupip)</serialno>
+      <method>setBackupIp</method>
+      <name>void setBackupIp(String backupip)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setBackupIp(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>backupip</code>
+          <name>backupip</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBackupIp()</serialno>
+      <method>getBackupIp</method>
+      <name>String getBackupIp()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getBackupIp()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBackupMac(String backupmac)</serialno>
+      <method>setBackupMac</method>
+      <name>void setBackupMac(String backupmac)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setBackupMac(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>backupmac</code>
+          <name>backupmac</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBackupMac()</serialno>
+      <method>getBackupMac</method>
+      <name>String getBackupMac()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getBackupMac()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOverDue(String overdue)</serialno>
+      <method>setOverDue</method>
+      <name>void setOverDue(String overdue)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setOverDue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>overdue</code>
+          <name>overdue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOverDue()</serialno>
+      <method>getOverDue</method>
+      <name>String getOverDue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getOverDue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnlines(String onlines)</serialno>
+      <method>setOnlines</method>
+      <name>void setOnlines(String onlines)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setOnlines(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>onlines</code>
+          <name>onlines</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReport(String report)</serialno>
+      <method>setReport</method>
+      <name>void setReport(String report)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setReport(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>report</code>
+          <name>report</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReport()</serialno>
+      <method>getReport</method>
+      <name>String getReport()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getReport()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMobile(String mobile)</serialno>
+      <method>setMobile</method>
+      <name>void setMobile(String mobile)</name>
+      <genericname>public void com.siqiansoft.framework.model.LicenseModel.setMobile(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mobile</code>
+          <name>mobile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMobile()</serialno>
+      <method>getMobile</method>
+      <name>String getMobile()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.LicenseModel.getMobile()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>serialno</code>
+      <name>序列号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>serverinfo</code>
+      <name>服务器信息</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>organize</code>
+      <name>组织名</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>alias</code>
+      <name>组织简称</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>系统名称</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>version</code>
+      <name>版本</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>16</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ip</code>
+      <name>IP</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>mac</code>
+      <name>MAC</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>backupip</code>
+      <name>备用IP</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>backupmac</code>
+      <name>备用MAC</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>start</code>
+      <name>生效起时</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>10</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>overdue</code>
+      <name>截止时间</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>10</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>onlines</code>
+      <name>在线用户数</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>8</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>report</code>
+      <name>开启报表功能</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>1</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>mobile</code>
+      <name>开启移动功能</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>1</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

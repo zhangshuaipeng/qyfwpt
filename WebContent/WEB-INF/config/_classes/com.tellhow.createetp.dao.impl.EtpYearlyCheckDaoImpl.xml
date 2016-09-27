@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.EtpYearlyCheckDaoImpl</classname>
+  <code>EtpYearlyCheckDaoImpl</code>
+  <name>EtpYearlyCheckDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}TwjS28caJFjHmaZhQF7cfw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void updateCheckParam(EnterpriseCheckParam param)</serialno>
+      <method>updateCheckParam</method>
+      <name>void updateCheckParam(EnterpriseCheckParam param)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpYearlyCheckDaoImpl.updateCheckParam(com.tellhow.createetp.bean.EnterpriseCheckParam) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EnterpriseCheckParam</type>
+          <code>param</code>
+          <name>param</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveCheckParam(EnterpriseCheckParam param)</serialno>
+      <method>saveCheckParam</method>
+      <name>void saveCheckParam(EnterpriseCheckParam param)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpYearlyCheckDaoImpl.saveCheckParam(com.tellhow.createetp.bean.EnterpriseCheckParam) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EnterpriseCheckParam</type>
+          <code>param</code>
+          <name>param</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>EnterpriseCheckParam selectCheckParamById(int checkid)</serialno>
+      <method>selectCheckParamById</method>
+      <name>EnterpriseCheckParam selectCheckParamById(int checkid)</name>
+      <genericname>public com.tellhow.createetp.bean.EnterpriseCheckParam com.tellhow.createetp.dao.impl.EtpYearlyCheckDaoImpl.selectCheckParamById(int) throws java.lang.Exception</genericname>
+      <retclass>EnterpriseCheckParam</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>checkid</code>
+          <name>checkid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void insertCheckLog(EptCheckLog checkLog)</serialno>
+      <method>insertCheckLog</method>
+      <name>void insertCheckLog(EptCheckLog checkLog)</name>
+      <genericname>public void com.tellhow.createetp.dao.impl.EtpYearlyCheckDaoImpl.insertCheckLog(com.tellhow.createetp.bean.EptCheckLog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptCheckLog</type>
+          <code>checkLog</code>
+          <name>checkLog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.Message</classname>
+  <code>Message</code>
+  <name>Message</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}HYdmmVB70rJZiqhIiq4zGg==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getMethod()</serialno>
+      <method>getMethod</method>
+      <name>String getMethod()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getMethod()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContent()</serialno>
+      <method>getContent</method>
+      <name>String getContent()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMethod(String method)</serialno>
+      <method>setMethod</method>
+      <name>void setMethod(String method)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setMethod(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>method</code>
+          <name>method</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getResult()</serialno>
+      <method>getResult</method>
+      <name>String getResult()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getResult()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContent(String content)</serialno>
+      <method>setContent</method>
+      <name>void setContent(String content)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResult(String result)</serialno>
+      <method>setResult</method>
+      <name>void setResult(String result)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setResult(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>result</code>
+          <name>result</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAddr()</serialno>
+      <method>getAddr</method>
+      <name>String getAddr()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getAddr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgcode(String orgcode)</serialno>
+      <method>setOrgcode</method>
+      <name>void setOrgcode(String orgcode)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setOrgcode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreatetime(String createtime)</serialno>
+      <method>setCreatetime</method>
+      <name>void setCreatetime(String createtime)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setCreatetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createtime</code>
+          <name>createtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgcode()</serialno>
+      <method>getOrgcode</method>
+      <name>String getOrgcode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getOrgcode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreatetime()</serialno>
+      <method>getCreatetime</method>
+      <name>String getCreatetime()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getCreatetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMsgtype(String msgtype)</serialno>
+      <method>setMsgtype</method>
+      <name>void setMsgtype(String msgtype)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setMsgtype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>msgtype</code>
+          <name>msgtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWid(String wid)</serialno>
+      <method>setWid</method>
+      <name>void setWid(String wid)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setWid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRecipient(String recipient)</serialno>
+      <method>setRecipient</method>
+      <name>void setRecipient(String recipient)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setRecipient(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>recipient</code>
+          <name>recipient</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAddr(String addr)</serialno>
+      <method>setAddr</method>
+      <name>void setAddr(String addr)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setAddr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>addr</code>
+          <name>addr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWid()</serialno>
+      <method>getWid</method>
+      <name>String getWid()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getWid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPk()</serialno>
+      <method>getPk</method>
+      <name>int getPk()</name>
+      <genericname>public int com.tellhow.createetp.bean.Message.getPk()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPk(int pk)</serialno>
+      <method>setPk</method>
+      <name>void setPk(int pk)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setPk(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMsgtype()</serialno>
+      <method>getMsgtype</method>
+      <name>String getMsgtype()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getMsgtype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRecipient()</serialno>
+      <method>getRecipient</method>
+      <name>String getRecipient()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getRecipient()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSender()</serialno>
+      <method>getSender</method>
+      <name>String getSender()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getSender()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSender(String sender)</serialno>
+      <method>setSender</method>
+      <name>void setSender(String sender)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setSender(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sender</code>
+          <name>sender</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReasons()</serialno>
+      <method>getReasons</method>
+      <name>String getReasons()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getReasons()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReasons(String reasons)</serialno>
+      <method>setReasons</method>
+      <name>void setReasons(String reasons)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setReasons(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reasons</code>
+          <name>reasons</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSendtime()</serialno>
+      <method>getSendtime</method>
+      <name>String getSendtime()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Message.getSendtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSendtime(String sendtime)</serialno>
+      <method>setSendtime</method>
+      <name>void setSendtime(String sendtime)</name>
+      <genericname>public void com.tellhow.createetp.bean.Message.setSendtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sendtime</code>
+          <name>sendtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

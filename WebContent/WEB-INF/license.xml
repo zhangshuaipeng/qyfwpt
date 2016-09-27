@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.LicenseModel>
+  <serialno>WBCS2-S5H4R-EFU1J-683U7-FFDEI-GTIE5</serialno>
+  <serverinfo>44406-1CF81-5974C-C8FBD-45E09-60C52</serverinfo>
+  <organize>思前</organize>
+  <alias>思前</alias>
+  <system>综合业务管理系统</system>
+  <version>platform</version>
+  <ip>255.255.255.255</ip>
+  <mac>ff:ff:ff:ff:ff:ff</mac>
+  <start>2015-12-30</start>
+  <overdue>2016-12-31</overdue>
+  <onlines>0</onlines>
+  <report>Y</report>
+  <mobile>Y</mobile>
+</model.LicenseModel>

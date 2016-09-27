@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.StartupBo</classname>
+  <code>StartupBo</code>
+  <name>StartupBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}ANvk7ocTW6H8gK7b7TYS0A==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getMyFlow(LoginModel login)</serialno>
+      <method>getMyFlow</method>
+      <name>HashMap getMyFlow(LoginModel login)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.Object&gt; com.siqiansoft.workflow.bo.StartupBo.getMyFlow(com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDraft(String[] selected)</serialno>
+      <method>deleteDraft</method>
+      <name>void deleteDraft(String[] selected)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.StartupBo.deleteDraft(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap beginFlow(LoginModel login,RequestModel req)</serialno>
+      <method>beginFlow</method>
+      <name>HashMap beginFlow(LoginModel login,RequestModel req)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.bo.StartupBo.beginFlow(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

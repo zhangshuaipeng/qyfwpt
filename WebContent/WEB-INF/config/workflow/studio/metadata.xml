@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>FlowModel</code>
+    <name>流程属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.workflow.model</catalog>
+    <item>FlowModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>NodeModel</code>
+    <name>节点属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.workflow.model</catalog>
+    <item>NodeModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>RouteModel</code>
+    <name>路由属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.workflow.model</catalog>
+    <item>RouteModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>EAP_FLOW</code>
+    <name>流程表</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_FLOW</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>HandlerModel</code>
+    <name>事件处理</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.view</catalog>
+    <item>HandlerModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>PolicyModel</code>
+    <name>策略描述</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.workflow.model</catalog>
+    <item>PolicyModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

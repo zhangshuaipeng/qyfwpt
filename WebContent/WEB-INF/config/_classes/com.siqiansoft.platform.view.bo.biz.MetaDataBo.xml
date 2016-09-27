@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.biz.MetaDataBo</classname>
+  <code>MetaDataBo</code>
+  <name>MetaDataBo</name>
+  <packages>com.siqiansoft.platform.view.bo.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}8S1IrjPlOq8IvuUpR1d34g==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>MetaDataModel[] getMetaData(String system,String module)</serialno>
+      <method>getMetaData</method>
+      <name>MetaDataModel[] getMetaData(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.MetaDataModel[] com.siqiansoft.platform.view.bo.biz.MetaDataBo.getMetaData(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>MetaDataModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>MetaDataModel getMetaData(String system,String module,String code)</serialno>
+      <method>getMetaData</method>
+      <name>MetaDataModel getMetaData(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.MetaDataModel com.siqiansoft.platform.view.bo.biz.MetaDataBo.getMetaData(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>MetaDataModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateMetaData(String system,String module,MetaDataModel data)</serialno>
+      <method>updateMetaData</method>
+      <name>void updateMetaData(String system,String module,MetaDataModel data)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.MetaDataBo.updateMetaData(java.lang.String,java.lang.String,com.siqiansoft.framework.model.biz.MetaDataModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>MetaDataModel</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>MetaDataModel[] listMetaDatas(String system,String module,String type)</serialno>
+      <method>listMetaDatas</method>
+      <name>MetaDataModel[] listMetaDatas(String system,String module,String type)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.MetaDataModel[] com.siqiansoft.platform.view.bo.biz.MetaDataBo.listMetaDatas(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>MetaDataModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveMetaData(String system,String module,MetaDataModel data)</serialno>
+      <method>saveMetaData</method>
+      <name>void saveMetaData(String system,String module,MetaDataModel data)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.MetaDataBo.saveMetaData(java.lang.String,java.lang.String,com.siqiansoft.framework.model.biz.MetaDataModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>MetaDataModel</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteMetaDatas(String system,String module,String[] selected)</serialno>
+      <method>deleteMetaDatas</method>
+      <name>void deleteMetaDatas(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.MetaDataBo.deleteMetaDatas(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

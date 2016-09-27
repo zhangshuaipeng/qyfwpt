@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.Dateutil</classname>
+  <code>Dateutil</code>
+  <name>Dateutil</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}5q7h0yvLxc2pWH/p19NXWA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int compare_date(String DATE1,String DATE2)</serialno>
+      <method>compare_date</method>
+      <name>int compare_date(String DATE1,String DATE2)</name>
+      <genericname>public static final int com.tellhow.personnel.service.Dateutil.compare_date(java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>DATE1</code>
+          <name>DATE1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>DATE2</code>
+          <name>DATE2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

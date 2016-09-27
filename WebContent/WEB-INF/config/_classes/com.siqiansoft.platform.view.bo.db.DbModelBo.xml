@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.db.DbModelBo</classname>
+  <code>DbModelBo</code>
+  <name>DbModelBo</name>
+  <packages>com.siqiansoft.platform.view.bo.db</packages>
+  <type>biz</type>
+  <crc>{MD5}ZMTUb/r9cOF+8bdZWLnPOw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void saveDsn(DsnModel dsn)</serialno>
+      <method>saveDsn</method>
+      <name>void saveDsn(DsnModel dsn)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.db.DbModelBo.saveDsn(com.siqiansoft.framework.model.db.DsnModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DsnModel</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateDsn(DsnModel dsn)</serialno>
+      <method>updateDsn</method>
+      <name>void updateDsn(DsnModel dsn)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.db.DbModelBo.updateDsn(com.siqiansoft.framework.model.db.DsnModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DsnModel</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteDsn(String[] selected)</serialno>
+      <method>deleteDsn</method>
+      <name>void deleteDsn(String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.db.DbModelBo.deleteDsn(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getDbModelTree()</serialno>
+      <method>getDbModelTree</method>
+      <name>NodeModel getDbModelTree()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.db.DbModelBo.getDbModelTree() throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

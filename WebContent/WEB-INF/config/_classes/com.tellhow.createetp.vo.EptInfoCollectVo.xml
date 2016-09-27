@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.vo.EptInfoCollectVo</classname>
+  <code>EptInfoCollectVo</code>
+  <name>EptInfoCollectVo</name>
+  <packages>com.tellhow.createetp.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}5XEhTSHpZuUVLeWuAhN8jw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPerson()</serialno>
+      <method>getLegalPerson</method>
+      <name>String getLegalPerson()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getLegalPerson()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPerson(String legalPerson)</serialno>
+      <method>setLegalPerson</method>
+      <name>void setLegalPerson(String legalPerson)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setLegalPerson(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPerson</code>
+          <name>legalPerson</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPersonTel()</serialno>
+      <method>getLegalPersonTel</method>
+      <name>String getLegalPersonTel()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getLegalPersonTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPersonTel(String legalPersonTel)</serialno>
+      <method>setLegalPersonTel</method>
+      <name>void setLegalPersonTel(String legalPersonTel)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setLegalPersonTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPersonTel</code>
+          <name>legalPersonTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrganizationCode()</serialno>
+      <method>getOrganizationCode</method>
+      <name>String getOrganizationCode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getOrganizationCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrganizationCode(String organizationCode)</serialno>
+      <method>setOrganizationCode</method>
+      <name>void setOrganizationCode(String organizationCode)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setOrganizationCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>organizationCode</code>
+          <name>organizationCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseProperties()</serialno>
+      <method>getEnterpriseProperties</method>
+      <name>long getEnterpriseProperties()</name>
+      <genericname>public long com.tellhow.createetp.vo.EptInfoCollectVo.getEnterpriseProperties()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseProperties(long enterpriseProperties)</serialno>
+      <method>setEnterpriseProperties</method>
+      <name>void setEnterpriseProperties(long enterpriseProperties)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEnterpriseProperties(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseProperties</code>
+          <name>enterpriseProperties</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getRigisteredCapital()</serialno>
+      <method>getRigisteredCapital</method>
+      <name>double getRigisteredCapital()</name>
+      <genericname>public double com.tellhow.createetp.vo.EptInfoCollectVo.getRigisteredCapital()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRigisteredCapital(double rigisteredCapital)</serialno>
+      <method>setRigisteredCapital</method>
+      <name>void setRigisteredCapital(double rigisteredCapital)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setRigisteredCapital(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>rigisteredCapital</code>
+          <name>rigisteredCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getActualCapital()</serialno>
+      <method>getActualCapital</method>
+      <name>double getActualCapital()</name>
+      <genericname>public double com.tellhow.createetp.vo.EptInfoCollectVo.getActualCapital()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActualCapital(double actualCapital)</serialno>
+      <method>setActualCapital</method>
+      <name>void setActualCapital(double actualCapital)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setActualCapital(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>actualCapital</code>
+          <name>actualCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnterpriseName()</serialno>
+      <method>getEnterpriseName</method>
+      <name>String getEnterpriseName()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getEnterpriseName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseName(String enterpriseName)</serialno>
+      <method>setEnterpriseName</method>
+      <name>void setEnterpriseName(String enterpriseName)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEnterpriseName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enterpriseName</code>
+          <name>enterpriseName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredAddress()</serialno>
+      <method>getRegisteredAddress</method>
+      <name>String getRegisteredAddress()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getRegisteredAddress()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredAddress(String registeredAddress)</serialno>
+      <method>setRegisteredAddress</method>
+      <name>void setRegisteredAddress(String registeredAddress)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setRegisteredAddress(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredAddress</code>
+          <name>registeredAddress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredDate()</serialno>
+      <method>getRegisteredDate</method>
+      <name>String getRegisteredDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getRegisteredDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredDate(String registeredDate)</serialno>
+      <method>setRegisteredDate</method>
+      <name>void setRegisteredDate(String registeredDate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setRegisteredDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredDate</code>
+          <name>registeredDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getBusinessYears()</serialno>
+      <method>getBusinessYears</method>
+      <name>int getBusinessYears()</name>
+      <genericname>public int com.tellhow.createetp.vo.EptInfoCollectVo.getBusinessYears()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessYears(int businessYears)</serialno>
+      <method>setBusinessYears</method>
+      <name>void setBusinessYears(int businessYears)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setBusinessYears(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>businessYears</code>
+          <name>businessYears</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessStartDate()</serialno>
+      <method>getBusinessStartDate</method>
+      <name>String getBusinessStartDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getBusinessStartDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessStartDate(String businessStartDate)</serialno>
+      <method>setBusinessStartDate</method>
+      <name>void setBusinessStartDate(String businessStartDate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setBusinessStartDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessStartDate</code>
+          <name>businessStartDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessEndDate()</serialno>
+      <method>getBusinessEndDate</method>
+      <name>String getBusinessEndDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getBusinessEndDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessEndDate(String businessEndDate)</serialno>
+      <method>setBusinessEndDate</method>
+      <name>void setBusinessEndDate(String businessEndDate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setBusinessEndDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessEndDate</code>
+          <name>businessEndDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessScope()</serialno>
+      <method>getBusinessScope</method>
+      <name>String getBusinessScope()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getBusinessScope()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessScope(String businessScope)</serialno>
+      <method>setBusinessScope</method>
+      <name>void setBusinessScope(String businessScope)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setBusinessScope(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessScope</code>
+          <name>businessScope</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDealDate()</serialno>
+      <method>getDealDate</method>
+      <name>String getDealDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getDealDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDealDate(String dealDate)</serialno>
+      <method>setDealDate</method>
+      <name>void setDealDate(String dealDate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setDealDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dealDate</code>
+          <name>dealDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getEptStatus()</serialno>
+      <method>getEptStatus</method>
+      <name>int getEptStatus()</name>
+      <genericname>public int com.tellhow.createetp.vo.EptInfoCollectVo.getEptStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatus(int eptStatus)</serialno>
+      <method>setEptStatus</method>
+      <name>void setEptStatus(int eptStatus)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEptStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>eptStatus</code>
+          <name>eptStatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEptStatusDate()</serialno>
+      <method>getEptStatusDate</method>
+      <name>String getEptStatusDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getEptStatusDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatusDate(String eptStatusDate)</serialno>
+      <method>setEptStatusDate</method>
+      <name>void setEptStatusDate(String eptStatusDate)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEptStatusDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eptStatusDate</code>
+          <name>eptStatusDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEptStatusRemark()</serialno>
+      <method>getEptStatusRemark</method>
+      <name>String getEptStatusRemark()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getEptStatusRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatusRemark(String eptStatusRemark)</serialno>
+      <method>setEptStatusRemark</method>
+      <name>void setEptStatusRemark(String eptStatusRemark)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEptStatusRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eptStatusRemark</code>
+          <name>eptStatusRemark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartremark()</serialno>
+      <method>getStartremark</method>
+      <name>String getStartremark()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getStartremark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartremark(String startremark)</serialno>
+      <method>setStartremark</method>
+      <name>void setStartremark(String startremark)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setStartremark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startremark</code>
+          <name>startremark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseId()</serialno>
+      <method>getEnterpriseId</method>
+      <name>long getEnterpriseId()</name>
+      <genericname>public long com.tellhow.createetp.vo.EptInfoCollectVo.getEnterpriseId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseId(long enterpriseId)</serialno>
+      <method>setEnterpriseId</method>
+      <name>void setEnterpriseId(long enterpriseId)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setEnterpriseId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseId</code>
+          <name>enterpriseId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectId()</serialno>
+      <method>getProjectId</method>
+      <name>long getProjectId()</name>
+      <genericname>public long com.tellhow.createetp.vo.EptInfoCollectVo.getProjectId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectId(long projectId)</serialno>
+      <method>setProjectId</method>
+      <name>void setProjectId(long projectId)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setProjectId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectId</code>
+          <name>projectId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkman()</serialno>
+      <method>getLinkman</method>
+      <name>String getLinkman()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getLinkman()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkman(String linkman)</serialno>
+      <method>setLinkman</method>
+      <name>void setLinkman(String linkman)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setLinkman(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkman</code>
+          <name>linkman</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkmanTel()</serialno>
+      <method>getLinkmanTel</method>
+      <name>String getLinkmanTel()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getLinkmanTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkmanTel(String linkmanTel)</serialno>
+      <method>setLinkmanTel</method>
+      <name>void setLinkmanTel(String linkmanTel)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setLinkmanTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkmanTel</code>
+          <name>linkmanTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCanComplete()</serialno>
+      <method>getCanComplete</method>
+      <name>int getCanComplete()</name>
+      <genericname>public int com.tellhow.createetp.vo.EptInfoCollectVo.getCanComplete()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCanComplete(int canComplete)</serialno>
+      <method>setCanComplete</method>
+      <name>void setCanComplete(int canComplete)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setCanComplete(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>canComplete</code>
+          <name>canComplete</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAmounttype()</serialno>
+      <method>getAmounttype</method>
+      <name>String getAmounttype()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.vo.EptInfoCollectVo.getAmounttype()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAmounttype(String amounttype)</serialno>
+      <method>setAmounttype</method>
+      <name>void setAmounttype(String amounttype)</name>
+      <genericname>public void com.tellhow.createetp.vo.EptInfoCollectVo.setAmounttype(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>amounttype</code>
+          <name>amounttype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>enterpriseid</code>
+      <name>enterpriseId</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>projectid</code>
+      <name>projectId</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enterprisename</code>
+      <name>enterpriseName</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dealdate</code>
+      <name>dealDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rigisteredcapital</code>
+      <name>rigisteredCapital</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actualcapital</code>
+      <name>actualCapital</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>legalperson</code>
+      <name>legalPerson</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>legalpersontel</code>
+      <name>legalPersonTel</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkman</code>
+      <name>linkman</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>linkmantel</code>
+      <name>linkmanTel</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enterpriseproperties</code>
+      <name>enterpriseProperties</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>registereddate</code>
+      <name>registeredDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>organizationcode</code>
+      <name>organizationCode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>registeredaddress</code>
+      <name>registeredAddress</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>businessyears</code>
+      <name>businessYears</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>businessstartdate</code>
+      <name>businessStartDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>businessenddate</code>
+      <name>businessEndDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>businessscope</code>
+      <name>businessScope</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>eptstatus</code>
+      <name>eptStatus</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>eptstatusdate</code>
+      <name>eptStatusDate</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>eptstatusremark</code>
+      <name>eptStatusRemark</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operatorcode</code>
+      <name>operatorCode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>amounttype</code>
+      <name>amounttype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cancomplete</code>
+      <name>canComplete</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>startremark</code>
+      <name>startremark</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

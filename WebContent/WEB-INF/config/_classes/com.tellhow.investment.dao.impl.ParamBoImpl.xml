@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.impl.ParamBoImpl</classname>
+  <code>ParamBoImpl</code>
+  <name>ParamBoImpl</name>
+  <packages>com.tellhow.investment.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}FY8hfdTftlzM8y20fvg9kQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void add(Param param)</serialno>
+      <method>add</method>
+      <name>void add(Param param)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ParamBoImpl.add(com.tellhow.investment.bean.Param) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Param</type>
+          <code>param</code>
+          <name>param</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void delete(String paramId)</serialno>
+      <method>delete</method>
+      <name>void delete(String paramId)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ParamBoImpl.delete(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paramId</code>
+          <name>paramId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Boolean isRepeat(Param param)</serialno>
+      <method>isRepeat</method>
+      <name>Boolean isRepeat(Param param)</name>
+      <genericname>public java.lang.Boolean com.tellhow.investment.dao.impl.ParamBoImpl.isRepeat(com.tellhow.investment.bean.Param) throws java.lang.Exception</genericname>
+      <retclass>Boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Param</type>
+          <code>param</code>
+          <name>param</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void upParam(String paramid)</serialno>
+      <method>upParam</method>
+      <name>void upParam(String paramid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ParamBoImpl.upParam(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paramid</code>
+          <name>paramid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downParam(String paramid)</serialno>
+      <method>downParam</method>
+      <name>void downParam(String paramid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ParamBoImpl.downParam(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>paramid</code>
+          <name>paramid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

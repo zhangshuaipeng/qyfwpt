@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.ControllerModel</classname>
+  <code>ControllerModel</code>
+  <name>ControllerModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}YqAWTU0cK4++ffa/GORDrw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMessage()</serialno>
+      <method>getMessage</method>
+      <name>String getMessage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getMessage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getParams()</serialno>
+      <method>getParams</method>
+      <name>String getParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setParams(String params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(String params)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMode()</serialno>
+      <method>getMode</method>
+      <name>String getMode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getMode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMode(String mode)</serialno>
+      <method>setMode</method>
+      <name>void setMode(String mode)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setMode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mode</code>
+          <name>mode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAction()</serialno>
+      <method>getAction</method>
+      <name>String getAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRight()</serialno>
+      <method>getRight</method>
+      <name>HashMap getRight()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt; com.siqiansoft.framework.model.view.ControllerModel.getRight()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMessage(String message)</serialno>
+      <method>setMessage</method>
+      <name>void setMessage(String message)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setMessage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>message</code>
+          <name>message</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRoles()</serialno>
+      <method>getRoles</method>
+      <name>String getRoles()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getRoles()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRight(HashMap right)</serialno>
+      <method>setRight</method>
+      <name>void setRight(HashMap right)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setRight(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>right</code>
+          <name>right</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAction(String action)</serialno>
+      <method>setAction</method>
+      <name>void setAction(String action)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoles(String roles)</serialno>
+      <method>setRoles</method>
+      <name>void setRoles(String roles)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setRoles(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roles</code>
+          <name>roles</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEncode()</serialno>
+      <method>getEncode</method>
+      <name>String getEncode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getEncode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnSubmit()</serialno>
+      <method>getOnSubmit</method>
+      <name>HandlerModel getOnSubmit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.framework.model.view.ControllerModel.getOnSubmit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getImportPage()</serialno>
+      <method>getImportPage</method>
+      <name>String getImportPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getImportPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableTransact()</serialno>
+      <method>getEnableTransact</method>
+      <name>String getEnableTransact()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getEnableTransact()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] getPush()</serialno>
+      <method>getPush</method>
+      <name>HandlerModel[] getPush()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.framework.model.view.ControllerModel.getPush()</genericname>
+      <retclass>HandlerModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExportPage()</serialno>
+      <method>getExportPage</method>
+      <name>String getExportPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getExportPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] getPull()</serialno>
+      <method>getPull</method>
+      <name>HandlerModel[] getPull()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.framework.model.view.ControllerModel.getPull()</genericname>
+      <retclass>HandlerModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLangs(String[] langs)</serialno>
+      <method>setLangs</method>
+      <name>void setLangs(String[] langs)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setLangs(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>langs</code>
+          <name>langs</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getLangs()</serialno>
+      <method>getLangs</method>
+      <name>String[] getLangs()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.framework.model.view.ControllerModel.getLangs()</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setImportPage(String importpage)</serialno>
+      <method>setImportPage</method>
+      <name>void setImportPage(String importpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setImportPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>importpage</code>
+          <name>importpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEncode(String encode)</serialno>
+      <method>setEncode</method>
+      <name>void setEncode(String encode)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setEncode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>encode</code>
+          <name>encode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExportPage(String exportpage)</serialno>
+      <method>setExportPage</method>
+      <name>void setExportPage(String exportpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setExportPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>exportpage</code>
+          <name>exportpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSubmitFields(String submitfields)</serialno>
+      <method>setSubmitFields</method>
+      <name>void setSubmitFields(String submitfields)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setSubmitFields(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>submitfields</code>
+          <name>submitfields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSubmitFields()</serialno>
+      <method>getSubmitFields</method>
+      <name>String getSubmitFields()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getSubmitFields()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRets(String rets)</serialno>
+      <method>setRets</method>
+      <name>void setRets(String rets)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setRets(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rets</code>
+          <name>rets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRets()</serialno>
+      <method>getRets</method>
+      <name>String getRets()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getRets()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReloads(String reloads)</serialno>
+      <method>setReloads</method>
+      <name>void setReloads(String reloads)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setReloads(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reloads</code>
+          <name>reloads</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReloads()</serialno>
+      <method>getReloads</method>
+      <name>String getReloads()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getReloads()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPush(HandlerModel[] push)</serialno>
+      <method>setPush</method>
+      <name>void setPush(HandlerModel[] push)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setPush(com.siqiansoft.framework.model.view.HandlerModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel[]</type>
+          <code>push</code>
+          <name>push</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPull(HandlerModel[] pull)</serialno>
+      <method>setPull</method>
+      <name>void setPull(HandlerModel[] pull)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setPull(com.siqiansoft.framework.model.view.HandlerModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel[]</type>
+          <code>pull</code>
+          <name>pull</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnSubmit(HandlerModel onsubmit)</serialno>
+      <method>setOnSubmit</method>
+      <name>void setOnSubmit(HandlerModel onsubmit)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setOnSubmit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onsubmit</code>
+          <name>onsubmit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJsOnSubmit(String jsonsubmit)</serialno>
+      <method>setJsOnSubmit</method>
+      <name>void setJsOnSubmit(String jsonsubmit)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setJsOnSubmit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonsubmit</code>
+          <name>jsonsubmit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsOnSubmit()</serialno>
+      <method>getJsOnSubmit</method>
+      <name>String getJsOnSubmit()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getJsOnSubmit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlert(String alert)</serialno>
+      <method>setAlert</method>
+      <name>void setAlert(String alert)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setAlert(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alert</code>
+          <name>alert</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlert()</serialno>
+      <method>getAlert</method>
+      <name>String getAlert()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getAlert()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJsOnload(String jsonload)</serialno>
+      <method>setJsOnload</method>
+      <name>void setJsOnload(String jsonload)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setJsOnload(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jsonload</code>
+          <name>jsonload</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJsOnload()</serialno>
+      <method>getJsOnload</method>
+      <name>String getJsOnload()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getJsOnload()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDisplay(String display)</serialno>
+      <method>setDisplay</method>
+      <name>void setDisplay(String display)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setDisplay(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>display</code>
+          <name>display</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDisplay()</serialno>
+      <method>getDisplay</method>
+      <name>String getDisplay()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getDisplay()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableTransact(String enabletransact)</serialno>
+      <method>setEnableTransact</method>
+      <name>void setEnableTransact(String enabletransact)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setEnableTransact(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enabletransact</code>
+          <name>enabletransact</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableTab(String enabletab)</serialno>
+      <method>setEnableTab</method>
+      <name>void setEnableTab(String enabletab)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setEnableTab(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enabletab</code>
+          <name>enabletab</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableTab()</serialno>
+      <method>getEnableTab</method>
+      <name>String getEnableTab()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getEnableTab()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMoreUrl(String moreurl)</serialno>
+      <method>setMoreUrl</method>
+      <name>void setMoreUrl(String moreurl)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.ControllerModel.setMoreUrl(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>moreurl</code>
+          <name>moreurl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMoreUrl()</serialno>
+      <method>getMoreUrl</method>
+      <name>String getMoreUrl()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.ControllerModel.getMoreUrl()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>action</code>
+      <name>action</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>roles</code>
+      <name>roles</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>importpage</code>
+      <name>importpage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>exportpage</code>
+      <name>exportpage</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>encode</code>
+      <name>encode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>submitfields</code>
+      <name>submitfields</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>params</code>
+      <name>params</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>mode</code>
+      <name>mode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rets</code>
+      <name>rets</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>reloads</code>
+      <name>reloads</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jsonsubmit</code>
+      <name>jsonsubmit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>message</code>
+      <name>message</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>alert</code>
+      <name>alert</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>jsonload</code>
+      <name>jsonload</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>display</code>
+      <name>display</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enabletransact</code>
+      <name>enabletransact</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enabletab</code>
+      <name>页签显示</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>moreurl</code>
+      <name>moreurl</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

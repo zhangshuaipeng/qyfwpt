@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.bean.JqgridModel</classname>
+  <code>JqgridModel</code>
+  <name>JqgridModel</name>
+  <packages>com.tellhow.detail.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}KHmERFhG5ftyt3ggWZufEw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.tellhow.detail.bean.JqgridModel.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.tellhow.detail.bean.JqgridModel.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getVisibleColSize()</serialno>
+      <method>getVisibleColSize</method>
+      <name>int getVisibleColSize()</name>
+      <genericname>public int com.tellhow.detail.bean.JqgridModel.getVisibleColSize()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getColNames()</serialno>
+      <method>getColNames</method>
+      <name>List getColNames()</name>
+      <genericname>public java.util.List&lt;java.lang.String&gt; com.tellhow.detail.bean.JqgridModel.getColNames()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColNames(List colNames)</serialno>
+      <method>setColNames</method>
+      <name>void setColNames(List colNames)</name>
+      <genericname>public void com.tellhow.detail.bean.JqgridModel.setColNames(java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>colNames</code>
+          <name>colNames</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getColModel()</serialno>
+      <method>getColModel</method>
+      <name>List getColModel()</name>
+      <genericname>public java.util.List&lt;com.tellhow.detail.bean.ColModelItem&gt; com.tellhow.detail.bean.JqgridModel.getColModel()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColModel(List colModel)</serialno>
+      <method>setColModel</method>
+      <name>void setColModel(List colModel)</name>
+      <genericname>public void com.tellhow.detail.bean.JqgridModel.setColModel(java.util.List&lt;com.tellhow.detail.bean.ColModelItem&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>colModel</code>
+          <name>colModel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GroupingView getGroupingView()</serialno>
+      <method>getGroupingView</method>
+      <name>GroupingView getGroupingView()</name>
+      <genericname>public com.tellhow.detail.bean.GroupingView com.tellhow.detail.bean.JqgridModel.getGroupingView()</genericname>
+      <retclass>GroupingView</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupingView(GroupingView groupingView)</serialno>
+      <method>setGroupingView</method>
+      <name>void setGroupingView(GroupingView groupingView)</name>
+      <genericname>public void com.tellhow.detail.bean.JqgridModel.setGroupingView(com.tellhow.detail.bean.GroupingView)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GroupingView</type>
+          <code>groupingView</code>
+          <name>groupingView</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getGroupHeaders()</serialno>
+      <method>getGroupHeaders</method>
+      <name>List getGroupHeaders()</name>
+      <genericname>public java.util.List&lt;com.tellhow.detail.bean.GroupHeader&gt; com.tellhow.detail.bean.JqgridModel.getGroupHeaders()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupHeaders(List groupHeaders)</serialno>
+      <method>setGroupHeaders</method>
+      <name>void setGroupHeaders(List groupHeaders)</name>
+      <genericname>public void com.tellhow.detail.bean.JqgridModel.setGroupHeaders(java.util.List&lt;com.tellhow.detail.bean.GroupHeader&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupHeaders</code>
+          <name>groupHeaders</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

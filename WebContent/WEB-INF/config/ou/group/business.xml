@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_group</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_GROUP</item>
+    <metadata>EAP_GROUP</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_group</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_GROUP</item>
+    <metadata>EAP_GROUP</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_usergroup</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_USERGROUP</item>
+    <metadata>EAP_USERGROUP</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>delete.eap_usergroup</code>
+    <name>删除</name>
+    <type>dboperand</type>
+    <operand>DELETE</operand>
+    <catalog>system</catalog>
+    <item>EAP_USERGROUP</item>
+    <metadata>EAP_USERGROUP</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GroupBo.createGroup</code>
+    <name>createGroup</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.GroupBo</catalog>
+    <item>createGroup</item>
+    <script>void createGroup(GroupModel group)</script>
+    <params>group</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GroupBo.updateGroup</code>
+    <name>updateGroup</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.GroupBo</catalog>
+    <item>updateGroup</item>
+    <script>void updateGroup(GroupModel group)</script>
+    <params>group</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GroupBo.deleteGroups</code>
+    <name>deleteGroups</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.GroupBo</catalog>
+    <item>deleteGroups</item>
+    <script>void deleteGroups(String orgCode,String[] pks)</script>
+    <params>orgCode,pks</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GroupBo.addUsersToGroup</code>
+    <name>addUsersToGroup</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.GroupBo</catalog>
+    <item>addUsersToGroup</item>
+    <script>void addUsersToGroup(String orgCode,String group,String users)</script>
+    <params>orgCode,group,users</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GroupBo.removeUsersFromGroup</code>
+    <name>removeUsersFromGroup</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.GroupBo</catalog>
+    <item>removeUsersFromGroup</item>
+    <script>void removeUsersFromGroup(String orgCode,String group,String[] pks)</script>
+    <params>orgCode,group,pks</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>depttree</code>
+    <name>部门树</name>
+    <rooturl>user.cmd?$ACTION=list</rooturl>
+    <async>N</async>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <nodes>
+      <business>tree</business>
+      <url>user.cmd?$ACTION=list&amp;deptcode=[NODEID]</url>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>deptuser</code>
+    <name>部门用户树</name>
+    <expvalue></expvalue>
+    <async>Y</async>
+    <imgpath></imgpath>
+    <runurl></runurl>
+    <nodes>
+      <business>AccountBo.getDeptUserTree</business>
+      <params>LOGIN,box</params>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>orgtree</code>
+    <name>组织部门树</name>
+    <target>FRAME1</target>
+    <nodes>
+      <business>DepartmentBo.getOrganizeTree</business>
+      <params>orgcode,timeslice,url</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

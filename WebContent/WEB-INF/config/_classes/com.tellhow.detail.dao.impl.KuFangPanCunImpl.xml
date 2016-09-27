@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.dao.impl.KuFangPanCunImpl</classname>
+  <code>KuFangPanCunImpl</code>
+  <name>KuFangPanCunImpl</name>
+  <packages>com.tellhow.detail.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}3HMuCnx/ZBCj7V3vjYaaEw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean findArticle(ArrayList list,String articlename,String articlesize)</serialno>
+      <method>findArticle</method>
+      <name>boolean findArticle(ArrayList list,String articlename,String articlesize)</name>
+      <genericname>public boolean com.tellhow.detail.dao.impl.KuFangPanCunImpl.findArticle(java.util.ArrayList&lt;java.util.HashMap&gt;,java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ArrayList</type>
+          <code>list</code>
+          <name>list</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlename</code>
+          <name>articlename</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getKuFangPanCun(PagingModel page,RequestModel req)</serialno>
+      <method>getKuFangPanCun</method>
+      <name>ArrayList getKuFangPanCun(PagingModel page,RequestModel req)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&gt; com.tellhow.detail.dao.impl.KuFangPanCunImpl.getKuFangPanCun(com.siqiansoft.framework.model.PagingModel,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String findStockdate(String articlename,String articlesize)</serialno>
+      <method>findStockdate</method>
+      <name>String findStockdate(String articlename,String articlesize)</name>
+      <genericname>public java.lang.String com.tellhow.detail.dao.impl.KuFangPanCunImpl.findStockdate(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlename</code>
+          <name>articlename</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesize</code>
+          <name>articlesize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

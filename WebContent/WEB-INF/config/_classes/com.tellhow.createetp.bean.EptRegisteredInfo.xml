@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.EptRegisteredInfo</classname>
+  <code>EptRegisteredInfo</code>
+  <name>EptRegisteredInfo</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}C7WdClAMB04PhcCSlCR63Q==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getCategory()</serialno>
+      <method>getCategory</method>
+      <name>int getCategory()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getCategory()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValid(int valid)</serialno>
+      <method>setValid</method>
+      <name>void setValid(int valid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setValid(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>valid</code>
+          <name>valid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPerson()</serialno>
+      <method>getLegalPerson</method>
+      <name>String getLegalPerson()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getLegalPerson()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPerson(String legalPerson)</serialno>
+      <method>setLegalPerson</method>
+      <name>void setLegalPerson(String legalPerson)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLegalPerson(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPerson</code>
+          <name>legalPerson</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPersonTel()</serialno>
+      <method>getLegalPersonTel</method>
+      <name>String getLegalPersonTel()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getLegalPersonTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPersonTel(String legalPersonTel)</serialno>
+      <method>setLegalPersonTel</method>
+      <name>void setLegalPersonTel(String legalPersonTel)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLegalPersonTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPersonTel</code>
+          <name>legalPersonTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrganizationCode()</serialno>
+      <method>getOrganizationCode</method>
+      <name>String getOrganizationCode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getOrganizationCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrganizationCode(String organizationCode)</serialno>
+      <method>setOrganizationCode</method>
+      <name>void setOrganizationCode(String organizationCode)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setOrganizationCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>organizationCode</code>
+          <name>organizationCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseProperties()</serialno>
+      <method>getEnterpriseProperties</method>
+      <name>long getEnterpriseProperties()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptRegisteredInfo.getEnterpriseProperties()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseProperties(long enterpriseProperties)</serialno>
+      <method>setEnterpriseProperties</method>
+      <name>void setEnterpriseProperties(long enterpriseProperties)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEnterpriseProperties(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseProperties</code>
+          <name>enterpriseProperties</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getRigisteredCapital()</serialno>
+      <method>getRigisteredCapital</method>
+      <name>double getRigisteredCapital()</name>
+      <genericname>public double com.tellhow.createetp.bean.EptRegisteredInfo.getRigisteredCapital()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRigisteredCapital(double rigisteredCapital)</serialno>
+      <method>setRigisteredCapital</method>
+      <name>void setRigisteredCapital(double rigisteredCapital)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setRigisteredCapital(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>rigisteredCapital</code>
+          <name>rigisteredCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getActualCapital()</serialno>
+      <method>getActualCapital</method>
+      <name>double getActualCapital()</name>
+      <genericname>public double com.tellhow.createetp.bean.EptRegisteredInfo.getActualCapital()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActualCapital(double actualCapital)</serialno>
+      <method>setActualCapital</method>
+      <name>void setActualCapital(double actualCapital)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setActualCapital(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>actualCapital</code>
+          <name>actualCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getProjectLeader()</serialno>
+      <method>getProjectLeader</method>
+      <name>String getProjectLeader()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getProjectLeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectLeader(String projectLeader)</serialno>
+      <method>setProjectLeader</method>
+      <name>void setProjectLeader(String projectLeader)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setProjectLeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectLeader</code>
+          <name>projectLeader</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getEnterpriseType()</serialno>
+      <method>getEnterpriseType</method>
+      <name>int getEnterpriseType()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getEnterpriseType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseType(int enterpriseType)</serialno>
+      <method>setEnterpriseType</method>
+      <name>void setEnterpriseType(int enterpriseType)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEnterpriseType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>enterpriseType</code>
+          <name>enterpriseType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseID()</serialno>
+      <method>getEnterpriseID</method>
+      <name>long getEnterpriseID()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptRegisteredInfo.getEnterpriseID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseID(long enterpriseID)</serialno>
+      <method>setEnterpriseID</method>
+      <name>void setEnterpriseID(long enterpriseID)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEnterpriseID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseID</code>
+          <name>enterpriseID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectid()</serialno>
+      <method>getProjectid</method>
+      <name>long getProjectid()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptRegisteredInfo.getProjectid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectid(long projectid)</serialno>
+      <method>setProjectid</method>
+      <name>void setProjectid(long projectid)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setProjectid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnterpriseName()</serialno>
+      <method>getEnterpriseName</method>
+      <name>String getEnterpriseName()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getEnterpriseName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseName(String enterpriseName)</serialno>
+      <method>setEnterpriseName</method>
+      <name>void setEnterpriseName(String enterpriseName)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEnterpriseName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enterpriseName</code>
+          <name>enterpriseName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredAddress()</serialno>
+      <method>getRegisteredAddress</method>
+      <name>String getRegisteredAddress()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getRegisteredAddress()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredAddress(String registeredAddress)</serialno>
+      <method>setRegisteredAddress</method>
+      <name>void setRegisteredAddress(String registeredAddress)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setRegisteredAddress(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredAddress</code>
+          <name>registeredAddress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredDate()</serialno>
+      <method>getRegisteredDate</method>
+      <name>String getRegisteredDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getRegisteredDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredDate(String registeredDate)</serialno>
+      <method>setRegisteredDate</method>
+      <name>void setRegisteredDate(String registeredDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setRegisteredDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredDate</code>
+          <name>registeredDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCompletedDate()</serialno>
+      <method>getCompletedDate</method>
+      <name>String getCompletedDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getCompletedDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCompletedDate(String completedDate)</serialno>
+      <method>setCompletedDate</method>
+      <name>void setCompletedDate(String completedDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setCompletedDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>completedDate</code>
+          <name>completedDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getBusinessYears()</serialno>
+      <method>getBusinessYears</method>
+      <name>int getBusinessYears()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getBusinessYears()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessYears(int businessYears)</serialno>
+      <method>setBusinessYears</method>
+      <name>void setBusinessYears(int businessYears)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setBusinessYears(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>businessYears</code>
+          <name>businessYears</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessStartDate()</serialno>
+      <method>getBusinessStartDate</method>
+      <name>String getBusinessStartDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getBusinessStartDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessStartDate(String businessStartDate)</serialno>
+      <method>setBusinessStartDate</method>
+      <name>void setBusinessStartDate(String businessStartDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setBusinessStartDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessStartDate</code>
+          <name>businessStartDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessEndDate()</serialno>
+      <method>getBusinessEndDate</method>
+      <name>String getBusinessEndDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getBusinessEndDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessEndDate(String businessEndDate)</serialno>
+      <method>setBusinessEndDate</method>
+      <name>void setBusinessEndDate(String businessEndDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setBusinessEndDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessEndDate</code>
+          <name>businessEndDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLastCheckDate()</serialno>
+      <method>getLastCheckDate</method>
+      <name>String getLastCheckDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getLastCheckDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLastCheckDate(String lastCheckDate)</serialno>
+      <method>setLastCheckDate</method>
+      <name>void setLastCheckDate(String lastCheckDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLastCheckDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>lastCheckDate</code>
+          <name>lastCheckDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBusinessScope()</serialno>
+      <method>getBusinessScope</method>
+      <name>String getBusinessScope()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getBusinessScope()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBusinessScope(String businessScope)</serialno>
+      <method>setBusinessScope</method>
+      <name>void setBusinessScope(String businessScope)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setBusinessScope(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businessScope</code>
+          <name>businessScope</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkMan()</serialno>
+      <method>getLinkMan</method>
+      <name>String getLinkMan()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getLinkMan()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkMan(String linkMan)</serialno>
+      <method>setLinkMan</method>
+      <name>void setLinkMan(String linkMan)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLinkMan(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkMan</code>
+          <name>linkMan</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkManTel()</serialno>
+      <method>getLinkManTel</method>
+      <name>String getLinkManTel()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getLinkManTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkManTel(String linkManTel)</serialno>
+      <method>setLinkManTel</method>
+      <name>void setLinkManTel(String linkManTel)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLinkManTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkManTel</code>
+          <name>linkManTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDealDate()</serialno>
+      <method>getDealDate</method>
+      <name>String getDealDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getDealDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDealDate(String dealDate)</serialno>
+      <method>setDealDate</method>
+      <name>void setDealDate(String dealDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setDealDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dealDate</code>
+          <name>dealDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDispatchedDate()</serialno>
+      <method>getDispatchedDate</method>
+      <name>String getDispatchedDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getDispatchedDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDispatchedDate(String dispatchedDate)</serialno>
+      <method>setDispatchedDate</method>
+      <name>void setDispatchedDate(String dispatchedDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setDispatchedDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchedDate</code>
+          <name>dispatchedDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getEptStatus()</serialno>
+      <method>getEptStatus</method>
+      <name>int getEptStatus()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getEptStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatus(int eptStatus)</serialno>
+      <method>setEptStatus</method>
+      <name>void setEptStatus(int eptStatus)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEptStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>eptStatus</code>
+          <name>eptStatus</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEptStatusDate()</serialno>
+      <method>getEptStatusDate</method>
+      <name>String getEptStatusDate()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getEptStatusDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatusDate(String eptStatusDate)</serialno>
+      <method>setEptStatusDate</method>
+      <name>void setEptStatusDate(String eptStatusDate)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEptStatusDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eptStatusDate</code>
+          <name>eptStatusDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEptStatusRemark()</serialno>
+      <method>getEptStatusRemark</method>
+      <name>String getEptStatusRemark()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getEptStatusRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEptStatusRemark(String eptStatusRemark)</serialno>
+      <method>setEptStatusRemark</method>
+      <name>void setEptStatusRemark(String eptStatusRemark)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setEptStatusRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>eptStatusRemark</code>
+          <name>eptStatusRemark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getLatestProgress()</serialno>
+      <method>getLatestProgress</method>
+      <name>long getLatestProgress()</name>
+      <genericname>public long com.tellhow.createetp.bean.EptRegisteredInfo.getLatestProgress()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLatestProgress(long latestProgress)</serialno>
+      <method>setLatestProgress</method>
+      <name>void setLatestProgress(long latestProgress)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setLatestProgress(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>latestProgress</code>
+          <name>latestProgress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getValid()</serialno>
+      <method>getValid</method>
+      <name>int getValid()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getValid()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCategory(int category)</serialno>
+      <method>setCategory</method>
+      <name>void setCategory(int category)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setCategory(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>category</code>
+          <name>category</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRegiontype()</serialno>
+      <method>getRegiontype</method>
+      <name>int getRegiontype()</name>
+      <genericname>public int com.tellhow.createetp.bean.EptRegisteredInfo.getRegiontype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegiontype(int regiontype)</serialno>
+      <method>setRegiontype</method>
+      <name>void setRegiontype(int regiontype)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setRegiontype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>regiontype</code>
+          <name>regiontype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartremark()</serialno>
+      <method>getStartremark</method>
+      <name>String getStartremark()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.EptRegisteredInfo.getStartremark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartremark(String startremark)</serialno>
+      <method>setStartremark</method>
+      <name>void setStartremark(String startremark)</name>
+      <genericname>public void com.tellhow.createetp.bean.EptRegisteredInfo.setStartremark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startremark</code>
+          <name>startremark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

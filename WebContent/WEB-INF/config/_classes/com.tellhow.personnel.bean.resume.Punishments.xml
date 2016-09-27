@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.resume.Punishments</classname>
+  <code>Punishments</code>
+  <name>Punishments</name>
+  <packages>com.tellhow.personnel.bean.resume</packages>
+  <type>biz</type>
+  <crc>{MD5}nlM/aXoWU8jVbl+qvNjYZQ==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getContent()</serialno>
+      <method>getContent</method>
+      <name>String getContent()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Punishments.getContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContent(String content)</serialno>
+      <method>setContent</method>
+      <name>void setContent(String content)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Punishments.setContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Punishments.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Punishments.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPunishdate(String punishdate)</serialno>
+      <method>setPunishdate</method>
+      <name>void setPunishdate(String punishdate)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Punishments.setPunishdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>punishdate</code>
+          <name>punishdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDepartment(String department)</serialno>
+      <method>setDepartment</method>
+      <name>void setDepartment(String department)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Punishments.setDepartment(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>department</code>
+          <name>department</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPunishdate()</serialno>
+      <method>getPunishdate</method>
+      <name>String getPunishdate()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Punishments.getPunishdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDepartment()</serialno>
+      <method>getDepartment</method>
+      <name>String getDepartment()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.resume.Punishments.getDepartment()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getPunishmentid()</serialno>
+      <method>getPunishmentid</method>
+      <name>long getPunishmentid()</name>
+      <genericname>public long com.tellhow.personnel.bean.resume.Punishments.getPunishmentid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPunishmentid(long punishmentid)</serialno>
+      <method>setPunishmentid</method>
+      <name>void setPunishmentid(long punishmentid)</name>
+      <genericname>public void com.tellhow.personnel.bean.resume.Punishments.setPunishmentid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>punishmentid</code>
+          <name>punishmentid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

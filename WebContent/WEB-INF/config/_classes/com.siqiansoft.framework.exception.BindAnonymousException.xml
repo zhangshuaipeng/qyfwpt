@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.exception.BindAnonymousException</classname>
+  <code>BindAnonymousException</code>
+  <name>BindAnonymousException</name>
+  <packages>com.siqiansoft.framework.exception</packages>
+  <type>biz</type>
+  <crc>{MD5}GeIurJQ43J81f9w1t1/94g==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+</model.biz.ClassModel>

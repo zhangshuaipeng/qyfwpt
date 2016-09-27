@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.vo.Project</classname>
+  <code>Project</code>
+  <name>Project</name>
+  <packages>com.tellhow.investment.vo</packages>
+  <type>biz</type>
+  <crc>{MD5}JaRrKYFdk0c5F1LpzTKCKw==</crc>
+  <modifytime>2013-04-26 10:19:34</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHead(String head)</serialno>
+      <method>setHead</method>
+      <name>void setHead(String head)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setHead(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>head</code>
+          <name>head</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHead()</serialno>
+      <method>getHead</method>
+      <name>String getHead()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getHead()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getStatus()</serialno>
+      <method>getStatus</method>
+      <name>int getStatus()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getStatus()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(int status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(int status)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setStatus(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRegisteredAddress()</serialno>
+      <method>getRegisteredAddress</method>
+      <name>String getRegisteredAddress()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getRegisteredAddress()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredAddress(String registeredAddress)</serialno>
+      <method>setRegisteredAddress</method>
+      <name>void setRegisteredAddress(String registeredAddress)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setRegisteredAddress(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>registeredAddress</code>
+          <name>registeredAddress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkMan()</serialno>
+      <method>getLinkMan</method>
+      <name>String getLinkMan()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getLinkMan()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkMan(String linkMan)</serialno>
+      <method>setLinkMan</method>
+      <name>void setLinkMan(String linkMan)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLinkMan(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkMan</code>
+          <name>linkMan</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLinkManTel()</serialno>
+      <method>getLinkManTel</method>
+      <name>String getLinkManTel()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getLinkManTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLinkManTel(String linkManTel)</serialno>
+      <method>setLinkManTel</method>
+      <name>void setLinkManTel(String linkManTel)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLinkManTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>linkManTel</code>
+          <name>linkManTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatorCode()</serialno>
+      <method>getOperatorCode</method>
+      <name>String getOperatorCode()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getOperatorCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatorCode(String operatorCode)</serialno>
+      <method>setOperatorCode</method>
+      <name>void setOperatorCode(String operatorCode)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setOperatorCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatorCode</code>
+          <name>operatorCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getLatestProgress()</serialno>
+      <method>getLatestProgress</method>
+      <name>long getLatestProgress()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getLatestProgress()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLatestProgress(long latestProgress)</serialno>
+      <method>setLatestProgress</method>
+      <name>void setLatestProgress(long latestProgress)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLatestProgress(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>latestProgress</code>
+          <name>latestProgress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getProjectID()</serialno>
+      <method>getProjectID</method>
+      <name>long getProjectID()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getProjectID()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectID(long projectID)</serialno>
+      <method>setProjectID</method>
+      <name>void setProjectID(long projectID)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setProjectID(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectID</code>
+          <name>projectID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperateDate()</serialno>
+      <method>getOperateDate</method>
+      <name>String getOperateDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getOperateDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperateDate(String operateDate)</serialno>
+      <method>setOperateDate</method>
+      <name>void setOperateDate(String operateDate)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setOperateDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operateDate</code>
+          <name>operateDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachID()</serialno>
+      <method>getAttachID</method>
+      <name>String getAttachID()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getAttachID()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAttachID(String attachID)</serialno>
+      <method>setAttachID</method>
+      <name>void setAttachID(String attachID)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setAttachID(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>attachID</code>
+          <name>attachID</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCharacteristicsIndustry()</serialno>
+      <method>getCharacteristicsIndustry</method>
+      <name>int getCharacteristicsIndustry()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getCharacteristicsIndustry()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCharacteristicsIndustry(int characteristicsIndustry)</serialno>
+      <method>setCharacteristicsIndustry</method>
+      <name>void setCharacteristicsIndustry(int characteristicsIndustry)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setCharacteristicsIndustry(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>characteristicsIndustry</code>
+          <name>characteristicsIndustry</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getEnterpriseNature()</serialno>
+      <method>getEnterpriseNature</method>
+      <name>int getEnterpriseNature()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getEnterpriseNature()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseNature(int enterpriseNature)</serialno>
+      <method>setEnterpriseNature</method>
+      <name>void setEnterpriseNature(int enterpriseNature)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setEnterpriseNature(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>enterpriseNature</code>
+          <name>enterpriseNature</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getEnterpriseType()</serialno>
+      <method>getEnterpriseType</method>
+      <name>long getEnterpriseType()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getEnterpriseType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnterpriseType(long enterpriseType)</serialno>
+      <method>setEnterpriseType</method>
+      <name>void setEnterpriseType(long enterpriseType)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setEnterpriseType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>enterpriseType</code>
+          <name>enterpriseType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIndustryType()</serialno>
+      <method>getIndustryType</method>
+      <name>long getIndustryType()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getIndustryType()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndustryType(long industryType)</serialno>
+      <method>setIndustryType</method>
+      <name>void setIndustryType(long industryType)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setIndustryType(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>industryType</code>
+          <name>industryType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getProjectType()</serialno>
+      <method>getProjectType</method>
+      <name>int getProjectType()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getProjectType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectType(int projectType)</serialno>
+      <method>setProjectType</method>
+      <name>void setProjectType(int projectType)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setProjectType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>projectType</code>
+          <name>projectType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getIndustryPosition()</serialno>
+      <method>getIndustryPosition</method>
+      <name>long getIndustryPosition()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getIndustryPosition()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIndustryPosition(long industryPosition)</serialno>
+      <method>setIndustryPosition</method>
+      <name>void setIndustryPosition(long industryPosition)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setIndustryPosition(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>industryPosition</code>
+          <name>industryPosition</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getInvestment()</serialno>
+      <method>getInvestment</method>
+      <name>float getInvestment()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getInvestment()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setInvestment(float investment)</serialno>
+      <method>setInvestment</method>
+      <name>void setInvestment(float investment)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setInvestment(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>investment</code>
+          <name>investment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getForeign4actual()</serialno>
+      <method>getForeign4actual</method>
+      <name>float getForeign4actual()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getForeign4actual()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setForeign4actual(float foreign4actual)</serialno>
+      <method>setForeign4actual</method>
+      <name>void setForeign4actual(float foreign4actual)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setForeign4actual(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>foreign4actual</code>
+          <name>foreign4actual</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getForeign4contract()</serialno>
+      <method>getForeign4contract</method>
+      <name>float getForeign4contract()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getForeign4contract()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setForeign4contract(float foreign4contract)</serialno>
+      <method>setForeign4contract</method>
+      <name>void setForeign4contract(float foreign4contract)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setForeign4contract(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>foreign4contract</code>
+          <name>foreign4contract</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getAmounttype()</serialno>
+      <method>getAmounttype</method>
+      <name>int getAmounttype()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getAmounttype()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAmounttype(int amounttype)</serialno>
+      <method>setAmounttype</method>
+      <name>void setAmounttype(int amounttype)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setAmounttype(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>amounttype</code>
+          <name>amounttype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getRate4rmb()</serialno>
+      <method>getRate4rmb</method>
+      <name>float getRate4rmb()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getRate4rmb()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRate4rmb(float rate4rmb)</serialno>
+      <method>setRate4rmb</method>
+      <name>void setRate4rmb(float rate4rmb)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setRate4rmb(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>rate4rmb</code>
+          <name>rate4rmb</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getRate4dollars()</serialno>
+      <method>getRate4dollars</method>
+      <name>float getRate4dollars()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getRate4dollars()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRate4dollars(float rate4dollars)</serialno>
+      <method>setRate4dollars</method>
+      <name>void setRate4dollars(float rate4dollars)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setRate4dollars(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>rate4dollars</code>
+          <name>rate4dollars</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPlanedIntoYear()</serialno>
+      <method>getPlanedIntoYear</method>
+      <name>int getPlanedIntoYear()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getPlanedIntoYear()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedIntoYear(int planedIntoYear)</serialno>
+      <method>setPlanedIntoYear</method>
+      <name>void setPlanedIntoYear(int planedIntoYear)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setPlanedIntoYear(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>planedIntoYear</code>
+          <name>planedIntoYear</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPlanIntoQuarter()</serialno>
+      <method>getPlanIntoQuarter</method>
+      <name>int getPlanIntoQuarter()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getPlanIntoQuarter()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanIntoQuarter(int planIntoQuarter)</serialno>
+      <method>setPlanIntoQuarter</method>
+      <name>void setPlanIntoQuarter(int planIntoQuarter)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setPlanIntoQuarter(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>planIntoQuarter</code>
+          <name>planIntoQuarter</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getPlanedLandArea()</serialno>
+      <method>getPlanedLandArea</method>
+      <name>float getPlanedLandArea()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getPlanedLandArea()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanedLandArea(float planedLandArea)</serialno>
+      <method>setPlanedLandArea</method>
+      <name>void setPlanedLandArea(float planedLandArea)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setPlanedLandArea(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>planedLandArea</code>
+          <name>planedLandArea</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getLandType()</serialno>
+      <method>getLandType</method>
+      <name>int getLandType()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getLandType()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLandType(int landType)</serialno>
+      <method>setLandType</method>
+      <name>void setLandType(int landType)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLandType(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>landType</code>
+          <name>landType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>float getRegisteredCapital()</serialno>
+      <method>getRegisteredCapital</method>
+      <name>float getRegisteredCapital()</name>
+      <genericname>public float com.tellhow.investment.vo.Project.getRegisteredCapital()</genericname>
+      <retclass>float</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRegisteredCapital(float registeredCapital)</serialno>
+      <method>setRegisteredCapital</method>
+      <name>void setRegisteredCapital(float registeredCapital)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setRegisteredCapital(float)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>float</type>
+          <code>registeredCapital</code>
+          <name>registeredCapital</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIntroduction()</serialno>
+      <method>getIntroduction</method>
+      <name>String getIntroduction()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getIntroduction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIntroduction(String introduction)</serialno>
+      <method>setIntroduction</method>
+      <name>void setIntroduction(String introduction)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setIntroduction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>introduction</code>
+          <name>introduction</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getProjectLeader()</serialno>
+      <method>getProjectLeader</method>
+      <name>String getProjectLeader()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getProjectLeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectLeader(String projectLeader)</serialno>
+      <method>setProjectLeader</method>
+      <name>void setProjectLeader(String projectLeader)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setProjectLeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectLeader</code>
+          <name>projectLeader</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlternateLeader()</serialno>
+      <method>getAlternateLeader</method>
+      <name>String getAlternateLeader()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getAlternateLeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlternateLeader(String alternateLeader)</serialno>
+      <method>setAlternateLeader</method>
+      <name>void setAlternateLeader(String alternateLeader)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setAlternateLeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>alternateLeader</code>
+          <name>alternateLeader</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPerson()</serialno>
+      <method>getLegalPerson</method>
+      <name>String getLegalPerson()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getLegalPerson()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPerson(String legalPerson)</serialno>
+      <method>setLegalPerson</method>
+      <name>void setLegalPerson(String legalPerson)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLegalPerson(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPerson</code>
+          <name>legalPerson</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalPersonTel()</serialno>
+      <method>getLegalPersonTel</method>
+      <name>String getLegalPersonTel()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getLegalPersonTel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalPersonTel(String legalPersonTel)</serialno>
+      <method>setLegalPersonTel</method>
+      <name>void setLegalPersonTel(String legalPersonTel)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setLegalPersonTel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalPersonTel</code>
+          <name>legalPersonTel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getIsCustomsRecord()</serialno>
+      <method>getIsCustomsRecord</method>
+      <name>int getIsCustomsRecord()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getIsCustomsRecord()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIsCustomsRecord(int isCustomsRecord)</serialno>
+      <method>setIsCustomsRecord</method>
+      <name>void setIsCustomsRecord(int isCustomsRecord)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setIsCustomsRecord(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>isCustomsRecord</code>
+          <name>isCustomsRecord</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getApprovedDate()</serialno>
+      <method>getApprovedDate</method>
+      <name>String getApprovedDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getApprovedDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setApprovedDate(String approvedDate)</serialno>
+      <method>setApprovedDate</method>
+      <name>void setApprovedDate(String approvedDate)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setApprovedDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>approvedDate</code>
+          <name>approvedDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatusDate()</serialno>
+      <method>getStatusDate</method>
+      <name>String getStatusDate()</name>
+      <genericname>public java.lang.String com.tellhow.investment.vo.Project.getStatusDate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatusDate(String statusDate)</serialno>
+      <method>setStatusDate</method>
+      <name>void setStatusDate(String statusDate)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setStatusDate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>statusDate</code>
+          <name>statusDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getDeleted()</serialno>
+      <method>getDeleted</method>
+      <name>int getDeleted()</name>
+      <genericname>public int com.tellhow.investment.vo.Project.getDeleted()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeleted(int deleted)</serialno>
+      <method>setDeleted</method>
+      <name>void setDeleted(int deleted)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setDeleted(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>deleted</code>
+          <name>deleted</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getGroupTypeId()</serialno>
+      <method>getGroupTypeId</method>
+      <name>long getGroupTypeId()</name>
+      <genericname>public long com.tellhow.investment.vo.Project.getGroupTypeId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupTypeId(long groupTypeId)</serialno>
+      <method>setGroupTypeId</method>
+      <name>void setGroupTypeId(long groupTypeId)</name>
+      <genericname>public void com.tellhow.investment.vo.Project.setGroupTypeId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>groupTypeId</code>
+          <name>groupTypeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

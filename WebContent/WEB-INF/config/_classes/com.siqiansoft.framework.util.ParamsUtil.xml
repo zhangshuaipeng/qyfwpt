@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.ParamsUtil</classname>
+  <code>ParamsUtil</code>
+  <name>ParamsUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}oeQRCgOhoKhkngSYrBifsw==</crc>
+  <modifytime>2013-01-16 17:13:50</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>getParamsObject(Object,String,PagingModel,ConditionModel[],HttpServletResponse)</serialno>
+      <method>getParamsObject</method>
+      <name>getParamsObject(Object,String,PagingModel,ConditionModel[],HttpServletResponse)</name>
+      <genericname>public java.lang.Object[] com.siqiansoft.framework.util.ParamsUtil.getParamsObject(java.lang.Object,java.lang.String,com.siqiansoft.framework.model.PagingModel,com.siqiansoft.framework.model.db.ConditionModel[],javax.servlet.http.HttpServletResponse)</genericname>
+      <retclass>[Ljava.lang.Object;</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>java.lang.Object</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>java.lang.String</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.PagingModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>[Lcom.siqiansoft.framework.model.db.ConditionModel;</type>
+          <name>p4</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>javax.servlet.http.HttpServletResponse</type>
+          <name>p5</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

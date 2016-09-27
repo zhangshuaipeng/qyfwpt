@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.UserAgentUtil</classname>
+  <code>UserAgentUtil</code>
+  <name>UserAgentUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}pNydy/WKeWBc0eGOpm6mZA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+</model.biz.ClassModel>

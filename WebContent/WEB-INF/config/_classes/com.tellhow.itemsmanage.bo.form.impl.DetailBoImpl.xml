@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bo.form.impl.DetailBoImpl</classname>
+  <code>DetailBoImpl</code>
+  <name>DetailBoImpl</name>
+  <packages>com.tellhow.itemsmanage.bo.form.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}a3E+yvJQVQNqagca1T+X2w==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List finddetail()</serialno>
+      <method>finddetail</method>
+      <name>List finddetail()</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.bean.form.Detail&gt; com.tellhow.itemsmanage.bo.form.impl.DetailBoImpl.finddetail() throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

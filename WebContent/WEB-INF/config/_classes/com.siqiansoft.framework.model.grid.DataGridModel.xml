@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.DataGridModel</classname>
+  <code>DataGridModel</code>
+  <name>DataGridModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}fw/esTKb5Yc/eLJafIxCgg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.DataGridModel.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getData()</serialno>
+      <method>getData</method>
+      <name>HashMap getData()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.util.LinkedHashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;&gt; com.siqiansoft.framework.model.grid.DataGridModel.getData()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getTimeStamp()</serialno>
+      <method>getTimeStamp</method>
+      <name>long getTimeStamp()</name>
+      <genericname>public long com.siqiansoft.framework.model.grid.DataGridModel.getTimeStamp()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeStamp(long timestamp)</serialno>
+      <method>setTimeStamp</method>
+      <name>void setTimeStamp(long timestamp)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DataGridModel.setTimeStamp(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>timestamp</code>
+          <name>timestamp</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setData(HashMap data)</serialno>
+      <method>setData</method>
+      <name>void setData(HashMap data)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DataGridModel.setData(java.util.HashMap&lt;java.lang.String, java.util.LinkedHashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.DataGridModel.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>id</code>
+      <name>id</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>timestamp</code>
+      <name>timestamp</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

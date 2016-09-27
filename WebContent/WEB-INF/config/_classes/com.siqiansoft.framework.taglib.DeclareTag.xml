@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.taglib.DeclareTag</classname>
+  <code>DeclareTag</code>
+  <name>DeclareTag</name>
+  <packages>com.siqiansoft.framework.taglib</packages>
+  <type>biz</type>
+  <crc>{MD5}12ZFwBAu1jw5TpTOxiItRg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getAction()</serialno>
+      <method>getAction</method>
+      <name>String getAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.DeclareTag.getAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModule()</serialno>
+      <method>getModule</method>
+      <name>String getModule()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.DeclareTag.getModule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.DeclareTag.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.DeclareTag.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAction(String action)</serialno>
+      <method>setAction</method>
+      <name>void setAction(String action)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.DeclareTag.setAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPage()</serialno>
+      <method>getPage</method>
+      <name>String getPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.taglib.DeclareTag.getPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPage(String page)</serialno>
+      <method>setPage</method>
+      <name>void setPage(String page)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.DeclareTag.setPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModule(String module)</serialno>
+      <method>setModule</method>
+      <name>void setModule(String module)</name>
+      <genericname>public void com.siqiansoft.framework.taglib.DeclareTag.setModule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int doStartTag()</serialno>
+      <method>doStartTag</method>
+      <name>int doStartTag()</name>
+      <genericname>public int com.siqiansoft.framework.taglib.DeclareTag.doStartTag() throws javax.servlet.jsp.JspException</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.FlowModel</classname>
+  <code>FlowModel</code>
+  <name>FlowModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}kilhmafnF+X2OCMa4Dsalg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormId()</serialno>
+      <method>getFormId</method>
+      <name>String getFormId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowModel.getFormId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnInit()</serialno>
+      <method>getOnInit</method>
+      <name>HandlerModel getOnInit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnInit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnAbort()</serialno>
+      <method>getOnAbort</method>
+      <name>HandlerModel getOnAbort()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnAbort()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnFinish()</serialno>
+      <method>getOnFinish</method>
+      <name>HandlerModel getOnFinish()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnFinish()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnTimeout()</serialno>
+      <method>getOnTimeout</method>
+      <name>HandlerModel getOnTimeout()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnTimeout()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnHangup()</serialno>
+      <method>getOnHangup</method>
+      <name>HandlerModel getOnHangup()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnHangup()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnResume()</serialno>
+      <method>getOnResume</method>
+      <name>HandlerModel getOnResume()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.FlowModel.getOnResume()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnInit(HandlerModel oninit)</serialno>
+      <method>setOnInit</method>
+      <name>void setOnInit(HandlerModel oninit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnInit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>oninit</code>
+          <name>oninit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnAbort(HandlerModel onabort)</serialno>
+      <method>setOnAbort</method>
+      <name>void setOnAbort(HandlerModel onabort)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnAbort(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onabort</code>
+          <name>onabort</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnFinish(HandlerModel onfinish)</serialno>
+      <method>setOnFinish</method>
+      <name>void setOnFinish(HandlerModel onfinish)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnFinish(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onfinish</code>
+          <name>onfinish</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnTimeout(HandlerModel ontimeout)</serialno>
+      <method>setOnTimeout</method>
+      <name>void setOnTimeout(HandlerModel ontimeout)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnTimeout(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>ontimeout</code>
+          <name>ontimeout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnHangup(HandlerModel onhangup)</serialno>
+      <method>setOnHangup</method>
+      <name>void setOnHangup(HandlerModel onhangup)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnHangup(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onhangup</code>
+          <name>onhangup</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnResume(HandlerModel onresume)</serialno>
+      <method>setOnResume</method>
+      <name>void setOnResume(HandlerModel onresume)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setOnResume(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onresume</code>
+          <name>onresume</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowName()</serialno>
+      <method>getFlowName</method>
+      <name>String getFlowName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowModel.getFlowName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlowName(String flowname)</serialno>
+      <method>setFlowName</method>
+      <name>void setFlowName(String flowname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setFlowName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowname</code>
+          <name>flowname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFormId(String formid)</serialno>
+      <method>setFormId</method>
+      <name>void setFormId(String formid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setFormId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formid</code>
+          <name>formid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTimeLimit()</serialno>
+      <method>getTimeLimit</method>
+      <name>String getTimeLimit()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowModel.getTimeLimit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeLimit(String timelimit)</serialno>
+      <method>setTimeLimit</method>
+      <name>void setTimeLimit(String timelimit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setTimeLimit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timelimit</code>
+          <name>timelimit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlowCode(String flowcode)</serialno>
+      <method>setFlowCode</method>
+      <name>void setFlowCode(String flowcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowModel.setFlowCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowcode</code>
+          <name>flowcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlowCode()</serialno>
+      <method>getFlowCode</method>
+      <name>String getFlowCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowModel.getFlowCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>flowcode</code>
+      <name>flowcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>flowname</code>
+      <name>flowname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>formid</code>
+      <name>formid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>timelimit</code>
+      <name>timelimit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

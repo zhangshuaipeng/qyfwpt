@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.db.DbViewBo</classname>
+  <code>DbViewBo</code>
+  <name>DbViewBo</name>
+  <packages>com.siqiansoft.platform.view.bo.db</packages>
+  <type>biz</type>
+  <crc>{MD5}Xv91GjLtOPEp2BvtrfB8hA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void updateView(String dsn,TableModel view)</serialno>
+      <method>updateView</method>
+      <name>void updateView(String dsn,TableModel view)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.db.DbViewBo.updateView(java.lang.String,com.siqiansoft.framework.model.db.TableModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TableModel</type>
+          <code>view</code>
+          <name>view</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TableModel[] listViews(String dsn)</serialno>
+      <method>listViews</method>
+      <name>TableModel[] listViews(String dsn)</name>
+      <genericname>public com.siqiansoft.framework.model.db.TableModel[] com.siqiansoft.platform.view.bo.db.DbViewBo.listViews(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TableModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TableModel[] listViews(String dsn,String code,String name,PagingModel page)</serialno>
+      <method>listViews</method>
+      <name>TableModel[] listViews(String dsn,String code,String name,PagingModel page)</name>
+      <genericname>public com.siqiansoft.framework.model.db.TableModel[] com.siqiansoft.platform.view.bo.db.DbViewBo.listViews(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>TableModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

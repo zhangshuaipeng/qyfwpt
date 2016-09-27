@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.controller.GridController</classname>
+  <code>GridController</code>
+  <name>GridController</name>
+  <packages>com.siqiansoft.framework.controller</packages>
+  <type>biz</type>
+  <crc>{MD5}Yy6JJKUbfjCDpNq6y7SFhA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>GridControlModel getControl(GridModel grid,String ctl)</serialno>
+      <method>getControl</method>
+      <name>GridControlModel getControl(GridModel grid,String ctl)</name>
+      <genericname>public static com.siqiansoft.framework.model.grid.GridControlModel com.siqiansoft.framework.controller.GridController.getControl(com.siqiansoft.framework.model.grid.GridModel,java.lang.String)</genericname>
+      <retclass>GridControlModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ctl</code>
+          <name>ctl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void runController(HttpServletRequest request,HttpServletResponse response,RequestModel req)</serialno>
+      <method>runController</method>
+      <name>void runController(HttpServletRequest request,HttpServletResponse response,RequestModel req)</name>
+      <genericname>public static void com.siqiansoft.framework.controller.GridController.runController(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

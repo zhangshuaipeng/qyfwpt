@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.RecordsetViewModel</classname>
+  <code>RecordsetViewModel</code>
+  <name>RecordsetViewModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}fKAKQFoerXPOwql0E8dGkA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RecordsetViewModel clone()</serialno>
+      <method>clone</method>
+      <name>RecordsetViewModel clone()</name>
+      <genericname>public com.siqiansoft.framework.model.grid.RecordsetViewModel com.siqiansoft.framework.model.grid.RecordsetViewModel.clone()</genericname>
+      <retclass>RecordsetViewModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.grid.RecordsetViewModel.clone() throws java.lang.CloneNotSupportedException</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHeader()</serialno>
+      <method>getHeader</method>
+      <name>String getHeader()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getHeader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCount()</serialno>
+      <method>getCount</method>
+      <name>String getCount()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getCount()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGroup()</serialno>
+      <method>getGroup</method>
+      <name>String getGroup()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getGroup()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getTags()</serialno>
+      <method>getTags</method>
+      <name>HashMap getTags()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String[]&gt; com.siqiansoft.framework.model.grid.RecordsetViewModel.getTags()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCount(String count)</serialno>
+      <method>setCount</method>
+      <name>void setCount(String count)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setCount(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>count</code>
+          <name>count</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroup(String group)</serialno>
+      <method>setGroup</method>
+      <name>void setGroup(String group)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setGroup(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHeader(String header)</serialno>
+      <method>setHeader</method>
+      <name>void setHeader(String header)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setHeader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>header</code>
+          <name>header</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBorder()</serialno>
+      <method>getBorder</method>
+      <name>String getBorder()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getBorder()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBorder(String border)</serialno>
+      <method>setBorder</method>
+      <name>void setBorder(String border)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setBorder(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>border</code>
+          <name>border</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGrid()</serialno>
+      <method>getGrid</method>
+      <name>String getGrid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getGrid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGrid(String grid)</serialno>
+      <method>setGrid</method>
+      <name>void setGrid(String grid)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setGrid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNullTips(String nulltips)</serialno>
+      <method>setNullTips</method>
+      <name>void setNullTips(String nulltips)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setNullTips(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nulltips</code>
+          <name>nulltips</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNullTips()</serialno>
+      <method>getNullTips</method>
+      <name>String getNullTips()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getNullTips()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEndTag(String endtag)</serialno>
+      <method>setEndTag</method>
+      <name>void setEndTag(String endtag)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setEndTag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endtag</code>
+          <name>endtag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEndTag()</serialno>
+      <method>getEndTag</method>
+      <name>String getEndTag()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getEndTag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGrpEndTag(String grpendtag)</serialno>
+      <method>setGrpEndTag</method>
+      <name>void setGrpEndTag(String grpendtag)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setGrpEndTag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>grpendtag</code>
+          <name>grpendtag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getGrpEndTag()</serialno>
+      <method>getGrpEndTag</method>
+      <name>String getGrpEndTag()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getGrpEndTag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOddRows(String oddrows)</serialno>
+      <method>setOddRows</method>
+      <name>void setOddRows(String oddrows)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setOddRows(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>oddrows</code>
+          <name>oddrows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOddRows()</serialno>
+      <method>getOddRows</method>
+      <name>String getOddRows()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getOddRows()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEvenRows(String evenrows)</serialno>
+      <method>setEvenRows</method>
+      <name>void setEvenRows(String evenrows)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setEvenRows(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>evenrows</code>
+          <name>evenrows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEvenRows()</serialno>
+      <method>getEvenRows</method>
+      <name>String getEvenRows()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.RecordsetViewModel.getEvenRows()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTags(HashMap tags)</serialno>
+      <method>setTags</method>
+      <name>void setTags(HashMap tags)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.RecordsetViewModel.setTags(java.util.HashMap&lt;java.lang.String, java.lang.String[]&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>tags</code>
+          <name>tags</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>编号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>名称</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>grid</code>
+      <name>记录集</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+      <mandatory>Y</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>count</code>
+      <name>显示记录数</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nulltips</code>
+      <name>空记录提示内容</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>border</code>
+      <name>外框标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>endtag</code>
+      <name>外框结束标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>header</code>
+      <name>标题头标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>group</code>
+      <name>分组标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>grpendtag</code>
+      <name>分组结束标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>oddrows</code>
+      <name>奇数行标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>evenrows</code>
+      <name>偶数行标签</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

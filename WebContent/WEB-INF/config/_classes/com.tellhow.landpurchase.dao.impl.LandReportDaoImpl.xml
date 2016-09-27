@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.dao.impl.LandReportDaoImpl</classname>
+  <code>LandReportDaoImpl</code>
+  <name>LandReportDaoImpl</name>
+  <packages>com.tellhow.landpurchase.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}D6Og/SJFlNifk53aX16uHg==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap sum(String sql)</serialno>
+      <method>sum</method>
+      <name>HashMap sum(String sql)</name>
+      <genericname>public java.util.HashMap com.tellhow.landpurchase.dao.impl.LandReportDaoImpl.sum(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProgressNode getParentnode(long pnode)</serialno>
+      <method>getParentnode</method>
+      <name>ProgressNode getParentnode(long pnode)</name>
+      <genericname>public com.tellhow.landpurchase.bean.ProgressNode com.tellhow.landpurchase.dao.impl.LandReportDaoImpl.getParentnode(long) throws java.lang.Exception</genericname>
+      <retclass>ProgressNode</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>pnode</code>
+          <name>pnode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>JqgridModel fetchLandModel()</serialno>
+      <method>fetchLandModel</method>
+      <name>JqgridModel fetchLandModel()</name>
+      <genericname>public com.tellhow.jqgrid.bean.JqgridModel com.tellhow.landpurchase.dao.impl.LandReportDaoImpl.fetchLandModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveLandPurchaseCount(HttpServletRequest request,JqgridPager pager,boolean byPage)</serialno>
+      <method>retrieveLandPurchaseCount</method>
+      <name>List retrieveLandPurchaseCount(HttpServletRequest request,JqgridPager pager,boolean byPage)</name>
+      <genericname>public java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.landpurchase.dao.impl.LandReportDaoImpl.retrieveLandPurchaseCount(javax.servlet.http.HttpServletRequest,com.tellhow.jqgrid.bean.JqgridPager,boolean) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>byPage</code>
+          <name>byPage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

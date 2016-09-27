@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.NodeModel</classname>
+  <code>NodeModel</code>
+  <name>NodeModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}4uYQJF+ZvA4gS3/vGGreCw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMap()</serialno>
+      <method>getMap</method>
+      <name>String getMap()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getMap()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReader(String reader)</serialno>
+      <method>setReader</method>
+      <name>void setReader(String reader)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setReader(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reader</code>
+          <name>reader</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReader()</serialno>
+      <method>getReader</method>
+      <name>String getReader()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getReader()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRights()</serialno>
+      <method>getRights</method>
+      <name>HashMap getRights()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt; com.siqiansoft.workflow.model.NodeModel.getRights()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNodeId()</serialno>
+      <method>getNodeId</method>
+      <name>String getNodeId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getNodeId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSelectAll(String selectall)</serialno>
+      <method>setSelectAll</method>
+      <name>void setSelectAll(String selectall)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setSelectAll(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>selectall</code>
+          <name>selectall</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMap(String map)</serialno>
+      <method>setMap</method>
+      <name>void setMap(String map)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setMap(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRights(HashMap rights)</serialno>
+      <method>setRights</method>
+      <name>void setRights(HashMap rights)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setRights(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.RightModel&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>rights</code>
+          <name>rights</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getWeight()</serialno>
+      <method>getWeight</method>
+      <name>double getWeight()</name>
+      <genericname>public double com.siqiansoft.workflow.model.NodeModel.getWeight()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWeight(double weight)</serialno>
+      <method>setWeight</method>
+      <name>void setWeight(double weight)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setWeight(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>weight</code>
+          <name>weight</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeId(String nodeid)</serialno>
+      <method>setNodeId</method>
+      <name>void setNodeId(String nodeid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setNodeId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCC(String cc)</serialno>
+      <method>setCC</method>
+      <name>void setCC(String cc)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setCC(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cc</code>
+          <name>cc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCC()</serialno>
+      <method>getCC</method>
+      <name>String getCC()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getCC()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnInit()</serialno>
+      <method>getOnInit</method>
+      <name>HandlerModel getOnInit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnInit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnAbort()</serialno>
+      <method>getOnAbort</method>
+      <name>HandlerModel getOnAbort()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnAbort()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnFinish()</serialno>
+      <method>getOnFinish</method>
+      <name>HandlerModel getOnFinish()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnFinish()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnTimeout()</serialno>
+      <method>getOnTimeout</method>
+      <name>HandlerModel getOnTimeout()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnTimeout()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnToCommit()</serialno>
+      <method>getOnToCommit</method>
+      <name>HandlerModel getOnToCommit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnToCommit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnCommit()</serialno>
+      <method>getOnCommit</method>
+      <name>HandlerModel getOnCommit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnCommit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnUntread()</serialno>
+      <method>getOnUntread</method>
+      <name>HandlerModel getOnUntread()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnUntread()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnException()</serialno>
+      <method>getOnException</method>
+      <name>HandlerModel getOnException()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnException()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnThreadEnd()</serialno>
+      <method>getOnThreadEnd</method>
+      <name>HandlerModel getOnThreadEnd()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnThreadEnd()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnAfterMap()</serialno>
+      <method>getOnAfterMap</method>
+      <name>HandlerModel getOnAfterMap()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnAfterMap()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnBeforeMap()</serialno>
+      <method>getOnBeforeMap</method>
+      <name>HandlerModel getOnBeforeMap()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.NodeModel.getOnBeforeMap()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnInit(HandlerModel oninit)</serialno>
+      <method>setOnInit</method>
+      <name>void setOnInit(HandlerModel oninit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnInit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>oninit</code>
+          <name>oninit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnAbort(HandlerModel onabort)</serialno>
+      <method>setOnAbort</method>
+      <name>void setOnAbort(HandlerModel onabort)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnAbort(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onabort</code>
+          <name>onabort</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnFinish(HandlerModel onfinish)</serialno>
+      <method>setOnFinish</method>
+      <name>void setOnFinish(HandlerModel onfinish)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnFinish(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onfinish</code>
+          <name>onfinish</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnTimeout(HandlerModel ontimeout)</serialno>
+      <method>setOnTimeout</method>
+      <name>void setOnTimeout(HandlerModel ontimeout)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnTimeout(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>ontimeout</code>
+          <name>ontimeout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnAfterMap(HandlerModel onaftermap)</serialno>
+      <method>setOnAfterMap</method>
+      <name>void setOnAfterMap(HandlerModel onaftermap)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnAfterMap(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onaftermap</code>
+          <name>onaftermap</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnBeforeMap(HandlerModel onbeforemap)</serialno>
+      <method>setOnBeforeMap</method>
+      <name>void setOnBeforeMap(HandlerModel onbeforemap)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnBeforeMap(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onbeforemap</code>
+          <name>onbeforemap</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnToCommit(HandlerModel ontocommit)</serialno>
+      <method>setOnToCommit</method>
+      <name>void setOnToCommit(HandlerModel ontocommit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnToCommit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>ontocommit</code>
+          <name>ontocommit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnCommit(HandlerModel oncommit)</serialno>
+      <method>setOnCommit</method>
+      <name>void setOnCommit(HandlerModel oncommit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnCommit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>oncommit</code>
+          <name>oncommit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnException(HandlerModel onexception)</serialno>
+      <method>setOnException</method>
+      <name>void setOnException(HandlerModel onexception)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnException(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onexception</code>
+          <name>onexception</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnThreadEnd(HandlerModel onthreadend)</serialno>
+      <method>setOnThreadEnd</method>
+      <name>void setOnThreadEnd(HandlerModel onthreadend)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnThreadEnd(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onthreadend</code>
+          <name>onthreadend</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnUntread(HandlerModel onuntread)</serialno>
+      <method>setOnUntread</method>
+      <name>void setOnUntread(HandlerModel onuntread)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setOnUntread(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onuntread</code>
+          <name>onuntread</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTimeLimit()</serialno>
+      <method>getTimeLimit</method>
+      <name>String getTimeLimit()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getTimeLimit()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeLimit(String timelimit)</serialno>
+      <method>setTimeLimit</method>
+      <name>void setTimeLimit(String timelimit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setTimeLimit(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timelimit</code>
+          <name>timelimit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRoutes()</serialno>
+      <method>getRoutes</method>
+      <name>String getRoutes()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getRoutes()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActors(String actors)</serialno>
+      <method>setActors</method>
+      <name>void setActors(String actors)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setActors(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSelectAll()</serialno>
+      <method>getSelectAll</method>
+      <name>String getSelectAll()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getSelectAll()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNoSelf()</serialno>
+      <method>getNoSelf</method>
+      <name>String getNoSelf()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getNoSelf()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoutes(String routes)</serialno>
+      <method>setRoutes</method>
+      <name>void setRoutes(String routes)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setRoutes(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>routes</code>
+          <name>routes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActors()</serialno>
+      <method>getActors</method>
+      <name>String getActors()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getActors()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMultiType(String multitype)</serialno>
+      <method>setMultiType</method>
+      <name>void setMultiType(String multitype)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setMultiType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>multitype</code>
+          <name>multitype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMultiType()</serialno>
+      <method>getMultiType</method>
+      <name>String getMultiType()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getMultiType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setVote(double vote)</serialno>
+      <method>setVote</method>
+      <name>void setVote(double vote)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setVote(double)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>double</type>
+          <code>vote</code>
+          <name>vote</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>double getVote()</serialno>
+      <method>getVote</method>
+      <name>double getVote()</name>
+      <genericname>public double com.siqiansoft.workflow.model.NodeModel.getVote()</genericname>
+      <retclass>double</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableAid(String enableaid)</serialno>
+      <method>setEnableAid</method>
+      <name>void setEnableAid(String enableaid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableAid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableaid</code>
+          <name>enableaid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableAid()</serialno>
+      <method>getEnableAid</method>
+      <name>String getEnableAid()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableAid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableFree(String enablefree)</serialno>
+      <method>setEnableFree</method>
+      <name>void setEnableFree(String enablefree)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableFree(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablefree</code>
+          <name>enablefree</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableFree()</serialno>
+      <method>getEnableFree</method>
+      <name>String getEnableFree()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableFree()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMultiAdm(String multiadm)</serialno>
+      <method>setMultiAdm</method>
+      <name>void setMultiAdm(String multiadm)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setMultiAdm(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>multiadm</code>
+          <name>multiadm</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMultiAdm()</serialno>
+      <method>getMultiAdm</method>
+      <name>String getMultiAdm()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getMultiAdm()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSubProcess(String subprocess)</serialno>
+      <method>setSubProcess</method>
+      <name>void setSubProcess(String subprocess)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setSubProcess(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>subprocess</code>
+          <name>subprocess</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSubProcess()</serialno>
+      <method>getSubProcess</method>
+      <name>String getSubProcess()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getSubProcess()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setExParams(String exparams)</serialno>
+      <method>setExParams</method>
+      <name>void setExParams(String exparams)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setExParams(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>exparams</code>
+          <name>exparams</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getExParams()</serialno>
+      <method>getExParams</method>
+      <name>String getExParams()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getExParams()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableAgent(String enableagent)</serialno>
+      <method>setEnableAgent</method>
+      <name>void setEnableAgent(String enableagent)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableAgent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableagent</code>
+          <name>enableagent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableAgent()</serialno>
+      <method>getEnableAgent</method>
+      <name>String getEnableAgent()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableAgent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableRedo(String enableredo)</serialno>
+      <method>setEnableRedo</method>
+      <name>void setEnableRedo(String enableredo)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableRedo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableredo</code>
+          <name>enableredo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableRedo()</serialno>
+      <method>getEnableRedo</method>
+      <name>String getEnableRedo()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableRedo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableChange(String enablechange)</serialno>
+      <method>setEnableChange</method>
+      <name>void setEnableChange(String enablechange)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableChange(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablechange</code>
+          <name>enablechange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableChange()</serialno>
+      <method>getEnableChange</method>
+      <name>String getEnableChange()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableChange()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableUntread(String enableuntread)</serialno>
+      <method>setEnableUntread</method>
+      <name>void setEnableUntread(String enableuntread)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableUntread(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableuntread</code>
+          <name>enableuntread</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableUntread()</serialno>
+      <method>getEnableUntread</method>
+      <name>String getEnableUntread()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableUntread()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableUrge(String enableurge)</serialno>
+      <method>setEnableUrge</method>
+      <name>void setEnableUrge(String enableurge)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableUrge(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableurge</code>
+          <name>enableurge</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableUrge()</serialno>
+      <method>getEnableUrge</method>
+      <name>String getEnableUrge()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableUrge()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableAbort(String enableabort)</serialno>
+      <method>setEnableAbort</method>
+      <name>void setEnableAbort(String enableabort)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableAbort(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableabort</code>
+          <name>enableabort</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableAbort()</serialno>
+      <method>getEnableAbort</method>
+      <name>String getEnableAbort()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableAbort()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableGoto(String enablegoto)</serialno>
+      <method>setEnableGoto</method>
+      <name>void setEnableGoto(String enablegoto)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableGoto(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablegoto</code>
+          <name>enablegoto</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableGoto()</serialno>
+      <method>getEnableGoto</method>
+      <name>String getEnableGoto()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableGoto()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableAddActor(String enableaddactor)</serialno>
+      <method>setEnableAddActor</method>
+      <name>void setEnableAddActor(String enableaddactor)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableAddActor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableaddactor</code>
+          <name>enableaddactor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableAddActor()</serialno>
+      <method>getEnableAddActor</method>
+      <name>String getEnableAddActor()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableAddActor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableComment(String enablecomment)</serialno>
+      <method>setEnableComment</method>
+      <name>void setEnableComment(String enablecomment)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableComment(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablecomment</code>
+          <name>enablecomment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableComment()</serialno>
+      <method>getEnableComment</method>
+      <name>String getEnableComment()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableComment()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableAsync(String enableasync)</serialno>
+      <method>setEnableAsync</method>
+      <name>void setEnableAsync(String enableasync)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableAsync(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enableasync</code>
+          <name>enableasync</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableAsync()</serialno>
+      <method>getEnableAsync</method>
+      <name>String getEnableAsync()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableAsync()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnableSupply(String enablesupply)</serialno>
+      <method>setEnableSupply</method>
+      <name>void setEnableSupply(String enablesupply)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setEnableSupply(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enablesupply</code>
+          <name>enablesupply</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnableSupply()</serialno>
+      <method>getEnableSupply</method>
+      <name>String getEnableSupply()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getEnableSupply()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNotify(String notify)</serialno>
+      <method>setNotify</method>
+      <name>void setNotify(String notify)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setNotify(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>notify</code>
+          <name>notify</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNotify()</serialno>
+      <method>getNotify</method>
+      <name>String getNotify()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getNotify()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMsgFormat(String msgformat)</serialno>
+      <method>setMsgFormat</method>
+      <name>void setMsgFormat(String msgformat)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setMsgFormat(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>msgformat</code>
+          <name>msgformat</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMsgFormat()</serialno>
+      <method>getMsgFormat</method>
+      <name>String getMsgFormat()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getMsgFormat()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRouteRule(PolicyModel[] routerule)</serialno>
+      <method>setRouteRule</method>
+      <name>void setRouteRule(PolicyModel[] routerule)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setRouteRule(com.siqiansoft.workflow.model.PolicyModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PolicyModel[]</type>
+          <code>routerule</code>
+          <name>routerule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PolicyModel[] getRouteRule()</serialno>
+      <method>getRouteRule</method>
+      <name>PolicyModel[] getRouteRule()</name>
+      <genericname>public com.siqiansoft.workflow.model.PolicyModel[] com.siqiansoft.workflow.model.NodeModel.getRouteRule()</genericname>
+      <retclass>PolicyModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActorRule(String actorrule)</serialno>
+      <method>setActorRule</method>
+      <name>void setActorRule(String actorrule)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setActorRule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actorrule</code>
+          <name>actorrule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActorRule()</serialno>
+      <method>getActorRule</method>
+      <name>String getActorRule()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getActorRule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActorsName(String actorsname)</serialno>
+      <method>setActorsName</method>
+      <name>void setActorsName(String actorsname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setActorsName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actorsname</code>
+          <name>actorsname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getActorsName()</serialno>
+      <method>getActorsName</method>
+      <name>String getActorsName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getActorsName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNoSelf(String noself)</serialno>
+      <method>setNoSelf</method>
+      <name>void setNoSelf(String noself)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setNoSelf(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>noself</code>
+          <name>noself</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCCName(String ccname)</serialno>
+      <method>setCCName</method>
+      <name>void setCCName(String ccname)</name>
+      <genericname>public void com.siqiansoft.workflow.model.NodeModel.setCCName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ccname</code>
+          <name>ccname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCCName()</serialno>
+      <method>getCCName</method>
+      <name>String getCCName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.NodeModel.getCCName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>nodeid</code>
+      <name>nodeid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>type</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>multitype</code>
+      <name>multitype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>vote</code>
+      <name>vote</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>multiadm</code>
+      <name>multiadm</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>subprocess</code>
+      <name>subprocess</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>exparams</code>
+      <name>exparams</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>reader</code>
+      <name>reader</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableaid</code>
+      <name>enableaid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablefree</code>
+      <name>enablefree</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableagent</code>
+      <name>enableagent</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableredo</code>
+      <name>enableredo</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablechange</code>
+      <name>enablechange</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableuntread</code>
+      <name>enableuntread</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableurge</code>
+      <name>enableurge</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableabort</code>
+      <name>enableabort</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablegoto</code>
+      <name>enablegoto</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableaddactor</code>
+      <name>enableaddactor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablecomment</code>
+      <name>enablecomment</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enableasync</code>
+      <name>enableasync</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>enablesupply</code>
+      <name>enablesupply</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>timelimit</code>
+      <name>timelimit</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>weight</code>
+      <name>weight</name>
+      <datatype>0</datatype>
+      <typename>DOUBLE</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>notify</code>
+      <name>notify</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>msgformat</code>
+      <name>msgformat</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actorrule</code>
+      <name>actorrule</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actors</code>
+      <name>actors</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>actorsname</code>
+      <name>actorsname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>selectall</code>
+      <name>selectall</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>noself</code>
+      <name>noself</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>cc</code>
+      <name>cc</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>ccname</code>
+      <name>ccname</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>map</code>
+      <name>map</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>routes</code>
+      <name>routes</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

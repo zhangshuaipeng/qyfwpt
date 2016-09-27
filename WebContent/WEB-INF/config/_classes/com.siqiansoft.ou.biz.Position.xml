@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Position</classname>
+  <code>Position</code>
+  <name>Position</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}mo5boPgoD2Kl0zAf8mcoUw==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createPosition(PositionModel position)</serialno>
+      <method>createPosition</method>
+      <name>void createPosition(PositionModel position)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Position.createPosition(com.siqiansoft.ou.model.PositionModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PositionModel</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePosition(PositionModel position)</serialno>
+      <method>updatePosition</method>
+      <name>void updatePosition(PositionModel position)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Position.updatePosition(com.siqiansoft.ou.model.PositionModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PositionModel</type>
+          <code>position</code>
+          <name>position</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePosition(String pk)</serialno>
+      <method>deletePosition</method>
+      <name>void deletePosition(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Position.deletePosition(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deletePositions(String[] pk)</serialno>
+      <method>deletePositions</method>
+      <name>void deletePositions(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Position.deletePositions(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PositionModel getPositionByPK(String pk)</serialno>
+      <method>getPositionByPK</method>
+      <name>PositionModel getPositionByPK(String pk)</name>
+      <genericname>public static com.siqiansoft.ou.model.PositionModel com.siqiansoft.ou.biz.Position.getPositionByPK(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>PositionModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PositionModel[] getPositionList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getPositionList</method>
+      <name>PositionModel[] getPositionList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.PositionModel[] com.siqiansoft.ou.biz.Position.getPositionList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>PositionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

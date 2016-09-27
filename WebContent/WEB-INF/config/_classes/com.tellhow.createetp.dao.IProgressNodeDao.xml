@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.IProgressNodeDao</classname>
+  <code>IProgressNodeDao</code>
+  <name>IProgressNodeDao</name>
+  <packages>com.tellhow.createetp.dao</packages>
+  <type>biz</type>
+  <crc>{MD5}mBLOUV7u+/4QyKVGDppLZQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+</model.biz.ClassModel>

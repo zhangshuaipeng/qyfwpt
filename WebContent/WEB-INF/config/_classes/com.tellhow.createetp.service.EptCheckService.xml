@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.service.EptCheckService</classname>
+  <code>EptCheckService</code>
+  <name>EptCheckService</name>
+  <packages>com.tellhow.createetp.service</packages>
+  <type>biz</type>
+  <crc>{MD5}eWtK2/2pmLISYDWIlyJu7g==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void batchPassCheck(EptCheckLogVo eclVo)</serialno>
+      <method>batchPassCheck</method>
+      <name>void batchPassCheck(EptCheckLogVo eclVo)</name>
+      <genericname>public void com.tellhow.createetp.service.EptCheckService.batchPassCheck(com.tellhow.createetp.vo.EptCheckLogVo)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptCheckLogVo</type>
+          <code>eclVo</code>
+          <name>eclVo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCheckParam(EnterpriseCheckParam param)</serialno>
+      <method>setCheckParam</method>
+      <name>void setCheckParam(EnterpriseCheckParam param)</name>
+      <genericname>public void com.tellhow.createetp.service.EptCheckService.setCheckParam(com.tellhow.createetp.bean.EnterpriseCheckParam) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EnterpriseCheckParam</type>
+          <code>param</code>
+          <name>param</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

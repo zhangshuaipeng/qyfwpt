@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.dao.impl.DetailDaoImpl</classname>
+  <code>DetailDaoImpl</code>
+  <name>DetailDaoImpl</name>
+  <packages>com.tellhow.detail.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}YdoSQbfX9WKokVXx9znY5Q==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getUnit(String articleid)</serialno>
+      <method>getUnit</method>
+      <name>HashMap getUnit(String articleid)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.getUnit(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getDetail(String resumeid,String articleid,String sid)</serialno>
+      <method>getDetail</method>
+      <name>HashMap getDetail(String resumeid,String articleid,String sid)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.getDetail(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList findArticle(String sid,String dispatchdept)</serialno>
+      <method>findArticle</method>
+      <name>ArrayList findArticle(String sid,String dispatchdept)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.findArticle(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList findDetail(String sid,String businesstype)</serialno>
+      <method>findDetail</method>
+      <name>ArrayList findDetail(String sid,String businesstype)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.findDetail(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businesstype</code>
+          <name>businesstype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Detail findHrByName(String articlename)</serialno>
+      <method>findHrByName</method>
+      <name>Detail findHrByName(String articlename)</name>
+      <genericname>public com.tellhow.detail.bean.Detail com.tellhow.detail.dao.impl.DetailDaoImpl.findHrByName(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Detail</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlename</code>
+          <name>articlename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList findResumeid(String sid,String businesstype)</serialno>
+      <method>findResumeid</method>
+      <name>ArrayList findResumeid(String sid,String businesstype)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.findResumeid(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businesstype</code>
+          <name>businesstype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList ckResumeid(String sid,String businesstype)</serialno>
+      <method>ckResumeid</method>
+      <name>ArrayList ckResumeid(String sid,String businesstype)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.ckResumeid(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>businesstype</code>
+          <name>businesstype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getResumit(String dept,String articleid,String state,String sid)</serialno>
+      <method>getResumit</method>
+      <name>ArrayList getResumit(String dept,String articleid,String state,String sid)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&gt; com.tellhow.detail.dao.impl.DetailDaoImpl.getResumit(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>state</code>
+          <name>state</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean articleout(String articleid,String resumeid,String articlesizeid)</serialno>
+      <method>articleout</method>
+      <name>boolean articleout(String articleid,String resumeid,String articlesizeid)</name>
+      <genericname>public boolean com.tellhow.detail.dao.impl.DetailDaoImpl.articleout(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articlesizeid</code>
+          <name>articlesizeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String findSex(String articleid)</serialno>
+      <method>findSex</method>
+      <name>String findSex(String articleid)</name>
+      <genericname>public java.lang.String com.tellhow.detail.dao.impl.DetailDaoImpl.findSex(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHrdresssize(String resumeid,String articleid)</serialno>
+      <method>getHrdresssize</method>
+      <name>String getHrdresssize(String resumeid,String articleid)</name>
+      <genericname>public java.lang.String com.tellhow.detail.dao.impl.DetailDaoImpl.getHrdresssize(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String bLimited(String articleid,String dispatchdept)</serialno>
+      <method>bLimited</method>
+      <name>String bLimited(String articleid,String dispatchdept)</name>
+      <genericname>public java.lang.String com.tellhow.detail.dao.impl.DetailDaoImpl.bLimited(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean bDetail(String sid,String articleid)</serialno>
+      <method>bDetail</method>
+      <name>boolean bDetail(String sid,String articleid)</name>
+      <genericname>public boolean com.tellhow.detail.dao.impl.DetailDaoImpl.bDetail(java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

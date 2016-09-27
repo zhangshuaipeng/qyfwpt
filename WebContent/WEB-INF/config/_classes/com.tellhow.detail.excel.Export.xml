@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.excel.Export</classname>
+  <code>Export</code>
+  <name>Export</name>
+  <packages>com.tellhow.detail.excel</packages>
+  <type>biz</type>
+  <crc>{MD5}+YF/NwenRgZfmOX4aOMIMA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HSSFWorkbook exportXls(JqgridModel jm,List jd)</serialno>
+      <method>exportXls</method>
+      <name>HSSFWorkbook exportXls(JqgridModel jm,List jd)</name>
+      <genericname>public org.apache.poi.hssf.usermodel.HSSFWorkbook com.tellhow.detail.excel.Export.exportXls(com.tellhow.detail.bean.JqgridModel,java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;) throws java.lang.Exception</genericname>
+      <retclass>HSSFWorkbook</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>JqgridModel</type>
+          <code>jm</code>
+          <name>jm</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>jd</code>
+          <name>jd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

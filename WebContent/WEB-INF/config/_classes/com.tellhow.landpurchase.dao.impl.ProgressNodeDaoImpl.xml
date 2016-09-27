@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl</classname>
+  <code>ProgressNodeDaoImpl</code>
+  <name>ProgressNodeDaoImpl</name>
+  <packages>com.tellhow.landpurchase.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}nCmLrTJ5c2iEBzs8rUBW0w==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void deleteRow(String id)</serialno>
+      <method>deleteRow</method>
+      <name>void deleteRow(String id)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.deleteRow(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void upParentNode(String nodeid)</serialno>
+      <method>upParentNode</method>
+      <name>void upParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.upParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downParentNode(String nodeid)</serialno>
+      <method>downParentNode</method>
+      <name>void downParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.downParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void upChildNode(String nodeid)</serialno>
+      <method>upChildNode</method>
+      <name>void upChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.upChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downChildNode(String nodeid)</serialno>
+      <method>downChildNode</method>
+      <name>void downChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.downChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List queryChildNodes(String id)</serialno>
+      <method>queryChildNodes</method>
+      <name>List queryChildNodes(String id)</name>
+      <genericname>public java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.queryChildNodes(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteChildNodes(String id)</serialno>
+      <method>deleteChildNodes</method>
+      <name>void deleteChildNodes(String id)</name>
+      <genericname>public void com.tellhow.landpurchase.dao.impl.ProgressNodeDaoImpl.deleteChildNodes(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

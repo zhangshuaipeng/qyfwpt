@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.FlowDataModel</classname>
+  <code>FlowDataModel</code>
+  <name>FlowDataModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}O4ikTJcfoNyLqm27DEUC+Q==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getSystem()</serialno>
+      <method>getSystem</method>
+      <name>String getSystem()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowDataModel.getSystem()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystem(String system)</serialno>
+      <method>setSystem</method>
+      <name>void setSystem(String system)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowDataModel.setSystem(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFormId()</serialno>
+      <method>getFormId</method>
+      <name>String getFormId()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.FlowDataModel.getFormId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodes(NodeModel[] nodes)</serialno>
+      <method>setNodes</method>
+      <name>void setNodes(NodeModel[] nodes)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowDataModel.setNodes(com.siqiansoft.workflow.model.NodeModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>NodeModel[]</type>
+          <code>nodes</code>
+          <name>nodes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel[] getNodes()</serialno>
+      <method>getNodes</method>
+      <name>NodeModel[] getNodes()</name>
+      <genericname>public com.siqiansoft.workflow.model.NodeModel[] com.siqiansoft.workflow.model.FlowDataModel.getNodes()</genericname>
+      <retclass>NodeModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFormId(String formid)</serialno>
+      <method>setFormId</method>
+      <name>void setFormId(String formid)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowDataModel.setFormId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>formid</code>
+          <name>formid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel[] getRoutes()</serialno>
+      <method>getRoutes</method>
+      <name>RouteModel[] getRoutes()</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel[] com.siqiansoft.workflow.model.FlowDataModel.getRoutes()</genericname>
+      <retclass>RouteModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRoutes(RouteModel[] routes)</serialno>
+      <method>setRoutes</method>
+      <name>void setRoutes(RouteModel[] routes)</name>
+      <genericname>public void com.siqiansoft.workflow.model.FlowDataModel.setRoutes(com.siqiansoft.workflow.model.RouteModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RouteModel[]</type>
+          <code>routes</code>
+          <name>routes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>system</code>
+      <name>system</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>formid</code>
+      <name>formid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

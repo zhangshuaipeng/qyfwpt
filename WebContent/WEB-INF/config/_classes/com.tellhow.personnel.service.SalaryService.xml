@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.SalaryService</classname>
+  <code>SalaryService</code>
+  <name>SalaryService</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}tQVwpJJBCJBF47CgGhPOGw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void addpaymentsalary(Paymentsalary paymentsalary,RequestModel req)</serialno>
+      <method>addpaymentsalary</method>
+      <name>void addpaymentsalary(Paymentsalary paymentsalary,RequestModel req)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.addpaymentsalary(com.tellhow.personnel.bean.hrdocument.Paymentsalary,com.siqiansoft.framework.model.RequestModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Paymentsalary</type>
+          <code>paymentsalary</code>
+          <name>paymentsalary</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>SalaryCountVo findcountsalaryupdate(String resumeid,String year,String month)</serialno>
+      <method>findcountsalaryupdate</method>
+      <name>SalaryCountVo findcountsalaryupdate(String resumeid,String year,String month)</name>
+      <genericname>public com.tellhow.personnel.bean.vo.SalaryCountVo com.tellhow.personnel.service.SalaryService.findcountsalaryupdate(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>SalaryCountVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void plresumesalary(String[] selected,String year,String month)</serialno>
+      <method>plresumesalary</method>
+      <name>void plresumesalary(String[] selected,String year,String month)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.plresumesalary(java.lang.String[],java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>SalaryCountVo findcountsalary(String resumeid,String year,String month)</serialno>
+      <method>findcountsalary</method>
+      <name>SalaryCountVo findcountsalary(String resumeid,String year,String month)</name>
+      <genericname>public com.tellhow.personnel.bean.vo.SalaryCountVo com.tellhow.personnel.service.SalaryService.findcountsalary(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>SalaryCountVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addresumesalary(SalaryCountVo salaryCountVo)</serialno>
+      <method>addresumesalary</method>
+      <name>void addresumesalary(SalaryCountVo salaryCountVo)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.addresumesalary(com.tellhow.personnel.bean.vo.SalaryCountVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>SalaryCountVo</type>
+          <code>salaryCountVo</code>
+          <name>salaryCountVo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void countcomplete(String year,String month)</serialno>
+      <method>countcomplete</method>
+      <name>void countcomplete(String year,String month)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.countcomplete(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateresumesalary(SalaryCountVo salaryCountVo)</serialno>
+      <method>updateresumesalary</method>
+      <name>void updateresumesalary(SalaryCountVo salaryCountVo)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.updateresumesalary(com.tellhow.personnel.bean.vo.SalaryCountVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>SalaryCountVo</type>
+          <code>salaryCountVo</code>
+          <name>salaryCountVo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List resumeSalaryList(ConditionModel[] cs,PagingModel pageCtl,String year,String month)</serialno>
+      <method>resumeSalaryList</method>
+      <name>List resumeSalaryList(ConditionModel[] cs,PagingModel pageCtl,String year,String month)</name>
+      <genericname>public java.util.List&lt;com.tellhow.personnel.bean.vo.ResumeSalaryVo&gt; com.tellhow.personnel.service.SalaryService.resumeSalaryList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void batchapproval(String[] ids)</serialno>
+      <method>batchapproval</method>
+      <name>void batchapproval(String[] ids)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.batchapproval(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>ids</code>
+          <name>ids</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatesalarychange(Salarychange salarychange)</serialno>
+      <method>updatesalarychange</method>
+      <name>void updatesalarychange(Salarychange salarychange)</name>
+      <genericname>public void com.tellhow.personnel.service.SalaryService.updatesalarychange(com.tellhow.personnel.bean.hrdocument.Salarychange) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Salarychange</type>
+          <code>salarychange</code>
+          <name>salarychange</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

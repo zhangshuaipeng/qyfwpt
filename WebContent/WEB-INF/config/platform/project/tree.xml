@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>disktree</code>
+    <name>磁盘树</name>
+    <async>Y</async>
+    <nodes>
+      <business>ProjectBo.getRootNode</business>
+    </nodes>
+    <nextnode>
+      <business>ProjectBo.getSubNode</business>
+      <params>nodeid</params>
+    </nextnode>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>usertree</code>
+    <name>用户树</name>
+    <box>radio</box>
+    <expvalue></expvalue>
+    <async>Y</async>
+    <imgpath></imgpath>
+    <runurl></runurl>
+    <nodes>
+      <business>ProjectBo.getOrganizeNode</business>
+      <params>box</params>
+    </nodes>
+    <nextnode>
+      <business>ProjectBo.getUsersNode</business>
+      <params>nodeid,box</params>
+    </nextnode>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

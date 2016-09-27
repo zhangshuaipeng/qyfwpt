@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.EventHandler</classname>
+  <code>EventHandler</code>
+  <name>EventHandler</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}S6VOhP9F3J/wLyQenlJsKw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void setParams(HashMap params)</serialno>
+      <method>setParams</method>
+      <name>void setParams(HashMap params)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.EventHandler.setParams(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void callHandler(HandlerModel handler)</serialno>
+      <method>callHandler</method>
+      <name>void callHandler(HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.EventHandler.callHandler(com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.RuntimeException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

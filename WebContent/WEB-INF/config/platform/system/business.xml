@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>SystemBo.getSystem</code>
+    <name>getSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>getSystem</item>
+    <script>ItemModel getSystem(String name)</script>
+    <params>name</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.getSystemListTree</code>
+    <name>getSystemListTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>getSystemListTree</item>
+    <script>NodeModel getSystemListTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.listSystem</code>
+    <name>listSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>listSystem</item>
+    <script>ArrayList listSystem(ConditionModel[] cs,PagingModel pageCtl)</script>
+    <params>cs,pageCtl</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.saveSystem</code>
+    <name>saveSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>saveSystem</item>
+    <script>void saveSystem(ItemModel item)</script>
+    <params>item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.deleteSystems</code>
+    <name>deleteSystems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>deleteSystems</item>
+    <script>void deleteSystems(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.updateSystem</code>
+    <name>updateSystem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>updateSystem</item>
+    <script>void updateSystem(ItemModel item)</script>
+    <params>item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.getNavigator</code>
+    <name>getNavigator</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.SystemBo</catalog>
+    <item>getNavigator</item>
+    <script>NodeModel getNavigator(LoginModel login)</script>
+    <params>login</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>SystemBo.getIcons</code>
+    <name>getIcons</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.SystemBo</catalog>
+    <item>getIcons</item>
+    <script>ItemModel[] getIcons()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

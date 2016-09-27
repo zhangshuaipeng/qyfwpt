@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ScheduleModel>
+  <code>datasynchronization</code>
+  <name>企业信息数据同步</name>
+  <cycle>hour</cycle>
+  <status>enable</status>
+  <script>importClass(Packages.com.siqiansoft.framework.bo.DatabaseBo);&#xd;
+importClass(Packages.java.util.HashMap);&#xd;
+&#xd;
+var dbo = new DatabaseBo();&#xd;
+dbo.setDsn(&quot;approval&quot;);&#xd;
+var list = dbo.prepareUpdate(&quot;delete from EPTREGISTEREDINFO where CATEGORY=0&quot;,null);&#xd;
+&#xd;
+var dbo1 = new DatabaseBo();&#xd;
+dbo1.setDsn(&quot;system&quot;);&#xd;
+var list = dbo1.query(&quot;select * from bzs_eptregisteredinfo&quot;);&#xd;
+if(list.size()&gt;0){&#xd;
+	for(var i=0;i&lt;list.size();i++){&#xd;
+		var projectid = list.get(i).get(&quot;PROJECTID&quot;);&#xd;
+		var enterpriseName = list.get(i).get(&quot;ENTERPRISENAME&quot;);&#xd;
+		var enterpriseProperties = list.get(i).get(&quot;ENTERPRISEPROPERTIES&quot;);&#xd;
+		var enterpriseType = list.get(i).get(&quot;ENTERPRISETYPE&quot;);&#xd;
+		var registeredAddress = list.get(i).get(&quot;REGISTEREDADDRESS&quot;);&#xd;
+		var rigisteredCapital = list.get(i).get(&quot;RIGISTEREDCAPITAL&quot;);&#xd;
+		var actualCapital = list.get(i).get(&quot;ACTUALCAPITAL&quot;);&#xd;
+		var registeredDate = list.get(i).get(&quot;REGISTEREDDATE&quot;);&#xd;
+		var completedDate = list.get(i).get(&quot;COMPLETEDDATE&quot;);&#xd;
+		var businessYears = list.get(i).get(&quot;BUSINESSYEARS&quot;);&#xd;
+		var businessStartDate = list.get(i).get(&quot;BUSINESSSTARTDATE&quot;);&#xd;
+		var businessEndDate = list.get(i).get(&quot;BUSINESSENDDATE&quot;);&#xd;
+		var lastCheckDate = list.get(i).get(&quot;LASTCHECKDATE&quot;);&#xd;
+		var businessScope = list.get(i).get(&quot;BUSINESSSCOPE&quot;);&#xd;
+		var organizationCode = list.get(i).get(&quot;ORGANIZATIONCODE&quot;);&#xd;
+		var legalPerson = list.get(i).get(&quot;LEGALPERSON&quot;);&#xd;
+		var legalPersonTel = list.get(i).get(&quot;LEGALPERSONTEL&quot;);&#xd;
+		var linkMan = list.get(i).get(&quot;LINKMAN&quot;);&#xd;
+		var linkManTel = list.get(i).get(&quot;LINKMANTEL&quot;);&#xd;
+		var remark = list.get(i).get(&quot;REMARK&quot;);&#xd;
+		var dealDate = list.get(i).get(&quot;DEALDATE&quot;);&#xd;
+		var dispatchedDate = list.get(i).get(&quot;DISPATCHEDDATE&quot;);&#xd;
+		var projectLeader = list.get(i).get(&quot;PROJECTLEADER&quot;);&#xd;
+		var eptStatus = list.get(i).get(&quot;EPTSTATUS&quot;);&#xd;
+		var eptStatusDate = list.get(i).get(&quot;EPTSTATUSDATE&quot;);&#xd;
+		var eptStatusRemark = list.get(i).get(&quot;EPTSTATUSREMARK&quot;);&#xd;
+		var operatorCode = list.get(i).get(&quot;OPERATORCODE&quot;);&#xd;
+		var latestProgress = list.get(i).get(&quot;LATESTPROGRESS&quot;);&#xd;
+		var valid = list.get(i).get(&quot;VALID&quot;);&#xd;
+		var category = list.get(i).get(&quot;CATEGORY&quot;);&#xd;
+		var regiontype = list.get(i).get(&quot;REGIONTYPE&quot;);&#xd;
+		var map = new HashMap();&#xd;
+		map.put(&quot;projectid&quot;,projectid);&#xd;
+		map.put(&quot;enterpriseName&quot;,enterpriseName);&#xd;
+		map.put(&quot;enterpriseProperties&quot;,enterpriseProperties);&#xd;
+		map.put(&quot;enterpriseType&quot;,enterpriseType);&#xd;
+		map.put(&quot;registeredAddress&quot;,registeredAddress);&#xd;
+		map.put(&quot;rigisteredCapital&quot;,rigisteredCapital);&#xd;
+		map.put(&quot;actualCapital&quot;,actualCapital);&#xd;
+		map.put(&quot;registeredDate&quot;,registeredDate);&#xd;
+		map.put(&quot;completedDate&quot;,completedDate);&#xd;
+		map.put(&quot;businessYears&quot;,businessYears);&#xd;
+		map.put(&quot;businessStartDate&quot;,businessStartDate);&#xd;
+		map.put(&quot;businessEndDate&quot;,businessEndDate);&#xd;
+		map.put(&quot;lastCheckDate&quot;,lastCheckDate);&#xd;
+		map.put(&quot;businessScope&quot;,businessScope);&#xd;
+		map.put(&quot;organizationCode&quot;,organizationCode);&#xd;
+		map.put(&quot;legalPerson&quot;,legalPerson);&#xd;
+		map.put(&quot;legalPersonTel&quot;,legalPersonTel);&#xd;
+		map.put(&quot;linkMan&quot;,linkMan);&#xd;
+		map.put(&quot;linkManTel&quot;,linkManTel);&#xd;
+		map.put(&quot;remark&quot;,remark);&#xd;
+		map.put(&quot;dealDate&quot;,dealDate);&#xd;
+		map.put(&quot;dispatchedDate&quot;,dispatchedDate);&#xd;
+		map.put(&quot;projectLeader&quot;,projectLeader);&#xd;
+		map.put(&quot;eptStatus&quot;,eptStatus);&#xd;
+		map.put(&quot;eptStatusDate&quot;,eptStatusDate);&#xd;
+		map.put(&quot;eptStatusRemark&quot;,eptStatusRemark);&#xd;
+		map.put(&quot;operatorCode&quot;,operatorCode);&#xd;
+		map.put(&quot;latestProgress&quot;,latestProgress);&#xd;
+		map.put(&quot;valid&quot;,valid);&#xd;
+		map.put(&quot;category&quot;,category);&#xd;
+		map.put(&quot;regiontype&quot;,regiontype);&#xd;
+		dbo.insert(map, &quot;EPTREGISTEREDINFO&quot;);&#xd;
+	}&#xd;
+}</script>
+  <starttime>2013-09-01 00:00:00</starttime>
+  <endtime>2041-11-01 00:00:00</endtime>
+</model.ScheduleModel>

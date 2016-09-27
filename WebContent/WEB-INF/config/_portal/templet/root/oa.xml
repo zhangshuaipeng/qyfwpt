@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.portal.TempletModel>
+  <code>oa</code>
+  <name>oa模版</name>
+  <orgcode>root</orgcode>
+  <type>portal</type>
+  <layout>layout2r3c</layout>
+  <frame>frame2</frame>
+  <frames>frame2,frame1</frames>
+  <roles>LOGIN,ANONYMOUS</roles>
+  <system>oaportal</system>
+  <title>oa</title>
+  <header>&lt;style&gt;&#xd;
+*{&#xd;
+ margin:0; &#xd;
+ padding:0;&#xd;
+ }&#xd;
+body{margin:0;padding:0;border:0 none;height: 100%;font-size:12px;font-family:Arial, Helvetica, sans-serif; }&#xd;
+ul,li,dl,dt,dd,form,span,label,p{margin:0px; padding:0px;}&#xd;
+ul,li{ list-style:none;}&#xd;
+img{border:0; margin:0; padding:0;}&#xd;
+div{font-size:14px;}&#xd;
+a{text-decoration:none;color:#000; margin:0; padding:0;}&#xd;
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal; margin:0;padding:0;}&#xd;
+.clear{clear:both;height:0;overflow:hidden;}&#xd;
+&#xd;
+.liebiao{border-color:#ccc;border-collapse:collapse;}&#xd;
+.liebiao li{ display:block; height:26px; line-height:26px; border-bottom:1px dashed #cecece;overflow:hidden;}&#xd;
+.liebiao li img{ vertical-align:middle; float:left; margin:9px 0 0 10px}&#xd;
+.liebiao li a{ float:left; display:block; padding-left:8px;color:#3175c2;width:65%;height:26px;overflow:hidden;}&#xd;
+.liebiao li span{ color:#acacac; float:right; padding-right:5px;width:140px; text-align: right;}&#xd;
+.ys{ background:#fafafa;line-height:26px;}&#xd;
+.ys td,.mys td{padding:0 5px 0 5px;border-color:#ccc;}&#xd;
+.mys{line-height:26px;}&#xd;
+&#xd;
+&#xd;
+&#xd;
+.xtitle{float:left; color:#104663; font-weight:bold; line-height:29px; padding-left:6px;}&#xd;
+&#xd;
+.portlettab{ height:26px; line-height:25px;border-bottom:1px solid #e7e7e7; padding-left:15px;}&#xd;
+.portlettab a{ display:block; float:left; padding:0 10px; border:1px solid #e7e7e7; margin-left:5px; background:#f8f8f8; font-weight:bold; color:#888888;}&#xd;
+.portlettab a:hover{background:#fff; color:#676767; border-bottom:1px solid #fff;}&#xd;
+.portlettab .selected{background:#fff; color:#676767; border-bottom:1px solid #fff;}&#xd;
+&#xd;
+&#xd;
+.listtable {&#xd;
+	background:#cccccc;&#xd;
+}&#xd;
+&#xd;
+.listtable tr {&#xd;
+	line-height:20px;&#xd;
+}&#xd;
+&#xd;
+.listtable th {&#xd;
+	background-color: #3c92df;&#xd;
+	color:#ffffff;&#xd;
+	font-size:12px;&#xd;
+	line-height:28px;&#xd;
+}&#xd;
+&#xd;
+.listtable td {&#xd;
+	background-color: #FFFFFF;&#xd;
+	font-size:12px;&#xd;
+	text-align:center;&#xd;
+}&#xd;
+&#xd;
+.listtable .odd {&#xd;
+}&#xd;
+&#xd;
+.listtable .even td{&#xd;
+	background:#f9f9f9;&#xd;
+}&#xd;
+&#xd;
+.listtable a {&#xd;
+	cursor:pointer;&#xd;
+	color:blue;&#xd;
+	text-decoration:underline;&#xd;
+}&#xd;
+&#xd;
+&lt;/style&gt;&#xd;
+&#xd;
+&lt;script&gt;&#xd;
+// 滚动处理&#xd;
+function Scroller() {&#xd;
+	var self = this;&#xd;
+	&#xd;
+	this.objContent = null;&#xd;
+	this.objTime = null;&#xd;
+	this.btnLeft = null;&#xd;
+	this.btnRight = null;&#xd;
+&#xd;
+	this.Init = function (id) {&#xd;
+		self.objContent = document.getElementById(id);&#xd;
+		self.btnLeft = document.getElementById(id + &quot;_Left&quot;);&#xd;
+		self.btnRight = document.getElementById(id + &quot;_Right&quot;);&#xd;
+		if (self.objContent.clientWidth&gt;self.objContent.parentNode.clientWidth)	{&#xd;
+			if (self.btnLeft) {&#xd;
+				self.btnLeft.style.display = &quot;block&quot;;&#xd;
+				self.btnLeft.onmousedown = self.scrollLeftStart;&#xd;
+				self.btnLeft.onmouseup = self.scrollStop;&#xd;
+				self.btnLeft.onmouseout = self.scrollStop;&#xd;
+			}&#xd;
+&#xd;
+			if (self.btnRight) {&#xd;
+				self.btnRight.style.display = &quot;block&quot;;&#xd;
+				self.btnRight.onmousedown = self.scrollRightStart;&#xd;
+				self.btnRight.onmouseup = self.scrollStop;&#xd;
+				self.btnRight.onmouseout = self.scrollStop;&#xd;
+			}&#xd;
+		}&#xd;
+	}&#xd;
+	&#xd;
+	this.scrollLeft = function () {&#xd;
+		self.objContent.parentNode.scrollLeft += 10; &#xd;
+	}&#xd;
+	this.scrollRight = function () {&#xd;
+		self.objContent.parentNode.scrollLeft -= 10; &#xd;
+	}&#xd;
+&#xd;
+	this.scrollLeftStart = function () {&#xd;
+		if (self.objTime)&#xd;
+			window.clearInterval(self.objTime);		&#xd;
+		self.objTime = window.setInterval(function () {self.objContent.parentNode.scrollLeft -= 25;},100);&#xd;
+	}&#xd;
+&#xd;
+	this.scrollStop = function () {&#xd;
+		if (self.objTime)&#xd;
+			window.clearInterval(self.objTime);	&#xd;
+		if (!self.objTime) return;&#xd;
+		if (self.objContent.parentNode.scrollLeft + self.objContent.parentNode.clientWidth &gt;= self.objContent.offsetWidth) {&#xd;
+		//	if (self.btnLeft)&#xd;
+		//		self.btnLeft.style.display = &quot;block&quot;;&#xd;
+		//	if (self.btnRight)&#xd;
+		//		self.btnRight.style.display = &quot;none&quot;;&#xd;
+			return;&#xd;
+		}&#xd;
+		if (self.objContent.parentNode.scrollLeft==0) {&#xd;
+		//	if (self.btnLeft)&#xd;
+		//		self.btnLeft.style.display = &quot;none&quot;;&#xd;
+		//	if (self.btnRight)&#xd;
+		//		self.btnRight.style.display = &quot;block&quot;;&#xd;
+			return;&#xd;
+		}&#xd;
+		//self.btnLeft.style.display = &quot;block&quot;;&#xd;
+		//self.btnRight.style.display = &quot;block&quot;;&#xd;
+		self.objTime = null;&#xd;
+	}&#xd;
+&#xd;
+	this.scrollRightStart = function () {&#xd;
+		if (self.objTime)&#xd;
+			window.clearInterval(self.objTime);		&#xd;
+		self.objTime = window.setInterval(function () {self.objContent.parentNode.scrollLeft += 25; },100);&#xd;
+	}&#xd;
+}&#xd;
+// 将顶部页面的某个链接在TAB页签中运行&#xd;
+function runHrefInTab(obj,id,title) {&#xd;
+	var href = obj.getAttribute(&quot;href&quot;);&#xd;
+	if (!title)&#xd;
+		title = obj.getAttribute(&quot;title&quot;);&#xd;
+	if (!top.window.tab) return true;&#xd;
+&#xd;
+	if (!title)&#xd;
+		title = &quot;详细内容&quot;;&#xd;
+	if (!id)&#xd;
+		id = &quot;LINK&quot;;&#xd;
+        var lo = location.href.substring(0,location.href.lastIndexOf(&quot;/&quot;));&#xd;
+        if (href.indexOf(lo)==0)&#xd;
+            href = href.substring(lo.length + 1);&#xd;
+        obj.parentNode.style.fontWeight = &quot;&quot;;&#xd;
+	top.window.tab.addTab(id,title,href,&quot;images/icon/system.png&quot;,true);&#xd;
+&#xd;
+	return false;&#xd;
+}&#xd;
+&#xd;
+&lt;/script&gt;&#xd;
+&#xd;
+&lt;script src=&quot;../js/common.js&quot;&gt;&lt;/script&gt;</header>
+  <editable>Y</editable>
+  <contents>
+    <model.portal.ContentModel>
+      <cntcode>A1</cntcode>
+      <cntname>待办工作</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-todonum</code>
+          <system>oaportal</system>
+          <portlet>todonum</portlet>
+          <frame>frame1</frame>
+          <icon>filesubmit.gif</icon>
+          <ctrl>1,2,3,4</ctrl>
+          <title>未办工作个数</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A2</cntcode>
+      <cntname>图标</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-fistchart</code>
+          <system>oaportal</system>
+          <portlet>fistchart</portlet>
+          <frame>frame1</frame>
+          <icon>filesubmit.gif</icon>
+          <ctrl>2</ctrl>
+          <title>快捷图表</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A3</cntcode>
+      <cntname>值班</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-findduty</code>
+          <system>oaportal</system>
+          <portlet>findduty</portlet>
+          <frame>frame1</frame>
+          <icon>filesubmit.gif</icon>
+          <ctrl>1,2,3</ctrl>
+          <title>值班安排</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A4</cntcode>
+      <cntname>中间</cntname>
+      <type>html</type>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A41</cntcode>
+      <cntname>中间左侧</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-tobeprvproject-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-tobeprvproject-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>待批复招商项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-landmanage-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-landmanage-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>企业土地购置管理</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-normalgather-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-normalgather-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>正常项目进度汇总</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-resume-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-resume-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>简历管理查询</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-distributeplan-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-distributeplan-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>已审批的入库单</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-dotrackproject-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-dotrackproject-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>办理跟进跟踪</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A42</cntcode>
+      <cntname>中间右侧</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-turnedproject-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-turnedproject-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>横转招商项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-progress-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-progress-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>办理进度汇总</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-completedprojects-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-completedprojects-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>核实不通过项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-contractlist-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-contractlist-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>合同到期列表</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-stockdetall-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-stockdetall-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>库房盘存列表</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A5</cntcode>
+      <cntname>底部</cntname>
+      <type>html</type>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A51</cntcode>
+      <cntname>底部左侧</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-completedproject-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-completedproject-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>完成招商项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-turnedprj-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-turnedprj-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>已入区企业信息</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-busturnedprj-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-busturnedprj-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>已横转项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-dispatchedtask-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-dispatchedtask-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>分派任务列表</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-clothingparameter-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-clothingparameter-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>服装台账</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+    <model.portal.ContentModel>
+      <cntcode>A52</cntcode>
+      <cntname>底部右侧</cntname>
+      <type>portlet</type>
+      <portlets>
+        <model.portal.PortletModel>
+          <code>oaportal-backproject-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-backproject-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>退回招商项目</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-unusualgather-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-unusualgather-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>异常项目进度汇总</title>
+        </model.portal.PortletModel>
+        <model.portal.PortletModel>
+          <code>oaportal-tobeverifiedprj-list</code>
+          <system>oaportal</system>
+          <portlet>oaportal-tobeverifiedprj-list</portlet>
+          <frame>frame2</frame>
+          <ctrl>1,2,3,4</ctrl>
+          <title>待核实项目列表</title>
+        </model.portal.PortletModel>
+      </portlets>
+    </model.portal.ContentModel>
+  </contents>
+</model.portal.TempletModel>

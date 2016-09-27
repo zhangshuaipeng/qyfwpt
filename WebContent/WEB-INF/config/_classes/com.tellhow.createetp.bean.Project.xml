@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.bean.Project</classname>
+  <code>Project</code>
+  <name>Project</name>
+  <packages>com.tellhow.createetp.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}qEAHl5vFtcUlpiuvluq8Rw==</crc>
+  <modifytime>2013-05-27 18:30:38</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getProjectid()</serialno>
+      <method>getProjectid</method>
+      <name>long getProjectid()</name>
+      <genericname>public long com.tellhow.createetp.bean.Project.getProjectid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setProjectid(long projectid)</serialno>
+      <method>setProjectid</method>
+      <name>void setProjectid(long projectid)</name>
+      <genericname>public void com.tellhow.createetp.bean.Project.setProjectid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalperson()</serialno>
+      <method>getLegalperson</method>
+      <name>String getLegalperson()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Project.getLegalperson()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalperson(String legalperson)</serialno>
+      <method>setLegalperson</method>
+      <name>void setLegalperson(String legalperson)</name>
+      <genericname>public void com.tellhow.createetp.bean.Project.setLegalperson(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalperson</code>
+          <name>legalperson</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLegalpersontel()</serialno>
+      <method>getLegalpersontel</method>
+      <name>String getLegalpersontel()</name>
+      <genericname>public java.lang.String com.tellhow.createetp.bean.Project.getLegalpersontel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLegalpersontel(String legalpersontel)</serialno>
+      <method>setLegalpersontel</method>
+      <name>void setLegalpersontel(String legalpersontel)</name>
+      <genericname>public void com.tellhow.createetp.bean.Project.setLegalpersontel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>legalpersontel</code>
+          <name>legalpersontel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

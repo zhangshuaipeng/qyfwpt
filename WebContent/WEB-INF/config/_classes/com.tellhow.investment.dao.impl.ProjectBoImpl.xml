@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.impl.ProjectBoImpl</classname>
+  <code>ProjectBoImpl</code>
+  <name>ProjectBoImpl</name>
+  <packages>com.tellhow.investment.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}H9w4zWRcu/orxBhnIiMiTA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void addProjectprogress(long projectid)</serialno>
+      <method>addProjectprogress</method>
+      <name>void addProjectprogress(long projectid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.addProjectprogress(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePrjLatestProgress(long projectid)</serialno>
+      <method>updatePrjLatestProgress</method>
+      <name>void updatePrjLatestProgress(long projectid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.updatePrjLatestProgress(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Boolean turnProject(long projectid)</serialno>
+      <method>turnProject</method>
+      <name>Boolean turnProject(long projectid)</name>
+      <genericname>public java.lang.Boolean com.tellhow.investment.dao.impl.ProjectBoImpl.turnProject(long) throws java.lang.Exception</genericname>
+      <retclass>Boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveProject(LoginModel login,Project p)</serialno>
+      <method>saveProject</method>
+      <name>void saveProject(LoginModel login,Project p)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.saveProject(com.siqiansoft.framework.model.LoginModel,com.tellhow.investment.bean.Project) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Project</type>
+          <code>p</code>
+          <name>p</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveAlreadyTurn(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveAlreadyTurn</method>
+      <name>List retrieveAlreadyTurn(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.AlreadyTurnVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveAlreadyTurn(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectFailed(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectFailed</method>
+      <name>List retrieveProjectFailed(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectFailedVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectFailed(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectStart(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectStart</method>
+      <name>List retrieveProjectStart(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectStartVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectStart(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectDpf(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectDpf</method>
+      <name>List retrieveProjectDpf(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectDpfVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectDpf(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectHz(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectHz</method>
+      <name>List retrieveProjectHz(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectHzVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectHz(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectCpl(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectCpl</method>
+      <name>List retrieveProjectCpl(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectCplVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectCpl(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProjectBc(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProjectBc</method>
+      <name>List retrieveProjectBc(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProjectBcVo&gt; com.tellhow.investment.dao.impl.ProjectBoImpl.retrieveProjectBc(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void handoverProject(long projectid)</serialno>
+      <method>handoverProject</method>
+      <name>void handoverProject(long projectid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.handoverProject(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BzsPrjTrackInfoVo fetchPrjTrackInfo(long projectid)</serialno>
+      <method>fetchPrjTrackInfo</method>
+      <name>BzsPrjTrackInfoVo fetchPrjTrackInfo(long projectid)</name>
+      <genericname>public com.tellhow.investment.vo.BzsPrjTrackInfoVo com.tellhow.investment.dao.impl.ProjectBoImpl.fetchPrjTrackInfo(long) throws java.lang.Exception</genericname>
+      <retclass>BzsPrjTrackInfoVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProjectBcEditVo fetchProjectBcEdit(long projectid)</serialno>
+      <method>fetchProjectBcEdit</method>
+      <name>ProjectBcEditVo fetchProjectBcEdit(long projectid)</name>
+      <genericname>public com.tellhow.investment.vo.ProjectBcEditVo com.tellhow.investment.dao.impl.ProjectBoImpl.fetchProjectBcEdit(long) throws java.lang.Exception</genericname>
+      <retclass>ProjectBcEditVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateProjectBcEdit(ProjectBcEditVo bv)</serialno>
+      <method>updateProjectBcEdit</method>
+      <name>void updateProjectBcEdit(ProjectBcEditVo bv)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.updateProjectBcEdit(com.tellhow.investment.vo.ProjectBcEditVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProjectBcEditVo</type>
+          <code>bv</code>
+          <name>bv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void completeProject(long projectid)</serialno>
+      <method>completeProject</method>
+      <name>void completeProject(long projectid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProjectBoImpl.completeProject(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

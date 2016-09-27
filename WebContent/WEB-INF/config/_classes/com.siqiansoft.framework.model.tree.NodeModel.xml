@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.tree.NodeModel</classname>
+  <code>NodeModel</code>
+  <name>NodeModel</name>
+  <packages>com.siqiansoft.framework.model.tree</packages>
+  <type>pojo</type>
+  <crc>{MD5}wHmoqlUF35LLgtUBbu21Ag==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getKey()</serialno>
+      <method>getKey</method>
+      <name>String getKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getId()</serialno>
+      <method>getId</method>
+      <name>String getId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getIcon()</serialno>
+      <method>getIcon</method>
+      <name>String getIcon()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getIcon()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTarget(String target)</serialno>
+      <method>setTarget</method>
+      <name>void setTarget(String target)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setTarget(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>target</code>
+          <name>target</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTarget()</serialno>
+      <method>getTarget</method>
+      <name>String getTarget()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getTarget()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAction()</serialno>
+      <method>getAction</method>
+      <name>String getAction()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getAction()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setKey(String key)</serialno>
+      <method>setKey</method>
+      <name>void setKey(String key)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAsync()</serialno>
+      <method>getAsync</method>
+      <name>String getAsync()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getAsync()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAsync(String async)</serialno>
+      <method>setAsync</method>
+      <name>void setAsync(String async)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setAsync(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>async</code>
+          <name>async</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(String id)</serialno>
+      <method>setId</method>
+      <name>void setId(String id)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSrc(String src)</serialno>
+      <method>setSrc</method>
+      <name>void setSrc(String src)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setSrc(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>src</code>
+          <name>src</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSrc()</serialno>
+      <method>getSrc</method>
+      <name>String getSrc()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getSrc()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAction(String action)</serialno>
+      <method>setAction</method>
+      <name>void setAction(String action)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setAction(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setIcon(String icon)</serialno>
+      <method>setIcon</method>
+      <name>void setIcon(String icon)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setIcon(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>icon</code>
+          <name>icon</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitle()</serialno>
+      <method>getTitle</method>
+      <name>String getTitle()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getTitle()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitle(String title)</serialno>
+      <method>setTitle</method>
+      <name>void setTitle(String title)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setTitle(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBox(String box)</serialno>
+      <method>setBox</method>
+      <name>void setBox(String box)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setBox(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>box</code>
+          <name>box</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBox()</serialno>
+      <method>getBox</method>
+      <name>String getBox()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getBox()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodes(NodeModel[] nodes)</serialno>
+      <method>setNodes</method>
+      <name>void setNodes(NodeModel[] nodes)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setNodes(com.siqiansoft.framework.model.tree.NodeModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>NodeModel[]</type>
+          <code>nodes</code>
+          <name>nodes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel[] getNodes()</serialno>
+      <method>getNodes</method>
+      <name>NodeModel[] getNodes()</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel[] com.siqiansoft.framework.model.tree.NodeModel.getNodes()</genericname>
+      <retclass>NodeModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOpenIcon(String openIcon)</serialno>
+      <method>setOpenIcon</method>
+      <name>void setOpenIcon(String openIcon)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setOpenIcon(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>openIcon</code>
+          <name>openIcon</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBoxTag(String boxtag)</serialno>
+      <method>setBoxTag</method>
+      <name>void setBoxTag(String boxtag)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setBoxTag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>boxtag</code>
+          <name>boxtag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBoxTag()</serialno>
+      <method>getBoxTag</method>
+      <name>String getBoxTag()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getBoxTag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDefaultv(String defaultv)</serialno>
+      <method>setDefaultv</method>
+      <name>void setDefaultv(String defaultv)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.setDefaultv(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>defaultv</code>
+          <name>defaultv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDefaultv()</serialno>
+      <method>getDefaultv</method>
+      <name>String getDefaultv()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getDefaultv()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOpenIcon()</serialno>
+      <method>getOpenIcon</method>
+      <name>String getOpenIcon()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.tree.NodeModel.getOpenIcon()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addSubNode(NodeModel node)</serialno>
+      <method>addSubNode</method>
+      <name>void addSubNode(NodeModel node)</name>
+      <genericname>public void com.siqiansoft.framework.model.tree.NodeModel.addSubNode(com.siqiansoft.framework.model.tree.NodeModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>NodeModel</type>
+          <code>node</code>
+          <name>node</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>id</code>
+      <name>id</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>title</code>
+      <name>title</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>box</code>
+      <name>box</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>key</code>
+      <name>key</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>value</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>boxtag</code>
+      <name>boxtag</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>defaultv</code>
+      <name>defaultv</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>action</code>
+      <name>action</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>src</code>
+      <name>src</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>async</code>
+      <name>async</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>target</code>
+      <name>target</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>icon</code>
+      <name>icon</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>openicon</code>
+      <name>openIcon</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

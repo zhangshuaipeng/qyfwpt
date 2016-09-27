@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.HtmlUtil</classname>
+  <code>HtmlUtil</code>
+  <name>HtmlUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}YDdTfFWuq3PX1NZOoKF2NA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getWebContentWithTimeout(String theURL,int connTimeout,int requTimeout)</serialno>
+      <method>getWebContentWithTimeout</method>
+      <name>String getWebContentWithTimeout(String theURL,int connTimeout,int requTimeout)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.getWebContentWithTimeout(java.lang.String,int,int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>theURL</code>
+          <name>theURL</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>connTimeout</code>
+          <name>connTimeout</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>requTimeout</code>
+          <name>requTimeout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDesc(String desc)</serialno>
+      <method>formatDesc</method>
+      <name>String formatDesc(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatDesc(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDescEx(String desc)</serialno>
+      <method>formatDescEx</method>
+      <name>String formatDescEx(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatDescEx(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDescNoEncodeScript(String desc)</serialno>
+      <method>formatDescNoEncodeScript</method>
+      <name>String formatDescNoEncodeScript(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatDescNoEncodeScript(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatbanjiaDescNoEncodeScript(String desc)</serialno>
+      <method>formatbanjiaDescNoEncodeScript</method>
+      <name>String formatbanjiaDescNoEncodeScript(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatbanjiaDescNoEncodeScript(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDescNoEncode(String desc)</serialno>
+      <method>formatDescNoEncode</method>
+      <name>String formatDescNoEncode(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatDescNoEncode(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String replaceParameterValue(String querystring,String parameter,String value)</serialno>
+      <method>replaceParameterValue</method>
+      <name>String replaceParameterValue(String querystring,String parameter,String value)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.replaceParameterValue(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>querystring</code>
+          <name>querystring</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parameter</code>
+          <name>parameter</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String replaceParameterValue(String querystring,List parameters,List values)</serialno>
+      <method>replaceParameterValue</method>
+      <name>String replaceParameterValue(String querystring,List parameters,List values)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.replaceParameterValue(java.lang.String,java.util.List&lt;java.lang.String&gt;,java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>querystring</code>
+          <name>querystring</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>parameters</code>
+          <name>parameters</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>values</code>
+          <name>values</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String replaceParameterValueEx(String querystring,List parameters,List values)</serialno>
+      <method>replaceParameterValueEx</method>
+      <name>String replaceParameterValueEx(String querystring,List parameters,List values)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.replaceParameterValueEx(java.lang.String,java.util.List&lt;java.lang.String&gt;,java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>querystring</code>
+          <name>querystring</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>parameters</code>
+          <name>parameters</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>values</code>
+          <name>values</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatHomepage(String url)</serialno>
+      <method>formatHomepage</method>
+      <name>String formatHomepage(String url)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatHomepage(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String html2Script(String html)</serialno>
+      <method>html2Script</method>
+      <name>String html2Script(String html)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.html2Script(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>html</code>
+          <name>html</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDescOld(String desc)</serialno>
+      <method>formatDescOld</method>
+      <name>String formatDescOld(String desc)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.formatDescOld(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>desc</code>
+          <name>desc</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dhtmlSpecialchars(String s,boolean isurl)</serialno>
+      <method>dhtmlSpecialchars</method>
+      <name>String dhtmlSpecialchars(String s,boolean isurl)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.dhtmlSpecialchars(java.lang.String,boolean)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>isurl</code>
+          <name>isurl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dhtmlSpecialchars(String s)</serialno>
+      <method>dhtmlSpecialchars</method>
+      <name>String dhtmlSpecialchars(String s)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.dhtmlSpecialchars(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dhtmlSpecialchars1(String str)</serialno>
+      <method>dhtmlSpecialchars1</method>
+      <name>String dhtmlSpecialchars1(String str)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.HtmlUtil.dhtmlSpecialchars1(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.jqgrid.bean.GroupingView</classname>
+  <code>GroupingView</code>
+  <name>GroupingView</name>
+  <packages>com.tellhow.jqgrid.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}fp+R6Ml3ejPABN3hIryGJw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List getGroupColumnShow()</serialno>
+      <method>getGroupColumnShow</method>
+      <name>List getGroupColumnShow()</name>
+      <genericname>public java.util.List&lt;java.lang.Boolean&gt; com.tellhow.jqgrid.bean.GroupingView.getGroupColumnShow()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupColumnShow(List groupColumnShow)</serialno>
+      <method>setGroupColumnShow</method>
+      <name>void setGroupColumnShow(List groupColumnShow)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupColumnShow(java.util.List&lt;java.lang.Boolean&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupColumnShow</code>
+          <name>groupColumnShow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getGroupText()</serialno>
+      <method>getGroupText</method>
+      <name>List getGroupText()</name>
+      <genericname>public java.util.List&lt;java.lang.String&gt; com.tellhow.jqgrid.bean.GroupingView.getGroupText()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupText(List groupText)</serialno>
+      <method>setGroupText</method>
+      <name>void setGroupText(List groupText)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupText(java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupText</code>
+          <name>groupText</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Boolean getGroupCollapse()</serialno>
+      <method>getGroupCollapse</method>
+      <name>Boolean getGroupCollapse()</name>
+      <genericname>public java.lang.Boolean com.tellhow.jqgrid.bean.GroupingView.getGroupCollapse()</genericname>
+      <retclass>Boolean</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupCollapse(Boolean groupCollapse)</serialno>
+      <method>setGroupCollapse</method>
+      <name>void setGroupCollapse(Boolean groupCollapse)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupCollapse(java.lang.Boolean)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Boolean</type>
+          <code>groupCollapse</code>
+          <name>groupCollapse</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getGroupOrder()</serialno>
+      <method>getGroupOrder</method>
+      <name>List getGroupOrder()</name>
+      <genericname>public java.util.List&lt;java.lang.String&gt; com.tellhow.jqgrid.bean.GroupingView.getGroupOrder()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupOrder(List groupOrder)</serialno>
+      <method>setGroupOrder</method>
+      <name>void setGroupOrder(List groupOrder)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupOrder(java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupOrder</code>
+          <name>groupOrder</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getGroupSummary()</serialno>
+      <method>getGroupSummary</method>
+      <name>List getGroupSummary()</name>
+      <genericname>public java.util.List&lt;java.lang.Boolean&gt; com.tellhow.jqgrid.bean.GroupingView.getGroupSummary()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupSummary(List groupSummary)</serialno>
+      <method>setGroupSummary</method>
+      <name>void setGroupSummary(List groupSummary)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupSummary(java.util.List&lt;java.lang.Boolean&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupSummary</code>
+          <name>groupSummary</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getGroupField()</serialno>
+      <method>getGroupField</method>
+      <name>List getGroupField()</name>
+      <genericname>public java.util.List&lt;java.lang.String&gt; com.tellhow.jqgrid.bean.GroupingView.getGroupField()</genericname>
+      <retclass>List</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setGroupField(List groupField)</serialno>
+      <method>setGroupField</method>
+      <name>void setGroupField(List groupField)</name>
+      <genericname>public void com.tellhow.jqgrid.bean.GroupingView.setGroupField(java.util.List&lt;java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>groupField</code>
+          <name>groupField</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.bo.FlowBo</classname>
+  <code>FlowBo</code>
+  <name>FlowBo</name>
+  <packages>com.siqiansoft.workflow.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}lx3pWR/0jbMeqbUDo6hATA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getIcons()</serialno>
+      <method>getIcons</method>
+      <name>ItemModel[] getIcons()</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.workflow.bo.FlowBo.getIcons() throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel getFlowTree(LoginModel login)</serialno>
+      <method>getFlowTree</method>
+      <name>NodeModel getFlowTree(LoginModel login)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.workflow.bo.FlowBo.getFlowTree(com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addFlow(HashMap map)</serialno>
+      <method>addFlow</method>
+      <name>void addFlow(HashMap map)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.FlowBo.addFlow(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateFlow(HashMap map)</serialno>
+      <method>updateFlow</method>
+      <name>void updateFlow(HashMap map)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.FlowBo.updateFlow(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteFlow(String[] selected)</serialno>
+      <method>deleteFlow</method>
+      <name>void deleteFlow(String[] selected)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.FlowBo.deleteFlow(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void releaseFlow(String flowPK)</serialno>
+      <method>releaseFlow</method>
+      <name>void releaseFlow(String flowPK)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.FlowBo.releaseFlow(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowPK</code>
+          <name>flowPK</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void releaseForm(String system,String module)</serialno>
+      <method>releaseForm</method>
+      <name>void releaseForm(String system,String module)</name>
+      <genericname>public void com.siqiansoft.workflow.bo.FlowBo.releaseForm(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

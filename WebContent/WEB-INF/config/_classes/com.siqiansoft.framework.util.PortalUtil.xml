@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.PortalUtil</classname>
+  <code>PortalUtil</code>
+  <name>PortalUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}jDH7GiIi8jrYS+nWq44Qmg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>PortletModel[] getPortletsInTemplet(TempletModel templet,String cntCode)</serialno>
+      <method>getPortletsInTemplet</method>
+      <name>PortletModel[] getPortletsInTemplet(TempletModel templet,String cntCode)</name>
+      <genericname>public static com.siqiansoft.framework.model.portal.PortletModel[] com.siqiansoft.framework.util.PortalUtil.getPortletsInTemplet(com.siqiansoft.framework.model.portal.TempletModel,java.lang.String)</genericname>
+      <retclass>PortletModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntCode</code>
+          <name>cntCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>PortletModel[] getPrivatePortlets(String orgCode,String userCode,String templet,String cntCode,PortletModel[] portlets)</serialno>
+      <method>getPrivatePortlets</method>
+      <name>PortletModel[] getPrivatePortlets(String orgCode,String userCode,String templet,String cntCode,PortletModel[] portlets)</name>
+      <genericname>public static com.siqiansoft.framework.model.portal.PortletModel[] com.siqiansoft.framework.util.PortalUtil.getPrivatePortlets(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.portal.PortletModel[])</genericname>
+      <retclass>PortletModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>userCode</code>
+          <name>userCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cntCode</code>
+          <name>cntCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PortletModel[]</type>
+          <code>portlets</code>
+          <name>portlets</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String loadPortlet(PortletModel portlet,String state,LoginModel login)</serialno>
+      <method>loadPortlet</method>
+      <name>String loadPortlet(PortletModel portlet,String state,LoginModel login)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.PortalUtil.loadPortlet(com.siqiansoft.framework.model.portal.PortletModel,java.lang.String,com.siqiansoft.framework.model.LoginModel)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PortletModel</type>
+          <code>portlet</code>
+          <name>portlet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>state</code>
+          <name>state</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String replaceHeaderHtml(String html,String htmlContent)</serialno>
+      <method>replaceHeaderHtml</method>
+      <name>String replaceHeaderHtml(String html,String htmlContent)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.PortalUtil.replaceHeaderHtml(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>html</code>
+          <name>html</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>htmlContent</code>
+          <name>htmlContent</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

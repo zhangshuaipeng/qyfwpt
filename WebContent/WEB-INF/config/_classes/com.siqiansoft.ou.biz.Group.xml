@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Group</classname>
+  <code>Group</code>
+  <name>Group</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}AFOppiLIBgIslsxgm/qMUg==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void createGroup(GroupModel group)</serialno>
+      <method>createGroup</method>
+      <name>void createGroup(GroupModel group)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Group.createGroup(com.siqiansoft.ou.model.GroupModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GroupModel</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateGroup(GroupModel group)</serialno>
+      <method>updateGroup</method>
+      <name>void updateGroup(GroupModel group)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Group.updateGroup(com.siqiansoft.ou.model.GroupModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>GroupModel</type>
+          <code>group</code>
+          <name>group</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteGroup(String pk)</serialno>
+      <method>deleteGroup</method>
+      <name>void deleteGroup(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Group.deleteGroup(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteGroups(String[] pk)</serialno>
+      <method>deleteGroups</method>
+      <name>void deleteGroups(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Group.deleteGroups(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GroupModel getGroupByPK(String pk)</serialno>
+      <method>getGroupByPK</method>
+      <name>GroupModel getGroupByPK(String pk)</name>
+      <genericname>public static com.siqiansoft.ou.model.GroupModel com.siqiansoft.ou.biz.Group.getGroupByPK(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>GroupModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GroupModel[] getGroupList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getGroupList</method>
+      <name>GroupModel[] getGroupList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.GroupModel[] com.siqiansoft.ou.biz.Group.getGroupList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>GroupModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

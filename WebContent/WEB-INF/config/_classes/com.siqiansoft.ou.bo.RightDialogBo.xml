@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.RightDialogBo</classname>
+  <code>RightDialogBo</code>
+  <name>RightDialogBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}/jGNrSsQ2z9Q6jhQtgkSrg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>NodeModel[] getNextDeptUsers(String orgCode,String parentDept)</serialno>
+      <method>getNextDeptUsers</method>
+      <name>NodeModel[] getNextDeptUsers(String orgCode,String parentDept)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel[] com.siqiansoft.ou.bo.RightDialogBo.getNextDeptUsers(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>parentDept</code>
+          <name>parentDept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

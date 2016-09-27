@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_DRAFT</code>
+    <name>草稿</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_DRAFT</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

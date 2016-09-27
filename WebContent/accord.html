@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>Navigator menu</TITLE>
+<style>
+
+.menus {
+	margin-top:5px;
+	-moz-user-select:none;
+}
+
+.menu {
+	font-size:12px;
+	height:26px;
+	line-height:26px;
+	margin-left:4px;
+	padding-top:6px;
+	-moz-user-select:none;
+}
+
+.menu .text {
+	line-height:20px;
+	margin-left:4px;
+}
+
+.menu a img,span {
+	border:0px;
+}
+
+.menu a,a:link,a.visited,a:hover,a:active {
+	text-decoration: none;
+	color:black;
+}
+
+.menu img {
+	vertical-align:middle;
+}
+
+.menus .selected {
+	background-color:#D9E8FB;
+}
+
+.menus .over {
+	background-color:#eeeeee;
+}
+
+</style>
+ </HEAD>
+
+<link rel="stylesheet" type="text/css" href="css/skins/dhtmlxaccordion_dhx_skyblue.css">
+
+<script src="js/common.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/dhtmlxcommon.js"></script>
+<script src="js/dhtmlxaccordion.js"></script>
+<script src="js/dhtmlxcontainer.js"></script>
+
+<script>
+
+var dhxAccord;
+var selected;
+
+function doOnLoad() {
+	DHTMLSuite.ajax.sendRequest('tree.xml','','createAccord');
+}
+
+function createAccord(ajaxObj) {
+	var root = ajaxObj.responseXML.documentElement; 
+    dhxAccord = new dhtmlXAccordion(document.body);
+    //dhxAccord.setSkin("dhx_black");
+
+	var item;
+	var nodes = root.childNodes;
+	var Id;
+	var defaultId = "";
+	for (var i=0;i<nodes.length;i++) {
+		if (nodes[i].nodeType!=1) continue;
+	   // 表示真实的子节点
+		item = nodes[i];
+		Id = "menu" + i;
+		if (defaultId=="")
+			defaultId = Id;
+		if (item.childNodes.length>0) {
+			dhxAccord.addItem(Id, item.getAttribute("text"));
+			dhxAccord.setIcon(Id, item.getAttribute("icon"));
+			
+			dhxAccord.cells(Id).attachObject(createOutlookFolder(item));
+
+			//dhxAccord.cells(Id).attachHTMLString("http://www.baidu.com");
+
+			//dhxAccord.cells("menu" + nId).attachURL("http://www.baidu.com");
+			continue;
+		}
+		// 应该是子系统链接
+		dhxAccord.addItem(Id, item.getAttribute("text"));
+		dhxAccord.setIcon(Id, item.getAttribute("icon"));
+		dhxAccord.cells(Id).attachURL("http://www.baidu.com");
+	}
+    dhxAccord.openItem(defaultId);
+
+}
+
+function createOutlookFolder(xmlNode) {
+	var item;
+	var nodes = xmlNode.childNodes;
+	var root = document.createElement("div");
+	root.className = "menus";
+	root.setAttribute("unselectable","on");
+
+	var div;
+	var a;
+	var icon;
+	var title;
+
+	for (var i=0;i<nodes.length;i++) {
+		if (nodes[i].nodeType!=1) continue;
+		// 表示真实的子节点
+		item = nodes[i];
+		div = document.createElement("div");
+		div.className = "menu";
+		div.setAttribute("unselectable","on");
+		root.appendChild(div);
+
+		div.onmouseover = function () {
+			addClass(this,"over");
+		}
+
+		div.onmouseout = function () {
+			removeClass(this,"over");
+		}
+
+		div.onclick = function () {
+			if (selected)	{
+				removeClass(selected,"selected");
+			}
+			
+			selected = this;
+			addClass(selected,"selected");
+		}
+		
+		a = document.createElement("a");
+		a.href = item.getAttribute("action");
+		a.target = item.getAttribute("target");
+		div.appendChild(a);
+		
+		icon = document.createElement("img");
+		icon.src = item.getAttribute("icon");
+		a.appendChild(icon);
+
+		title = document.createElement("span");
+		title.innerHTML = item.getAttribute("text");
+		title.className = "text";
+		a.appendChild(title);		
+	}	
+
+	return root;
+}
+</script>
+ <BODY onload="doOnLoad();" style="margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;overflow:hidden;">
+ </BODY>
+</HTML>

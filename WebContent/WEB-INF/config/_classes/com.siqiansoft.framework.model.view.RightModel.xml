@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.view.RightModel</classname>
+  <code>RightModel</code>
+  <name>RightModel</name>
+  <packages>com.siqiansoft.framework.model.view</packages>
+  <type>pojo</type>
+  <crc>{MD5}hEraxgy4PB+bMUL8rZNKrg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.view.RightModel.clone()</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getFields()</serialno>
+      <method>getFields</method>
+      <name>HashMap getFields()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.model.view.RightModel.getFields()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getActions()</serialno>
+      <method>getActions</method>
+      <name>HashMap getActions()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.model.view.RightModel.getActions()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFields(HashMap fields)</serialno>
+      <method>setFields</method>
+      <name>void setFields(HashMap fields)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.RightModel.setFields(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>fields</code>
+          <name>fields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPage()</serialno>
+      <method>getPage</method>
+      <name>String getPage()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.view.RightModel.getPage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPage(String page)</serialno>
+      <method>setPage</method>
+      <name>void setPage(String page)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.RightModel.setPage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setActions(HashMap actions)</serialno>
+      <method>setActions</method>
+      <name>void setActions(HashMap actions)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.RightModel.setActions(java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>actions</code>
+          <name>actions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFieldset(HashMap fieldset)</serialno>
+      <method>setFieldset</method>
+      <name>void setFieldset(HashMap fieldset)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.RightModel.setFieldset(java.util.HashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>fieldset</code>
+          <name>fieldset</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getFieldset()</serialno>
+      <method>getFieldset</method>
+      <name>HashMap getFieldset()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.model.view.RightModel.getFieldset()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSubTable(HashMap subtable)</serialno>
+      <method>setSubTable</method>
+      <name>void setSubTable(HashMap subtable)</name>
+      <genericname>public void com.siqiansoft.framework.model.view.RightModel.setSubTable(java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.GridRightModel&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>subtable</code>
+          <name>subtable</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getSubTable()</serialno>
+      <method>getSubTable</method>
+      <name>HashMap getSubTable()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.GridRightModel&gt; com.siqiansoft.framework.model.view.RightModel.getSubTable()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>page</code>
+      <name>page</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

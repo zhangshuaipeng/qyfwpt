@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl</classname>
+  <code>HrdocumentImpl</code>
+  <name>HrdocumentImpl</name>
+  <packages>com.tellhow.personnel.bo.hrdocument.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}sK7DUgNbAx5g/aGohRFs5g==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Hrdocument findHrByid(String id)</serialno>
+      <method>findHrByid</method>
+      <name>Hrdocument findHrByid(String id)</name>
+      <genericname>public com.tellhow.personnel.bean.hrdocument.Hrdocument com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl.findHrByid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Hrdocument</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addHrdocument(Hrdocument hrdocument)</serialno>
+      <method>addHrdocument</method>
+      <name>void addHrdocument(Hrdocument hrdocument)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl.addHrdocument(com.tellhow.personnel.bean.hrdocument.Hrdocument) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrdocument</type>
+          <code>hrdocument</code>
+          <name>hrdocument</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateHrdocument(Hrdocument hrdocument)</serialno>
+      <method>updateHrdocument</method>
+      <name>void updateHrdocument(Hrdocument hrdocument)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl.updateHrdocument(com.tellhow.personnel.bean.hrdocument.Hrdocument) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrdocument</type>
+          <code>hrdocument</code>
+          <name>hrdocument</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addhrcontractlog(Hrcontractlog hrcontractlog)</serialno>
+      <method>addhrcontractlog</method>
+      <name>void addhrcontractlog(Hrcontractlog hrcontractlog)</name>
+      <genericname>public void com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl.addhrcontractlog(com.tellhow.personnel.bean.hrdocument.Hrcontractlog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrcontractlog</type>
+          <code>hrcontractlog</code>
+          <name>hrcontractlog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean findEmployeenumber(String employeenumber)</serialno>
+      <method>findEmployeenumber</method>
+      <name>boolean findEmployeenumber(String employeenumber)</name>
+      <genericname>public boolean com.tellhow.personnel.bo.hrdocument.impl.HrdocumentImpl.findEmployeenumber(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>employeenumber</code>
+          <name>employeenumber</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

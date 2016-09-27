@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.VfsClass</classname>
+  <code>VfsClass</code>
+  <name>VfsClass</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}EDZOzisYDKa2Hj2+StzbKg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void getPackagesByVFS(URL url,String packageName,HashMap classes)</serialno>
+      <method>getPackagesByVFS</method>
+      <name>void getPackagesByVFS(URL url,String packageName,HashMap classes)</name>
+      <genericname>public static void com.siqiansoft.commons.VfsClass.getPackagesByVFS(java.net.URL,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>URL</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>packageName</code>
+          <name>packageName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>classes</code>
+          <name>classes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void getClassesByVFS(URL url,String packageName,ArrayList classes)</serialno>
+      <method>getClassesByVFS</method>
+      <name>void getClassesByVFS(URL url,String packageName,ArrayList classes)</name>
+      <genericname>public static void com.siqiansoft.commons.VfsClass.getClassesByVFS(java.net.URL,java.lang.String,java.util.ArrayList&lt;java.lang.String&gt;) throws java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>URL</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>packageName</code>
+          <name>packageName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ArrayList</type>
+          <code>classes</code>
+          <name>classes</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

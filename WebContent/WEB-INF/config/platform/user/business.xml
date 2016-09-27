@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>UserBo.getUser</code>
+    <name>getUser</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>getUser</item>
+    <script>UserModel getUser(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.listUsers</code>
+    <name>listUsers</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>listUsers</item>
+    <script>UserModel[] listUsers(ConditionModel[] cond,PagingModel page)</script>
+    <params>cond,page</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.saveUser</code>
+    <name>saveUser</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>saveUser</item>
+    <script>void saveUser(UserModel user)</script>
+    <params>user</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.updateUser</code>
+    <name>updateUser</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>updateUser</item>
+    <script>void updateUser(UserModel user)</script>
+    <params>user</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.deleteUsers</code>
+    <name>deleteUsers</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>deleteUsers</item>
+    <script>void deleteUsers(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.getOrgTree</code>
+    <name>getOrgTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>getOrgTree</item>
+    <script>NodeModel getOrgTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>UserBo.updatePassword</code>
+    <name>updatePassword</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.UserBo</catalog>
+    <item>updatePassword</item>
+    <script>void updatePassword(String user,String password)</script>
+    <params>user,password</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>RecordsetViewModel</code>
+    <name>记录集视图</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.grid</catalog>
+    <item>RecordsetViewModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

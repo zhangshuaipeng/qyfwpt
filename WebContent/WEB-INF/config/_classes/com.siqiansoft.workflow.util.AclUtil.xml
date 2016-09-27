@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.util.AclUtil</classname>
+  <code>AclUtil</code>
+  <name>AclUtil</name>
+  <packages>com.siqiansoft.workflow.util</packages>
+  <type>biz</type>
+  <crc>{MD5}zQJforCz6DS6jluOr6i7Pw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean isReader(LoginModel login,String orgCode,String flowCode)</serialno>
+      <method>isReader</method>
+      <name>boolean isReader(LoginModel login,String orgCode,String flowCode)</name>
+      <genericname>public static boolean com.siqiansoft.workflow.util.AclUtil.isReader(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getFlows(String type,LoginModel login,String flowType,String name,PagingModel page)</serialno>
+      <method>getFlows</method>
+      <name>ArrayList getFlows(String type,LoginModel login,String flowType,String name,PagingModel page)</name>
+      <genericname>public static java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.workflow.util.AclUtil.getFlows(java.lang.String,com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String,com.siqiansoft.framework.model.PagingModel) throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowType</code>
+          <name>flowType</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isStarter(LoginModel login,String orgCode,String flowCode)</serialno>
+      <method>isStarter</method>
+      <name>boolean isStarter(LoginModel login,String orgCode,String flowCode)</name>
+      <genericname>public static boolean com.siqiansoft.workflow.util.AclUtil.isStarter(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isManager(LoginModel login,String orgCode,String flowCode)</serialno>
+      <method>isManager</method>
+      <name>boolean isManager(LoginModel login,String orgCode,String flowCode)</name>
+      <genericname>public static boolean com.siqiansoft.workflow.util.AclUtil.isManager(com.siqiansoft.framework.model.LoginModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

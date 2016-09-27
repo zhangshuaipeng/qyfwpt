@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.grid.GridModel>
+  <system>platform</system>
+  <module>field</module>
+  <code>listfields</code>
+  <name>域选择列表</name>
+  <rowsperpage>20</rowsperpage>
+  <box>radio</box>
+  <index>N</index>
+  <pagecontrol>N</pagecontrol>
+  <columns>
+    <model.grid.ColumnModel>
+      <code>name</code>
+      <title>域号</title>
+      <width>64</width>
+      <boxvalue>Y</boxvalue>
+      <align>center</align>
+      <datatype>STRING</datatype>
+      <showtype>TEXT</showtype>
+      <length>0</length>
+      <precision>0</precision>
+    </model.grid.ColumnModel>
+    <model.grid.ColumnModel>
+      <code>value</code>
+      <title>域名称</title>
+      <width>80</width>
+      <boxvalue>Y</boxvalue>
+      <align>center</align>
+      <datatype>STRING</datatype>
+      <showtype>TEXT</showtype>
+      <length>0</length>
+      <precision>0</precision>
+    </model.grid.ColumnModel>
+  </columns>
+  <query>
+    <business>FieldBo.getAllFields</business>
+    <params>system,module,templet</params>
+  </query>
+</model.grid.GridModel>

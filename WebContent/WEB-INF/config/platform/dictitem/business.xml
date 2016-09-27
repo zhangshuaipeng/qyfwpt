@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>DictItemBo.getItem</code>
+    <name>getItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictItemBo</catalog>
+    <item>getItem</item>
+    <script>ItemModel getItem(String system,String caid,String key)</script>
+    <params>system,caid,key</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictItemBo.addItem</code>
+    <name>addItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictItemBo</catalog>
+    <item>addItem</item>
+    <script>void addItem(String system,String caid,ItemModel item)</script>
+    <params>system,caid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictItemBo.listItems</code>
+    <name>listItems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictItemBo</catalog>
+    <item>listItems</item>
+    <script>ItemModel[] listItems(String system,String caid)</script>
+    <params>system,caid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictItemBo.updateItem</code>
+    <name>updateItem</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictItemBo</catalog>
+    <item>updateItem</item>
+    <script>void updateItem(String system,String caid,ItemModel item)</script>
+    <params>system,caid,item</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictItemBo.deleteItems</code>
+    <name>deleteItems</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictItemBo</catalog>
+    <item>deleteItems</item>
+    <script>void deleteItems(String system,String caid,String[] selected)</script>
+    <params>system,caid,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

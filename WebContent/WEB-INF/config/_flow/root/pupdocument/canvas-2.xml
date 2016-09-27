@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas max="69">
+  <item id="1" name="草拟公文" type="node" nodetype="S" x="33.5" y="30"/>
+  <item id="3" name="处长审阅" type="node" nodetype="A" x="14" y="94"/>
+  <item id="4" name="主管领导签批" type="node" nodetype="A" x="3" y="152"/>
+  <item id="5" name="办公室副主任阅处" type="node" nodetype="A" x="2" y="212"/>
+  <item id="8" name="结束" type="node" nodetype="E" x="52.5" y="372.5"/>
+  <item id="9" name="副处长审阅" type="node" nodetype="A" x="171" y="93"/>
+  <item id="10" name="副主任签批" type="node" nodetype="A" x="171" y="150"/>
+  <item id="11" name="常务副主任签批" type="node" nodetype="A" x="278" y="201"/>
+  <item id="50" name="办公室接收办理" type="node" nodetype="M" x="2" y="261"/>
+  <item id="51" name="传阅落实" type="node" nodetype="M" x="191" y="304"/>
+  <item id="57" name="发文" type="node" nodetype="A" x="36" y="319"/>
+  <item id="60" name="主任签批" type="node" nodetype="A" x="178" y="249"/>
+  <item id="14" name="路由" type="route" from="9" to="3"/>
+  <item id="15" name="路由" type="route" from="9" to="4"/>
+  <item id="16" name="路由" type="route" from="3" to="4"/>
+  <item id="17" name="路由" type="route" from="4" to="5"/>
+  <item id="18" name="路由" type="route" from="4" to="10"/>
+  <item id="19" name="路由" type="route" from="4" to="11"/>
+  <item id="43" name="路由" type="route" from="5" to="11"/>
+  <item id="44" name="路由" type="route" from="10" to="11"/>
+  <item id="45" name="路由" type="route" from="10" to="5"/>
+  <item id="46" name="路由" type="route" from="5" to="10"/>
+  <item id="47" name="路由" type="route" from="1" to="3"/>
+  <item id="48" name="路由" type="route" from="1" to="9"/>
+  <item id="49" name="路由" type="route" from="10" to="4"/>
+  <item id="52" name="路由" type="route" from="5" to="50"/>
+  <item id="54" name="路由" type="route" from="50" to="51"/>
+  <item id="55" name="路由" type="route" from="51" to="8"/>
+  <item id="58" name="路由" type="route" from="50" to="57"/>
+  <item id="59" name="路由" type="route" from="57" to="8"/>
+  <item id="61" name="路由" type="route" from="10" to="60"/>
+  <item id="62" name="路由" type="route" from="5" to="60"/>
+  <item id="63" name="路由" type="route" from="4" to="60"/>
+  <item id="64" name="路由" type="route" from="11" to="60"/>
+  <item id="65" name="路由" type="route" from="60" to="11"/>
+  <item id="66" name="路由" type="route" from="60" to="5"/>
+  <item id="67" name="路由" type="route" from="11" to="5"/>
+</canvas>

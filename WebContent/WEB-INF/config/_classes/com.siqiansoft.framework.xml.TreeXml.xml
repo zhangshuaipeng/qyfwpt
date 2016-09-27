@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.xml.TreeXml</classname>
+  <code>TreeXml</code>
+  <name>TreeXml</name>
+  <packages>com.siqiansoft.framework.xml</packages>
+  <type>biz</type>
+  <crc>{MD5}Dvs4fu7Cs2tg0dA9y4If+w==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.xml.TreeXml.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String toXML(Object obj)</serialno>
+      <method>toXML</method>
+      <name>String toXML(Object obj)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.xml.TreeXml.toXML(java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel[] fromXml(String xmlFile)</serialno>
+      <method>fromXml</method>
+      <name>NodeModel[] fromXml(String xmlFile)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel[] com.siqiansoft.framework.xml.TreeXml.fromXml(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>xmlFile</code>
+          <name>xmlFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeXML(NodeModel[] nodes,String xmlFile)</serialno>
+      <method>writeXML</method>
+      <name>void writeXML(NodeModel[] nodes,String xmlFile)</name>
+      <genericname>public static void com.siqiansoft.framework.xml.TreeXml.writeXML(com.siqiansoft.framework.model.tree.NodeModel[],java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>NodeModel[]</type>
+          <code>nodes</code>
+          <name>nodes</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>xmlFile</code>
+          <name>xmlFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel fromNodeXml(String xmlFile)</serialno>
+      <method>fromNodeXml</method>
+      <name>NodeModel fromNodeXml(String xmlFile)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.framework.xml.TreeXml.fromNodeXml(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>xmlFile</code>
+          <name>xmlFile</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

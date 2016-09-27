@@ -1,0 +1,11 @@
+1、配置deploy.wsdd，将该文件拷贝到WEB-INF下，内容如下：
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+    <service name="bizService" provider="java:RPC">
+        <parameter name="className" value="com.siqiansoft.framework.soa.WSProvider"/>
+        <parameter name="allowedMethods" value="runService"/>
+    </service>
+</deployment>
+2、启动应用服务器，在dos下运行java -Djava.ext.dirs=lib org.apache.axis.client.AdminClient deploy.wsdd.
+
+发布：java -Djava.ext.dirs=lib org.apache.axis.client.AdminClient -lhttp://localhost/platform/services/AdminService deploy.wsdd
+不发布：java -Djava.ext.dirs=lib org.apache.axis.client.AdminClient -lhttp://localhost/platform/services/AdminService undeploy.wsdd

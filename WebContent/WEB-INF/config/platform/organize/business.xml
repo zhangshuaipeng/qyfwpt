@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.listOrgs</code>
+    <name>listOrgs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>listOrgs</item>
+    <script>OrgModel[] listOrgs()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.saveOrg</code>
+    <name>saveOrg</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>saveOrg</item>
+    <script>void saveOrg(OrgModel org)</script>
+    <params>org</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.getOrg</code>
+    <name>getOrg</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>getOrg</item>
+    <script>OrgModel getOrg(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.updateOrg</code>
+    <name>updateOrg</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>updateOrg</item>
+    <script>void updateOrg(OrgModel org)</script>
+    <params>org</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.deleteOrgs</code>
+    <name>deleteOrgs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>deleteOrgs</item>
+    <script>void deleteOrgs(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>OrganizeBo.getOrgs</code>
+    <name>getOrgs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.project.OrganizeBo</catalog>
+    <item>getOrgs</item>
+    <script>ItemModel[] getOrgs()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

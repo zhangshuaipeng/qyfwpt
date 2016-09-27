@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>FieldsetFieldBo.getField</code>
+    <name>getField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetFieldBo</catalog>
+    <item>getField</item>
+    <script>FieldModel getField(String system,String module,String page,String fieldset,String fieldid)</script>
+    <params>system,module,page,fieldset,fieldid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetFieldBo.addField</code>
+    <name>addField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetFieldBo</catalog>
+    <item>addField</item>
+    <script>void addField(String system,String module,String page,String fieldset,FieldModel field)</script>
+    <params>system,module,page,fieldset,field</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetFieldBo.updateField</code>
+    <name>updateField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetFieldBo</catalog>
+    <item>updateField</item>
+    <script>void updateField(String system,String module,String page,String fieldset,FieldModel field)</script>
+    <params>system,module,page,fieldset,field</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetFieldBo.listFields</code>
+    <name>listFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetFieldBo</catalog>
+    <item>listFields</item>
+    <script>FieldModel[] listFields(String system,String module,String page,String fieldset)</script>
+    <params>system,module,page,fieldset</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldsetFieldBo.deleteFields</code>
+    <name>deleteFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldsetFieldBo</catalog>
+    <item>deleteFields</item>
+    <script>void deleteFields(String system,String module,String page,String fieldset,String[] selected)</script>
+    <params>system,module,page,fieldset,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

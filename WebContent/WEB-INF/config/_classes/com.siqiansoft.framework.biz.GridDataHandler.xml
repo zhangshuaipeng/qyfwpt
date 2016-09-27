@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.biz.GridDataHandler</classname>
+  <code>GridDataHandler</code>
+  <name>GridDataHandler</name>
+  <packages>com.siqiansoft.framework.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}fYTn+WgNV1xi1gvYjtwf2g==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void clearCache(String id)</serialno>
+      <method>clearCache</method>
+      <name>void clearCache(String id)</name>
+      <genericname>public void com.siqiansoft.framework.biz.GridDataHandler.clearCache(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveTableData(RequestModel req,PageModel page)</serialno>
+      <method>saveTableData</method>
+      <name>void saveTableData(RequestModel req,PageModel page)</name>
+      <genericname>public void com.siqiansoft.framework.biz.GridDataHandler.saveTableData(com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.view.PageModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRowData(String id,String gridid,HashMap map)</serialno>
+      <method>saveRowData</method>
+      <name>void saveRowData(String id,String gridid,HashMap map)</name>
+      <genericname>public void com.siqiansoft.framework.biz.GridDataHandler.saveRowData(java.lang.String,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeTable(String id)</serialno>
+      <method>removeTable</method>
+      <name>void removeTable(String id)</name>
+      <genericname>public void com.siqiansoft.framework.biz.GridDataHandler.removeTable(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addRecordSet(String id,String gridid,List data)</serialno>
+      <method>addRecordSet</method>
+      <name>void addRecordSet(String id,String gridid,List data)</name>
+      <genericname>public void com.siqiansoft.framework.biz.GridDataHandler.addRecordSet(java.lang.String,java.lang.String,java.util.List&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>List</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DataGridModel getTableData(String id)</serialno>
+      <method>getTableData</method>
+      <name>DataGridModel getTableData(String id)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.DataGridModel com.siqiansoft.framework.biz.GridDataHandler.getTableData(java.lang.String)</genericname>
+      <retclass>DataGridModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getSubtableData(String pid,String fieldId,ArrayList oldData)</serialno>
+      <method>getSubtableData</method>
+      <name>ArrayList getSubtableData(String pid,String fieldId,ArrayList oldData)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.biz.GridDataHandler.getSubtableData(java.lang.String,java.lang.String,java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt;)</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pid</code>
+          <name>pid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldId</code>
+          <name>fieldId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ArrayList</type>
+          <code>oldData</code>
+          <name>oldData</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

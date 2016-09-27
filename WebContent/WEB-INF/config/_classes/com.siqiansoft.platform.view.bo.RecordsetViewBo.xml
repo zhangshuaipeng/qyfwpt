@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.RecordsetViewBo</classname>
+  <code>RecordsetViewBo</code>
+  <name>RecordsetViewBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}yMRGVLFBAme24re8JQHyEw==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RecordsetViewModel getRecordsetView(String system,String module,String code)</serialno>
+      <method>getRecordsetView</method>
+      <name>RecordsetViewModel getRecordsetView(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.RecordsetViewModel com.siqiansoft.platform.view.bo.RecordsetViewBo.getRecordsetView(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>RecordsetViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RecordsetViewModel[] listRecordsetViews(String system,String module)</serialno>
+      <method>listRecordsetViews</method>
+      <name>RecordsetViewModel[] listRecordsetViews(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.RecordsetViewModel[] com.siqiansoft.platform.view.bo.RecordsetViewBo.listRecordsetViews(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RecordsetViewModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRecordsetView(String system,String module,RecordsetViewModel rsv)</serialno>
+      <method>saveRecordsetView</method>
+      <name>void saveRecordsetView(String system,String module,RecordsetViewModel rsv)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RecordsetViewBo.saveRecordsetView(java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.RecordsetViewModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RecordsetViewModel</type>
+          <code>rsv</code>
+          <name>rsv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRecordsetView(String system,String module,RecordsetViewModel rsv)</serialno>
+      <method>updateRecordsetView</method>
+      <name>void updateRecordsetView(String system,String module,RecordsetViewModel rsv)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RecordsetViewBo.updateRecordsetView(java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.RecordsetViewModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RecordsetViewModel</type>
+          <code>rsv</code>
+          <name>rsv</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteReocrdsetViews(String system,String module,String[] selected)</serialno>
+      <method>deleteReocrdsetViews</method>
+      <name>void deleteReocrdsetViews(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.RecordsetViewBo.deleteReocrdsetViews(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

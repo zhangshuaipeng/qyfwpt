@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas max="54">
+  <item id="16" name="多人办理" type="node" nodetype="M" x="550" y="473"/>
+  <item id="1" name="申请物品" type="node" nodetype="S" x="38.5" y="57.5"/>
+  <item id="3" name="办公室审批" type="node" nodetype="A" x="24" y="245"/>
+  <item id="39" name="结束" type="node" nodetype="E" x="733.5" y="252"/>
+  <item id="8" name="办公室办理" type="node" nodetype="A" x="26" y="331"/>
+  <item id="26" name="活动" type="node" nodetype="A" x="187" y="462"/>
+  <item id="34" name="路由" type="route" from="26" to="16"/>
+  <item id="9" name="路由" type="route" from="3" to="8"/>
+  <item id="43" name="路由" type="route" from="39" to="16"/>
+  <item id="37" name="路由" type="route" from="26" to="26"/>
+</canvas>

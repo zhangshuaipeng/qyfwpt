@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.CanvasModel</classname>
+  <code>CanvasModel</code>
+  <name>CanvasModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}IGekQ9Kp81kw/2/+Jo83LQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getMax()</serialno>
+      <method>getMax</method>
+      <name>String getMax()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.CanvasModel.getMax()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMax(String max)</serialno>
+      <method>setMax</method>
+      <name>void setMax(String max)</name>
+      <genericname>public void com.siqiansoft.workflow.model.CanvasModel.setMax(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>max</code>
+          <name>max</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ElementModel[] getItems()</serialno>
+      <method>getItems</method>
+      <name>ElementModel[] getItems()</name>
+      <genericname>public com.siqiansoft.workflow.model.ElementModel[] com.siqiansoft.workflow.model.CanvasModel.getItems()</genericname>
+      <retclass>ElementModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setItems(ElementModel[] items)</serialno>
+      <method>setItems</method>
+      <name>void setItems(ElementModel[] items)</name>
+      <genericname>public void com.siqiansoft.workflow.model.CanvasModel.setItems(com.siqiansoft.workflow.model.ElementModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ElementModel[]</type>
+          <code>items</code>
+          <name>items</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>max</code>
+      <name>max</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

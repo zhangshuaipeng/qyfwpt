@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.MessageModel</classname>
+  <code>MessageModel</code>
+  <name>MessageModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}/+zkz/Mmj7okquYgIBfgNQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>MessageModel clone()</serialno>
+      <method>clone</method>
+      <name>MessageModel clone()</name>
+      <genericname>public com.siqiansoft.framework.model.MessageModel com.siqiansoft.framework.model.MessageModel.clone()</genericname>
+      <retclass>MessageModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object clone()</serialno>
+      <method>clone</method>
+      <name>Object clone()</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.model.MessageModel.clone() throws java.lang.CloneNotSupportedException</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMethod()</serialno>
+      <method>getMethod</method>
+      <name>String getMethod()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getMethod()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContent()</serialno>
+      <method>getContent</method>
+      <name>String getContent()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getContent()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMethod(String method)</serialno>
+      <method>setMethod</method>
+      <name>void setMethod(String method)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setMethod(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>method</code>
+          <name>method</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getResult()</serialno>
+      <method>getResult</method>
+      <name>String getResult()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getResult()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setContent(String content)</serialno>
+      <method>setContent</method>
+      <name>void setContent(String content)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setContent(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResult(String result)</serialno>
+      <method>setResult</method>
+      <name>void setResult(String result)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setResult(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>result</code>
+          <name>result</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCreateTime()</serialno>
+      <method>getCreateTime</method>
+      <name>String getCreateTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getCreateTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPK()</serialno>
+      <method>getPK</method>
+      <name>String getPK()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getPK()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSender(String sender)</serialno>
+      <method>setSender</method>
+      <name>void setSender(String sender)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setSender(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sender</code>
+          <name>sender</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCreateTime(String createtime)</serialno>
+      <method>setCreateTime</method>
+      <name>void setCreateTime(String createtime)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setCreateTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>createtime</code>
+          <name>createtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRecipient(String recipient)</serialno>
+      <method>setRecipient</method>
+      <name>void setRecipient(String recipient)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setRecipient(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>recipient</code>
+          <name>recipient</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMsgType(String msgtype)</serialno>
+      <method>setMsgType</method>
+      <name>void setMsgType(String msgtype)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setMsgType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>msgtype</code>
+          <name>msgtype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSendTime(String sendtime)</serialno>
+      <method>setSendTime</method>
+      <name>void setSendTime(String sendtime)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setSendTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sendtime</code>
+          <name>sendtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReasons(String reasons)</serialno>
+      <method>setReasons</method>
+      <name>void setReasons(String reasons)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setReasons(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reasons</code>
+          <name>reasons</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAddr()</serialno>
+      <method>getAddr</method>
+      <name>String getAddr()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getAddr()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRecipient()</serialno>
+      <method>getRecipient</method>
+      <name>String getRecipient()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getRecipient()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAddr(String addr)</serialno>
+      <method>setAddr</method>
+      <name>void setAddr(String addr)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setAddr(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>addr</code>
+          <name>addr</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWid(String wid)</serialno>
+      <method>setWid</method>
+      <name>void setWid(String wid)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setWid(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWid()</serialno>
+      <method>getWid</method>
+      <name>String getWid()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getWid()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(String pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(String pk)</name>
+      <genericname>public void com.siqiansoft.framework.model.MessageModel.setPK(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSender()</serialno>
+      <method>getSender</method>
+      <name>String getSender()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getSender()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMsgType()</serialno>
+      <method>getMsgType</method>
+      <name>String getMsgType()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getMsgType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getReasons()</serialno>
+      <method>getReasons</method>
+      <name>String getReasons()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getReasons()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSendTime()</serialno>
+      <method>getSendTime</method>
+      <name>String getSendTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.MessageModel.getSendTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>pk</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>msgtype</code>
+      <name>msgtype</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>wid</code>
+      <name>wid</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>orgcode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>recipient</code>
+      <name>recipient</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>content</code>
+      <name>content</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sender</code>
+      <name>sender</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>method</code>
+      <name>method</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>addr</code>
+      <name>addr</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>result</code>
+      <name>result</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>reasons</code>
+      <name>reasons</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>createtime</code>
+      <name>createtime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sendtime</code>
+      <name>sendtime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

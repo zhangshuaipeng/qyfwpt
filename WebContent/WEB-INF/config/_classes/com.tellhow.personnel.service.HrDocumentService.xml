@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.HrDocumentService</classname>
+  <code>HrDocumentService</code>
+  <name>HrDocumentService</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}MyGkCDd3Yn39Ju9u0U39uA==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Map addpeople(String resumeid)</serialno>
+      <method>addpeople</method>
+      <name>Map addpeople(String resumeid)</name>
+      <genericname>public java.util.Map&lt;java.lang.String, java.lang.String&gt; com.tellhow.personnel.service.HrDocumentService.addpeople(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Map</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addHrContractlog(Hrcontractlog hrcontractlog)</serialno>
+      <method>addHrContractlog</method>
+      <name>void addHrContractlog(Hrcontractlog hrcontractlog)</name>
+      <genericname>public void com.tellhow.personnel.service.HrDocumentService.addHrContractlog(com.tellhow.personnel.bean.hrdocument.Hrcontractlog) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Hrcontractlog</type>
+          <code>hrcontractlog</code>
+          <name>hrcontractlog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

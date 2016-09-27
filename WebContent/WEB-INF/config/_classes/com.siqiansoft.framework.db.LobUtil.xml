@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.LobUtil</classname>
+  <code>LobUtil</code>
+  <name>LobUtil</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}M3SlcEfvyM9L9bo8yuKJ9g==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Clob stringToClob(String str)</serialno>
+      <method>stringToClob</method>
+      <name>Clob stringToClob(String str)</name>
+      <genericname>public static java.sql.Clob com.siqiansoft.framework.db.LobUtil.stringToClob(java.lang.String)</genericname>
+      <retclass>Clob</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String clobToString(Clob clob)</serialno>
+      <method>clobToString</method>
+      <name>String clobToString(Clob clob)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.db.LobUtil.clobToString(java.sql.Clob)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Clob</type>
+          <code>clob</code>
+          <name>clob</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

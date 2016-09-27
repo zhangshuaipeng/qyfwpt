@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.service.KuFangPanCunService</classname>
+  <code>KuFangPanCunService</code>
+  <name>KuFangPanCunService</name>
+  <packages>com.tellhow.detail.service</packages>
+  <type>biz</type>
+  <crc>{MD5}z0gOgVL4qh8EdneKNrMVUA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getFuZhuangTaiZhang(PagingModel page,RequestModel req)</serialno>
+      <method>getFuZhuangTaiZhang</method>
+      <name>ArrayList getFuZhuangTaiZhang(PagingModel page,RequestModel req)</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&gt; com.tellhow.detail.service.KuFangPanCunService.getFuZhuangTaiZhang(com.siqiansoft.framework.model.PagingModel,com.siqiansoft.framework.model.RequestModel)</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

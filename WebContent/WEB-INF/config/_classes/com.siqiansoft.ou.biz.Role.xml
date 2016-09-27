@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.biz.Role</classname>
+  <code>Role</code>
+  <name>Role</name>
+  <packages>com.siqiansoft.ou.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}kynbJxOO1jaWdWFR4koU1w==</crc>
+  <modifytime>2013-04-08 23:20:15</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void updateRole(RoleModel role)</serialno>
+      <method>updateRole</method>
+      <name>void updateRole(RoleModel role)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Role.updateRole(com.siqiansoft.ou.model.RoleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RoleModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRoles(String[] pk)</serialno>
+      <method>deleteRoles</method>
+      <name>void deleteRoles(String[] pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Role.deleteRoles(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRole(String pk)</serialno>
+      <method>deleteRole</method>
+      <name>void deleteRole(String pk)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Role.deleteRole(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createRole(RoleModel role)</serialno>
+      <method>createRole</method>
+      <name>void createRole(RoleModel role)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Role.createRole(com.siqiansoft.ou.model.RoleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RoleModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel getRoleByPK(String pk)</serialno>
+      <method>getRoleByPK</method>
+      <name>RoleModel getRoleByPK(String pk)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel com.siqiansoft.ou.biz.Role.getRoleByPK(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel[] getRoleList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</serialno>
+      <method>getRoleList</method>
+      <name>RoleModel[] getRoleList(ConditionModel[] cond,PagingModel page,boolean bShowAll)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel[] com.siqiansoft.ou.biz.Role.getRoleList(com.siqiansoft.framework.model.db.ConditionModel[],com.siqiansoft.framework.model.PagingModel,boolean) throws java.lang.Exception</genericname>
+      <retclass>RoleModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cond</code>
+          <name>cond</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>bShowAll</code>
+          <name>bShowAll</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel getRoleByCode(String roleCode)</serialno>
+      <method>getRoleByCode</method>
+      <name>RoleModel getRoleByCode(String roleCode)</name>
+      <genericname>public static com.siqiansoft.ou.model.RoleModel com.siqiansoft.ou.biz.Role.getRoleByCode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roleCode</code>
+          <name>roleCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUsers(String orgCode,String roleCode,String users)</serialno>
+      <method>addUsers</method>
+      <name>void addUsers(String orgCode,String roleCode,String users)</name>
+      <genericname>public static void com.siqiansoft.ou.biz.Role.addUsers(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roleCode</code>
+          <name>roleCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>users</code>
+          <name>users</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

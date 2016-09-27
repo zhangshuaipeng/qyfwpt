@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.portal.LayoutModel>
+  <code>layout3r1c</code>
+  <name>三行一列定宽</name>
+  <style>body { font-family:Verdana; font-size:14px; margin:0;}&#xd;
+&#xd;
+#CONT1 {margin:0 auto; width:900px;}</style>
+  <body>&lt;div id=&quot;CONT1&quot;&gt;&#xd;
+  &lt;div id=&quot;A1&quot;&gt;{A1}&lt;/div&gt;&#xd;
+  &lt;div id=&quot;A2&quot;&gt;&#xd;
+    {A2}&#xd;
+  &lt;/div&gt;&#xd;
+  &lt;div id=&quot;A3&quot;&gt;{A3}&lt;/div&gt;&#xd;
+&lt;/div&gt;</body>
+  <containers>
+    <model.portal.ContainerModel>
+      <code>A1</code>
+      <name>头部</name>
+      <style>height:100px; background:#6cf; margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A2</code>
+      <name>内容</name>
+      <style>height:500px; background:#cff; margin-bottom:5px;</style>
+    </model.portal.ContainerModel>
+    <model.portal.ContainerModel>
+      <code>A3</code>
+      <name>底部</name>
+      <style>height:60px; background:#6cf;</style>
+    </model.portal.ContainerModel>
+  </containers>
+</model.portal.LayoutModel>

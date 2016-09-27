@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.model.AuthorityModel</classname>
+  <code>AuthorityModel</code>
+  <name>AuthorityModel</name>
+  <packages>com.siqiansoft.model</packages>
+  <type>biz</type>
+  <crc>{MD5}qTuSIk24RfGAUYPwWen7yg==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCatalog()</serialno>
+      <method>getCatalog</method>
+      <name>String getCatalog()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getCatalog()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCatalog(String catalog)</serialno>
+      <method>setCatalog</method>
+      <name>void setCatalog(String catalog)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setCatalog(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDsn()</serialno>
+      <method>getDsn</method>
+      <name>String getDsn()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getDsn()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDsn(String dsn)</serialno>
+      <method>setDsn</method>
+      <name>void setDsn(String dsn)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setDsn(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.model.AuthorityModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgId(String orgid)</serialno>
+      <method>setOrgId</method>
+      <name>void setOrgId(String orgid)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setOrgId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgid</code>
+          <name>orgid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgId()</serialno>
+      <method>getOrgId</method>
+      <name>String getOrgId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getOrgId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTableId(String tableid)</serialno>
+      <method>setTableId</method>
+      <name>void setTableId(String tableid)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setTableId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>tableid</code>
+          <name>tableid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTableId()</serialno>
+      <method>getTableId</method>
+      <name>String getTableId()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getTableId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPKName(String pkname)</serialno>
+      <method>setPKName</method>
+      <name>void setPKName(String pkname)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setPKName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkname</code>
+          <name>pkname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPKName()</serialno>
+      <method>getPKName</method>
+      <name>String getPKName()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getPKName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPKValue(String pkvalue)</serialno>
+      <method>setPKValue</method>
+      <name>void setPKValue(String pkvalue)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setPKValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pkvalue</code>
+          <name>pkvalue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPKValue()</serialno>
+      <method>getPKValue</method>
+      <name>String getPKValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getPKValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAuthorizer(String authorizer)</serialno>
+      <method>setAuthorizer</method>
+      <name>void setAuthorizer(String authorizer)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setAuthorizer(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>authorizer</code>
+          <name>authorizer</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAuthorizer()</serialno>
+      <method>getAuthorizer</method>
+      <name>String getAuthorizer()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getAuthorizer()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLimits(String limits)</serialno>
+      <method>setLimits</method>
+      <name>void setLimits(String limits)</name>
+      <genericname>public void com.siqiansoft.model.AuthorityModel.setLimits(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>limits</code>
+          <name>limits</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLimits()</serialno>
+      <method>getLimits</method>
+      <name>String getLimits()</name>
+      <genericname>public java.lang.String com.siqiansoft.model.AuthorityModel.getLimits()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

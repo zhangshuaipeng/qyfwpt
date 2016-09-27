@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>templet</code>
+    <name>模板内容树</name>
+    <expvalue></expvalue>
+    <imgpath></imgpath>
+    <runurl></runurl>
+    <nodes>
+      <business>TempletBo.getTempletTree</business>
+      <params>ORGCODE,code</params>
+    </nodes>
+  </model.tree.TreeModel>
+  <model.tree.TreeModel>
+    <code>portlets</code>
+    <name>portlet工具栏树</name>
+    <imgpath></imgpath>
+    <expandall>Y</expandall>
+    <nodes>
+      <business>TempletBo.getPortletsTree</business>
+      <params>LOGIN,$templet</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

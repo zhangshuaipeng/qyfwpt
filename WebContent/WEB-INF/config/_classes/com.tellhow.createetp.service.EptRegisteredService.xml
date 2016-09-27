@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.service.EptRegisteredService</classname>
+  <code>EptRegisteredService</code>
+  <name>EptRegisteredService</name>
+  <packages>com.tellhow.createetp.service</packages>
+  <type>biz</type>
+  <crc>{MD5}LBH/HTKaM9bWcm56vsEHKg==</crc>
+  <modifytime>2013-05-24 13:32:54</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void operateEptLog(EptLogVo eptlogvo)</serialno>
+      <method>operateEptLog</method>
+      <name>void operateEptLog(EptLogVo eptlogvo)</name>
+      <genericname>public void com.tellhow.createetp.service.EptRegisteredService.operateEptLog(com.tellhow.createetp.vo.EptLogVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>EptLogVo</type>
+          <code>eptlogvo</code>
+          <name>eptlogvo</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

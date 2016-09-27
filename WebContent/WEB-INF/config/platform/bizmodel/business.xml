@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>updateclass</code>
+    <name>修改类</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>updateClass</item>
+    <script>void updateClass(ClassModel cl,String dsn,String table)</script>
+    <params>cl,dsn,table</params>
+    <metadata>ClassModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>readclass</code>
+    <name>读取类属性</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>readClass</item>
+    <script>ClassModel readClass(String className)</script>
+    <params>className</params>
+    <metadata>ClassModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>listclass</code>
+    <name>类列表</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>listClasses</item>
+    <script>ClassModel[] listClasses(String packageName)</script>
+    <params>packageName</params>
+    <metadata>ClassModel</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PackageBo.buildBizModel</code>
+    <name>buildBizModel</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.PackageBo</catalog>
+    <item>buildBizModel</item>
+    <script>void buildBizModel(String packageName)</script>
+    <params>packageName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MethodBo.getMethod</code>
+    <name>getMethod</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MethodBo</catalog>
+    <item>getMethod</item>
+    <script>MethodModel getMethod(String className,String method)</script>
+    <params>className,method</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MethodBo.listMethods</code>
+    <name>listMethods</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MethodBo</catalog>
+    <item>listMethods</item>
+    <script>MethodModel[] listMethods(String className)</script>
+    <params>className</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>MethodBo.updateMethod</code>
+    <name>updateMethod</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.MethodBo</catalog>
+    <item>updateMethod</item>
+    <script>void updateMethod(String className,MethodModel method)</script>
+    <params>className,method</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>PackageBo.getBizTree</code>
+    <name>getBizTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.PackageBo</catalog>
+    <item>getBizTree</item>
+    <script>NodeModel getBizTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>getbiztreepackage</code>
+    <name>取某个包下的业务树</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.PackageBo</catalog>
+    <item>getBizTree</item>
+    <script>NodeModel getBizTree(String packageName)</script>
+    <params>packageName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ArgumentBo.listArgs</code>
+    <name>listArgs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ArgumentBo</catalog>
+    <item>listArgs</item>
+    <script>ArgumentModel[] listArgs(String className,String methodName)</script>
+    <params>className,methodName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ArgumentBo.updateArgument</code>
+    <name>updateArgument</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ArgumentBo</catalog>
+    <item>updateArgument</item>
+    <script>void updateArgument(String className,String methodName,ArgumentModel arg)</script>
+    <params>className,methodName,arg</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.getFields</code>
+    <name>getFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>getFields</item>
+    <script>ColumnModel[] getFields(String className)</script>
+    <params>className</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.updateField</code>
+    <name>updateField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>updateField</item>
+    <script>void updateField(String className,ColumnModel col)</script>
+    <params>className,col</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.listPojoClasses</code>
+    <name>listPojoClasses</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>listPojoClasses</item>
+    <script>ClassModel[] listPojoClasses(String packageName)</script>
+    <params>packageName</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ClassBo.savePojoFields</code>
+    <name>savePojoFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.biz.ClassBo</catalog>
+    <item>savePojoFields</item>
+    <script>void savePojoFields(ClassModel cl,String dsn,String table)</script>
+    <params>cl,dsn,table</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fdsaf</code>
+    <name>fds</name>
+    <type>dboperand</type>
+    <catalog>system</catalog>
+    <item>EAP_ATTACH</item>
+    <script>fdfd</script>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

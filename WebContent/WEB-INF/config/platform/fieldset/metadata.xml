@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>FieldSetModel</code>
+    <name>域集合</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.view</catalog>
+    <item>FieldSetModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

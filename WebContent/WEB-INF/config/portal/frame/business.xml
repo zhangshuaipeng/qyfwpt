@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>FrameBo.getFrame</code>
+    <name>getFrame</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>getFrame</item>
+    <script>FrameModel getFrame(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FrameBo.addFrame</code>
+    <name>addFrame</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>addFrame</item>
+    <script>void addFrame(FrameModel frame)</script>
+    <params>frame</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FrameBo.listFrames</code>
+    <name>listFrames</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>listFrames</item>
+    <script>FrameModel[] listFrames()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FrameBo.updateFrame</code>
+    <name>updateFrame</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>updateFrame</item>
+    <script>void updateFrame(FrameModel frame)</script>
+    <params>frame</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FrameBo.deleteFrames</code>
+    <name>deleteFrames</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>deleteFrames</item>
+    <script>void deleteFrames(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FrameBo.getFrameIcon</code>
+    <name>getFrameIcon</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.FrameBo</catalog>
+    <item>getFrameIcon</item>
+    <script>ItemModel[] getFrameIcon()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

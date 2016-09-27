@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.getCatalog</code>
+    <name>getCatalog</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>getCatalog</item>
+    <script>CatalogModel getCatalog(String system,String id)</script>
+    <params>system,id</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.getSystemDictTree</code>
+    <name>getSystemDictTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>getSystemDictTree</item>
+    <script>NodeModel getSystemDictTree()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.listCatalogs</code>
+    <name>listCatalogs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>listCatalogs</item>
+    <script>CatalogModel[] listCatalogs(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.addCatalog</code>
+    <name>addCatalog</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>addCatalog</item>
+    <script>void addCatalog(String system,CatalogModel catalog)</script>
+    <params>system,catalog</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.updateCatalog</code>
+    <name>updateCatalog</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>updateCatalog</item>
+    <script>void updateCatalog(String system,CatalogModel catalog)</script>
+    <params>system,catalog</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DictionaryBo.deleteCatalog</code>
+    <name>deleteCatalog</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.DictionaryBo</catalog>
+    <item>deleteCatalog</item>
+    <script>void deleteCatalog(String system,String[] selected)</script>
+    <params>system,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getDictCatalogs</code>
+    <name>getDictCatalogs</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getDictCatalogs</item>
+    <script>CatalogModel[] getDictCatalogs(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>AppData.getModules</code>
+    <name>getModules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.AppData</catalog>
+    <item>getModules</item>
+    <script>ItemModel[] getModules(String system)</script>
+    <params>system</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

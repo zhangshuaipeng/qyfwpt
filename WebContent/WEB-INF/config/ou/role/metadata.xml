@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_ROLE</code>
+    <name>角色</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_ROLE</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>EAP_USERROLE</code>
+    <name>角色用户</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_USERROLE</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>RoleModel</code>
+    <name>角色属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.ou.model</catalog>
+    <item>RoleModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

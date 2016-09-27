@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bean.form.Changeplan</classname>
+  <code>Changeplan</code>
+  <name>Changeplan</name>
+  <packages>com.tellhow.itemsmanage.bean.form</packages>
+  <type>biz</type>
+  <crc>{MD5}bM3TykjJM0mV3y8hUbCRVA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getId()</serialno>
+      <method>getId</method>
+      <name>long getId()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getId()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setId(long id)</serialno>
+      <method>setId</method>
+      <name>void setId(long id)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setId(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getOperator()</serialno>
+      <method>getOperator</method>
+      <name>long getOperator()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getOperator()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperator(long operator)</serialno>
+      <method>setOperator</method>
+      <name>void setOperator(long operator)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setOperator(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>operator</code>
+          <name>operator</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArticleid(long articleid)</serialno>
+      <method>setArticleid</method>
+      <name>void setArticleid(long articleid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setArticleid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getArticleid()</serialno>
+      <method>getArticleid</method>
+      <name>long getArticleid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getArticleid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatortime()</serialno>
+      <method>getOperatortime</method>
+      <name>String getOperatortime()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Changeplan.getOperatortime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatortime(String operatortime)</serialno>
+      <method>setOperatortime</method>
+      <name>void setOperatortime(String operatortime)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setOperatortime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatortime</code>
+          <name>operatortime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getQualitity()</serialno>
+      <method>getQualitity</method>
+      <name>long getQualitity()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getQualitity()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setQualitity(long qualitity)</serialno>
+      <method>setQualitity</method>
+      <name>void setQualitity(long qualitity)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setQualitity(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>qualitity</code>
+          <name>qualitity</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCollardate()</serialno>
+      <method>getCollardate</method>
+      <name>String getCollardate()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Changeplan.getCollardate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCollardate(String collardate)</serialno>
+      <method>setCollardate</method>
+      <name>void setCollardate(String collardate)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setCollardate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>collardate</code>
+          <name>collardate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getCollarunit()</serialno>
+      <method>getCollarunit</method>
+      <name>long getCollarunit()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getCollarunit()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCollarunit(long collarunit)</serialno>
+      <method>setCollarunit</method>
+      <name>void setCollarunit(long collarunit)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setCollarunit(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>collarunit</code>
+          <name>collarunit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getChangeplanid()</serialno>
+      <method>getChangeplanid</method>
+      <name>long getChangeplanid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getChangeplanid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangeplanid(long changeplanid)</serialno>
+      <method>setChangeplanid</method>
+      <name>void setChangeplanid(long changeplanid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setChangeplanid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>changeplanid</code>
+          <name>changeplanid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getCollarname()</serialno>
+      <method>getCollarname</method>
+      <name>long getCollarname()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getCollarname()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCollarname(long collarname)</serialno>
+      <method>setCollarname</method>
+      <name>void setCollarname(long collarname)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setCollarname(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>collarname</code>
+          <name>collarname</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDisplanid()</serialno>
+      <method>getDisplanid</method>
+      <name>long getDisplanid()</name>
+      <genericname>public long com.tellhow.itemsmanage.bean.form.Changeplan.getDisplanid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDisplanid(long displanid)</serialno>
+      <method>setDisplanid</method>
+      <name>void setDisplanid(long displanid)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setDisplanid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>displanid</code>
+          <name>displanid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getChangeno()</serialno>
+      <method>getChangeno</method>
+      <name>String getChangeno()</name>
+      <genericname>public java.lang.String com.tellhow.itemsmanage.bean.form.Changeplan.getChangeno()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setChangeno(String changeno)</serialno>
+      <method>setChangeno</method>
+      <name>void setChangeno(String changeno)</name>
+      <genericname>public void com.tellhow.itemsmanage.bean.form.Changeplan.setChangeno(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>changeno</code>
+          <name>changeno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

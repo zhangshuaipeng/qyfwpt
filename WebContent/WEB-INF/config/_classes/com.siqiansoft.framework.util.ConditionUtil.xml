@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.ConditionUtil</classname>
+  <code>ConditionUtil</code>
+  <name>ConditionUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}n3yqtiRqM5/iwRpt3Sn5Og==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ConditionModel[] createCondition(String field,String value)</serialno>
+      <method>createCondition</method>
+      <name>ConditionModel[] createCondition(String field,String value)</name>
+      <genericname>public static com.siqiansoft.framework.model.db.ConditionModel[] com.siqiansoft.framework.util.ConditionUtil.createCondition(java.lang.String,java.lang.String)</genericname>
+      <retclass>ConditionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ConditionModel getCondition(FieldModel field,String value)</serialno>
+      <method>getCondition</method>
+      <name>ConditionModel getCondition(FieldModel field,String value)</name>
+      <genericname>public com.siqiansoft.framework.model.db.ConditionModel com.siqiansoft.framework.util.ConditionUtil.getCondition(com.siqiansoft.framework.model.view.FieldModel,java.lang.String)</genericname>
+      <retclass>ConditionModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ConditionModel[] createConditions(String fieldid,GridModel grid,HashMap data)</serialno>
+      <method>createConditions</method>
+      <name>ConditionModel[] createConditions(String fieldid,GridModel grid,HashMap data)</name>
+      <genericname>public com.siqiansoft.framework.model.db.ConditionModel[] com.siqiansoft.framework.util.ConditionUtil.createConditions(java.lang.String,com.siqiansoft.framework.model.grid.GridModel,java.util.HashMap) throws com.siqiansoft.framework.exception.NullOptException</genericname>
+      <retclass>ConditionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>data</code>
+          <name>data</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ConditionModel[] createConditions(HashMap map)</serialno>
+      <method>createConditions</method>
+      <name>ConditionModel[] createConditions(HashMap map)</name>
+      <genericname>public static com.siqiansoft.framework.model.db.ConditionModel[] com.siqiansoft.framework.util.ConditionUtil.createConditions(java.util.HashMap)</genericname>
+      <retclass>ConditionModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getHiddenOptValue(ConditionModel[] cs,String field)</serialno>
+      <method>getHiddenOptValue</method>
+      <name>String getHiddenOptValue(ConditionModel[] cs,String field)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.ConditionUtil.getHiddenOptValue(com.siqiansoft.framework.model.db.ConditionModel[],java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>cs</code>
+          <name>cs</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

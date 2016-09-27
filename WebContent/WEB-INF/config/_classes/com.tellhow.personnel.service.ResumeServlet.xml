@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.service.ResumeServlet</classname>
+  <code>ResumeServlet</code>
+  <name>ResumeServlet</name>
+  <packages>com.tellhow.personnel.service</packages>
+  <type>biz</type>
+  <crc>{MD5}pkMEpc5kxda3sHqgeJmZDQ==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void doGet(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doGet</method>
+      <name>void doGet(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeServlet.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void doPost(HttpServletRequest request,HttpServletResponse response)</serialno>
+      <method>doPost</method>
+      <name>void doPost(HttpServletRequest request,HttpServletResponse response)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeServlet.doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletRequest</type>
+          <code>request</code>
+          <name>request</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void render(HttpServletResponse response,String content)</serialno>
+      <method>render</method>
+      <name>void render(HttpServletResponse response,String content)</name>
+      <genericname>public void com.tellhow.personnel.service.ResumeServlet.render(javax.servlet.http.HttpServletResponse,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpServletResponse</type>
+          <code>response</code>
+          <name>response</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findarticlevo(String resumeid)</serialno>
+      <method>findarticlevo</method>
+      <name>List findarticlevo(String resumeid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.ArticleVo&gt; com.tellhow.personnel.service.ResumeServlet.findarticlevo(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

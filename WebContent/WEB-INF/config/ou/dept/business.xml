@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>tree</code>
+    <name>部门树查询</name>
+    <type>dboperand</type>
+    <operand>QUERY</operand>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+    <script>select code as EAPID,pcode as EAPPID,name as EAPTITLE from eap_department order by sn</script>
+    <metadata>EAP_DEPARTMENT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_department</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+    <metadata>EAP_DEPARTMENT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>fetch.eap_department</code>
+    <name>读取</name>
+    <type>dboperand</type>
+    <operand>FETCH</operand>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+    <metadata>EAP_DEPARTMENT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>dict</code>
+    <name>字典转换</name>
+    <type>dboperand</type>
+    <operand>QUERY</operand>
+    <catalog>system</catalog>
+    <item>EAP_DEPARTMENT</item>
+    <script>select code as EAPKEY,NAME AS EAPVALUE from eap_department</script>
+    <params>code</params>
+    <metadata>EAP_DEPARTMENT</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.createDept</code>
+    <name>createDept</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>createDept</item>
+    <script>void createDept(DepartmentModel dept)</script>
+    <params>dept</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.updateDept</code>
+    <name>updateDept</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>updateDept</item>
+    <script>void updateDept(DepartmentModel dept)</script>
+    <params>dept</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.deleteDepts</code>
+    <name>deleteDepts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>deleteDepts</item>
+    <script>void deleteDepts(String orgCode,String[] depts)</script>
+    <params>orgCode,depts</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>down</item>
+    <script>void down(String orgCode,String parent,String deptCode)</script>
+    <params>orgCode,parent,deptCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>up</item>
+    <script>void up(String orgCode,String parent,String deptCode)</script>
+    <params>orgCode,parent,deptCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.getDeptTree</code>
+    <name>getDeptTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>getDeptTree</item>
+    <script>NodeModel getDeptTree(LoginModel login,String box)</script>
+    <params>login,box</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>DepartmentBo.getOrganizeTree</code>
+    <name>getOrganizeTree</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.ou.bo.DepartmentBo</catalog>
+    <item>getOrganizeTree</item>
+    <script>NodeModel getOrganizeTree(String orgCode,String timeslice,String href)</script>
+    <params>orgCode,timeslice,href</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

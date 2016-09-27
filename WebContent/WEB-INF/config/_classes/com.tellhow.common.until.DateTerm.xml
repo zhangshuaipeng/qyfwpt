@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.DateTerm</classname>
+  <code>DateTerm</code>
+  <name>DateTerm</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}ZmaonBBMetlgqf8yruPZdw==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String toString()</serialno>
+      <method>toString</method>
+      <name>String toString()</name>
+      <genericname>public java.lang.String com.tellhow.common.until.DateTerm.toString()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEnddate(String enddate)</serialno>
+      <method>setEnddate</method>
+      <name>void setEnddate(String enddate)</name>
+      <genericname>public void com.tellhow.common.until.DateTerm.setEnddate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>enddate</code>
+          <name>enddate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStartdate()</serialno>
+      <method>getStartdate</method>
+      <name>String getStartdate()</name>
+      <genericname>public java.lang.String com.tellhow.common.until.DateTerm.getStartdate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStartdate(String startdate)</serialno>
+      <method>setStartdate</method>
+      <name>void setStartdate(String startdate)</name>
+      <genericname>public void com.tellhow.common.until.DateTerm.setStartdate(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>startdate</code>
+          <name>startdate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEnddate()</serialno>
+      <method>getEnddate</method>
+      <name>String getEnddate()</name>
+      <genericname>public java.lang.String com.tellhow.common.until.DateTerm.getEnddate()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

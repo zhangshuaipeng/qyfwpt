@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.grid.GridBo</classname>
+  <code>GridBo</code>
+  <name>GridBo</name>
+  <packages>com.siqiansoft.platform.view.bo.grid</packages>
+  <type>biz</type>
+  <crc>{MD5}7P60WDpFQxkzaAvLUhkS7g==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>GridModel getGrid(String system,String module,String gridid)</serialno>
+      <method>getGrid</method>
+      <name>GridModel getGrid(String system,String module,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.GridModel com.siqiansoft.platform.view.bo.grid.GridBo.getGrid(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>GridModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GridModel[] listGrids(String system,String module)</serialno>
+      <method>listGrids</method>
+      <name>GridModel[] listGrids(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.GridModel[] com.siqiansoft.platform.view.bo.grid.GridBo.listGrids(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>GridModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addGrid(String system,String module,GridModel grid)</serialno>
+      <method>addGrid</method>
+      <name>void addGrid(String system,String module,GridModel grid)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.GridBo.addGrid(java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateGrid(String system,String module,GridModel grid)</serialno>
+      <method>updateGrid</method>
+      <name>void updateGrid(String system,String module,GridModel grid)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.GridBo.updateGrid(java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteGrids(String system,String module,String[] selected)</serialno>
+      <method>deleteGrids</method>
+      <name>void deleteGrids(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.grid.GridBo.deleteGrids(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void writeGrid(String system,String module,GridModel grid)</serialno>
+      <method>writeGrid</method>
+      <name>void writeGrid(String system,String module,GridModel grid)</name>
+      <genericname>public static void com.siqiansoft.platform.view.bo.grid.GridBo.writeGrid(java.lang.String,java.lang.String,com.siqiansoft.framework.model.grid.GridModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>GridModel</type>
+          <code>grid</code>
+          <name>grid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

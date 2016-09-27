@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.RandomUtil</classname>
+  <code>RandomUtil</code>
+  <name>RandomUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}0sDNK/+uBoIyAc+rQmEgUQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String createRandomString(int nLen)</serialno>
+      <method>createRandomString</method>
+      <name>String createRandomString(int nLen)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.RandomUtil.createRandomString(int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nLen</code>
+          <name>nLen</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createRandomLetter(int nLen)</serialno>
+      <method>createRandomLetter</method>
+      <name>String createRandomLetter(int nLen)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.RandomUtil.createRandomLetter(int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nLen</code>
+          <name>nLen</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createRandomNumber(int nLen)</serialno>
+      <method>createRandomNumber</method>
+      <name>String createRandomNumber(int nLen)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.RandomUtil.createRandomNumber(int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nLen</code>
+          <name>nLen</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

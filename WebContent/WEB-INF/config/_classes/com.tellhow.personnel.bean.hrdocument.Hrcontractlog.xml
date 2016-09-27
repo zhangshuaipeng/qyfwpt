@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.personnel.bean.hrdocument.Hrcontractlog</classname>
+  <code>Hrcontractlog</code>
+  <name>Hrcontractlog</name>
+  <packages>com.tellhow.personnel.bean.hrdocument</packages>
+  <type>biz</type>
+  <crc>{MD5}UARPhgZt02WBj4GA4nlW+Q==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>long getReason()</serialno>
+      <method>getReason</method>
+      <name>long getReason()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getReason()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRemark()</serialno>
+      <method>getRemark</method>
+      <name>String getRemark()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getRemark()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setResumeid(long resumeid)</serialno>
+      <method>setResumeid</method>
+      <name>void setResumeid(long resumeid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setResumeid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getResumeid()</serialno>
+      <method>getResumeid</method>
+      <name>long getResumeid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getResumeid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPost()</serialno>
+      <method>getPost</method>
+      <name>String getPost()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getPost()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRemark(String remark)</serialno>
+      <method>setRemark</method>
+      <name>void setRemark(String remark)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setRemark(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>remark</code>
+          <name>remark</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCompany(long company)</serialno>
+      <method>setCompany</method>
+      <name>void setCompany(long company)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setCompany(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>company</code>
+          <name>company</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getCompany()</serialno>
+      <method>getCompany</method>
+      <name>long getCompany()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getCompany()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStarttime()</serialno>
+      <method>getStarttime</method>
+      <name>String getStarttime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getStarttime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEndtime()</serialno>
+      <method>getEndtime</method>
+      <name>String getEndtime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getEndtime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStarttime(String starttime)</serialno>
+      <method>setStarttime</method>
+      <name>void setStarttime(String starttime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setStarttime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>starttime</code>
+          <name>starttime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEndtime(String endtime)</serialno>
+      <method>setEndtime</method>
+      <name>void setEndtime(String endtime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setEndtime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endtime</code>
+          <name>endtime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDept(long dept)</serialno>
+      <method>setDept</method>
+      <name>void setDept(long dept)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setDept(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>dept</code>
+          <name>dept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPost(String post)</serialno>
+      <method>setPost</method>
+      <name>void setPost(String post)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setPost(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>post</code>
+          <name>post</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(long reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(long reason)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setReason(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAddyear()</serialno>
+      <method>getAddyear</method>
+      <name>String getAddyear()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getAddyear()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAddyear(String addyear)</serialno>
+      <method>setAddyear</method>
+      <name>void setAddyear(String addyear)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setAddyear(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>addyear</code>
+          <name>addyear</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperatime()</serialno>
+      <method>getOperatime</method>
+      <name>String getOperatime()</name>
+      <genericname>public java.lang.String com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getOperatime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperatime(String operatime)</serialno>
+      <method>setOperatime</method>
+      <name>void setOperatime(String operatime)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setOperatime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operatime</code>
+          <name>operatime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getHrcontrantlogid()</serialno>
+      <method>getHrcontrantlogid</method>
+      <name>long getHrcontrantlogid()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getHrcontrantlogid()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setHrcontrantlogid(long hrcontrantlogid)</serialno>
+      <method>setHrcontrantlogid</method>
+      <name>void setHrcontrantlogid(long hrcontrantlogid)</name>
+      <genericname>public void com.tellhow.personnel.bean.hrdocument.Hrcontractlog.setHrcontrantlogid(long)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>hrcontrantlogid</code>
+          <name>hrcontrantlogid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getDept()</serialno>
+      <method>getDept</method>
+      <name>long getDept()</name>
+      <genericname>public long com.tellhow.personnel.bean.hrdocument.Hrcontractlog.getDept()</genericname>
+      <retclass>long</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

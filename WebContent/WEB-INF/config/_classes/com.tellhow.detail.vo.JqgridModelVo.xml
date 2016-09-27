@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.detail.vo.JqgridModelVo</classname>
+  <code>JqgridModelVo</code>
+  <name>JqgridModelVo</name>
+  <packages>com.tellhow.detail.vo</packages>
+  <type>pojo</type>
+  <crc>{MD5}VbsqF9O0GhF0zh3c8PBFzQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getReason()</serialno>
+      <method>getReason</method>
+      <name>String getReason()</name>
+      <genericname>public java.lang.String com.tellhow.detail.vo.JqgridModelVo.getReason()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getDispatchdept()</serialno>
+      <method>getDispatchdept</method>
+      <name>int getDispatchdept()</name>
+      <genericname>public int com.tellhow.detail.vo.JqgridModelVo.getDispatchdept()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getJqgridModel()</serialno>
+      <method>getJqgridModel</method>
+      <name>String getJqgridModel()</name>
+      <genericname>public java.lang.String com.tellhow.detail.vo.JqgridModelVo.getJqgridModel()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getSid()</serialno>
+      <method>getSid</method>
+      <name>int getSid()</name>
+      <genericname>public int com.tellhow.detail.vo.JqgridModelVo.getSid()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setJqgridModel(String jqgridModel)</serialno>
+      <method>setJqgridModel</method>
+      <name>void setJqgridModel(String jqgridModel)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setJqgridModel(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>jqgridModel</code>
+          <name>jqgridModel</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSid(int sid)</serialno>
+      <method>setSid</method>
+      <name>void setSid(int sid)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setSid(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>sid</code>
+          <name>sid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgreemen()</serialno>
+      <method>getAgreemen</method>
+      <name>String getAgreemen()</name>
+      <genericname>public java.lang.String com.tellhow.detail.vo.JqgridModelVo.getAgreemen()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgreemen(String agreemen)</serialno>
+      <method>setAgreemen</method>
+      <name>void setAgreemen(String agreemen)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setAgreemen(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agreemen</code>
+          <name>agreemen</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAgreetime()</serialno>
+      <method>getAgreetime</method>
+      <name>String getAgreetime()</name>
+      <genericname>public java.lang.String com.tellhow.detail.vo.JqgridModelVo.getAgreetime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAgreetime(String agreetime)</serialno>
+      <method>setAgreetime</method>
+      <name>void setAgreetime(String agreetime)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setAgreetime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>agreetime</code>
+          <name>agreetime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDispatchdept(int dispatchdept)</serialno>
+      <method>setDispatchdept</method>
+      <name>void setDispatchdept(int dispatchdept)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setDispatchdept(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>dispatchdept</code>
+          <name>dispatchdept</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPlanno()</serialno>
+      <method>getPlanno</method>
+      <name>String getPlanno()</name>
+      <genericname>public java.lang.String com.tellhow.detail.vo.JqgridModelVo.getPlanno()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPlanno(String planno)</serialno>
+      <method>setPlanno</method>
+      <name>void setPlanno(String planno)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setPlanno(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>planno</code>
+          <name>planno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReason(String reason)</serialno>
+      <method>setReason</method>
+      <name>void setReason(String reason)</name>
+      <genericname>public void com.tellhow.detail.vo.JqgridModelVo.setReason(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>reason</code>
+          <name>reason</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>jqgridmodel</code>
+      <name>jqgridModel</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sid</code>
+      <name>sid</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>agreemen</code>
+      <name>agreemen</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>agreetime</code>
+      <name>agreetime</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>dispatchdept</code>
+      <name>dispatchdept</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>planno</code>
+      <name>planno</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>reason</code>
+      <name>reason</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>系统类别树</name>
+    <imgpath></imgpath>
+    <target>FRAME1</target>
+    <runurl>Y</runurl>
+    <nodes>
+      <business>DictionaryBo.getSystemDictTree</business>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

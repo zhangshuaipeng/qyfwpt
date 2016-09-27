@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.portal.bo.LayoutBo</classname>
+  <code>LayoutBo</code>
+  <name>LayoutBo</name>
+  <packages>com.siqiansoft.portal.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}ovgdgU2xqpxfdCBiLlm/0Q==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel getLayout(String code)</serialno>
+      <method>getLayout</method>
+      <name>LayoutModel getLayout(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.LayoutModel com.siqiansoft.portal.bo.LayoutBo.getLayout(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addContainer(String layout,ContainerModel con)</serialno>
+      <method>addContainer</method>
+      <name>void addContainer(String layout,ContainerModel con)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.addContainer(java.lang.String,com.siqiansoft.framework.model.portal.ContainerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ContainerModel</type>
+          <code>con</code>
+          <name>con</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel[] listLayouts()</serialno>
+      <method>listLayouts</method>
+      <name>LayoutModel[] listLayouts()</name>
+      <genericname>public com.siqiansoft.framework.model.portal.LayoutModel[] com.siqiansoft.portal.bo.LayoutBo.listLayouts() throws java.lang.Exception</genericname>
+      <retclass>LayoutModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveLayout(LayoutModel layout)</serialno>
+      <method>saveLayout</method>
+      <name>void saveLayout(LayoutModel layout)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.saveLayout(com.siqiansoft.framework.model.portal.LayoutModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateLayout(LayoutModel layout)</serialno>
+      <method>updateLayout</method>
+      <name>void updateLayout(LayoutModel layout)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.updateLayout(com.siqiansoft.framework.model.portal.LayoutModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteLayouts(String[] selected)</serialno>
+      <method>deleteLayouts</method>
+      <name>void deleteLayouts(String[] selected)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.deleteLayouts(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ContainerModel[] listContainers(String layout)</serialno>
+      <method>listContainers</method>
+      <name>ContainerModel[] listContainers(String layout)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.ContainerModel[] com.siqiansoft.portal.bo.LayoutBo.listContainers(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ContainerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateContainer(String layout,ContainerModel con)</serialno>
+      <method>updateContainer</method>
+      <name>void updateContainer(String layout,ContainerModel con)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.updateContainer(java.lang.String,com.siqiansoft.framework.model.portal.ContainerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ContainerModel</type>
+          <code>con</code>
+          <name>con</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteContainer(String layout,ContainerModel con)</serialno>
+      <method>deleteContainer</method>
+      <name>void deleteContainer(String layout,ContainerModel con)</name>
+      <genericname>public void com.siqiansoft.portal.bo.LayoutBo.deleteContainer(java.lang.String,com.siqiansoft.framework.model.portal.ContainerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ContainerModel</type>
+          <code>con</code>
+          <name>con</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getLayoutIcon()</serialno>
+      <method>getLayoutIcon</method>
+      <name>ItemModel[] getLayoutIcon()</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.portal.bo.LayoutBo.getLayoutIcon() throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

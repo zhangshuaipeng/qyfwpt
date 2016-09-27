@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.BSFUtil</classname>
+  <code>BSFUtil</code>
+  <name>BSFUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}ZXAmAD8GgEL7OwGMoTfnNA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object createArray(String className,int length)</serialno>
+      <method>createArray</method>
+      <name>Object createArray(String className,int length)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFUtil.createArray(java.lang.String,int) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>length</code>
+          <name>length</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getReturnObject()</serialno>
+      <method>getReturnObject</method>
+      <name>Object getReturnObject()</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFUtil.getReturnObject()</genericname>
+      <retclass>Object</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setReturnObject(Object obj)</serialno>
+      <method>setReturnObject</method>
+      <name>void setReturnObject(Object obj)</name>
+      <genericname>public void com.siqiansoft.commons.BSFUtil.setReturnObject(java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object getArrayByIndex(Object array,int index)</serialno>
+      <method>getArrayByIndex</method>
+      <name>Object getArrayByIndex(Object array,int index)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFUtil.getArrayByIndex(java.lang.Object,int)</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>array</code>
+          <name>array</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setArrayAt(Object array,int index,Object obj)</serialno>
+      <method>setArrayAt</method>
+      <name>void setArrayAt(Object array,int index,Object obj)</name>
+      <genericname>public void com.siqiansoft.commons.BSFUtil.setArrayAt(java.lang.Object,int,java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>array</code>
+          <name>array</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>index</code>
+          <name>index</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>obj</code>
+          <name>obj</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object createArrays(String className,int[] dimensions)</serialno>
+      <method>createArrays</method>
+      <name>Object createArrays(String className,int[] dimensions)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFUtil.createArrays(java.lang.String,int[]) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int[]</type>
+          <code>dimensions</code>
+          <name>dimensions</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object convertObjectType(String newType,Object value)</serialno>
+      <method>convertObjectType</method>
+      <name>Object convertObjectType(String newType,Object value)</name>
+      <genericname>public java.lang.Object com.siqiansoft.commons.BSFUtil.convertObjectType(java.lang.String,java.lang.Object) throws java.lang.Exception</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newType</code>
+          <name>newType</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

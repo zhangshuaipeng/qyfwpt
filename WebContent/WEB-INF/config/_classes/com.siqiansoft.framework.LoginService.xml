@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.LoginService</classname>
+  <code>LoginService</code>
+  <name>LoginService</name>
+  <packages>com.siqiansoft.framework</packages>
+  <type>biz</type>
+  <crc>{MD5}5QDv2Zebqb3DZt32rRpVhA==</crc>
+  <modifytime>2013-06-16 23:41:06</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>DomainModel getDomain(String forward)</serialno>
+      <method>getDomain</method>
+      <name>DomainModel getDomain(String forward)</name>
+      <genericname>public com.siqiansoft.framework.model.DomainModel com.siqiansoft.framework.LoginService.getDomain(java.lang.String)</genericname>
+      <retclass>DomainModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>forward</code>
+          <name>forward</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMapAccounts(LoginModel login,DomainModel domain)</serialno>
+      <method>getMapAccounts</method>
+      <name>String getMapAccounts(LoginModel login,DomainModel domain)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.LoginService.getMapAccounts(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.DomainModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>DomainModel</type>
+          <code>domain</code>
+          <name>domain</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createToken(String account,String orgCode)</serialno>
+      <method>createToken</method>
+      <name>String createToken(String account,String orgCode)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.LoginService.createToken(java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>account</code>
+          <name>account</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existAccount(LoginModel login,DomainModel domain,String account)</serialno>
+      <method>existAccount</method>
+      <name>boolean existAccount(LoginModel login,DomainModel domain,String account)</name>
+      <genericname>public boolean com.siqiansoft.framework.LoginService.existAccount(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.DomainModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>DomainModel</type>
+          <code>domain</code>
+          <name>domain</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>account</code>
+          <name>account</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String verifyAccount(String key)</serialno>
+      <method>verifyAccount</method>
+      <name>String verifyAccount(String key)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.LoginService.verifyAccount(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getSwitchAccounts(String uid,String url)</serialno>
+      <method>getSwitchAccounts</method>
+      <name>String[][] getSwitchAccounts(String uid,String url)</name>
+      <genericname>public java.lang.String[][] com.siqiansoft.framework.LoginService.getSwitchAccounts(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>uid</code>
+          <name>uid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>url</code>
+          <name>url</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

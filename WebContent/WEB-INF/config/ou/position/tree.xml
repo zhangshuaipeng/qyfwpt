@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.tree.TreeModel-array>
+  <model.tree.TreeModel>
+    <code>tree</code>
+    <name>岗位树</name>
+    <target>FRAME1</target>
+    <nodes>
+      <business>PositionBo.getPositionTree</business>
+      <params>orgcode</params>
+    </nodes>
+  </model.tree.TreeModel>
+</model.tree.TreeModel-array>

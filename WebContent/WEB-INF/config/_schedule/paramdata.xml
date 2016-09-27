@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.ScheduleModel>
+  <code>paramdata</code>
+  <name>企业性质字典数据同步</name>
+  <cycle>hour</cycle>
+  <status>enable</status>
+  <script>importClass(Packages.com.siqiansoft.framework.bo.DatabaseBo);&#xd;
+importClass(Packages.java.util.HashMap);&#xd;
+&#xd;
+var dbo = new DatabaseBo();&#xd;
+dbo.setDsn(&quot;approval&quot;);&#xd;
+var list = dbo.prepareUpdate(&quot;delete from BZS_PROJECTPARAM&quot;,null);&#xd;
+&#xd;
+var dbo1 = new DatabaseBo();&#xd;
+dbo1.setDsn(&quot;system&quot;);&#xd;
+var list = dbo1.query(&quot;select * from BZS_PROJECTPARAM&quot;);&#xd;
+if(list.size()&gt;0){&#xd;
+	for(var i=0;i&lt;list.size();i++){                &#xd;
+        var paramid = list.get(i).get(&quot;PARAMID&quot;);&#xd;
+		var paramname = list.get(i).get(&quot;PARAMNAME&quot;);&#xd;
+		var category = list.get(i).get(&quot;CATEGORY&quot;);&#xd;
+		var sortnumber = list.get(i).get(&quot;SORTNUMBER&quot;);&#xd;
+		var ishidden = list.get(i).get(&quot;ISHIDDEN&quot;);&#xd;
+		var map = new HashMap();&#xd;
+                map.put(&quot;paramid&quot;,paramid);&#xd;
+		map.put(&quot;paramname&quot;,paramname);&#xd;
+		map.put(&quot;category&quot;,category);&#xd;
+		map.put(&quot;sortnumber&quot;,sortnumber);&#xd;
+		map.put(&quot;ishidden&quot;,ishidden);&#xd;
+		dbo.insert(map, &quot;BZS_PROJECTPARAM&quot;);&#xd;
+	}&#xd;
+}</script>
+  <starttime>2013-09-01 00:00:00</starttime>
+</model.ScheduleModel>

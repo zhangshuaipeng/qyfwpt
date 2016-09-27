@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.ControllerBo</classname>
+  <code>ControllerBo</code>
+  <name>ControllerBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}c1539eONGdBnIgeMIgB3uQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel getController(String system,String module,String code)</serialno>
+      <method>getController</method>
+      <name>ControllerModel getController(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ControllerModel com.siqiansoft.platform.view.bo.ControllerBo.getController(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ControllerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addController(String system,String module,ControllerModel ctl)</serialno>
+      <method>addController</method>
+      <name>void addController(String system,String module,ControllerModel ctl)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.addController(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.ControllerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>ctl</code>
+          <name>ctl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void down(String system,String module,String code)</serialno>
+      <method>down</method>
+      <name>void down(String system,String module,String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.down(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String system,String module,String code)</serialno>
+      <method>up</method>
+      <name>void up(String system,String module,String code)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.up(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnSubmit(String system,String module,String action)</serialno>
+      <method>getOnSubmit</method>
+      <name>HandlerModel getOnSubmit(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.platform.view.bo.ControllerBo.getOnSubmit(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel[] listControllers(String system,String module)</serialno>
+      <method>listControllers</method>
+      <name>ControllerModel[] listControllers(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ControllerModel[] com.siqiansoft.platform.view.bo.ControllerBo.listControllers(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ControllerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateController(String system,String module,ControllerModel ctl)</serialno>
+      <method>updateController</method>
+      <name>void updateController(String system,String module,ControllerModel ctl)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.updateController(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.ControllerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel</type>
+          <code>ctl</code>
+          <name>ctl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveOnSubmit(String system,String module,String action,HandlerModel handler)</serialno>
+      <method>saveOnSubmit</method>
+      <name>void saveOnSubmit(String system,String module,String action,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.saveOnSubmit(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void clearOnSubmit(String system,String module,String action)</serialno>
+      <method>clearOnSubmit</method>
+      <name>void clearOnSubmit(String system,String module,String action)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.clearOnSubmit(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteControllers(String system,String module,String[] selected)</serialno>
+      <method>deleteControllers</method>
+      <name>void deleteControllers(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.deleteControllers(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldSetModel[] getImpFieldset(String system,String module,String cmd)</serialno>
+      <method>getImpFieldset</method>
+      <name>FieldSetModel[] getImpFieldset(String system,String module,String cmd)</name>
+      <genericname>public com.siqiansoft.framework.model.view.FieldSetModel[] com.siqiansoft.platform.view.bo.ControllerBo.getImpFieldset(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>FieldSetModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cmd</code>
+          <name>cmd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldSetModel[] getExpFieldset(String system,String module,String cmd)</serialno>
+      <method>getExpFieldset</method>
+      <name>FieldSetModel[] getExpFieldset(String system,String module,String cmd)</name>
+      <genericname>public com.siqiansoft.framework.model.view.FieldSetModel[] com.siqiansoft.platform.view.bo.ControllerBo.getExpFieldset(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>FieldSetModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>cmd</code>
+          <name>cmd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NodeModel loadRightTree(String system,String module,String action,String role)</serialno>
+      <method>loadRightTree</method>
+      <name>NodeModel loadRightTree(String system,String module,String action,String role)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.platform.view.bo.ControllerBo.loadRightTree(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRights(String system,String module,String action,String role,HashMap map)</serialno>
+      <method>saveRights</method>
+      <name>void saveRights(String system,String module,String action,String role,HashMap map)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.saveRights(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDisplayScript(String system,String module,String action)</serialno>
+      <method>getDisplayScript</method>
+      <name>String getDisplayScript(String system,String module,String action)</name>
+      <genericname>public java.lang.String com.siqiansoft.platform.view.bo.ControllerBo.getDisplayScript(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveDisplayScript(String system,String module,String action,String script)</serialno>
+      <method>saveDisplayScript</method>
+      <name>void saveDisplayScript(String system,String module,String action,String script)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.saveDisplayScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>script</code>
+          <name>script</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listPush(String system,String module,String action)</serialno>
+      <method>listPush</method>
+      <name>HandlerModel[] listPush(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.platform.view.bo.ControllerBo.listPush(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePush(String system,String module,String action,HandlerModel handler)</serialno>
+      <method>updatePush</method>
+      <name>void updatePush(String system,String module,String action,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.updatePush(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel[] listPull(String system,String module,String action)</serialno>
+      <method>listPull</method>
+      <name>HandlerModel[] listPull(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel[] com.siqiansoft.platform.view.bo.ControllerBo.listPull(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HandlerModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updatePull(String system,String module,String action,HandlerModel handler)</serialno>
+      <method>updatePull</method>
+      <name>void updatePull(String system,String module,String action,HandlerModel handler)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.ControllerBo.updatePull(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.HandlerModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>handler</code>
+          <name>handler</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.FieldBo</classname>
+  <code>FieldBo</code>
+  <name>FieldBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}28PVRTWwAorNSZsQkLSrnA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>FieldModel getField(String system,String module,String page,String fieldid)</serialno>
+      <method>getField</method>
+      <name>FieldModel getField(String system,String module,String page,String fieldid)</name>
+      <genericname>public com.siqiansoft.framework.model.view.FieldModel com.siqiansoft.platform.view.bo.FieldBo.getField(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>FieldModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldModel[] getFields(MetaDataModel meta,FieldModel[] srcfields)</serialno>
+      <method>getFields</method>
+      <name>FieldModel[] getFields(MetaDataModel meta,FieldModel[] srcfields)</name>
+      <genericname>public static com.siqiansoft.framework.model.view.FieldModel[] com.siqiansoft.platform.view.bo.FieldBo.getFields(com.siqiansoft.framework.model.biz.MetaDataModel,com.siqiansoft.framework.model.view.FieldModel[]) throws java.lang.Exception</genericname>
+      <retclass>FieldModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>MetaDataModel</type>
+          <code>meta</code>
+          <name>meta</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>FieldModel[]</type>
+          <code>srcfields</code>
+          <name>srcfields</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addField(String system,String module,String page,FieldModel field)</serialno>
+      <method>addField</method>
+      <name>void addField(String system,String module,String page,FieldModel field)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.addField(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.FieldModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void down(String system,String module,String page,String fieldid)</serialno>
+      <method>down</method>
+      <name>void down(String system,String module,String page,String fieldid)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.down(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void up(String system,String module,String page,String fieldid)</serialno>
+      <method>up</method>
+      <name>void up(String system,String module,String page,String fieldid)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.up(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fieldid</code>
+          <name>fieldid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateField(String system,String module,String page,FieldModel field)</serialno>
+      <method>updateField</method>
+      <name>void updateField(String system,String module,String page,FieldModel field)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.updateField(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.FieldModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>FieldModel</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel[] getColumns(MetaDataModel meta)</serialno>
+      <method>getColumns</method>
+      <name>ColumnModel[] getColumns(MetaDataModel meta)</name>
+      <genericname>public static com.siqiansoft.framework.model.db.ColumnModel[] com.siqiansoft.platform.view.bo.FieldBo.getColumns(com.siqiansoft.framework.model.biz.MetaDataModel) throws java.lang.Exception</genericname>
+      <retclass>ColumnModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>MetaDataModel</type>
+          <code>meta</code>
+          <name>meta</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getAllFields(String system,String module,String templet)</serialno>
+      <method>getAllFields</method>
+      <name>ItemModel[] getAllFields(String system,String module,String templet)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.platform.view.bo.FieldBo.getAllFields(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FieldModel[] listFields(String system,String module,String code)</serialno>
+      <method>listFields</method>
+      <name>FieldModel[] listFields(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.view.FieldModel[] com.siqiansoft.platform.view.bo.FieldBo.listFields(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>FieldModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteField(String system,String module,String page,String field)</serialno>
+      <method>deleteField</method>
+      <name>void deleteField(String system,String module,String page,String field)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.deleteField(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>field</code>
+          <name>field</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteFields(String system,String module,String page,String[] selected)</serialno>
+      <method>deleteFields</method>
+      <name>void deleteFields(String system,String module,String page,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.FieldBo.deleteFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] listDicts(String system,String module,String ctltype)</serialno>
+      <method>listDicts</method>
+      <name>ItemModel[] listDicts(String system,String module,String ctltype)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.ItemModel[] com.siqiansoft.platform.view.bo.FieldBo.listDicts(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ctltype</code>
+          <name>ctltype</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

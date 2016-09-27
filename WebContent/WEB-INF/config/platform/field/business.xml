@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>FieldBo.getField</code>
+    <name>getField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>getField</item>
+    <script>FieldModel getField(String system,String module,String page,String fieldid)</script>
+    <params>system,module,page,fieldid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.getFields</code>
+    <name>getFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>getFields</item>
+    <script>FieldModel[] getFields(MetaDataModel meta,FieldModel[] srcfields)</script>
+    <params>meta,srcfields</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.addField</code>
+    <name>addField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>addField</item>
+    <script>void addField(String system,String module,String page,FieldModel field)</script>
+    <params>system,module,page,field</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.down</code>
+    <name>down</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>down</item>
+    <script>void down(String system,String module,String page,String fieldid)</script>
+    <params>system,module,page,fieldid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.up</code>
+    <name>up</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>up</item>
+    <script>void up(String system,String module,String page,String fieldid)</script>
+    <params>system,module,page,fieldid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.updateField</code>
+    <name>updateField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>updateField</item>
+    <script>void updateField(String system,String module,String page,FieldModel field)</script>
+    <params>system,module,page,field</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.listFields</code>
+    <name>listFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>listFields</item>
+    <script>FieldModel[] listFields(String system,String module,String code)</script>
+    <params>system,module,code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.deleteFields</code>
+    <name>deleteFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>deleteFields</item>
+    <script>void deleteFields(String system,String module,String page,String[] selected)</script>
+    <params>system,module,page,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.listDicts</code>
+    <name>listDicts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>listDicts</item>
+    <script>ItemModel[] listDicts(String system,String module,String ctltype)</script>
+    <params>system,module,ctltype</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.getAllFields</code>
+    <name>getAllFields</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>getAllFields</item>
+    <script>ItemModel[] getAllFields(String system,String module,String templet)</script>
+    <params>system,module,templet</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>FieldBo.deleteField</code>
+    <name>deleteField</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.FieldBo</catalog>
+    <item>deleteField</item>
+    <script>void deleteField(String system,String module,String page,String field)</script>
+    <params>system,module,page,field</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

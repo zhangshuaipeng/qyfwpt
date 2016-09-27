@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>DsnModel</code>
+    <name>数据源属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.db</catalog>
+    <item>DsnModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>TableModel</code>
+    <name>表属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.db</catalog>
+    <item>TableModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>ColumnModel</code>
+    <name>列属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.db</catalog>
+    <item>ColumnModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

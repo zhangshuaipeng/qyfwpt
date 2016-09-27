@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>retrieve.eap_instance</code>
+    <name>查询</name>
+    <type>dboperand</type>
+    <operand>RETRIEVE</operand>
+    <catalog>system</catalog>
+    <item>EAP_INSTANCE</item>
+    <metadata>EAP_INSTANCE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>abortwork</code>
+    <name>终止</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.runtime.FlowHandler</catalog>
+    <item>abortWork</item>
+    <script>void abortWork(String wid,LoginModel login)</script>
+    <params>wid,login</params>
+    <metadata>EAP_INSTANCE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>instancetree</code>
+    <name>流程实例树</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.bo.InstanceBo</catalog>
+    <item>getInstanceTree</item>
+    <script>NodeModel getInstanceTree(LoginModel login)</script>
+    <params>login</params>
+    <metadata>EAP_INSTANCE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>urgework</code>
+    <name>催办工作</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.workflow.runtime.FlowHandler</catalog>
+    <item>urgedWork</item>
+    <script>void urgedWork(String wid,LoginModel login)</script>
+    <params>wid,login</params>
+    <metadata>EAP_INSTANCE</metadata>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

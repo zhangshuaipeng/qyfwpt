@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.dict.ItemModel</classname>
+  <code>ItemModel</code>
+  <name>ItemModel</name>
+  <packages>com.siqiansoft.framework.model.dict</packages>
+  <type>pojo</type>
+  <crc>{MD5}6Aqn/lVJ0SzIhIlhOPpK7Q==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.dict.ItemModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getKey()</serialno>
+      <method>getKey</method>
+      <name>String getKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.dict.ItemModel.getKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.model.dict.ItemModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getComment()</serialno>
+      <method>getComment</method>
+      <name>String getComment()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.dict.ItemModel.getComment()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setComment(String comment)</serialno>
+      <method>setComment</method>
+      <name>void setComment(String comment)</name>
+      <genericname>public void com.siqiansoft.framework.model.dict.ItemModel.setComment(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>comment</code>
+          <name>comment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setKey(String key)</serialno>
+      <method>setKey</method>
+      <name>void setKey(String key)</name>
+      <genericname>public void com.siqiansoft.framework.model.dict.ItemModel.setKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>key</code>
+          <name>key</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAccessKey(String accesskey)</serialno>
+      <method>setAccessKey</method>
+      <name>void setAccessKey(String accesskey)</name>
+      <genericname>public void com.siqiansoft.framework.model.dict.ItemModel.setAccessKey(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>accesskey</code>
+          <name>accesskey</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAccessKey()</serialno>
+      <method>getAccessKey</method>
+      <name>String getAccessKey()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.dict.ItemModel.getAccessKey()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeprecated(String deprecated)</serialno>
+      <method>setDeprecated</method>
+      <name>void setDeprecated(String deprecated)</name>
+      <genericname>public void com.siqiansoft.framework.model.dict.ItemModel.setDeprecated(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deprecated</code>
+          <name>deprecated</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeprecated()</serialno>
+      <method>getDeprecated</method>
+      <name>String getDeprecated()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.dict.ItemModel.getDeprecated()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>key</code>
+      <name>key</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>value</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deprecated</code>
+      <name>deprecated</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>accesskey</code>
+      <name>accesskey</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>comment</code>
+      <name>comment</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

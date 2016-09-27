@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <system code="ou" name="组织用户管理"/>
+  <system code="platform" name="开发平台"/>
+  <system code="portal" name="portal门户系统"/>
+  <system code="workflow" name="工作流管理系统"/>
+</config>

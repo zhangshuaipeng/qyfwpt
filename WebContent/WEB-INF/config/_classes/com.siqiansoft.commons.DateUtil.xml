@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.DateUtil</classname>
+  <code>DateUtil</code>
+  <name>DateUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}nNWCEWX+nHiSKekS08Vvig==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.commons.DateUtil.main(java.lang.String[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTime(int format)</serialno>
+      <method>getTime</method>
+      <name>String getTime(int format)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.getTime(int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>format</code>
+          <name>format</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dateFormat(Date date,String dateFormat)</serialno>
+      <method>dateFormat</method>
+      <name>String dateFormat(Date date,String dateFormat)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.dateFormat(java.util.Date,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dateFormat</code>
+          <name>dateFormat</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date dateFormat(String date,String dateFormat)</serialno>
+      <method>dateFormat</method>
+      <name>Date dateFormat(String date,String dateFormat)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.dateFormat(java.lang.String,java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dateFormat</code>
+          <name>dateFormat</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date dateFormat(String date)</serialno>
+      <method>dateFormat</method>
+      <name>Date dateFormat(String date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.dateFormat(java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dateFormat(Date date)</serialno>
+      <method>dateFormat</method>
+      <name>String dateFormat(Date date)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.dateFormat(java.util.Date)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCurrentTime(String format)</serialno>
+      <method>getCurrentTime</method>
+      <name>String getCurrentTime(String format)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.getCurrentTime(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>format</code>
+          <name>format</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean compareDate(String date1,String date2)</serialno>
+      <method>compareDate</method>
+      <name>boolean compareDate(String date1,String date2)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.compareDate(java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>date1</code>
+          <name>date1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>date2</code>
+          <name>date2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getNextDay(Date date)</serialno>
+      <method>getNextDay</method>
+      <name>Date getNextDay(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getNextDay(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isToday(Date date)</serialno>
+      <method>isToday</method>
+      <name>boolean isToday(Date date)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.isToday(java.util.Date)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long DaysBetween(Date date1,Date date2)</serialno>
+      <method>DaysBetween</method>
+      <name>long DaysBetween(Date date1,Date date2)</name>
+      <genericname>public static long com.siqiansoft.commons.DateUtil.DaysBetween(java.util.Date,java.util.Date)</genericname>
+      <retclass>long</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date1</code>
+          <name>date1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date2</code>
+          <name>date2</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean compareDatetime(String beginTime,String endTime)</serialno>
+      <method>compareDatetime</method>
+      <name>boolean compareDatetime(String beginTime,String endTime)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.compareDatetime(java.lang.String,java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>beginTime</code>
+          <name>beginTime</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>endTime</code>
+          <name>endTime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean isExpiredDay(Date date1)</serialno>
+      <method>isExpiredDay</method>
+      <name>boolean isExpiredDay(Date date1)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.isExpiredDay(java.util.Date)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date1</code>
+          <name>date1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getYesterday(Date date)</serialno>
+      <method>getYesterday</method>
+      <name>Date getYesterday(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getYesterday(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getYesterday()</serialno>
+      <method>getYesterday</method>
+      <name>Date getYesterday()</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getYesterday()</genericname>
+      <retclass>Date</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getWeekAgo()</serialno>
+      <method>getWeekAgo</method>
+      <name>Date getWeekAgo()</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getWeekAgo()</genericname>
+      <retclass>Date</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getWeekAgo(Date date)</serialno>
+      <method>getWeekAgo</method>
+      <name>Date getWeekAgo(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getWeekAgo(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDaysAgo(int interval)</serialno>
+      <method>getDaysAgo</method>
+      <name>String getDaysAgo(int interval)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.getDaysAgo(int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getTomorrow(Date date1)</serialno>
+      <method>getTomorrow</method>
+      <name>Date getTomorrow(Date date1)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getTomorrow(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date1</code>
+          <name>date1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getTomorrow()</serialno>
+      <method>getTomorrow</method>
+      <name>Date getTomorrow()</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getTomorrow()</genericname>
+      <retclass>Date</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getBeforeDate(String range)</serialno>
+      <method>getBeforeDate</method>
+      <name>Date getBeforeDate(String range)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getBeforeDate(java.lang.String)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>range</code>
+          <name>range</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getThisWeekStartTime()</serialno>
+      <method>getThisWeekStartTime</method>
+      <name>Date getThisWeekStartTime()</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getThisWeekStartTime()</genericname>
+      <retclass>Date</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getStartDay(int year,int month)</serialno>
+      <method>getStartDay</method>
+      <name>Date getStartDay(int year,int month)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getStartDay(int,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>year</code>
+          <name>year</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>month</code>
+          <name>month</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List getBeforeYearList(int before)</serialno>
+      <method>getBeforeYearList</method>
+      <name>List getBeforeYearList(int before)</name>
+      <genericname>public static java.util.List&lt;java.lang.Integer&gt; com.siqiansoft.commons.DateUtil.getBeforeYearList(int)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>before</code>
+          <name>before</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDateTime(int interval,int nValue)</serialno>
+      <method>getDateTime</method>
+      <name>String getDateTime(int interval,int nValue)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.getDateTime(int,int)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>nValue</code>
+          <name>nValue</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date dateAdd(int interval,Date date,int n)</serialno>
+      <method>dateAdd</method>
+      <name>Date dateAdd(int interval,Date date,int n)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.dateAdd(int,java.util.Date,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>n</code>
+          <name>n</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int dateDiff(int interval,String begin,String end)</serialno>
+      <method>dateDiff</method>
+      <name>int dateDiff(int interval,String begin,String end)</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.dateDiff(int,java.lang.String,java.lang.String)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>begin</code>
+          <name>begin</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>end</code>
+          <name>end</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int dateDiff(int interval,Date begin,Date end)</serialno>
+      <method>dateDiff</method>
+      <name>int dateDiff(int interval,Date begin,Date end)</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.dateDiff(int,java.util.Date,java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>interval</code>
+          <name>interval</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>begin</code>
+          <name>begin</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>end</code>
+          <name>end</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTodayYear()</serialno>
+      <method>getTodayYear</method>
+      <name>int getTodayYear()</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.getTodayYear()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String dateFormatRss(Date date)</serialno>
+      <method>dateFormatRss</method>
+      <name>String dateFormatRss(Date date)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.dateFormatRss(java.util.Date)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean betweenStartDateAndEndDate(Date startDate,Date endDate)</serialno>
+      <method>betweenStartDateAndEndDate</method>
+      <name>boolean betweenStartDateAndEndDate(Date startDate,Date endDate)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.betweenStartDateAndEndDate(java.util.Date,java.util.Date)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>startDate</code>
+          <name>startDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>endDate</code>
+          <name>endDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean nowDateBetweenStartDateAndEndDate(Date startDate,Date endDate)</serialno>
+      <method>nowDateBetweenStartDateAndEndDate</method>
+      <name>boolean nowDateBetweenStartDateAndEndDate(Date startDate,Date endDate)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.nowDateBetweenStartDateAndEndDate(java.util.Date,java.util.Date)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>startDate</code>
+          <name>startDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>endDate</code>
+          <name>endDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean nowDateAfterDate(Date date)</serialno>
+      <method>nowDateAfterDate</method>
+      <name>boolean nowDateAfterDate(Date date)</name>
+      <genericname>public static boolean com.siqiansoft.commons.DateUtil.nowDateAfterDate(java.util.Date)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getBetweenTodaysStartDateAndEndDate(Date startDate,Date endDate)</serialno>
+      <method>getBetweenTodaysStartDateAndEndDate</method>
+      <name>int getBetweenTodaysStartDateAndEndDate(Date startDate,Date endDate)</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.getBetweenTodaysStartDateAndEndDate(java.util.Date,java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>startDate</code>
+          <name>startDate</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>endDate</code>
+          <name>endDate</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getUserAge(Date birthday)</serialno>
+      <method>getUserAge</method>
+      <name>int getUserAge(Date birthday)</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.getUserAge(java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>birthday</code>
+          <name>birthday</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getDateByUnixTime(int unixTime)</serialno>
+      <method>getDateByUnixTime</method>
+      <name>Date getDateByUnixTime(int unixTime)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getDateByUnixTime(int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>unixTime</code>
+          <name>unixTime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getUnixTimeByDate(Date date)</serialno>
+      <method>getUnixTimeByDate</method>
+      <name>int getUnixTimeByDate(Date date)</name>
+      <genericname>public static int com.siqiansoft.commons.DateUtil.getUnixTimeByDate(java.util.Date)</genericname>
+      <retclass>int</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date nextDay(Date date)</serialno>
+      <method>nextDay</method>
+      <name>Date nextDay(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.nextDay(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getNowTime()</serialno>
+      <method>getNowTime</method>
+      <name>Date getNowTime()</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getNowTime()</genericname>
+      <retclass>Date</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date getDatebyTime(Date date,int n)</serialno>
+      <method>getDatebyTime</method>
+      <name>Date getDatebyTime(Date date,int n)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.getDatebyTime(java.util.Date,int)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>n</code>
+          <name>n</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Date yesterday(Date date)</serialno>
+      <method>yesterday</method>
+      <name>Date yesterday(Date date)</name>
+      <genericname>public static java.util.Date com.siqiansoft.commons.DateUtil.yesterday(java.util.Date)</genericname>
+      <retclass>Date</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Date</type>
+          <code>date</code>
+          <name>date</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStringNowTime()</serialno>
+      <method>getStringNowTime</method>
+      <name>String getStringNowTime()</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.getStringNowTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>long getSpecifyTimeSec(long time,int range)</serialno>
+      <method>getSpecifyTimeSec</method>
+      <name>long getSpecifyTimeSec(long time,int range)</name>
+      <genericname>public static long com.siqiansoft.commons.DateUtil.getSpecifyTimeSec(long,int)</genericname>
+      <retclass>long</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>time</code>
+          <name>time</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>range</code>
+          <name>range</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String formatDateByUnixTime(long unixTime,String dateFormat)</serialno>
+      <method>formatDateByUnixTime</method>
+      <name>String formatDateByUnixTime(long unixTime,String dateFormat)</name>
+      <genericname>public static java.lang.String com.siqiansoft.commons.DateUtil.formatDateByUnixTime(long,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>unixTime</code>
+          <name>unixTime</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dateFormat</code>
+          <name>dateFormat</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

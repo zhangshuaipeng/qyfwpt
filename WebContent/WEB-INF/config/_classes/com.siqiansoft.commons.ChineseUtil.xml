@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.commons.ChineseUtil</classname>
+  <code>ChineseUtil</code>
+  <name>ChineseUtil</name>
+  <packages>com.siqiansoft.commons</packages>
+  <type>biz</type>
+  <crc>{MD5}y5yS5ZS1SblauDHwZ3hTzQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>boolean isChinese(char a)</serialno>
+      <method>isChinese</method>
+      <name>boolean isChinese(char a)</name>
+      <genericname>public static boolean com.siqiansoft.commons.ChineseUtil.isChinese(char)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>char</type>
+          <code>a</code>
+          <name>a</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean containsChinese(String s)</serialno>
+      <method>containsChinese</method>
+      <name>boolean containsChinese(String s)</name>
+      <genericname>public static boolean com.siqiansoft.commons.ChineseUtil.containsChinese(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>s</code>
+          <name>s</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

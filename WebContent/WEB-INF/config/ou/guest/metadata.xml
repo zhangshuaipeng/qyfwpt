@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_ACCOUNT</code>
+    <name>账号表</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_ACCOUNT</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>AccountModel</code>
+    <name>账号属性类</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.ou.model</catalog>
+    <item>AccountModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

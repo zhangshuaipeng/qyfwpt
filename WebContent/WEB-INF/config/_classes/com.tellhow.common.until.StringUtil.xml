@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.common.until.StringUtil</classname>
+  <code>StringUtil</code>
+  <name>StringUtil</name>
+  <packages>com.tellhow.common.until</packages>
+  <type>biz</type>
+  <crc>{MD5}N8PEloVislQjXtgug1rNdg==</crc>
+  <modifytime>2013-11-06 14:12:42</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String removeHTML(String str,boolean addSpace)</serialno>
+      <method>removeHTML</method>
+      <name>String removeHTML(String str,boolean addSpace)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.StringUtil.removeHTML(java.lang.String,boolean)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>addSpace</code>
+          <name>addSpace</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String removeHTML(String str)</serialno>
+      <method>removeHTML</method>
+      <name>String removeHTML(String str)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.StringUtil.removeHTML(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>str</code>
+          <name>str</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String removeKeyWords(String keywords)</serialno>
+      <method>removeKeyWords</method>
+      <name>String removeKeyWords(String keywords)</name>
+      <genericname>public static java.lang.String com.tellhow.common.until.StringUtil.removeKeyWords(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>keywords</code>
+          <name>keywords</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] parseWords(String keywords)</serialno>
+      <method>parseWords</method>
+      <name>String[] parseWords(String keywords)</name>
+      <genericname>public static java.lang.String[] com.tellhow.common.until.StringUtil.parseWords(java.lang.String)</genericname>
+      <retclass>String[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>keywords</code>
+          <name>keywords</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

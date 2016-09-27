@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.SessionServlet</classname>
+  <code>SessionServlet</code>
+  <name>SessionServlet</name>
+  <packages>com.siqiansoft.framework</packages>
+  <type>biz</type>
+  <crc>{MD5}IKWG7VsJLONZOKm098762Q==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void attributeRemoved(HttpSessionBindingEvent e)</serialno>
+      <method>attributeRemoved</method>
+      <name>void attributeRemoved(HttpSessionBindingEvent e)</name>
+      <genericname>public void com.siqiansoft.framework.SessionServlet.attributeRemoved(javax.servlet.http.HttpSessionBindingEvent)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpSessionBindingEvent</type>
+          <code>e</code>
+          <name>e</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void attributeReplaced(HttpSessionBindingEvent e)</serialno>
+      <method>attributeReplaced</method>
+      <name>void attributeReplaced(HttpSessionBindingEvent e)</name>
+      <genericname>public void com.siqiansoft.framework.SessionServlet.attributeReplaced(javax.servlet.http.HttpSessionBindingEvent)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpSessionBindingEvent</type>
+          <code>e</code>
+          <name>e</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void attributeAdded(HttpSessionBindingEvent e)</serialno>
+      <method>attributeAdded</method>
+      <name>void attributeAdded(HttpSessionBindingEvent e)</name>
+      <genericname>public void com.siqiansoft.framework.SessionServlet.attributeAdded(javax.servlet.http.HttpSessionBindingEvent)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpSessionBindingEvent</type>
+          <code>e</code>
+          <name>e</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void sessionCreated(HttpSessionEvent arg0)</serialno>
+      <method>sessionCreated</method>
+      <name>void sessionCreated(HttpSessionEvent arg0)</name>
+      <genericname>public void com.siqiansoft.framework.SessionServlet.sessionCreated(javax.servlet.http.HttpSessionEvent)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpSessionEvent</type>
+          <code>arg0</code>
+          <name>arg0</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void sessionDestroyed(HttpSessionEvent arg0)</serialno>
+      <method>sessionDestroyed</method>
+      <name>void sessionDestroyed(HttpSessionEvent arg0)</name>
+      <genericname>public void com.siqiansoft.framework.SessionServlet.sessionDestroyed(javax.servlet.http.HttpSessionEvent)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HttpSessionEvent</type>
+          <code>arg0</code>
+          <name>arg0</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

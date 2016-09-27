@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.biz.GridHandler</classname>
+  <code>GridHandler</code>
+  <name>GridHandler</name>
+  <packages>com.siqiansoft.framework.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}E8TDdzRDuTKhvr0NMy4rmQ==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Object query(PagingModel pageCtl,ConditionModel[] conds)</serialno>
+      <method>query</method>
+      <name>Object query(PagingModel pageCtl,ConditionModel[] conds)</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.biz.GridHandler.query(com.siqiansoft.framework.model.PagingModel,com.siqiansoft.framework.model.db.ConditionModel[]) throws com.siqiansoft.framework.exception.GridException</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>conds</code>
+          <name>conds</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Object initGrid(ConditionModel[] conds)</serialno>
+      <method>initGrid</method>
+      <name>Object initGrid(ConditionModel[] conds)</name>
+      <genericname>public java.lang.Object com.siqiansoft.framework.biz.GridHandler.initGrid(com.siqiansoft.framework.model.db.ConditionModel[]) throws com.siqiansoft.framework.exception.GridException</genericname>
+      <retclass>Object</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ConditionModel[]</type>
+          <code>conds</code>
+          <name>conds</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

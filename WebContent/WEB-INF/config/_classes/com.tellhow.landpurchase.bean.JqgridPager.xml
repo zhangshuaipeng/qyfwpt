@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.bean.JqgridPager</classname>
+  <code>JqgridPager</code>
+  <name>JqgridPager</name>
+  <packages>com.tellhow.landpurchase.bean</packages>
+  <type>biz</type>
+  <crc>{MD5}Nj2D5KUx1mdpJ/Dlp/qIUA==</crc>
+  <modifytime>2013-05-21 11:24:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getTotal()</serialno>
+      <method>getTotal</method>
+      <name>int getTotal()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getTotal()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getFrom()</serialno>
+      <method>getFrom</method>
+      <name>int getFrom()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getFrom()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTo()</serialno>
+      <method>getTo</method>
+      <name>int getTo()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getTo()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPage()</serialno>
+      <method>getPage</method>
+      <name>int getPage()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getPage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRows()</serialno>
+      <method>getRows</method>
+      <name>int getRows()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getRows()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTotalpage()</serialno>
+      <method>getTotalpage</method>
+      <name>int getTotalpage()</name>
+      <genericname>public int com.tellhow.landpurchase.bean.JqgridPager.getTotalpage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTotal(Object oTotal)</serialno>
+      <method>setTotal</method>
+      <name>void setTotal(Object oTotal)</name>
+      <genericname>public void com.tellhow.landpurchase.bean.JqgridPager.setTotal(java.lang.Object)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Object</type>
+          <code>oTotal</code>
+          <name>oTotal</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrderby()</serialno>
+      <method>getOrderby</method>
+      <name>String getOrderby()</name>
+      <genericname>public java.lang.String com.tellhow.landpurchase.bean.JqgridPager.getOrderby()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

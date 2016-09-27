@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>BizInterfaceBo.getInterfaces</code>
+    <name>getInterfaces</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.BizInterfaceBo</catalog>
+    <item>getInterfaces</item>
+    <script>ItemModel[] getInterfaces()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BizInterfaceBo.getScript</code>
+    <name>getScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.BizInterfaceBo</catalog>
+    <item>getScript</item>
+    <script>String getScript(String iCode)</script>
+    <params>iCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BizInterfaceBo.saveScript</code>
+    <name>saveScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.BizInterfaceBo</catalog>
+    <item>saveScript</item>
+    <script>void saveScript(String iCode,String script)</script>
+    <params>iCode,script</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>BizInterfaceBo.clearScript</code>
+    <name>clearScript</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.bo.BizInterfaceBo</catalog>
+    <item>clearScript</item>
+    <script>void clearScript(String iCode)</script>
+    <params>iCode</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

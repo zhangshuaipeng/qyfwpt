@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.model.AccountModel</classname>
+  <code>AccountModel</code>
+  <name>AccountModel</name>
+  <packages>com.siqiansoft.ou.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}MvisM8qvcxBYJHDT7TveEQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getType()</serialno>
+      <method>getType</method>
+      <name>String getType()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getType()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setType(String type)</serialno>
+      <method>setType</method>
+      <name>void setType(String type)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setType(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>type</code>
+          <name>type</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRank()</serialno>
+      <method>getRank</method>
+      <name>String getRank()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getRank()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getStatus()</serialno>
+      <method>getStatus</method>
+      <name>String getStatus()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getStatus()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setStatus(String status)</serialno>
+      <method>setStatus</method>
+      <name>void setStatus(String status)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setStatus(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>status</code>
+          <name>status</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgCode()</serialno>
+      <method>getOrgCode</method>
+      <name>String getOrgCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getOrgCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOrgCode(String orgcode)</serialno>
+      <method>setOrgCode</method>
+      <name>void setOrgCode(String orgcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setOrgCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgcode</code>
+          <name>orgcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPK()</serialno>
+      <method>getPK</method>
+      <name>int getPK()</name>
+      <genericname>public int com.siqiansoft.ou.model.AccountModel.getPK()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setModifyTime(String modifytime)</serialno>
+      <method>setModifyTime</method>
+      <name>void setModifyTime(String modifytime)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setModifyTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>modifytime</code>
+          <name>modifytime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getModifyTime()</serialno>
+      <method>getModifyTime</method>
+      <name>String getModifyTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getModifyTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTimeSlice(String timeslice)</serialno>
+      <method>setTimeSlice</method>
+      <name>void setTimeSlice(String timeslice)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setTimeSlice(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>timeslice</code>
+          <name>timeslice</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTimeSlice()</serialno>
+      <method>getTimeSlice</method>
+      <name>String getTimeSlice()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getTimeSlice()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPersonCode(String personcode)</serialno>
+      <method>setPersonCode</method>
+      <name>void setPersonCode(String personcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setPersonCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>personcode</code>
+          <name>personcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPersonCode()</serialno>
+      <method>getPersonCode</method>
+      <name>String getPersonCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getPersonCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDeptCode(String deptcode)</serialno>
+      <method>setDeptCode</method>
+      <name>void setDeptCode(String deptcode)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setDeptCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>deptcode</code>
+          <name>deptcode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getDeptCode()</serialno>
+      <method>getDeptCode</method>
+      <name>String getDeptCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getDeptCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRank(String rank)</serialno>
+      <method>setRank</method>
+      <name>void setRank(String rank)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setRank(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rank</code>
+          <name>rank</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPK(int pk)</serialno>
+      <method>setPK</method>
+      <name>void setPK(int pk)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setPK(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pk</code>
+          <name>pk</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSN(int sn)</serialno>
+      <method>setSN</method>
+      <name>void setSN(int sn)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setSN(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>sn</code>
+          <name>sn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getSN()</serialno>
+      <method>getSN</method>
+      <name>int getSN()</name>
+      <genericname>public int com.siqiansoft.ou.model.AccountModel.getSN()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getPwd()</serialno>
+      <method>getPwd</method>
+      <name>String getPwd()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getPwd()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPwd(String pwd)</serialno>
+      <method>setPwd</method>
+      <name>void setPwd(String pwd)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setPwd(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pwd</code>
+          <name>pwd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getEmployeeNo()</serialno>
+      <method>getEmployeeNo</method>
+      <name>String getEmployeeNo()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getEmployeeNo()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWelcomePage()</serialno>
+      <method>getWelcomePage</method>
+      <name>String getWelcomePage()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getWelcomePage()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setEmployeeNo(String employeeno)</serialno>
+      <method>setEmployeeNo</method>
+      <name>void setEmployeeNo(String employeeno)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setEmployeeNo(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>employeeno</code>
+          <name>employeeno</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWelcomePage(String welcomepage)</serialno>
+      <method>setWelcomePage</method>
+      <name>void setWelcomePage(String welcomepage)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setWelcomePage(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>welcomepage</code>
+          <name>welcomepage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSkinId(String skinid)</serialno>
+      <method>setSkinId</method>
+      <name>void setSkinId(String skinid)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setSkinId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>skinid</code>
+          <name>skinid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSkinId()</serialno>
+      <method>getSkinId</method>
+      <name>String getSkinId()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getSkinId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLangId(String langid)</serialno>
+      <method>setLangId</method>
+      <name>void setLangId(String langid)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setLangId(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>langid</code>
+          <name>langid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLangId()</serialno>
+      <method>getLangId</method>
+      <name>String getLangId()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getLangId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setLoginTime(String logintime)</serialno>
+      <method>setLoginTime</method>
+      <name>void setLoginTime(String logintime)</name>
+      <genericname>public void com.siqiansoft.ou.model.AccountModel.setLoginTime(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>logintime</code>
+          <name>logintime</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLoginTime()</serialno>
+      <method>getLoginTime</method>
+      <name>String getLoginTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.ou.model.AccountModel.getLoginTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>pk</code>
+      <name>记录号</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>22</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>orgcode</code>
+      <name>组织号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>deptcode</code>
+      <name>部门号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>编码</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>名称</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>128</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>timeslice</code>
+      <name>时间戳</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rank</code>
+      <name>职务</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>1</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>employeeno</code>
+      <name>工号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>welcomepage</code>
+      <name>当前模板</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>64</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>skinid</code>
+      <name>当前皮肤</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>langid</code>
+      <name>默认语种</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>status</code>
+      <name>状态</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>1</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pwd</code>
+      <name>pwd</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>sn</code>
+      <name>顺序号</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>22</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>personcode</code>
+      <name>人员流水号</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>32</length>
+      <precision>0</precision>
+      <mandatory>NO</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>type</code>
+      <name>帐号类型</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>1</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>logintime</code>
+      <name>最近登陆时间</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>19</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>modifytime</code>
+      <name>修改时间</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>19</length>
+      <precision>0</precision>
+      <mandatory>YES</mandatory>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

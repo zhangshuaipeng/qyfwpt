@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.StyleModel</classname>
+  <code>StyleModel</code>
+  <name>StyleModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}l5q/fME4tx9PC6YotPmf5g==</crc>
+  <modifytime>2013-06-16 23:41:08</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setColor(String color)</serialno>
+      <method>setColor</method>
+      <name>void setColor(String color)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>color</code>
+          <name>color</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWidth()</serialno>
+      <method>getWidth</method>
+      <name>String getWidth()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getWidth()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getColor()</serialno>
+      <method>getColor</method>
+      <name>String getColor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFontSize(String fontsize)</serialno>
+      <method>setFontSize</method>
+      <name>void setFontSize(String fontsize)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setFontSize(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>fontsize</code>
+          <name>fontsize</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWidth(String width)</serialno>
+      <method>setWidth</method>
+      <name>void setWidth(String width)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setWidth(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>width</code>
+          <name>width</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAlign()</serialno>
+      <method>getAlign</method>
+      <name>String getAlign()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getAlign()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAlign(String align)</serialno>
+      <method>setAlign</method>
+      <name>void setAlign(String align)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setAlign(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>align</code>
+          <name>align</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getWeight()</serialno>
+      <method>getWeight</method>
+      <name>String getWeight()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getWeight()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setWeight(String weight)</serialno>
+      <method>setWeight</method>
+      <name>void setWeight(String weight)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setWeight(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>weight</code>
+          <name>weight</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNewLine()</serialno>
+      <method>getNewLine</method>
+      <name>String getNewLine()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getNewLine()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNewLine(String newline)</serialno>
+      <method>setNewLine</method>
+      <name>void setNewLine(String newline)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setNewLine(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>newline</code>
+          <name>newline</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFontSize()</serialno>
+      <method>getFontSize</method>
+      <name>String getFontSize()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getFontSize()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBkColor(String bkcolor)</serialno>
+      <method>setBkColor</method>
+      <name>void setBkColor(String bkcolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setBkColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>bkcolor</code>
+          <name>bkcolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getBkColor()</serialno>
+      <method>getBkColor</method>
+      <name>String getBkColor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getBkColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitleColor(String titlecolor)</serialno>
+      <method>setTitleColor</method>
+      <name>void setTitleColor(String titlecolor)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setTitleColor(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>titlecolor</code>
+          <name>titlecolor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitleColor()</serialno>
+      <method>getTitleColor</method>
+      <name>String getTitleColor()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getTitleColor()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTitleIcon(String titleicon)</serialno>
+      <method>setTitleIcon</method>
+      <name>void setTitleIcon(String titleicon)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.StyleModel.setTitleIcon(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>titleicon</code>
+          <name>titleicon</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTitleIcon()</serialno>
+      <method>getTitleIcon</method>
+      <name>String getTitleIcon()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.StyleModel.getTitleIcon()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>newline</code>
+      <name>newline</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>fontsize</code>
+      <name>fontsize</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>color</code>
+      <name>color</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>weight</code>
+      <name>weight</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>bkcolor</code>
+      <name>bkcolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>titlecolor</code>
+      <name>titlecolor</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>titleicon</code>
+      <name>titleicon</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>width</code>
+      <name>width</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>align</code>
+      <name>align</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

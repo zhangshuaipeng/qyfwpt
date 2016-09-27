@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.investment.dao.impl.ProgressBoImpl</classname>
+  <code>ProgressBoImpl</code>
+  <name>ProgressBoImpl</name>
+  <packages>com.tellhow.investment.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}HL/GtMS/0/YVoZtB5SsJBQ==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProgress(long projectid)</serialno>
+      <method>retrieveProgress</method>
+      <name>List retrieveProgress(long projectid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.bean.Progress&gt; com.tellhow.investment.dao.impl.ProgressBoImpl.retrieveProgress(long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateProgress(Progress progress)</serialno>
+      <method>updateProgress</method>
+      <name>void updateProgress(Progress progress)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProgressBoImpl.updateProgress(com.tellhow.investment.bean.Progress) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Progress</type>
+          <code>progress</code>
+          <name>progress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addProgress(Progress progress)</serialno>
+      <method>addProgress</method>
+      <name>void addProgress(Progress progress)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProgressBoImpl.addProgress(com.tellhow.investment.bean.Progress) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Progress</type>
+          <code>progress</code>
+          <name>progress</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteProgress(long progressid)</serialno>
+      <method>deleteProgress</method>
+      <name>void deleteProgress(long progressid)</name>
+      <genericname>public void com.tellhow.investment.dao.impl.ProgressBoImpl.deleteProgress(long) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>Progress fetchNextProgress(long projectid)</serialno>
+      <method>fetchNextProgress</method>
+      <name>Progress fetchNextProgress(long projectid)</name>
+      <genericname>public com.tellhow.investment.bean.Progress com.tellhow.investment.dao.impl.ProgressBoImpl.fetchNextProgress(long) throws java.lang.Exception</genericname>
+      <retclass>Progress</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProgressList(long projectid)</serialno>
+      <method>retrieveProgressList</method>
+      <name>List retrieveProgressList(long projectid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.investment.vo.ProgressVo&gt; com.tellhow.investment.dao.impl.ProgressBoImpl.retrieveProgressList(long) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>ScheduleBo.updateSchedule</code>
+    <name>updateSchedule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.ScheduleBo</catalog>
+    <item>updateSchedule</item>
+    <script>void updateSchedule(ScheduleModel schedule)</script>
+    <params>schedule</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ScheduleBo.getSchedules</code>
+    <name>getSchedules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.ScheduleBo</catalog>
+    <item>getSchedules</item>
+    <script>ScheduleModel[] getSchedules()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ScheduleBo.getSchedule</code>
+    <name>getSchedule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.ScheduleBo</catalog>
+    <item>getSchedule</item>
+    <script>ScheduleModel getSchedule(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ScheduleBo.saveSchedule</code>
+    <name>saveSchedule</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.ScheduleBo</catalog>
+    <item>saveSchedule</item>
+    <script>void saveSchedule(ScheduleModel schedule)</script>
+    <params>schedule</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ScheduleBo.deleteSchedules</code>
+    <name>deleteSchedules</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.message.ScheduleBo</catalog>
+    <item>deleteSchedules</item>
+    <script>void deleteSchedules(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ScheduleUtil.runService</code>
+    <name>runService</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.framework.schedule.ScheduleUtil</catalog>
+    <item>runService</item>
+    <script>void runService(String script)</script>
+    <params>script</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

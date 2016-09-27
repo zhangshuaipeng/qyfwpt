@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.landpurchase.service.LandManageService</classname>
+  <code>LandManageService</code>
+  <name>LandManageService</name>
+  <packages>com.tellhow.landpurchase.service</packages>
+  <type>biz</type>
+  <crc>{MD5}PXW04bK58Q1v9IllBqqVdw==</crc>
+  <modifytime>2013-11-06 14:12:44</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>List retrieveLandProgressByPage(JqgridPager pager,String projectid)</serialno>
+      <method>retrieveLandProgressByPage</method>
+      <name>List retrieveLandProgressByPage(JqgridPager pager,String projectid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.landpurchase.vo.JqgridProgressVo&gt; com.tellhow.landpurchase.service.LandManageService.retrieveLandProgressByPage(com.tellhow.jqgrid.bean.JqgridPager,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>JqgridPager</type>
+          <code>pager</code>
+          <name>pager</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProgressEditVo fetchProgressEdit(String progressid)</serialno>
+      <method>fetchProgressEdit</method>
+      <name>ProgressEditVo fetchProgressEdit(String progressid)</name>
+      <genericname>public com.tellhow.landpurchase.vo.ProgressEditVo com.tellhow.landpurchase.service.LandManageService.fetchProgressEdit(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ProgressEditVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>progressid</code>
+          <name>progressid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TrackProgressVo trackProgress(String projectid)</serialno>
+      <method>trackProgress</method>
+      <name>TrackProgressVo trackProgress(String projectid)</name>
+      <genericname>public com.tellhow.landpurchase.vo.TrackProgressVo com.tellhow.landpurchase.service.LandManageService.trackProgress(java.lang.String)</genericname>
+      <retclass>TrackProgressVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List retrieveProject(LoginModel login,RequestModel req,PagingModel pageCtl)</serialno>
+      <method>retrieveProject</method>
+      <name>List retrieveProject(LoginModel login,RequestModel req,PagingModel pageCtl)</name>
+      <genericname>public java.util.List&lt;com.tellhow.landpurchase.vo.LandProjectVo&gt; com.tellhow.landpurchase.service.LandManageService.retrieveProject(com.siqiansoft.framework.model.LoginModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.PagingModel)</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>RequestModel</type>
+          <code>req</code>
+          <name>req</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PagingModel</type>
+          <code>pageCtl</code>
+          <name>pageCtl</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProjectEditVo fetchProjectEdit(String projectid)</serialno>
+      <method>fetchProjectEdit</method>
+      <name>ProjectEditVo fetchProjectEdit(String projectid)</name>
+      <genericname>public com.tellhow.landpurchase.vo.ProjectEditVo com.tellhow.landpurchase.service.LandManageService.fetchProjectEdit(java.lang.String)</genericname>
+      <retclass>ProjectEditVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>projectid</code>
+          <name>projectid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateLandProgress(ProgressEditVo ev)</serialno>
+      <method>updateLandProgress</method>
+      <name>void updateLandProgress(ProgressEditVo ev)</name>
+      <genericname>public void com.tellhow.landpurchase.service.LandManageService.updateLandProgress(com.tellhow.landpurchase.vo.ProgressEditVo) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProgressEditVo</type>
+          <code>ev</code>
+          <name>ev</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

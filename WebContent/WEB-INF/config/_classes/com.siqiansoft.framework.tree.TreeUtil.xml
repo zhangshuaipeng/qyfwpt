@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.tree.TreeUtil</classname>
+  <code>TreeUtil</code>
+  <name>TreeUtil</name>
+  <packages>com.siqiansoft.framework.tree</packages>
+  <type>biz</type>
+  <crc>{MD5}u1suhl9Z4oJ4Z30ebtWfmw==</crc>
+  <modifytime>2013-01-08 17:37:35</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>loadTree(TreeModel,RequestModel,LoginModel)</serialno>
+      <method>loadTree</method>
+      <name>loadTree(TreeModel,RequestModel,LoginModel)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.framework.tree.TreeUtil.loadTree(com.siqiansoft.framework.model.tree.TreeModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>com.siqiansoft.framework.model.tree.NodeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.tree.TreeModel</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.RequestModel</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.LoginModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>getSubTreeNode(TreeModel,RequestModel,LoginModel)</serialno>
+      <method>getSubTreeNode</method>
+      <name>getSubTreeNode(TreeModel,RequestModel,LoginModel)</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel[] com.siqiansoft.framework.tree.TreeUtil.getSubTreeNode(com.siqiansoft.framework.model.tree.TreeModel,com.siqiansoft.framework.model.RequestModel,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>[Lcom.siqiansoft.framework.model.tree.NodeModel;</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.tree.TreeModel</type>
+          <name>p1</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.RequestModel</type>
+          <name>p2</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>com.siqiansoft.framework.model.LoginModel</type>
+          <name>p3</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>getTreeXmlFile()</serialno>
+      <method>getTreeXmlFile</method>
+      <name>getTreeXmlFile()</name>
+      <genericname>public static com.siqiansoft.framework.model.tree.NodeModel com.siqiansoft.framework.tree.TreeUtil.getTreeXmlFile() throws java.lang.Exception</genericname>
+      <retclass>com.siqiansoft.framework.model.tree.NodeModel</retclass>
+      <arguments/>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

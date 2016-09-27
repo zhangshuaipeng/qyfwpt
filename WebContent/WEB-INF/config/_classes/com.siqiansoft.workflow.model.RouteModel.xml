@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.model.RouteModel</classname>
+  <code>RouteModel</code>
+  <name>RouteModel</name>
+  <packages>com.siqiansoft.workflow.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}aB8+pQlcpVaf8TkJF2g8YA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getName()</serialno>
+      <method>getName</method>
+      <name>String getName()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.RouteModel.getName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setName(String name)</serialno>
+      <method>setName</method>
+      <name>void setName(String name)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setName(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getMap()</serialno>
+      <method>getMap</method>
+      <name>String getMap()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.RouteModel.getMap()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCode()</serialno>
+      <method>getCode</method>
+      <name>String getCode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.RouteModel.getCode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCode(String code)</serialno>
+      <method>setCode</method>
+      <name>void setCode(String code)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setCode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNextNode()</serialno>
+      <method>getNextNode</method>
+      <name>String getNextNode()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.RouteModel.getNextNode()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setMap(String map)</serialno>
+      <method>setMap</method>
+      <name>void setMap(String map)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setMap(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>map</code>
+          <name>map</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getRule()</serialno>
+      <method>getRule</method>
+      <name>String getRule()</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.model.RouteModel.getRule()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRule(String rule)</serialno>
+      <method>setRule</method>
+      <name>void setRule(String rule)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setRule(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNextNode(String nextnode)</serialno>
+      <method>setNextNode</method>
+      <name>void setNextNode(String nextnode)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setNextNode(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextnode</code>
+          <name>nextnode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnCommit()</serialno>
+      <method>getOnCommit</method>
+      <name>HandlerModel getOnCommit()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.RouteModel.getOnCommit()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HandlerModel getOnBeforeSelectActor()</serialno>
+      <method>getOnBeforeSelectActor</method>
+      <name>HandlerModel getOnBeforeSelectActor()</name>
+      <genericname>public com.siqiansoft.framework.model.view.HandlerModel com.siqiansoft.workflow.model.RouteModel.getOnBeforeSelectActor()</genericname>
+      <retclass>HandlerModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnCommit(HandlerModel oncommit)</serialno>
+      <method>setOnCommit</method>
+      <name>void setOnCommit(HandlerModel oncommit)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setOnCommit(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>oncommit</code>
+          <name>oncommit</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOnBeforeSelectActor(HandlerModel onbeforeselectactor)</serialno>
+      <method>setOnBeforeSelectActor</method>
+      <name>void setOnBeforeSelectActor(HandlerModel onbeforeselectactor)</name>
+      <genericname>public void com.siqiansoft.workflow.model.RouteModel.setOnBeforeSelectActor(com.siqiansoft.framework.model.view.HandlerModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>HandlerModel</type>
+          <code>onbeforeselectactor</code>
+          <name>onbeforeselectactor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>code</code>
+      <name>code</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>name</code>
+      <name>name</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>nextnode</code>
+      <name>nextnode</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>map</code>
+      <name>map</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rule</code>
+      <name>rule</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

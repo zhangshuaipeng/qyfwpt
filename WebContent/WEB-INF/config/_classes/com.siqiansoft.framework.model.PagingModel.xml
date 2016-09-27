@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.PagingModel</classname>
+  <code>PagingModel</code>
+  <name>PagingModel</name>
+  <packages>com.siqiansoft.framework.model</packages>
+  <type>pojo</type>
+  <crc>{MD5}zdWgkVOe9TZAlJRUjvaMHw==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>int getFrom()</serialno>
+      <method>getFrom</method>
+      <name>int getFrom()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getFrom()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrom(int from)</serialno>
+      <method>setFrom</method>
+      <name>void setFrom(int from)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setFrom(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>from</code>
+          <name>from</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTo()</serialno>
+      <method>getTo</method>
+      <name>int getTo()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getTo()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTo(int to)</serialno>
+      <method>setTo</method>
+      <name>void setTo(int to)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setTo(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>to</code>
+          <name>to</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPageCount()</serialno>
+      <method>getPageCount</method>
+      <name>int getPageCount()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getPageCount()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCurPage(int curpage)</serialno>
+      <method>setCurPage</method>
+      <name>void setCurPage(int curpage)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setCurPage(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>curpage</code>
+          <name>curpage</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getCurPage()</serialno>
+      <method>getCurPage</method>
+      <name>int getCurPage()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getCurPage()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageRows(int pagerows)</serialno>
+      <method>setPageRows</method>
+      <name>void setPageRows(int pagerows)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setPageRows(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pagerows</code>
+          <name>pagerows</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRowsCount(int rowscount)</serialno>
+      <method>setRowsCount</method>
+      <name>void setRowsCount(int rowscount)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setRowsCount(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>rowscount</code>
+          <name>rowscount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getRowsCount()</serialno>
+      <method>getRowsCount</method>
+      <name>int getRowsCount()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getRowsCount()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setPageCount(int pagecount)</serialno>
+      <method>setPageCount</method>
+      <name>void setPageCount(int pagecount)</name>
+      <genericname>public void com.siqiansoft.framework.model.PagingModel.setPageCount(int)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>int</type>
+          <code>pagecount</code>
+          <name>pagecount</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getPageRows()</serialno>
+      <method>getPageRows</method>
+      <name>int getPageRows()</name>
+      <genericname>public int com.siqiansoft.framework.model.PagingModel.getPageRows()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>from</code>
+      <name>from</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>to</code>
+      <name>to</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>rowscount</code>
+      <name>rowscount</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>curpage</code>
+      <name>curpage</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pagecount</code>
+      <name>pagecount</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>pagerows</code>
+      <name>pagerows</name>
+      <datatype>0</datatype>
+      <typename>INTEGER</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

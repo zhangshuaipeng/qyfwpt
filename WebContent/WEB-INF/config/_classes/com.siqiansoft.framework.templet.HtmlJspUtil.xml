@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.templet.HtmlJspUtil</classname>
+  <code>HtmlJspUtil</code>
+  <name>HtmlJspUtil</name>
+  <packages>com.siqiansoft.framework.templet</packages>
+  <type>biz</type>
+  <crc>{MD5}JVlKd5+Jdr3P75tCxkmUsA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.templet.HtmlJspUtil.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String translateJSP(String systemId,String module,String content,PageModel page,TempletModel templet,ControllerModel[] controls)</serialno>
+      <method>translateJSP</method>
+      <name>String translateJSP(String systemId,String module,String content,PageModel page,TempletModel templet,ControllerModel[] controls)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.templet.HtmlJspUtil.translateJSP(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.PageModel,com.siqiansoft.framework.model.view.TempletModel,com.siqiansoft.framework.model.view.ControllerModel[]) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemId</code>
+          <name>systemId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>content</code>
+          <name>content</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>PageModel</type>
+          <code>page</code>
+          <name>page</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TempletModel</type>
+          <code>templet</code>
+          <name>templet</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ControllerModel[]</type>
+          <code>controls</code>
+          <name>controls</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getHtmlTags(String html)</serialno>
+      <method>getHtmlTags</method>
+      <name>ArrayList getHtmlTags(String html)</name>
+      <genericname>public static java.util.ArrayList&lt;java.lang.String&gt; com.siqiansoft.framework.templet.HtmlJspUtil.getHtmlTags(java.lang.String)</genericname>
+      <retclass>ArrayList</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>html</code>
+          <name>html</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

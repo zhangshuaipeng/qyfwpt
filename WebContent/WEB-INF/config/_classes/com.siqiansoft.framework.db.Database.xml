@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.db.Database</classname>
+  <code>Database</code>
+  <name>Database</name>
+  <packages>com.siqiansoft.framework.db</packages>
+  <type>biz</type>
+  <crc>{MD5}WZvfjzkctxPT0K0O3pq8kA==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getTables()</serialno>
+      <method>getTables</method>
+      <name>ArrayList getTables()</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.Database.getTables() throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void exportTables(String dsn)</serialno>
+      <method>exportTables</method>
+      <name>void exportTables(String dsn)</name>
+      <genericname>public void com.siqiansoft.framework.db.Database.exportTables(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void exportViews(String dsn)</serialno>
+      <method>exportViews</method>
+      <name>void exportViews(String dsn)</name>
+      <genericname>public void com.siqiansoft.framework.db.Database.exportViews(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createRecordLock()</serialno>
+      <method>createRecordLock</method>
+      <name>void createRecordLock()</name>
+      <genericname>public void com.siqiansoft.framework.db.Database.createRecordLock() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ArrayList getViews()</serialno>
+      <method>getViews</method>
+      <name>ArrayList getViews()</name>
+      <genericname>public java.util.ArrayList&lt;java.util.HashMap&lt;java.lang.String, java.lang.String&gt;&gt; com.siqiansoft.framework.db.Database.getViews() throws java.lang.Exception</genericname>
+      <retclass>ArrayList</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existTable(String table)</serialno>
+      <method>existTable</method>
+      <name>boolean existTable(String table)</name>
+      <genericname>public boolean com.siqiansoft.framework.db.Database.existTable(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

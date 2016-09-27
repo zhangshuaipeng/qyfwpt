@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.TreeBo</classname>
+  <code>TreeBo</code>
+  <name>TreeBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}/qkRyoK4gp5Lh23Y/3N6tQ==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>TreeModel getTree(String system,String module,String treeid)</serialno>
+      <method>getTree</method>
+      <name>TreeModel getTree(String system,String module,String treeid)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.TreeModel com.siqiansoft.platform.view.bo.TreeBo.getTree(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TreeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TreeModel[] listTrees(String system,String module)</serialno>
+      <method>listTrees</method>
+      <name>TreeModel[] listTrees(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.TreeModel[] com.siqiansoft.platform.view.bo.TreeBo.listTrees(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>TreeModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addTree(String system,String module,TreeModel tree)</serialno>
+      <method>addTree</method>
+      <name>void addTree(String system,String module,TreeModel tree)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TreeBo.addTree(java.lang.String,java.lang.String,com.siqiansoft.framework.model.tree.TreeModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TreeModel</type>
+          <code>tree</code>
+          <name>tree</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateTree(String system,String module,TreeModel tree)</serialno>
+      <method>updateTree</method>
+      <name>void updateTree(String system,String module,TreeModel tree)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TreeBo.updateTree(java.lang.String,java.lang.String,com.siqiansoft.framework.model.tree.TreeModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TreeModel</type>
+          <code>tree</code>
+          <name>tree</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteTrees(String system,String module,String[] selected)</serialno>
+      <method>deleteTrees</method>
+      <name>void deleteTrees(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TreeBo.deleteTrees(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemDefineModel getNodesDefine(String system,String module,String treeid)</serialno>
+      <method>getNodesDefine</method>
+      <name>ItemDefineModel getNodesDefine(String system,String module,String treeid)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.ItemDefineModel com.siqiansoft.platform.view.bo.TreeBo.getNodesDefine(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemDefineModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateNodesDefine(String system,String module,String treeid,ItemDefineModel item)</serialno>
+      <method>updateNodesDefine</method>
+      <name>void updateNodesDefine(String system,String module,String treeid,ItemDefineModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TreeBo.updateNodesDefine(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.tree.ItemDefineModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemDefineModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemDefineModel getNextNodeDefine(String system,String module,String treeid)</serialno>
+      <method>getNextNodeDefine</method>
+      <name>ItemDefineModel getNextNodeDefine(String system,String module,String treeid)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.ItemDefineModel com.siqiansoft.platform.view.bo.TreeBo.getNextNodeDefine(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ItemDefineModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateNextNodeDefine(String system,String module,String treeid,ItemDefineModel item)</serialno>
+      <method>updateNextNodeDefine</method>
+      <name>void updateNextNodeDefine(String system,String module,String treeid,ItemDefineModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.TreeBo.updateNextNodeDefine(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.tree.ItemDefineModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ItemDefineModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.AppData</classname>
+  <code>AppData</code>
+  <name>AppData</name>
+  <packages>com.siqiansoft.framework</packages>
+  <type>biz</type>
+  <crc>{MD5}LbWR51sIeWK7k/nFFe7LSg==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>HashMap getInterfaces()</serialno>
+      <method>getInterfaces</method>
+      <name>HashMap getInterfaces()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.framework.AppData.getInterfaces()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void load(String contextPath)</serialno>
+      <method>load</method>
+      <name>void load(String contextPath)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.load(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>contextPath</code>
+          <name>contextPath</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ControllerModel getController(String system,String module,String action)</serialno>
+      <method>getController</method>
+      <name>ControllerModel getController(String system,String module,String action)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ControllerModel com.siqiansoft.framework.AppData.getController(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>ControllerModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>MetaDataModel getMetaData(String system,String module,String code)</serialno>
+      <method>getMetaData</method>
+      <name>MetaDataModel getMetaData(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.MetaDataModel com.siqiansoft.framework.AppData.getMetaData(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>MetaDataModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addTable(String dsn,TableModel table)</serialno>
+      <method>addTable</method>
+      <name>void addTable(String dsn,TableModel table)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.addTable(java.lang.String,com.siqiansoft.framework.model.db.TableModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>TableModel</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getAllMetaData()</serialno>
+      <method>getAllMetaData</method>
+      <name>HashMap getAllMetaData()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.biz.MetaDataModel&gt; com.siqiansoft.framework.AppData.getAllMetaData()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getModules(String system)</serialno>
+      <method>getModules</method>
+      <name>ItemModel[] getModules(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.framework.AppData.getModules(java.lang.String)</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addVisitor(LoginModel login)</serialno>
+      <method>addVisitor</method>
+      <name>void addVisitor(LoginModel login)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.addVisitor(com.siqiansoft.framework.model.LoginModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>NavigatorModel getNavigator()</serialno>
+      <method>getNavigator</method>
+      <name>NavigatorModel getNavigator()</name>
+      <genericname>public com.siqiansoft.framework.model.NavigatorModel com.siqiansoft.framework.AppData.getNavigator()</genericname>
+      <retclass>NavigatorModel</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getContextPath()</serialno>
+      <method>getContextPath</method>
+      <name>String getContextPath()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getContextPath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addRole(ItemModel role)</serialno>
+      <method>addRole</method>
+      <name>void addRole(ItemModel role)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.addRole(com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRules()</serialno>
+      <method>getRules</method>
+      <name>HashMap getRules()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.RuleModel&gt; com.siqiansoft.framework.AppData.getRules()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel getRole(String code)</serialno>
+      <method>getRole</method>
+      <name>ItemModel getRole(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel com.siqiansoft.framework.AppData.getRole(java.lang.String)</genericname>
+      <retclass>ItemModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getView(String system,String module)</serialno>
+      <method>getView</method>
+      <name>ViewModel getView(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.framework.AppData.getView(java.lang.String,java.lang.String)</genericname>
+      <retclass>ViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>GridModel getGrid(String systemName,String moduleid,String gridid)</serialno>
+      <method>getGrid</method>
+      <name>GridModel getGrid(String systemName,String moduleid,String gridid)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.GridModel com.siqiansoft.framework.AppData.getGrid(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>GridModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>systemName</code>
+          <name>systemName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>moduleid</code>
+          <name>moduleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>gridid</code>
+          <name>gridid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getClusterId()</serialno>
+      <method>getClusterId</method>
+      <name>String getClusterId()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getClusterId()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSystemPath()</serialno>
+      <method>getSystemPath</method>
+      <name>String getSystemPath()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getSystemPath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean demoRun()</serialno>
+      <method>demoRun</method>
+      <name>boolean demoRun()</name>
+      <genericname>public boolean com.siqiansoft.framework.AppData.demoRun()</genericname>
+      <retclass>boolean</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getConfigItem(String configId,String catalog,String item)</serialno>
+      <method>getConfigItem</method>
+      <name>String getConfigItem(String configId,String catalog,String item)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getConfigItem(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>configId</code>
+          <name>configId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getTemplet(String code)</serialno>
+      <method>getTemplet</method>
+      <name>String getTemplet(String code)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getTemplet(java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TreeModel getTreeProp(String system,String module,String treeid)</serialno>
+      <method>getTreeProp</method>
+      <name>TreeModel getTreeProp(String system,String module,String treeid)</name>
+      <genericname>public com.siqiansoft.framework.model.tree.TreeModel com.siqiansoft.framework.AppData.getTreeProp(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>TreeModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>treeid</code>
+          <name>treeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AttachmentModel[] getAttachs()</serialno>
+      <method>getAttachs</method>
+      <name>AttachmentModel[] getAttachs()</name>
+      <genericname>public com.siqiansoft.framework.model.AttachmentModel[] com.siqiansoft.framework.AppData.getAttachs()</genericname>
+      <retclass>AttachmentModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAttachPath()</serialno>
+      <method>getAttachPath</method>
+      <name>String getAttachPath()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getAttachPath()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DsnModel getDsn(String name)</serialno>
+      <method>getDsn</method>
+      <name>DsnModel getDsn(String name)</name>
+      <genericname>public com.siqiansoft.framework.model.db.DsnModel com.siqiansoft.framework.AppData.getDsn(java.lang.String)</genericname>
+      <retclass>DsnModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>name</code>
+          <name>name</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setDsn(DsnModel[] dsn)</serialno>
+      <method>setDsn</method>
+      <name>void setDsn(DsnModel[] dsn)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.setDsn(com.siqiansoft.framework.model.db.DsnModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>DsnModel[]</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loadDbModel()</serialno>
+      <method>loadDbModel</method>
+      <name>void loadDbModel()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.loadDbModel() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loadAppList()</serialno>
+      <method>loadAppList</method>
+      <name>void loadAppList()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.loadAppList() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getAppConfigDir()</serialno>
+      <method>getAppConfigDir</method>
+      <name>String getAppConfigDir()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getAppConfigDir()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void loadTimeSlice()</serialno>
+      <method>loadTimeSlice</method>
+      <name>void loadTimeSlice()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.loadTimeSlice()</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void saveRoles()</serialno>
+      <method>saveRoles</method>
+      <name>void saveRoles()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.saveRoles() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getSysStartTime()</serialno>
+      <method>getSysStartTime</method>
+      <name>String getSysStartTime()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getSysStartTime()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean runOnServer(String ip)</serialno>
+      <method>runOnServer</method>
+      <name>boolean runOnServer(String ip)</name>
+      <genericname>public boolean com.siqiansoft.framework.AppData.runOnServer(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>ip</code>
+          <name>ip</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getConfigItems(String configId,String catalog)</serialno>
+      <method>getConfigItems</method>
+      <name>String[][] getConfigItems(String configId,String catalog)</name>
+      <genericname>public java.lang.String[][] com.siqiansoft.framework.AppData.getConfigItems(java.lang.String,java.lang.String)</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>configId</code>
+          <name>configId</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeVisitor(LoginModel login)</serialno>
+      <method>removeVisitor</method>
+      <name>void removeVisitor(LoginModel login)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.removeVisitor(com.siqiansoft.framework.model.LoginModel)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getOnlines()</serialno>
+      <method>getOnlines</method>
+      <name>HashMap getOnlines()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.LoginModel&gt; com.siqiansoft.framework.AppData.getOnlines()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addOnlineNum()</serialno>
+      <method>addOnlineNum</method>
+      <name>void addOnlineNum()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.addOnlineNum()</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeOnline()</serialno>
+      <method>removeOnline</method>
+      <name>void removeOnline()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.removeOnline()</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getOnlineNum()</serialno>
+      <method>getOnlineNum</method>
+      <name>int getOnlineNum()</name>
+      <genericname>public int com.siqiansoft.framework.AppData.getOnlineNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTodayNum()</serialno>
+      <method>getTodayNum</method>
+      <name>int getTodayNum()</name>
+      <genericname>public int com.siqiansoft.framework.AppData.getTodayNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>int getTotalNum()</serialno>
+      <method>getTotalNum</method>
+      <name>int getTotalNum()</name>
+      <genericname>public int com.siqiansoft.framework.AppData.getTotalNum()</genericname>
+      <retclass>int</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ViewModel getPortlet(String pid)</serialno>
+      <method>getPortlet</method>
+      <name>ViewModel getPortlet(String pid)</name>
+      <genericname>public com.siqiansoft.framework.model.view.ViewModel com.siqiansoft.framework.AppData.getPortlet(java.lang.String)</genericname>
+      <retclass>ViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pid</code>
+          <name>pid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DsnModel[] getAllDsn()</serialno>
+      <method>getAllDsn</method>
+      <name>DsnModel[] getAllDsn()</name>
+      <genericname>public com.siqiansoft.framework.model.db.DsnModel[] com.siqiansoft.framework.AppData.getAllDsn()</genericname>
+      <retclass>DsnModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TableModel getTableProp(String dsName,String table)</serialno>
+      <method>getTableProp</method>
+      <name>TableModel getTableProp(String dsName,String table)</name>
+      <genericname>public com.siqiansoft.framework.model.db.TableModel com.siqiansoft.framework.AppData.getTableProp(java.lang.String,java.lang.String)</genericname>
+      <retclass>TableModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsName</code>
+          <name>dsName</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeTable(String dsn,String table)</serialno>
+      <method>removeTable</method>
+      <name>void removeTable(String dsn,String table)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.removeTable(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getRecordsetViews()</serialno>
+      <method>getRecordsetViews</method>
+      <name>HashMap getRecordsetViews()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.grid.RecordsetViewModel&gt; com.siqiansoft.framework.AppData.getRecordsetViews()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RecordsetViewModel getRecordsetView(String system,String module,String code)</serialno>
+      <method>getRecordsetView</method>
+      <name>RecordsetViewModel getRecordsetView(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.grid.RecordsetViewModel com.siqiansoft.framework.AppData.getRecordsetView(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>RecordsetViewModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void refreshSystemNavigator(String system)</serialno>
+      <method>refreshSystemNavigator</method>
+      <name>void refreshSystemNavigator(String system)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.refreshSystemNavigator(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>FrameModel getPortletFrame(String frame)</serialno>
+      <method>getPortletFrame</method>
+      <name>FrameModel getPortletFrame(String frame)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.FrameModel com.siqiansoft.framework.AppData.getPortletFrame(java.lang.String)</genericname>
+      <retclass>FrameModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>frame</code>
+          <name>frame</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getPortletFrames()</serialno>
+      <method>getPortletFrames</method>
+      <name>HashMap getPortletFrames()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.portal.FrameModel&gt; com.siqiansoft.framework.AppData.getPortletFrames()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>CatalogModel getDictCatalog(String system,String catalog)</serialno>
+      <method>getDictCatalog</method>
+      <name>CatalogModel getDictCatalog(String system,String catalog)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.CatalogModel com.siqiansoft.framework.AppData.getDictCatalog(java.lang.String,java.lang.String)</genericname>
+      <retclass>CatalogModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>catalog</code>
+          <name>catalog</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getSystemsList()</serialno>
+      <method>getSystemsList</method>
+      <name>ItemModel[] getSystemsList()</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.framework.AppData.getSystemsList()</genericname>
+      <retclass>ItemModel[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSystems(ItemModel[] items)</serialno>
+      <method>setSystems</method>
+      <name>void setSystems(ItemModel[] items)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.setSystems(com.siqiansoft.framework.model.ItemModel[])</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemModel[]</type>
+          <code>items</code>
+          <name>items</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getNavigatePath(String system,String module,String action)</serialno>
+      <method>getNavigatePath</method>
+      <name>String getNavigatePath(String system,String module,String action)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getNavigatePath(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>action</code>
+          <name>action</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getModuleView()</serialno>
+      <method>getModuleView</method>
+      <name>HashMap getModuleView()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.view.ViewModel&gt; com.siqiansoft.framework.AppData.getModuleView()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getDicts()</serialno>
+      <method>getDicts</method>
+      <name>HashMap getDicts()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.dict.CatalogModel&gt; com.siqiansoft.framework.AppData.getDicts()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getTrees()</serialno>
+      <method>getTrees</method>
+      <name>HashMap getTrees()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.tree.TreeModel&gt; com.siqiansoft.framework.AppData.getTrees()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getGrids()</serialno>
+      <method>getGrids</method>
+      <name>HashMap getGrids()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.grid.GridModel&gt; com.siqiansoft.framework.AppData.getGrids()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>CatalogModel[] getDictCatalogs(String system)</serialno>
+      <method>getDictCatalogs</method>
+      <name>CatalogModel[] getDictCatalogs(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.dict.CatalogModel[] com.siqiansoft.framework.AppData.getDictCatalogs(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>CatalogModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void reloadAttachs()</serialno>
+      <method>reloadAttachs</method>
+      <name>void reloadAttachs()</name>
+      <genericname>public void com.siqiansoft.framework.AppData.reloadAttachs()</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOrgName()</serialno>
+      <method>getOrgName</method>
+      <name>String getOrgName()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getOrgName()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean existInterface(String interfaceCode)</serialno>
+      <method>existInterface</method>
+      <name>boolean existInterface(String interfaceCode)</name>
+      <genericname>public boolean com.siqiansoft.framework.AppData.existInterface(java.lang.String)</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>interfaceCode</code>
+          <name>interfaceCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getCurTimeSlice()</serialno>
+      <method>getCurTimeSlice</method>
+      <name>String getCurTimeSlice()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.AppData.getCurTimeSlice()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRole(ItemModel role)</serialno>
+      <method>updateRole</method>
+      <name>void updateRole(ItemModel role)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.updateRole(com.siqiansoft.framework.model.ItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ItemModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRoles(String[] role)</serialno>
+      <method>deleteRoles</method>
+      <name>void deleteRoles(String[] role)</name>
+      <genericname>public void com.siqiansoft.framework.AppData.deleteRoles(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RuleModel getRule(String rule)</serialno>
+      <method>getRule</method>
+      <name>RuleModel getRule(String rule)</name>
+      <genericname>public com.siqiansoft.framework.model.RuleModel com.siqiansoft.framework.AppData.getRule(java.lang.String)</genericname>
+      <retclass>RuleModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>rule</code>
+          <name>rule</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getFlowModules(String system)</serialno>
+      <method>getFlowModules</method>
+      <name>ItemModel[] getFlowModules(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.framework.AppData.getFlowModules(java.lang.String)</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ItemModel[] getPortletModules(String system)</serialno>
+      <method>getPortletModules</method>
+      <name>ItemModel[] getPortletModules(String system)</name>
+      <genericname>public com.siqiansoft.framework.model.ItemModel[] com.siqiansoft.framework.AppData.getPortletModules(java.lang.String)</genericname>
+      <retclass>ItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>AttachmentModel getAttachConfig(String code)</serialno>
+      <method>getAttachConfig</method>
+      <name>AttachmentModel getAttachConfig(String code)</name>
+      <genericname>public com.siqiansoft.framework.model.AttachmentModel com.siqiansoft.framework.AppData.getAttachConfig(java.lang.String)</genericname>
+      <retclass>AttachmentModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LinkedHashMap getSchedules()</serialno>
+      <method>getSchedules</method>
+      <name>LinkedHashMap getSchedules()</name>
+      <genericname>public java.util.LinkedHashMap&lt;java.lang.String, com.siqiansoft.framework.model.ScheduleModel&gt; com.siqiansoft.framework.AppData.getSchedules()</genericname>
+      <retclass>LinkedHashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>TempletModel getPortalTemplet(String orgCode,String code)</serialno>
+      <method>getPortalTemplet</method>
+      <name>TempletModel getPortalTemplet(String orgCode,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.portal.TempletModel com.siqiansoft.framework.AppData.getPortalTemplet(java.lang.String,java.lang.String)</genericname>
+      <retclass>TempletModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getPortalTemplets()</serialno>
+      <method>getPortalTemplets</method>
+      <name>HashMap getPortalTemplets()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.portal.TempletModel&gt; com.siqiansoft.framework.AppData.getPortalTemplets()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>BusinessModel getBusiness(String system,String module,String code)</serialno>
+      <method>getBusiness</method>
+      <name>BusinessModel getBusiness(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.BusinessModel com.siqiansoft.framework.AppData.getBusiness(java.lang.String,java.lang.String,java.lang.String)</genericname>
+      <retclass>BusinessModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getAllBiz()</serialno>
+      <method>getAllBiz</method>
+      <name>HashMap getAllBiz()</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, com.siqiansoft.framework.model.biz.BusinessModel&gt; com.siqiansoft.framework.AppData.getAllBiz()</genericname>
+      <retclass>HashMap</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

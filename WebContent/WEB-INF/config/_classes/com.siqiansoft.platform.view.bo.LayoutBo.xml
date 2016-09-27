@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.LayoutBo</classname>
+  <code>LayoutBo</code>
+  <name>LayoutBo</name>
+  <packages>com.siqiansoft.platform.view.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}UtWLN+hn22dwSi/smW1thw==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel getLayout(String system,String module,String code)</serialno>
+      <method>getLayout</method>
+      <name>LayoutModel getLayout(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.view.LayoutModel com.siqiansoft.platform.view.bo.LayoutBo.getLayout(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addItem(String system,String module,String code,LayoutItemModel item)</serialno>
+      <method>addItem</method>
+      <name>void addItem(String system,String module,String code,LayoutItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.addItem(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.LayoutItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LayoutItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutItemModel[] getItems(String system,String module,String code)</serialno>
+      <method>getItems</method>
+      <name>LayoutItemModel[] getItems(String system,String module,String code)</name>
+      <genericname>public com.siqiansoft.framework.model.view.LayoutItemModel[] com.siqiansoft.platform.view.bo.LayoutBo.getItems(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutItemModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>LayoutModel[] listLayouts(String system,String module)</serialno>
+      <method>listLayouts</method>
+      <name>LayoutModel[] listLayouts(String system,String module)</name>
+      <genericname>public com.siqiansoft.framework.model.view.LayoutModel[] com.siqiansoft.platform.view.bo.LayoutBo.listLayouts(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>LayoutModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateLayout(String system,String module,LayoutModel layout)</serialno>
+      <method>updateLayout</method>
+      <name>void updateLayout(String system,String module,LayoutModel layout)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.updateLayout(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.LayoutModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateItem(String system,String module,String code,LayoutItemModel item)</serialno>
+      <method>updateItem</method>
+      <name>void updateItem(String system,String module,String code,LayoutItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.updateItem(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.LayoutItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LayoutItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addLayout(String system,String module,LayoutModel layout)</serialno>
+      <method>addLayout</method>
+      <name>void addLayout(String system,String module,LayoutModel layout)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.addLayout(java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.LayoutModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LayoutModel</type>
+          <code>layout</code>
+          <name>layout</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteLayout(String system,String module,String[] selected)</serialno>
+      <method>deleteLayout</method>
+      <name>void deleteLayout(String system,String module,String[] selected)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.deleteLayout(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>selected</code>
+          <name>selected</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteItem(String system,String module,String code,LayoutItemModel item)</serialno>
+      <method>deleteItem</method>
+      <name>void deleteItem(String system,String module,String code,LayoutItemModel item)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.LayoutBo.deleteItem(java.lang.String,java.lang.String,java.lang.String,com.siqiansoft.framework.model.view.LayoutItemModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>system</code>
+          <name>system</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>module</code>
+          <name>module</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>code</code>
+          <name>code</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LayoutItemModel</type>
+          <code>item</code>
+          <name>item</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

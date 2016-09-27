@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.util.DesUtil</classname>
+  <code>DesUtil</code>
+  <name>DesUtil</name>
+  <packages>com.siqiansoft.framework.util</packages>
+  <type>biz</type>
+  <crc>{MD5}3L3ZvwAvCojZWTsavtGRRA==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.util.DesUtil.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>byte[] decrypt(byte[] arrB)</serialno>
+      <method>decrypt</method>
+      <name>byte[] decrypt(byte[] arrB)</name>
+      <genericname>public byte[] com.siqiansoft.framework.util.DesUtil.decrypt(byte[]) throws java.lang.Exception</genericname>
+      <retclass>byte[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>arrB</code>
+          <name>arrB</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String decrypt(String strIn)</serialno>
+      <method>decrypt</method>
+      <name>String decrypt(String strIn)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.util.DesUtil.decrypt(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strIn</code>
+          <name>strIn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String encrypt(String strIn)</serialno>
+      <method>encrypt</method>
+      <name>String encrypt(String strIn)</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.util.DesUtil.encrypt(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strIn</code>
+          <name>strIn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>byte[] encrypt(byte[] arrB)</serialno>
+      <method>encrypt</method>
+      <name>byte[] encrypt(byte[] arrB)</name>
+      <genericname>public byte[] com.siqiansoft.framework.util.DesUtil.encrypt(byte[]) throws java.lang.Exception</genericname>
+      <retclass>byte[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>arrB</code>
+          <name>arrB</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String byteArr2HexStr(byte[] arrB)</serialno>
+      <method>byteArr2HexStr</method>
+      <name>String byteArr2HexStr(byte[] arrB)</name>
+      <genericname>public static java.lang.String com.siqiansoft.framework.util.DesUtil.byteArr2HexStr(byte[]) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>byte[]</type>
+          <code>arrB</code>
+          <name>arrB</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>byte[] hexStr2ByteArr(String strIn)</serialno>
+      <method>hexStr2ByteArr</method>
+      <name>byte[] hexStr2ByteArr(String strIn)</name>
+      <genericname>public static byte[] com.siqiansoft.framework.util.DesUtil.hexStr2ByteArr(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>byte[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>strIn</code>
+          <name>strIn</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

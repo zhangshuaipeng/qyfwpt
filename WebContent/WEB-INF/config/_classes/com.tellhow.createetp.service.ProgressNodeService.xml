@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.service.ProgressNodeService</classname>
+  <code>ProgressNodeService</code>
+  <name>ProgressNodeService</name>
+  <packages>com.tellhow.createetp.service</packages>
+  <type>biz</type>
+  <crc>{MD5}/3gMCHDN63QZMCNa3paxQw==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void upParentNode(String nodeid)</serialno>
+      <method>upParentNode</method>
+      <name>void upParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.service.ProgressNodeService.upParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downParentNode(String nodeid)</serialno>
+      <method>downParentNode</method>
+      <name>void downParentNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.service.ProgressNodeService.downParentNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void upChildNode(String nodeid)</serialno>
+      <method>upChildNode</method>
+      <name>void upChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.service.ProgressNodeService.upChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void downChildNode(String nodeid)</serialno>
+      <method>downChildNode</method>
+      <name>void downChildNode(String nodeid)</name>
+      <genericname>public void com.tellhow.createetp.service.ProgressNodeService.downChildNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nodeid</code>
+          <name>nodeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

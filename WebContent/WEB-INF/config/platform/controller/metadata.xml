@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>ControllerModel</code>
+    <name>控制器属性</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.view</catalog>
+    <item>ControllerModel</item>
+  </model.biz.MetaDataModel>
+  <model.biz.MetaDataModel>
+    <code>HandlerModel</code>
+    <name>处理器</name>
+    <type>pojo</type>
+    <catalog>com.siqiansoft.framework.model.view</catalog>
+    <item>HandlerModel</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

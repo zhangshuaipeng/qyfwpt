@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.message.EmailHandler</classname>
+  <code>EmailHandler</code>
+  <name>EmailHandler</name>
+  <packages>com.siqiansoft.framework.message</packages>
+  <type>biz</type>
+  <crc>{MD5}TAYXBNtlqVygccdWGoUAvw==</crc>
+  <modifytime>2013-05-05 11:06:59</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>void main(String[] args)</serialno>
+      <method>main</method>
+      <name>void main(String[] args)</name>
+      <genericname>public static void com.siqiansoft.framework.message.EmailHandler.main(java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>args</code>
+          <name>args</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBody(String mailBody)</serialno>
+      <method>setBody</method>
+      <name>void setBody(String mailBody)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setBody(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mailBody</code>
+          <name>mailBody</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFrom(String from)</serialno>
+      <method>setFrom</method>
+      <name>void setFrom(String from)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setFrom(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>from</code>
+          <name>from</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setTo(String to)</serialno>
+      <method>setTo</method>
+      <name>void setTo(String to)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setTo(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>to</code>
+          <name>to</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSubject(String mailSubject)</serialno>
+      <method>setSubject</method>
+      <name>void setSubject(String mailSubject)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setSubject(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mailSubject</code>
+          <name>mailSubject</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setRequiredAuth(boolean need)</serialno>
+      <method>setRequiredAuth</method>
+      <name>void setRequiredAuth(boolean need)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setRequiredAuth(boolean)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>boolean</type>
+          <code>need</code>
+          <name>need</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setAuthPwd(String pwd)</serialno>
+      <method>setAuthPwd</method>
+      <name>void setAuthPwd(String pwd)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setAuthPwd(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>pwd</code>
+          <name>pwd</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void sendMail()</serialno>
+      <method>sendMail</method>
+      <name>void sendMail()</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.sendMail() throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setSMTPServer(String hostName)</serialno>
+      <method>setSMTPServer</method>
+      <name>void setSMTPServer(String hostName)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setSMTPServer(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>hostName</code>
+          <name>hostName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createMimeMessage()</serialno>
+      <method>createMimeMessage</method>
+      <name>void createMimeMessage()</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.createMimeMessage()</genericname>
+      <retclass>void</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setBodyPart(String body,String contentType)</serialno>
+      <method>setBodyPart</method>
+      <name>void setBodyPart(String body,String contentType)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setBodyPart(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>body</code>
+          <name>body</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>contentType</code>
+          <name>contentType</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addAttach(String filename)</serialno>
+      <method>addAttach</method>
+      <name>void addAttach(String filename)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.addAttach(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>filename</code>
+          <name>filename</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setCopyTo(String copyto)</serialno>
+      <method>setCopyTo</method>
+      <name>void setCopyTo(String copyto)</name>
+      <genericname>public void com.siqiansoft.framework.message.EmailHandler.setCopyTo(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>copyto</code>
+          <name>copyto</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

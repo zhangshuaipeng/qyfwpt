@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.framework.model.grid.ItemModel</classname>
+  <code>ItemModel</code>
+  <name>ItemModel</name>
+  <packages>com.siqiansoft.framework.model.grid</packages>
+  <type>pojo</type>
+  <crc>{MD5}iGtzoVlRb8W/Cti8q4h5EQ==</crc>
+  <modifytime>2013-05-05 11:07:00</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String getValue()</serialno>
+      <method>getValue</method>
+      <name>String getValue()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getValue()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue(String value)</serialno>
+      <method>setValue</method>
+      <name>void setValue(String value)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setValue(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value</code>
+          <name>value</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getComment()</serialno>
+      <method>getComment</method>
+      <name>String getComment()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getComment()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setComment(String comment)</serialno>
+      <method>setComment</method>
+      <name>void setComment(String comment)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setComment(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>comment</code>
+          <name>comment</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getFlag()</serialno>
+      <method>getFlag</method>
+      <name>String getFlag()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getFlag()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setFlag(String flag)</serialno>
+      <method>setFlag</method>
+      <name>void setFlag(String flag)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setFlag(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flag</code>
+          <name>flag</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperand()</serialno>
+      <method>getOperand</method>
+      <name>String getOperand()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getOperand()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperand(String operand)</serialno>
+      <method>setOperand</method>
+      <name>void setOperand(String operand)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setOperand(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operand</code>
+          <name>operand</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setOperand1(String operand1)</serialno>
+      <method>setOperand1</method>
+      <name>void setOperand1(String operand1)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setOperand1(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>operand1</code>
+          <name>operand1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getOperand1()</serialno>
+      <method>getOperand1</method>
+      <name>String getOperand1()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getOperand1()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setValue1(String value1)</serialno>
+      <method>setValue1</method>
+      <name>void setValue1(String value1)</name>
+      <genericname>public void com.siqiansoft.framework.model.grid.ItemModel.setValue1(java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>value1</code>
+          <name>value1</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getValue1()</serialno>
+      <method>getValue1</method>
+      <name>String getValue1()</name>
+      <genericname>public java.lang.String com.siqiansoft.framework.model.grid.ItemModel.getValue1()</genericname>
+      <retclass>String</retclass>
+    </model.biz.MethodModel>
+  </methods>
+  <fields>
+    <model.db.ColumnModel>
+      <code>operand</code>
+      <name>operand</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>operand1</code>
+      <name>operand1</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value</code>
+      <name>value</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>value1</code>
+      <name>value1</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>flag</code>
+      <name>flag</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+    <model.db.ColumnModel>
+      <code>comment</code>
+      <name>comment</name>
+      <datatype>0</datatype>
+      <typename>VARCHAR</typename>
+      <length>0</length>
+      <precision>0</precision>
+    </model.db.ColumnModel>
+  </fields>
+</model.biz.ClassModel>

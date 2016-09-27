@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.createetp.dao.impl.IEtpReportDaoImpl</classname>
+  <code>IEtpReportDaoImpl</code>
+  <name>IEtpReportDaoImpl</name>
+  <packages>com.tellhow.createetp.dao.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}c+3Wpu/UVOCBiS7B1W5pXQ==</crc>
+  <modifytime>2013-05-24 13:32:54</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>JqgridModelVo fetchNormalGatherModel()</serialno>
+      <method>fetchNormalGatherModel</method>
+      <name>JqgridModelVo fetchNormalGatherModel()</name>
+      <genericname>public com.tellhow.investment.vo.JqgridModelVo com.tellhow.createetp.dao.impl.IEtpReportDaoImpl.fetchNormalGatherModel() throws java.lang.Exception</genericname>
+      <retclass>JqgridModelVo</retclass>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl</classname>
+  <code>DistributeBoImpl</code>
+  <name>DistributeBoImpl</name>
+  <packages>com.tellhow.itemsmanage.bo.form.impl</packages>
+  <type>biz</type>
+  <crc>{MD5}3tZyLN3+uWaGB31gKD3hsA==</crc>
+  <modifytime>2013-11-06 14:12:43</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>Distributeplan findDistribute(String id)</serialno>
+      <method>findDistribute</method>
+      <name>Distributeplan findDistribute(String id)</name>
+      <genericname>public com.tellhow.itemsmanage.bean.form.Distributeplan com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.findDistribute(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>Distributeplan</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>id</code>
+          <name>id</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List findresume(String companyid)</serialno>
+      <method>findresume</method>
+      <name>List findresume(String companyid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.ResumePeopleVo&gt; com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.findresume(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>companyid</code>
+          <name>companyid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addDistribute(Distributeplan distributeplan)</serialno>
+      <method>addDistribute</method>
+      <name>void addDistribute(Distributeplan distributeplan)</name>
+      <genericname>public void com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.addDistribute(com.tellhow.itemsmanage.bean.form.Distributeplan) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>Distributeplan</type>
+          <code>distributeplan</code>
+          <name>distributeplan</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List finddistribute(String sql,String mainid)</serialno>
+      <method>finddistribute</method>
+      <name>List finddistribute(String sql,String mainid)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.DistributeVo&gt; com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.finddistribute(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>sql</code>
+          <name>sql</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mainid</code>
+          <name>mainid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>List finddetialarticle(String articleid,String company)</serialno>
+      <method>finddetialarticle</method>
+      <name>List finddetialarticle(String articleid,String company)</name>
+      <genericname>public java.util.List&lt;com.tellhow.itemsmanage.vo.DetailInVo&gt; com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.finddetialarticle(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>List</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>company</code>
+          <name>company</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>DetailInVo finddetialarticle(long mainid,String articleid,long resumeid)</serialno>
+      <method>finddetialarticle</method>
+      <name>DetailInVo finddetialarticle(long mainid,String articleid,long resumeid)</name>
+      <genericname>public com.tellhow.itemsmanage.vo.DetailInVo com.tellhow.itemsmanage.bo.form.impl.DistributeBoImpl.finddetialarticle(long,java.lang.String,long) throws java.lang.Exception</genericname>
+      <retclass>DetailInVo</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>mainid</code>
+          <name>mainid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>articleid</code>
+          <name>articleid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>long</type>
+          <code>resumeid</code>
+          <name>resumeid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

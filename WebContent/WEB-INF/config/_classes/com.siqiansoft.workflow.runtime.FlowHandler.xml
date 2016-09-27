@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.workflow.runtime.FlowHandler</classname>
+  <code>FlowHandler</code>
+  <name>FlowHandler</name>
+  <packages>com.siqiansoft.workflow.runtime</packages>
+  <type>biz</type>
+  <crc>{MD5}SMR/pp7lKeztXLP95ub0mg==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>String createInstance(String flowCode,LoginModel login,String title,HashMap params,String msgType,String debug)</serialno>
+      <method>createInstance</method>
+      <name>String createInstance(String flowCode,LoginModel login,String title,HashMap params,String msgType,String debug)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.runtime.FlowHandler.createInstance(java.lang.String,com.siqiansoft.framework.model.LoginModel,java.lang.String,java.util.HashMap&lt;java.lang.String, java.lang.String&gt;,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>flowCode</code>
+          <name>flowCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>title</code>
+          <name>title</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>HashMap</type>
+          <code>params</code>
+          <name>params</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>msgType</code>
+          <name>msgType</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>debug</code>
+          <name>debug</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void commit(String wid)</serialno>
+      <method>commit</method>
+      <name>void commit(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.commit(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ProcessModel toCommit(String wid,LoginModel login,String mode)</serialno>
+      <method>toCommit</method>
+      <name>ProcessModel toCommit(String wid,LoginModel login,String mode)</name>
+      <genericname>public com.siqiansoft.workflow.model.ProcessModel com.siqiansoft.workflow.runtime.FlowHandler.toCommit(java.lang.String,com.siqiansoft.framework.model.LoginModel,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ProcessModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>mode</code>
+          <name>mode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel[] getFlowNodes(FlowProp flow)</serialno>
+      <method>getFlowNodes</method>
+      <name>RouteModel[] getFlowNodes(FlowProp flow)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel[] com.siqiansoft.workflow.runtime.FlowHandler.getFlowNodes(com.siqiansoft.workflow.util.FlowProp)</genericname>
+      <retclass>RouteModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>FlowProp</type>
+          <code>flow</code>
+          <name>flow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel[] getPassNode(String instanceId)</serialno>
+      <method>getPassNode</method>
+      <name>RouteModel[] getPassNode(String instanceId)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel[] com.siqiansoft.workflow.runtime.FlowHandler.getPassNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RouteModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void admWorkCanCommit(WorkModel work)</serialno>
+      <method>admWorkCanCommit</method>
+      <name>void admWorkCanCommit(WorkModel work)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.admWorkCanCommit(com.siqiansoft.workflow.model.WorkModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void subFlowCanCommit(WorkModel work)</serialno>
+      <method>subFlowCanCommit</method>
+      <name>void subFlowCanCommit(WorkModel work)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.subFlowCanCommit(com.siqiansoft.workflow.model.WorkModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void commitSerialWork(WorkModel work)</serialno>
+      <method>commitSerialWork</method>
+      <name>void commitSerialWork(WorkModel work)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.commitSerialWork(com.siqiansoft.workflow.model.WorkModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>boolean threadCanCommit(WorkModel work)</serialno>
+      <method>threadCanCommit</method>
+      <name>boolean threadCanCommit(WorkModel work)</name>
+      <genericname>public boolean com.siqiansoft.workflow.runtime.FlowHandler.threadCanCommit(com.siqiansoft.workflow.model.WorkModel) throws java.lang.Exception</genericname>
+      <retclass>boolean</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel[] getRoutes(String wid)</serialno>
+      <method>getRoutes</method>
+      <name>RouteModel[] getRoutes(String wid)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel[] com.siqiansoft.workflow.runtime.FlowHandler.getRoutes(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RouteModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getActorsByScript(String wid)</serialno>
+      <method>getActorsByScript</method>
+      <name>String[][] getActorsByScript(String wid)</name>
+      <genericname>public java.lang.String[][] com.siqiansoft.workflow.runtime.FlowHandler.getActorsByScript(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getActorsByRouteRule(ProcessModel process)</serialno>
+      <method>getActorsByRouteRule</method>
+      <name>String[][] getActorsByRouteRule(ProcessModel process)</name>
+      <genericname>public java.lang.String[][] com.siqiansoft.workflow.runtime.FlowHandler.getActorsByRouteRule(com.siqiansoft.workflow.model.ProcessModel) throws java.lang.Exception</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ProcessModel</type>
+          <code>process</code>
+          <name>process</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[][] getActorsByNode(String wid)</serialno>
+      <method>getActorsByNode</method>
+      <name>String[][] getActorsByNode(String wid)</name>
+      <genericname>public java.lang.String[][] com.siqiansoft.workflow.runtime.FlowHandler.getActorsByNode(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String[][]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RouteModel selectRoute(String wid,String nextNodeId)</serialno>
+      <method>selectRoute</method>
+      <name>RouteModel selectRoute(String wid,String nextNodeId)</name>
+      <genericname>public com.siqiansoft.workflow.model.RouteModel com.siqiansoft.workflow.runtime.FlowHandler.selectRoute(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RouteModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextNodeId</code>
+          <name>nextNodeId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void setNodeActors(String wid,String actors)</serialno>
+      <method>setNodeActors</method>
+      <name>void setNodeActors(String wid,String actors)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.setNodeActors(java.lang.String,java.lang.String)</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actors</code>
+          <name>actors</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void gotoWork(String wid)</serialno>
+      <method>gotoWork</method>
+      <name>void gotoWork(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.gotoWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void untreadWork(String wid)</serialno>
+      <method>untreadWork</method>
+      <name>void untreadWork(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.untreadWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void changeWork(String wid)</serialno>
+      <method>changeWork</method>
+      <name>void changeWork(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.changeWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void abortWork(String wid,LoginModel login)</serialno>
+      <method>abortWork</method>
+      <name>void abortWork(String wid,LoginModel login)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.abortWork(java.lang.String,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void redoWork(String wid,LoginModel login)</serialno>
+      <method>redoWork</method>
+      <name>void redoWork(String wid,LoginModel login)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.redoWork(java.lang.String,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createFlow(SubFlowModel flow)</serialno>
+      <method>createFlow</method>
+      <name>String createFlow(SubFlowModel flow)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.runtime.FlowHandler.createFlow(com.siqiansoft.workflow.model.SubFlowModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>SubFlowModel</type>
+          <code>flow</code>
+          <name>flow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String createSubFlow(InstanceModel instance,WorkModel work,SubFlowModel subflow)</serialno>
+      <method>createSubFlow</method>
+      <name>String createSubFlow(InstanceModel instance,WorkModel work,SubFlowModel subflow)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.runtime.FlowHandler.createSubFlow(com.siqiansoft.workflow.model.InstanceModel,com.siqiansoft.workflow.model.WorkModel,com.siqiansoft.workflow.model.SubFlowModel) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>InstanceModel</type>
+          <code>instance</code>
+          <name>instance</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>WorkModel</type>
+          <code>work</code>
+          <name>work</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>SubFlowModel</type>
+          <code>subflow</code>
+          <name>subflow</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void submitWorkToNextNode(String wid,String nextNode,String actor)</serialno>
+      <method>submitWorkToNextNode</method>
+      <name>void submitWorkToNextNode(String wid,String nextNode,String actor)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.submitWorkToNextNode(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>nextNode</code>
+          <name>nextNode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>actor</code>
+          <name>actor</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String getLastWid(String instanceid)</serialno>
+      <method>getLastWid</method>
+      <name>String getLastWid(String instanceid)</name>
+      <genericname>public java.lang.String com.siqiansoft.workflow.runtime.FlowHandler.getLastWid(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>String</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceid</code>
+          <name>instanceid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>HashMap getLastWork(String instanceid)</serialno>
+      <method>getLastWork</method>
+      <name>HashMap getLastWork(String instanceid)</name>
+      <genericname>public java.util.HashMap&lt;java.lang.String, java.lang.String&gt; com.siqiansoft.workflow.runtime.FlowHandler.getLastWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>HashMap</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceid</code>
+          <name>instanceid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void ignoreWork(String wid)</serialno>
+      <method>ignoreWork</method>
+      <name>void ignoreWork(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.ignoreWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void ignoreAllWork(String instanceId)</serialno>
+      <method>ignoreAllWork</method>
+      <name>void ignoreAllWork(String instanceId)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.ignoreAllWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>instanceId</code>
+          <name>instanceId</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void sysCommitWork(String wid)</serialno>
+      <method>sysCommitWork</method>
+      <name>void sysCommitWork(String wid)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.sysCommitWork(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void urgedWork(String wid,LoginModel login)</serialno>
+      <method>urgedWork</method>
+      <name>void urgedWork(String wid,LoginModel login)</name>
+      <genericname>public void com.siqiansoft.workflow.runtime.FlowHandler.urgedWork(java.lang.String,com.siqiansoft.framework.model.LoginModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>wid</code>
+          <name>wid</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>LoginModel</type>
+          <code>login</code>
+          <name>login</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

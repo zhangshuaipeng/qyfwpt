@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.platform.view.bo.biz.ClassBo</classname>
+  <code>ClassBo</code>
+  <name>ClassBo</name>
+  <packages>com.siqiansoft.platform.view.bo.biz</packages>
+  <type>biz</type>
+  <crc>{MD5}HeR6/UcgWdsA6y/KWiofMA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>ColumnModel[] getFields(String className)</serialno>
+      <method>getFields</method>
+      <name>ColumnModel[] getFields(String className)</name>
+      <genericname>public com.siqiansoft.framework.model.db.ColumnModel[] com.siqiansoft.platform.view.bo.biz.ClassBo.getFields(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ColumnModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ClassModel readClass(String className)</serialno>
+      <method>readClass</method>
+      <name>ClassModel readClass(String className)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.ClassModel com.siqiansoft.platform.view.bo.biz.ClassBo.readClass(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ClassModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateField(String className,ColumnModel col)</serialno>
+      <method>updateField</method>
+      <name>void updateField(String className,ColumnModel col)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.ClassBo.updateField(java.lang.String,com.siqiansoft.framework.model.db.ColumnModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>className</code>
+          <name>className</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>ColumnModel</type>
+          <code>col</code>
+          <name>col</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void savePojoFields(ClassModel cl,String dsn,String table)</serialno>
+      <method>savePojoFields</method>
+      <name>void savePojoFields(ClassModel cl,String dsn,String table)</name>
+      <genericname>public static void com.siqiansoft.platform.view.bo.biz.ClassBo.savePojoFields(com.siqiansoft.framework.model.biz.ClassModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ClassModel</type>
+          <code>cl</code>
+          <name>cl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>String[] getAllClasses()</serialno>
+      <method>getAllClasses</method>
+      <name>String[] getAllClasses()</name>
+      <genericname>public java.lang.String[] com.siqiansoft.platform.view.bo.biz.ClassBo.getAllClasses() throws java.lang.Exception</genericname>
+      <retclass>String[]</retclass>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ClassModel[] listPojoClasses(String packageName)</serialno>
+      <method>listPojoClasses</method>
+      <name>ClassModel[] listPojoClasses(String packageName)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.ClassModel[] com.siqiansoft.platform.view.bo.biz.ClassBo.listPojoClasses(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ClassModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>packageName</code>
+          <name>packageName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>ClassModel[] listClasses(String packageName)</serialno>
+      <method>listClasses</method>
+      <name>ClassModel[] listClasses(String packageName)</name>
+      <genericname>public com.siqiansoft.framework.model.biz.ClassModel[] com.siqiansoft.platform.view.bo.biz.ClassBo.listClasses(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>ClassModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>packageName</code>
+          <name>packageName</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateClass(ClassModel cl,String dsn,String table)</serialno>
+      <method>updateClass</method>
+      <name>void updateClass(ClassModel cl,String dsn,String table)</name>
+      <genericname>public void com.siqiansoft.platform.view.bo.biz.ClassBo.updateClass(com.siqiansoft.framework.model.biz.ClassModel,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>ClassModel</type>
+          <code>cl</code>
+          <name>cl</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>dsn</code>
+          <name>dsn</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>table</code>
+          <name>table</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>

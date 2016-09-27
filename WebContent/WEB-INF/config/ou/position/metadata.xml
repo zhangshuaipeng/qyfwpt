@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.MetaDataModel-array>
+  <model.biz.MetaDataModel>
+    <code>EAP_POSITION</code>
+    <name>岗位管理</name>
+    <type>table</type>
+    <catalog>system</catalog>
+    <item>EAP_POSITION</item>
+  </model.biz.MetaDataModel>
+</model.biz.MetaDataModel-array>

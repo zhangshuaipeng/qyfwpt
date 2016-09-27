@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>GridBo.getGrid</code>
+    <name>getGrid</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>getGrid</item>
+    <script>GridModel getGrid(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GridBo.listGrids</code>
+    <name>listGrids</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>listGrids</item>
+    <script>GridModel[] listGrids(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GridBo.addGrid</code>
+    <name>addGrid</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>addGrid</item>
+    <script>void addGrid(String system,String module,GridModel grid)</script>
+    <params>system,module,grid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GridBo.updateGrid</code>
+    <name>updateGrid</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>updateGrid</item>
+    <script>void updateGrid(String system,String module,GridModel grid)</script>
+    <params>system,module,grid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GridBo.deleteGrids</code>
+    <name>deleteGrids</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>deleteGrids</item>
+    <script>void deleteGrids(String system,String module,String[] selected)</script>
+    <params>system,module,selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>GridBo.writeGrid</code>
+    <name>writeGrid</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.GridBo</catalog>
+    <item>writeGrid</item>
+    <script>void writeGrid(String system,String module,GridModel grid)</script>
+    <params>system,module,grid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.listControls</code>
+    <name>listControls</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ControllerBo</catalog>
+    <item>listControls</item>
+    <script>GridControlModel[] listControls(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.saveControl</code>
+    <name>saveControl</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ControllerBo</catalog>
+    <item>saveControl</item>
+    <script>void saveControl(String system,String module,String gridid,GridControlModel control)</script>
+    <params>system,module,gridid,control</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.updateControl</code>
+    <name>updateControl</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ControllerBo</catalog>
+    <item>updateControl</item>
+    <script>void updateControl(String system,String module,String gridid,GridControlModel control)</script>
+    <params>system,module,gridid,control</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>ControllerBo.deleteControls</code>
+    <name>deleteControls</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.ControllerBo</catalog>
+    <item>deleteControls</item>
+    <script>void deleteControls(String system,String module,String gridid,GridControlModel control)</script>
+    <params>system,module,gridid,control</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>HandlerBo.updateHandler</code>
+    <name>updateHandler</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.HandlerBo</catalog>
+    <item>updateHandler</item>
+    <script>void updateHandler(String system,String module,String gridid,HandlerModel handler)</script>
+    <params>system,module,gridid,handler</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>HandlerBo.listHandler</code>
+    <name>listHandler</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.grid.HandlerBo</catalog>
+    <item>listHandler</item>
+    <script>HandlerModel[] listHandler(String system,String module,String gridid)</script>
+    <params>system,module,gridid</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>RecordsetViewBo.listRecordsetViews</code>
+    <name>listRecordsetViews</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.platform.view.bo.RecordsetViewBo</catalog>
+    <item>listRecordsetViews</item>
+    <script>RecordsetViewModel[] listRecordsetViews(String system,String module)</script>
+    <params>system,module</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

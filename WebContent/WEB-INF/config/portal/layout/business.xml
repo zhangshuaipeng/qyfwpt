@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.BusinessModel-array>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.getLayout</code>
+    <name>getLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>getLayout</item>
+    <script>LayoutModel getLayout(String code)</script>
+    <params>code</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.addContainer</code>
+    <name>addContainer</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>addContainer</item>
+    <script>void addContainer(String layout,ContainerModel con)</script>
+    <params>layout,con</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.listLayouts</code>
+    <name>listLayouts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>listLayouts</item>
+    <script>LayoutModel[] listLayouts()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.saveLayout</code>
+    <name>saveLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>saveLayout</item>
+    <script>void saveLayout(LayoutModel layout)</script>
+    <params>layout</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.updateLayout</code>
+    <name>updateLayout</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>updateLayout</item>
+    <script>void updateLayout(LayoutModel layout)</script>
+    <params>layout</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.deleteLayouts</code>
+    <name>deleteLayouts</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>deleteLayouts</item>
+    <script>void deleteLayouts(String[] selected)</script>
+    <params>selected</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.listContainers</code>
+    <name>listContainers</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>listContainers</item>
+    <script>ContainerModel[] listContainers(String layout)</script>
+    <params>layout</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.updateContainer</code>
+    <name>updateContainer</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>updateContainer</item>
+    <script>void updateContainer(String layout,ContainerModel con)</script>
+    <params>layout,con</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.deleteContainer</code>
+    <name>deleteContainer</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>deleteContainer</item>
+    <script>void deleteContainer(String layout,ContainerModel con)</script>
+    <params>layout,con</params>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+  <model.biz.BusinessModel>
+    <code>LayoutBo.getLayoutIcon</code>
+    <name>getLayoutIcon</name>
+    <type>class</type>
+    <catalog>com.siqiansoft.portal.bo.LayoutBo</catalog>
+    <item>getLayoutIcon</item>
+    <script>ItemModel[] getLayoutIcon()</script>
+    <biztype>app</biztype>
+  </model.biz.BusinessModel>
+</model.biz.BusinessModel-array>

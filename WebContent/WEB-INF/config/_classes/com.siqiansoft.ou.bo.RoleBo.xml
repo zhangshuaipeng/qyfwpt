@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model.biz.ClassModel>
+  <classname>com.siqiansoft.ou.bo.RoleBo</classname>
+  <code>RoleBo</code>
+  <name>RoleBo</name>
+  <packages>com.siqiansoft.ou.bo</packages>
+  <type>biz</type>
+  <crc>{MD5}gKvrbK/umsRZRhdfpKwBpA==</crc>
+  <modifytime>2013-05-05 11:07:01</modifytime>
+  <methods>
+    <model.biz.MethodModel>
+      <serialno>RoleModel[] getRoles(String orgCode)</serialno>
+      <method>getRoles</method>
+      <name>RoleModel[] getRoles(String orgCode)</name>
+      <genericname>public com.siqiansoft.ou.model.RoleModel[] com.siqiansoft.ou.bo.RoleBo.getRoles(java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel[]</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void updateRole(RoleModel role)</serialno>
+      <method>updateRole</method>
+      <name>void updateRole(RoleModel role)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.updateRole(com.siqiansoft.ou.model.RoleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RoleModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRoles(String orgCode,String[] pks)</serialno>
+      <method>deleteRoles</method>
+      <name>void deleteRoles(String orgCode,String[] pks)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.deleteRoles(java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pks</code>
+          <name>pks</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void deleteRole(String orgCode,String roleCode)</serialno>
+      <method>deleteRole</method>
+      <name>void deleteRole(String orgCode,String roleCode)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.deleteRole(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roleCode</code>
+          <name>roleCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>RoleModel getRoleByCode(String orgCode,String roleCode)</serialno>
+      <method>getRoleByCode</method>
+      <name>RoleModel getRoleByCode(String orgCode,String roleCode)</name>
+      <genericname>public com.siqiansoft.ou.model.RoleModel com.siqiansoft.ou.bo.RoleBo.getRoleByCode(java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>RoleModel</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>roleCode</code>
+          <name>roleCode</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void createRole(RoleModel role)</serialno>
+      <method>createRole</method>
+      <name>void createRole(RoleModel role)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.createRole(com.siqiansoft.ou.model.RoleModel) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>RoleModel</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUsersToRole(String orgCode,String role,String users)</serialno>
+      <method>addUsersToRole</method>
+      <name>void addUsersToRole(String orgCode,String role,String users)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.addUsersToRole(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>users</code>
+          <name>users</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void addUserToRole(String orgCode,String user,String role)</serialno>
+      <method>addUserToRole</method>
+      <name>void addUserToRole(String orgCode,String user,String role)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.addUserToRole(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>user</code>
+          <name>user</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeUsersFromRole(String orgCode,String role,String[] pkUsers)</serialno>
+      <method>removeUsersFromRole</method>
+      <name>void removeUsersFromRole(String orgCode,String role,String[] pkUsers)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.removeUsersFromRole(java.lang.String,java.lang.String,java.lang.String[]) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String[]</type>
+          <code>pkUsers</code>
+          <name>pkUsers</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+    <model.biz.MethodModel>
+      <serialno>void removeUserFromRole(String orgCode,String user,String role)</serialno>
+      <method>removeUserFromRole</method>
+      <name>void removeUserFromRole(String orgCode,String user,String role)</name>
+      <genericname>public void com.siqiansoft.ou.bo.RoleBo.removeUserFromRole(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception</genericname>
+      <retclass>void</retclass>
+      <arguments>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>orgCode</code>
+          <name>orgCode</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>user</code>
+          <name>user</name>
+        </model.biz.ArgumentModel>
+        <model.biz.ArgumentModel>
+          <type>String</type>
+          <code>role</code>
+          <name>role</name>
+        </model.biz.ArgumentModel>
+      </arguments>
+    </model.biz.MethodModel>
+  </methods>
+</model.biz.ClassModel>
